@@ -1,0 +1,733 @@
+# options.py
+#
+# Copyright (C) 2025-2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
+from collections.abc import Mapping, MutableMapping, Sequence, Set
+from Options import Choice, DeathLink, DefaultOnToggle, NamedRange, OptionDict, OptionError, OptionGroup, OptionSet, PerGameCommonOptions, Range, StartInventoryPool, Toggle, Option, FreeText, Visibility
+from typing import Any, Literal, Optional
+
+from .data.species import species, having_two_level_evos, legendary_mons, expand_set_via_evolutions
+from .data.regions import regions
+from .data.trainers import in_game_trainer_labels, trainer_party_supporting_starters, trainer_name_to_trainer_const_name
+from .data.encounters import encounters
+
+class SpeciesBlacklist(OptionSet):
+    cached_blacklist: Set[str] | None = None
+
+    def blacklist(self) -> Set[str]:
+        if self.cached_blacklist is None:
+            if "legendaries" in self:
+                self.cached_blacklist = (frozenset(self.value) - {"legendaries"}) | set(legendary_mons)
+            else:
+                self.cached_blacklist = frozenset(self.value)
+        return self.cached_blacklist
+
+class Version(Choice):
+    """
+    Which version will be randomized.
+    """
+    display_name = "Version"
+    option_heartgold = 0
+    option_soulsilver = 1
+    default = option_heartgold
+
+
+class RandomizeHms(DefaultOnToggle):
+    """
+    Adds the HMs to the pool.
+
+    The expectation is that this will be enabled. If not, depending on
+    other options—particularly barricades—certain locations may be inaccessible,
+    or certain seeds uncompletable.
+    """
+    display_name = "Randomize HMs"
+
+class RandomizeBadges(DefaultOnToggle):
+    """
+    Adds the badges to the pool.
+
+    The expectation is that this will be enabled. If not, depending on
+    other options—particularly barricades—certain locations may be inaccessible,
+    or certain seeds uncompletable.
+    """
+    display_name = "Randomize Badges"
+
+class RandomizeOverworlds(DefaultOnToggle):
+    """Adds overworld items to the pool."""
+    display_name = "Randomize Overworlds"
+
+class RandomizeHiddenItems(Toggle):
+    """Adds hidden items to the pool."""
+    display_name = "Randomize Hidden Items"
+
+class RandomizeNpcGifts(DefaultOnToggle):
+    """Adds NPC gifts to the pool."""
+    display_name = "Randomize NPC Gifts"
+
+class RandomizeKeyItems(DefaultOnToggle):
+    """Adds key items to the pool."""
+    display_name = "Randomize Key Items"
+
+class RandomizeRods(DefaultOnToggle):
+    """Adds rods to the pool."""
+    display_name = "Randomize Rods"
+
+class RandomizeRunningShoes(Toggle):
+    """Adds the running shoes to the pool."""
+    display_name = "Randomize Running Shoes"
+
+class RandomizeBicycle(Toggle):
+    """Adds the bicycle to the pool."""
+    display_name = "Randomize Bicycle"
+
+class RandomizePokedex(Toggle):
+    """Add the Pokedex to the pool. Note: this also adds the national dex to the pool."""
+    display_name = "Randomize Pokedex"
+
+class RandomizeTimeItems(Choice):
+    """Adds the time items to the item pool. The no location option removes the location and adds the time items to the starting inventory. The false option means they won't be randomized."""
+    display_name = "Randomize Time Items"
+    default = 1
+    option_true = 1
+    option_false = 0
+    option_no_location = 2
+
+class RemoveBadgeRequirement(OptionSet):
+    """
+    Specify which HMs do not require a badge to use outside of battle. This overrides the HM Badge Requirements setting.
+
+    HMs should be provided in the form: "fly", "waterfall", "rock_smash", etc.
+    "all" specifies that all hms have their requirement removed.
+    """
+    display_name = "Remove Badge Requirement"
+    valid_keys = ["cut", "fly", "surf", "strength", "whirlpool", "rock_smash", "waterfall", "rock_climb", "all"]
+
+class VisibilityHmLogic(DefaultOnToggle):
+    """Logically require Flash or Defog for traversing and finding locations in applicable regions."""
+    display_name = "Logically Require Flash or Defog for Applicable Regions"
+
+class DowsingMachineLogic(DefaultOnToggle):
+    """Logically require the Dowsing Machine to find hidden items."""
+    display_name = "Logically Require Dowsing Machine for Hidden Items"
+
+class Goal(Choice):
+    """The goal of the randomizer. Currently, this only supports defeating the champion and entering the hall of fame."""
+    display_name = "Goal"
+    default = 0
+    option_champion = 0
+
+class AddMasterRepel(Toggle):
+    """
+    Add a master repel item to the item pool. The master repel is a key item.
+    It is a repel that blocks all encounters, and never runs out.
+    """
+    display_name = "Add Master Repel"
+
+class ExpMultiplier(Option[int | str]):
+    """
+    Set an experience multiplier for all gained experience.
+    This can either be an integer between 0 and 65535, inclusive,
+    or a string of a fraction "a/b", where the numerator is
+    between 0 and 65535, inclusive, and the denominator is
+    between 1 and 65535, inclusive.
+
+    This option can be modified in-game.
+    """
+    display_name = "Exp. Multiplier"
+    default = 1
+
+    def __init__(self, value: str | int):
+        assert isinstance(value, str) or isinstance(value, int), "value of ExpMultiplier must be a string or an integer"
+        self.value = value
+
+    @classmethod
+    def from_text(cls, text: str) -> "ExpMultiplier":
+        try:
+            return cls(int(text.strip()))
+        except ValueError:
+            return cls(text.strip())
+
+    @classmethod
+    def from_any(cls, data: Any) -> "ExpMultiplier":
+        if isinstance(data, int):
+            return cls(data)
+        else:
+            return cls.from_text(data)
+
+    @classmethod
+    def get_option_name(cls, value: str | int) -> str:
+        if isinstance(value, str):
+            return "".join(c for c in value if not c.isspace())
+        else:
+            return str(value)
+
+    def __eq__(self, other):
+        if isinstance(other, self.__class__):
+            return other.to_bytes() == self.to_bytes()
+        elif isinstance(other, str) or isinstance(other, int):
+            return ExpMultiplier(other).to_bytes() == self.to_bytes()
+        else:
+            raise TypeError(f"Can't compare {self.__class__.__name__} with {other.__class__.__name__}")
+
+    def verify(self, *args, **kwargs) -> None:
+        self.to_bytes()
+
+    def to_bytes(self) -> bytes:
+        def try_ints(num: int, denom: int = 1) -> bytes:
+            if num < 0 or num > 65535:
+                raise OptionError(f"exp multiplier numerator must be between 0 and 65535")
+            elif denom < 1 or denom > 65535:
+                raise OptionError(f"exp multiplier denominator must be between 1 and 65535")
+            else:
+                return num.to_bytes(2, 'little') + denom.to_bytes(2, 'little')
+        if isinstance(self.value, int):
+            return try_ints(self.value)
+        pivot = self.value.find('/')
+        if pivot == -1:
+            # only a numerator
+            try:
+                return try_ints(int(self.value.strip()))
+            except ValueError:
+                raise OptionError("exp multiplier string must be an integer or fraction")
+        else:
+            try:
+                return try_ints(int(self.value[:pivot].strip()), int(self.value[pivot + 1:].strip()))
+            except ValueError:
+                raise OptionError("exp multiplier string must be an integer or fraction")
+
+class BlindTrainers(Toggle):
+    """
+    Set whether trainers will be blind.
+
+    This option can also be modified in the in-game options menu.
+    """
+    display_name = "Blind Trainers"
+
+class GameOptions(OptionDict):
+    """
+    Presets in-game options.
+
+    Allowed options and values, with default first:
+
+    text_speed: mid/slow/fast - Sets the text speed
+    sound: stereo/mono - Sets the shound mode
+    battle_scene: on/off - Sets whether the battle animations are shown
+    battle_style: shift/set - Sets whether pokemon can be changed when the opponent's pokemon faints
+    button_mode: normal/start=x/l=a - Sets the button mode
+    text_frame: 1–20 - Sets the textbox frame. "random" will pick a random frame.
+    received_items_notification: jingle/nothing/message - Sets the received_items_notification.
+
+    The text_speed, sound, battle_scene, battle_style, button_mode, text_frame, and received_items_notification
+    options can additionally be modifier in the in-game options menu.
+    """
+    display_name = "Game Options"
+    default = {
+        "text_speed": "mid",
+        "sound": "stereo",
+        "battle_scene": "on",
+        "battle_style": "shift",
+        "button_mode": "normal",
+        "text_frame": 1,
+        "received_items_notification": "jingle",
+    }
+
+    def __getattr__(self, name: str) -> Any:
+        if name in GameOptions.default:
+            return self.get(name, GameOptions.default[name])
+        else:
+            raise AttributeError(name, self)
+
+class RemoteItems(Choice):
+    """
+    Whether local items should be given in-game, or sent by the server.
+    This overrides the show randomized progression items option: all items are shown.
+
+    Choices:
+    - off: no items are remote.
+    - only_randomized: only randomized items are remote.
+    - only_randomized_or_progression: only randomized items or progression items are remote.
+    - all: all (randomizable) items are remote.
+    """
+    display_name = "Remote Items"
+    default = 0
+    option_off = 0
+    option_only_randomized = 1
+    option_only_randomized_or_progression = 2
+    option_all = 3
+
+class FPS60(Toggle):
+    """
+    Whether the 60 FPS patch should be applied.
+
+    This option can also be modified in the in-game options menu.
+    """
+    display_name = "60 FPS"
+
+class HMCutIns(Toggle):
+    """
+    Whether HM Cut-Ins should be played.
+
+    This option can also be modified in the in-game options menu.
+    """
+    display_name = "HM Cut-Ins"
+
+class NormalizeEncounters(DefaultOnToggle):
+    """
+    In the vanilla game, encounter table entries have varying probabilities, from 20% down to 1%.
+    This option will normalize these, so they all have the same probability. The normalized
+    probabilities are 1/12 for each entry in the land table, and 1/5 for each entry in the water
+    and rod tables.
+
+    This option is modifiable in the in-game options menu.
+
+    Note: this does not mean that there are twelve encounter slots, and a 1/12 chance for each slot.
+    Often there will only be two or three encounter slots per route, occupying all twelve entries
+    in the encounter table. This option only means that the *smallest* possible probability for any
+    slot will be 1/12. (except for special encounters, where there may be more or less table
+    entries)
+    """
+    display_name = "Normalize Encounters"
+
+class InstantText(Toggle):
+    """
+    Have text scroll instantly.
+
+    This option is modifiable in the in-game options menu.
+    """
+    display_name = "Instant Text"
+
+class HoldAToAdvance(Toggle):
+    """
+    You no longer need to press A to advance text, holding it will suffice. (Same for B)
+
+    This option is modifiable in the in-game options menu.
+    """
+    display_name = "Hold A to Advance"
+
+class ReusableTms(Toggle):
+    """TMs are reusable."""
+    display_name = "Reusable TMs"
+
+class AlwaysCatch(Toggle):
+    """
+    Have a 100% chance of catching any encounter.
+
+    This option is modifiable in the in-game options menu.
+    """
+    display_name = "Always Catch"
+
+class EvoItemsShopInAPHelper(DefaultOnToggle):
+    """Evolution items shop is available with the AP Helper. (Present in the 2nd floor of any Pokémon Center)"""
+    display_name = "Evolution Item Shop in AP Helper"
+
+class GuaranteedEscape(Toggle):
+    """
+    You will always be able to escape from wild encounters.
+
+    This option is modifiable in the in-game options menu.
+    """
+    display_name = "Guaranteed Escape."
+
+class TalkTrainersWithoutFight(Toggle):
+    """
+    You can talk to trainers without having to fight them.
+    This only applies when you talk to them, not if they spot you.
+    Note: them spotting you can be disabled by the blind trainers option.
+
+    This option is modifiable in the in-game options menu.
+    """
+    display_name = "Talk to Trainers without Fighting Them"
+
+class RandomizeEncounters(Toggle):
+    """Randomize encountered Pokémon. This does not affect static legendaries, like Giratina."""
+    display_name = "Randomize Encounters"
+
+class InLogicEncounters(OptionSet):
+    """
+    - surf: surfing encounters.
+    - rods: fishing encounters.
+    - time: tall-grass or fishing encounters which require a specific time of day.
+    - rock_smash: rock smash encounters.
+    - sounds: hoenn/sinnoh sounds encounters.
+    """
+    display_name = "In Logic Encounters"
+    default = {"surf", "rods", "time", "rock_smash", "sounds"}
+    valid_keys = ["surf", "rods", "time", "rock_smash", "sounds"]
+
+
+class EncounterSpeciesBlacklist(SpeciesBlacklist):
+    """
+    Specify the banned encounter species.
+    The whitelist has precedence over this.
+    This has no effect if starters are not randomized.
+
+    The species names should be entered entirely in lowercase.
+    Spaces should be replaced by underscores. For example,
+    Mr. Mime would be mr_mime.
+
+    legendaries, all lowercase, will be interpreted as banning all legendary
+    species.
+    """
+    valid_keys = list(species.keys()) + ["legendaries"]
+    display_name = "Encounter Species Blacklist"
+
+class RandomizeTrainerParties(Toggle):
+    """Randomize trainer party members."""
+    display_name = "Randomize Trainer Parties"
+
+class TrainerPartyBlacklist(SpeciesBlacklist):
+    """
+    Specify the banned trainer party species.
+    The whitelist has precedence over this.
+    This has no effect if starters are not randomized.
+
+    The species names should be entered entirely in lowercase.
+    Spaces should be replaced by underscores. For example,
+    Mr. Mime would be mr_mime.
+
+    legendaries, all lowercase, will be interpreted as banning all legendary
+    species.
+    """
+    valid_keys = list(species) + ["legendaries"]
+    display_name = "Trainer Party Blacklist"
+
+class RandomizeStarters(Toggle):
+    """Randomize starter Pokémon."""
+    display_name = "Randomize Starters"
+
+class RequireTwoLevelEvolutionStarters(Toggle):
+    """
+    If the starters are randomized, require that they all be two-level-evolution species.
+    This option only applies to the blacklist. If the whitelist is nonempty,
+    it is ignore.
+    """
+    display_name = "Require Two Level Evolution Starters"
+
+class StarterWhitelist(OptionSet):
+    """
+    Specify the possible starters that can be randomized.
+    This has precedence over the blacklist and the require two-level-evolution
+    species.
+    This has no effect if starters are not randomized.
+
+    The species names should be entered entirely in lowercase.
+    Spaces should be replaced by underscores. For example,
+    Mr. Mime would be mr_mime.
+
+    Note: legendaries is **not** a valid key for this option.
+    """
+    display_name = "Starter Whitelist"
+    valid_keys = list(species)
+
+class StarterBlacklist(SpeciesBlacklist):
+    """
+    Specify the banned starters.
+    The whitelist has precedence over this.
+    This has no effect if starters are not randomized.
+
+    The species names should be entered entirely in lowercase.
+    Spaces should be replaced by underscores. For example,
+    Mr. Mime would be mr_mime.
+
+    legendaries, all lowercase, will be interpreted as banning all legendary
+    species.
+    """
+    display_name = "Starter Blacklist"
+    valid_keys = list(species) + ["legendaries"]
+
+class RandomizeMarillInIntro(DefaultOnToggle):
+    """Randomize the species of the Pokémon that is shown in the intro."""
+    display_name = "Randomize Intro Pokémon"
+
+class TrainersanityCount(NamedRange):
+    """
+    Each trainer adds a location to the game. These locations are
+    filled with nuggets by default.
+    """
+    display_name = "Trainersanity Count"
+    default = 0
+    range_start = 0
+    range_end = 457
+    special_range_names = {
+        "none": default,
+        "full": range_end,
+    }
+
+class TrainersanityWhitelist(OptionSet):
+    """
+    Specify the possible trainers which can be trainersanity locations.
+    This has precedence over the trainersanity blacklist.
+    """
+    display_name = "Trainersanity Whitelist"
+    valid_keys = in_game_trainer_labels
+
+    def to_const_names(self) -> Set[str]:
+        return {trainer_name_to_trainer_const_name[v] for v in self.value}
+
+class TrainersanityBlacklist(OptionSet):
+    """
+    Specify the trainers which cannot be trainersanity locations.
+    The whitelist has precedence over this.
+    """
+    display_name = "Trainersanity Blacklist"
+    valid_keys = in_game_trainer_labels
+
+    def to_const_names(self) -> Set[str]:
+        return {trainer_name_to_trainer_const_name[v] for v in self.value}
+
+class TrainersanityRequired(OptionSet):
+    """
+    Specify trainers which must be trainersanity locations.
+    Has precedence over the whitelist and blacklist.
+    """
+    display_name = "Trainersanity Required"
+    valid_keys = in_game_trainer_labels
+
+    def to_const_names(self) -> Set[str]:
+        return {trainer_name_to_trainer_const_name[v] for v in self.value}
+
+class DexsanityCount(NamedRange):
+    """
+    How many dexsanity locations there will be.
+    """
+    display_name = "Dexsanity Count"
+    default = 0
+    range_start = 0
+    range_end = 493
+    special_range_names = {
+        "none": default,
+        "full": range_end,
+    }
+
+class DexsanityMode(Choice):
+    """
+    The dexsanity mode.
+
+    Options:
+    - noreq: no items are required to trigger dexsanity locations.
+    - req: the Pokedex (or National Dex for non-regional species) is required
+           to trigger dexsanity locations.
+    - req_noprompt: same as req, but when you initially get the Pokedex
+                    or National Dex, do not prompt for each already seen
+                    dexsanity species.
+    """
+    display_name = "Dexsanity Mode"
+    default = 1
+    option_noreq = 1
+    option_req = 2
+    option_req_noprompt = 3
+
+class InLogicEvolutionMethods(OptionSet):
+    """
+    Evolution methods that are in logic.
+    Valid keys:
+    - level: all species which require a specific level to evolve.
+    - happiness: all species which require happiness to evolve.
+    - use_item: all species which require a specific item to evolve. This includes trade evolutions (item is linking cord) and levelup while knowing a move (moves are taught by their corresponding TMs)
+    - held_item: all species which require a held item to evolve.
+    - time: all species which require being evolved at certain times.
+    - location: all species which require being evolved at certain locations.
+    - mildly_annoying: the secondary evolution of nincada, leveling up with a certain species in the party, those requiring certain genders.
+    - highly_annoying: the evolutions of tyrogue, wurmple, and feebas.
+
+    For species whose evolutions intersect multiple categories, all categories are required for their evolution to be in logic. For example, time and held_item must be specified for happiny's evolution to be in logic. level and mildly_annoying must be specified for the evolution of nincada into shedinja.
+    """
+    display_name = "In-Logic Evolution Methods"
+    default = {"level", "use_item", "held_item", "time", "location", "happiness"}
+    valid_keys = {"level", "happiness", "use_item", "held_item", "time", "location", "mildly_annoying", "highly_annoying"}
+
+    cached_methods: Optional[Set[str]] = None
+
+    def methods(self) -> Set[str]:
+        if self.cached_methods is not None:
+            return self.cached_methods
+        ret = set()
+        if "level" in self:
+            ret |= {
+                "level",
+                "level_ninjask",
+            }
+            if "mildly_annoying" in self:
+                ret |= {
+                    "level_shedinja",
+                    "level_male",
+                    "level_female",
+                }
+            if "highly_annoying" in self:
+                ret |= {
+                    "level_atk_gt_def",
+                    "level_atk_eq_def",
+                    "level_atk_lt_def",
+                    "level_pid_low",
+                    "level_pid_high",
+                }
+
+
+        if "time" in self and "held_item" in self:
+            ret |= {
+                "level_with_held_item_day",
+                "level_with_held_item_night",
+            }
+
+        if "mildly_annoying" in self:
+            ret.add("level_species_in_party")
+
+        # TODO
+        #if "highly_annoying" in self:
+        #    ret.add("level_beauty")
+
+        if "happiness" in self:
+            ret.add("level_happiness")
+            if "time" in self:
+                ret |= {
+                    "level_happiness_day",
+                    "level_happiness_night",
+                }
+
+        if "use_item" in self:
+            ret |= {
+                "use_item",
+                "trade",
+                "level_know_move",
+            }
+            if "held_item" in self:
+                ret.add("trade_with_held_item")
+            if "mildly_annoying" in self:
+                ret |= {
+                    "use_item_male",
+                    "use_item_female",
+                }
+
+        if "location" in self:
+            ret |= {
+                "level_magnetic_field",
+                "level_moss_rock",
+                "level_ice_rock",
+            }
+
+        self.cached_methods = ret
+        return ret
+
+class DexsanityWhitelist(SpeciesBlacklist):
+    """
+    Specify the possible species which can be dexsanity locations.
+    This has precedence over the dexsanity blacklist.
+
+    The species names should be entered entirely in lowercase.
+    Spaces should be replaced by underscores. For example,
+    Mr. Mime would be mr_mime.
+
+    legendaries, all lowercase, will be interpreted as allowing all legendary
+    species.
+    """
+    display_name = "Dexsanity Whitelist"
+    valid_keys = list(species) + ["legendaries"]
+
+class DexsanityBlacklist(SpeciesBlacklist):
+    """
+    Specify the species which cannot be dexsanity locations.
+    The whitelist has precedence over this.
+
+    The species names should be entered entirely in lowercase.
+    Spaces should be replaced by underscores. For example,
+    Mr. Mime would be mr_mime.
+
+    legendaries, all lowercase, will be interpreted as banning all legendary
+    species.
+    """
+    display_name = "Dexsanity Blacklist"
+    valid_keys = list(species) + ["legendaries"]
+
+class DexsanityRequired(SpeciesBlacklist):
+    """
+    Specify the species which must be dexsanity locations.
+    This has precedence over the whitelist and blacklist.
+
+    The species names should be entered entirely in lowercase.
+    Spaces should be replaced by underscores. For example,
+    Mr. Mime would be mr_mime.
+
+    legendaries, all lowercase, will be interpreted as banning all legendary
+    species.
+    """
+    display_name = "Dexsanity Required"
+    valid_keys = list(species) + ["legendaries"]
+
+class ItemNotificationsMask(OptionSet):
+    """
+    Which types of items should in-game notifications be shown for.
+    Valid options are all, progression, useful, and trap.
+
+    This option can also be modified in the in-game options menu.
+    """
+    display_name = "Item Notifications Mask"
+    valid_keys = ["progression", "useful", "trap", "all"]
+    default = {"progression", "useful"}
+    
+    def to_mask(self) -> int:
+        mask = 0
+        for index, key in enumerate(self.valid_keys):
+            if key in self:
+                mask |= 1 << index
+        return mask
+
+class PokemonPlatinumDeathLink(DeathLink):
+    __doc__ = DeathLink.__doc__ + "\n\n    In Pokémon Platinum, blacking out sends a death and receiving a death causes you to black out.\n" # type: ignore
+
+class DeathLinkGroup(FreeText):
+    """
+    The death link group to use. Death links are only sent within groups.
+    To interface with games which do not support groups, use the empty group "".
+    """
+    default = ""
+    display_name = "Death Link Group"
+
+
+class TMHMCompatibility(Choice):
+    """
+    Add TM/HM compatibility to all species.
+
+    Choices:
+    - none: the compatibility is unaffected
+    - hms: all species will be compatible with all HMs (and TM70 Flash)
+    - all: all species will be compatible with all TMs and HMs
+    """
+    display_name = "TM/HM Compatibility"
+    option_none = 0
+    option_hms = 1
+    option_all = 2
+    default = option_none
+
+YES_NO_SHUFFLE = Literal["yes"] | Literal["no"] | Literal["shuffle"]
+
+class MoveRandomization(OptionDict):
+    """
+    Randomize properties of moves.
+    Each of the options can take one of three values: "no", "yes", "shuffle".
+    """
+    visibility = Visibility(0)
+    default = {
+        "type": "no",
+        "accuracy": "no",
+        "pp": "no",
+        "priority": "no",
+    }
+
+    type: YES_NO_SHUFFLE
+    accuracy: YES_NO_SHUFFLE
+    pp: YES_NO_SHUFFLE
+    priority: YES_NO_SHUFFLE
+
+    def __getattr__(self, name: str) -> Any:
+        if name in MoveRandomization.default:
+            v = self.get(name, MoveRandomization.default[name])
+            if isinstance(v, bool):
+                return "yes" if v else "no"
+            else:
+                return v
+        else:
+            raise AttributeError(name, self)
+
+slot_data_options: Sequence[str] = [
+]

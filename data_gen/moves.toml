@@ -1,0 +1,2593 @@
+[pound]
+id = 1
+type = "normal"
+pp = 35
+
+[karate_chop]
+id = 2
+type = "fighting"
+pp = 25
+
+[double_slap]
+id = 3
+type = "normal"
+accuracy = 85
+pp = 10
+
+[comet_punch]
+id = 4
+type = "normal"
+accuracy = 85
+pp = 15
+
+[mega_punch]
+id = 5
+type = "normal"
+accuracy = 85
+pp = 20
+
+[pay_day]
+id = 6
+type = "normal"
+pp = 20
+
+[fire_punch]
+id = 7
+type = "fire"
+pp = 15
+
+[ice_punch]
+id = 8
+type = "ice"
+pp = 15
+
+[thunder_punch]
+id = 9
+type = "electric"
+pp = 15
+
+[scratch]
+id = 10
+type = "normal"
+pp = 35
+
+[vice_grip]
+id = 11
+type = "normal"
+pp = 30
+
+[guillotine]
+id = 12
+type = "normal"
+accuracy = 30
+pp = 5
+
+[razor_wind]
+id = 13
+type = "normal"
+pp = 10
+
+[swords_dance]
+id = 14
+type = "normal"
+accuracy = 0
+pp = 30
+
+[cut]
+id = 15
+type = "normal"
+accuracy = 95
+pp = 30
+
+[gust]
+id = 16
+type = "flying"
+pp = 35
+
+[wing_attack]
+id = 17
+type = "flying"
+pp = 35
+
+[whirlwind]
+id = 18
+type = "normal"
+pp = 20
+
+[fly]
+id = 19
+type = "flying"
+accuracy = 95
+pp = 15
+
+[bind]
+id = 20
+type = "normal"
+accuracy = 75
+pp = 20
+
+[slam]
+id = 21
+type = "normal"
+accuracy = 75
+pp = 20
+
+[vine_whip]
+id = 22
+type = "grass"
+pp = 15
+
+[stomp]
+id = 23
+type = "normal"
+pp = 20
+
+[double_kick]
+id = 24
+type = "fighting"
+pp = 30
+
+[mega_kick]
+id = 25
+type = "normal"
+accuracy = 75
+pp = 5
+
+[jump_kick]
+id = 26
+type = "fighting"
+accuracy = 95
+pp = 25
+
+[rolling_kick]
+id = 27
+type = "fighting"
+accuracy = 85
+pp = 15
+
+[sand_attack]
+id = 28
+type = "ground"
+pp = 15
+
+[headbutt]
+id = 29
+type = "normal"
+pp = 15
+
+[horn_attack]
+id = 30
+type = "normal"
+pp = 25
+
+[fury_attack]
+id = 31
+type = "normal"
+accuracy = 85
+pp = 20
+
+[horn_drill]
+id = 32
+type = "normal"
+accuracy = 30
+pp = 5
+
+[tackle]
+id = 33
+type = "normal"
+accuracy = 95
+pp = 35
+
+[body_slam]
+id = 34
+type = "normal"
+pp = 15
+
+[wrap]
+id = 35
+type = "normal"
+accuracy = 85
+pp = 20
+
+[take_down]
+id = 36
+type = "normal"
+accuracy = 85
+pp = 20
+
+[thrash]
+id = 37
+type = "normal"
+pp = 20
+
+[double_edge]
+id = 38
+type = "normal"
+pp = 15
+
+[tail_whip]
+id = 39
+type = "normal"
+pp = 30
+
+[poison_sting]
+id = 40
+type = "poison"
+pp = 35
+
+[twineedle]
+id = 41
+type = "bug"
+pp = 20
+
+[pin_missile]
+id = 42
+type = "bug"
+accuracy = 85
+pp = 20
+
+[leer]
+id = 43
+type = "normal"
+pp = 30
+
+[bite]
+id = 44
+type = "dark"
+pp = 25
+
+[growl]
+id = 45
+type = "normal"
+pp = 40
+
+[roar]
+id = 46
+type = "normal"
+pp = 20
+
+[sing]
+id = 47
+type = "normal"
+accuracy = 55
+pp = 15
+
+[supersonic]
+id = 48
+type = "normal"
+accuracy = 55
+pp = 20
+
+[sonic_boom]
+id = 49
+type = "normal"
+accuracy = 90
+pp = 20
+
+[disable]
+id = 50
+type = "normal"
+accuracy = 80
+pp = 20
+
+[acid]
+id = 51
+type = "poison"
+pp = 30
+
+[ember]
+id = 52
+type = "fire"
+pp = 25
+
+[flamethrower]
+id = 53
+type = "fire"
+pp = 15
+
+[mist]
+id = 54
+type = "ice"
+accuracy = 0
+pp = 30
+
+[water_gun]
+id = 55
+type = "water"
+pp = 25
+
+[hydro_pump]
+id = 56
+type = "water"
+accuracy = 80
+pp = 5
+
+[surf]
+id = 57
+type = "water"
+pp = 15
+
+[ice_beam]
+id = 58
+type = "ice"
+pp = 10
+
+[blizzard]
+id = 59
+type = "ice"
+accuracy = 70
+pp = 5
+
+[psybeam]
+id = 60
+type = "psychic"
+pp = 20
+
+[bubble_beam]
+id = 61
+type = "water"
+pp = 20
+
+[aurora_beam]
+id = 62
+type = "ice"
+pp = 20
+
+[hyper_beam]
+id = 63
+type = "normal"
+accuracy = 90
+pp = 5
+
+[peck]
+id = 64
+type = "flying"
+pp = 35
+
+[drill_peck]
+id = 65
+type = "flying"
+pp = 20
+
+[submission]
+id = 66
+type = "fighting"
+accuracy = 80
+pp = 25
+
+[low_kick]
+id = 67
+type = "fighting"
+pp = 20
+
+[counter]
+id = 68
+type = "fighting"
+pp = 20
+
+[seismic_toss]
+id = 69
+type = "fighting"
+pp = 20
+
+[strength]
+id = 70
+type = "normal"
+pp = 15
+
+[absorb]
+id = 71
+type = "grass"
+pp = 25
+
+[mega_drain]
+id = 72
+type = "grass"
+pp = 15
+
+[leech_seed]
+id = 73
+type = "grass"
+accuracy = 90
+pp = 10
+
+[growth]
+id = 74
+type = "normal"
+accuracy = 0
+pp = 40
+
+[razor_leaf]
+id = 75
+type = "grass"
+accuracy = 95
+pp = 25
+
+[solar_beam]
+id = 76
+type = "grass"
+pp = 10
+
+[poison_powder]
+id = 77
+type = "poison"
+accuracy = 75
+pp = 35
+
+[stun_spore]
+id = 78
+type = "grass"
+accuracy = 75
+pp = 30
+
+[sleep_powder]
+id = 79
+type = "grass"
+accuracy = 75
+pp = 15
+
+[petal_dance]
+id = 80
+type = "grass"
+pp = 20
+
+[string_shot]
+id = 81
+type = "bug"
+accuracy = 95
+pp = 40
+
+[dragon_rage]
+id = 82
+type = "dragon"
+pp = 10
+
+[fire_spin]
+id = 83
+type = "fire"
+accuracy = 70
+pp = 15
+
+[thunder_shock]
+id = 84
+type = "electric"
+pp = 30
+
+[thunderbolt]
+id = 85
+type = "electric"
+pp = 15
+
+[thunder_wave]
+id = 86
+type = "electric"
+pp = 20
+
+[thunder]
+id = 87
+type = "electric"
+accuracy = 70
+pp = 10
+
+[rock_throw]
+id = 88
+type = "rock"
+accuracy = 90
+pp = 15
+
+[earthquake]
+id = 89
+type = "ground"
+pp = 10
+
+[fissure]
+id = 90
+type = "ground"
+accuracy = 30
+pp = 5
+
+[dig]
+id = 91
+type = "ground"
+pp = 10
+
+[toxic]
+id = 92
+type = "poison"
+accuracy = 85
+pp = 10
+
+[confusion]
+id = 93
+type = "psychic"
+pp = 25
+
+[psychic]
+id = 94
+type = "psychic"
+pp = 10
+
+[hypnosis]
+id = 95
+type = "psychic"
+accuracy = 60
+pp = 20
+
+[meditate]
+id = 96
+type = "psychic"
+accuracy = 0
+pp = 40
+
+[agility]
+id = 97
+type = "psychic"
+accuracy = 0
+pp = 30
+
+[quick_attack]
+id = 98
+type = "normal"
+pp = 30
+
+[rage]
+id = 99
+type = "normal"
+pp = 20
+
+[teleport]
+id = 100
+type = "psychic"
+accuracy = 0
+pp = 20
+
+[night_shade]
+id = 101
+type = "ghost"
+pp = 15
+
+[mimic]
+id = 102
+type = "normal"
+accuracy = 0
+pp = 10
+
+[screech]
+id = 103
+type = "normal"
+accuracy = 85
+pp = 40
+
+[double_team]
+id = 104
+type = "normal"
+accuracy = 0
+pp = 15
+
+[recover]
+id = 105
+type = "normal"
+accuracy = 0
+pp = 10
+
+[harden]
+id = 106
+type = "normal"
+accuracy = 0
+pp = 30
+
+[minimize]
+id = 107
+type = "normal"
+accuracy = 0
+pp = 20
+
+[smoke_screen]
+id = 108
+type = "normal"
+pp = 20
+
+[confuse_ray]
+id = 109
+type = "ghost"
+pp = 10
+
+[withdraw]
+id = 110
+type = "water"
+accuracy = 0
+pp = 40
+
+[defense_curl]
+id = 111
+type = "normal"
+accuracy = 0
+pp = 40
+
+[barrier]
+id = 112
+type = "psychic"
+accuracy = 0
+pp = 30
+
+[light_screen]
+id = 113
+type = "psychic"
+accuracy = 0
+pp = 30
+
+[haze]
+id = 114
+type = "ice"
+accuracy = 0
+pp = 30
+
+[reflect]
+id = 115
+type = "psychic"
+accuracy = 0
+pp = 20
+
+[focus_energy]
+id = 116
+type = "normal"
+accuracy = 0
+pp = 30
+
+[bide]
+id = 117
+type = "normal"
+accuracy = 0
+pp = 10
+
+[metronome]
+id = 118
+type = "normal"
+accuracy = 0
+pp = 10
+
+[mirror_move]
+id = 119
+type = "flying"
+accuracy = 0
+pp = 20
+
+[selfdestruct]
+id = 120
+type = "normal"
+pp = 5
+
+[egg_bomb]
+id = 121
+type = "normal"
+accuracy = 75
+pp = 10
+
+[lick]
+id = 122
+type = "ghost"
+pp = 30
+
+[smog]
+id = 123
+type = "poison"
+accuracy = 70
+pp = 20
+
+[sludge]
+id = 124
+type = "poison"
+pp = 20
+
+[bone_club]
+id = 125
+type = "ground"
+accuracy = 85
+pp = 20
+
+[fire_blast]
+id = 126
+type = "fire"
+accuracy = 85
+pp = 5
+
+[waterfall]
+id = 127
+type = "water"
+pp = 15
+
+[clamp]
+id = 128
+type = "water"
+accuracy = 75
+pp = 10
+
+[swift]
+id = 129
+type = "normal"
+accuracy = 0
+pp = 20
+
+[skull_bash]
+id = 130
+type = "normal"
+pp = 15
+
+[spike_cannon]
+id = 131
+type = "normal"
+pp = 15
+
+[constrict]
+id = 132
+type = "normal"
+pp = 35
+
+[amnesia]
+id = 133
+type = "psychic"
+accuracy = 0
+pp = 20
+
+[kinesis]
+id = 134
+type = "psychic"
+accuracy = 80
+pp = 15
+
+[softboiled]
+id = 135
+type = "normal"
+accuracy = 0
+pp = 10
+
+[hi_jump_kick]
+id = 136
+type = "fighting"
+accuracy = 90
+pp = 20
+
+[glare]
+id = 137
+type = "normal"
+accuracy = 75
+pp = 30
+
+[dream_eater]
+id = 138
+type = "psychic"
+pp = 15
+
+[poison_gas]
+id = 139
+type = "poison"
+accuracy = 55
+pp = 40
+
+[barrage]
+id = 140
+type = "normal"
+accuracy = 85
+pp = 20
+
+[leech_life]
+id = 141
+type = "bug"
+pp = 15
+
+[lovely_kiss]
+id = 142
+type = "normal"
+accuracy = 75
+pp = 10
+
+[sky_attack]
+id = 143
+type = "flying"
+accuracy = 90
+pp = 5
+
+[transform]
+id = 144
+type = "normal"
+accuracy = 0
+pp = 10
+
+[bubble]
+id = 145
+type = "water"
+pp = 30
+
+[dizzy_punch]
+id = 146
+type = "normal"
+pp = 10
+
+[spore]
+id = 147
+type = "grass"
+pp = 15
+
+[flash]
+id = 148
+type = "normal"
+pp = 20
+
+[psywave]
+id = 149
+type = "psychic"
+accuracy = 80
+pp = 15
+
+[splash]
+id = 150
+type = "normal"
+accuracy = 0
+pp = 40
+
+[acid_armor]
+id = 151
+type = "poison"
+accuracy = 0
+pp = 40
+
+[crabhammer]
+id = 152
+type = "water"
+accuracy = 85
+pp = 10
+
+[explosion]
+id = 153
+type = "normal"
+pp = 5
+
+[fury_swipes]
+id = 154
+type = "normal"
+accuracy = 80
+pp = 15
+
+[bonemerang]
+id = 155
+type = "ground"
+accuracy = 90
+pp = 10
+
+[rest]
+id = 156
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[rock_slide]
+id = 157
+type = "rock"
+accuracy = 90
+pp = 10
+
+[hyper_fang]
+id = 158
+type = "normal"
+accuracy = 90
+pp = 15
+
+[sharpen]
+id = 159
+type = "normal"
+accuracy = 0
+pp = 30
+
+[conversion]
+id = 160
+type = "normal"
+accuracy = 0
+pp = 30
+
+[tri_attack]
+id = 161
+type = "normal"
+pp = 10
+
+[super_fang]
+id = 162
+type = "normal"
+accuracy = 90
+pp = 10
+
+[slash]
+id = 163
+type = "normal"
+pp = 20
+
+[substitute]
+id = 164
+type = "normal"
+accuracy = 0
+pp = 10
+
+[struggle]
+id = 165
+type = "normal"
+accuracy = 0
+pp = 1
+
+[sketch]
+id = 166
+type = "normal"
+accuracy = 0
+pp = 1
+
+[triple_kick]
+id = 167
+type = "fighting"
+accuracy = 90
+pp = 10
+
+[thief]
+id = 168
+type = "dark"
+pp = 10
+
+[spider_web]
+id = 169
+type = "bug"
+accuracy = 0
+pp = 10
+
+[mind_reader]
+id = 170
+type = "normal"
+accuracy = 0
+pp = 5
+
+[nightmare]
+id = 171
+type = "ghost"
+pp = 15
+
+[flame_wheel]
+id = 172
+type = "fire"
+pp = 25
+
+[snore]
+id = 173
+type = "normal"
+pp = 15
+
+[curse]
+id = 174
+type = "mystery"
+accuracy = 0
+pp = 10
+
+[flail]
+id = 175
+type = "normal"
+pp = 15
+
+[conversion_2]
+id = 176
+type = "normal"
+accuracy = 0
+pp = 30
+
+[aeroblast]
+id = 177
+type = "flying"
+accuracy = 95
+pp = 5
+
+[cotton_spore]
+id = 178
+type = "grass"
+accuracy = 85
+pp = 40
+
+[reversal]
+id = 179
+type = "fighting"
+pp = 15
+
+[spite]
+id = 180
+type = "ghost"
+pp = 10
+
+[powder_snow]
+id = 181
+type = "ice"
+pp = 25
+
+[protect]
+id = 182
+type = "normal"
+accuracy = 0
+pp = 10
+
+[mach_punch]
+id = 183
+type = "fighting"
+pp = 30
+
+[scary_face]
+id = 184
+type = "normal"
+accuracy = 90
+pp = 10
+
+[faint_attack]
+id = 185
+type = "dark"
+accuracy = 0
+pp = 20
+
+[sweet_kiss]
+id = 186
+type = "normal"
+accuracy = 75
+pp = 10
+
+[belly_drum]
+id = 187
+type = "normal"
+accuracy = 0
+pp = 10
+
+[sludge_bomb]
+id = 188
+type = "poison"
+pp = 10
+
+[mud_slap]
+id = 189
+type = "ground"
+pp = 10
+
+[octazooka]
+id = 190
+type = "water"
+accuracy = 85
+pp = 10
+
+[spikes]
+id = 191
+type = "ground"
+accuracy = 0
+pp = 20
+
+[zap_cannon]
+id = 192
+type = "electric"
+accuracy = 50
+pp = 5
+
+[foresight]
+id = 193
+type = "normal"
+accuracy = 0
+pp = 40
+
+[destiny_bond]
+id = 194
+type = "ghost"
+accuracy = 0
+pp = 5
+
+[perish_song]
+id = 195
+type = "normal"
+accuracy = 0
+pp = 5
+
+[icy_wind]
+id = 196
+type = "ice"
+accuracy = 95
+pp = 15
+
+[detect]
+id = 197
+type = "fighting"
+accuracy = 0
+pp = 5
+
+[bone_rush]
+id = 198
+type = "ground"
+accuracy = 80
+pp = 10
+
+[lock_on]
+id = 199
+type = "normal"
+accuracy = 0
+pp = 5
+
+[outrage]
+id = 200
+type = "dragon"
+pp = 15
+
+[sandstorm]
+id = 201
+type = "rock"
+accuracy = 0
+pp = 10
+
+[giga_drain]
+id = 202
+type = "grass"
+pp = 10
+
+[endure]
+id = 203
+type = "normal"
+accuracy = 0
+pp = 10
+
+[charm]
+id = 204
+type = "normal"
+pp = 20
+
+[rollout]
+id = 205
+type = "rock"
+accuracy = 90
+pp = 20
+
+[false_swipe]
+id = 206
+type = "normal"
+pp = 40
+
+[swagger]
+id = 207
+type = "normal"
+accuracy = 90
+pp = 15
+
+[milk_drink]
+id = 208
+type = "normal"
+accuracy = 0
+pp = 10
+
+[spark]
+id = 209
+type = "electric"
+pp = 20
+
+[fury_cutter]
+id = 210
+type = "bug"
+accuracy = 95
+pp = 20
+
+[steel_wing]
+id = 211
+type = "steel"
+accuracy = 90
+pp = 25
+
+[mean_look]
+id = 212
+type = "normal"
+accuracy = 0
+pp = 5
+
+[attract]
+id = 213
+type = "normal"
+pp = 15
+
+[sleep_talk]
+id = 214
+type = "normal"
+accuracy = 0
+pp = 10
+
+[heal_bell]
+id = 215
+type = "normal"
+accuracy = 0
+pp = 5
+
+[return]
+id = 216
+type = "normal"
+pp = 20
+
+[present]
+id = 217
+type = "normal"
+accuracy = 90
+pp = 15
+
+[frustration]
+id = 218
+type = "normal"
+pp = 20
+
+[safeguard]
+id = 219
+type = "normal"
+accuracy = 0
+pp = 25
+
+[pain_split]
+id = 220
+type = "normal"
+accuracy = 0
+pp = 20
+
+[sacred_fire]
+id = 221
+type = "fire"
+accuracy = 95
+pp = 5
+
+[magnitude]
+id = 222
+type = "ground"
+pp = 30
+
+[dynamic_punch]
+id = 223
+type = "fighting"
+accuracy = 50
+pp = 5
+
+[megahorn]
+id = 224
+type = "bug"
+accuracy = 85
+pp = 10
+
+[dragon_breath]
+id = 225
+type = "dragon"
+pp = 20
+
+[baton_pass]
+id = 226
+type = "normal"
+accuracy = 0
+pp = 40
+
+[encore]
+id = 227
+type = "normal"
+pp = 5
+
+[pursuit]
+id = 228
+type = "dark"
+pp = 20
+
+[rapid_spin]
+id = 229
+type = "normal"
+pp = 40
+
+[sweet_scent]
+id = 230
+type = "normal"
+pp = 20
+
+[iron_tail]
+id = 231
+type = "steel"
+accuracy = 75
+pp = 15
+
+[metal_claw]
+id = 232
+type = "steel"
+accuracy = 95
+pp = 35
+
+[vital_throw]
+id = 233
+type = "fighting"
+accuracy = 0
+pp = 10
+
+[morning_sun]
+id = 234
+type = "normal"
+accuracy = 0
+pp = 5
+
+[synthesis]
+id = 235
+type = "grass"
+accuracy = 0
+pp = 5
+
+[moonlight]
+id = 236
+type = "normal"
+accuracy = 0
+pp = 5
+
+[hidden_power]
+id = 237
+type = "normal"
+pp = 15
+
+[cross_chop]
+id = 238
+type = "fighting"
+accuracy = 80
+pp = 5
+
+[twister]
+id = 239
+type = "dragon"
+pp = 20
+
+[rain_dance]
+id = 240
+type = "water"
+accuracy = 0
+pp = 5
+
+[sunny_day]
+id = 241
+type = "fire"
+accuracy = 0
+pp = 5
+
+[crunch]
+id = 242
+type = "dark"
+pp = 15
+
+[mirror_coat]
+id = 243
+type = "psychic"
+pp = 20
+
+[psych_up]
+id = 244
+type = "normal"
+accuracy = 0
+pp = 10
+
+[extreme_speed]
+id = 245
+type = "normal"
+pp = 5
+
+[ancient_power]
+id = 246
+type = "rock"
+pp = 5
+
+[shadow_ball]
+id = 247
+type = "ghost"
+pp = 15
+
+[future_sight]
+id = 248
+type = "psychic"
+accuracy = 90
+pp = 15
+
+[rock_smash]
+id = 249
+type = "fighting"
+pp = 15
+
+[whirlpool]
+id = 250
+type = "water"
+accuracy = 70
+pp = 15
+
+[beat_up]
+id = 251
+type = "dark"
+pp = 10
+
+[fake_out]
+id = 252
+type = "normal"
+pp = 10
+
+[uproar]
+id = 253
+type = "normal"
+pp = 10
+
+[stockpile]
+id = 254
+type = "normal"
+accuracy = 0
+pp = 20
+
+[spit_up]
+id = 255
+type = "normal"
+pp = 10
+
+[swallow]
+id = 256
+type = "normal"
+accuracy = 0
+pp = 10
+
+[heat_wave]
+id = 257
+type = "fire"
+accuracy = 90
+pp = 10
+
+[hail]
+id = 258
+type = "ice"
+accuracy = 0
+pp = 10
+
+[torment]
+id = 259
+type = "dark"
+pp = 15
+
+[flatter]
+id = 260
+type = "dark"
+pp = 15
+
+[will_o_wisp]
+id = 261
+type = "fire"
+accuracy = 75
+pp = 15
+
+[memento]
+id = 262
+type = "dark"
+pp = 10
+
+[facade]
+id = 263
+type = "normal"
+pp = 20
+
+[focus_punch]
+id = 264
+type = "fighting"
+pp = 20
+
+[smelling_salt]
+id = 265
+type = "normal"
+pp = 10
+
+[follow_me]
+id = 266
+type = "normal"
+accuracy = 0
+pp = 20
+
+[nature_power]
+id = 267
+type = "normal"
+accuracy = 0
+pp = 20
+
+[charge]
+id = 268
+type = "electric"
+accuracy = 0
+pp = 20
+
+[taunt]
+id = 269
+type = "dark"
+pp = 20
+
+[helping_hand]
+id = 270
+type = "normal"
+accuracy = 0
+pp = 20
+priority = 1
+
+[trick]
+id = 271
+type = "psychic"
+pp = 10
+
+[role_play]
+id = 272
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[wish]
+id = 273
+type = "normal"
+accuracy = 0
+pp = 10
+
+[assist]
+id = 274
+type = "normal"
+accuracy = 0
+pp = 20
+
+[ingrain]
+id = 275
+type = "grass"
+accuracy = 0
+pp = 20
+
+[superpower]
+id = 276
+type = "fighting"
+pp = 5
+
+[magic_coat]
+id = 277
+type = "psychic"
+accuracy = 0
+pp = 15
+
+[recycle]
+id = 278
+type = "normal"
+accuracy = 0
+pp = 10
+
+[revenge]
+id = 279
+type = "fighting"
+pp = 10
+
+[brick_break]
+id = 280
+type = "fighting"
+pp = 15
+
+[yawn]
+id = 281
+type = "normal"
+accuracy = 0
+pp = 10
+
+[knock_off]
+id = 282
+type = "dark"
+pp = 20
+
+[endeavor]
+id = 283
+type = "normal"
+pp = 5
+
+[eruption]
+id = 284
+type = "fire"
+pp = 5
+
+[skill_swap]
+id = 285
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[imprison]
+id = 286
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[refresh]
+id = 287
+type = "normal"
+accuracy = 0
+pp = 20
+
+[grudge]
+id = 288
+type = "ghost"
+accuracy = 0
+pp = 5
+
+[snatch]
+id = 289
+type = "dark"
+accuracy = 0
+pp = 10
+
+[secret_power]
+id = 290
+type = "normal"
+pp = 20
+
+[dive]
+id = 291
+type = "water"
+pp = 10
+
+[arm_thrust]
+id = 292
+type = "fighting"
+pp = 20
+
+[camouflage]
+id = 293
+type = "normal"
+accuracy = 0
+pp = 20
+
+[tail_glow]
+id = 294
+type = "bug"
+accuracy = 0
+pp = 20
+
+[luster_purge]
+id = 295
+type = "psychic"
+pp = 5
+
+[mist_ball]
+id = 296
+type = "psychic"
+pp = 5
+
+[feather_dance]
+id = 297
+type = "flying"
+pp = 15
+
+[teeter_dance]
+id = 298
+type = "normal"
+pp = 20
+
+[blaze_kick]
+id = 299
+type = "fire"
+accuracy = 90
+pp = 10
+
+[mud_sport]
+id = 300
+type = "ground"
+accuracy = 0
+pp = 15
+
+[ice_ball]
+id = 301
+type = "ice"
+accuracy = 90
+pp = 20
+
+[needle_arm]
+id = 302
+type = "grass"
+pp = 15
+
+[slack_off]
+id = 303
+type = "normal"
+accuracy = 0
+pp = 10
+
+[hyper_voice]
+id = 304
+type = "normal"
+pp = 10
+
+[poison_fang]
+id = 305
+type = "poison"
+pp = 15
+
+[crush_claw]
+id = 306
+type = "normal"
+accuracy = 95
+pp = 10
+
+[blast_burn]
+id = 307
+type = "fire"
+accuracy = 90
+pp = 5
+
+[hydro_cannon]
+id = 308
+type = "water"
+accuracy = 90
+pp = 5
+
+[meteor_mash]
+id = 309
+type = "steel"
+accuracy = 85
+pp = 10
+
+[astonish]
+id = 310
+type = "ghost"
+pp = 15
+
+[weather_ball]
+id = 311
+type = "normal"
+pp = 10
+
+[aromatherapy]
+id = 312
+type = "grass"
+accuracy = 0
+pp = 5
+
+[fake_tears]
+id = 313
+type = "dark"
+pp = 20
+
+[air_cutter]
+id = 314
+type = "flying"
+accuracy = 95
+pp = 25
+
+[overheat]
+id = 315
+type = "fire"
+accuracy = 90
+pp = 5
+
+[odor_sleuth]
+id = 316
+type = "normal"
+accuracy = 0
+pp = 40
+
+[rock_tomb]
+id = 317
+type = "rock"
+accuracy = 80
+pp = 10
+
+[silver_wind]
+id = 318
+type = "bug"
+pp = 5
+
+[metal_sound]
+id = 319
+type = "steel"
+accuracy = 85
+pp = 40
+
+[grass_whistle]
+id = 320
+type = "grass"
+accuracy = 55
+pp = 15
+
+[tickle]
+id = 321
+type = "normal"
+pp = 20
+
+[cosmic_power]
+id = 322
+type = "psychic"
+accuracy = 0
+pp = 20
+
+[water_spout]
+id = 323
+type = "water"
+pp = 5
+
+[signal_beam]
+id = 324
+type = "bug"
+pp = 15
+
+[shadow_punch]
+id = 325
+type = "ghost"
+accuracy = 0
+pp = 20
+
+[extrasensory]
+id = 326
+type = "psychic"
+pp = 30
+
+[sky_uppercut]
+id = 327
+type = "fighting"
+accuracy = 90
+pp = 15
+
+[sand_tomb]
+id = 328
+type = "ground"
+accuracy = 70
+pp = 15
+
+[sheer_cold]
+id = 329
+type = "ice"
+accuracy = 30
+pp = 5
+
+[muddy_water]
+id = 330
+type = "water"
+accuracy = 85
+pp = 10
+
+[bullet_seed]
+id = 331
+type = "grass"
+pp = 30
+
+[aerial_ace]
+id = 332
+type = "flying"
+accuracy = 0
+pp = 20
+
+[icicle_spear]
+id = 333
+type = "ice"
+pp = 30
+
+[iron_defense]
+id = 334
+type = "steel"
+accuracy = 0
+pp = 15
+
+[block]
+id = 335
+type = "normal"
+accuracy = 0
+pp = 5
+
+[howl]
+id = 336
+type = "normal"
+accuracy = 0
+pp = 40
+
+[dragon_claw]
+id = 337
+type = "dragon"
+pp = 15
+
+[frenzy_plant]
+id = 338
+type = "grass"
+accuracy = 90
+pp = 5
+
+[bulk_up]
+id = 339
+type = "fighting"
+accuracy = 0
+pp = 20
+
+[bounce]
+id = 340
+type = "flying"
+accuracy = 85
+pp = 5
+
+[mud_shot]
+id = 341
+type = "ground"
+accuracy = 95
+pp = 15
+
+[poison_tail]
+id = 342
+type = "poison"
+pp = 25
+
+[covet]
+id = 343
+type = "normal"
+pp = 40
+
+[volt_tackle]
+id = 344
+type = "electric"
+pp = 15
+
+[magical_leaf]
+id = 345
+type = "grass"
+accuracy = 0
+pp = 20
+
+[water_sport]
+id = 346
+type = "water"
+accuracy = 0
+pp = 15
+
+[calm_mind]
+id = 347
+type = "psychic"
+accuracy = 0
+pp = 20
+
+[leaf_blade]
+id = 348
+type = "grass"
+pp = 15
+
+[dragon_dance]
+id = 349
+type = "dragon"
+accuracy = 0
+pp = 20
+
+[rock_blast]
+id = 350
+type = "rock"
+accuracy = 80
+pp = 10
+
+[shock_wave]
+id = 351
+type = "electric"
+accuracy = 0
+pp = 20
+
+[water_pulse]
+id = 352
+type = "water"
+pp = 20
+
+[doom_desire]
+id = 353
+type = "steel"
+accuracy = 85
+pp = 5
+
+[psycho_boost]
+id = 354
+type = "psychic"
+accuracy = 90
+pp = 5
+
+[roost]
+id = 355
+type = "flying"
+accuracy = 0
+pp = 10
+
+[gravity]
+id = 356
+type = "psychic"
+accuracy = 0
+pp = 5
+
+[miracle_eye]
+id = 357
+type = "psychic"
+accuracy = 0
+pp = 40
+
+[wake_up_slap]
+id = 358
+type = "fighting"
+pp = 10
+
+[hammer_arm]
+id = 359
+type = "fighting"
+accuracy = 90
+pp = 10
+
+[gyro_ball]
+id = 360
+type = "steel"
+pp = 5
+
+[healing_wish]
+id = 361
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[brine]
+id = 362
+type = "water"
+pp = 10
+
+[natural_gift]
+id = 363
+type = "normal"
+pp = 15
+
+[feint]
+id = 364
+type = "normal"
+pp = 10
+
+[pluck]
+id = 365
+type = "flying"
+pp = 20
+
+[tailwind]
+id = 366
+type = "flying"
+accuracy = 0
+pp = 30
+
+[acupressure]
+id = 367
+type = "normal"
+accuracy = 0
+pp = 30
+priority = 2
+
+[metal_burst]
+id = 368
+type = "steel"
+pp = 10
+
+[u_turn]
+id = 369
+type = "bug"
+pp = 20
+
+[close_combat]
+id = 370
+type = "fighting"
+pp = 5
+
+[payback]
+id = 371
+type = "dark"
+pp = 10
+
+[assurance]
+id = 372
+type = "dark"
+pp = 10
+
+[embargo]
+id = 373
+type = "dark"
+pp = 15
+
+[fling]
+id = 374
+type = "dark"
+pp = 10
+
+[psycho_shift]
+id = 375
+type = "psychic"
+accuracy = 90
+pp = 10
+
+[trump_card]
+id = 376
+type = "normal"
+accuracy = 0
+pp = 5
+
+[heal_block]
+id = 377
+type = "psychic"
+pp = 15
+
+[wring_out]
+id = 378
+type = "normal"
+pp = 5
+
+[power_trick]
+id = 379
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[gastro_acid]
+id = 380
+type = "poison"
+pp = 10
+
+[lucky_chant]
+id = 381
+type = "normal"
+accuracy = 0
+pp = 30
+
+[me_first]
+id = 382
+type = "normal"
+accuracy = 0
+pp = 20
+priority = 4
+
+[copycat]
+id = 383
+type = "normal"
+accuracy = 0
+pp = 20
+
+[power_swap]
+id = 384
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[guard_swap]
+id = 385
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[punishment]
+id = 386
+type = "dark"
+pp = 5
+
+[last_resort]
+id = 387
+type = "normal"
+pp = 5
+
+[worry_seed]
+id = 388
+type = "grass"
+pp = 10
+
+[sucker_punch]
+id = 389
+type = "dark"
+pp = 5
+
+[toxic_spikes]
+id = 390
+type = "poison"
+accuracy = 0
+pp = 20
+
+[heart_swap]
+id = 391
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[aqua_ring]
+id = 392
+type = "water"
+accuracy = 0
+pp = 20
+
+[magnet_rise]
+id = 393
+type = "electric"
+accuracy = 0
+pp = 10
+
+[flare_blitz]
+id = 394
+type = "fire"
+pp = 15
+
+[force_palm]
+id = 395
+type = "fighting"
+pp = 10
+
+[aura_sphere]
+id = 396
+type = "fighting"
+accuracy = 0
+pp = 20
+
+[rock_polish]
+id = 397
+type = "rock"
+accuracy = 0
+pp = 20
+
+[poison_jab]
+id = 398
+type = "poison"
+pp = 20
+
+[dark_pulse]
+id = 399
+type = "dark"
+pp = 15
+
+[night_slash]
+id = 400
+type = "dark"
+pp = 15
+
+[aqua_tail]
+id = 401
+type = "water"
+accuracy = 90
+pp = 10
+
+[seed_bomb]
+id = 402
+type = "grass"
+pp = 15
+
+[air_slash]
+id = 403
+type = "flying"
+accuracy = 95
+pp = 20
+
+[x_scissor]
+id = 404
+type = "bug"
+pp = 15
+
+[bug_buzz]
+id = 405
+type = "bug"
+pp = 10
+
+[dragon_pulse]
+id = 406
+type = "dragon"
+pp = 10
+
+[dragon_rush]
+id = 407
+type = "dragon"
+accuracy = 75
+pp = 10
+
+[power_gem]
+id = 408
+type = "rock"
+pp = 20
+
+[drain_punch]
+id = 409
+type = "fighting"
+pp = 5
+
+[vacuum_wave]
+id = 410
+type = "fighting"
+pp = 30
+
+[focus_blast]
+id = 411
+type = "fighting"
+accuracy = 70
+pp = 5
+
+[energy_ball]
+id = 412
+type = "grass"
+pp = 10
+
+[brave_bird]
+id = 413
+type = "flying"
+pp = 15
+
+[earth_power]
+id = 414
+type = "ground"
+pp = 10
+
+[switcheroo]
+id = 415
+type = "dark"
+pp = 10
+
+[giga_impact]
+id = 416
+type = "normal"
+accuracy = 90
+pp = 5
+
+[nasty_plot]
+id = 417
+type = "dark"
+accuracy = 0
+pp = 20
+
+[bullet_punch]
+id = 418
+type = "steel"
+pp = 30
+
+[avalanche]
+id = 419
+type = "ice"
+pp = 10
+
+[ice_shard]
+id = 420
+type = "ice"
+pp = 30
+
+[shadow_claw]
+id = 421
+type = "ghost"
+pp = 15
+
+[thunder_fang]
+id = 422
+type = "electric"
+accuracy = 95
+pp = 15
+
+[ice_fang]
+id = 423
+type = "ice"
+accuracy = 95
+pp = 15
+
+[fire_fang]
+id = 424
+type = "fire"
+accuracy = 95
+pp = 15
+
+[shadow_sneak]
+id = 425
+type = "ghost"
+pp = 30
+
+[mud_bomb]
+id = 426
+type = "ground"
+accuracy = 85
+pp = 10
+
+[psycho_cut]
+id = 427
+type = "psychic"
+pp = 20
+
+[zen_headbutt]
+id = 428
+type = "psychic"
+accuracy = 90
+pp = 15
+
+[mirror_shot]
+id = 429
+type = "steel"
+accuracy = 85
+pp = 10
+
+[flash_cannon]
+id = 430
+type = "steel"
+pp = 10
+
+[rock_climb]
+id = 431
+type = "normal"
+accuracy = 85
+pp = 20
+
+[defog]
+id = 432
+type = "flying"
+accuracy = 0
+pp = 15
+
+[trick_room]
+id = 433
+type = "psychic"
+accuracy = 0
+pp = 5
+
+[draco_meteor]
+id = 434
+type = "dragon"
+accuracy = 90
+pp = 5
+
+[discharge]
+id = 435
+type = "electric"
+pp = 15
+
+[lava_plume]
+id = 436
+type = "fire"
+pp = 15
+
+[leaf_storm]
+id = 437
+type = "grass"
+accuracy = 90
+pp = 5
+
+[power_whip]
+id = 438
+type = "grass"
+accuracy = 85
+pp = 10
+
+[rock_wrecker]
+id = 439
+type = "rock"
+accuracy = 90
+pp = 5
+
+[cross_poison]
+id = 440
+type = "poison"
+pp = 20
+
+[gunk_shot]
+id = 441
+type = "poison"
+accuracy = 70
+pp = 5
+
+[iron_head]
+id = 442
+type = "steel"
+pp = 15
+
+[magnet_bomb]
+id = 443
+type = "steel"
+accuracy = 0
+pp = 20
+
+[stone_edge]
+id = 444
+type = "rock"
+accuracy = 80
+pp = 5
+
+[captivate]
+id = 445
+type = "normal"
+pp = 20
+
+[stealth_rock]
+id = 446
+type = "rock"
+accuracy = 0
+pp = 20
+
+[grass_knot]
+id = 447
+type = "grass"
+pp = 20
+
+[chatter]
+id = 448
+type = "flying"
+pp = 20
+
+[judgment]
+id = 449
+type = "normal"
+pp = 10
+
+[bug_bite]
+id = 450
+type = "bug"
+pp = 20
+
+[charge_beam]
+id = 451
+type = "electric"
+accuracy = 90
+pp = 10
+
+[wood_hammer]
+id = 452
+type = "grass"
+pp = 15
+
+[aqua_jet]
+id = 453
+type = "water"
+pp = 20
+
+[attack_order]
+id = 454
+type = "bug"
+pp = 15
+
+[defend_order]
+id = 455
+type = "bug"
+accuracy = 0
+pp = 10
+
+[heal_order]
+id = 456
+type = "bug"
+accuracy = 0
+pp = 10
+
+[head_smash]
+id = 457
+type = "rock"
+accuracy = 80
+pp = 5
+
+[double_hit]
+id = 458
+type = "normal"
+accuracy = 90
+pp = 10
+
+[roar_of_time]
+id = 459
+type = "dragon"
+accuracy = 90
+pp = 5
+
+[spacial_rend]
+id = 460
+type = "dragon"
+accuracy = 95
+pp = 5
+
+[lunar_dance]
+id = 461
+type = "psychic"
+accuracy = 0
+pp = 10
+
+[crush_grip]
+id = 462
+type = "normal"
+pp = 5
+
+[magma_storm]
+id = 463
+type = "fire"
+accuracy = 70
+pp = 5
+
+[dark_void]
+id = 464
+type = "dark"
+accuracy = 80
+pp = 10
+
+[seed_flare]
+id = 465
+type = "grass"
+accuracy = 85
+pp = 5
+
+[ominous_wind]
+id = 466
+type = "ghost"
+pp = 5
+
+[shadow_force]
+id = 467
+type = "ghost"
+pp = 5

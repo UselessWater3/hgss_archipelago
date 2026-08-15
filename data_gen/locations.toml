@@ -1,0 +1,3871 @@
+[overworld_r29_potion]
+original_item = "potion"
+label = "Route 29 - Potion (Overworld)"
+id = 0
+table = "overworld"
+type = "overworld"
+check = 1081
+
+[overworld_r27_rare_candy]
+original_item = "rare_candy"
+label = "Route 27 - Rare Candy (Overworld)"
+id = 174
+table = "overworld"
+type = "overworld"
+check = 1117
+
+[overworld_r27_tm02]
+original_item = "tm02"
+label = "Route 27 - TM02 (Overworld)"
+id = 175
+table = "overworld"
+type = "overworld"
+check = 1118
+
+[overworld_r27_destiny_knot]
+original_item = "destiny_knot"
+label = "Route 27 - Destiny Knot (Overworld)"
+id = 176
+table = "overworld"
+type = "overworld"
+check = 1293
+
+[overworld_r26_max_elixir]
+original_item = "max_elixir"
+label = "Route 26 - Max Elixir (Overworld)"
+id = 177
+table = "overworld"
+type = "overworld"
+check = 1115
+
+[overworld_r46_x_speed]
+original_item = "x_speed"
+label = "Route 46 - X Speed (Overworld)"
+id = 165
+table = "overworld"
+type = "overworld"
+check = 1217
+
+[overworld_d45r0101_moon_stone]
+original_item = "moon_stone"
+label = "Tohjo Falls - Moon Stone (Overworld)"
+id = 173
+table = "overworld"
+type = "overworld"
+check = 1116
+
+[overworld_r30_antidote]
+original_item = "antidote"
+label = "Route 30 - Antidote (Overworld)"
+id = 1
+table = "overworld"
+type = "overworld"
+check = 1056
+
+[overworld_r30_potion]
+original_item = "potion"
+label = "Route 30 - Potion (Overworld)"
+id = 2
+table = "overworld"
+type = "overworld"
+check = 1088
+
+[overworld_r45_elixir]
+original_item = "elixir"
+label = "Route 45 - Elixir (Overworld)"
+id = 160
+table = "overworld"
+type = "overworld"
+check = 1212
+
+[overworld_r45_max_potion]
+original_item = "max_potion"
+label = "Route 45 - Max Potion (Overworld)"
+id = 161
+table = "overworld"
+type = "overworld"
+check = 1213
+
+[overworld_r45_full_heal]
+original_item = "full_heal"
+label = "Route 45 - Full Heal (Overworld)"
+id = 162
+table = "overworld"
+type = "overworld"
+check = 1214
+
+[overworld_r45_nugget]
+original_item = "nugget"
+label = "Route 45 - Nugget (Overworld)"
+id = 163
+table = "overworld"
+type = "overworld"
+check = 1215
+
+[overworld_r45_revive]
+original_item = "revive"
+label = "Route 45 - Revive (Overworld)"
+id = 164
+table = "overworld"
+type = "overworld"
+check = 1216
+
+[overworld_d42r0102_potion]
+original_item = "potion"
+label = "Dark Cave - Potion (Overworld)"
+id = 168
+table = "overworld"
+type = "overworld"
+check = 1218
+
+[overworld_d42r0102_hyper_potion]
+original_item = "hyper_potion"
+label = "Dark Cave - Hyper Potion (Overworld)"
+id = 169
+table = "overworld"
+type = "overworld"
+check = 1219
+
+[overworld_d42r0102_full_heal]
+original_item = "full_heal"
+label = "Dark Cave - Full Heal (Overworld)"
+id = 170
+table = "overworld"
+type = "overworld"
+check = 1220
+
+[overworld_d42r0102_dire_hit]
+original_item = "dire_hit"
+label = "Dark Cave - Dire Hit (Overworld)"
+id = 171
+table = "overworld"
+type = "overworld"
+check = 1221
+
+[overworld_d42r0102_black_flute]
+original_item = "black_flute"
+label = "Dark Cave - Black Flute (Overworld)"
+id = 172
+table = "overworld"
+type = "overworld"
+check = 1292
+
+[overworld_r28_tm35]
+original_item = "tm35"
+label = "Route 28 - TM35 (Overworld)"
+id = 230
+table = "overworld"
+type = "overworld"
+check = 1280
+
+[overworld_d42r0101_tm54]
+original_item = "tm54"
+label = "Dark Cave - TM54 (Overworld)"
+id = 166
+table = "overworld"
+type = "overworld"
+check = 1113
+
+[overworld_d42r0101_revive]
+original_item = "revive"
+label = "Dark Cave - Revive (Overworld)"
+id = 167
+table = "overworld"
+type = "overworld"
+check = 1114
+
+[overworld_d43r0101_max_revive]
+original_item = "max_revive"
+label = "Victory Road - Max Revive (Overworld)"
+id = 178
+table = "overworld"
+type = "overworld"
+check = 1119
+
+[overworld_d43r0101_full_heal]
+original_item = "full_heal"
+label = "Victory Road - Full Heal (Overworld)"
+id = 179
+table = "overworld"
+type = "overworld"
+check = 1120
+
+[overworld_d43r0101_potion]
+original_item = "potion"
+label = "Victory Road - Potion (Overworld)"
+id = 180
+table = "overworld"
+type = "overworld"
+check = 1121
+
+[overworld_r31_potion]
+original_item = "potion"
+label = "Route 31 - Potion (Overworld)"
+id = 3
+table = "overworld"
+type = "overworld"
+check = 1057
+
+[overworld_r31_poke_ball]
+original_item = "poke_ball"
+label = "Route 31 - Poké Ball (Overworld)"
+id = 4
+table = "overworld"
+type = "overworld"
+check = 1058
+
+[overworld_r44_max_repel]
+original_item = "max_repel"
+label = "Route 44 - Max Repel (Overworld)"
+id = 146
+table = "overworld"
+type = "overworld"
+check = 1201
+
+[overworld_r44_max_revive]
+original_item = "max_revive"
+label = "Route 44 - Max Revive (Overworld)"
+id = 147
+table = "overworld"
+type = "overworld"
+check = 1202
+
+[overworld_r44_ultra_ball]
+original_item = "ultra_ball"
+label = "Route 44 - Ultra Ball (Overworld)"
+id = 148
+table = "overworld"
+type = "overworld"
+check = 1203
+
+[overworld_d43r0102_tm26]
+original_item = "tm26"
+label = "Victory Road - TM26 (Overworld)"
+id = 181
+table = "overworld"
+type = "overworld"
+check = 1122
+
+[overworld_d43r0102_hp_up]
+original_item = "hp_up"
+label = "Victory Road - HP Up (Overworld)"
+id = 182
+table = "overworld"
+type = "overworld"
+check = 1123
+
+[overworld_d43r0102_full_restore]
+original_item = "full_restore"
+label = "Victory Road - Full Restore (Overworld)"
+id = 183
+table = "overworld"
+type = "overworld"
+check = 1124
+
+[overworld_t31_reaper_cloth]
+original_item = "reaper_cloth"
+label = "Mt. Silver - Reaper Cloth (Overworld)"
+id = 231
+table = "overworld"
+type = "overworld"
+check = 1231
+
+[overworld_d39r0101_hm07]
+original_item = "hm07"
+label = "Ice Path - HM07 (Overworld)"
+id = 149
+table = "overworld"
+type = "overworld"
+check = 1111
+
+[overworld_d39r0101_protein]
+original_item = "protein"
+label = "Ice Path - Protein (Overworld)"
+id = 150
+table = "overworld"
+type = "overworld"
+check = 1204
+
+[overworld_d39r0101_pp_up]
+original_item = "pp_up"
+label = "Ice Path - PP Up (Overworld)"
+id = 151
+table = "overworld"
+type = "overworld"
+check = 1205
+
+[overworld_t22_rare_candy]
+original_item = "rare_candy"
+label = "Violet City - Rare Candy (Overworld)"
+id = 5
+table = "overworld"
+type = "overworld"
+check = 1059
+
+[overworld_t22_pp_up]
+original_item = "pp_up"
+label = "Violet City - PP Up (Overworld)"
+id = 6
+table = "overworld"
+type = "overworld"
+check = 1060
+
+[overworld_d41r0101_full_restore]
+original_item = "full_restore"
+label = "Mt. Silver Cave - Full Restore (Overworld)"
+id = 232
+table = "overworld"
+type = "overworld"
+check = 1241
+
+[overworld_r02_elixir]
+original_item = "elixir"
+label = "Route 2 - Elixir (Overworld)"
+id = 213
+table = "overworld"
+type = "overworld"
+check = 1233
+
+[overworld_d44r0102_dragon_fang]
+original_item = "dragon_fang"
+label = "Dragon’s Den - Dragon Fang (Overworld)"
+id = 159
+table = "overworld"
+type = "overworld"
+check = 1112
+
+[overworld_d44r0102_calcium]
+original_item = "calcium"
+label = "Dragon’s Den - Calcium (Overworld)"
+id = 157
+table = "overworld"
+type = "overworld"
+check = 1210
+
+[overworld_d44r0102_max_elixir]
+original_item = "max_elixir"
+label = "Dragon’s Den - Max Elixir (Overworld)"
+id = 158
+table = "overworld"
+type = "overworld"
+check = 1211
+
+[overworld_d15r0101_parlyz_heal]
+original_item = "parlyz_heal"
+label = "Sprout Tower - Parlyz Heal (Overworld)"
+id = 7
+table = "overworld"
+type = "overworld"
+check = 1061
+
+[overworld_d39r0102_iron]
+original_item = "iron"
+label = "Ice Path - Iron (Overworld)"
+id = 156
+table = "overworld"
+type = "overworld"
+check = 1209
+
+[overworld_d43r0103_ultra_ball]
+original_item = "ultra_ball"
+label = "Victory Road - Ultra Ball (Overworld)"
+id = 184
+table = "overworld"
+type = "overworld"
+check = 1125
+
+[overworld_d43r0103_tm79]
+original_item = "tm79"
+label = "Victory Road - TM79 (Overworld)"
+id = 185
+table = "overworld"
+type = "overworld"
+check = 1126
+
+[overworld_d43r0103_rare_candy]
+original_item = "rare_candy"
+label = "Victory Road - Rare Candy (Overworld)"
+id = 186
+table = "overworld"
+type = "overworld"
+check = 1127
+
+[overworld_d24r0101_potion]
+original_item = "potion"
+label = "Ruins of Alph - Potion (Overworld)"
+id = 11
+table = "overworld"
+type = "overworld"
+check = 1146
+
+[overworld_d24r0101_hyper_potion]
+original_item = "hyper_potion"
+label = "Ruins of Alph - Hyper Potion (Overworld)"
+id = 12
+table = "overworld"
+type = "overworld"
+check = 1147
+
+[overworld_r32_repel]
+original_item = "repel"
+label = "Route 32 - Repel (Overworld)"
+id = 29
+table = "overworld"
+type = "overworld"
+check = 1065
+
+[overworld_r32_great_ball]
+original_item = "great_ball"
+label = "Route 32 - Great Ball (Overworld)"
+id = 30
+table = "overworld"
+type = "overworld"
+check = 1066
+
+[overworld_r32_tm09]
+original_item = "tm09"
+label = "Route 32 - TM09 (Overworld)"
+id = 31
+table = "overworld"
+type = "overworld"
+check = 1273
+
+[overworld_r32_shell_bell]
+original_item = "shell_bell"
+label = "Route 32 - Shell Bell (Overworld)"
+id = 32
+table = "overworld"
+type = "overworld"
+check = 1239
+
+[overworld_r36_hyper_potion]
+original_item = "hyper_potion"
+label = "Route 36 - Hyper Potion (Overworld)"
+id = 66
+table = "overworld"
+type = "overworld"
+check = 1276
+
+[overworld_d41r0103_escape_rope]
+original_item = "escape_rope"
+label = "Mt. Silver Cave - Escape Rope (Overworld)"
+id = 235
+table = "overworld"
+type = "overworld"
+check = 1244
+
+[overworld_d41r0103_tm76]
+original_item = "tm76"
+label = "Mt. Silver Cave - TM76 (Overworld)"
+id = 236
+table = "overworld"
+type = "overworld"
+check = 1245
+
+[overworld_d25r0101_x_attack]
+original_item = "x_attack"
+label = "Union Cave - X Attack (Overworld)"
+id = 33
+table = "overworld"
+type = "overworld"
+check = 1067
+
+[overworld_d25r0101_great_ball]
+original_item = "great_ball"
+label = "Union Cave - Great Ball (Overworld)"
+id = 34
+table = "overworld"
+type = "overworld"
+check = 1068
+
+[overworld_d25r0101_potion]
+original_item = "potion"
+label = "Union Cave - Potion (Overworld)"
+id = 35
+table = "overworld"
+type = "overworld"
+check = 1069
+
+[overworld_d25r0101_awakening]
+original_item = "awakening"
+label = "Union Cave - Awakening (Overworld)"
+id = 36
+table = "overworld"
+type = "overworld"
+check = 1070
+
+[overworld_d41r0104_expert_belt]
+original_item = "expert_belt"
+label = "Mt. Silver Cave - Expert Belt (Overworld)"
+id = 237
+table = "overworld"
+type = "overworld"
+check = 1246
+
+[overworld_r43_max_ether]
+original_item = "max_ether"
+label = "Route 43 - Max Ether (Overworld)"
+id = 142
+table = "overworld"
+type = "overworld"
+check = 1198
+
+[overworld_r02r0101_carbos]
+original_item = "carbos"
+label = "Route 2 - Carbos (Overworld)"
+id = 212
+table = "overworld"
+type = "overworld"
+check = 1232
+
+[overworld_r35_tm66]
+original_item = "tm66"
+label = "Route 35 - TM66 (Overworld)"
+id = 61
+table = "overworld"
+type = "overworld"
+check = 1097
+
+[overworld_r35_parlyz_heal]
+original_item = "parlyz_heal"
+label = "Route 35 - Parlyz Heal (Overworld)"
+id = 62
+table = "overworld"
+type = "overworld"
+check = 1275
+
+[overworld_r42_super_potion]
+original_item = "super_potion"
+label = "Route 42 - Super Potion (Overworld)"
+id = 108
+table = "overworld"
+type = "overworld"
+check = 1172
+
+[overworld_r42_dubious_disc]
+original_item = "dubious_disc"
+label = "Route 42 - Dubious Disc (Overworld)"
+id = 109
+table = "overworld"
+type = "overworld"
+check = 1193
+
+[overworld_r42_tm65]
+original_item = "tm65"
+label = "Route 42 - TM65 (Overworld)"
+id = 110
+table = "overworld"
+type = "overworld"
+check = 1285
+
+[overworld_d15r0102_x_accuracy]
+original_item = "x_accuracy"
+label = "Sprout Tower - X Accuracy (Overworld)"
+id = 8
+table = "overworld"
+type = "overworld"
+check = 1062
+
+[overworld_d41r0106_max_elixir]
+original_item = "max_elixir"
+label = "Mt. Silver Cave - Max Elixir (Overworld)"
+id = 238
+table = "overworld"
+type = "overworld"
+check = 1247
+
+[overworld_d41r0106_calcium]
+original_item = "calcium"
+label = "Mt. Silver Cave - Calcium (Overworld)"
+id = 239
+table = "overworld"
+type = "overworld"
+check = 1248
+
+[overworld_d41r0106_protein]
+original_item = "protein"
+label = "Mt. Silver Cave - Protein (Overworld)"
+id = 240
+table = "overworld"
+type = "overworld"
+check = 1249
+
+[overworld_d41r0106_max_revive]
+original_item = "max_revive"
+label = "Mt. Silver Cave - Max Revive (Overworld)"
+id = 241
+table = "overworld"
+type = "overworld"
+check = 1250
+
+[overworld_d39r0103_tm72]
+original_item = "tm72"
+label = "Ice Path - TM72 (Overworld)"
+id = 155
+table = "overworld"
+type = "overworld"
+check = 1110
+
+[overworld_d39r0103_full_heal]
+original_item = "full_heal"
+label = "Ice Path - Full Heal (Overworld)"
+id = 152
+table = "overworld"
+type = "overworld"
+check = 1206
+
+[overworld_d39r0103_max_potion]
+original_item = "max_potion"
+label = "Ice Path - Max Potion (Overworld)"
+id = 153
+table = "overworld"
+type = "overworld"
+check = 1207
+
+[overworld_d25r0102_tm39]
+original_item = "tm39"
+label = "Union Cave - TM39 (Overworld)"
+id = 38
+table = "overworld"
+type = "overworld"
+check = 1072
+
+[overworld_d25r0102_x_defense]
+original_item = "x_defense"
+label = "Union Cave - X Defend (Overworld)"
+id = 37
+table = "overworld"
+type = "overworld"
+check = 1071
+
+[overworld_d24r0214_revival_herb]
+original_item = "revival_herb"
+label = "Ruins of Alph - Revival Herb (Overworld)"
+id = 25
+table = "overworld"
+type = "overworld"
+check = 1140
+
+[overworld_d24r0214_charcoal]
+original_item = "charcoal"
+label = "Ruins of Alph - Charcoal (Overworld)"
+id = 26
+table = "overworld"
+type = "overworld"
+check = 1141
+
+[overworld_d24r0214_life_orb]
+original_item = "life_orb"
+label = "Ruins of Alph - Life Orb (Overworld)"
+id = 27
+table = "overworld"
+type = "overworld"
+check = 1142
+
+[overworld_d24r0214_leppa_berry]
+original_item = "leppa_berry"
+label = "Ruins of Alph - Leppa Berry (Overworld)"
+id = 28
+table = "overworld"
+type = "overworld"
+check = 1143
+
+[overworld_d35r0102_hyper_potion]
+original_item = "hyper_potion"
+label = "Team Rocket HQ - Hyper Potion (Overworld)"
+id = 133
+table = "overworld"
+type = "overworld"
+check = 1102
+
+[overworld_d35r0102_guard_spec_]
+original_item = "guard_spec_"
+label = "Team Rocket HQ - Guard Spec. (Overworld)"
+id = 134
+table = "overworld"
+type = "overworld"
+check = 1103
+
+[overworld_d35r0102_nugget]
+original_item = "nugget"
+label = "Team Rocket HQ - Nugget (Overworld)"
+id = 135
+table = "overworld"
+type = "overworld"
+check = 1104
+
+[overworld_d39r0104_nevermeltice]
+original_item = "nevermeltice"
+label = "Ice Path - NeverMeltIce (Overworld)"
+id = 154
+table = "overworld"
+type = "overworld"
+check = 1208
+
+[overworld_d46r0101_dire_hit]
+original_item = "dire_hit"
+label = "Viridian Forest - Dire Hit (Overworld)"
+id = 214
+table = "overworld"
+type = "overworld"
+check = 1234
+
+[overworld_d46r0101_blue_flute]
+original_item = "blue_flute"
+label = "Viridian Forest - Blue Flute (Overworld)"
+id = 215
+table = "overworld"
+type = "overworld"
+check = 1235
+
+[overworld_d46r0101_leaf_stone]
+original_item = "leaf_stone"
+label = "Viridian Forest - Leaf Stone (Overworld)"
+id = 216
+table = "overworld"
+type = "overworld"
+check = 1237
+
+[overworld_d46r0101_tm77]
+original_item = "tm77"
+label = "Viridian Forest - TM77 (Overworld)"
+id = 217
+table = "overworld"
+type = "overworld"
+check = 1238
+
+[overworld_d01r0101_pp_max]
+original_item = "pp_max"
+label = "DIGLETT’s Cave - PP Max (Overworld)"
+id = 189
+table = "overworld"
+type = "overworld"
+check = 1297
+
+[overworld_d01r0101_rock_incense]
+original_item = "rock_incense"
+label = "DIGLETT’s Cave - Rock Incense (Overworld)"
+id = 190
+table = "overworld"
+type = "overworld"
+check = 1298
+
+[overworld_d24r0215_stardust]
+original_item = "stardust"
+label = "Ruins of Alph - Stardust (Overworld)"
+id = 21
+table = "overworld"
+type = "overworld"
+check = 1136
+
+[overworld_d24r0215_star_piece]
+original_item = "star_piece"
+label = "Ruins of Alph - Star Piece (Overworld)"
+id = 22
+table = "overworld"
+type = "overworld"
+check = 1137
+
+[overworld_d24r0215_leppa_berry]
+original_item = "leppa_berry"
+label = "Ruins of Alph - Leppa Berry 2 (Overworld)"
+id = 23
+table = "overworld"
+type = "overworld"
+check = 1138
+
+[overworld_d24r0215_mystic_water]
+original_item = "mystic_water"
+label = "Ruins of Alph - Mystic Water (Overworld)"
+id = 24
+table = "overworld"
+type = "overworld"
+check = 1139
+
+[overworld_d24r0212_heal_powder]
+original_item = "heal_powder"
+label = "Ruins of Alph - Heal Powder (Overworld)"
+id = 13
+table = "overworld"
+type = "overworld"
+check = 1128
+
+[overworld_d24r0212_energypowder]
+original_item = "energypowder"
+label = "Ruins of Alph - EnergyPowder (Overworld)"
+id = 14
+table = "overworld"
+type = "overworld"
+check = 1129
+
+[overworld_d24r0212_oran_berry]
+original_item = "oran_berry"
+label = "Ruins of Alph - Oran Berry (Overworld)"
+id = 15
+table = "overworld"
+type = "overworld"
+check = 1130
+
+[overworld_d24r0212_pecha_berry]
+original_item = "pecha_berry"
+label = "Ruins of Alph - Pecha Berry (Overworld)"
+id = 16
+table = "overworld"
+type = "overworld"
+check = 1131
+
+[overworld_d25r0103_elixir]
+original_item = "elixir"
+label = "Union Cave - Elixir (Overworld)"
+id = 39
+table = "overworld"
+type = "overworld"
+check = 1082
+
+[overworld_d25r0103_hyper_potion]
+original_item = "hyper_potion"
+label = "Union Cave - Hyper Potion (Overworld)"
+id = 40
+table = "overworld"
+type = "overworld"
+check = 1083
+
+[overworld_d38r0101_ether]
+original_item = "ether"
+label = "Mt. Mortar - Ether (Overworld)"
+id = 111
+table = "overworld"
+type = "overworld"
+check = 1173
+
+[overworld_d38r0101_revive]
+original_item = "revive"
+label = "Mt. Mortar - Revive (Overworld)"
+id = 112
+table = "overworld"
+type = "overworld"
+check = 1174
+
+[overworld_d41r0102_pure_incense]
+original_item = "pure_incense"
+label = "Mt. Silver Cave - Pure Incense (Overworld)"
+id = 233
+table = "overworld"
+type = "overworld"
+check = 1242
+
+[overworld_d41r0102_dawn_stone]
+original_item = "dawn_stone"
+label = "Mt. Silver Cave - Dawn Stone (Overworld)"
+id = 234
+table = "overworld"
+type = "overworld"
+check = 1243
+
+[overworld_t29_tm43]
+original_item = "tm43"
+label = "Lake of Rage - TM43 (Overworld)"
+id = 143
+table = "overworld"
+type = "overworld"
+check = 1288
+
+[overworld_t29_red_flute]
+original_item = "red_flute"
+label = "Lake of Rage - Red Flute (Overworld)"
+id = 145
+table = "overworld"
+type = "overworld"
+check = 1290
+
+[overworld_t29_choice_specs]
+original_item = "choice_specs"
+label = "Lake of Rage - Choice Specs (Overworld)"
+id = 144
+table = "overworld"
+type = "overworld"
+check = 1289
+
+[overworld_d24r0213_heal_powder]
+original_item = "heal_powder"
+label = "Ruins of Alph - Heal Powder 2 (Overworld)"
+id = 17
+table = "overworld"
+type = "overworld"
+check = 1132
+
+[overworld_d24r0213_energy_root]
+original_item = "energy_root"
+label = "Ruins of Alph - Energy Root (Overworld)"
+id = 18
+table = "overworld"
+type = "overworld"
+check = 1133
+
+[overworld_d24r0213_sitrus_berry]
+original_item = "sitrus_berry"
+label = "Ruins of Alph - Sitrus Berry (Overworld)"
+id = 19
+table = "overworld"
+type = "overworld"
+check = 1134
+
+[overworld_d24r0213_moon_stone]
+original_item = "moon_stone"
+label = "Ruins of Alph - Moon Stone (Overworld)"
+id = 20
+table = "overworld"
+type = "overworld"
+check = 1135
+
+[overworld_t03_wise_glasses]
+original_item = "wise_glasses"
+label = "Pewter City - Wise Glasses (Overworld)"
+id = 218
+table = "overworld"
+type = "overworld"
+check = 1308
+
+[overworld_d15r0103_potion]
+original_item = "potion"
+label = "Sprout Tower - Potion (Overworld)"
+id = 9
+table = "overworld"
+type = "overworld"
+check = 1063
+
+[overworld_d15r0103_escape_rope]
+original_item = "escape_rope"
+label = "Sprout Tower - Escape Rope (Overworld)"
+id = 10
+table = "overworld"
+type = "overworld"
+check = 1064
+
+[overworld_d22r0101_tm28]
+original_item = "tm28"
+label = "National Park - TM28 (Overworld)"
+id = 64
+table = "overworld"
+type = "overworld"
+check = 1145
+
+[overworld_d22r0101_soothe_bell]
+original_item = "soothe_bell"
+label = "National Park - Soothe Bell (Overworld)"
+id = 63
+table = "overworld"
+type = "overworld"
+check = 1144
+
+[overworld_d22r0101_shiny_stone]
+original_item = "shiny_stone"
+label = "National Park - Shiny Stone (Overworld)"
+id = 65
+table = "overworld"
+type = "overworld"
+check = 1286
+
+[overworld_d38r0103_rare_candy]
+original_item = "rare_candy"
+label = "Mt. Mortar - Rare Candy (Overworld)"
+id = 122
+table = "overworld"
+type = "overworld"
+check = 1182
+
+[overworld_d38r0103_max_potion]
+original_item = "max_potion"
+label = "Mt. Mortar - Max Potion (Overworld)"
+id = 123
+table = "overworld"
+type = "overworld"
+check = 1183
+
+[overworld_d38r0103_tm40]
+original_item = "tm40"
+label = "Mt. Mortar - TM40 (Overworld)"
+id = 124
+table = "overworld"
+type = "overworld"
+check = 1184
+
+[overworld_d38r0103_elixir]
+original_item = "elixir"
+label = "Mt. Mortar - Elixir (Overworld)"
+id = 125
+table = "overworld"
+type = "overworld"
+check = 1185
+
+[overworld_d38r0103_dragon_scale]
+original_item = "dragon_scale"
+label = "Mt. Mortar - Dragon Scale (Overworld)"
+id = 126
+table = "overworld"
+type = "overworld"
+check = 1186
+
+[overworld_d38r0103_escape_rope]
+original_item = "escape_rope"
+label = "Mt. Mortar - Escape Rope (Overworld)"
+id = 127
+table = "overworld"
+type = "overworld"
+check = 1187
+
+[overworld_d18r0101_hp_up]
+original_item = "hp_up"
+label = "Burned Tower - HP Up (Overworld)"
+id = 68
+table = "overworld"
+type = "overworld"
+check = 1073
+
+[overworld_d18r0101_antidote]
+original_item = "antidote"
+label = "Burned Tower - Antidote (Overworld)"
+id = 67
+table = "overworld"
+type = "overworld"
+check = 1291
+
+[overworld_r03_big_root]
+original_item = "big_root"
+label = "Route 3 - Big Root (Overworld)"
+id = 219
+table = "overworld"
+type = "overworld"
+check = 1309
+
+[overworld_r11_tm86]
+original_item = "tm86"
+label = "Route 11 - TM86 (Overworld)"
+id = 211
+table = "overworld"
+type = "overworld"
+check = 1307
+
+[overworld_t09_magmarizer]
+original_item = "magmarizer"
+label = "Cinnabar Island - Magmarizer (Overworld)"
+id = 221
+table = "overworld"
+type = "overworld"
+check = 1236
+
+[overworld_d38r0102_escape_rope]
+original_item = "escape_rope"
+label = "Mt. Mortar - Escape Rope 2 (Overworld)"
+id = 113
+table = "overworld"
+type = "overworld"
+check = 1175
+
+[overworld_d38r0102_nugget]
+original_item = "nugget"
+label = "Mt. Mortar - Nugget (Overworld)"
+id = 114
+table = "overworld"
+type = "overworld"
+check = 1176
+
+[overworld_d38r0102_iron_ball]
+original_item = "iron_ball"
+label = "Mt. Mortar - Iron Ball (Overworld)"
+id = 115
+table = "overworld"
+type = "overworld"
+check = 1177
+
+[overworld_d38r0102_max_potion]
+original_item = "max_potion"
+label = "Mt. Mortar - Max Potion 2 (Overworld)"
+id = 116
+table = "overworld"
+type = "overworld"
+check = 1178
+
+[overworld_d38r0102_iron]
+original_item = "iron"
+label = "Mt. Mortar - Iron (Overworld)"
+id = 117
+table = "overworld"
+type = "overworld"
+check = 1179
+
+[overworld_d38r0102_max_revive]
+original_item = "max_revive"
+label = "Mt. Mortar - Max Revive (Overworld)"
+id = 118
+table = "overworld"
+type = "overworld"
+check = 1180
+
+[overworld_d38r0102_ultra_ball]
+original_item = "ultra_ball"
+label = "Mt. Mortar - Ultra Ball (Overworld)"
+id = 119
+table = "overworld"
+type = "overworld"
+check = 1181
+
+[overworld_d38r0102_full_incense]
+original_item = "full_incense"
+label = "Mt. Mortar - Full Incense (Overworld)"
+id = 120
+table = "overworld"
+type = "overworld"
+check = 1194
+
+[overworld_d38r0102_protector]
+original_item = "protector"
+label = "Mt. Mortar - Protector (Overworld)"
+id = 121
+table = "overworld"
+type = "overworld"
+check = 1195
+
+[overworld_d35r0103_tm46]
+original_item = "tm46"
+label = "Team Rocket HQ - TM46 (Overworld)"
+id = 136
+table = "overworld"
+type = "overworld"
+check = 1105
+
+[overworld_r38_max_potion]
+original_item = "max_potion"
+label = "Route 38 - Max Potion (Overworld)"
+id = 82
+table = "overworld"
+type = "overworld"
+check = 1277
+
+[overworld_r38_lax_incense]
+original_item = "lax_incense"
+label = "Route 38 - Lax Incense (Overworld)"
+id = 83
+table = "overworld"
+type = "overworld"
+check = 1278
+
+[overworld_d38r0104_carbos]
+original_item = "carbos"
+label = "Mt. Mortar - Carbos (Overworld)"
+id = 128
+table = "overworld"
+type = "overworld"
+check = 1188
+
+[overworld_d38r0104_pp_up]
+original_item = "pp_up"
+label = "Mt. Mortar - PP Up (Overworld)"
+id = 129
+table = "overworld"
+type = "overworld"
+check = 1189
+
+[overworld_d38r0104_full_restore]
+original_item = "full_restore"
+label = "Mt. Mortar - Full Restore (Overworld)"
+id = 130
+table = "overworld"
+type = "overworld"
+check = 1190
+
+[overworld_d38r0104_max_ether]
+original_item = "max_ether"
+label = "Mt. Mortar - Max Ether (Overworld)"
+id = 131
+table = "overworld"
+type = "overworld"
+check = 1191
+
+[overworld_d38r0104_hyper_potion]
+original_item = "hyper_potion"
+label = "Mt. Mortar - Hyper Potion (Overworld)"
+id = 132
+table = "overworld"
+type = "overworld"
+check = 1192
+
+[overworld_r34_nugget]
+original_item = "nugget"
+label = "Route 34 - Nugget (Overworld)"
+id = 47
+table = "overworld"
+type = "overworld"
+check = 1087
+
+[overworld_r34_tm63]
+original_item = "tm63"
+label = "Route 34 - TM63 (Overworld)"
+id = 48
+table = "overworld"
+type = "overworld"
+check = 1274
+
+[overworld_d26r0102_super_potion]
+original_item = "super_potion"
+label = "SLOWPOKE Well - Super Potion (Overworld)"
+id = 41
+table = "overworld"
+type = "overworld"
+check = 1075
+
+[overworld_d35r0104_protein]
+original_item = "protein"
+label = "Team Rocket HQ - Protein (Overworld)"
+id = 139
+table = "overworld"
+type = "overworld"
+check = 1108
+
+[overworld_d35r0104_x_special]
+original_item = "x_special"
+label = "Team Rocket HQ - X Special (Overworld)"
+id = 140
+table = "overworld"
+type = "overworld"
+check = 1109
+
+[overworld_d35r0104_tm49]
+original_item = "tm49"
+label = "Team Rocket HQ - TM49 (Overworld)"
+id = 137
+table = "overworld"
+type = "overworld"
+check = 1106
+
+[overworld_d35r0104_full_heal]
+original_item = "full_heal"
+label = "Team Rocket HQ - Full Heal (Overworld)"
+id = 138
+table = "overworld"
+type = "overworld"
+check = 1107
+
+[overworld_d35r0104_ultra_ball]
+original_item = "ultra_ball"
+label = "Team Rocket HQ - Ultra Ball (Overworld)"
+id = 141
+table = "overworld"
+type = "overworld"
+check = 1196
+
+[overworld_t06_luck_incense]
+original_item = "luck_incense"
+label = "Vermilion City - Luck Incense (Overworld)"
+id = 187
+table = "overworld"
+type = "overworld"
+check = 1294
+
+[overworld_t06_sticky_barb]
+original_item = "sticky_barb"
+label = "Vermilion City - Sticky Barb (Overworld)"
+id = 188
+table = "overworld"
+type = "overworld"
+check = 1295
+
+[overworld_d37r0104_full_heal]
+original_item = "full_heal"
+label = "Goldenrod City - Full Heal (Overworld)"
+id = 56
+table = "overworld"
+type = "overworld"
+check = 1095
+
+[overworld_d37r0104_smoke_ball]
+original_item = "smoke_ball"
+label = "Goldenrod City - Smoke Ball (Overworld)"
+id = 57
+table = "overworld"
+type = "overworld"
+check = 1096
+
+[overworld_r12_calcium]
+original_item = "calcium"
+label = "Route 12 - Calcium (Overworld)"
+id = 207
+table = "overworld"
+type = "overworld"
+check = 1228
+
+[overworld_r12_yellow_flute]
+original_item = "yellow_flute"
+label = "Route 12 - Yellow Flute (Overworld)"
+id = 208
+table = "overworld"
+type = "overworld"
+check = 1229
+
+[overworld_r39_tm60]
+original_item = "tm60"
+label = "Route 39 - TM60 (Overworld)"
+id = 84
+table = "overworld"
+type = "overworld"
+check = 1279
+
+[overworld_d36r0101_revive]
+original_item = "revive"
+label = "Ilex Forest - Revive (Overworld)"
+id = 43
+table = "overworld"
+type = "overworld"
+check = 1077
+
+[overworld_d36r0101_x_attack]
+original_item = "x_attack"
+label = "Ilex Forest - X Attack (Overworld)"
+id = 44
+table = "overworld"
+type = "overworld"
+check = 1084
+
+[overworld_d36r0101_antidote]
+original_item = "antidote"
+label = "Ilex Forest - Antidote (Overworld)"
+id = 45
+table = "overworld"
+type = "overworld"
+check = 1085
+
+[overworld_d36r0101_ether]
+original_item = "ether"
+label = "Ilex Forest - Ether (Overworld)"
+id = 46
+table = "overworld"
+type = "overworld"
+check = 1086
+
+[overworld_r04_hp_up]
+original_item = "hp_up"
+label = "Route 4 - HP Up (Overworld)"
+id = 220
+table = "overworld"
+type = "overworld"
+check = 1240
+
+[overworld_d18r0102_tm12]
+original_item = "tm12"
+label = "Burned Tower - TM12 (Overworld)"
+id = 69
+table = "overworld"
+type = "overworld"
+check = 1074
+
+[overworld_r06_tm62]
+original_item = "tm62"
+label = "Route 6 - TM62 (Overworld)"
+id = 191
+table = "overworld"
+type = "overworld"
+check = 1299
+
+[overworld_d37r0105_tm82]
+original_item = "tm82"
+label = "Goldenrod City - TM82 (Overworld)"
+id = 49
+table = "overworld"
+type = "overworld"
+check = 1078
+
+[overworld_d37r0105_max_ether]
+original_item = "max_ether"
+label = "Goldenrod City - Max Ether (Overworld)"
+id = 50
+table = "overworld"
+type = "overworld"
+check = 1079
+
+[overworld_d37r0105_ultra_ball]
+original_item = "ultra_ball"
+label = "Goldenrod City - Ultra Ball (Overworld)"
+id = 51
+table = "overworld"
+type = "overworld"
+check = 1094
+
+[overworld_d26r0103_tm18]
+original_item = "tm18"
+label = "SLOWPOKE Well - TM18 (Overworld)"
+id = 42
+table = "overworld"
+type = "overworld"
+check = 1076
+
+[overworld_w19_tm55]
+original_item = "tm55"
+label = "Route 19 - TM55 (Overworld)"
+id = 229
+table = "overworld"
+type = "overworld"
+check = 1199
+
+[overworld_t26_tm57]
+original_item = "tm57"
+label = "Olivine City - TM57 (Overworld)"
+id = 85
+table = "overworld"
+type = "overworld"
+check = 1310
+
+[overworld_r08_tm41]
+original_item = "tm41"
+label = "Route 8 - TM41 (Overworld)"
+id = 192
+table = "overworld"
+type = "overworld"
+check = 1287
+
+[overworld_r10r0101_tm69]
+original_item = "tm69"
+label = "Route 10 - TM69 (Overworld)"
+id = 193
+table = "overworld"
+type = "overworld"
+check = 1300
+
+[overworld_w40_tm88]
+original_item = "tm88"
+label = "Route 40 - TM88 (Overworld)"
+id = 91
+table = "overworld"
+type = "overworld"
+check = 1266
+
+[overworld_d03r0101_max_elixir]
+original_item = "max_elixir"
+label = "Cerulean Cave - Max Elixir (Overworld)"
+id = 242
+table = "overworld"
+type = "overworld"
+check = 1257
+
+[overworld_d03r0101_nugget]
+original_item = "nugget"
+label = "Cerulean Cave - Nugget (Overworld)"
+id = 244
+table = "overworld"
+type = "overworld"
+check = 1260
+
+[overworld_d03r0101_full_restore]
+original_item = "full_restore"
+label = "Cerulean Cave - Full Restore (Overworld)"
+id = 243
+table = "overworld"
+type = "overworld"
+check = 1259
+
+[overworld_d03r0101_sea_incense]
+original_item = "sea_incense"
+label = "Cerulean Cave - Sea Incense (Overworld)"
+id = 245
+table = "overworld"
+type = "overworld"
+check = 1261
+
+[overworld_d11r0102_grip_claw]
+original_item = "grip_claw"
+label = "Seafoam Islands - Grip Claw (Overworld)"
+id = 223
+table = "overworld"
+type = "overworld"
+check = 1256
+
+[overworld_d11r0102_ice_heal]
+original_item = "ice_heal"
+label = "Seafoam Islands - Ice Heal (Overworld)"
+id = 222
+table = "overworld"
+type = "overworld"
+check = 1251
+
+[overworld_d23r0104_ultra_ball]
+original_item = "ultra_ball"
+label = "Radio Tower - Ultra Ball (Overworld)"
+id = 60
+table = "overworld"
+type = "overworld"
+check = 1089
+
+[overworld_d37r0103_amulet_coin]
+original_item = "amulet_coin"
+label = "Goldenrod City - Amulet Coin (Overworld)"
+id = 53
+table = "overworld"
+type = "overworld"
+check = 1091
+
+[overworld_d37r0103_burn_heal]
+original_item = "burn_heal"
+label = "Goldenrod City - Burn Heal (Overworld)"
+id = 52
+table = "overworld"
+type = "overworld"
+check = 1090
+
+[overworld_d37r0103_ether]
+original_item = "ether"
+label = "Goldenrod City - Ether (Overworld)"
+id = 54
+table = "overworld"
+type = "overworld"
+check = 1092
+
+[overworld_d37r0103_ultra_ball]
+original_item = "ultra_ball"
+label = "Goldenrod City - Ultra Ball 2 (Overworld)"
+id = 55
+table = "overworld"
+type = "overworld"
+check = 1093
+
+[overworld_r09_tm91]
+original_item = "tm91"
+label = "Route 9 - TM91 (Overworld)"
+id = 200
+table = "overworld"
+type = "overworld"
+check = 1301
+
+[overworld_r09_full_restore]
+original_item = "full_restore"
+label = "Route 9 - Full Restore (Overworld)"
+id = 201
+table = "overworld"
+type = "overworld"
+check = 1302
+
+[overworld_r09_light_clay]
+original_item = "light_clay"
+label = "Route 9 - Light Clay (Overworld)"
+id = 202
+table = "overworld"
+type = "overworld"
+check = 1303
+
+[overworld_r09_max_potion]
+original_item = "max_potion"
+label = "Route 9 - Max Potion (Overworld)"
+id = 203
+table = "overworld"
+type = "overworld"
+check = 1304
+
+[overworld_d11r0103_water_stone]
+original_item = "water_stone"
+label = "Seafoam Islands - Water Stone (Overworld)"
+id = 224
+table = "overworld"
+type = "overworld"
+check = 1252
+
+[overworld_r07_mental_herb]
+original_item = "mental_herb"
+label = "Route 7 - Mental Herb (Overworld)"
+id = 205
+table = "overworld"
+type = "overworld"
+check = 1197
+
+[overworld_d03r0103_max_revive]
+original_item = "max_revive"
+label = "Cerulean Cave - Max Revive (Overworld)"
+id = 250
+table = "overworld"
+type = "overworld"
+check = 1268
+
+[overworld_d03r0103_ultra_ball]
+original_item = "ultra_ball"
+label = "Cerulean Cave - Ultra Ball (Overworld)"
+id = 251
+table = "overworld"
+type = "overworld"
+check = 1269
+
+[overworld_d03r0103_dusk_stone]
+original_item = "dusk_stone"
+label = "Cerulean Cave - Dusk Stone (Overworld)"
+id = 252
+table = "overworld"
+type = "overworld"
+check = 1270
+
+[overworld_d03r0103_electirizer]
+original_item = "electirizer"
+label = "Cerulean Cave - Electirizer (Overworld)"
+id = 253
+table = "overworld"
+type = "overworld"
+check = 1271
+
+[overworld_d03r0103_black_sludge]
+original_item = "black_sludge"
+label = "Cerulean Cave - Black Sludge (Overworld)"
+id = 254
+table = "overworld"
+type = "overworld"
+check = 1272
+
+[overworld_r25_protein]
+original_item = "protein"
+label = "Route 25 - Protein (Overworld)"
+id = 204
+table = "overworld"
+type = "overworld"
+check = 1227
+
+[overworld_d05r0101_elixir]
+original_item = "elixir"
+label = "Rock Tunnel - Elixir (Overworld)"
+id = 194
+table = "overworld"
+type = "overworld"
+check = 1222
+
+[overworld_d05r0101_tm56]
+original_item = "tm56"
+label = "Rock Tunnel - TM56 (Overworld)"
+id = 195
+table = "overworld"
+type = "overworld"
+check = 1223
+
+[overworld_r15_pp_up]
+original_item = "pp_up"
+label = "Route 15 - PP Up (Overworld)"
+id = 209
+table = "overworld"
+type = "overworld"
+check = 1230
+
+[overworld_r15_rose_incense]
+original_item = "rose_incense"
+label = "Route 15 - Rose Incense (Overworld)"
+id = 210
+table = "overworld"
+type = "overworld"
+check = 1306
+
+[overworld_d03r0102_pp_up]
+original_item = "pp_up"
+label = "Cerulean Cave - PP Up (Overworld)"
+id = 246
+table = "overworld"
+type = "overworld"
+check = 1262
+
+[overworld_d03r0102_tm24]
+original_item = "tm24"
+label = "Cerulean Cave - TM24 (Overworld)"
+id = 248
+table = "overworld"
+type = "overworld"
+check = 1264
+
+[overworld_d03r0102_ultra_ball]
+original_item = "ultra_ball"
+label = "Cerulean Cave - Ultra Ball 2 (Overworld)"
+id = 247
+table = "overworld"
+type = "overworld"
+check = 1263
+
+[overworld_d03r0102_odd_incense]
+original_item = "odd_incense"
+label = "Cerulean Cave - Odd Incense (Overworld)"
+id = 249
+table = "overworld"
+type = "overworld"
+check = 1265
+
+[overworld_d40r0101_ultra_ball_2]
+original_item = "ultra_ball"
+label = "Whirl Islands - Ultra Ball 2 (Overworld)"
+id = 93
+table = "overworld"
+type = "overworld"
+check = 1162
+
+[overworld_d40r0101_ultra_ball]
+original_item = "ultra_ball"
+label = "Whirl Islands - Ultra Ball (Overworld)"
+id = 92
+table = "overworld"
+type = "overworld"
+check = 1161
+
+[overworld_d11r0104_revive]
+original_item = "revive"
+label = "Seafoam Islands - Revive (Overworld)"
+id = 225
+table = "overworld"
+type = "overworld"
+check = 1253
+
+[overworld_d11r0104_big_pearl]
+original_item = "big_pearl"
+label = "Seafoam Islands - Big Pearl (Overworld)"
+id = 226
+table = "overworld"
+type = "overworld"
+check = 1254
+
+[overworld_t07_tm67]
+original_item = "tm67"
+label = "Celadon City - TM67 (Overworld)"
+id = 206
+table = "overworld"
+type = "overworld"
+check = 1305
+
+[overworld_d17r0103_full_heal]
+original_item = "full_heal"
+label = "Bell Tower - Full Heal (Overworld)"
+id = 70
+table = "overworld"
+type = "overworld"
+check = 1148
+
+[overworld_d05r0102_iron]
+original_item = "iron"
+label = "Rock Tunnel - Iron (Overworld)"
+id = 196
+table = "overworld"
+type = "overworld"
+check = 1224
+
+[overworld_d05r0102_pp_up]
+original_item = "pp_up"
+label = "Rock Tunnel - PP Up (Overworld)"
+id = 197
+table = "overworld"
+type = "overworld"
+check = 1225
+
+[overworld_d05r0102_revive]
+original_item = "revive"
+label = "Rock Tunnel - Revive (Overworld)"
+id = 198
+table = "overworld"
+type = "overworld"
+check = 1226
+
+[overworld_d05r0102_oval_stone]
+original_item = "oval_stone"
+label = "Rock Tunnel - Oval Stone (Overworld)"
+id = 199
+table = "overworld"
+type = "overworld"
+check = 1296
+
+[overworld_d27r0104_ether]
+original_item = "ether"
+label = "Lighthouse - Ether (Overworld)"
+id = 87
+table = "overworld"
+type = "overworld"
+check = 1098
+
+[overworld_d27r0103_rare_candy]
+original_item = "rare_candy"
+label = "Lighthouse - Rare Candy (Overworld)"
+id = 86
+table = "overworld"
+type = "overworld"
+check = 1160
+
+[overworld_d11r0105_ultra_ball]
+original_item = "ultra_ball"
+label = "Seafoam Islands - Ultra Ball (Overworld)"
+id = 227
+table = "overworld"
+type = "overworld"
+check = 1255
+
+[overworld_d11r0105_tm13]
+original_item = "tm13"
+label = "Seafoam Islands - TM13 (Overworld)"
+id = 228
+table = "overworld"
+type = "overworld"
+check = 1258
+
+[overworld_d17r0104_escape_rope]
+original_item = "escape_rope"
+label = "Bell Tower - Escape Rope (Overworld)"
+id = 71
+table = "overworld"
+type = "overworld"
+check = 1149
+
+[overworld_d17r0104_ultra_ball]
+original_item = "ultra_ball"
+label = "Bell Tower - Ultra Ball (Overworld)"
+id = 72
+table = "overworld"
+type = "overworld"
+check = 1150
+
+[overworld_d17r0104_pp_up]
+original_item = "pp_up"
+label = "Bell Tower - PP Up (Overworld)"
+id = 73
+table = "overworld"
+type = "overworld"
+check = 1151
+
+[overworld_d27r0105_tm87]
+original_item = "tm87"
+label = "Lighthouse - TM87 (Overworld)"
+id = 88
+table = "overworld"
+type = "overworld"
+check = 1099
+
+[overworld_d40r0102_escape_rope]
+original_item = "escape_rope"
+label = "Whirl Islands - Escape Rope (Overworld)"
+id = 94
+table = "overworld"
+type = "overworld"
+check = 1163
+
+[overworld_d40r0102_carbos]
+original_item = "carbos"
+label = "Whirl Islands - Carbos (Overworld)"
+id = 95
+table = "overworld"
+type = "overworld"
+check = 1164
+
+[overworld_d40r0102_full_restore]
+original_item = "full_restore"
+label = "Whirl Islands - Full Restore (Overworld)"
+id = 96
+table = "overworld"
+type = "overworld"
+check = 1165
+
+[overworld_d40r0102_nugget]
+original_item = "nugget"
+label = "Whirl Islands - Nugget (Overworld)"
+id = 97
+table = "overworld"
+type = "overworld"
+check = 1166
+
+[overworld_d40r0102_calcium]
+original_item = "calcium"
+label = "Whirl Islands - Calcium (Overworld)"
+id = 98
+table = "overworld"
+type = "overworld"
+check = 1167
+
+[overworld_r47_revive]
+original_item = "revive"
+label = "Route 47 - Revive (Overworld)"
+id = 103
+table = "overworld"
+type = "overworld"
+check = 1267
+
+[overworld_r47_lagging_tail]
+original_item = "lagging_tail"
+label = "Route 47 - Lagging Tail (Overworld)"
+id = 104
+table = "overworld"
+type = "overworld"
+check = 1281
+
+[overworld_r47_wave_incense]
+original_item = "wave_incense"
+label = "Route 47 - Wave Incense (Overworld)"
+id = 105
+table = "overworld"
+type = "overworld"
+check = 1282
+
+[overworld_r47_white_flute]
+original_item = "white_flute"
+label = "Route 47 - White Flute (Overworld)"
+id = 106
+table = "overworld"
+type = "overworld"
+check = 1283
+
+[overworld_d40r0104_max_revive]
+original_item = "max_revive"
+label = "Whirl Islands - Max Revive (Overworld)"
+id = 99
+table = "overworld"
+type = "overworld"
+check = 1168
+
+[overworld_d40r0104_full_restore]
+original_item = "full_restore"
+label = "Whirl Islands - Full Restore 2 (Overworld)"
+id = 100
+table = "overworld"
+type = "overworld"
+check = 1169
+
+[overworld_d40r0104_max_elixir]
+original_item = "max_elixir"
+label = "Whirl Islands - Max Elixir (Overworld)"
+id = 101
+table = "overworld"
+type = "overworld"
+check = 1170
+
+[overworld_d27r0106_super_repel]
+original_item = "super_repel"
+label = "Lighthouse - Super Repel (Overworld)"
+id = 89
+table = "overworld"
+type = "overworld"
+check = 1100
+
+[overworld_d17r0105_rare_candy]
+original_item = "rare_candy"
+label = "Bell Tower - Rare Candy (Overworld)"
+id = 74
+table = "overworld"
+type = "overworld"
+check = 1152
+
+[overworld_r48_nugget]
+original_item = "nugget"
+label = "Route 48 - Nugget (Overworld)"
+id = 107
+table = "overworld"
+type = "overworld"
+check = 1284
+
+[overworld_d40r0106_rare_candy]
+original_item = "rare_candy"
+label = "Whirl Islands - Rare Candy (Overworld)"
+id = 102
+table = "overworld"
+type = "overworld"
+check = 1171
+
+[overworld_d17r0106_max_potion]
+original_item = "max_potion"
+label = "Bell Tower - Max Potion (Overworld)"
+id = 75
+table = "overworld"
+type = "overworld"
+check = 1153
+
+[overworld_d17r0106_full_heal]
+original_item = "full_heal"
+label = "Bell Tower - Full Heal 2 (Overworld)"
+id = 76
+table = "overworld"
+type = "overworld"
+check = 1154
+
+[overworld_d27r0107_super_potion]
+original_item = "super_potion"
+label = "Lighthouse - Super Potion (Overworld)"
+id = 90
+table = "overworld"
+type = "overworld"
+check = 1101
+
+[overworld_d17r0107_max_revive]
+original_item = "max_revive"
+label = "Bell Tower - Max Revive (Overworld)"
+id = 77
+table = "overworld"
+type = "overworld"
+check = 1155
+
+[overworld_d17r0108_full_restore]
+original_item = "full_restore"
+label = "Bell Tower - Full Restore (Overworld)"
+id = 78
+table = "overworld"
+type = "overworld"
+check = 1156
+
+[overworld_d17r0108_max_elixir]
+original_item = "max_elixir"
+label = "Bell Tower - Max Elixir (Overworld)"
+id = 79
+table = "overworld"
+type = "overworld"
+check = 1157
+
+[overworld_d17r0108_nugget]
+original_item = "nugget"
+label = "Bell Tower - Nugget (Overworld)"
+id = 80
+table = "overworld"
+type = "overworld"
+check = 1158
+
+[overworld_d17r0109_hp_up]
+original_item = "hp_up"
+label = "Bell Tower - HP Up (Overworld)"
+id = 81
+table = "overworld"
+type = "overworld"
+check = 1159
+
+[hidden_t20_potion]
+original_item = "potion"
+label = "New Bark Town - Potion (Hidden)"
+id = 0
+table = "hidden"
+type = "hidden"
+check = 800
+
+[hidden_r29_r30_t21_nugget]
+original_item = "nugget"
+label = "Route 30 - Nugget (Hidden)"
+id = 1
+table = "hidden"
+type = "hidden"
+check = 801
+
+[hidden_r27_revive]
+original_item = "revive"
+label = "Route 27 - Revive (Hidden)"
+id = 181
+table = "hidden"
+type = "hidden"
+check = 981
+
+[hidden_r27_big_mushroom]
+original_item = "big_mushroom"
+label = "Route 27 - Big Mushroom (Hidden)"
+id = 182
+table = "hidden"
+type = "hidden"
+check = 982
+
+[hidden_r26_r27_nugget]
+original_item = "nugget"
+label = "Route 26 - Nugget (Hidden)"
+id = 183
+table = "hidden"
+type = "hidden"
+check = 983
+
+[hidden_r26_tinymushroom]
+original_item = "tinymushroom"
+label = "Route 26 - TinyMushroom (Hidden)"
+id = 184
+table = "hidden"
+type = "hidden"
+check = 984
+
+[hidden_t21_nugget]
+original_item = "nugget"
+label = "Cherrygrove City - Nugget (Hidden)"
+id = 225
+table = "hidden"
+type = "hidden"
+check = 1025
+
+[hidden_r45_r46_pp_max]
+original_item = "pp_max"
+label = "Route 45 - PP Max (Hidden)"
+id = 230
+table = "hidden"
+type = "hidden"
+check = 1030
+
+[hidden_r30_potion]
+original_item = "potion"
+label = "Route 30 - Potion (Hidden)"
+id = 2
+table = "hidden"
+type = "hidden"
+check = 802
+
+[hidden_r45_pp_up]
+original_item = "pp_up"
+label = "Route 45 - PP Up (Hidden)"
+id = 101
+table = "hidden"
+type = "hidden"
+check = 901
+
+[hidden_d42r0102_poke_ball]
+original_item = "poke_ball"
+label = "Dark Cave - Poké Ball (Hidden)"
+id = 14
+table = "hidden"
+type = "hidden"
+check = 814
+
+[hidden_d42r0102_max_ether]
+original_item = "max_ether"
+label = "Dark Cave - Max Ether (Hidden)"
+id = 15
+table = "hidden"
+type = "hidden"
+check = 815
+
+[hidden_r28_rare_candy]
+original_item = "rare_candy"
+label = "Route 28 - Rare Candy (Hidden)"
+id = 115
+table = "hidden"
+type = "hidden"
+check = 915
+
+[hidden_d42r0101_max_revive]
+original_item = "max_revive"
+label = "Dark Cave - Max Revive (Hidden)"
+id = 16
+table = "hidden"
+type = "hidden"
+check = 816
+
+[hidden_d42r0101_hyper_potion]
+original_item = "hyper_potion"
+label = "Dark Cave - Hyper Potion (Hidden)"
+id = 17
+table = "hidden"
+type = "hidden"
+check = 817
+
+[hidden_d42r0101_elixir]
+original_item = "elixir"
+label = "Dark Cave - Elixir (Hidden)"
+id = 18
+table = "hidden"
+type = "hidden"
+check = 818
+
+[hidden_d43r0101_full_heal]
+original_item = "full_heal"
+label = "Victory Road - Full Heal (Hidden)"
+id = 80
+table = "hidden"
+type = "hidden"
+check = 880
+
+[hidden_d43r0101_max_potion]
+original_item = "max_potion"
+label = "Victory Road - Max Potion (Hidden)"
+id = 79
+table = "hidden"
+type = "hidden"
+check = 879
+
+[hidden_r44_elixir]
+original_item = "elixir"
+label = "Route 44 - Elixir (Hidden)"
+id = 100
+table = "hidden"
+type = "hidden"
+check = 900
+
+[hidden_d43r0102_max_revive]
+original_item = "max_revive"
+label = "Victory Road - Max Revive (Hidden)"
+id = 185
+table = "hidden"
+type = "hidden"
+check = 985
+
+[hidden_d43r0102_pp_up]
+original_item = "pp_up"
+label = "Victory Road - PP Up (Hidden)"
+id = 186
+table = "hidden"
+type = "hidden"
+check = 986
+
+[hidden_d43r0102_ultra_ball]
+original_item = "ultra_ball"
+label = "Victory Road - Ultra Ball (Hidden)"
+id = 189
+table = "hidden"
+type = "hidden"
+check = 989
+
+[hidden_t31_full_restore]
+original_item = "full_restore"
+label = "Mt. Silver - Full Restore (Hidden)"
+id = 116
+table = "hidden"
+type = "hidden"
+check = 916
+
+[hidden_d39r0101_max_potion]
+original_item = "max_potion"
+label = "Ice Path - Max Potion (Hidden)"
+id = 70
+table = "hidden"
+type = "hidden"
+check = 870
+
+[hidden_d39r0101_ice_heal]
+original_item = "ice_heal"
+label = "Ice Path - Ice Heal (Hidden)"
+id = 72
+table = "hidden"
+type = "hidden"
+check = 872
+
+[hidden_t02_nugget]
+original_item = "nugget"
+label = "Viridian City - Nugget (Hidden)"
+id = 200
+table = "hidden"
+type = "hidden"
+check = 1000
+
+[hidden_t22_hyper_potion]
+original_item = "hyper_potion"
+label = "Violet City - Hyper Potion (Hidden)"
+id = 3
+table = "hidden"
+type = "hidden"
+check = 803
+
+[hidden_t22_poke_ball]
+original_item = "poke_ball"
+label = "Violet City - Poké Ball (Hidden)"
+id = 108
+table = "hidden"
+type = "hidden"
+check = 908
+
+[hidden_d41r0101_dire_hit]
+original_item = "dire_hit"
+label = "Mt. Silver Cave - Dire Hit (Hidden)"
+id = 76
+table = "hidden"
+type = "hidden"
+check = 876
+
+[hidden_d41r0101_ultra_ball]
+original_item = "ultra_ball"
+label = "Mt. Silver Cave - Ultra Ball (Hidden)"
+id = 77
+table = "hidden"
+type = "hidden"
+check = 877
+
+[hidden_d41r0101_revive]
+original_item = "revive"
+label = "Mt. Silver Cave - Revive (Hidden)"
+id = 201
+table = "hidden"
+type = "hidden"
+check = 1001
+
+[hidden_d44r0102_revive]
+original_item = "revive"
+label = "Dragon’s Den - Revive (Hidden)"
+id = 81
+table = "hidden"
+type = "hidden"
+check = 881
+
+[hidden_d44r0102_max_elixir]
+original_item = "max_elixir"
+label = "Dragon’s Den - Max Elixir (Hidden)"
+id = 83
+table = "hidden"
+type = "hidden"
+check = 883
+
+[hidden_d44r0102_max_potion]
+original_item = "max_potion"
+label = "Dragon’s Den - Max Potion (Hidden)"
+id = 82
+table = "hidden"
+type = "hidden"
+check = 882
+
+[hidden_d39r0102_revive]
+original_item = "revive"
+label = "Ice Path - Revive (Hidden)"
+id = 228
+table = "hidden"
+type = "hidden"
+check = 1028
+
+[hidden_d43r0103_hyper_potion]
+original_item = "hyper_potion"
+label = "Victory Road - Hyper Potion (Hidden)"
+id = 187
+table = "hidden"
+type = "hidden"
+check = 987
+
+[hidden_d43r0103_zinc]
+original_item = "zinc"
+label = "Victory Road - Zinc (Hidden)"
+id = 188
+table = "hidden"
+type = "hidden"
+check = 988
+
+[hidden_d24r0101_great_ball]
+original_item = "great_ball"
+label = "Ruins of Alph - Great Ball (Hidden)"
+id = 146
+table = "hidden"
+type = "hidden"
+check = 946
+
+[hidden_d24r0101_rare_candy]
+original_item = "rare_candy"
+label = "Ruins of Alph - Rare Candy (Hidden)"
+id = 149
+table = "hidden"
+type = "hidden"
+check = 949
+
+[hidden_d24r0101_tinymushroom]
+original_item = "tinymushroom"
+label = "Ruins of Alph - TinyMushroom (Hidden)"
+id = 148
+table = "hidden"
+type = "hidden"
+check = 948
+
+[hidden_d24r0101_big_mushroom]
+original_item = "big_mushroom"
+label = "Ruins of Alph - Big Mushroom (Hidden)"
+id = 147
+table = "hidden"
+type = "hidden"
+check = 947
+
+[hidden_d24r0101_nugget]
+original_item = "nugget"
+label = "Ruins of Alph - Nugget (Hidden)"
+id = 150
+table = "hidden"
+type = "hidden"
+check = 950
+
+[hidden_r32_heart_scale]
+original_item = "heart_scale"
+label = "Route 32 - Heart Scale (Hidden)"
+id = 4
+table = "hidden"
+type = "hidden"
+check = 804
+
+[hidden_r32_great_ball]
+original_item = "great_ball"
+label = "Route 32 - Great Ball (Hidden)"
+id = 5
+table = "hidden"
+type = "hidden"
+check = 805
+
+[hidden_r32_super_potion]
+original_item = "super_potion"
+label = "Route 32 - Super Potion (Hidden)"
+id = 97
+table = "hidden"
+type = "hidden"
+check = 897
+
+[hidden_r36_awakening]
+original_item = "awakening"
+label = "Route 36 - Awakening (Hidden)"
+id = 11
+table = "hidden"
+type = "hidden"
+check = 811
+
+[hidden_d25r0101_big_pearl]
+original_item = "big_pearl"
+label = "Union Cave - Big Pearl (Hidden)"
+id = 154
+table = "hidden"
+type = "hidden"
+check = 954
+
+[hidden_d25r0101_great_ball]
+original_item = "great_ball"
+label = "Union Cave - Great Ball (Hidden)"
+id = 151
+table = "hidden"
+type = "hidden"
+check = 951
+
+[hidden_d25r0101_parlyz_heal]
+original_item = "parlyz_heal"
+label = "Union Cave - Parlyz Heal (Hidden)"
+id = 152
+table = "hidden"
+type = "hidden"
+check = 952
+
+[hidden_r35_nugget]
+original_item = "nugget"
+label = "Route 35 - Nugget (Hidden)"
+id = 10
+table = "hidden"
+type = "hidden"
+check = 810
+
+[hidden_r42_max_potion]
+original_item = "max_potion"
+label = "Route 42 - Max Potion (Hidden)"
+id = 42
+table = "hidden"
+type = "hidden"
+check = 842
+
+[hidden_d41r0106_max_potion]
+original_item = "max_potion"
+label = "Mt. Silver Cave - Max Potion (Hidden)"
+id = 78
+table = "hidden"
+type = "hidden"
+check = 878
+
+[hidden_d41r0106_iron]
+original_item = "iron"
+label = "Mt. Silver Cave - Iron (Hidden)"
+id = 222
+table = "hidden"
+type = "hidden"
+check = 1022
+
+[hidden_t10_rare_candy]
+original_item = "rare_candy"
+label = "Indigo Plateau - Rare Candy (Hidden)"
+id = 190
+table = "hidden"
+type = "hidden"
+check = 990
+
+[hidden_d41r0105_ultra_ball]
+original_item = "ultra_ball"
+label = "Mt. Silver Cave - Ultra Ball 2 (Hidden)"
+id = 202
+table = "hidden"
+type = "hidden"
+check = 1002
+
+[hidden_d41r0105_hyper_potion]
+original_item = "hyper_potion"
+label = "Mt. Silver Cave - Hyper Potion (Hidden)"
+id = 203
+table = "hidden"
+type = "hidden"
+check = 1003
+
+[hidden_d39r0103_carbos]
+original_item = "carbos"
+label = "Ice Path - Carbos (Hidden)"
+id = 71
+table = "hidden"
+type = "hidden"
+check = 871
+
+[hidden_d25r0102_x_speed]
+original_item = "x_speed"
+label = "Union Cave - X Speed (Hidden)"
+id = 153
+table = "hidden"
+type = "hidden"
+check = 953
+
+[hidden_d25r0102_revive]
+original_item = "revive"
+label = "Union Cave - Revive (Hidden)"
+id = 155
+table = "hidden"
+type = "hidden"
+check = 955
+
+[hidden_t27_hyper_potion]
+original_item = "hyper_potion"
+label = "Ecruteak City - Hyper Potion (Hidden)"
+id = 12
+table = "hidden"
+type = "hidden"
+check = 812
+
+[hidden_t27_ether]
+original_item = "ether"
+label = "Ecruteak City - Ether (Hidden)"
+id = 13
+table = "hidden"
+type = "hidden"
+check = 813
+
+[hidden_t27_rare_candy]
+original_item = "rare_candy"
+label = "Ecruteak City - Rare Candy (Hidden)"
+id = 132
+table = "hidden"
+type = "hidden"
+check = 932
+
+[hidden_t27_ultra_ball]
+original_item = "ultra_ball"
+label = "Ecruteak City - Ultra Ball (Hidden)"
+id = 133
+table = "hidden"
+type = "hidden"
+check = 933
+
+[hidden_d35r0102_revive]
+original_item = "revive"
+label = "Team Rocket HQ - Revive (Hidden)"
+id = 51
+table = "hidden"
+type = "hidden"
+check = 851
+
+[hidden_d46r0101_max_ether]
+original_item = "max_ether"
+label = "Viridian Forest - Max Ether (Hidden)"
+id = 85
+table = "hidden"
+type = "hidden"
+check = 885
+
+[hidden_d46r0101_full_restore]
+original_item = "full_restore"
+label = "Viridian Forest - Full Restore (Hidden)"
+id = 87
+table = "hidden"
+type = "hidden"
+check = 887
+
+[hidden_d46r0101_big_mushroom]
+original_item = "big_mushroom"
+label = "Viridian Forest - Big Mushroom (Hidden)"
+id = 216
+table = "hidden"
+type = "hidden"
+check = 1016
+
+[hidden_d46r0101_big_mushroom_2]
+original_item = "big_mushroom"
+label = "Viridian Forest - Big Mushroom 2 (Hidden)"
+id = 217
+table = "hidden"
+type = "hidden"
+check = 1017
+
+[hidden_d46r0101_tinymushroom]
+original_item = "tinymushroom"
+label = "Viridian Forest - TinyMushroom (Hidden)"
+id = 218
+table = "hidden"
+type = "hidden"
+check = 1018
+
+[hidden_d46r0101_tinymushroom_2]
+original_item = "tinymushroom"
+label = "Viridian Forest - TinyMushroom 2 (Hidden)"
+id = 219
+table = "hidden"
+type = "hidden"
+check = 1019
+
+[hidden_d46r0101_tinymushroom_3]
+original_item = "tinymushroom"
+label = "Viridian Forest - TinyMushroom 3 (Hidden)"
+id = 220
+table = "hidden"
+type = "hidden"
+check = 1020
+
+[hidden_d01r0101_max_revive]
+original_item = "max_revive"
+label = "DIGLETT’s Cave - Max Revive (Hidden)"
+id = 56
+table = "hidden"
+type = "hidden"
+check = 856
+
+[hidden_d01r0101_calcium]
+original_item = "calcium"
+label = "DIGLETT’s Cave - Calcium (Hidden)"
+id = 224
+table = "hidden"
+type = "hidden"
+check = 1024
+
+[hidden_d25r0103_ultra_ball]
+original_item = "ultra_ball"
+label = "Union Cave - Ultra Ball (Hidden)"
+id = 156
+table = "hidden"
+type = "hidden"
+check = 956
+
+[hidden_d25r0103_calcium]
+original_item = "calcium"
+label = "Union Cave - Calcium (Hidden)"
+id = 157
+table = "hidden"
+type = "hidden"
+check = 957
+
+[hidden_d38r0101_hyper_potion]
+original_item = "hyper_potion"
+label = "Mt. Mortar - Hyper Potion (Hidden)"
+id = 43
+table = "hidden"
+type = "hidden"
+check = 843
+
+[hidden_d38r0101_revive]
+original_item = "revive"
+label = "Mt. Mortar - Revive (Hidden)"
+id = 44
+table = "hidden"
+type = "hidden"
+check = 844
+
+[hidden_d41r0102_rare_candy]
+original_item = "rare_candy"
+label = "Mt. Silver Cave - Rare Candy (Hidden)"
+id = 165
+table = "hidden"
+type = "hidden"
+check = 965
+
+[hidden_d41r0102_max_ether]
+original_item = "max_ether"
+label = "Mt. Silver Cave - Max Ether (Hidden)"
+id = 204
+table = "hidden"
+type = "hidden"
+check = 1004
+
+[hidden_d41r0102_hyper_potion]
+original_item = "hyper_potion"
+label = "Mt. Silver Cave - Hyper Potion 2 (Hidden)"
+id = 205
+table = "hidden"
+type = "hidden"
+check = 1005
+
+[hidden_t29_full_restore]
+original_item = "full_restore"
+label = "Lake of Rage - Full Restore (Hidden)"
+id = 36
+table = "hidden"
+type = "hidden"
+check = 836
+
+[hidden_t29_rare_candy]
+original_item = "rare_candy"
+label = "Lake of Rage - Rare Candy (Hidden)"
+id = 37
+table = "hidden"
+type = "hidden"
+check = 837
+
+[hidden_t29_max_potion]
+original_item = "max_potion"
+label = "Lake of Rage - Max Potion (Hidden)"
+id = 102
+table = "hidden"
+type = "hidden"
+check = 902
+
+[hidden_t23_full_heal]
+original_item = "full_heal"
+label = "Azalea Town - Full Heal (Hidden)"
+id = 6
+table = "hidden"
+type = "hidden"
+check = 806
+
+[hidden_t03_pp_up]
+original_item = "pp_up"
+label = "Pewter City - PP Up (Hidden)"
+id = 198
+table = "hidden"
+type = "hidden"
+check = 998
+
+[hidden_t03_guard_spec_]
+original_item = "guard_spec_"
+label = "Pewter City - Guard Spec. (Hidden)"
+id = 199
+table = "hidden"
+type = "hidden"
+check = 999
+
+[hidden_t03_max_revive]
+original_item = "max_revive"
+label = "Pewter City - Max Revive (Hidden)"
+id = 227
+table = "hidden"
+type = "hidden"
+check = 1027
+
+[hidden_w21_stardust]
+original_item = "stardust"
+label = "Route 21 - Stardust (Hidden)"
+id = 175
+table = "hidden"
+type = "hidden"
+check = 975
+
+[hidden_w21_stardust_2]
+original_item = "stardust"
+label = "Route 21 - Stardust 2 (Hidden)"
+id = 176
+table = "hidden"
+type = "hidden"
+check = 976
+
+[hidden_w21_stardust_3]
+original_item = "stardust"
+label = "Route 21 - Stardust 3 (Hidden)"
+id = 177
+table = "hidden"
+type = "hidden"
+check = 977
+
+[hidden_t09_w21_rare_candy]
+original_item = "rare_candy"
+label = "Cinnabar Island - Rare Candy (Hidden)"
+id = 114
+table = "hidden"
+type = "hidden"
+check = 914
+
+[hidden_r34_t25_super_potion]
+original_item = "super_potion"
+label = "Route 34 - Super Potion (Hidden)"
+id = 9
+table = "hidden"
+type = "hidden"
+check = 809
+
+[hidden_d22r0101_d22r0102_full_heal]
+original_item = "full_heal"
+label = "National Park - Full Heal (Hidden)"
+id = 34
+table = "hidden"
+type = "hidden"
+check = 834
+
+[hidden_d22r0101_d22r0102_full_heal_2]
+original_item = "full_heal"
+label = "National Park - Full Heal 2 (Hidden)"
+id = 35
+table = "hidden"
+type = "hidden"
+check = 835
+
+[hidden_d38r0103_full_restore]
+original_item = "full_restore"
+label = "Mt. Mortar - Full Restore (Hidden)"
+id = 47
+table = "hidden"
+type = "hidden"
+check = 847
+
+[hidden_d38r0103_hp_up]
+original_item = "hp_up"
+label = "Mt. Mortar - HP Up (Hidden)"
+id = 48
+table = "hidden"
+type = "hidden"
+check = 848
+
+[hidden_d38r0103_hyper_potion]
+original_item = "hyper_potion"
+label = "Mt. Mortar - Hyper Potion 2 (Hidden)"
+id = 143
+table = "hidden"
+type = "hidden"
+check = 943
+
+[hidden_d38r0103_full_heal]
+original_item = "full_heal"
+label = "Mt. Mortar - Full Heal (Hidden)"
+id = 144
+table = "hidden"
+type = "hidden"
+check = 944
+
+[hidden_d18r0101_ultra_ball]
+original_item = "ultra_ball"
+label = "Burned Tower - Ultra Ball (Hidden)"
+id = 20
+table = "hidden"
+type = "hidden"
+check = 820
+
+[hidden_d18r0101_ether]
+original_item = "ether"
+label = "Burned Tower - Ether (Hidden)"
+id = 19
+table = "hidden"
+type = "hidden"
+check = 819
+
+[hidden_d26r0101_great_ball]
+original_item = "great_ball"
+label = "SLOWPOKE Well - Great Ball (Hidden)"
+id = 27
+table = "hidden"
+type = "hidden"
+check = 827
+
+[hidden_r03_star_piece_2]
+original_item = "star_piece"
+label = "Route 3 - Star Piece 2 (Hidden)"
+id = 145
+table = "hidden"
+type = "hidden"
+check = 945
+
+[hidden_r03_star_piece]
+original_item = "star_piece"
+label = "Route 3 - Star Piece (Hidden)"
+id = 138
+table = "hidden"
+type = "hidden"
+check = 938
+
+[hidden_r03_hyper_potion]
+original_item = "hyper_potion"
+label = "Route 3 - Hyper Potion (Hidden)"
+id = 139
+table = "hidden"
+type = "hidden"
+check = 939
+
+[hidden_d41r0107_max_revive]
+original_item = "max_revive"
+label = "Mt. Silver Cave - Max Revive (Hidden)"
+id = 206
+table = "hidden"
+type = "hidden"
+check = 1006
+
+[hidden_r11_revive]
+original_item = "revive"
+label = "Route 11 - Revive (Hidden)"
+id = 104
+table = "hidden"
+type = "hidden"
+check = 904
+
+[hidden_d49_pp_up]
+original_item = "pp_up"
+label = "Pokéathlon Dome - PP Up (Hidden)"
+id = 159
+table = "hidden"
+type = "hidden"
+check = 959
+
+[hidden_d49_protein]
+original_item = "protein"
+label = "Pokéathlon Dome - Protein (Hidden)"
+id = 160
+table = "hidden"
+type = "hidden"
+check = 960
+
+[hidden_t09_iron]
+original_item = "iron"
+label = "Cinnabar Island - Iron (Hidden)"
+id = 166
+table = "hidden"
+type = "hidden"
+check = 966
+
+[hidden_t09_star_piece]
+original_item = "star_piece"
+label = "Cinnabar Island - Star Piece (Hidden)"
+id = 167
+table = "hidden"
+type = "hidden"
+check = 967
+
+[hidden_d38r0102_max_repel]
+original_item = "max_repel"
+label = "Mt. Mortar - Max Repel (Hidden)"
+id = 45
+table = "hidden"
+type = "hidden"
+check = 845
+
+[hidden_d38r0102_ether]
+original_item = "ether"
+label = "Mt. Mortar - Ether (Hidden)"
+id = 46
+table = "hidden"
+type = "hidden"
+check = 846
+
+[hidden_d38r0102_rare_candy]
+original_item = "rare_candy"
+label = "Mt. Mortar - Rare Candy (Hidden)"
+id = 140
+table = "hidden"
+type = "hidden"
+check = 940
+
+[hidden_d38r0102_ultra_ball]
+original_item = "ultra_ball"
+label = "Mt. Mortar - Ultra Ball (Hidden)"
+id = 141
+table = "hidden"
+type = "hidden"
+check = 941
+
+[hidden_d38r0102_nugget]
+original_item = "nugget"
+label = "Mt. Mortar - Nugget (Hidden)"
+id = 142
+table = "hidden"
+type = "hidden"
+check = 942
+
+[hidden_d35r0103_full_heal]
+original_item = "full_heal"
+label = "Team Rocket HQ - Full Heal (Hidden)"
+id = 54
+table = "hidden"
+type = "hidden"
+check = 854
+
+[hidden_d35r0103_x_sp__def]
+original_item = "x_sp__def"
+label = "Team Rocket HQ - X Sp. Def (Hidden)"
+id = 55
+table = "hidden"
+type = "hidden"
+check = 855
+
+[hidden_r38_hp_up]
+original_item = "hp_up"
+label = "Route 38 - HP Up (Hidden)"
+id = 22
+table = "hidden"
+type = "hidden"
+check = 822
+
+[hidden_d38r0104_max_revive]
+original_item = "max_revive"
+label = "Mt. Mortar - Max Revive (Hidden)"
+id = 49
+table = "hidden"
+type = "hidden"
+check = 849
+
+[hidden_d38r0104_ultra_ball]
+original_item = "ultra_ball"
+label = "Mt. Mortar - Ultra Ball 2 (Hidden)"
+id = 50
+table = "hidden"
+type = "hidden"
+check = 850
+
+[hidden_r34_rare_candy]
+original_item = "rare_candy"
+label = "Route 34 - Rare Candy (Hidden)"
+id = 7
+table = "hidden"
+type = "hidden"
+check = 807
+
+[hidden_r34_super_potion]
+original_item = "super_potion"
+label = "Route 34 - Super Potion 2 (Hidden)"
+id = 8
+table = "hidden"
+type = "hidden"
+check = 808
+
+[hidden_d26r0102_super_potion]
+original_item = "super_potion"
+label = "SLOWPOKE Well - Super Potion (Hidden)"
+id = 28
+table = "hidden"
+type = "hidden"
+check = 828
+
+[hidden_d26r0102_full_heal]
+original_item = "full_heal"
+label = "SLOWPOKE Well - Full Heal (Hidden)"
+id = 29
+table = "hidden"
+type = "hidden"
+check = 829
+
+[hidden_d02r0101_revive]
+original_item = "revive"
+label = "Mt. Moon - Revive (Hidden)"
+id = 195
+table = "hidden"
+type = "hidden"
+check = 995
+
+[hidden_w20_stardust]
+original_item = "stardust"
+label = "Route 20 - Stardust (Hidden)"
+id = 174
+table = "hidden"
+type = "hidden"
+check = 974
+
+[hidden_w20_deepseascale]
+original_item = "deepseascale"
+label = "Route 20 - DeepSeaScale (Hidden)"
+id = 229
+table = "hidden"
+type = "hidden"
+check = 1029
+
+[hidden_w20_deepseatooth]
+original_item = "deepseatooth"
+label = "Route 20 - DeepSeaTooth (Hidden)"
+id = 38
+table = "hidden"
+type = "hidden"
+check = 838
+
+[hidden_t06_full_heal]
+original_item = "full_heal"
+label = "Vermilion City - Full Heal (Hidden)"
+id = 103
+table = "hidden"
+type = "hidden"
+check = 903
+
+[hidden_t06_heart_scale]
+original_item = "heart_scale"
+label = "Vermilion City - Heart Scale (Hidden)"
+id = 168
+table = "hidden"
+type = "hidden"
+check = 968
+
+[hidden_t06_pearl]
+original_item = "pearl"
+label = "Vermilion City - Pearl (Hidden)"
+id = 162
+table = "hidden"
+type = "hidden"
+check = 962
+
+[hidden_t06_pearl_2]
+original_item = "pearl"
+label = "Vermilion City - Pearl 2 (Hidden)"
+id = 163
+table = "hidden"
+type = "hidden"
+check = 963
+
+[hidden_t06_big_pearl]
+original_item = "big_pearl"
+label = "Vermilion City - Big Pearl (Hidden)"
+id = 164
+table = "hidden"
+type = "hidden"
+check = 964
+
+[hidden_r12_elixir]
+original_item = "elixir"
+label = "Route 12 - Elixir (Hidden)"
+id = 112
+table = "hidden"
+type = "hidden"
+check = 912
+
+[hidden_r39_nugget]
+original_item = "nugget"
+label = "Route 39 - Nugget (Hidden)"
+id = 98
+table = "hidden"
+type = "hidden"
+check = 898
+
+[hidden_r39_pp_up]
+original_item = "pp_up"
+label = "Route 39 - PP Up (Hidden)"
+id = 135
+table = "hidden"
+type = "hidden"
+check = 935
+
+[hidden_r39_x_attack]
+original_item = "x_attack"
+label = "Route 39 - X Attack (Hidden)"
+id = 136
+table = "hidden"
+type = "hidden"
+check = 936
+
+[hidden_r39_t26_full_heal]
+original_item = "full_heal"
+label = "Olivine City - Full Heal (Hidden)"
+id = 137
+table = "hidden"
+type = "hidden"
+check = 937
+
+[hidden_d36r0101_antidote]
+original_item = "antidote"
+label = "Ilex Forest - Antidote (Hidden)"
+id = 30
+table = "hidden"
+type = "hidden"
+check = 830
+
+[hidden_d36r0101_super_potion]
+original_item = "super_potion"
+label = "Ilex Forest - Super Potion (Hidden)"
+id = 31
+table = "hidden"
+type = "hidden"
+check = 831
+
+[hidden_d36r0101_full_heal]
+original_item = "full_heal"
+label = "Ilex Forest - Full Heal (Hidden)"
+id = 32
+table = "hidden"
+type = "hidden"
+check = 832
+
+[hidden_d36r0101_ether]
+original_item = "ether"
+label = "Ilex Forest - Ether (Hidden)"
+id = 33
+table = "hidden"
+type = "hidden"
+check = 833
+
+[hidden_d36r0101_tinymushroom]
+original_item = "tinymushroom"
+label = "Ilex Forest - TinyMushroom (Hidden)"
+id = 211
+table = "hidden"
+type = "hidden"
+check = 1011
+
+[hidden_d36r0101_repel]
+original_item = "repel"
+label = "Ilex Forest - Repel (Hidden)"
+id = 212
+table = "hidden"
+type = "hidden"
+check = 1012
+
+[hidden_d36r0101_big_mushroom]
+original_item = "big_mushroom"
+label = "Ilex Forest - Big Mushroom (Hidden)"
+id = 213
+table = "hidden"
+type = "hidden"
+check = 1013
+
+[hidden_d36r0101_tinymushroom_2]
+original_item = "tinymushroom"
+label = "Ilex Forest - TinyMushroom 2 (Hidden)"
+id = 214
+table = "hidden"
+type = "hidden"
+check = 1014
+
+[hidden_d36r0101_tinymushroom_3]
+original_item = "tinymushroom"
+label = "Ilex Forest - TinyMushroom 3 (Hidden)"
+id = 215
+table = "hidden"
+type = "hidden"
+check = 1015
+
+[hidden_r04_ultra_ball]
+original_item = "ultra_ball"
+label = "Route 4 - Ultra Ball (Hidden)"
+id = 113
+table = "hidden"
+type = "hidden"
+check = 913
+
+[hidden_r04_big_mushroom]
+original_item = "big_mushroom"
+label = "Route 4 - Big Mushroom (Hidden)"
+id = 194
+table = "hidden"
+type = "hidden"
+check = 994
+
+[hidden_d18r0102_revive]
+original_item = "revive"
+label = "Burned Tower - Revive (Hidden)"
+id = 21
+table = "hidden"
+type = "hidden"
+check = 821
+
+[hidden_d18r0102_antidote]
+original_item = "antidote"
+label = "Burned Tower - Antidote (Hidden)"
+id = 65
+table = "hidden"
+type = "hidden"
+check = 865
+
+[hidden_r13_calcium]
+original_item = "calcium"
+label = "Route 13 - Calcium (Hidden)"
+id = 111
+table = "hidden"
+type = "hidden"
+check = 911
+
+[hidden_d17r1101_tinymushroom]
+original_item = "tinymushroom"
+label = "Bellchime Trail - TinyMushroom (Hidden)"
+id = 125
+table = "hidden"
+type = "hidden"
+check = 925
+
+[hidden_d17r1101_big_mushroom]
+original_item = "big_mushroom"
+label = "Bellchime Trail - Big Mushroom (Hidden)"
+id = 126
+table = "hidden"
+type = "hidden"
+check = 926
+
+[hidden_d17r1101_tinymushroom_2]
+original_item = "tinymushroom"
+label = "Bellchime Trail - TinyMushroom 2 (Hidden)"
+id = 128
+table = "hidden"
+type = "hidden"
+check = 928
+
+[hidden_d17r1101_big_mushroom_2]
+original_item = "big_mushroom"
+label = "Bellchime Trail - Big Mushroom 2 (Hidden)"
+id = 127
+table = "hidden"
+type = "hidden"
+check = 927
+
+[hidden_d17r1101_tinymushroom_3]
+original_item = "tinymushroom"
+label = "Bellchime Trail - TinyMushroom 3 (Hidden)"
+id = 129
+table = "hidden"
+type = "hidden"
+check = 929
+
+[hidden_t04_nugget]
+original_item = "nugget"
+label = "Cerulean City - Nugget (Hidden)"
+id = 106
+table = "hidden"
+type = "hidden"
+check = 906
+
+[hidden_d37r0105_max_potion]
+original_item = "max_potion"
+label = "Goldenrod City - Max Potion (Hidden)"
+id = 68
+table = "hidden"
+type = "hidden"
+check = 868
+
+[hidden_d37r0105_revive]
+original_item = "revive"
+label = "Goldenrod City - Revive (Hidden)"
+id = 69
+table = "hidden"
+type = "hidden"
+check = 869
+
+[hidden_d11r0101_escape_rope]
+original_item = "escape_rope"
+label = "Seafoam Islands - Escape Rope (Hidden)"
+id = 88
+table = "hidden"
+type = "hidden"
+check = 888
+
+[hidden_w19_big_pearl]
+original_item = "big_pearl"
+label = "Route 19 - Big Pearl (Hidden)"
+id = 180
+table = "hidden"
+type = "hidden"
+check = 980
+
+[hidden_w19_pearl_2]
+original_item = "pearl"
+label = "Route 19 - Pearl 2 (Hidden)"
+id = 179
+table = "hidden"
+type = "hidden"
+check = 979
+
+[hidden_w19_pearl]
+original_item = "pearl"
+label = "Route 19 - Pearl (Hidden)"
+id = 178
+table = "hidden"
+type = "hidden"
+check = 978
+
+[hidden_w19_revive]
+original_item = "revive"
+label = "Route 19 - Revive (Hidden)"
+id = 207
+table = "hidden"
+type = "hidden"
+check = 1007
+
+[hidden_w19_max_elixir]
+original_item = "max_elixir"
+label = "Route 19 - Max Elixir (Hidden)"
+id = 208
+table = "hidden"
+type = "hidden"
+check = 1008
+
+[hidden_t26_rare_candy]
+original_item = "rare_candy"
+label = "Olivine City - Rare Candy (Hidden)"
+id = 23
+table = "hidden"
+type = "hidden"
+check = 823
+
+[hidden_d02r0103_max_revive]
+original_item = "max_revive"
+label = "Mt. Moon - Max Revive (Hidden)"
+id = 196
+table = "hidden"
+type = "hidden"
+check = 996
+
+[hidden_w40_hyper_potion]
+original_item = "hyper_potion"
+label = "Route 40 - Hyper Potion (Hidden)"
+id = 24
+table = "hidden"
+type = "hidden"
+check = 824
+
+[hidden_d03r0101_hyper_potion]
+original_item = "hyper_potion"
+label = "Cerulean Cave - Hyper Potion (Hidden)"
+id = 93
+table = "hidden"
+type = "hidden"
+check = 893
+
+[hidden_d03r0101_rare_candy]
+original_item = "rare_candy"
+label = "Cerulean Cave - Rare Candy (Hidden)"
+id = 94
+table = "hidden"
+type = "hidden"
+check = 894
+
+[hidden_d03r0101_revive]
+original_item = "revive"
+label = "Cerulean Cave - Revive (Hidden)"
+id = 95
+table = "hidden"
+type = "hidden"
+check = 895
+
+[hidden_d11r0102_ice_heal]
+original_item = "ice_heal"
+label = "Seafoam Islands - Ice Heal (Hidden)"
+id = 89
+table = "hidden"
+type = "hidden"
+check = 889
+
+[hidden_p01r0104_iron]
+original_item = "iron"
+label = "Vermilion City - Iron (Hidden)"
+id = 84
+table = "hidden"
+type = "hidden"
+check = 884
+
+[hidden_d37r0103_parlyz_heal]
+original_item = "parlyz_heal"
+label = "Goldenrod City - Parlyz Heal (Hidden)"
+id = 52
+table = "hidden"
+type = "hidden"
+check = 852
+
+[hidden_d37r0103_super_potion]
+original_item = "super_potion"
+label = "Goldenrod City - Super Potion (Hidden)"
+id = 53
+table = "hidden"
+type = "hidden"
+check = 853
+
+[hidden_d37r0103_antidote]
+original_item = "antidote"
+label = "Goldenrod City - Antidote (Hidden)"
+id = 67
+table = "hidden"
+type = "hidden"
+check = 867
+
+[hidden_r09_ether]
+original_item = "ether"
+label = "Route 9 - Ether (Hidden)"
+id = 105
+table = "hidden"
+type = "hidden"
+check = 905
+
+[hidden_t08_nugget]
+original_item = "nugget"
+label = "Fuchsia City - Nugget (Hidden)"
+id = 134
+table = "hidden"
+type = "hidden"
+check = 934
+
+[hidden_d11r0103_pearl]
+original_item = "pearl"
+label = "Seafoam Islands - Pearl (Hidden)"
+id = 90
+table = "hidden"
+type = "hidden"
+check = 890
+
+[hidden_d11r0103_pearl_2]
+original_item = "pearl"
+label = "Seafoam Islands - Pearl 2 (Hidden)"
+id = 91
+table = "hidden"
+type = "hidden"
+check = 891
+
+[hidden_d03r0103_max_revive]
+original_item = "max_revive"
+label = "Cerulean Cave - Max Revive (Hidden)"
+id = 121
+table = "hidden"
+type = "hidden"
+check = 921
+
+[hidden_d03r0103_ultra_ball]
+original_item = "ultra_ball"
+label = "Cerulean Cave - Ultra Ball (Hidden)"
+id = 123
+table = "hidden"
+type = "hidden"
+check = 923
+
+[hidden_d03r0103_nugget]
+original_item = "nugget"
+label = "Cerulean Cave - Nugget (Hidden)"
+id = 124
+table = "hidden"
+type = "hidden"
+check = 924
+
+[hidden_w41_max_ether]
+original_item = "max_ether"
+label = "Route 41 - Max Ether (Hidden)"
+id = 99
+table = "hidden"
+type = "hidden"
+check = 899
+
+[hidden_w41_stardust]
+original_item = "stardust"
+label = "Route 41 - Stardust (Hidden)"
+id = 170
+table = "hidden"
+type = "hidden"
+check = 970
+
+[hidden_w41_stardust_2]
+original_item = "stardust"
+label = "Route 41 - Stardust 2 (Hidden)"
+id = 171
+table = "hidden"
+type = "hidden"
+check = 971
+
+[hidden_w41_stardust_4]
+original_item = "stardust"
+label = "Route 41 - Stardust 4 (Hidden)"
+id = 173
+table = "hidden"
+type = "hidden"
+check = 973
+
+[hidden_w41_stardust_3]
+original_item = "stardust"
+label = "Route 41 - Stardust 3 (Hidden)"
+id = 172
+table = "hidden"
+type = "hidden"
+check = 972
+
+[hidden_r25_revive]
+original_item = "revive"
+label = "Route 25 - Revive (Hidden)"
+id = 107
+table = "hidden"
+type = "hidden"
+check = 907
+
+[hidden_p01r0102_protein]
+original_item = "protein"
+label = "Olivine City - Protein (Hidden)"
+id = 86
+table = "hidden"
+type = "hidden"
+check = 886
+
+[hidden_p01r0102_pearl]
+original_item = "pearl"
+label = "Olivine City - Pearl (Hidden)"
+id = 158
+table = "hidden"
+type = "hidden"
+check = 958
+
+[hidden_r10_carbos]
+original_item = "carbos"
+label = "Route 10 - Carbos (Hidden)"
+id = 197
+table = "hidden"
+type = "hidden"
+check = 997
+
+[hidden_r05r0202_full_restore]
+original_item = "full_restore"
+label = "Route 5 - Full Restore (Hidden)"
+id = 57
+table = "hidden"
+type = "hidden"
+check = 857
+
+[hidden_r05r0202_x_special]
+original_item = "x_special"
+label = "Route 5 - X Special (Hidden)"
+id = 58
+table = "hidden"
+type = "hidden"
+check = 858
+
+[hidden_d05r0101_x_defense]
+original_item = "x_defense"
+label = "Rock Tunnel - X Defend (Hidden)"
+id = 60
+table = "hidden"
+type = "hidden"
+check = 860
+
+[hidden_d05r0101_x_accuracy]
+original_item = "x_accuracy"
+label = "Rock Tunnel - X Accuracy (Hidden)"
+id = 59
+table = "hidden"
+type = "hidden"
+check = 859
+
+[hidden_d03r0102_ultra_ball]
+original_item = "ultra_ball"
+label = "Cerulean Cave - Ultra Ball 2 (Hidden)"
+id = 96
+table = "hidden"
+type = "hidden"
+check = 896
+
+[hidden_d03r0102_pp_up]
+original_item = "pp_up"
+label = "Cerulean Cave - PP Up (Hidden)"
+id = 117
+table = "hidden"
+type = "hidden"
+check = 917
+
+[hidden_d03r0102_big_pearl]
+original_item = "big_pearl"
+label = "Cerulean Cave - Big Pearl (Hidden)"
+id = 118
+table = "hidden"
+type = "hidden"
+check = 918
+
+[hidden_d03r0102_zinc]
+original_item = "zinc"
+label = "Cerulean Cave - Zinc (Hidden)"
+id = 119
+table = "hidden"
+type = "hidden"
+check = 919
+
+[hidden_d03r0102_full_heal]
+original_item = "full_heal"
+label = "Cerulean Cave - Full Heal (Hidden)"
+id = 120
+table = "hidden"
+type = "hidden"
+check = 920
+
+[hidden_d03r0102_protein]
+original_item = "protein"
+label = "Cerulean Cave - Protein (Hidden)"
+id = 221
+table = "hidden"
+type = "hidden"
+check = 1021
+
+[hidden_d40r0101_rare_candy]
+original_item = "rare_candy"
+label = "Whirl Islands - Rare Candy (Hidden)"
+id = 73
+table = "hidden"
+type = "hidden"
+check = 873
+
+[hidden_d11r0104_max_revive]
+original_item = "max_revive"
+label = "Seafoam Islands - Max Revive (Hidden)"
+id = 92
+table = "hidden"
+type = "hidden"
+check = 892
+
+[hidden_d11r0104_rare_candy]
+original_item = "rare_candy"
+label = "Seafoam Islands - Rare Candy (Hidden)"
+id = 210
+table = "hidden"
+type = "hidden"
+check = 1010
+
+[hidden_d32r0102_rare_candy]
+original_item = "rare_candy"
+label = "Frontier Access - Rare Candy (Hidden)"
+id = 161
+table = "hidden"
+type = "hidden"
+check = 961
+
+[hidden_t07_pp_up]
+original_item = "pp_up"
+label = "Celadon City - PP Up (Hidden)"
+id = 122
+table = "hidden"
+type = "hidden"
+check = 922
+
+[hidden_r17_max_ether]
+original_item = "max_ether"
+label = "Route 17 - Max Ether (Hidden)"
+id = 109
+table = "hidden"
+type = "hidden"
+check = 909
+
+[hidden_r17_max_elixir]
+original_item = "max_elixir"
+label = "Route 17 - Max Elixir (Hidden)"
+id = 110
+table = "hidden"
+type = "hidden"
+check = 910
+
+[hidden_t24_revive]
+original_item = "revive"
+label = "Cianwood City - Revive (Hidden)"
+id = 25
+table = "hidden"
+type = "hidden"
+check = 825
+
+[hidden_t24_stardust]
+original_item = "stardust"
+label = "Cianwood City - Stardust (Hidden)"
+id = 26
+table = "hidden"
+type = "hidden"
+check = 826
+
+[hidden_d17r0103_max_potion]
+original_item = "max_potion"
+label = "Bell Tower - Max Potion (Hidden)"
+id = 62
+table = "hidden"
+type = "hidden"
+check = 862
+
+[hidden_d05r0102_max_potion]
+original_item = "max_potion"
+label = "Rock Tunnel - Max Potion (Hidden)"
+id = 61
+table = "hidden"
+type = "hidden"
+check = 861
+
+[hidden_d05r0102_hp_up]
+original_item = "hp_up"
+label = "Rock Tunnel - HP Up (Hidden)"
+id = 169
+table = "hidden"
+type = "hidden"
+check = 969
+
+[hidden_d27r0104_hyper_potion]
+original_item = "hyper_potion"
+label = "Lighthouse - Hyper Potion (Hidden)"
+id = 66
+table = "hidden"
+type = "hidden"
+check = 866
+
+[hidden_d11r0105_zinc]
+original_item = "zinc"
+label = "Seafoam Islands - Zinc (Hidden)"
+id = 223
+table = "hidden"
+type = "hidden"
+check = 1023
+
+[hidden_d40r0102_ultra_ball]
+original_item = "ultra_ball"
+label = "Whirl Islands - Ultra Ball (Hidden)"
+id = 74
+table = "hidden"
+type = "hidden"
+check = 874
+
+[hidden_d40r0102_super_repel]
+original_item = "super_repel"
+label = "Whirl Islands - Super Repel (Hidden)"
+id = 191
+table = "hidden"
+type = "hidden"
+check = 991
+
+[hidden_d40r0102_pearl]
+original_item = "pearl"
+label = "Whirl Islands - Pearl (Hidden)"
+id = 192
+table = "hidden"
+type = "hidden"
+check = 992
+
+[hidden_d40r0102_revive]
+original_item = "revive"
+label = "Whirl Islands - Revive (Hidden)"
+id = 193
+table = "hidden"
+type = "hidden"
+check = 993
+
+[hidden_d48r0101_big_pearl]
+original_item = "big_pearl"
+label = "Cliff Edge Gate - Big Pearl (Hidden)"
+id = 209
+table = "hidden"
+type = "hidden"
+check = 1009
+
+[hidden_r47_stardust]
+original_item = "stardust"
+label = "Route 47 - Stardust (Hidden)"
+id = 39
+table = "hidden"
+type = "hidden"
+check = 839
+
+[hidden_r47_pearl]
+original_item = "pearl"
+label = "Route 47 - Pearl (Hidden)"
+id = 40
+table = "hidden"
+type = "hidden"
+check = 840
+
+[hidden_d50r0101_ultra_ball]
+original_item = "ultra_ball"
+label = "Cliff Cave - Ultra Ball (Hidden)"
+id = 226
+table = "hidden"
+type = "hidden"
+check = 1026
+
+[hidden_d40r0104_full_restore]
+original_item = "full_restore"
+label = "Whirl Islands - Full Restore (Hidden)"
+id = 75
+table = "hidden"
+type = "hidden"
+check = 875
+
+[hidden_d17r0105_full_restore]
+original_item = "full_restore"
+label = "Bell Tower - Full Restore (Hidden)"
+id = 63
+table = "hidden"
+type = "hidden"
+check = 863
+
+[hidden_d47_tinymushroom]
+original_item = "tinymushroom"
+label = "Safari Zone Gate - TinyMushroom (Hidden)"
+id = 41
+table = "hidden"
+type = "hidden"
+check = 841
+
+[hidden_d47_tinymushroom_2]
+original_item = "tinymushroom"
+label = "Safari Zone Gate - TinyMushroom 2 (Hidden)"
+id = 130
+table = "hidden"
+type = "hidden"
+check = 930
+
+[hidden_d47_tinymushroom_3]
+original_item = "tinymushroom"
+label = "Safari Zone Gate - TinyMushroom 3 (Hidden)"
+id = 131
+table = "hidden"
+type = "hidden"
+check = 931
+
+[hidden_d17r0108_carbos]
+original_item = "carbos"
+label = "Bell Tower - Carbos (Hidden)"
+id = 64
+table = "hidden"
+type = "hidden"
+check = 864

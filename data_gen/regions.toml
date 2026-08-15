@@ -1,0 +1,4781 @@
+[new_bark]
+exits = [
+    "new_bark_elms_lab_1f",
+    "new_bark_elms_lab_2f",
+    "new_bark_player_house_1f",
+    "new_bark_rival_house_1f",
+    "new_bark_southwest_house",
+    "route_27",
+    "route_29",
+]
+encounters = "t20"
+header = "new_bark"
+locs = [
+    "hidden_t20_potion",
+]
+
+[new_bark_elms_lab_1f]
+exits = [
+    "new_bark",
+]
+header = "new_bark_elms_lab_1f"
+
+[route_29]
+exits = [
+    "cherrygrove",
+    "new_bark",
+    "route_29_route_46_gatehouse",
+    "route_46",
+]
+encounters = "r29"
+header = "route_29"
+locs = [
+    "overworld_r29_potion",
+]
+
+[route_27]
+exits = [
+    "new_bark",
+    "route_26",
+    "route_27_house",
+    "tohjo_falls",
+]
+encounters = "r27"
+header = "route_27"
+locs = [
+    "hidden_r27_revive",
+    "hidden_r27_big_mushroom",
+    "overworld_r27_rare_candy",
+    "overworld_r27_tm02",
+    "overworld_r27_destiny_knot",
+]
+trainers = [
+    "ace_trainer_f_megan",
+    "ace_trainer_m_blake",
+    "bird_keeper_gs_jose_2",
+    "ace_trainer_m_brian",
+    "psychic_m_eli",
+    "ace_trainer_f_reena",
+]
+
+[new_bark_elms_lab_2f]
+exits = [
+    "new_bark",
+]
+header = "new_bark_elms_lab_2f"
+
+[new_bark_rival_house_1f]
+exits = [
+    "new_bark",
+    "new_bark_rival_house_2f",
+]
+header = "new_bark_rival_house_1f"
+
+[new_bark_player_house_1f]
+exits = [
+    "new_bark",
+    "new_bark_player_house_2f",
+]
+header = "new_bark_player_house_1f"
+
+[new_bark_southwest_house]
+exits = [
+    "new_bark",
+]
+header = "new_bark_southwest_house"
+
+[route_29_route_46_gatehouse]
+exits = [
+    "route_29",
+    "route_46",
+]
+header = "route_29_route_46_gatehouse"
+
+[route_26]
+exits = [
+    "route_22_pokemon_league_reception_gate",
+    "route_26_north_house",
+    "route_26_week_siblings_house",
+    "route_27",
+]
+encounters = "r26"
+header = "route_26"
+locs = [
+    "hidden_r26_r27_nugget",
+    "hidden_r26_tinymushroom",
+    "overworld_r26_max_elixir",
+]
+trainers = [
+    "fisherman_scott",
+    "psychic_m_vernon",
+    "ace_trainer_f_joyce",
+    "ace_trainer_m_gaven",
+    "ace_trainer_m_jake",
+    "ace_trainer_f_jamie",
+]
+
+[new_bark_rival_house_2f]
+exits = [
+    "new_bark_rival_house_1f",
+]
+header = "new_bark_rival_house_2f"
+
+[cherrygrove]
+exits = [
+    "cherrygrove_guide_gent_house",
+    "cherrygrove_pokecenter_1f",
+    "cherrygrove_pokemart",
+    "cherrygrove_southeast_house",
+    "cherrygrove_southwest_house",
+    "route_29",
+    "route_30",
+]
+encounters = "t21"
+header = "cherrygrove"
+locs = [
+    "hidden_r29_r30_t21_nugget",
+    "hidden_t21_nugget",
+]
+
+[route_46]
+exits = [
+    "dark_cave_route_31_side",
+    "route_29",
+    "route_29_route_46_gatehouse",
+    "route_45",
+]
+encounters = "r46"
+header = "route_46"
+locs = [
+    "overworld_r46_x_speed",
+]
+trainers = [
+    "hiker_bailey",
+    "camper_ted",
+    "picnicker_erin",
+]
+
+[tohjo_falls]
+exits = [
+    "route_27",
+    "tohjo_falls_hidden_room",
+]
+encounters = "d45r0101"
+header = "tohjo_falls"
+locs = [
+    "overworld_d45r0101_moon_stone",
+]
+
+[new_bark_player_house_2f]
+exits = [
+    "new_bark_player_house_1f",
+]
+header = "new_bark_player_house_2f"
+
+[route_27_house]
+exits = [
+    "route_27",
+]
+header = "route_27_house"
+
+[cherrygrove_southeast_house]
+exits = [
+    "cherrygrove",
+]
+header = "cherrygrove_southeast_house"
+
+[cherrygrove_guide_gent_house]
+exits = [
+    "cherrygrove",
+]
+header = "cherrygrove_guide_gent_house"
+
+[cherrygrove_pokecenter_1f]
+exits = [
+    "cherrygrove",
+    "cherrygrove_pokecenter_b1f",
+]
+header = "cherrygrove_pokecenter_1f"
+
+[route_26_week_siblings_house]
+exits = [
+    "route_26",
+]
+header = "route_26_week_siblings_house"
+
+[route_22_pokemon_league_reception_gate]
+exits = [
+    "route_22",
+    "route_26",
+    "route_28",
+    "victory_road_1f",
+]
+header = "route_22_pokemon_league_reception_gate"
+
+[cherrygrove_pokemart]
+exits = [
+    "cherrygrove",
+]
+header = "cherrygrove_pokemart"
+
+[cherrygrove_southwest_house]
+exits = [
+    "cherrygrove",
+]
+header = "cherrygrove_southwest_house"
+
+[route_30]
+exits = [
+    "cherrygrove",
+    "route_30_apricorn_house",
+    "route_30_mr_pokemon_house",
+    "route_31",
+]
+encounters = "r30"
+header = "route_30"
+locs = [
+    "hidden_r30_potion",
+    "overworld_r30_antidote",
+    "overworld_r30_potion",
+]
+trainers = [
+    "bug_catcher_don",
+    "youngster_joey",
+    "youngster_mikey",
+]
+
+[route_45]
+exits = [
+    "blackthorn",
+    "dark_cave_route_45_side",
+    "route_46",
+]
+encounters = "r45"
+header = "route_45"
+locs = [
+    "hidden_r45_pp_up",
+    "hidden_r45_r46_pp_max",
+    "overworld_r45_elixir",
+    "overworld_r45_max_potion",
+    "overworld_r45_full_heal",
+    "overworld_r45_nugget",
+    "overworld_r45_revive",
+]
+trainers = [
+    "hiker_erik",
+    "ace_trainer_m_ryan",
+    "hiker_parry",
+    "ace_trainer_f_kelly",
+    "black_belt_kenji",
+    "hiker_timothy",
+    "hiker_michael",
+]
+
+[route_26_north_house]
+exits = [
+    "route_26",
+]
+header = "route_26_north_house"
+
+[dark_cave_route_31_side]
+exits = [
+    "dark_cave_route_45_side",
+    "route_31",
+    "route_46",
+]
+encounters = "d42r0102"
+header = "dark_cave_route_31_side"
+locs = [
+    "hidden_d42r0102_poke_ball",
+    "hidden_d42r0102_max_ether",
+    "overworld_d42r0102_potion",
+    "overworld_d42r0102_hyper_potion",
+    "overworld_d42r0102_full_heal",
+    "overworld_d42r0102_dire_hit",
+    "overworld_d42r0102_black_flute",
+]
+
+[tohjo_falls_hidden_room]
+exits = [
+    "tohjo_falls",
+]
+header = "tohjo_falls_hidden_room"
+
+[route_28]
+exits = [
+    "mount_silver",
+    "route_22_pokemon_league_reception_gate",
+    "route_28_house",
+]
+encounters = "r28"
+header = "route_28"
+locs = [
+    "hidden_r28_rare_candy",
+    "overworld_r28_tm35",
+]
+
+[dark_cave_route_45_side]
+exits = [
+    "dark_cave_route_31_side",
+    "route_45",
+]
+encounters = "d42r0101"
+header = "dark_cave_route_45_side"
+locs = [
+    "hidden_d42r0101_max_revive",
+    "hidden_d42r0101_hyper_potion",
+    "hidden_d42r0101_elixir",
+    "overworld_d42r0101_tm54",
+    "overworld_d42r0101_revive",
+]
+
+[route_30_apricorn_house]
+exits = [
+    "route_30",
+]
+header = "route_30_apricorn_house"
+
+[blackthorn]
+exits = [
+    "blackthorn_east_house",
+    "blackthorn_gym",
+    "blackthorn_move_tutor_house",
+    "blackthorn_pokecenter_1f",
+    "blackthorn_pokemart",
+    "blackthorn_west_house",
+    "dragons_den_entrance",
+    "ice_path_1f",
+    "route_44",
+    "route_45",
+]
+encounters = "t30"
+header = "blackthorn"
+
+[route_30_mr_pokemon_house]
+exits = [
+    "route_30",
+]
+header = "route_30_mr_pokemon_house"
+
+[route_22]
+exits = [
+    "route_22_pokemon_league_reception_gate",
+    "viridian",
+]
+encounters = "r22"
+header = "route_22"
+
+[victory_road_1f]
+exits = [
+    "route_22_pokemon_league_reception_gate",
+    "victory_road_2f",
+]
+encounters = "d43r0101"
+header = "victory_road_1f"
+locs = [
+    "hidden_d43r0101_full_heal",
+    "hidden_d43r0101_max_potion",
+    "overworld_d43r0101_max_revive",
+    "overworld_d43r0101_full_heal",
+    "overworld_d43r0101_potion",
+]
+
+[cherrygrove_pokecenter_b1f]
+exits = [
+    "cherrygrove_pokecenter_1f",
+]
+header = "cherrygrove_pokecenter_b1f"
+
+[route_31]
+exits = [
+    "dark_cave_route_31_side",
+    "route_30",
+    "route_31_violet_gatehouse",
+    "violet",
+]
+encounters = "r31"
+header = "route_31"
+locs = [
+    "overworld_r31_potion",
+    "overworld_r31_poke_ball",
+]
+trainers = [
+    "bug_catcher_wade",
+]
+
+[route_44]
+exits = [
+    "blackthorn",
+    "ice_path_1f",
+    "mahogany",
+]
+encounters = "r44"
+header = "route_44"
+locs = [
+    "hidden_r44_elixir",
+    "overworld_r44_max_repel",
+    "overworld_r44_max_revive",
+    "overworld_r44_ultra_ball",
+]
+trainers = [
+    "psychic_m_phil",
+    "fisherman_edgar",
+    "fisherman_wilton",
+    "ace_trainer_f_cybil",
+    "ace_trainer_m_allen",
+    "poke_maniac_zach",
+    "bird_keeper_gs_vance",
+]
+
+[blackthorn_pokemart]
+exits = [
+    "blackthorn",
+]
+header = "blackthorn_pokemart"
+
+[victory_road_2f]
+exits = [
+    "victory_road_1f",
+    "victory_road_3f",
+]
+encounters = "d43r0102"
+header = "victory_road_2f"
+locs = [
+    "hidden_d43r0102_max_revive",
+    "hidden_d43r0102_pp_up",
+    "hidden_d43r0102_ultra_ball",
+    "overworld_d43r0102_tm26",
+    "overworld_d43r0102_hp_up",
+    "overworld_d43r0102_full_restore",
+]
+
+[blackthorn_pokecenter_1f]
+exits = [
+    "blackthorn",
+    "blackthorn_pokecenter_b1f",
+]
+header = "blackthorn_pokecenter_1f"
+
+[mount_silver]
+exits = [
+    "mount_silver_cave_1f",
+    "mount_silver_pokecenter_1f",
+    "route_28",
+]
+encounters = "t31"
+header = "mount_silver"
+locs = [
+    "hidden_t31_full_restore",
+    "overworld_t31_reaper_cloth",
+]
+
+[blackthorn_east_house]
+exits = [
+    "blackthorn",
+]
+header = "blackthorn_east_house"
+
+[blackthorn_move_tutor_house]
+exits = [
+    "blackthorn",
+]
+header = "blackthorn_move_tutor_house"
+
+[ice_path_1f]
+exits = [
+    "blackthorn",
+    "ice_path_b1f",
+    "route_44",
+]
+encounters = "d39r0101"
+header = "ice_path_1f"
+locs = [
+    "hidden_d39r0101_max_potion",
+    "hidden_d39r0101_ice_heal",
+    "overworld_d39r0101_hm07",
+    "overworld_d39r0101_protein",
+    "overworld_d39r0101_pp_up",
+]
+
+[route_28_house]
+exits = [
+    "route_28",
+]
+header = "route_28_house"
+
+[viridian]
+exits = [
+    "route_1",
+    "route_2",
+    "route_22",
+    "viridian_gym",
+    "viridian_northeast_house",
+    "viridian_pokecenter_1f",
+    "viridian_pokemart",
+    "viridian_route_1_gatehouse",
+    "viridian_trainer_house_1f",
+]
+encounters = "t02"
+header = "viridian"
+locs = [
+    "hidden_t02_nugget",
+]
+
+[blackthorn_gym]
+exits = [
+    "blackthorn",
+]
+header = "blackthorn_gym"
+trainers = [
+    "ace_trainer_m_paulo",
+    "ace_trainer_f_lola",
+    "ace_trainer_m_cody",
+    "ace_trainer_f_fran",
+    "ace_trainer_m_mike",
+]
+
+[route_31_violet_gatehouse]
+exits = [
+    "route_31",
+    "violet",
+]
+header = "route_31_violet_gatehouse"
+
+[blackthorn_west_house]
+exits = [
+    "blackthorn",
+]
+header = "blackthorn_west_house"
+
+[dragons_den_entrance]
+exits = [
+    "blackthorn",
+    "dragons_den",
+]
+header = "dragons_den_entrance"
+
+[violet]
+exits = [
+    "route_31",
+    "route_31_violet_gatehouse",
+    "route_32",
+    "route_36",
+    "ruins_of_alph",
+    "sprout_tower_1f",
+    "violet_bellsprout_onyx_trade_house",
+    "violet_gym",
+    "violet_northwest_house",
+    "violet_pokecenter_1f",
+    "violet_pokemart",
+    "violet_pokemon_school",
+    "violet_route_36_gatehouse",
+]
+encounters = "t22"
+header = "violet"
+locs = [
+    "hidden_t22_hyper_potion",
+    "hidden_t22_poke_ball",
+    "overworld_t22_rare_candy",
+    "overworld_t22_pp_up",
+]
+
+[blackthorn_pokecenter_b1f]
+exits = [
+    "blackthorn_pokecenter_1f",
+]
+header = "blackthorn_pokecenter_b1f"
+
+[violet_pokecenter_1f]
+exits = [
+    "violet",
+    "violet_pokecenter_b1f",
+]
+header = "violet_pokecenter_1f"
+
+[viridian_trainer_house_1f]
+exits = [
+    "viridian",
+    "viridian_trainer_house_b1f",
+]
+header = "viridian_trainer_house_1f"
+
+[mahogany]
+exits = [
+    "mahogany_east_house",
+    "mahogany_gym_room_1",
+    "mahogany_pokecenter_1f",
+    "mahogany_souvenir_shop",
+    "route_42",
+    "route_43",
+    "route_43_mahogany_gatehouse",
+    "route_44",
+]
+header = "mahogany"
+
+[viridian_northeast_house]
+exits = [
+    "viridian",
+]
+header = "viridian_northeast_house"
+
+[mount_silver_pokecenter_1f]
+exits = [
+    "mount_silver",
+    "mount_silver_pokecenter_b1f",
+]
+header = "mount_silver_pokecenter_1f"
+
+[mount_silver_cave_1f]
+exits = [
+    "mount_silver",
+    "mount_silver_cave_2f",
+    "mount_silver_cave_expert_belt_chamber",
+    "mount_silver_cave_lower_mountainside",
+    "mount_silver_cave_moltres_chamber",
+]
+encounters = "d41r0101"
+header = "mount_silver_cave_1f"
+locs = [
+    "hidden_d41r0101_dire_hit",
+    "hidden_d41r0101_ultra_ball",
+    "hidden_d41r0101_revive",
+    "overworld_d41r0101_full_restore",
+]
+
+[route_1]
+exits = [
+    "pallet",
+    "viridian",
+    "viridian_route_1_gatehouse",
+]
+encounters = "r01"
+header = "route_1"
+trainers = [
+    "ace_trainer_f_quinn",
+    "ace_trainer_m_french",
+    "school_kid_m_danny",
+    "school_kid_m_sherman",
+]
+
+[route_2]
+exits = [
+    "route_2_east",
+    "route_2_southeast_gatehouse",
+    "route_2_viridian_forest_south_gatehouse",
+    "viridian",
+]
+encounters = "r02"
+header = "route_2"
+locs = [
+    "overworld_r02_elixir",
+]
+trainers = [
+    "bug_catcher_rob",
+    "bug_catcher_doug",
+]
+
+[violet_pokemart]
+exits = [
+    "violet",
+]
+header = "violet_pokemart"
+
+[viridian_gym]
+exits = [
+    "viridian",
+]
+header = "viridian_gym"
+trainers = [
+    "ace_trainer_m_arabella",
+    "ace_trainer_m_bonita",
+    "ace_trainer_f_salma",
+    "double_team_elan_and_ida",
+]
+
+[viridian_pokecenter_1f]
+exits = [
+    "viridian",
+    "viridian_pokecenter_b1f",
+]
+header = "viridian_pokecenter_1f"
+
+[dragons_den]
+exits = [
+    "dragons_den_entrance",
+    "dragons_den_shrine",
+]
+encounters = "d44r0102"
+header = "dragons_den"
+locs = [
+    "hidden_d44r0102_revive",
+    "hidden_d44r0102_max_elixir",
+    "hidden_d44r0102_max_potion",
+    "overworld_d44r0102_dragon_fang",
+    "overworld_d44r0102_calcium",
+    "overworld_d44r0102_max_elixir",
+]
+trainers = [
+    "ace_trainer_m_kobe",
+    "ace_trainer_f_piper",
+    "twins_clea_and_gil",
+]
+
+[violet_route_36_gatehouse]
+exits = [
+    "route_36",
+    "violet",
+]
+header = "violet_route_36_gatehouse"
+
+[sprout_tower_1f]
+exits = [
+    "sprout_tower_2f",
+    "violet",
+]
+header = "sprout_tower_1f"
+locs = [
+    "overworld_d15r0101_parlyz_heal",
+]
+trainers = [
+    "sage_chow",
+]
+
+[violet_gym]
+exits = [
+    "violet",
+]
+header = "violet_gym"
+trainers = [
+    "bird_keeper_gs_abe",
+    "bird_keeper_gs_rod",
+]
+
+[violet_pokemon_school]
+exits = [
+    "violet",
+]
+header = "violet_pokemon_school"
+
+[viridian_pokemart]
+exits = [
+    "viridian",
+]
+header = "viridian_pokemart"
+
+[violet_northwest_house]
+exits = [
+    "violet",
+]
+header = "violet_northwest_house"
+
+[ice_path_b1f]
+exits = [
+    "ice_path_1f",
+    "ice_path_b2f",
+]
+encounters = "d39r0102"
+header = "ice_path_b1f"
+locs = [
+    "hidden_d39r0102_revive",
+    "overworld_d39r0102_iron",
+]
+
+[victory_road_3f]
+exits = [
+    "indigo_plateau",
+    "victory_road_2f",
+]
+encounters = "d43r0103"
+header = "victory_road_3f"
+locs = [
+    "hidden_d43r0103_hyper_potion",
+    "hidden_d43r0103_zinc",
+    "overworld_d43r0103_ultra_ball",
+    "overworld_d43r0103_tm79",
+    "overworld_d43r0103_rare_candy",
+]
+
+[violet_bellsprout_onyx_trade_house]
+exits = [
+    "violet",
+]
+header = "violet_bellsprout_onyx_trade_house"
+
+[ruins_of_alph]
+exits = [
+    "route_32",
+    "route_32_ruins_of_alph_gatehouse",
+    "route_36",
+    "route_36_ruins_of_alph_gatehouse",
+    "ruins_of_alph_hall_entrance",
+    "ruins_of_alph_hall_entrance_sinjoh_event",
+    "ruins_of_alph_northeast_entrance_first_room",
+    "ruins_of_alph_northwest_entrance_first_room",
+    "ruins_of_alph_research_center",
+    "ruins_of_alph_southeast_entrance_first_room",
+    "ruins_of_alph_southwest_entrance_first_room",
+    "union_cave_1f",
+    "violet",
+]
+encounters = "d24r0101"
+header = "ruins_of_alph"
+locs = [
+    "hidden_d24r0101_great_ball",
+    "hidden_d24r0101_rare_candy",
+    "hidden_d24r0101_tinymushroom",
+    "hidden_d24r0101_big_mushroom",
+    "hidden_d24r0101_nugget",
+    "overworld_d24r0101_potion",
+    "overworld_d24r0101_hyper_potion",
+]
+trainers = [
+    "psychic_m_nathan",
+]
+
+[route_32]
+exits = [
+    "route_32_pokecenter_1f",
+    "route_32_ruins_of_alph_gatehouse",
+    "route_33",
+    "ruins_of_alph",
+    "union_cave_1f",
+    "violet",
+]
+encounters = "r32"
+header = "route_32"
+locs = [
+    "hidden_r32_heart_scale",
+    "hidden_r32_great_ball",
+    "hidden_r32_super_potion",
+    "overworld_r32_repel",
+    "overworld_r32_great_ball",
+    "overworld_r32_tm09",
+    "overworld_r32_shell_bell",
+]
+trainers = [
+    "youngster_albert",
+    "picnicker_liz",
+    "fisherman_henry",
+    "fisherman_justin",
+    "fisherman_ralph",
+    "camper_roland",
+    "youngster_gordon",
+    "bird_keeper_gs_peter",
+]
+
+[viridian_route_1_gatehouse]
+exits = [
+    "route_1",
+    "viridian",
+]
+header = "viridian_route_1_gatehouse"
+
+[route_36]
+exits = [
+    "route_35",
+    "route_36_national_park_gatehouse",
+    "route_36_ruins_of_alph_gatehouse",
+    "route_37",
+    "ruins_of_alph",
+    "violet",
+    "violet_route_36_gatehouse",
+]
+encounters = "r36"
+header = "route_36"
+locs = [
+    "hidden_r36_awakening",
+    "overworld_r36_hyper_potion",
+]
+trainers = [
+    "psychic_m_mark",
+    "school_kid_m_alan",
+]
+
+[dragons_den_shrine]
+exits = [
+    "dragons_den",
+]
+header = "dragons_den_shrine"
+
+[viridian_trainer_house_b1f]
+exits = [
+    "viridian_trainer_house_1f",
+]
+header = "viridian_trainer_house_b1f"
+
+[ruins_of_alph_northwest_entrance_first_room]
+exits = [
+    "ruins_of_alph",
+    "ruins_of_alph_northwest_entrance_second_room",
+]
+header = "ruins_of_alph_northwest_entrance_first_room"
+
+[route_36_national_park_gatehouse]
+exits = [
+    "national_park",
+    "route_36",
+]
+header = "route_36_national_park_gatehouse"
+
+[violet_pokecenter_b1f]
+exits = [
+    "violet_pokecenter_1f",
+]
+header = "violet_pokecenter_b1f"
+
+[mount_silver_cave_lower_mountainside]
+exits = [
+    "mount_silver_cave_1f",
+]
+encounters = "d41r0103"
+header = "mount_silver_cave_lower_mountainside"
+locs = [
+    "overworld_d41r0103_escape_rope",
+    "overworld_d41r0103_tm76",
+]
+
+[route_37]
+exits = [
+    "ecruteak",
+    "route_36",
+]
+encounters = "r37"
+header = "route_37"
+trainers = [
+    "twins_tori_and_til",
+    "psychic_m_greg",
+    "beauty_callie",
+    "beauty_kassandra",
+]
+
+[route_43_mahogany_gatehouse]
+exits = [
+    "mahogany",
+    "route_43",
+]
+header = "route_43_mahogany_gatehouse"
+
+[union_cave_1f]
+exits = [
+    "route_32",
+    "route_33",
+    "ruins_of_alph",
+    "union_cave_b1f",
+    "union_cave_b2f",
+]
+encounters = "d25r0101"
+header = "union_cave_1f"
+locs = [
+    "hidden_d25r0101_big_pearl",
+    "hidden_d25r0101_great_ball",
+    "hidden_d25r0101_parlyz_heal",
+    "overworld_d25r0101_x_attack",
+    "overworld_d25r0101_great_ball",
+    "overworld_d25r0101_potion",
+    "overworld_d25r0101_awakening",
+]
+trainers = [
+    "hiker_daniel",
+    "hiker_russel",
+    "firebreather_bill",
+    "firebreather_ray",
+    "poke_maniac_larry",
+]
+
+[mount_silver_pokecenter_b1f]
+exits = [
+    "mount_silver_pokecenter_1f",
+]
+header = "mount_silver_pokecenter_b1f"
+
+[mount_silver_cave_expert_belt_chamber]
+exits = [
+    "mount_silver_cave_1f",
+]
+encounters = "d41r0104"
+header = "mount_silver_cave_expert_belt_chamber"
+locs = [
+    "overworld_d41r0104_expert_belt",
+]
+
+[ruins_of_alph_hall_entrance_sinjoh_event]
+exits = [
+    "ruins_of_alph",
+    "ruins_of_alph_underground_hall_sinjoh_event_2",
+]
+encounters = "d24r0217"
+header = "ruins_of_alph_hall_entrance_sinjoh_event"
+
+[route_43]
+exits = [
+    "lake_of_rage",
+    "mahogany",
+    "route_43_gatehouse",
+    "route_43_mahogany_gatehouse",
+]
+encounters = "r43"
+header = "route_43"
+locs = [
+    "overworld_r43_max_ether",
+]
+trainers = [
+    "camper_spencer",
+    "picnicker_tiffany",
+    "poke_maniac_brent",
+    "poke_maniac_beckett",
+    "poke_maniac_ron",
+    "fisherman_marvin",
+]
+
+[route_2_southeast_gatehouse]
+exits = [
+    "route_2",
+    "route_2_east",
+]
+header = "route_2_southeast_gatehouse"
+
+[route_32_pokecenter_1f]
+exits = [
+    "route_32",
+    "route_32_pokecenter_b1f",
+]
+header = "route_32_pokecenter_1f"
+
+[route_2_viridian_forest_south_gatehouse]
+exits = [
+    "route_2",
+    "viridian_forest",
+]
+header = "route_2_viridian_forest_south_gatehouse"
+
+[mahogany_east_house]
+exits = [
+    "mahogany",
+]
+header = "mahogany_east_house"
+
+[mahogany_souvenir_shop]
+exits = [
+    "mahogany",
+    "team_rocket_headquarters_b1f",
+]
+header = "mahogany_souvenir_shop"
+
+[route_2_east]
+exits = [
+    "diglett_cave",
+    "pewter",
+    "route_2",
+    "route_2_house",
+    "route_2_southeast_gatehouse",
+    "route_2_viridian_forest_north_gatehouse",
+]
+encounters = "r02r0101"
+header = "route_2_east"
+locs = [
+    "overworld_r02r0101_carbos",
+]
+trainers = [
+    "bug_catcher_ed",
+]
+
+[ruins_of_alph_southwest_entrance_first_room]
+exits = [
+    "ruins_of_alph",
+    "ruins_of_alph_southwest_entrance_second_room",
+]
+header = "ruins_of_alph_southwest_entrance_first_room"
+
+[route_33]
+exits = [
+    "azalea",
+    "route_32",
+    "union_cave_1f",
+]
+encounters = "r33"
+header = "route_33"
+trainers = [
+    "hiker_anthony",
+]
+
+[route_35]
+exits = [
+    "goldenrod",
+    "route_35_goldenrod_gatehouse",
+    "route_35_national_park_pokeathalon_gatehouse",
+    "route_36",
+]
+encounters = "r35"
+header = "route_35"
+locs = [
+    "hidden_r35_nugget",
+    "overworld_r35_tm66",
+    "overworld_r35_parlyz_heal",
+]
+trainers = [
+    "policeman_dirk",
+    "picnicker_kim",
+    "camper_elliot",
+    "picnicker_brooke",
+    "camper_ivan",
+    "juggler_irwin",
+    "bug_catcher_arnie",
+    "bird_keeper_gs_bryan",
+    "firebreather_walt",
+]
+
+[mahogany_pokecenter_1f]
+exits = [
+    "mahogany",
+    "mahogany_pokecenter_b1f",
+]
+header = "mahogany_pokecenter_1f"
+
+[ruins_of_alph_hall_entrance]
+exits = [
+    "ruins_of_alph",
+    "ruins_of_alph_underground_hall",
+    "ruins_of_alph_underground_hall_sinjoh_event",
+]
+header = "ruins_of_alph_hall_entrance"
+
+[ruins_of_alph_southeast_entrance_first_room]
+exits = [
+    "ruins_of_alph",
+    "ruins_of_alph_southeast_entrance_second_room",
+]
+header = "ruins_of_alph_southeast_entrance_first_room"
+
+[route_42]
+exits = [
+    "ecruteak",
+    "mahogany",
+    "mount_mortar_1f_entrance",
+    "route_42_ecruteak_gatehouse",
+]
+encounters = "r42"
+header = "route_42"
+locs = [
+    "hidden_r42_max_potion",
+    "overworld_r42_super_potion",
+    "overworld_r42_dubious_disc",
+    "overworld_r42_tm65",
+]
+trainers = [
+    "fisherman_tully",
+    "poke_maniac_shane",
+    "hiker_benjamin",
+]
+
+[route_32_ruins_of_alph_gatehouse]
+exits = [
+    "route_32",
+    "ruins_of_alph",
+]
+header = "route_32_ruins_of_alph_gatehouse"
+
+[sprout_tower_2f]
+exits = [
+    "sprout_tower_1f",
+    "sprout_tower_3f",
+]
+encounters = "d15r0102"
+header = "sprout_tower_2f"
+locs = [
+    "overworld_d15r0102_x_accuracy",
+]
+trainers = [
+    "sage_nico",
+    "sage_edmond",
+]
+
+[mount_silver_cave_2f]
+exits = [
+    "mount_silver_cave_1f",
+    "mount_silver_cave_upper_mountainside",
+]
+encounters = "d41r0106"
+header = "mount_silver_cave_2f"
+locs = [
+    "hidden_d41r0106_max_potion",
+    "hidden_d41r0106_iron",
+    "overworld_d41r0106_max_elixir",
+    "overworld_d41r0106_calcium",
+    "overworld_d41r0106_protein",
+    "overworld_d41r0106_max_revive",
+]
+
+[indigo_plateau]
+exits = [
+    "pokemon_league_entrance",
+    "victory_road_3f",
+]
+header = "indigo_plateau"
+locs = [
+    "hidden_t10_rare_candy",
+]
+
+[route_36_ruins_of_alph_gatehouse]
+exits = [
+    "route_36",
+    "ruins_of_alph",
+]
+header = "route_36_ruins_of_alph_gatehouse"
+
+[mahogany_gym_room_1]
+exits = [
+    "mahogany",
+    "mahogany_gym_room_2",
+]
+header = "mahogany_gym_room_1"
+
+[mount_silver_cave_moltres_chamber]
+exits = [
+    "mount_silver_cave_1f",
+]
+encounters = "d41r0105"
+header = "mount_silver_cave_moltres_chamber"
+locs = [
+    "hidden_d41r0105_ultra_ball",
+    "hidden_d41r0105_hyper_potion",
+]
+
+[viridian_pokecenter_b1f]
+exits = [
+    "viridian_pokecenter_1f",
+]
+header = "viridian_pokecenter_b1f"
+
+[pallet]
+exits = [
+    "pallet_town_blues_house_1f",
+    "pallet_town_oaks_lab",
+    "pallet_town_reds_house_1f",
+    "route_1",
+    "route_21",
+]
+encounters = "t01"
+header = "pallet"
+
+[ice_path_b2f]
+exits = [
+    "ice_path_b1f",
+    "ice_path_b3f",
+]
+encounters = "d39r0103"
+header = "ice_path_b2f"
+locs = [
+    "hidden_d39r0103_carbos",
+    "overworld_d39r0103_tm72",
+    "overworld_d39r0103_full_heal",
+    "overworld_d39r0103_max_potion",
+]
+
+[ruins_of_alph_research_center]
+exits = [
+    "ruins_of_alph",
+]
+header = "ruins_of_alph_research_center"
+
+[ruins_of_alph_northeast_entrance_first_room]
+exits = [
+    "ruins_of_alph",
+    "ruins_of_alph_northeast_entrance_second_room",
+]
+header = "ruins_of_alph_northeast_entrance_first_room"
+
+[union_cave_b1f]
+exits = [
+    "union_cave_1f",
+    "union_cave_b2f",
+]
+encounters = "d25r0102"
+header = "union_cave_b1f"
+locs = [
+    "hidden_d25r0102_x_speed",
+    "hidden_d25r0102_revive",
+    "overworld_d25r0102_tm39",
+    "overworld_d25r0102_x_defense",
+]
+trainers = [
+    "hiker_phillip",
+    "hiker_leonard",
+    "poke_maniac_andrew",
+    "poke_maniac_calvin",
+]
+
+[pallet_town_reds_house_1f]
+exits = [
+    "pallet",
+    "pallet_town_reds_house_2f",
+]
+header = "pallet_town_reds_house_1f"
+
+[ruins_of_alph_northwest_entrance_second_room]
+exits = [
+    "ruins_of_alph_northwest_entrance_first_room",
+]
+header = "ruins_of_alph_northwest_entrance_second_room"
+locs = [
+    "overworld_d24r0214_revival_herb",
+    "overworld_d24r0214_charcoal",
+    "overworld_d24r0214_life_orb",
+    "overworld_d24r0214_leppa_berry",
+]
+
+[ecruteak]
+exits = [
+    "burned_tower_1f",
+    "ecruteak_bell_tower_barrier_station",
+    "ecruteak_dance_theater",
+    "ecruteak_dowsing_machine_house",
+    "ecruteak_gym",
+    "ecruteak_pokecenter_1f",
+    "ecruteak_pokemart",
+    "ecruteak_southwest_house",
+    "route_37",
+    "route_38",
+    "route_38_ecruteak_gatehouse",
+    "route_42",
+    "route_42_ecruteak_gatehouse",
+]
+encounters = "t27"
+header = "ecruteak"
+locs = [
+    "hidden_t27_hyper_potion",
+    "hidden_t27_ether",
+    "hidden_t27_rare_candy",
+    "hidden_t27_ultra_ball",
+]
+
+[team_rocket_headquarters_b1f]
+exits = [
+    "mahogany_souvenir_shop",
+    "team_rocket_headquarters_b2f",
+]
+header = "team_rocket_headquarters_b1f"
+locs = [
+    "hidden_d35r0102_revive",
+    "overworld_d35r0102_hyper_potion",
+    "overworld_d35r0102_guard_spec_",
+    "overworld_d35r0102_nugget",
+]
+trainers = [
+    "team_rocket_grunt_15",
+    "scientist_gs_gregg",
+]
+
+[ruins_of_alph_underground_hall_sinjoh_event_2]
+exits = [
+    "ruins_of_alph_hall_entrance_sinjoh_event",
+]
+encounters = "d24r0218"
+header = "ruins_of_alph_underground_hall_sinjoh_event_2"
+
+[route_2_viridian_forest_north_gatehouse]
+exits = [
+    "route_2_east",
+    "viridian_forest",
+]
+header = "route_2_viridian_forest_north_gatehouse"
+
+[ice_path_b3f]
+exits = [
+    "ice_path_b2f",
+]
+encounters = "d39r0104"
+header = "ice_path_b3f"
+locs = [
+    "overworld_d39r0104_nevermeltice",
+]
+
+[viridian_forest]
+exits = [
+    "route_2_viridian_forest_north_gatehouse",
+    "route_2_viridian_forest_south_gatehouse",
+]
+encounters = "d46r0101"
+header = "viridian_forest"
+locs = [
+    "hidden_d46r0101_max_ether",
+    "hidden_d46r0101_full_restore",
+    "hidden_d46r0101_big_mushroom",
+    "hidden_d46r0101_big_mushroom_2",
+    "hidden_d46r0101_tinymushroom",
+    "hidden_d46r0101_tinymushroom_2",
+    "hidden_d46r0101_tinymushroom_3",
+    "overworld_d46r0101_dire_hit",
+    "overworld_d46r0101_blue_flute",
+    "overworld_d46r0101_leaf_stone",
+    "overworld_d46r0101_tm77",
+]
+trainers = [
+    "bug_catcher_dane",
+    "bug_catcher_dion",
+    "bug_catcher_stacey",
+    "bug_catcher_ellis",
+    "bug_catcher_abner",
+]
+
+[diglett_cave]
+exits = [
+    "route_11",
+    "route_2_east",
+]
+encounters = "d01r0101"
+header = "diglett_cave"
+locs = [
+    "hidden_d01r0101_max_revive",
+    "hidden_d01r0101_calcium",
+    "overworld_d01r0101_pp_max",
+    "overworld_d01r0101_rock_incense",
+]
+
+[ruins_of_alph_southwest_entrance_second_room]
+exits = [
+    "ruins_of_alph_southwest_entrance_first_room",
+]
+header = "ruins_of_alph_southwest_entrance_second_room"
+locs = [
+    "overworld_d24r0215_stardust",
+    "overworld_d24r0215_star_piece",
+    "overworld_d24r0215_leppa_berry",
+    "overworld_d24r0215_mystic_water",
+]
+
+[ruins_of_alph_northeast_entrance_second_room]
+exits = [
+    "ruins_of_alph_northeast_entrance_first_room",
+]
+header = "ruins_of_alph_northeast_entrance_second_room"
+locs = [
+    "overworld_d24r0212_heal_powder",
+    "overworld_d24r0212_energypowder",
+    "overworld_d24r0212_oran_berry",
+    "overworld_d24r0212_pecha_berry",
+]
+
+[union_cave_b2f]
+exits = [
+    "union_cave_1f",
+    "union_cave_b1f",
+]
+encounters = "d25r0103"
+header = "union_cave_b2f"
+locs = [
+    "hidden_d25r0103_ultra_ball",
+    "hidden_d25r0103_calcium",
+    "overworld_d25r0103_elixir",
+    "overworld_d25r0103_hyper_potion",
+]
+trainers = [
+    "ace_trainer_m_nick",
+    "ace_trainer_f_gwen",
+    "ace_trainer_f_emma",
+]
+
+[mahogany_pokecenter_b1f]
+exits = [
+    "mahogany_pokecenter_1f",
+]
+header = "mahogany_pokecenter_b1f"
+
+[mount_mortar_1f_entrance]
+exits = [
+    "mount_mortar_1f_back",
+    "mount_mortar_2f",
+    "mount_mortar_b1f",
+    "route_42",
+]
+encounters = "d38r0101"
+header = "mount_mortar_1f_entrance"
+locs = [
+    "hidden_d38r0101_hyper_potion",
+    "hidden_d38r0101_revive",
+    "overworld_d38r0101_ether",
+    "overworld_d38r0101_revive",
+]
+
+[mount_silver_cave_upper_mountainside]
+exits = [
+    "mount_silver_cave_2f",
+    "mount_silver_cave_3f",
+]
+encounters = "d41r0102"
+header = "mount_silver_cave_upper_mountainside"
+locs = [
+    "hidden_d41r0102_rare_candy",
+    "hidden_d41r0102_max_ether",
+    "hidden_d41r0102_hyper_potion",
+    "overworld_d41r0102_pure_incense",
+    "overworld_d41r0102_dawn_stone",
+]
+
+[lake_of_rage]
+exits = [
+    "lake_of_rage_fishing_guru_house",
+    "lake_of_rage_hidden_power_house",
+    "route_43",
+]
+encounters = "t29"
+header = "lake_of_rage"
+locs = [
+    "hidden_t29_full_restore",
+    "hidden_t29_rare_candy",
+    "hidden_t29_max_potion",
+    "overworld_t29_tm43",
+    "overworld_t29_red_flute",
+    "overworld_t29_choice_specs",
+]
+trainers = [
+    "fisherman_andre",
+    "fisherman_raymond",
+    "ace_trainer_m_alton",
+    "ace_trainer_f_lois",
+]
+
+[ruins_of_alph_underground_hall]
+exits = [
+    "ruins_of_alph_hall_entrance",
+]
+encounters = "d24r0205"
+header = "ruins_of_alph_underground_hall"
+
+[azalea]
+exits = [
+    "azalea_charcoal_kiln",
+    "azalea_gym_entrance",
+    "azalea_ilex_forest_gatehouse",
+    "azalea_kurt_house",
+    "azalea_pokecenter_1f",
+    "azalea_pokemart",
+    "route_33",
+    "route_34",
+    "slowpoke_well_entrance",
+]
+header = "azalea"
+locs = [
+    "hidden_t23_full_heal",
+]
+
+[ruins_of_alph_underground_hall_sinjoh_event]
+exits = [
+    "ruins_of_alph_hall_entrance",
+]
+encounters = "d24r0216"
+header = "ruins_of_alph_underground_hall_sinjoh_event"
+
+[pallet_town_blues_house_1f]
+exits = [
+    "pallet",
+    "pallet_town_blues_house_2f",
+]
+header = "pallet_town_blues_house_1f"
+
+[pokemon_league_entrance]
+exits = [
+    "indigo_plateau",
+    "pokemon_league_entrance_wifi_room",
+    "pokemon_league_will_room",
+]
+header = "pokemon_league_entrance"
+
+[ruins_of_alph_southeast_entrance_second_room]
+exits = [
+    "ruins_of_alph_southeast_entrance_first_room",
+]
+header = "ruins_of_alph_southeast_entrance_second_room"
+locs = [
+    "overworld_d24r0213_heal_powder",
+    "overworld_d24r0213_energy_root",
+    "overworld_d24r0213_sitrus_berry",
+    "overworld_d24r0213_moon_stone",
+]
+
+[mahogany_gym_room_2]
+exits = [
+    "mahogany_gym_leader_room",
+    "mahogany_gym_room_1",
+]
+header = "mahogany_gym_room_2"
+trainers = [
+    "skier_diana",
+    "boarder_patton",
+]
+
+[route_32_pokecenter_b1f]
+exits = [
+    "route_32_pokecenter_1f",
+]
+header = "route_32_pokecenter_b1f"
+
+[route_2_house]
+exits = [
+    "route_2_east",
+]
+header = "route_2_house"
+
+[route_43_gatehouse]
+exits = [
+    "route_43",
+]
+header = "route_43_gatehouse"
+
+[pewter]
+exits = [
+    "pewter_gym",
+    "pewter_museum_of_science",
+    "pewter_northeast_house",
+    "pewter_pokecenter_1f",
+    "pewter_pokemart",
+    "pewter_southwest_house",
+    "route_2_east",
+    "route_3",
+]
+header = "pewter"
+locs = [
+    "hidden_t03_pp_up",
+    "hidden_t03_guard_spec_",
+    "hidden_t03_max_revive",
+    "overworld_t03_wise_glasses",
+]
+
+[route_21]
+exits = [
+    "cinnabar_island",
+    "pallet",
+]
+encounters = "w21"
+header = "route_21"
+locs = [
+    "hidden_w21_stardust",
+    "hidden_w21_stardust_2",
+    "hidden_w21_stardust_3",
+]
+trainers = [
+    "fisherman_arnold",
+    "fisherman_murphy",
+    "fisherman_liam",
+    "fisherman_gideon",
+    "swimmer_f_nikki",
+    "swimmer_f_chelan",
+    "swimmer_f_kendra",
+    "swimmer_m_tyson",
+    "swimmer_m_esteban",
+    "swimmer_m_duane",
+    "bird_keeper_gs_easton",
+    "bird_keeper_gs_kinsley",
+]
+
+[route_35_goldenrod_gatehouse]
+exits = [
+    "goldenrod",
+    "route_35",
+]
+header = "route_35_goldenrod_gatehouse"
+
+[route_42_ecruteak_gatehouse]
+exits = [
+    "ecruteak",
+    "route_42",
+]
+header = "route_42_ecruteak_gatehouse"
+
+[goldenrod]
+exits = [
+    "goldenrod_bike_shop",
+    "goldenrod_bills_house",
+    "goldenrod_department_store_1f",
+    "goldenrod_flower_shop",
+    "goldenrod_friendship_checker_house",
+    "goldenrod_game_corner",
+    "goldenrod_global_terminal_1f",
+    "goldenrod_gym",
+    "goldenrod_magnet_train_station_1f",
+    "goldenrod_name_rater_house",
+    "goldenrod_northeast_house",
+    "goldenrod_pokecenter_1f",
+    "goldenrod_radio_tower_1f",
+    "goldenrod_tunnel_1f",
+    "route_34",
+    "route_35",
+    "route_35_goldenrod_gatehouse",
+]
+header = "goldenrod"
+
+[pallet_town_oaks_lab]
+exits = [
+    "pallet",
+]
+header = "pallet_town_oaks_lab"
+
+[sprout_tower_3f]
+exits = [
+    "sprout_tower_2f",
+]
+encounters = "d15r0103"
+header = "sprout_tower_3f"
+locs = [
+    "overworld_d15r0103_potion",
+    "overworld_d15r0103_escape_rope",
+]
+trainers = [
+    "sage_jin",
+    "sage_neal",
+    "sage_troy",
+]
+
+[route_35_national_park_pokeathalon_gatehouse]
+exits = [
+    "national_park",
+    "pokeathlon_dome",
+    "route_35",
+]
+header = "route_35_national_park_pokeathalon_gatehouse"
+
+[national_park]
+exits = [
+    "national_park_unused_gatehouse",
+    "route_35_national_park_pokeathalon_gatehouse",
+    "route_36_national_park_gatehouse",
+]
+encounters = "d22r0101"
+header = "national_park"
+locs = [
+    "hidden_d22r0101_d22r0102_full_heal",
+    "hidden_d22r0101_d22r0102_full_heal_2",
+    "overworld_d22r0101_tm28",
+    "overworld_d22r0101_soothe_bell",
+    "overworld_d22r0101_shiny_stone",
+]
+trainers = [
+    "pokefan_beverly",
+    "lass_krise",
+    "pokefan_m_william",
+    "school_kid_m_jack",
+]
+
+[goldenrod_name_rater_house]
+exits = [
+    "goldenrod",
+]
+header = "goldenrod_name_rater_house"
+
+[pewter_gym]
+exits = [
+    "pewter",
+]
+header = "pewter_gym"
+trainers = [
+    "camper_jerry",
+    "hiker_edwin",
+]
+
+[mount_mortar_2f]
+exits = [
+    "mount_mortar_1f_back",
+    "mount_mortar_1f_entrance",
+]
+encounters = "d38r0103"
+header = "mount_mortar_2f"
+locs = [
+    "hidden_d38r0103_full_restore",
+    "hidden_d38r0103_hp_up",
+    "hidden_d38r0103_hyper_potion",
+    "hidden_d38r0103_full_heal",
+    "overworld_d38r0103_rare_candy",
+    "overworld_d38r0103_max_potion",
+    "overworld_d38r0103_tm40",
+    "overworld_d38r0103_elixir",
+    "overworld_d38r0103_dragon_scale",
+    "overworld_d38r0103_escape_rope",
+]
+trainers = [
+    "super_nerd_hugh",
+]
+
+[goldenrod_magnet_train_station_1f]
+exits = [
+    "goldenrod",
+    "goldenrod_magnet_train_station_2f_empty",
+]
+header = "goldenrod_magnet_train_station_1f"
+
+[mahogany_gym_leader_room]
+exits = [
+    "mahogany_gym_room_2",
+]
+header = "mahogany_gym_leader_room"
+trainers = [
+    "boarder_deandre",
+    "boarder_gerardo",
+    "skier_jill",
+]
+
+[goldenrod_radio_tower_1f]
+exits = [
+    "goldenrod",
+    "goldenrod_radio_tower_2f",
+]
+header = "goldenrod_radio_tower_1f"
+
+[ecruteak_dowsing_machine_house]
+exits = [
+    "ecruteak",
+]
+header = "ecruteak_dowsing_machine_house"
+
+[pewter_pokemart]
+exits = [
+    "pewter",
+]
+header = "pewter_pokemart"
+
+[goldenrod_global_terminal_1f]
+exits = [
+    "goldenrod",
+    "goldenrod_global_terminal_2f",
+    "goldenrod_global_terminal_3f",
+]
+header = "goldenrod_global_terminal_1f"
+
+[ecruteak_bell_tower_barrier_station]
+exits = [
+    "ecruteak",
+    "ecruteak_bell_tower_barrier_station_corridor",
+]
+header = "ecruteak_bell_tower_barrier_station"
+
+[ecruteak_southwest_house]
+exits = [
+    "ecruteak",
+]
+header = "ecruteak_southwest_house"
+
+[burned_tower_1f]
+exits = [
+    "burned_tower_b1f",
+    "ecruteak",
+]
+encounters = "d18r0101"
+header = "burned_tower_1f"
+locs = [
+    "hidden_d18r0101_ultra_ball",
+    "hidden_d18r0101_ether",
+    "overworld_d18r0101_hp_up",
+    "overworld_d18r0101_antidote",
+]
+trainers = [
+    "firebreather_richard",
+    "firebreather_ned",
+]
+
+[azalea_pokecenter_1f]
+exits = [
+    "azalea",
+    "azalea_pokecenter_b1f",
+]
+header = "azalea_pokecenter_1f"
+
+[slowpoke_well_entrance]
+exits = [
+    "azalea",
+    "slowpoke_well_b1f",
+]
+header = "slowpoke_well_entrance"
+locs = [
+    "hidden_d26r0101_great_ball",
+]
+
+[route_3]
+exits = [
+    "mount_moon",
+    "pewter",
+    "route_3_pokecenter_1f",
+    "route_4",
+]
+encounters = "r03"
+header = "route_3"
+locs = [
+    "hidden_r03_star_piece_2",
+    "hidden_r03_star_piece",
+    "hidden_r03_hyper_potion",
+    "overworld_r03_big_root",
+]
+trainers = [
+    "youngster_warren",
+    "firebreather_otis",
+    "youngster_jimmy",
+    "double_team_zac_and_jen",
+    "firebreather_burt",
+    "hiker_bruce",
+    "black_belt_manford",
+    "black_belt_ander",
+    "hiker_dwight",
+    "youngster_regis",
+]
+
+[goldenrod_bike_shop]
+exits = [
+    "goldenrod",
+]
+header = "goldenrod_bike_shop"
+
+[azalea_charcoal_kiln]
+exits = [
+    "azalea",
+]
+header = "azalea_charcoal_kiln"
+
+[mount_silver_cave_3f]
+exits = [
+    "mount_silver_cave_summit",
+    "mount_silver_cave_upper_mountainside",
+]
+encounters = "d41r0107"
+header = "mount_silver_cave_3f"
+locs = [
+    "hidden_d41r0107_max_revive",
+]
+
+[route_11]
+exits = [
+    "diglett_cave",
+    "route_12",
+    "route_19_route_12_gatehouse",
+    "vermilion",
+]
+encounters = "r11"
+header = "route_11"
+locs = [
+    "hidden_r11_revive",
+    "overworld_r11_tm86",
+]
+trainers = [
+    "psychic_m_fidel",
+    "psychic_m_herman",
+    "youngster_owen",
+    "youngster_jason",
+]
+
+[lake_of_rage_hidden_power_house]
+exits = [
+    "lake_of_rage",
+]
+header = "lake_of_rage_hidden_power_house"
+
+[azalea_gym_entrance]
+exits = [
+    "azalea",
+    "azalea_gym",
+]
+header = "azalea_gym_entrance"
+
+[pokeathlon_dome]
+exits = [
+    "pokeathlon_dome_interior_1f",
+    "route_35_national_park_pokeathalon_gatehouse",
+]
+header = "pokeathlon_dome"
+locs = [
+    "hidden_d49_pp_up",
+    "hidden_d49_protein",
+]
+
+[pallet_town_blues_house_2f]
+exits = [
+    "pallet_town_blues_house_1f",
+]
+header = "pallet_town_blues_house_2f"
+
+[pokemon_league_entrance_wifi_room]
+exits = [
+    "pokemon_league_entrance",
+]
+header = "pokemon_league_entrance_wifi_room"
+
+[azalea_ilex_forest_gatehouse]
+exits = [
+    "azalea",
+    "ilex_forest",
+]
+header = "azalea_ilex_forest_gatehouse"
+
+[cinnabar_island]
+exits = [
+    "cinnabar_island_pokecenter_1f",
+    "route_20",
+    "route_21",
+]
+encounters = "t09"
+header = "cinnabar_island"
+locs = [
+    "hidden_t09_w21_rare_candy",
+    "hidden_t09_iron",
+    "hidden_t09_star_piece",
+    "overworld_t09_magmarizer",
+]
+
+[goldenrod_game_corner]
+exits = [
+    "goldenrod",
+]
+header = "goldenrod_game_corner"
+
+[pokemon_league_will_room]
+exits = [
+    "pokemon_league_entrance",
+    "pokemon_league_koga_room",
+]
+header = "pokemon_league_will_room"
+
+[goldenrod_flower_shop]
+exits = [
+    "goldenrod",
+]
+header = "goldenrod_flower_shop"
+
+[pallet_town_reds_house_2f]
+exits = [
+    "pallet_town_reds_house_1f",
+]
+header = "pallet_town_reds_house_2f"
+
+[route_38_ecruteak_gatehouse]
+exits = [
+    "ecruteak",
+    "route_38",
+]
+header = "route_38_ecruteak_gatehouse"
+
+[goldenrod_pokecenter_1f]
+exits = [
+    "goldenrod",
+    "goldenrod_pokecenter_b1f",
+]
+header = "goldenrod_pokecenter_1f"
+
+[ecruteak_pokecenter_1f]
+exits = [
+    "ecruteak",
+    "ecruteak_pokecenter_b1f",
+    "union",
+]
+header = "ecruteak_pokecenter_1f"
+
+[goldenrod_tunnel_1f]
+exits = [
+    "goldenrod",
+    "goldenrod_tunnel_b1f",
+    "goldenrod_tunnel_b2f",
+]
+header = "goldenrod_tunnel_1f"
+
+[mount_mortar_1f_back]
+exits = [
+    "mount_mortar_1f_entrance",
+    "mount_mortar_2f",
+    "mount_mortar_b1f",
+]
+encounters = "d38r0102"
+header = "mount_mortar_1f_back"
+locs = [
+    "hidden_d38r0102_max_repel",
+    "hidden_d38r0102_ether",
+    "hidden_d38r0102_rare_candy",
+    "hidden_d38r0102_ultra_ball",
+    "hidden_d38r0102_nugget",
+    "overworld_d38r0102_escape_rope",
+    "overworld_d38r0102_nugget",
+    "overworld_d38r0102_iron_ball",
+    "overworld_d38r0102_max_potion",
+    "overworld_d38r0102_iron",
+    "overworld_d38r0102_max_revive",
+    "overworld_d38r0102_ultra_ball",
+    "overworld_d38r0102_full_incense",
+    "overworld_d38r0102_protector",
+]
+trainers = [
+    "poke_maniac_harrison",
+    "super_nerd_markus",
+]
+
+[goldenrod_department_store_1f]
+exits = [
+    "goldenrod",
+    "goldenrod_department_store_2f",
+    "goldenrod_department_store_elevator",
+]
+header = "goldenrod_department_store_1f"
+events = ["event_goldenrod_store"]
+
+[goldenrod_friendship_checker_house]
+exits = [
+    "goldenrod",
+]
+header = "goldenrod_friendship_checker_house"
+
+[goldenrod_northeast_house]
+exits = [
+    "goldenrod",
+]
+header = "goldenrod_northeast_house"
+
+[goldenrod_bills_house]
+exits = [
+    "goldenrod",
+]
+header = "goldenrod_bills_house"
+
+[pewter_pokecenter_1f]
+exits = [
+    "pewter",
+    "pewter_pokecenter_b1f",
+]
+header = "pewter_pokecenter_1f"
+
+[azalea_pokemart]
+exits = [
+    "azalea",
+]
+header = "azalea_pokemart"
+
+[goldenrod_gym]
+exits = [
+    "goldenrod",
+]
+header = "goldenrod_gym"
+trainers = [
+    "lass_cathy",
+    "lass_carrie",
+    "beauty_victoria",
+    "beauty_samantha",
+]
+
+[national_park_unused_gatehouse]
+exits = [
+    "national_park",
+]
+header = "national_park_unused_gatehouse"
+
+[pewter_northeast_house]
+exits = [
+    "pewter",
+]
+header = "pewter_northeast_house"
+
+[ecruteak_dance_theater]
+exits = [
+    "ecruteak",
+]
+header = "ecruteak_dance_theater"
+
+[lake_of_rage_fishing_guru_house]
+exits = [
+    "lake_of_rage",
+]
+header = "lake_of_rage_fishing_guru_house"
+
+[pewter_southwest_house]
+exits = [
+    "pewter",
+]
+header = "pewter_southwest_house"
+
+[pewter_museum_of_science]
+exits = [
+    "pewter",
+]
+header = "pewter_museum_of_science"
+
+[team_rocket_headquarters_b2f]
+exits = [
+    "team_rocket_headquarters_b1f",
+    "team_rocket_headquarters_b3f",
+]
+header = "team_rocket_headquarters_b2f"
+locs = [
+    "hidden_d35r0103_full_heal",
+    "hidden_d35r0103_x_sp__def",
+    "overworld_d35r0103_tm46",
+]
+trainers = [
+    "team_rocket_grunt_18",
+    "team_rocket_grunt_16",
+    "team_rocket_grunt_17",
+]
+
+[ecruteak_gym]
+exits = [
+    "ecruteak",
+]
+header = "ecruteak_gym"
+trainers = [
+    "medium_georgina",
+    "medium_grace",
+    "medium_edith",
+    "medium_martha",
+]
+
+[azalea_kurt_house]
+exits = [
+    "azalea",
+]
+header = "azalea_kurt_house"
+
+[route_38]
+exits = [
+    "ecruteak",
+    "route_38_ecruteak_gatehouse",
+    "route_39",
+]
+encounters = "r38"
+header = "route_38"
+locs = [
+    "hidden_r38_hp_up",
+    "overworld_r38_max_potion",
+    "overworld_r38_lax_incense",
+]
+trainers = [
+    "school_kid_m_chad",
+    "bird_keeper_gs_toby",
+    "lass_dana",
+    "beauty_valerie",
+    "sailor_harry",
+]
+
+[mount_mortar_b1f]
+exits = [
+    "mount_mortar_1f_back",
+    "mount_mortar_1f_entrance",
+]
+encounters = "d38r0104"
+header = "mount_mortar_b1f"
+locs = [
+    "hidden_d38r0104_max_revive",
+    "hidden_d38r0104_ultra_ball",
+    "overworld_d38r0104_carbos",
+    "overworld_d38r0104_pp_up",
+    "overworld_d38r0104_full_restore",
+    "overworld_d38r0104_max_ether",
+    "overworld_d38r0104_hyper_potion",
+]
+
+[ecruteak_pokemart]
+exits = [
+    "ecruteak",
+]
+header = "ecruteak_pokemart"
+
+[route_34]
+exits = [
+    "azalea",
+    "goldenrod",
+    "route_34_daycare",
+    "route_34_ilex_forest_gatehouse",
+]
+encounters = "r34"
+header = "route_34"
+locs = [
+    "hidden_r34_rare_candy",
+    "hidden_r34_super_potion",
+    "hidden_r34_t25_super_potion",
+    "overworld_r34_nugget",
+    "overworld_r34_tm63",
+]
+trainers = [
+    "youngster_samuel",
+    "picnicker_gina",
+    "youngster_ian",
+    "policeman_keith",
+    "camper_todd",
+    "pokefan_m_brandon",
+]
+
+[goldenrod_department_store_elevator]
+header = "goldenrod_department_store_elevator"
+
+[pokeathlon_dome_interior_1f]
+exits = [
+    "pokeathlon_dome",
+    "pokeathlon_dome_interior_2f_entrance",
+    "pokeathlon_dome_interior_b1f_solidarity_room",
+]
+header = "pokeathlon_dome_interior_1f"
+
+[route_34_daycare]
+exits = [
+    "route_34",
+]
+header = "route_34_daycare"
+
+[goldenrod_department_store_2f]
+exits = [
+    "goldenrod_department_store_1f",
+    "goldenrod_department_store_3f",
+    "goldenrod_department_store_elevator",
+]
+header = "goldenrod_department_store_2f"
+
+[pewter_pokecenter_b1f]
+exits = [
+    "pewter_pokecenter_1f",
+]
+header = "pewter_pokecenter_b1f"
+
+[goldenrod_tunnel_b1f]
+exits = [
+    "goldenrod_tunnel_1f",
+]
+header = "goldenrod_tunnel_b1f"
+trainers = [
+    "poke_maniac_donald",
+    "super_nerd_teru",
+    "poke_maniac_issac",
+    "super_nerd_eric",
+]
+
+[route_3_pokecenter_1f]
+exits = [
+    "route_3",
+    "route_3_pokecenter_b1f",
+]
+header = "route_3_pokecenter_1f"
+
+[goldenrod_magnet_train_station_2f_empty]
+exits = [
+    "goldenrod_magnet_train_station_1f",
+]
+header = "goldenrod_magnet_train_station_2f_empty"
+
+[slowpoke_well_b1f]
+exits = [
+    "slowpoke_well_b2f",
+    "slowpoke_well_entrance",
+]
+encounters = "d26r0102"
+header = "slowpoke_well_b1f"
+locs = [
+    "hidden_d26r0102_super_potion",
+    "hidden_d26r0102_full_heal",
+    "overworld_d26r0102_super_potion",
+]
+trainers = [
+    "team_rocket_grunt_2",
+    "team_rocket_grunt",
+    "team_rocket_f_grunt",
+]
+
+[goldenrod_pokecenter_b1f]
+exits = [
+    "goldenrod_pokecenter_1f",
+]
+header = "goldenrod_pokecenter_b1f"
+
+[mount_moon]
+exits = [
+    "mount_moon_square_entrance",
+    "route_3",
+    "route_4",
+]
+encounters = "d02r0101"
+header = "mount_moon"
+locs = [
+    "hidden_d02r0101_revive",
+]
+
+[team_rocket_headquarters_b3f]
+exits = [
+    "team_rocket_headquarters_b2f",
+]
+header = "team_rocket_headquarters_b3f"
+locs = [
+    "overworld_d35r0104_protein",
+    "overworld_d35r0104_x_special",
+    "overworld_d35r0104_tm49",
+    "overworld_d35r0104_full_heal",
+    "overworld_d35r0104_ultra_ball",
+]
+trainers = [
+    "scientist_gs_ross",
+    "scientist_gs_mitch",
+    "team_rocket_grunt_19",
+    "team_rocket_f_grunt_5",
+]
+
+[goldenrod_radio_tower_2f]
+exits = [
+    "goldenrod_radio_tower_1f",
+    "goldenrod_radio_tower_3f",
+]
+header = "goldenrod_radio_tower_2f"
+trainers = [
+    "team_rocket_grunt_5",
+    "team_rocket_f_grunt_2",
+    "team_rocket_grunt_6",
+    "team_rocket_grunt_4",
+]
+
+[ecruteak_bell_tower_barrier_station_corridor]
+exits = [
+    "bellchime_tower",
+    "ecruteak_bell_tower_barrier_station",
+]
+header = "ecruteak_bell_tower_barrier_station_corridor"
+
+[route_20]
+exits = [
+    "cinnabar_island",
+    "route_19",
+    "seafoam_islands_1f",
+]
+encounters = "w20"
+header = "route_20"
+locs = [
+    "hidden_w20_stardust",
+    "hidden_w20_deepseascale",
+    "hidden_w20_deepseatooth",
+]
+trainers = [
+    "swimmer_m_frankie",
+    "camper_pedro",
+    "picnicker_adrian",
+    "picnicker_cheyenne",
+    "bird_keeper_gs_bert",
+    "bird_keeper_gs_ernie",
+    "swimmer_f_nicole",
+    "swimmer_f_lori",
+    "swimmer_m_elmo",
+    "swimmer_m_luis",
+    "swimmer_f_leona",
+    "swimmer_f_mina",
+]
+
+[route_34_ilex_forest_gatehouse]
+exits = [
+    "ilex_forest",
+    "route_34",
+]
+header = "route_34_ilex_forest_gatehouse"
+
+[vermilion]
+exits = [
+    "route_11",
+    "route_6",
+    "ss_aqua_vermilion_port_interior",
+    "vermilion_central_house",
+    "vermilion_fishing_dude_house",
+    "vermilion_gym",
+    "vermilion_pokecenter_1f",
+    "vermilion_pokemart",
+    "vermilion_pokemon_fan_club",
+    "vermilion_south_house",
+]
+encounters = "t06"
+header = "vermilion"
+locs = [
+    "hidden_t06_full_heal",
+    "hidden_t06_heart_scale",
+    "hidden_t06_pearl",
+    "hidden_t06_pearl_2",
+    "hidden_t06_big_pearl",
+    "overworld_t06_luck_incense",
+    "overworld_t06_sticky_barb",
+]
+
+[pokemon_league_koga_room]
+exits = [
+    "pokemon_league_bruno_room",
+    "pokemon_league_entrance",
+]
+header = "pokemon_league_koga_room"
+
+[goldenrod_tunnel_b2f]
+exits = [
+    "goldenrod_tunnel_1f",
+    "goldenrod_tunnel_warehouse",
+]
+header = "goldenrod_tunnel_b2f"
+locs = [
+    "overworld_d37r0104_full_heal",
+    "overworld_d37r0104_smoke_ball",
+]
+trainers = [
+    "team_rocket_grunt_11",
+    "team_rocket_grunt_23",
+    "team_rocket_grunt_12",
+    "team_rocket_f_grunt_3",
+    "burglar_orson",
+    "burglar_duncan",
+]
+
+[route_12]
+exits = [
+    "lavender",
+    "route_11",
+    "route_12_fishing_brother_house",
+    "route_13",
+    "route_19_route_12_gatehouse",
+]
+encounters = "r12"
+header = "route_12"
+locs = [
+    "hidden_r12_elixir",
+    "overworld_r12_calcium",
+    "overworld_r12_yellow_flute",
+]
+trainers = [
+    "fisherman_kyle",
+    "fisherman_martin",
+    "bird_keeper_gs_justin",
+    "young_couple_vic_and_tara",
+    "fisherman_stephen",
+    "fisherman_barney",
+    "bird_keeper_gs_gail",
+    "fisherman_kyler",
+]
+
+[cinnabar_island_pokecenter_1f]
+exits = [
+    "cinnabar_island",
+    "cinnabar_island_pokecenter_b1f",
+]
+header = "cinnabar_island_pokecenter_1f"
+
+[mount_silver_cave_summit]
+exits = [
+    "mount_silver_cave_3f",
+]
+header = "mount_silver_cave_summit"
+
+[azalea_pokecenter_b1f]
+exits = [
+    "azalea_pokecenter_1f",
+]
+header = "azalea_pokecenter_b1f"
+
+[union]
+exits = [
+    "ecruteak_pokecenter_1f",
+]
+header = "union"
+
+[azalea_gym]
+exits = [
+    "azalea_gym_entrance",
+]
+header = "azalea_gym"
+trainers = [
+    "bug_catcher_al",
+    "bug_catcher_benny",
+    "twins_amy_and_mimi",
+    "bug_catcher_josh",
+]
+
+[route_39]
+exits = [
+    "olivine",
+    "route_38",
+    "route_39_moomoo_farm_house",
+    "route_39_moomoo_farm_stable",
+]
+encounters = "r39"
+header = "route_39"
+locs = [
+    "hidden_r39_nugget",
+    "hidden_r39_pp_up",
+    "hidden_r39_x_attack",
+    "overworld_r39_tm60",
+]
+trainers = [
+    "sailor_eugene",
+    "pokefan_m_derek",
+    "pokefan_ruth",
+    "psychic_m_nelson",
+]
+
+[ilex_forest]
+exits = [
+    "azalea_ilex_forest_gatehouse",
+    "route_34_ilex_forest_gatehouse",
+]
+encounters = "d36r0101"
+header = "ilex_forest"
+locs = [
+    "hidden_d36r0101_antidote",
+    "hidden_d36r0101_super_potion",
+    "hidden_d36r0101_full_heal",
+    "hidden_d36r0101_ether",
+    "hidden_d36r0101_tinymushroom",
+    "hidden_d36r0101_repel",
+    "hidden_d36r0101_big_mushroom",
+    "hidden_d36r0101_tinymushroom_2",
+    "hidden_d36r0101_tinymushroom_3",
+    "overworld_d36r0101_revive",
+    "overworld_d36r0101_x_attack",
+    "overworld_d36r0101_antidote",
+    "overworld_d36r0101_ether",
+]
+
+[route_19_route_12_gatehouse]
+exits = [
+    "route_11",
+    "route_12",
+]
+header = "route_19_route_12_gatehouse"
+
+[goldenrod_global_terminal_2f]
+exits = [
+    "goldenrod_global_terminal_1f",
+    "goldenrod_global_terminal_3f",
+]
+header = "goldenrod_global_terminal_2f"
+
+[goldenrod_global_terminal_3f]
+exits = [
+    "goldenrod_global_terminal_1f",
+    "goldenrod_global_terminal_2f",
+]
+header = "goldenrod_global_terminal_3f"
+
+[route_4]
+exits = [
+    "cerulean",
+    "mount_moon",
+    "route_3",
+]
+encounters = "r04"
+header = "route_4"
+locs = [
+    "hidden_r04_ultra_ball",
+    "hidden_r04_big_mushroom",
+    "overworld_r04_hp_up",
+]
+trainers = [
+    "picnicker_hope",
+    "picnicker_sharon",
+    "bird_keeper_gs_hank",
+]
+
+[burned_tower_b1f]
+exits = [
+    "burned_tower_1f",
+]
+encounters = "d18r0102"
+header = "burned_tower_b1f"
+locs = [
+    "hidden_d18r0102_revive",
+    "hidden_d18r0102_antidote",
+    "overworld_d18r0102_tm12",
+]
+
+[ecruteak_pokecenter_b1f]
+exits = [
+    "ecruteak_pokecenter_1f",
+]
+header = "ecruteak_pokecenter_b1f"
+
+[vermilion_pokemart]
+exits = [
+    "vermilion",
+]
+header = "vermilion_pokemart"
+
+[route_13]
+exits = [
+    "route_12",
+    "route_14",
+]
+encounters = "r13"
+header = "route_13"
+locs = [
+    "hidden_r13_calcium",
+]
+trainers = [
+    "hiker_kenny",
+    "young_couple_tim_and_sue",
+    "pokefan_m_joshua",
+    "pokefan_m_alex",
+    "camper_clark",
+    "camper_tanner",
+    "picnicker_piper",
+    "picnicker_ginger",
+    "bird_keeper_gs_bret",
+    "bird_keeper_gs_perry",
+]
+
+[route_6]
+exits = [
+    "route_6_saffron_gatehouse",
+    "route_6_underground_path_gate",
+    "saffron",
+    "vermilion",
+]
+encounters = "r06"
+header = "route_6"
+locs = [
+    "overworld_r06_tm62",
+]
+trainers = [
+    "camper_virgil",
+    "picnicker_selina",
+    "twins_day_and_dani",
+]
+
+[route_39_moomoo_farm_house]
+exits = [
+    "route_39",
+    "route_39_moomoo_farm_stable",
+]
+header = "route_39_moomoo_farm_house"
+
+[pokemon_league_bruno_room]
+exits = [
+    "pokemon_league_entrance",
+    "pokemon_league_karen_room",
+]
+header = "pokemon_league_bruno_room"
+
+[vermilion_central_house]
+exits = [
+    "vermilion",
+]
+header = "vermilion_central_house"
+
+[bellchime_tower]
+exits = [
+    "bell_tower_1f",
+    "ecruteak_bell_tower_barrier_station_corridor",
+]
+header = "bellchime_tower"
+locs = [
+    "hidden_d17r1101_tinymushroom",
+    "hidden_d17r1101_big_mushroom",
+    "hidden_d17r1101_tinymushroom_2",
+    "hidden_d17r1101_big_mushroom_2",
+    "hidden_d17r1101_tinymushroom_3",
+]
+
+[route_39_moomoo_farm_stable]
+exits = [
+    "route_39",
+    "route_39_moomoo_farm_house",
+]
+header = "route_39_moomoo_farm_stable"
+
+[pokeathlon_dome_interior_b1f_solidarity_room]
+exits = [
+    "pokeathlon_dome_interior_1f",
+    "pokeathlon_dome_interior_b1f_trust_room",
+]
+header = "pokeathlon_dome_interior_b1f_solidarity_room"
+
+[mount_moon_square_entrance]
+exits = [
+    "mount_moon",
+    "mount_moon_square",
+    "mount_moon_square_clefairy_event",
+]
+encounters = "d02r0102"
+header = "mount_moon_square_entrance"
+
+[cerulean]
+exits = [
+    "cerulean_bike_maniac_house",
+    "cerulean_cave_1f",
+    "cerulean_east_house",
+    "cerulean_gym",
+    "cerulean_north_house",
+    "cerulean_pokecenter_1f",
+    "cerulean_pokemart",
+    "cerulean_west_house",
+    "route_24",
+    "route_4",
+    "route_5",
+    "route_9",
+]
+encounters = "t04"
+header = "cerulean"
+locs = [
+    "hidden_t04_nugget",
+]
+
+[vermilion_gym]
+exits = [
+    "vermilion",
+]
+header = "vermilion_gym"
+trainers = [
+    "guitarist_vincent",
+    "juggler_horton",
+    "gentleman_gregory",
+]
+
+[lavender]
+exits = [
+    "lavender_house_of_memories",
+    "lavender_name_rater",
+    "lavender_pokecenter_1f",
+    "lavender_pokemart",
+    "lavender_radio_station",
+    "lavender_southwest_house",
+    "lavender_volunteer_pokemon_house",
+    "route_10_south",
+    "route_12",
+    "route_8",
+]
+header = "lavender"
+
+[route_12_fishing_brother_house]
+exits = [
+    "route_12",
+]
+header = "route_12_fishing_brother_house"
+
+[ss_aqua_vermilion_port_interior]
+exits = [
+    "ss_aqua_vermilion_port_exterior",
+    "vermilion",
+]
+header = "ss_aqua_vermilion_port_interior"
+
+[route_3_pokecenter_b1f]
+exits = [
+    "route_3_pokecenter_1f",
+]
+header = "route_3_pokecenter_b1f"
+
+[vermilion_pokemon_fan_club]
+exits = [
+    "vermilion",
+]
+header = "vermilion_pokemon_fan_club"
+
+[vermilion_pokecenter_1f]
+exits = [
+    "vermilion",
+    "vermilion_pokecenter_b1f",
+]
+header = "vermilion_pokecenter_1f"
+
+[goldenrod_tunnel_warehouse]
+exits = [
+    "goldenrod_department_store_basement",
+    "goldenrod_tunnel_b2f",
+]
+header = "goldenrod_tunnel_warehouse"
+locs = [
+    "hidden_d37r0105_max_potion",
+    "hidden_d37r0105_revive",
+    "overworld_d37r0105_tm82",
+    "overworld_d37r0105_max_ether",
+    "overworld_d37r0105_ultra_ball",
+]
+trainers = [
+    "team_rocket_grunt_13",
+    "team_rocket_grunt_14",
+    "team_rocket_grunt_22",
+]
+
+[cinnabar_island_pokecenter_b1f]
+exits = [
+    "cinnabar_island_pokecenter_1f",
+]
+header = "cinnabar_island_pokecenter_b1f"
+
+[slowpoke_well_b2f]
+exits = [
+    "slowpoke_well_b1f",
+]
+encounters = "d26r0103"
+header = "slowpoke_well_b2f"
+locs = [
+    "overworld_d26r0103_tm18",
+]
+
+[seafoam_islands_1f]
+exits = [
+    "route_20",
+    "seafoam_islands_b1f",
+    "seafoam_islands_cinnabar_gym",
+]
+encounters = "d11r0101"
+header = "seafoam_islands_1f"
+locs = [
+    "hidden_d11r0101_escape_rope",
+]
+
+[vermilion_fishing_dude_house]
+exits = [
+    "vermilion",
+]
+header = "vermilion_fishing_dude_house"
+
+[vermilion_south_house]
+exits = [
+    "vermilion",
+]
+header = "vermilion_south_house"
+
+[pokeathlon_dome_interior_2f_entrance]
+exits = [
+    "pokeathlon_dome_interior_1f",
+    "pokeathlon_dome_interior_2f",
+]
+header = "pokeathlon_dome_interior_2f_entrance"
+
+[route_19]
+exits = [
+    "fuchsia",
+    "route_19_fuchsia_gatehouse",
+    "route_20",
+]
+encounters = "w19"
+header = "route_19"
+locs = [
+    "hidden_w19_big_pearl",
+    "hidden_w19_pearl_2",
+    "hidden_w19_pearl",
+    "hidden_w19_revive",
+    "hidden_w19_max_elixir",
+    "overworld_w19_tm55",
+]
+trainers = [
+    "swimmer_m_jerome",
+    "swimmer_m_harold",
+    "swimmer_m_tucker",
+    "swimmer_f_debbie",
+]
+
+[goldenrod_radio_tower_3f]
+exits = [
+    "goldenrod_radio_tower_2f",
+    "goldenrod_radio_tower_4f",
+]
+header = "goldenrod_radio_tower_3f"
+trainers = [
+    "team_rocket_grunt_7",
+    "team_rocket_grunt_8",
+    "scientist_gs_garett",
+    "team_rocket_grunt_9",
+]
+
+[olivine]
+exits = [
+    "olivine_cafe",
+    "olivine_gym",
+    "olivine_lighthouse_1f",
+    "olivine_northeast_house",
+    "olivine_northwest_house",
+    "olivine_north_house",
+    "olivine_pokecenter_1f",
+    "olivine_pokemart",
+    "route_39",
+    "route_40",
+    "ss_aqua_olivine_port_interior",
+]
+encounters = "t26"
+header = "olivine"
+locs = [
+    "hidden_t26_rare_candy",
+    "hidden_r39_t26_full_heal",
+    "overworld_t26_tm57",
+]
+
+[goldenrod_department_store_3f]
+exits = [
+    "goldenrod_department_store_2f",
+    "goldenrod_department_store_4f",
+    "goldenrod_department_store_elevator",
+]
+header = "goldenrod_department_store_3f"
+
+[mount_moon_square_clefairy_event]
+exits = [
+    "mount_moon_square_entrance",
+]
+encounters = "d02r0104"
+header = "mount_moon_square_clefairy_event"
+locs = [
+]
+
+[olivine_northwest_house]
+exits = [
+    "olivine",
+]
+header = "olivine_northwest_house"
+
+[bell_tower_1f]
+exits = [
+    "bellchime_tower",
+    "bell_tower_2f",
+]
+header = "bell_tower_1f"
+
+[route_19_fuchsia_gatehouse]
+exits = [
+    "fuchsia",
+    "route_19",
+]
+header = "route_19_fuchsia_gatehouse"
+
+[ss_aqua_olivine_port_interior]
+exits = [
+    "olivine",
+    "ss_aqua_olivine_port_exterior",
+]
+header = "ss_aqua_olivine_port_interior"
+
+[olivine_northeast_house]
+exits = [
+    "olivine",
+]
+header = "olivine_northeast_house"
+
+[route_8]
+exits = [
+    "lavender",
+    "route_8_saffron_gatehouse",
+    "saffron",
+]
+encounters = "r08"
+header = "route_8"
+locs = [
+    "overworld_r08_tm41",
+]
+trainers = [
+    "biker_dwayne",
+    "biker_harris",
+    "biker_zeke",
+    "super_nerd_sam",
+    "super_nerd_tyrone",
+    "young_couple_moe_and_lulu",
+    "gentleman_milton",
+]
+
+[cerulean_pokemart]
+exits = [
+    "cerulean",
+]
+header = "cerulean_pokemart"
+
+[vermilion_pokecenter_b1f]
+exits = [
+    "vermilion_pokecenter_1f",
+]
+header = "vermilion_pokecenter_b1f"
+
+[route_10_south]
+exits = [
+    "lavender",
+    "rock_tunnel_1f",
+    "route_10",
+]
+header = "route_10_south"
+locs = [
+    "overworld_r10r0101_tm69",
+]
+trainers = [
+    "hiker_jim",
+    "pokefan_m_robert",
+]
+
+[route_6_underground_path_gate]
+exits = [
+    "route_5_underground_path",
+    "route_6",
+]
+header = "route_6_underground_path_gate"
+
+[olivine_pokecenter_1f]
+exits = [
+    "olivine",
+    "olivine_pokecenter_b1f",
+]
+header = "olivine_pokecenter_1f"
+
+[lavender_pokemart]
+exits = [
+    "lavender",
+]
+header = "lavender_pokemart"
+
+[olivine_north_house]
+exits = [
+    "olivine",
+]
+header = "olivine_north_house"
+
+[route_40]
+exits = [
+    "olivine",
+    "route_40_battle_frontier_gatehouse",
+    "route_41",
+]
+encounters = "w40"
+header = "route_40"
+locs = [
+    "hidden_w40_hyper_potion",
+    "overworld_w40_tm88",
+]
+trainers = [
+    "swimmer_m_simon",
+    "swimmer_f_elaine",
+    "swimmer_m_randall",
+    "swimmer_f_paula",
+]
+
+[lavender_name_rater]
+exits = [
+    "lavender",
+]
+header = "lavender_name_rater"
+
+[pokeathlon_dome_interior_b1f_trust_room]
+exits = [
+    "pokeathlon_dome_interior_b1f_potential_room",
+    "pokeathlon_dome_interior_b1f_solidarity_room",
+]
+header = "pokeathlon_dome_interior_b1f_trust_room"
+
+[pokeathlon_dome_interior_2f]
+exits = [
+    "pokeathlon_dome_interior_2f_entrance",
+]
+header = "pokeathlon_dome_interior_2f"
+
+[saffron]
+exits = [
+    "route_5",
+    "route_5_saffron_gatehouse",
+    "route_6",
+    "route_6_saffron_gatehouse",
+    "route_7",
+    "route_7_saffron_gatehouse",
+    "route_8",
+    "route_8_saffron_gatehouse",
+    "saffron_copycat_house_1f",
+    "saffron_fighting_dojo",
+    "saffron_gym",
+    "saffron_magnet_train_station_1f",
+    "saffron_mr_psychic_house",
+    "saffron_pokecenter_1f",
+    "saffron_pokemart",
+    "saffron_silph_co_hq",
+]
+header = "saffron"
+
+[cerulean_cave_1f]
+exits = [
+    "cerulean",
+    "cerulean_cave_2f",
+    "cerulean_cave_b1f",
+]
+encounters = "d03r0101"
+header = "cerulean_cave_1f"
+locs = [
+    "hidden_d03r0101_hyper_potion",
+    "hidden_d03r0101_rare_candy",
+    "hidden_d03r0101_revive",
+    "overworld_d03r0101_max_elixir",
+    "overworld_d03r0101_nugget",
+    "overworld_d03r0101_full_restore",
+    "overworld_d03r0101_sea_incense",
+]
+
+[route_5]
+exits = [
+    "cerulean",
+    "route_5_house",
+    "route_5_saffron_gatehouse",
+    "route_5_underground_path_gate",
+    "saffron",
+]
+encounters = "r05"
+header = "route_5"
+
+[route_6_saffron_gatehouse]
+exits = [
+    "route_6",
+    "saffron",
+]
+header = "route_6_saffron_gatehouse"
+
+[lavender_radio_station]
+exits = [
+    "lavender",
+]
+header = "lavender_radio_station"
+
+[route_24]
+exits = [
+    "cerulean",
+    "route_25",
+]
+encounters = "r24"
+header = "route_24"
+
+[seafoam_islands_b1f]
+exits = [
+    "seafoam_islands_1f",
+    "seafoam_islands_b2f",
+]
+encounters = "d11r0102"
+header = "seafoam_islands_b1f"
+locs = [
+    "hidden_d11r0102_ice_heal",
+    "overworld_d11r0102_grip_claw",
+    "overworld_d11r0102_ice_heal",
+]
+
+[ss_aqua_vermilion_port_exterior]
+exits = [
+    "ss_aqua_1f",
+    "ss_aqua_vermilion_port_interior",
+]
+header = "ss_aqua_vermilion_port_exterior"
+locs = [
+    "hidden_p01r0104_iron",
+]
+
+[mount_moon_square]
+exits = [
+    "mount_moon_square_entrance",
+    "mount_moon_square_shop",
+]
+encounters = "d02r0103"
+header = "mount_moon_square"
+locs = [
+    "hidden_d02r0103_max_revive",
+]
+
+[pokemon_league_karen_room]
+exits = [
+    "pokemon_league_entrance",
+    "pokemon_league_lance_room",
+]
+header = "pokemon_league_karen_room"
+
+[goldenrod_radio_tower_4f]
+exits = [
+    "goldenrod_radio_tower_3f",
+    "goldenrod_radio_tower_5f",
+]
+header = "goldenrod_radio_tower_4f"
+locs = [
+    "overworld_d23r0104_ultra_ball",
+]
+trainers = [
+    "scientist_gs_trenton",
+    "team_rocket_grunt_10",
+    "executive_proton_proton_2",
+]
+
+[cerulean_north_house]
+exits = [
+    "cerulean",
+]
+header = "cerulean_north_house"
+
+[cerulean_east_house]
+exits = [
+    "cerulean",
+]
+header = "cerulean_east_house"
+
+[goldenrod_department_store_4f]
+exits = [
+    "goldenrod_department_store_3f",
+    "goldenrod_department_store_5f",
+    "goldenrod_department_store_elevator",
+]
+header = "goldenrod_department_store_4f"
+
+[goldenrod_department_store_basement]
+exits = [
+    "goldenrod_department_store_elevator",
+    "goldenrod_tunnel_warehouse",
+]
+header = "goldenrod_department_store_basement"
+locs = [
+    "hidden_d37r0103_parlyz_heal",
+    "hidden_d37r0103_super_potion",
+    "hidden_d37r0103_antidote",
+    "overworld_d37r0103_amulet_coin",
+    "overworld_d37r0103_burn_heal",
+    "overworld_d37r0103_ether",
+    "overworld_d37r0103_ultra_ball",
+]
+
+[olivine_lighthouse_1f]
+exits = [
+    "olivine",
+    "olivine_lighthouse_2f",
+    "olivine_lighthouse_elevator",
+]
+header = "olivine_lighthouse_1f"
+
+[route_14]
+exits = [
+    "route_13",
+    "route_15",
+]
+encounters = "r14"
+header = "route_14"
+trainers = [
+    "pokefan_m_trevor",
+    "teacher_clarice",
+    "bird_keeper_gs_roy",
+    "pokefan_m_carter",
+    "bird_keeper_gs_josh",
+    "school_kid_m_torin",
+    "school_kid_m_connor",
+    "school_kid_m_travis",
+]
+
+[lavender_southwest_house]
+exits = [
+    "lavender",
+]
+header = "lavender_southwest_house"
+
+[olivine_cafe]
+exits = [
+    "olivine",
+]
+header = "olivine_cafe"
+
+[cerulean_pokecenter_1f]
+exits = [
+    "cerulean",
+    "cerulean_pokecenter_b1f",
+]
+header = "cerulean_pokecenter_1f"
+
+[lavender_volunteer_pokemon_house]
+exits = [
+    "lavender",
+]
+header = "lavender_volunteer_pokemon_house"
+
+[route_9]
+exits = [
+    "cerulean",
+    "route_10",
+]
+encounters = "r09"
+header = "route_9"
+locs = [
+    "hidden_r09_ether",
+    "overworld_r09_tm91",
+    "overworld_r09_full_restore",
+    "overworld_r09_light_clay",
+    "overworld_r09_max_potion",
+]
+trainers = [
+    "camper_sid",
+    "picnicker_edna",
+    "camper_dean",
+    "hiker_clarke",
+    "hiker_eoin",
+    "picnicker_heidi",
+]
+
+[cerulean_bike_maniac_house]
+exits = [
+    "cerulean",
+]
+header = "cerulean_bike_maniac_house"
+
+[seafoam_islands_cinnabar_gym]
+exits = [
+    "seafoam_islands_1f",
+]
+header = "seafoam_islands_cinnabar_gym"
+
+[lavender_pokecenter_1f]
+exits = [
+    "lavender",
+    "lavender_pokecenter_b1f",
+]
+header = "lavender_pokecenter_1f"
+
+[cerulean_gym]
+exits = [
+    "cerulean",
+]
+header = "cerulean_gym"
+trainers = [
+    "swimmer_f_diana",
+    "swimmer_f_joy",
+    "swimmer_f_briana",
+    "sailor_eddie",
+    "sailor_parker",
+]
+
+[fuchsia]
+exits = [
+    "fuchsia_gym",
+    "fuchsia_pal_park_entrance",
+    "fuchsia_pokecenter_1f",
+    "fuchsia_pokemart",
+    "fuchsia_safari_zone_warden_house",
+    "fuchsia_southwest_house",
+    "route_15",
+    "route_15_fuchsia_gatehouse",
+    "route_18",
+    "route_19",
+    "route_19_fuchsia_gatehouse",
+]
+encounters = "t08"
+header = "fuchsia"
+locs = [
+    "hidden_t08_nugget",
+]
+
+[cerulean_west_house]
+exits = [
+    "cerulean",
+]
+header = "cerulean_west_house"
+
+[lavender_house_of_memories]
+exits = [
+    "lavender",
+]
+header = "lavender_house_of_memories"
+
+[olivine_gym]
+exits = [
+    "olivine",
+]
+header = "olivine_gym"
+
+[olivine_pokemart]
+exits = [
+    "olivine",
+]
+header = "olivine_pokemart"
+
+[fuchsia_pal_park_entrance]
+exits = [
+    "fuchsia",
+]
+header = "fuchsia_pal_park_entrance"
+
+[cerulean_pokecenter_b1f]
+exits = [
+    "cerulean_pokecenter_1f",
+]
+header = "cerulean_pokecenter_b1f"
+
+[seafoam_islands_b2f]
+exits = [
+    "seafoam_islands_b1f",
+    "seafoam_islands_b3f",
+]
+encounters = "d11r0103"
+header = "seafoam_islands_b2f"
+locs = [
+    "hidden_d11r0103_pearl",
+    "hidden_d11r0103_pearl_2",
+    "overworld_d11r0103_water_stone",
+]
+trainers = [
+    "boarder_bryce",
+    "boarder_shaun",
+    "skier_cady",
+]
+
+[route_7]
+exits = [
+    "celadon",
+    "route_7_saffron_gatehouse",
+    "saffron",
+]
+encounters = "r07"
+header = "route_7"
+locs = [
+    "overworld_r07_mental_herb",
+]
+
+[saffron_copycat_house_1f]
+exits = [
+    "saffron",
+    "saffron_copycat_house_2f",
+]
+header = "saffron_copycat_house_1f"
+
+[fuchsia_safari_zone_warden_house]
+exits = [
+    "fuchsia",
+]
+header = "fuchsia_safari_zone_warden_house"
+
+[cerulean_cave_b1f]
+exits = [
+    "cerulean_cave_1f",
+]
+encounters = "d03r0103"
+header = "cerulean_cave_b1f"
+locs = [
+    "hidden_d03r0103_max_revive",
+    "hidden_d03r0103_ultra_ball",
+    "hidden_d03r0103_nugget",
+    "overworld_d03r0103_max_revive",
+    "overworld_d03r0103_ultra_ball",
+    "overworld_d03r0103_dusk_stone",
+    "overworld_d03r0103_electirizer",
+    "overworld_d03r0103_black_sludge",
+]
+
+[olivine_pokecenter_b1f]
+exits = [
+    "olivine_pokecenter_1f",
+]
+header = "olivine_pokecenter_b1f"
+
+[route_41]
+exits = [
+    "cianwood",
+    "route_40",
+    "whirl_islands_1f",
+]
+encounters = "w41"
+header = "route_41"
+locs = [
+    "hidden_w41_max_ether",
+    "hidden_w41_stardust",
+    "hidden_w41_stardust_2",
+    "hidden_w41_stardust_4",
+    "hidden_w41_stardust_3",
+]
+trainers = [
+    "swimmer_m_charlie",
+    "swimmer_m_george",
+    "swimmer_m_berke",
+    "swimmer_m_matthew",
+    "swimmer_m_ronald",
+    "swimmer_f_kaylee",
+    "swimmer_f_susie",
+    "swimmer_f_denise",
+    "swimmer_f_kara",
+    "swimmer_f_wendy",
+]
+
+[route_25]
+exits = [
+    "route_24",
+    "route_25_sea_cottage",
+]
+encounters = "r25"
+header = "route_25"
+locs = [
+    "hidden_r25_revive",
+    "overworld_r25_protein",
+]
+trainers = [
+    "school_kid_m_dudley",
+    "lass_ellen",
+    "school_kid_m_joe",
+    "lass_laura",
+    "lass_shannon",
+    "camper_lloyd",
+    "super_nerd_pat",
+]
+
+[ss_aqua_1f]
+exits = [
+    "ss_aqua_1f_northeast_rooms",
+    "ss_aqua_1f_northwest_rooms",
+    "ss_aqua_1f_southeast_rooms",
+    "ss_aqua_1f_southwest_rooms",
+    "ss_aqua_b1f",
+    "ss_aqua_captain_room",
+    "ss_aqua_olivine_port_exterior",
+    "ss_aqua_vermilion_port_exterior",
+]
+header = "ss_aqua_1f"
+
+[saffron_silph_co_hq]
+exits = [
+    "saffron",
+    "saffron_silph_co_elevator",
+]
+header = "saffron_silph_co_hq"
+
+[route_15_fuchsia_gatehouse]
+exits = [
+    "fuchsia",
+    "route_15",
+]
+header = "route_15_fuchsia_gatehouse"
+
+[fuchsia_pokemart]
+exits = [
+    "fuchsia",
+]
+header = "fuchsia_pokemart"
+
+[pokeathlon_dome_interior_b1f_potential_room]
+exits = [
+    "pokeathlon_dome_interior_b1f_friendship_room",
+    "pokeathlon_dome_interior_b1f_trust_room",
+]
+header = "pokeathlon_dome_interior_b1f_potential_room"
+
+[ss_aqua_olivine_port_exterior]
+exits = [
+    "ss_aqua_1f",
+    "ss_aqua_olivine_port_interior",
+]
+header = "ss_aqua_olivine_port_exterior"
+locs = [
+    "hidden_p01r0102_protein",
+    "hidden_p01r0102_pearl",
+]
+
+[route_10]
+exits = [
+    "rock_tunnel_1f",
+    "route_10_pokecenter_1f",
+    "route_10_power_plant_repaired",
+    "route_10_south",
+    "route_9",
+]
+encounters = "r10"
+header = "route_10"
+locs = [
+    "hidden_r10_carbos",
+]
+
+[route_5_underground_path]
+exits = [
+    "route_5_underground_path_gate",
+    "route_6_underground_path_gate",
+]
+header = "route_5_underground_path"
+locs = [
+    "hidden_r05r0202_full_restore",
+    "hidden_r05r0202_x_special",
+]
+
+[route_5_underground_path_gate]
+exits = [
+    "route_5",
+    "route_5_underground_path",
+]
+header = "route_5_underground_path_gate"
+
+[route_5_saffron_gatehouse]
+exits = [
+    "route_5",
+    "saffron",
+]
+header = "route_5_saffron_gatehouse"
+
+[route_5_house]
+exits = [
+    "route_5",
+]
+header = "route_5_house"
+
+[olivine_lighthouse_2f]
+exits = [
+    "olivine_lighthouse_1f",
+    "olivine_lighthouse_3f",
+]
+header = "olivine_lighthouse_2f"
+trainers = [
+    "gentleman_alfred",
+    "sailor_huey",
+]
+
+[saffron_fighting_dojo]
+exits = [
+    "saffron",
+]
+header = "saffron_fighting_dojo"
+
+[saffron_gym]
+exits = [
+    "saffron",
+]
+header = "saffron_gym"
+trainers = [
+    "medium_darcy",
+    "psychic_m_jared",
+    "medium_rebecca",
+    "psychic_m_franklin",
+]
+
+[saffron_magnet_train_station_1f]
+exits = [
+    "saffron",
+    "saffron_magnet_train_station_2f_empty",
+]
+header = "saffron_magnet_train_station_1f"
+
+[saffron_pokemart]
+exits = [
+    "saffron",
+]
+header = "saffron_pokemart"
+
+[pokemon_league_lance_room]
+exits = [
+    "pokemon_league_hall_of_fame",
+    "pokemon_league_karen_room",
+]
+header = "pokemon_league_lance_room"
+
+[route_7_saffron_gatehouse]
+exits = [
+    "route_7",
+    "saffron",
+]
+header = "route_7_saffron_gatehouse"
+
+[saffron_pokecenter_1f]
+exits = [
+    "saffron",
+    "saffron_pokecenter_2f",
+]
+header = "saffron_pokecenter_1f"
+
+[goldenrod_radio_tower_5f]
+exits = [
+    "goldenrod_radio_tower_4f",
+    "goldenrod_radio_tower_elevator",
+]
+header = "goldenrod_radio_tower_5f"
+trainers = [
+    "executive_ariana_ariana",
+]
+
+[rock_tunnel_1f]
+exits = [
+    "rock_tunnel_b1f",
+    "route_10",
+    "route_10_south",
+]
+encounters = "d05r0101"
+header = "rock_tunnel_1f"
+locs = [
+    "hidden_d05r0101_x_defense",
+    "hidden_d05r0101_x_accuracy",
+    "overworld_d05r0101_elixir",
+    "overworld_d05r0101_tm56",
+]
+
+[olivine_lighthouse_elevator]
+header = "olivine_lighthouse_elevator"
+
+[route_15]
+exits = [
+    "fuchsia",
+    "route_14",
+    "route_15_fuchsia_gatehouse",
+]
+encounters = "r15"
+header = "route_15"
+locs = [
+    "overworld_r15_pp_up",
+    "overworld_r15_rose_incense",
+]
+trainers = [
+    "school_kid_m_kipp",
+    "school_kid_m_tommy",
+    "teacher_hillary",
+    "twins_kay_and_tia",
+    "pokefan_eleanor",
+    "pokefan_m_boone",
+    "teacher_colette",
+    "school_kid_m_johnny",
+    "school_kid_m_billy",
+]
+
+[lavender_pokecenter_b1f]
+exits = [
+    "lavender_pokecenter_1f",
+]
+header = "lavender_pokecenter_b1f"
+
+[saffron_mr_psychic_house]
+exits = [
+    "saffron",
+]
+header = "saffron_mr_psychic_house"
+
+[route_18]
+exits = [
+    "fuchsia",
+    "route_17",
+    "route_18_gatehouse",
+]
+encounters = "r18"
+header = "route_18"
+trainers = [
+    "bird_keeper_gs_bob",
+    "bird_keeper_gs_boris",
+    "biker_charles",
+]
+
+[goldenrod_department_store_5f]
+exits = [
+    "goldenrod_department_store_4f",
+    "goldenrod_department_store_6f",
+    "goldenrod_department_store_elevator",
+]
+header = "goldenrod_department_store_5f"
+
+[bell_tower_2f]
+exits = [
+    "bell_tower_1f",
+    "bell_tower_3f",
+]
+encounters = "d17r0102"
+header = "bell_tower_2f"
+
+[cerulean_cave_2f]
+exits = [
+    "cerulean_cave_1f",
+]
+encounters = "d03r0102"
+header = "cerulean_cave_2f"
+locs = [
+    "hidden_d03r0102_ultra_ball",
+    "hidden_d03r0102_pp_up",
+    "hidden_d03r0102_big_pearl",
+    "hidden_d03r0102_zinc",
+    "hidden_d03r0102_full_heal",
+    "hidden_d03r0102_protein",
+    "overworld_d03r0102_pp_up",
+    "overworld_d03r0102_tm24",
+    "overworld_d03r0102_ultra_ball",
+    "overworld_d03r0102_odd_incense",
+]
+
+[fuchsia_southwest_house]
+exits = [
+    "fuchsia",
+]
+header = "fuchsia_southwest_house"
+
+[route_8_saffron_gatehouse]
+exits = [
+    "route_8",
+    "saffron",
+]
+header = "route_8_saffron_gatehouse"
+
+[route_40_battle_frontier_gatehouse]
+exits = [
+    "battle_frontier_frontier_access",
+    "route_40",
+]
+header = "route_40_battle_frontier_gatehouse"
+
+[mount_moon_square_shop]
+exits = [
+    "mount_moon_square",
+]
+header = "mount_moon_square_shop"
+
+[fuchsia_gym]
+exits = [
+    "fuchsia",
+]
+header = "fuchsia_gym"
+
+[fuchsia_pokecenter_1f]
+exits = [
+    "fuchsia",
+    "fuchsia_pokecenter_b1f",
+]
+header = "fuchsia_pokecenter_1f"
+
+[route_18_gatehouse]
+exits = [
+    "route_18",
+]
+header = "route_18_gatehouse"
+
+[route_10_pokecenter_1f]
+exits = [
+    "route_10",
+    "route_10_pokecenter_b1f",
+]
+header = "route_10_pokecenter_1f"
+
+[ss_aqua_1f_southwest_rooms]
+exits = [
+    "ss_aqua_1f",
+]
+header = "ss_aqua_1f_southwest_rooms"
+trainers = [
+    "hiker_noland",
+    "ace_trainer_m_shaye",
+    "ace_trainer_f_carol",
+    "poke_maniac_morgan",
+]
+
+[whirl_islands_1f]
+exits = [
+    "route_41",
+    "whirl_islands_b1f",
+]
+encounters = "d40r0101"
+header = "whirl_islands_1f"
+locs = [
+    "hidden_d40r0101_rare_candy",
+    "overworld_d40r0101_ultra_ball_2",
+    "overworld_d40r0101_ultra_ball",
+]
+
+[seafoam_islands_b3f]
+exits = [
+    "seafoam_islands_b2f",
+    "seafoam_islands_b4f",
+]
+encounters = "d11r0104"
+header = "seafoam_islands_b3f"
+locs = [
+    "hidden_d11r0104_max_revive",
+    "hidden_d11r0104_rare_candy",
+    "overworld_d11r0104_revive",
+    "overworld_d11r0104_big_pearl",
+]
+
+[battle_frontier_frontier_access]
+exits = [
+    "battle_frontier_frontier_access_gatehouse",
+    "frontier_access_move_tutor_house",
+    "frontier_access_pokecenter_1f",
+    "frontier_access_pokemart",
+    "route_40_battle_frontier_gatehouse",
+]
+header = "battle_frontier_frontier_access"
+locs = [
+    "hidden_d32r0102_rare_candy",
+]
+
+[route_25_sea_cottage]
+exits = [
+    "route_25",
+]
+header = "route_25_sea_cottage"
+
+[ss_aqua_b1f]
+exits = [
+    "ss_aqua_1f",
+]
+header = "ss_aqua_b1f"
+trainers = [
+    "picnicker_debra",
+    "sailor_jeff",
+    "juggler_fritz",
+    "fisherman_jonah",
+    "sailor_garrett",
+    "black_belt_wai",
+    "sailor_kenneth",
+    "school_kid_m_nate",
+    "school_kid_m_ricky",
+    "teacher_shirley",
+]
+
+[ss_aqua_1f_northeast_rooms]
+exits = [
+    "ss_aqua_1f",
+]
+header = "ss_aqua_1f_northeast_rooms"
+trainers = [
+    "firebreather_lyle",
+    "beauty_cassie",
+    "guitarist_clyde",
+    "bug_catcher_ken",
+]
+
+[celadon]
+exits = [
+    "celadon_condominiums_1f",
+    "celadon_department_store_1f",
+    "celadon_game_corner",
+    "celadon_gym",
+    "celadon_pokecenter_1f",
+    "celadon_prize_corner",
+    "celadon_restaurant",
+    "route_16_east",
+    "route_7",
+]
+encounters = "t07"
+header = "celadon"
+locs = [
+    "hidden_t07_pp_up",
+    "overworld_t07_tm67",
+]
+
+[ss_aqua_1f_northwest_rooms]
+exits = [
+    "ss_aqua_1f",
+]
+header = "ss_aqua_1f_northwest_rooms"
+trainers = [
+    "pokefan_m_colin",
+    "twins_meg_and_peg",
+    "super_nerd_shawn",
+    "psychic_m_rodney",
+    "pokefan_georgia",
+    "pokefan_m_jeremy",
+]
+
+[saffron_silph_co_elevator]
+header = "saffron_silph_co_elevator"
+
+[route_10_power_plant_repaired]
+exits = [
+    "route_10",
+]
+header = "route_10_power_plant_repaired"
+
+[pokeathlon_dome_interior_b1f_friendship_room]
+exits = [
+    "pokeathlon_dome_interior_b1f_potential_room",
+]
+header = "pokeathlon_dome_interior_b1f_friendship_room"
+
+[pokemon_league_hall_of_fame]
+exits = [
+    "pokemon_league_lance_room",
+]
+header = "pokemon_league_hall_of_fame"
+
+[route_17]
+exits = [
+    "route_16",
+    "route_18",
+]
+encounters = "r17"
+header = "route_17"
+locs = [
+    "hidden_r17_max_ether",
+    "hidden_r17_max_elixir",
+]
+trainers = [
+    "biker_reese",
+    "biker_joel",
+    "biker_markey",
+    "biker_dale",
+    "biker_jacob",
+    "biker_aiden",
+    "biker_dan",
+    "biker_theron",
+    "biker_glenn",
+    "biker_teddy",
+    "biker_ernest",
+]
+
+[ss_aqua_captain_room]
+exits = [
+    "ss_aqua_1f",
+]
+header = "ss_aqua_captain_room"
+
+[cianwood]
+exits = [
+    "cianwood_camerons_house",
+    "cianwood_central_house",
+    "cianwood_gym",
+    "cianwood_kirks_house",
+    "cianwood_north_house",
+    "cianwood_pharmacy",
+    "cianwood_pokecenter_1f",
+    "cliff_edge_gate",
+    "route_41",
+    "route_47",
+]
+encounters = "t24"
+header = "cianwood"
+locs = [
+    "hidden_t24_revive",
+    "hidden_t24_stardust",
+]
+
+[ss_aqua_1f_southeast_rooms]
+exits = [
+    "ss_aqua_1f",
+]
+header = "ss_aqua_1f_southeast_rooms"
+trainers = [
+    "gentleman_edward",
+    "burglar_corey",
+]
+
+[bell_tower_3f]
+exits = [
+    "bell_tower_2f",
+    "bell_tower_4f",
+]
+encounters = "d17r0103"
+header = "bell_tower_3f"
+locs = [
+    "hidden_d17r0103_max_potion",
+    "overworld_d17r0103_full_heal",
+]
+
+[saffron_pokecenter_2f]
+exits = [
+    "saffron_pokecenter_1f",
+]
+header = "saffron_pokecenter_2f"
+
+[rock_tunnel_b1f]
+exits = [
+    "rock_tunnel_1f",
+]
+encounters = "d05r0102"
+header = "rock_tunnel_b1f"
+locs = [
+    "hidden_d05r0102_max_potion",
+    "hidden_d05r0102_hp_up",
+    "overworld_d05r0102_iron",
+    "overworld_d05r0102_pp_up",
+    "overworld_d05r0102_revive",
+    "overworld_d05r0102_oval_stone",
+]
+
+[fuchsia_pokecenter_b1f]
+exits = [
+    "fuchsia_pokecenter_1f",
+]
+header = "fuchsia_pokecenter_b1f"
+
+[saffron_magnet_train_station_2f_empty]
+exits = [
+    "saffron_magnet_train_station_1f",
+]
+header = "saffron_magnet_train_station_2f_empty"
+
+[goldenrod_radio_tower_elevator]
+header = "goldenrod_radio_tower_elevator"
+
+[saffron_copycat_house_2f]
+exits = [
+    "saffron_copycat_house_1f",
+]
+header = "saffron_copycat_house_2f"
+
+[goldenrod_department_store_6f]
+exits = [
+    "goldenrod_department_store_5f",
+    "goldenrod_department_store_elevator",
+]
+header = "goldenrod_department_store_6f"
+
+[olivine_lighthouse_3f]
+exits = [
+    "olivine_lighthouse_2f",
+    "olivine_lighthouse_4f",
+    "olivine_lighthouse_exterior",
+]
+header = "olivine_lighthouse_3f"
+locs = [
+    "hidden_d27r0104_hyper_potion",
+    "overworld_d27r0104_ether",
+]
+trainers = [
+    "sailor_kent",
+    "bird_keeper_gs_denis",
+    "bird_keeper_gs_theo",
+]
+
+[olivine_lighthouse_exterior]
+exits = [
+    "olivine_lighthouse_3f",
+]
+header = "olivine_lighthouse_exterior"
+locs = [
+    "overworld_d27r0103_rare_candy",
+]
+
+[seafoam_islands_b4f]
+exits = [
+    "seafoam_islands_b3f",
+]
+encounters = "d11r0105"
+header = "seafoam_islands_b4f"
+locs = [
+    "hidden_d11r0105_zinc",
+    "overworld_d11r0105_ultra_ball",
+    "overworld_d11r0105_tm13",
+]
+
+[route_10_pokecenter_b1f]
+exits = [
+    "route_10_pokecenter_1f",
+]
+header = "route_10_pokecenter_b1f"
+
+[cianwood_gym]
+exits = [
+    "cianwood",
+]
+header = "cianwood_gym"
+trainers = [
+    "black_belt_yoshi",
+    "black_belt_lao",
+    "black_belt_nob",
+    "black_belt_lung",
+]
+
+[battle_frontier_frontier_access_gatehouse]
+exits = [
+    "battle_frontier",
+    "battle_frontier_frontier_access",
+]
+header = "battle_frontier_frontier_access_gatehouse"
+
+[frontier_access_pokecenter_1f]
+exits = [
+    "battle_frontier_frontier_access",
+    "frontier_access_pokecenter_b1f",
+]
+header = "frontier_access_pokecenter_1f"
+
+[cianwood_kirks_house]
+exits = [
+    "cianwood",
+]
+header = "cianwood_kirks_house"
+
+[route_16]
+exits = [
+    "route_16_east",
+    "route_16_gatehouse",
+    "route_17",
+]
+header = "route_16"
+
+[frontier_access_move_tutor_house]
+exits = [
+    "battle_frontier_frontier_access",
+]
+header = "frontier_access_move_tutor_house"
+
+[celadon_condominiums_1f]
+exits = [
+    "celadon",
+    "celadon_condominiums_2f",
+    "celadon_condominiums_left_elevator",
+]
+header = "celadon_condominiums_1f"
+
+[celadon_game_corner]
+exits = [
+    "celadon",
+]
+header = "celadon_game_corner"
+
+[bell_tower_4f]
+exits = [
+    "bell_tower_3f",
+    "bell_tower_5f",
+]
+encounters = "d17r0104"
+header = "bell_tower_4f"
+locs = [
+    "overworld_d17r0104_escape_rope",
+    "overworld_d17r0104_ultra_ball",
+    "overworld_d17r0104_pp_up",
+]
+
+[celadon_department_store_1f]
+exits = [
+    "celadon",
+    "celadon_department_store_2f",
+    "celadon_department_store_elevator",
+]
+header = "celadon_department_store_1f"
+
+[route_16_east]
+exits = [
+    "celadon",
+    "route_16",
+    "route_16_gatehouse",
+    "route_16_house",
+]
+encounters = "r16r0301"
+header = "route_16_east"
+
+[celadon_gym]
+exits = [
+    "celadon",
+]
+header = "celadon_gym"
+trainers = [
+    "twins_jo_and_zoe",
+    "lass_michelle",
+    "picnicker_tanya",
+    "beauty_julia",
+]
+
+[celadon_restaurant]
+exits = [
+    "celadon",
+]
+header = "celadon_restaurant"
+
+[frontier_access_pokemart]
+exits = [
+    "battle_frontier_frontier_access",
+]
+header = "frontier_access_pokemart"
+
+[olivine_lighthouse_4f]
+exits = [
+    "olivine_lighthouse_3f",
+    "olivine_lighthouse_5f",
+]
+header = "olivine_lighthouse_4f"
+locs = [
+    "overworld_d27r0105_tm87",
+]
+trainers = [
+    "lass_connie",
+    "gentleman_preston",
+]
+
+[cianwood_camerons_house]
+exits = [
+    "cianwood",
+]
+header = "cianwood_camerons_house"
+
+[whirl_islands_b1f]
+exits = [
+    "whirl_islands_1f",
+    "whirl_islands_b2f",
+]
+encounters = "d40r0102"
+header = "whirl_islands_b1f"
+locs = [
+    "hidden_d40r0102_ultra_ball",
+    "hidden_d40r0102_super_repel",
+    "hidden_d40r0102_pearl",
+    "hidden_d40r0102_revive",
+    "overworld_d40r0102_escape_rope",
+    "overworld_d40r0102_carbos",
+    "overworld_d40r0102_full_restore",
+    "overworld_d40r0102_nugget",
+    "overworld_d40r0102_calcium",
+]
+
+[cianwood_central_house]
+exits = [
+    "cianwood",
+]
+header = "cianwood_central_house"
+
+[cliff_edge_gate]
+exits = [
+    "cianwood",
+    "route_47",
+]
+encounters = "d48r0101"
+header = "cliff_edge_gate"
+locs = [
+    "hidden_d48r0101_big_pearl",
+]
+
+[cianwood_pharmacy]
+exits = [
+    "cianwood",
+]
+header = "cianwood_pharmacy"
+
+[route_47]
+exits = [
+    "cianwood",
+    "cliff_cave",
+    "cliff_edge_gate",
+    "embedded_tower_groudon_room",
+    "embedded_tower_kyogre_room",
+    "embedded_tower_rayquaza_room",
+    "route_48",
+]
+encounters = "r47"
+header = "route_47"
+locs = [
+    "hidden_r47_stardust",
+    "hidden_r47_pearl",
+    "overworld_r47_revive",
+    "overworld_r47_lagging_tail",
+    "overworld_r47_wave_incense",
+    "overworld_r47_white_flute",
+]
+trainers = [
+    "double_team_thom_and_kae",
+    "camper_grant",
+    "young_couple_duff_and_eda",
+    "hiker_devin",
+]
+
+[cianwood_pokecenter_1f]
+exits = [
+    "cianwood",
+    "cianwood_pokecenter_b1f",
+]
+header = "cianwood_pokecenter_1f"
+
+[celadon_pokecenter_1f]
+exits = [
+    "celadon",
+    "celadon_pokecenter_b1f",
+]
+header = "celadon_pokecenter_1f"
+
+[celadon_prize_corner]
+exits = [
+    "celadon",
+]
+header = "celadon_prize_corner"
+
+[cianwood_north_house]
+exits = [
+    "cianwood",
+]
+header = "cianwood_north_house"
+
+[embedded_tower_groudon_room]
+exits = [
+    "route_47",
+]
+header = "embedded_tower_groudon_room"
+
+[cliff_cave]
+exits = [
+    "route_47",
+]
+encounters = "d50r0101"
+header = "cliff_cave"
+locs = [
+    "hidden_d50r0101_ultra_ball",
+]
+
+[celadon_condominiums_2f]
+exits = [
+    "celadon_condominiums_1f",
+    "celadon_condominiums_right_elevator",
+]
+header = "celadon_condominiums_2f"
+
+[whirl_islands_b2f]
+exits = [
+    "whirl_islands_b1f",
+    "whirl_islands_b3f",
+    "whirl_islands_b3f_lugia_cave",
+]
+encounters = "d40r0104"
+header = "whirl_islands_b2f"
+locs = [
+    "hidden_d40r0104_full_restore",
+    "overworld_d40r0104_max_revive",
+    "overworld_d40r0104_full_restore",
+    "overworld_d40r0104_max_elixir",
+]
+
+[celadon_department_store_2f]
+exits = [
+    "celadon_department_store_1f",
+    "celadon_department_store_3f",
+    "celadon_department_store_elevator",
+]
+header = "celadon_department_store_2f"
+
+[frontier_access_pokecenter_b1f]
+exits = [
+    "frontier_access_pokecenter_1f",
+]
+header = "frontier_access_pokecenter_b1f"
+
+[route_16_house]
+exits = [
+    "route_16_east",
+]
+header = "route_16_house"
+
+[celadon_pokecenter_b1f]
+exits = [
+    "celadon_pokecenter_1f",
+]
+header = "celadon_pokecenter_b1f"
+
+[route_16_gatehouse]
+exits = [
+    "route_16",
+    "route_16_east",
+]
+header = "route_16_gatehouse"
+
+[olivine_lighthouse_5f]
+exits = [
+    "olivine_lighthouse_4f",
+    "olivine_lighthouse_light_room",
+]
+header = "olivine_lighthouse_5f"
+locs = [
+    "overworld_d27r0106_super_repel",
+]
+trainers = [
+    "sailor_terrell",
+    "sailor_roberto",
+]
+
+[bell_tower_5f]
+exits = [
+    "bell_tower_4f",
+    "bell_tower_6f",
+]
+encounters = "d17r0105"
+header = "bell_tower_5f"
+locs = [
+    "hidden_d17r0105_full_restore",
+    "overworld_d17r0105_rare_candy",
+]
+
+[embedded_tower_kyogre_room]
+exits = [
+    "route_47",
+]
+header = "embedded_tower_kyogre_room"
+
+[celadon_department_store_elevator]
+header = "celadon_department_store_elevator"
+
+[route_48]
+exits = [
+    "route_47",
+    "safari_zone_gate",
+]
+encounters = "r48"
+header = "route_48"
+locs = [
+    "overworld_r48_nugget",
+]
+
+[embedded_tower_rayquaza_room]
+exits = [
+    "route_47",
+]
+header = "embedded_tower_rayquaza_room"
+
+[cianwood_pokecenter_b1f]
+exits = [
+    "cianwood_pokecenter_1f",
+]
+header = "cianwood_pokecenter_b1f"
+
+[battle_frontier]
+exits = [
+    "battle_frontier_battle_arcade",
+    "battle_frontier_battle_castle",
+    "battle_frontier_battle_factory",
+    "battle_frontier_battle_hall",
+    "battle_frontier_frontier_access_gatehouse",
+    "battle_tower",
+]
+header = "battle_frontier"
+
+[celadon_condominiums_left_elevator]
+header = "celadon_condominiums_left_elevator"
+
+[battle_tower]
+exits = [
+    "battle_frontier",
+]
+header = "battle_tower"
+
+[whirl_islands_b3f]
+exits = [
+    "whirl_islands_b2f",
+]
+encounters = "d40r0106"
+header = "whirl_islands_b3f"
+locs = [
+    "overworld_d40r0106_rare_candy",
+]
+
+[celadon_condominiums_right_elevator]
+header = "celadon_condominiums_right_elevator"
+
+[battle_frontier_battle_factory]
+exits = [
+    "battle_frontier",
+]
+header = "battle_frontier_battle_factory"
+
+[celadon_department_store_3f]
+exits = [
+    "celadon_department_store_2f",
+    "celadon_department_store_4f",
+    "celadon_department_store_elevator",
+]
+header = "celadon_department_store_3f"
+
+[battle_frontier_battle_castle]
+exits = [
+    "battle_frontier",
+]
+header = "battle_frontier_battle_castle"
+
+[battle_frontier_battle_arcade]
+exits = [
+    "battle_frontier",
+]
+header = "battle_frontier_battle_arcade"
+
+[safari_zone_gate]
+exits = [
+    "route_48",
+    "safari_zone_entrance_interior",
+    "safari_zone_gate_pokecenter_1f",
+]
+header = "safari_zone_gate"
+locs = [
+    "hidden_d47_tinymushroom",
+    "hidden_d47_tinymushroom_2",
+    "hidden_d47_tinymushroom_3",
+]
+
+[bell_tower_6f]
+exits = [
+    "bell_tower_5f",
+    "bell_tower_7f",
+]
+encounters = "d17r0106"
+header = "bell_tower_6f"
+locs = [
+    "overworld_d17r0106_max_potion",
+    "overworld_d17r0106_full_heal",
+]
+
+[olivine_lighthouse_light_room]
+exits = [
+    "olivine_lighthouse_5f",
+    "olivine_lighthouse_elevator",
+]
+header = "olivine_lighthouse_light_room"
+locs = [
+    "overworld_d27r0107_super_potion",
+]
+
+[whirl_islands_b3f_lugia_cave]
+exits = [
+    "whirl_islands_b2f",
+]
+header = "whirl_islands_b3f_lugia_cave"
+
+[battle_frontier_battle_hall]
+exits = [
+    "battle_frontier",
+]
+header = "battle_frontier_battle_hall"
+
+[celadon_department_store_4f]
+exits = [
+    "celadon_department_store_3f",
+    "celadon_department_store_5f",
+    "celadon_department_store_elevator",
+]
+header = "celadon_department_store_4f"
+
+[safari_zone_entrance_interior]
+exits = [
+    "safari_zone_entrance_exterior",
+    "safari_zone_gate",
+]
+header = "safari_zone_entrance_interior"
+
+[safari_zone_gate_pokecenter_1f]
+exits = [
+    "safari_zone_gate",
+    "safari_zone_gate_pokecenter_b1f",
+]
+header = "safari_zone_gate_pokecenter_1f"
+
+[bell_tower_7f]
+exits = [
+    "bell_tower_6f",
+    "bell_tower_8f",
+    "bell_tower_9f",
+]
+encounters = "d17r0107"
+header = "bell_tower_7f"
+locs = [
+    "overworld_d17r0107_max_revive",
+]
+
+[bell_tower_8f]
+exits = [
+    "bell_tower_7f",
+    "bell_tower_9f",
+]
+encounters = "d17r0108"
+header = "bell_tower_8f"
+locs = [
+    "hidden_d17r0108_carbos",
+    "overworld_d17r0108_full_restore",
+    "overworld_d17r0108_max_elixir",
+    "overworld_d17r0108_nugget",
+]
+
+[celadon_department_store_5f]
+exits = [
+    "celadon_department_store_4f",
+    "celadon_department_store_elevator",
+    "celadon_department_store_roof",
+]
+header = "celadon_department_store_5f"
+
+[safari_zone_gate_pokecenter_b1f]
+exits = [
+    "safari_zone_gate_pokecenter_1f",
+]
+header = "safari_zone_gate_pokecenter_b1f"
+
+[bell_tower_9f]
+exits = [
+    "bell_tower_10f",
+    "bell_tower_7f",
+    "bell_tower_8f",
+]
+encounters = "d17r0109"
+header = "bell_tower_9f"
+locs = [
+    "overworld_d17r0109_hp_up",
+]
+
+[safari_zone_entrance_exterior]
+encounters = "d47r0102"
+header = "safari_zone_entrance_exterior"
+
+[celadon_department_store_roof]
+exits = [
+    "celadon_department_store_5f",
+    "celadon_department_store_elevator",
+]
+header = "celadon_department_store_roof"
+
+[bell_tower_10f]
+exits = [
+    "bell_tower_9f",
+    "bell_tower_roof",
+]
+encounters = "d17r0112"
+header = "bell_tower_10f"
+
+[bell_tower_roof]
+exits = [
+    "bell_tower_10f",
+]
+header = "bell_tower_roof"

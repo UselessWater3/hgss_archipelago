@@ -1,0 +1,116 @@
+# data_gen/misc_data.toml
+#
+# Copyright (C) 2025-2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
+loc_table.base = 0
+loc_table.overworld = 1
+loc_table.hidden = 2
+loc_table.once = 3
+loc_table.dex = 4
+loc_table.trainers = 5
+
+item_clas.bagitem = 0
+item_clas.multibagitem0 = 1
+item_clas.multibagitem1 = 2
+item_clas.multibagitem2 = 3
+item_clas.specialbagitem = 4
+item_clas.poketchapp = 5
+item_clas.badge = 6
+item_clas.accessory = 7
+item_clas.remote0 = 0xC
+item_clas.remote1 = 0xD
+item_clas.special = 0xE
+
+hm.cut = "hm01"
+hm.fly = "hm02"
+hm.surf = "hm03"
+hm.strength = "hm04"
+hm.whirlpool = "hm05"
+hm.rock_smash = "hm06"
+hm.waterfall = "hm07"
+hm.rock_climb = "hm08"
+hm.flash = "tm70"
+
+hm_badge.cut = "hive_badge"
+hm_badge.fly = "storm_badge"
+hm_badge.surf = "fog_badge"
+hm_badge.strength = "plain_badge"
+hm_badge.whirlpool = "glacier_badge"
+hm_badge.rock_smash = "zephyr_badge"
+hm_badge.waterfall = "rising_badge"
+hm_badge.rock_climb = "earth_badge"
+
+hm_tmhm_id.cut = 92
+hm_tmhm_id.fly = 93
+hm_tmhm_id.surf = 94
+hm_tmhm_id.strength = 95
+hm_tmhm_id.whirlpool = 96
+hm_tmhm_id.rock_smash = 97
+hm_tmhm_id.waterfall = 98
+hm_tmhm_id.rock_climb = 99
+hm_tmhm_id.flash = 69
+
+item_group.battle_items = "Battle Items"
+item_group.key_items = "Key Items"
+item_group.badges = "Badges"
+item_group.berries = "Berries"
+#item_group.pokedex = "Pokédex"
+item_group.balls = "Balls"
+item_group.tmhms = "TMs and HMs"
+item_group.medicine = "Medicine"
+item_group.mail = "Mail"
+#item_group.timeitem = "Time Items"
+#item_group.field_moves = "Field Machines"
+#item_group.hms = "HMs (actually Field Machines)"
+
+reusable_evo_items = [
+    "shiny_stone",
+    "thunderstone",
+    "moon_stone",
+    "leaf_stone",
+    "dusk_stone",
+    "sun_stone",
+    "fire_stone",
+    "water_stone",
+    "dawn_stone",
+    "linking_cord",
+]
+
+nonreusable_evo_items = [
+    "protector",
+    "reaper_cloth",
+    "deepseascale",
+    "dragon_scale",
+    "magmarizer",
+    "deepseatooth",
+    "metal_coat",
+    "razor_claw",
+    "razor_fang",
+    "upgrade",
+    "electirizer",
+    "kings_rock",
+    "dubious_disc",
+    "oval_stone",
+]
+
+types = [
+    "normal",
+    "fighting",
+    "flying",
+    "poison",
+    "ground",
+    "rock",
+    "bug",
+    "ghost",
+    "steel",
+    "mystery",
+    "fire",
+    "water",
+    "grass",
+    "electric",
+    "psychic",
+    "ice",
+    "dragon",
+    "dark",
+]

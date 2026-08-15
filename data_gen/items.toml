@@ -1,0 +1,3719 @@
+[master_ball]
+label = "Master Ball"
+id = 1
+group = "balls"
+clas = "bagitem"
+data_id = 1
+
+[ultra_ball]
+label = "Ultra Ball"
+id = 2
+group = "balls"
+clas = "bagitem"
+data_id = 2
+
+[great_ball]
+label = "Great Ball"
+id = 3
+group = "balls"
+clas = "bagitem"
+data_id = 3
+
+[poke_ball]
+label = "Poké Ball"
+id = 4
+group = "balls"
+clas = "bagitem"
+data_id = 4
+
+[safari_ball]
+label = "Safari Ball"
+id = 5
+group = "balls"
+clas = "bagitem"
+data_id = 5
+
+[net_ball]
+label = "Net Ball"
+id = 6
+group = "balls"
+clas = "bagitem"
+data_id = 6
+
+[dive_ball]
+label = "Dive Ball"
+id = 7
+group = "balls"
+clas = "bagitem"
+data_id = 7
+
+[nest_ball]
+label = "Nest Ball"
+id = 8
+group = "balls"
+clas = "bagitem"
+data_id = 8
+
+[repeat_ball]
+label = "Repeat Ball"
+id = 9
+group = "balls"
+clas = "bagitem"
+data_id = 9
+
+[timer_ball]
+label = "Timer Ball"
+id = 10
+group = "balls"
+clas = "bagitem"
+data_id = 10
+
+[luxury_ball]
+label = "Luxury Ball"
+id = 11
+group = "balls"
+clas = "bagitem"
+data_id = 11
+
+[premier_ball]
+label = "Premier Ball"
+id = 12
+group = "balls"
+clas = "bagitem"
+data_id = 12
+
+[dusk_ball]
+label = "Dusk Ball"
+id = 13
+group = "balls"
+clas = "bagitem"
+data_id = 13
+
+[heal_ball]
+label = "Heal Ball"
+id = 14
+group = "balls"
+clas = "bagitem"
+data_id = 14
+
+[quick_ball]
+label = "Quick Ball"
+id = 15
+group = "balls"
+clas = "bagitem"
+data_id = 15
+
+[cherish_ball]
+label = "Cherish Ball"
+id = 16
+group = "balls"
+clas = "bagitem"
+data_id = 16
+
+[potion]
+label = "Potion"
+id = 17
+group = "medicine"
+clas = "bagitem"
+data_id = 17
+
+[antidote]
+label = "Antidote"
+id = 18
+group = "medicine"
+clas = "bagitem"
+data_id = 18
+
+[burn_heal]
+label = "Burn Heal"
+id = 19
+group = "medicine"
+clas = "bagitem"
+data_id = 19
+
+[ice_heal]
+label = "Ice Heal"
+id = 20
+group = "medicine"
+clas = "bagitem"
+data_id = 20
+
+[awakening]
+label = "Awakening"
+id = 21
+group = "medicine"
+clas = "bagitem"
+data_id = 21
+
+[parlyz_heal]
+label = "Parlyz Heal"
+id = 22
+group = "medicine"
+clas = "bagitem"
+data_id = 22
+
+[full_restore]
+label = "Full Restore"
+id = 23
+group = "medicine"
+clas = "bagitem"
+data_id = 23
+
+[max_potion]
+label = "Max Potion"
+id = 24
+group = "medicine"
+clas = "bagitem"
+data_id = 24
+
+[hyper_potion]
+label = "Hyper Potion"
+id = 25
+group = "medicine"
+clas = "bagitem"
+data_id = 25
+
+[super_potion]
+label = "Super Potion"
+id = 26
+group = "medicine"
+clas = "bagitem"
+data_id = 26
+
+[full_heal]
+label = "Full Heal"
+id = 27
+group = "medicine"
+clas = "bagitem"
+data_id = 27
+
+[revive]
+label = "Revive"
+id = 28
+group = "medicine"
+clas = "bagitem"
+data_id = 28
+
+[max_revive]
+label = "Max Revive"
+id = 29
+group = "medicine"
+clas = "bagitem"
+data_id = 29
+
+[fresh_water]
+label = "Fresh Water"
+id = 30
+group = "medicine"
+clas = "bagitem"
+data_id = 30
+
+[soda_pop]
+label = "Soda Pop"
+id = 31
+group = "medicine"
+clas = "bagitem"
+data_id = 31
+
+[lemonade]
+label = "Lemonade"
+id = 32
+group = "medicine"
+clas = "bagitem"
+data_id = 32
+
+[moomoo_milk]
+label = "Moomoo Milk"
+id = 33
+group = "medicine"
+clas = "bagitem"
+data_id = 33
+
+[energypowder]
+label = "EnergyPowder"
+id = 34
+group = "medicine"
+clas = "bagitem"
+data_id = 34
+
+[energy_root]
+label = "Energy Root"
+id = 35
+group = "medicine"
+clas = "bagitem"
+data_id = 35
+
+[heal_powder]
+label = "Heal Powder"
+id = 36
+group = "medicine"
+clas = "bagitem"
+data_id = 36
+
+[revival_herb]
+label = "Revival Herb"
+id = 37
+group = "medicine"
+clas = "bagitem"
+data_id = 37
+
+[ether]
+label = "Ether"
+id = 38
+group = "medicine"
+clas = "bagitem"
+data_id = 38
+
+[max_ether]
+label = "Max Ether"
+id = 39
+group = "medicine"
+clas = "bagitem"
+data_id = 39
+
+[elixir]
+label = "Elixir"
+id = 40
+group = "medicine"
+clas = "bagitem"
+data_id = 40
+
+[max_elixir]
+label = "Max Elixir"
+id = 41
+group = "medicine"
+clas = "bagitem"
+data_id = 41
+
+[lava_cookie]
+label = "Lava Cookie"
+id = 42
+group = "medicine"
+clas = "bagitem"
+data_id = 42
+
+[berry_juice]
+label = "Berry Juice"
+id = 43
+group = "medicine"
+clas = "bagitem"
+data_id = 43
+
+[sacred_ash]
+label = "Sacred Ash"
+id = 44
+group = "medicine"
+clas = "bagitem"
+data_id = 44
+
+[hp_up]
+label = "HP Up"
+id = 45
+group = "medicine"
+clas = "bagitem"
+data_id = 45
+
+[protein]
+label = "Protein"
+id = 46
+group = "medicine"
+clas = "bagitem"
+data_id = 46
+
+[iron]
+label = "Iron"
+id = 47
+group = "medicine"
+clas = "bagitem"
+data_id = 47
+
+[carbos]
+label = "Carbos"
+id = 48
+group = "medicine"
+clas = "bagitem"
+data_id = 48
+
+[calcium]
+label = "Calcium"
+id = 49
+group = "medicine"
+clas = "bagitem"
+data_id = 49
+
+[rare_candy]
+label = "Rare Candy"
+id = 50
+group = "medicine"
+clas = "bagitem"
+data_id = 50
+
+[pp_up]
+label = "PP Up"
+id = 51
+group = "medicine"
+clas = "bagitem"
+data_id = 51
+
+[zinc]
+label = "Zinc"
+id = 52
+group = "medicine"
+clas = "bagitem"
+data_id = 52
+
+[pp_max]
+label = "PP Max"
+id = 53
+group = "medicine"
+clas = "bagitem"
+data_id = 53
+
+[old_gateau]
+label = "Old Gateau"
+id = 54
+group = "medicine"
+clas = "bagitem"
+data_id = 54
+
+[guard_spec_]
+label = "Guard Spec."
+id = 55
+group = "battle_items"
+clas = "bagitem"
+data_id = 55
+
+[dire_hit]
+label = "Dire Hit"
+id = 56
+group = "battle_items"
+clas = "bagitem"
+data_id = 56
+
+[x_attack]
+label = "X Attack"
+id = 57
+group = "battle_items"
+clas = "bagitem"
+data_id = 57
+
+[x_defense]
+label = "X Defend"
+id = 58
+group = "battle_items"
+clas = "bagitem"
+data_id = 58
+
+[x_speed]
+label = "X Speed"
+id = 59
+group = "battle_items"
+clas = "bagitem"
+data_id = 59
+
+[x_accuracy]
+label = "X Accuracy"
+id = 60
+group = "battle_items"
+clas = "bagitem"
+data_id = 60
+
+[x_special]
+label = "X Special"
+id = 61
+group = "battle_items"
+clas = "bagitem"
+data_id = 61
+
+[x_sp__def]
+label = "X Sp. Def"
+id = 62
+group = "battle_items"
+clas = "bagitem"
+data_id = 62
+
+[poke_doll]
+label = "Poké Doll"
+id = 63
+group = "battle_items"
+clas = "bagitem"
+data_id = 63
+
+[fluffy_tail]
+label = "Fluffy Tail"
+id = 64
+group = "battle_items"
+clas = "bagitem"
+data_id = 64
+
+[blue_flute]
+label = "Blue Flute"
+id = 65
+group = "battle_items"
+clas = "bagitem"
+data_id = 65
+
+[yellow_flute]
+label = "Yellow Flute"
+id = 66
+group = "battle_items"
+clas = "bagitem"
+data_id = 66
+
+[red_flute]
+label = "Red Flute"
+id = 67
+group = "battle_items"
+clas = "bagitem"
+data_id = 67
+
+[black_flute]
+label = "Black Flute"
+id = 68
+group = "items"
+clas = "bagitem"
+data_id = 68
+
+[white_flute]
+label = "White Flute"
+id = 69
+group = "items"
+clas = "bagitem"
+data_id = 69
+
+[shoal_salt]
+label = "Shoal Salt"
+id = 70
+group = "items"
+clas = "bagitem"
+data_id = 70
+
+[shoal_shell]
+label = "Shoal Shell"
+id = 71
+group = "items"
+clas = "bagitem"
+data_id = 71
+
+[red_shard]
+label = "Red Shard"
+id = 72
+group = "items"
+clas = "bagitem"
+data_id = 72
+
+[blue_shard]
+label = "Blue Shard"
+id = 73
+group = "items"
+clas = "bagitem"
+data_id = 73
+
+[yellow_shard]
+label = "Yellow Shard"
+id = 74
+group = "items"
+clas = "bagitem"
+data_id = 74
+
+[green_shard]
+label = "Green Shard"
+id = 75
+group = "items"
+clas = "bagitem"
+data_id = 75
+
+[super_repel]
+label = "Super Repel"
+id = 76
+group = "items"
+clas = "bagitem"
+data_id = 76
+
+[max_repel]
+label = "Max Repel"
+id = 77
+group = "items"
+clas = "bagitem"
+data_id = 77
+
+[escape_rope]
+label = "Escape Rope"
+id = 78
+group = "items"
+clas = "bagitem"
+data_id = 78
+
+[repel]
+label = "Repel"
+id = 79
+group = "items"
+clas = "bagitem"
+data_id = 79
+
+[sun_stone]
+label = "Sun Stone"
+id = 80
+group = "items"
+clas = "bagitem"
+data_id = 80
+
+[moon_stone]
+label = "Moon Stone"
+id = 81
+group = "items"
+clas = "bagitem"
+data_id = 81
+
+[fire_stone]
+label = "Fire Stone"
+id = 82
+group = "items"
+clas = "bagitem"
+data_id = 82
+
+[thunderstone]
+label = "Thunderstone"
+id = 83
+group = "items"
+clas = "bagitem"
+data_id = 83
+
+[water_stone]
+label = "Water Stone"
+id = 84
+group = "items"
+clas = "bagitem"
+data_id = 84
+
+[leaf_stone]
+label = "Leaf Stone"
+id = 85
+group = "items"
+clas = "bagitem"
+data_id = 85
+
+[tinymushroom]
+label = "TinyMushroom"
+id = 86
+group = "items"
+clas = "bagitem"
+data_id = 86
+
+[big_mushroom]
+label = "Big Mushroom"
+id = 87
+group = "items"
+clas = "bagitem"
+data_id = 87
+
+[pearl]
+label = "Pearl"
+id = 88
+group = "items"
+clas = "bagitem"
+data_id = 88
+
+[big_pearl]
+label = "Big Pearl"
+id = 89
+group = "items"
+clas = "bagitem"
+data_id = 89
+
+[stardust]
+label = "Stardust"
+id = 90
+group = "items"
+clas = "bagitem"
+data_id = 90
+
+[star_piece]
+label = "Star Piece"
+id = 91
+group = "items"
+clas = "bagitem"
+data_id = 91
+
+[nugget]
+label = "Nugget"
+id = 92
+group = "items"
+clas = "bagitem"
+data_id = 92
+
+[heart_scale]
+label = "Heart Scale"
+id = 93
+group = "items"
+clas = "bagitem"
+data_id = 93
+
+[honey]
+label = "Honey"
+id = 94
+group = "items"
+clas = "bagitem"
+data_id = 94
+
+[growth_mulch]
+label = "Growth Mulch"
+id = 95
+group = "items"
+clas = "bagitem"
+data_id = 95
+
+[damp_mulch]
+label = "Damp Mulch"
+id = 96
+group = "items"
+clas = "bagitem"
+data_id = 96
+
+[stable_mulch]
+label = "Stable Mulch"
+id = 97
+group = "items"
+clas = "bagitem"
+data_id = 97
+
+[gooey_mulch]
+label = "Gooey Mulch"
+id = 98
+group = "items"
+clas = "bagitem"
+data_id = 98
+
+[root_fossil]
+label = "Root Fossil"
+id = 99
+group = "items"
+clas = "bagitem"
+data_id = 99
+
+[claw_fossil]
+label = "Claw Fossil"
+id = 100
+group = "items"
+clas = "bagitem"
+data_id = 100
+
+[helix_fossil]
+label = "Helix Fossil"
+id = 101
+group = "items"
+clas = "bagitem"
+data_id = 101
+
+[dome_fossil]
+label = "Dome Fossil"
+id = 102
+group = "items"
+clas = "bagitem"
+data_id = 102
+
+[old_amber]
+label = "Old Amber"
+id = 103
+group = "items"
+clas = "bagitem"
+data_id = 103
+
+[armor_fossil]
+label = "Armor Fossil"
+id = 104
+group = "items"
+clas = "bagitem"
+data_id = 104
+
+[skull_fossil]
+label = "Skull Fossil"
+id = 105
+group = "items"
+clas = "bagitem"
+data_id = 105
+
+[rare_bone]
+label = "Rare Bone"
+id = 106
+group = "items"
+clas = "bagitem"
+data_id = 106
+
+[shiny_stone]
+label = "Shiny Stone"
+id = 107
+group = "items"
+clas = "bagitem"
+data_id = 107
+
+[dusk_stone]
+label = "Dusk Stone"
+id = 108
+group = "items"
+clas = "bagitem"
+data_id = 108
+
+[dawn_stone]
+label = "Dawn Stone"
+id = 109
+group = "items"
+clas = "bagitem"
+data_id = 109
+
+[oval_stone]
+label = "Oval Stone"
+id = 110
+group = "items"
+clas = "bagitem"
+data_id = 110
+
+[odd_keystone]
+label = "Odd Keystone"
+id = 111
+group = "items"
+clas = "bagitem"
+data_id = 111
+
+[griseous_orb]
+label = "Griseous Orb"
+id = 112
+group = "items"
+clas = "bagitem"
+data_id = 112
+
+[adamant_orb]
+label = "Adamant Orb"
+id = 135
+group = "items"
+clas = "bagitem"
+data_id = 113
+
+[lustrous_orb]
+label = "Lustrous Orb"
+id = 136
+group = "items"
+clas = "bagitem"
+data_id = 114
+
+[grass_mail]
+label = "Grass Mail"
+id = 137
+group = "mail"
+clas = "bagitem"
+data_id = 115
+
+[flame_mail]
+label = "Flame Mail"
+id = 138
+group = "mail"
+clas = "bagitem"
+data_id = 116
+
+[bubble_mail]
+label = "Bubble Mail"
+id = 139
+group = "mail"
+clas = "bagitem"
+data_id = 117
+
+[bloom_mail]
+label = "Bloom Mail"
+id = 140
+group = "mail"
+clas = "bagitem"
+data_id = 118
+
+[tunnel_mail]
+label = "Tunnel Mail"
+id = 141
+group = "mail"
+clas = "bagitem"
+data_id = 119
+
+[steel_mail]
+label = "Steel Mail"
+id = 142
+group = "mail"
+clas = "bagitem"
+data_id = 120
+
+[heart_mail]
+label = "Heart Mail"
+id = 143
+group = "mail"
+clas = "bagitem"
+data_id = 121
+
+[snow_mail]
+label = "Snow Mail"
+id = 144
+group = "mail"
+clas = "bagitem"
+data_id = 122
+
+[space_mail]
+label = "Space Mail"
+id = 145
+group = "mail"
+clas = "bagitem"
+data_id = 123
+
+[air_mail]
+label = "Air Mail"
+id = 146
+group = "mail"
+clas = "bagitem"
+data_id = 124
+
+[mosaic_mail]
+label = "Mosaic Mail"
+id = 147
+group = "mail"
+clas = "bagitem"
+data_id = 125
+
+[brick_mail]
+label = "Brick Mail"
+id = 148
+group = "mail"
+clas = "bagitem"
+data_id = 126
+
+[cheri_berry]
+label = "Cheri Berry"
+id = 149
+group = "berries"
+clas = "bagitem"
+data_id = 127
+
+[chesto_berry]
+label = "Chesto Berry"
+id = 150
+group = "berries"
+clas = "bagitem"
+data_id = 128
+
+[pecha_berry]
+label = "Pecha Berry"
+id = 151
+group = "berries"
+clas = "bagitem"
+data_id = 129
+
+[rawst_berry]
+label = "Rawst Berry"
+id = 152
+group = "berries"
+clas = "bagitem"
+data_id = 130
+
+[aspear_berry]
+label = "Aspear Berry"
+id = 153
+group = "berries"
+clas = "bagitem"
+data_id = 131
+
+[leppa_berry]
+label = "Leppa Berry"
+id = 154
+group = "berries"
+clas = "bagitem"
+data_id = 132
+
+[oran_berry]
+label = "Oran Berry"
+id = 155
+group = "berries"
+clas = "bagitem"
+data_id = 133
+
+[persim_berry]
+label = "Persim Berry"
+id = 156
+group = "berries"
+clas = "bagitem"
+data_id = 134
+
+[lum_berry]
+label = "Lum Berry"
+id = 157
+group = "berries"
+clas = "bagitem"
+data_id = 135
+
+[sitrus_berry]
+label = "Sitrus Berry"
+id = 158
+group = "berries"
+clas = "bagitem"
+data_id = 136
+
+[figy_berry]
+label = "Figy Berry"
+id = 159
+group = "berries"
+clas = "bagitem"
+data_id = 137
+
+[wiki_berry]
+label = "Wiki Berry"
+id = 160
+group = "berries"
+clas = "bagitem"
+data_id = 138
+
+[mago_berry]
+label = "Mago Berry"
+id = 161
+group = "berries"
+clas = "bagitem"
+data_id = 139
+
+[aguav_berry]
+label = "Aguav Berry"
+id = 162
+group = "berries"
+clas = "bagitem"
+data_id = 140
+
+[iapapa_berry]
+label = "Iapapa Berry"
+id = 163
+group = "berries"
+clas = "bagitem"
+data_id = 141
+
+[razz_berry]
+label = "Razz Berry"
+id = 164
+group = "berries"
+clas = "bagitem"
+data_id = 142
+
+[bluk_berry]
+label = "Bluk Berry"
+id = 165
+group = "berries"
+clas = "bagitem"
+data_id = 143
+
+[nanab_berry]
+label = "Nanab Berry"
+id = 166
+group = "berries"
+clas = "bagitem"
+data_id = 144
+
+[wepear_berry]
+label = "Wepear Berry"
+id = 167
+group = "berries"
+clas = "bagitem"
+data_id = 145
+
+[pinap_berry]
+label = "Pinap Berry"
+id = 168
+group = "berries"
+clas = "bagitem"
+data_id = 146
+
+[pomeg_berry]
+label = "Pomeg Berry"
+id = 169
+group = "berries"
+clas = "bagitem"
+data_id = 147
+
+[kelpsy_berry]
+label = "Kelpsy Berry"
+id = 170
+group = "berries"
+clas = "bagitem"
+data_id = 148
+
+[qualot_berry]
+label = "Qualot Berry"
+id = 171
+group = "berries"
+clas = "bagitem"
+data_id = 149
+
+[hondew_berry]
+label = "Hondew Berry"
+id = 172
+group = "berries"
+clas = "bagitem"
+data_id = 150
+
+[grepa_berry]
+label = "Grepa Berry"
+id = 173
+group = "berries"
+clas = "bagitem"
+data_id = 151
+
+[tamato_berry]
+label = "Tamato Berry"
+id = 174
+group = "berries"
+clas = "bagitem"
+data_id = 152
+
+[cornn_berry]
+label = "Cornn Berry"
+id = 175
+group = "berries"
+clas = "bagitem"
+data_id = 153
+
+[magost_berry]
+label = "Magost Berry"
+id = 176
+group = "berries"
+clas = "bagitem"
+data_id = 154
+
+[rabuta_berry]
+label = "Rabuta Berry"
+id = 177
+group = "berries"
+clas = "bagitem"
+data_id = 155
+
+[nomel_berry]
+label = "Nomel Berry"
+id = 178
+group = "berries"
+clas = "bagitem"
+data_id = 156
+
+[spelon_berry]
+label = "Spelon Berry"
+id = 179
+group = "berries"
+clas = "bagitem"
+data_id = 157
+
+[pamtre_berry]
+label = "Pamtre Berry"
+id = 180
+group = "berries"
+clas = "bagitem"
+data_id = 158
+
+[watmel_berry]
+label = "Watmel Berry"
+id = 181
+group = "berries"
+clas = "bagitem"
+data_id = 159
+
+[durin_berry]
+label = "Durin Berry"
+id = 182
+group = "berries"
+clas = "bagitem"
+data_id = 160
+
+[belue_berry]
+label = "Belue Berry"
+id = 183
+group = "berries"
+clas = "bagitem"
+data_id = 161
+
+[occa_berry]
+label = "Occa Berry"
+id = 184
+group = "berries"
+clas = "bagitem"
+data_id = 162
+
+[passho_berry]
+label = "Passho Berry"
+id = 185
+group = "berries"
+clas = "bagitem"
+data_id = 163
+
+[wacan_berry]
+label = "Wacan Berry"
+id = 186
+group = "berries"
+clas = "bagitem"
+data_id = 164
+
+[rindo_berry]
+label = "Rindo Berry"
+id = 187
+group = "berries"
+clas = "bagitem"
+data_id = 165
+
+[yache_berry]
+label = "Yache Berry"
+id = 188
+group = "berries"
+clas = "bagitem"
+data_id = 166
+
+[chople_berry]
+label = "Chople Berry"
+id = 189
+group = "berries"
+clas = "bagitem"
+data_id = 167
+
+[kebia_berry]
+label = "Kebia Berry"
+id = 190
+group = "berries"
+clas = "bagitem"
+data_id = 168
+
+[shuca_berry]
+label = "Shuca Berry"
+id = 191
+group = "berries"
+clas = "bagitem"
+data_id = 169
+
+[coba_berry]
+label = "Coba Berry"
+id = 192
+group = "berries"
+clas = "bagitem"
+data_id = 170
+
+[payapa_berry]
+label = "Payapa Berry"
+id = 193
+group = "berries"
+clas = "bagitem"
+data_id = 171
+
+[tanga_berry]
+label = "Tanga Berry"
+id = 194
+group = "berries"
+clas = "bagitem"
+data_id = 172
+
+[charti_berry]
+label = "Charti Berry"
+id = 195
+group = "berries"
+clas = "bagitem"
+data_id = 173
+
+[kasib_berry]
+label = "Kasib Berry"
+id = 196
+group = "berries"
+clas = "bagitem"
+data_id = 174
+
+[haban_berry]
+label = "Haban Berry"
+id = 197
+group = "berries"
+clas = "bagitem"
+data_id = 175
+
+[colbur_berry]
+label = "Colbur Berry"
+id = 198
+group = "berries"
+clas = "bagitem"
+data_id = 176
+
+[babiri_berry]
+label = "Babiri Berry"
+id = 199
+group = "berries"
+clas = "bagitem"
+data_id = 177
+
+[chilan_berry]
+label = "Chilan Berry"
+id = 200
+group = "berries"
+clas = "bagitem"
+data_id = 178
+
+[liechi_berry]
+label = "Liechi Berry"
+id = 201
+group = "berries"
+clas = "bagitem"
+data_id = 179
+
+[ganlon_berry]
+label = "Ganlon Berry"
+id = 202
+group = "berries"
+clas = "bagitem"
+data_id = 180
+
+[salac_berry]
+label = "Salac Berry"
+id = 203
+group = "berries"
+clas = "bagitem"
+data_id = 181
+
+[petaya_berry]
+label = "Petaya Berry"
+id = 204
+group = "berries"
+clas = "bagitem"
+data_id = 182
+
+[apicot_berry]
+label = "Apicot Berry"
+id = 205
+group = "berries"
+clas = "bagitem"
+data_id = 183
+
+[lansat_berry]
+label = "Lansat Berry"
+id = 206
+group = "berries"
+clas = "bagitem"
+data_id = 184
+
+[starf_berry]
+label = "Starf Berry"
+id = 207
+group = "berries"
+clas = "bagitem"
+data_id = 185
+
+[enigma_berry]
+label = "Enigma Berry"
+id = 208
+group = "berries"
+clas = "bagitem"
+data_id = 186
+
+[micle_berry]
+label = "Micle Berry"
+id = 209
+group = "berries"
+clas = "bagitem"
+data_id = 187
+
+[custap_berry]
+label = "Custap Berry"
+id = 210
+group = "berries"
+clas = "bagitem"
+data_id = 188
+
+[jaboca_berry]
+label = "Jaboca Berry"
+id = 211
+group = "berries"
+clas = "bagitem"
+data_id = 189
+
+[rowap_berry]
+label = "Rowap Berry"
+id = 212
+group = "berries"
+clas = "bagitem"
+data_id = 190
+
+[brightpowder]
+label = "BrightPowder"
+id = 213
+group = "items"
+clas = "bagitem"
+data_id = 191
+
+[white_herb]
+label = "White Herb"
+id = 214
+group = "items"
+clas = "bagitem"
+data_id = 192
+
+[macho_brace]
+label = "Macho Brace"
+id = 215
+group = "items"
+clas = "bagitem"
+data_id = 193
+
+[exp__share]
+label = "Exp. Share"
+id = 216
+group = "items"
+clas = "bagitem"
+data_id = 194
+
+[quick_claw]
+label = "Quick Claw"
+id = 217
+group = "items"
+clas = "bagitem"
+data_id = 195
+
+[soothe_bell]
+label = "Soothe Bell"
+id = 218
+group = "items"
+clas = "bagitem"
+data_id = 196
+
+[mental_herb]
+label = "Mental Herb"
+id = 219
+group = "items"
+clas = "bagitem"
+data_id = 197
+
+[choice_band]
+label = "Choice Band"
+id = 220
+group = "items"
+clas = "bagitem"
+data_id = 198
+
+[kings_rock]
+label = "King’s Rock"
+id = 221
+group = "items"
+clas = "bagitem"
+data_id = 199
+
+[silverpowder]
+label = "SilverPowder"
+id = 222
+group = "items"
+clas = "bagitem"
+data_id = 200
+
+[amulet_coin]
+label = "Amulet Coin"
+id = 223
+group = "items"
+clas = "bagitem"
+data_id = 201
+
+[cleanse_tag]
+label = "Cleanse Tag"
+id = 224
+group = "items"
+clas = "bagitem"
+data_id = 202
+
+[soul_dew]
+label = "Soul Dew"
+id = 225
+group = "items"
+clas = "bagitem"
+data_id = 203
+
+[deepseatooth]
+label = "DeepSeaTooth"
+id = 226
+group = "items"
+clas = "bagitem"
+data_id = 204
+
+[deepseascale]
+label = "DeepSeaScale"
+id = 227
+group = "items"
+clas = "bagitem"
+data_id = 205
+
+[smoke_ball]
+label = "Smoke Ball"
+id = 228
+group = "items"
+clas = "bagitem"
+data_id = 206
+
+[everstone]
+label = "Everstone"
+id = 229
+group = "items"
+clas = "bagitem"
+data_id = 207
+
+[focus_band]
+label = "Focus Band"
+id = 230
+group = "items"
+clas = "bagitem"
+data_id = 208
+
+[lucky_egg]
+label = "Lucky Egg"
+id = 231
+group = "items"
+clas = "bagitem"
+data_id = 209
+
+[scope_lens]
+label = "Scope Lens"
+id = 232
+group = "items"
+clas = "bagitem"
+data_id = 210
+
+[metal_coat]
+label = "Metal Coat"
+id = 233
+group = "items"
+clas = "bagitem"
+data_id = 211
+
+[leftovers]
+label = "Leftovers"
+id = 234
+group = "items"
+clas = "bagitem"
+data_id = 212
+
+[dragon_scale]
+label = "Dragon Scale"
+id = 235
+group = "items"
+clas = "bagitem"
+data_id = 213
+
+[light_ball]
+label = "Light Ball"
+id = 236
+group = "items"
+clas = "bagitem"
+data_id = 214
+
+[soft_sand]
+label = "Soft Sand"
+id = 237
+group = "items"
+clas = "bagitem"
+data_id = 215
+
+[hard_stone]
+label = "Hard Stone"
+id = 238
+group = "items"
+clas = "bagitem"
+data_id = 216
+
+[miracle_seed]
+label = "Miracle Seed"
+id = 239
+group = "items"
+clas = "bagitem"
+data_id = 217
+
+[blackglasses]
+label = "BlackGlasses"
+id = 240
+group = "items"
+clas = "bagitem"
+data_id = 218
+
+[black_belt]
+label = "Black Belt"
+id = 241
+group = "items"
+clas = "bagitem"
+data_id = 219
+
+[magnet]
+label = "Magnet"
+id = 242
+group = "items"
+clas = "bagitem"
+data_id = 220
+
+[mystic_water]
+label = "Mystic Water"
+id = 243
+group = "items"
+clas = "bagitem"
+data_id = 221
+
+[sharp_beak]
+label = "Sharp Beak"
+id = 244
+group = "items"
+clas = "bagitem"
+data_id = 222
+
+[poison_barb]
+label = "Poison Barb"
+id = 245
+group = "items"
+clas = "bagitem"
+data_id = 223
+
+[nevermeltice]
+label = "NeverMeltIce"
+id = 246
+group = "items"
+clas = "bagitem"
+data_id = 224
+
+[spell_tag]
+label = "Spell Tag"
+id = 247
+group = "items"
+clas = "bagitem"
+data_id = 225
+
+[twistedspoon]
+label = "TwistedSpoon"
+id = 248
+group = "items"
+clas = "bagitem"
+data_id = 226
+
+[charcoal]
+label = "Charcoal"
+id = 249
+group = "items"
+clas = "bagitem"
+data_id = 227
+
+[dragon_fang]
+label = "Dragon Fang"
+id = 250
+group = "items"
+clas = "bagitem"
+data_id = 228
+
+[silk_scarf]
+label = "Silk Scarf"
+id = 251
+group = "items"
+clas = "bagitem"
+data_id = 229
+
+[upgrade]
+label = "Up-Grade"
+id = 252
+group = "items"
+clas = "bagitem"
+data_id = 230
+
+[shell_bell]
+label = "Shell Bell"
+id = 253
+group = "items"
+clas = "bagitem"
+data_id = 231
+
+[sea_incense]
+label = "Sea Incense"
+id = 254
+group = "items"
+clas = "bagitem"
+data_id = 232
+
+[lax_incense]
+label = "Lax Incense"
+id = 255
+group = "items"
+clas = "bagitem"
+data_id = 233
+
+[lucky_punch]
+label = "Lucky Punch"
+id = 256
+group = "items"
+clas = "bagitem"
+data_id = 234
+
+[metal_powder]
+label = "Metal Powder"
+id = 257
+group = "items"
+clas = "bagitem"
+data_id = 235
+
+[thick_club]
+label = "Thick Club"
+id = 258
+group = "items"
+clas = "bagitem"
+data_id = 236
+
+[stick]
+label = "Stick"
+id = 259
+group = "items"
+clas = "bagitem"
+data_id = 237
+
+[red_scarf]
+label = "Red Scarf"
+id = 260
+group = "items"
+clas = "bagitem"
+data_id = 238
+
+[blue_scarf]
+label = "Blue Scarf"
+id = 261
+group = "items"
+clas = "bagitem"
+data_id = 239
+
+[pink_scarf]
+label = "Pink Scarf"
+id = 262
+group = "items"
+clas = "bagitem"
+data_id = 240
+
+[green_scarf]
+label = "Green Scarf"
+id = 263
+group = "items"
+clas = "bagitem"
+data_id = 241
+
+[yellow_scarf]
+label = "Yellow Scarf"
+id = 264
+group = "items"
+clas = "bagitem"
+data_id = 242
+
+[wide_lens]
+label = "Wide Lens"
+id = 265
+group = "items"
+clas = "bagitem"
+data_id = 243
+
+[muscle_band]
+label = "Muscle Band"
+id = 266
+group = "items"
+clas = "bagitem"
+data_id = 244
+
+[wise_glasses]
+label = "Wise Glasses"
+id = 267
+group = "items"
+clas = "bagitem"
+data_id = 245
+
+[expert_belt]
+label = "Expert Belt"
+id = 268
+group = "items"
+clas = "bagitem"
+data_id = 246
+
+[light_clay]
+label = "Light Clay"
+id = 269
+group = "items"
+clas = "bagitem"
+data_id = 247
+
+[life_orb]
+label = "Life Orb"
+id = 270
+group = "items"
+clas = "bagitem"
+data_id = 248
+
+[power_herb]
+label = "Power Herb"
+id = 271
+group = "items"
+clas = "bagitem"
+data_id = 249
+
+[toxic_orb]
+label = "Toxic Orb"
+id = 272
+group = "items"
+clas = "bagitem"
+data_id = 250
+
+[flame_orb]
+label = "Flame Orb"
+id = 273
+group = "items"
+clas = "bagitem"
+data_id = 251
+
+[quick_powder]
+label = "Quick Powder"
+id = 274
+group = "items"
+clas = "bagitem"
+data_id = 252
+
+[focus_sash]
+label = "Focus Sash"
+id = 275
+group = "items"
+clas = "bagitem"
+data_id = 253
+
+[zoom_lens]
+label = "Zoom Lens"
+id = 276
+group = "items"
+clas = "bagitem"
+data_id = 254
+
+[metronome]
+label = "Metronome"
+id = 277
+group = "items"
+clas = "bagitem"
+data_id = 255
+
+[iron_ball]
+label = "Iron Ball"
+id = 278
+group = "items"
+clas = "bagitem"
+data_id = 256
+
+[lagging_tail]
+label = "Lagging Tail"
+id = 279
+group = "items"
+clas = "bagitem"
+data_id = 257
+
+[destiny_knot]
+label = "Destiny Knot"
+id = 280
+group = "items"
+clas = "bagitem"
+data_id = 258
+
+[black_sludge]
+label = "Black Sludge"
+id = 281
+group = "items"
+clas = "bagitem"
+data_id = 259
+
+[icy_rock]
+label = "Icy Rock"
+id = 282
+group = "items"
+clas = "bagitem"
+data_id = 260
+
+[smooth_rock]
+label = "Smooth Rock"
+id = 283
+group = "items"
+clas = "bagitem"
+data_id = 261
+
+[heat_rock]
+label = "Heat Rock"
+id = 284
+group = "items"
+clas = "bagitem"
+data_id = 262
+
+[damp_rock]
+label = "Damp Rock"
+id = 285
+group = "items"
+clas = "bagitem"
+data_id = 263
+
+[grip_claw]
+label = "Grip Claw"
+id = 286
+group = "items"
+clas = "bagitem"
+data_id = 264
+
+[choice_scarf]
+label = "Choice Scarf"
+id = 287
+group = "items"
+clas = "bagitem"
+data_id = 265
+
+[sticky_barb]
+label = "Sticky Barb"
+id = 288
+group = "items"
+clas = "bagitem"
+data_id = 266
+
+[power_bracer]
+label = "Power Bracer"
+id = 289
+group = "items"
+clas = "bagitem"
+data_id = 267
+
+[power_belt]
+label = "Power Belt"
+id = 290
+group = "items"
+clas = "bagitem"
+data_id = 268
+
+[power_lens]
+label = "Power Lens"
+id = 291
+group = "items"
+clas = "bagitem"
+data_id = 269
+
+[power_band]
+label = "Power Band"
+id = 292
+group = "items"
+clas = "bagitem"
+data_id = 270
+
+[power_anklet]
+label = "Power Anklet"
+id = 293
+group = "items"
+clas = "bagitem"
+data_id = 271
+
+[power_weight]
+label = "Power Weight"
+id = 294
+group = "items"
+clas = "bagitem"
+data_id = 272
+
+[shed_shell]
+label = "Shed Shell"
+id = 295
+group = "items"
+clas = "bagitem"
+data_id = 273
+
+[big_root]
+label = "Big Root"
+id = 296
+group = "items"
+clas = "bagitem"
+data_id = 274
+
+[choice_specs]
+label = "Choice Specs"
+id = 297
+group = "items"
+clas = "bagitem"
+data_id = 275
+
+[flame_plate]
+label = "Flame Plate"
+id = 298
+group = "items"
+clas = "bagitem"
+data_id = 276
+
+[splash_plate]
+label = "Splash Plate"
+id = 299
+group = "items"
+clas = "bagitem"
+data_id = 277
+
+[zap_plate]
+label = "Zap Plate"
+id = 300
+group = "items"
+clas = "bagitem"
+data_id = 278
+
+[meadow_plate]
+label = "Meadow Plate"
+id = 301
+group = "items"
+clas = "bagitem"
+data_id = 279
+
+[icicle_plate]
+label = "Icicle Plate"
+id = 302
+group = "items"
+clas = "bagitem"
+data_id = 280
+
+[fist_plate]
+label = "Fist Plate"
+id = 303
+group = "items"
+clas = "bagitem"
+data_id = 281
+
+[toxic_plate]
+label = "Toxic Plate"
+id = 304
+group = "items"
+clas = "bagitem"
+data_id = 282
+
+[earth_plate]
+label = "Earth Plate"
+id = 305
+group = "items"
+clas = "bagitem"
+data_id = 283
+
+[sky_plate]
+label = "Sky Plate"
+id = 306
+group = "items"
+clas = "bagitem"
+data_id = 284
+
+[mind_plate]
+label = "Mind Plate"
+id = 307
+group = "items"
+clas = "bagitem"
+data_id = 285
+
+[insect_plate]
+label = "Insect Plate"
+id = 308
+group = "items"
+clas = "bagitem"
+data_id = 286
+
+[stone_plate]
+label = "Stone Plate"
+id = 309
+group = "items"
+clas = "bagitem"
+data_id = 287
+
+[spooky_plate]
+label = "Spooky Plate"
+id = 310
+group = "items"
+clas = "bagitem"
+data_id = 288
+
+[draco_plate]
+label = "Draco Plate"
+id = 311
+group = "items"
+clas = "bagitem"
+data_id = 289
+
+[dread_plate]
+label = "Dread Plate"
+id = 312
+group = "items"
+clas = "bagitem"
+data_id = 290
+
+[iron_plate]
+label = "Iron Plate"
+id = 313
+group = "items"
+clas = "bagitem"
+data_id = 291
+
+[odd_incense]
+label = "Odd Incense"
+id = 314
+group = "items"
+clas = "bagitem"
+data_id = 292
+
+[rock_incense]
+label = "Rock Incense"
+id = 315
+group = "items"
+clas = "bagitem"
+data_id = 293
+
+[full_incense]
+label = "Full Incense"
+id = 316
+group = "items"
+clas = "bagitem"
+data_id = 294
+
+[wave_incense]
+label = "Wave Incense"
+id = 317
+group = "items"
+clas = "bagitem"
+data_id = 295
+
+[rose_incense]
+label = "Rose Incense"
+id = 318
+group = "items"
+clas = "bagitem"
+data_id = 296
+
+[luck_incense]
+label = "Luck Incense"
+id = 319
+group = "items"
+clas = "bagitem"
+data_id = 297
+
+[pure_incense]
+label = "Pure Incense"
+id = 320
+group = "items"
+clas = "bagitem"
+data_id = 298
+
+[protector]
+label = "Protector"
+id = 321
+group = "items"
+clas = "bagitem"
+data_id = 299
+
+[electirizer]
+label = "Electirizer"
+id = 322
+group = "items"
+clas = "bagitem"
+data_id = 300
+
+[magmarizer]
+label = "Magmarizer"
+id = 323
+group = "items"
+clas = "bagitem"
+data_id = 301
+
+[dubious_disc]
+label = "Dubious Disc"
+id = 324
+group = "items"
+clas = "bagitem"
+data_id = 302
+
+[reaper_cloth]
+label = "Reaper Cloth"
+id = 325
+group = "items"
+clas = "bagitem"
+data_id = 303
+
+[razor_claw]
+label = "Razor Claw"
+id = 326
+group = "items"
+clas = "bagitem"
+data_id = 304
+
+[razor_fang]
+label = "Razor Fang"
+id = 327
+group = "items"
+clas = "bagitem"
+data_id = 305
+
+[tm01]
+label = "TM01"
+id = 328
+group = "tmhms"
+clas = "bagitem"
+data_id = 306
+
+[tm02]
+label = "TM02"
+id = 329
+group = "tmhms"
+clas = "bagitem"
+data_id = 307
+
+[tm03]
+label = "TM03"
+id = 330
+group = "tmhms"
+clas = "bagitem"
+data_id = 308
+
+[tm04]
+label = "TM04"
+id = 331
+group = "tmhms"
+clas = "bagitem"
+data_id = 309
+
+[tm05]
+label = "TM05"
+id = 332
+group = "tmhms"
+clas = "bagitem"
+data_id = 310
+
+[tm06]
+label = "TM06"
+id = 333
+group = "tmhms"
+clas = "bagitem"
+data_id = 311
+
+[tm07]
+label = "TM07"
+id = 334
+group = "tmhms"
+clas = "bagitem"
+data_id = 312
+
+[tm08]
+label = "TM08"
+id = 335
+group = "tmhms"
+clas = "bagitem"
+data_id = 313
+
+[tm09]
+label = "TM09"
+id = 336
+group = "tmhms"
+clas = "bagitem"
+data_id = 314
+
+[tm10]
+label = "TM10"
+id = 337
+group = "tmhms"
+clas = "bagitem"
+data_id = 315
+
+[tm11]
+label = "TM11"
+id = 338
+group = "tmhms"
+clas = "bagitem"
+data_id = 316
+
+[tm12]
+label = "TM12"
+id = 339
+group = "tmhms"
+clas = "bagitem"
+data_id = 317
+
+[tm13]
+label = "TM13"
+id = 340
+group = "tmhms"
+clas = "bagitem"
+data_id = 318
+
+[tm14]
+label = "TM14"
+id = 341
+group = "tmhms"
+clas = "bagitem"
+data_id = 319
+
+[tm15]
+label = "TM15"
+id = 342
+group = "tmhms"
+clas = "bagitem"
+data_id = 320
+
+[tm16]
+label = "TM16"
+id = 343
+group = "tmhms"
+clas = "bagitem"
+data_id = 321
+
+[tm17]
+label = "TM17"
+id = 344
+group = "tmhms"
+clas = "bagitem"
+data_id = 322
+
+[tm18]
+label = "TM18"
+id = 345
+group = "tmhms"
+clas = "bagitem"
+data_id = 323
+
+[tm19]
+label = "TM19"
+id = 346
+group = "tmhms"
+clas = "bagitem"
+data_id = 324
+
+[tm20]
+label = "TM20"
+id = 347
+group = "tmhms"
+clas = "bagitem"
+data_id = 325
+
+[tm21]
+label = "TM21"
+id = 348
+group = "tmhms"
+clas = "bagitem"
+data_id = 326
+
+[tm22]
+label = "TM22"
+id = 349
+group = "tmhms"
+clas = "bagitem"
+data_id = 327
+
+[tm23]
+label = "TM23"
+id = 350
+group = "tmhms"
+clas = "bagitem"
+data_id = 328
+
+[tm24]
+label = "TM24"
+id = 351
+group = "tmhms"
+clas = "bagitem"
+data_id = 329
+
+[tm25]
+label = "TM25"
+id = 352
+group = "tmhms"
+clas = "bagitem"
+data_id = 330
+
+[tm26]
+label = "TM26"
+id = 353
+group = "tmhms"
+clas = "bagitem"
+data_id = 331
+
+[tm27]
+label = "TM27"
+id = 354
+group = "tmhms"
+clas = "bagitem"
+data_id = 332
+
+[tm28]
+label = "TM28"
+id = 355
+group = "tmhms"
+clas = "bagitem"
+data_id = 333
+
+[tm29]
+label = "TM29"
+id = 356
+group = "tmhms"
+clas = "bagitem"
+data_id = 334
+
+[tm30]
+label = "TM30"
+id = 357
+group = "tmhms"
+clas = "bagitem"
+data_id = 335
+
+[tm31]
+label = "TM31"
+id = 358
+group = "tmhms"
+clas = "bagitem"
+data_id = 336
+
+[tm32]
+label = "TM32"
+id = 359
+group = "tmhms"
+clas = "bagitem"
+data_id = 337
+
+[tm33]
+label = "TM33"
+id = 360
+group = "tmhms"
+clas = "bagitem"
+data_id = 338
+
+[tm34]
+label = "TM34"
+id = 361
+group = "tmhms"
+clas = "bagitem"
+data_id = 339
+
+[tm35]
+label = "TM35"
+id = 362
+group = "tmhms"
+clas = "bagitem"
+data_id = 340
+
+[tm36]
+label = "TM36"
+id = 363
+group = "tmhms"
+clas = "bagitem"
+data_id = 341
+
+[tm37]
+label = "TM37"
+id = 364
+group = "tmhms"
+clas = "bagitem"
+data_id = 342
+
+[tm38]
+label = "TM38"
+id = 365
+group = "tmhms"
+clas = "bagitem"
+data_id = 343
+
+[tm39]
+label = "TM39"
+id = 366
+group = "tmhms"
+clas = "bagitem"
+data_id = 344
+
+[tm40]
+label = "TM40"
+id = 367
+group = "tmhms"
+clas = "bagitem"
+data_id = 345
+
+[tm41]
+label = "TM41"
+id = 368
+group = "tmhms"
+clas = "bagitem"
+data_id = 346
+
+[tm42]
+label = "TM42"
+id = 369
+group = "tmhms"
+clas = "bagitem"
+data_id = 347
+
+[tm43]
+label = "TM43"
+id = 370
+group = "tmhms"
+clas = "bagitem"
+data_id = 348
+
+[tm44]
+label = "TM44"
+id = 371
+group = "tmhms"
+clas = "bagitem"
+data_id = 349
+
+[tm45]
+label = "TM45"
+id = 372
+group = "tmhms"
+clas = "bagitem"
+data_id = 350
+
+[tm46]
+label = "TM46"
+id = 373
+group = "tmhms"
+clas = "bagitem"
+data_id = 351
+
+[tm47]
+label = "TM47"
+id = 374
+group = "tmhms"
+clas = "bagitem"
+data_id = 352
+
+[tm48]
+label = "TM48"
+id = 375
+group = "tmhms"
+clas = "bagitem"
+data_id = 353
+
+[tm49]
+label = "TM49"
+id = 376
+group = "tmhms"
+clas = "bagitem"
+data_id = 354
+
+[tm50]
+label = "TM50"
+id = 377
+group = "tmhms"
+clas = "bagitem"
+data_id = 355
+
+[tm51]
+label = "TM51"
+id = 378
+group = "tmhms"
+clas = "bagitem"
+data_id = 356
+
+[tm52]
+label = "TM52"
+id = 379
+group = "tmhms"
+clas = "bagitem"
+data_id = 357
+
+[tm53]
+label = "TM53"
+id = 380
+group = "tmhms"
+clas = "bagitem"
+data_id = 358
+
+[tm54]
+label = "TM54"
+id = 381
+group = "tmhms"
+clas = "bagitem"
+data_id = 359
+
+[tm55]
+label = "TM55"
+id = 382
+group = "tmhms"
+clas = "bagitem"
+data_id = 360
+
+[tm56]
+label = "TM56"
+id = 383
+group = "tmhms"
+clas = "bagitem"
+data_id = 361
+
+[tm57]
+label = "TM57"
+id = 384
+group = "tmhms"
+clas = "bagitem"
+data_id = 362
+
+[tm58]
+label = "TM58"
+id = 385
+group = "tmhms"
+clas = "bagitem"
+data_id = 363
+
+[tm59]
+label = "TM59"
+id = 386
+group = "tmhms"
+clas = "bagitem"
+data_id = 364
+
+[tm60]
+label = "TM60"
+id = 387
+group = "tmhms"
+clas = "bagitem"
+data_id = 365
+
+[tm61]
+label = "TM61"
+id = 388
+group = "tmhms"
+clas = "bagitem"
+data_id = 366
+
+[tm62]
+label = "TM62"
+id = 389
+group = "tmhms"
+clas = "bagitem"
+data_id = 367
+
+[tm63]
+label = "TM63"
+id = 390
+group = "tmhms"
+clas = "bagitem"
+data_id = 368
+
+[tm64]
+label = "TM64"
+id = 391
+group = "tmhms"
+clas = "bagitem"
+data_id = 369
+
+[tm65]
+label = "TM65"
+id = 392
+group = "tmhms"
+clas = "bagitem"
+data_id = 370
+
+[tm66]
+label = "TM66"
+id = 393
+group = "tmhms"
+clas = "bagitem"
+data_id = 371
+
+[tm67]
+label = "TM67"
+id = 394
+group = "tmhms"
+clas = "bagitem"
+data_id = 372
+
+[tm68]
+label = "TM68"
+id = 395
+group = "tmhms"
+clas = "bagitem"
+data_id = 373
+
+[tm69]
+label = "TM69"
+id = 396
+group = "tmhms"
+clas = "bagitem"
+data_id = 374
+
+[tm70]
+label = "TM70"
+id = 397
+group = "tmhms"
+clas = "bagitem"
+data_id = 375
+
+[tm71]
+label = "TM71"
+id = 398
+group = "tmhms"
+clas = "bagitem"
+data_id = 376
+
+[tm72]
+label = "TM72"
+id = 399
+group = "tmhms"
+clas = "bagitem"
+data_id = 377
+
+[tm73]
+label = "TM73"
+id = 400
+group = "tmhms"
+clas = "bagitem"
+data_id = 378
+
+[tm74]
+label = "TM74"
+id = 401
+group = "tmhms"
+clas = "bagitem"
+data_id = 379
+
+[tm75]
+label = "TM75"
+id = 402
+group = "tmhms"
+clas = "bagitem"
+data_id = 380
+
+[tm76]
+label = "TM76"
+id = 403
+group = "tmhms"
+clas = "bagitem"
+data_id = 381
+
+[tm77]
+label = "TM77"
+id = 404
+group = "tmhms"
+clas = "bagitem"
+data_id = 382
+
+[tm78]
+label = "TM78"
+id = 405
+group = "tmhms"
+clas = "bagitem"
+data_id = 383
+
+[tm79]
+label = "TM79"
+id = 406
+group = "tmhms"
+clas = "bagitem"
+data_id = 384
+
+[tm80]
+label = "TM80"
+id = 407
+group = "tmhms"
+clas = "bagitem"
+data_id = 385
+
+[tm81]
+label = "TM81"
+id = 408
+group = "tmhms"
+clas = "bagitem"
+data_id = 386
+
+[tm82]
+label = "TM82"
+id = 409
+group = "tmhms"
+clas = "bagitem"
+data_id = 387
+
+[tm83]
+label = "TM83"
+id = 410
+group = "tmhms"
+clas = "bagitem"
+data_id = 388
+
+[tm84]
+label = "TM84"
+id = 411
+group = "tmhms"
+clas = "bagitem"
+data_id = 389
+
+[tm85]
+label = "TM85"
+id = 412
+group = "tmhms"
+clas = "bagitem"
+data_id = 390
+
+[tm86]
+label = "TM86"
+id = 413
+group = "tmhms"
+clas = "bagitem"
+data_id = 391
+
+[tm87]
+label = "TM87"
+id = 414
+group = "tmhms"
+clas = "bagitem"
+data_id = 392
+
+[tm88]
+label = "TM88"
+id = 415
+group = "tmhms"
+clas = "bagitem"
+data_id = 393
+
+[tm89]
+label = "TM89"
+id = 416
+group = "tmhms"
+clas = "bagitem"
+data_id = 394
+
+[tm90]
+label = "TM90"
+id = 417
+group = "tmhms"
+clas = "bagitem"
+data_id = 395
+
+[tm91]
+label = "TM91"
+id = 418
+group = "tmhms"
+clas = "bagitem"
+data_id = 396
+
+[tm92]
+label = "TM92"
+id = 419
+group = "tmhms"
+clas = "bagitem"
+data_id = 397
+
+[hm01]
+label = "HM01"
+id = 420
+group = "tmhms"
+clas = "bagitem"
+data_id = 398
+
+[hm02]
+label = "HM02"
+id = 421
+group = "tmhms"
+clas = "bagitem"
+data_id = 399
+
+[hm03]
+label = "HM03"
+id = 422
+group = "tmhms"
+clas = "bagitem"
+data_id = 400
+
+[hm04]
+label = "HM04"
+id = 423
+group = "tmhms"
+clas = "bagitem"
+data_id = 401
+
+[hm05]
+label = "HM05"
+id = 424
+group = "tmhms"
+clas = "bagitem"
+data_id = 402
+
+[hm06]
+label = "HM06"
+id = 425
+group = "tmhms"
+clas = "bagitem"
+data_id = 403
+
+[hm07]
+label = "HM07"
+id = 426
+group = "tmhms"
+clas = "bagitem"
+data_id = 404
+
+[hm08]
+label = "HM08"
+id = 427
+group = "tmhms"
+clas = "bagitem"
+data_id = 405
+
+[loot_sack]
+label = "Loot Sack"
+id = 429
+group = "key_items"
+clas = "bagitem"
+data_id = 406
+
+[rule_book]
+label = "Rule Book"
+id = 430
+group = "key_items"
+clas = "bagitem"
+data_id = 407
+
+[poke_radar]
+label = "Poké Radar"
+id = 431
+group = "key_items"
+clas = "bagitem"
+data_id = 408
+
+[point_card]
+label = "Point Card"
+id = 432
+group = "key_items"
+clas = "bagitem"
+data_id = 409
+
+[journal]
+label = "Journal"
+id = 433
+group = "key_items"
+clas = "bagitem"
+data_id = 410
+
+[seal_case]
+label = "Seal Case"
+id = 434
+group = "key_items"
+clas = "bagitem"
+data_id = 411
+
+[fashion_case]
+label = "Fashion Case"
+id = 435
+group = "key_items"
+clas = "bagitem"
+data_id = 412
+
+[seal_bag]
+label = "Seal Bag"
+id = 436
+group = "key_items"
+clas = "bagitem"
+data_id = 413
+
+[pal_pad]
+label = "Pal Pad"
+id = 437
+group = "key_items"
+clas = "bagitem"
+data_id = 414
+
+[works_key]
+label = "Works Key"
+id = 438
+group = "key_items"
+clas = "bagitem"
+data_id = 415
+
+[old_charm]
+label = "Old Charm"
+id = 439
+group = "key_items"
+clas = "bagitem"
+data_id = 416
+
+[galactic_key]
+label = "Galactic Key"
+id = 440
+group = "key_items"
+clas = "bagitem"
+data_id = 417
+
+[red_chain]
+label = "Red Chain"
+id = 441
+group = "key_items"
+clas = "bagitem"
+data_id = 418
+
+[town_map]
+label = "Town Map"
+id = 442
+group = "key_items"
+clas = "bagitem"
+data_id = 419
+
+[vs__seeker]
+label = "Vs. Seeker"
+id = 443
+group = "key_items"
+clas = "bagitem"
+data_id = 420
+
+[coin_case]
+label = "Coin Case"
+id = 444
+group = "key_items"
+clas = "bagitem"
+data_id = 421
+
+[old_rod]
+label = "Old Rod"
+id = 445
+group = "key_items"
+clas = "bagitem"
+data_id = 422
+
+[good_rod]
+label = "Good Rod"
+id = 446
+group = "key_items"
+clas = "bagitem"
+data_id = 423
+
+[super_rod]
+label = "Super Rod"
+id = 447
+group = "key_items"
+clas = "bagitem"
+data_id = 424
+
+[sprayduck]
+label = "Sprayduck"
+id = 448
+group = "key_items"
+clas = "bagitem"
+data_id = 425
+
+[poffin_case]
+label = "Poffin Case"
+id = 449
+group = "key_items"
+clas = "bagitem"
+data_id = 426
+
+[bicycle]
+label = "Bicycle"
+id = 450
+group = "key_items"
+clas = "bagitem"
+data_id = 427
+
+[suite_key]
+label = "Suite Key"
+id = 451
+group = "key_items"
+clas = "bagitem"
+data_id = 428
+
+[oaks_letter]
+label = "Oak’s Letter"
+id = 452
+group = "key_items"
+clas = "bagitem"
+data_id = 429
+
+[lunar_wing]
+label = "Lunar Wing"
+id = 453
+group = "key_items"
+clas = "bagitem"
+data_id = 430
+
+[member_card]
+label = "Member Card"
+id = 454
+group = "key_items"
+clas = "bagitem"
+data_id = 431
+
+[azure_flute]
+label = "Azure Flute"
+id = 455
+group = "key_items"
+clas = "bagitem"
+data_id = 432
+
+[s_s__ticket]
+label = "S.S. Ticket"
+id = 456
+group = "key_items"
+clas = "bagitem"
+data_id = 433
+
+[contest_pass]
+label = "Contest Pass"
+id = 457
+group = "key_items"
+clas = "bagitem"
+data_id = 434
+
+[magma_stone]
+label = "Magma Stone"
+id = 458
+group = "key_items"
+clas = "bagitem"
+data_id = 435
+
+[parcel]
+label = "Parcel"
+id = 459
+group = "key_items"
+clas = "bagitem"
+data_id = 436
+
+[coupon_1]
+label = "Coupon 1"
+id = 460
+group = "key_items"
+clas = "bagitem"
+data_id = 437
+
+[coupon_2]
+label = "Coupon 2"
+id = 461
+group = "key_items"
+clas = "bagitem"
+data_id = 438
+
+[coupon_3]
+label = "Coupon 3"
+id = 462
+group = "key_items"
+clas = "bagitem"
+data_id = 439
+
+[storage_key]
+label = "Storage Key"
+id = 463
+group = "key_items"
+clas = "bagitem"
+data_id = 440
+
+[secretpotion]
+label = "SecretPotion"
+id = 464
+group = "key_items"
+clas = "bagitem"
+data_id = 441
+
+[vs__recorder]
+label = "Vs. Recorder"
+id = 465
+group = "key_items"
+clas = "bagitem"
+data_id = 442
+
+[gracidea]
+label = "Gracidea"
+id = 466
+group = "key_items"
+clas = "bagitem"
+data_id = 443
+
+[secret_key]
+label = "Secret Key"
+id = 467
+group = "key_items"
+clas = "bagitem"
+data_id = 444
+
+[apricorn_box]
+label = "Apricorn Box"
+id = 468
+group = "key_items"
+clas = "bagitem"
+data_id = 445
+
+[unown_report]
+label = "UNOWN Report"
+id = 469
+group = "key_items"
+clas = "bagitem"
+data_id = 446
+
+[berry_pots]
+label = "Berry Pots"
+id = 470
+group = "key_items"
+clas = "bagitem"
+data_id = 447
+
+[dowsing_mchn]
+label = "Dowsing MCHN"
+id = 471
+group = "key_items"
+clas = "bagitem"
+data_id = 448
+
+[blue_card]
+label = "Blue Card"
+id = 472
+group = "key_items"
+clas = "bagitem"
+data_id = 449
+
+[slowpoketail]
+label = "SlowpokeTail"
+id = 473
+group = "key_items"
+clas = "bagitem"
+data_id = 450
+
+[clear_bell]
+label = "Clear Bell"
+id = 474
+group = "key_items"
+clas = "bagitem"
+data_id = 451
+
+[card_key]
+label = "Card Key"
+id = 475
+group = "key_items"
+clas = "bagitem"
+data_id = 452
+
+[basement_key]
+label = "Basement Key"
+id = 476
+group = "key_items"
+clas = "bagitem"
+data_id = 453
+
+[squirtbottle]
+label = "SquirtBottle"
+id = 477
+group = "key_items"
+clas = "bagitem"
+data_id = 454
+
+[red_scale]
+label = "Red Scale"
+id = 478
+group = "key_items"
+clas = "bagitem"
+data_id = 455
+
+[lost_item]
+label = "Lost Item"
+id = 479
+group = "key_items"
+clas = "bagitem"
+data_id = 456
+
+[pass]
+label = "Pass"
+id = 480
+group = "key_items"
+clas = "bagitem"
+data_id = 457
+
+[machine_part]
+label = "Machine Part"
+id = 481
+group = "key_items"
+clas = "bagitem"
+data_id = 458
+
+[silver_wing]
+label = "Silver Wing"
+id = 482
+group = "key_items"
+clas = "bagitem"
+data_id = 459
+
+[rainbow_wing]
+label = "Rainbow Wing"
+id = 483
+group = "key_items"
+clas = "bagitem"
+data_id = 460
+
+[mystery_egg]
+label = "Mystery Egg"
+id = 484
+group = "key_items"
+clas = "bagitem"
+data_id = 461
+
+[red_apricorn]
+label = "Red Apricorn"
+id = 485
+group = "items"
+clas = "bagitem"
+data_id = 462
+
+[ylw_apricorn]
+label = "Ylw Apricorn"
+id = 486
+group = "items"
+clas = "bagitem"
+data_id = 463
+
+[blu_apricorn]
+label = "Blu Apricorn"
+id = 487
+group = "items"
+clas = "bagitem"
+data_id = 464
+
+[grn_apricorn]
+label = "Grn Apricorn"
+id = 488
+group = "items"
+clas = "bagitem"
+data_id = 465
+
+[pnk_apricorn]
+label = "Pnk Apricorn"
+id = 489
+group = "items"
+clas = "bagitem"
+data_id = 466
+
+[wht_apricorn]
+label = "Wht Apricorn"
+id = 490
+group = "items"
+clas = "bagitem"
+data_id = 467
+
+[blk_apricorn]
+label = "Blk Apricorn"
+id = 491
+group = "items"
+clas = "bagitem"
+data_id = 468
+
+[fast_ball]
+label = "Fast Ball"
+id = 492
+group = "balls"
+clas = "bagitem"
+data_id = 469
+
+[level_ball]
+label = "Level Ball"
+id = 493
+group = "balls"
+clas = "bagitem"
+data_id = 470
+
+[lure_ball]
+label = "Lure Ball"
+id = 494
+group = "balls"
+clas = "bagitem"
+data_id = 471
+
+[heavy_ball]
+label = "Heavy Ball"
+id = 495
+group = "balls"
+clas = "bagitem"
+data_id = 472
+
+[love_ball]
+label = "Love Ball"
+id = 496
+group = "balls"
+clas = "bagitem"
+data_id = 473
+
+[friend_ball]
+label = "Friend Ball"
+id = 497
+group = "balls"
+clas = "bagitem"
+data_id = 474
+
+[moon_ball]
+label = "Moon Ball"
+id = 498
+group = "balls"
+clas = "bagitem"
+data_id = 475
+
+[sport_ball]
+label = "Sport Ball"
+id = 499
+group = "balls"
+clas = "bagitem"
+data_id = 476
+
+[park_ball]
+label = "Park Ball"
+id = 500
+group = "balls"
+clas = "bagitem"
+data_id = 477
+
+[photo_album]
+label = "Photo Album"
+id = 501
+group = "key_items"
+clas = "bagitem"
+data_id = 478
+
+[gb_sounds]
+label = "GB Sounds"
+id = 502
+group = "key_items"
+clas = "bagitem"
+data_id = 479
+
+[tidal_bell]
+label = "Tidal Bell"
+id = 503
+group = "key_items"
+clas = "bagitem"
+data_id = 480
+
+[ragecandybar]
+label = "RageCandyBar"
+id = 504
+group = "key_items"
+clas = "bagitem"
+data_id = 481
+
+[data_card_01]
+label = "Data Card 01"
+id = 505
+group = "items"
+clas = "bagitem"
+data_id = 482
+
+[data_card_02]
+label = "Data Card 02"
+id = 506
+group = "items"
+clas = "bagitem"
+data_id = 483
+
+[data_card_03]
+label = "Data Card 03"
+id = 507
+group = "items"
+clas = "bagitem"
+data_id = 484
+
+[data_card_04]
+label = "Data Card 04"
+id = 508
+group = "items"
+clas = "bagitem"
+data_id = 485
+
+[data_card_05]
+label = "Data Card 05"
+id = 509
+group = "items"
+clas = "bagitem"
+data_id = 486
+
+[data_card_06]
+label = "Data Card 06"
+id = 510
+group = "items"
+clas = "bagitem"
+data_id = 487
+
+[data_card_07]
+label = "Data Card 07"
+id = 511
+group = "items"
+clas = "bagitem"
+data_id = 488
+
+[data_card_08]
+label = "Data Card 08"
+id = 512
+group = "items"
+clas = "bagitem"
+data_id = 489
+
+[data_card_09]
+label = "Data Card 09"
+id = 513
+group = "items"
+clas = "bagitem"
+data_id = 490
+
+[data_card_10]
+label = "Data Card 10"
+id = 514
+group = "items"
+clas = "bagitem"
+data_id = 491
+
+[data_card_11]
+label = "Data Card 11"
+id = 515
+group = "items"
+clas = "bagitem"
+data_id = 492
+
+[data_card_12]
+label = "Data Card 12"
+id = 516
+group = "items"
+clas = "bagitem"
+data_id = 493
+
+[data_card_13]
+label = "Data Card 13"
+id = 517
+group = "items"
+clas = "bagitem"
+data_id = 494
+
+[data_card_14]
+label = "Data Card 14"
+id = 518
+group = "items"
+clas = "bagitem"
+data_id = 495
+
+[data_card_15]
+label = "Data Card 15"
+id = 519
+group = "items"
+clas = "bagitem"
+data_id = 496
+
+[data_card_16]
+label = "Data Card 16"
+id = 520
+group = "items"
+clas = "bagitem"
+data_id = 497
+
+[data_card_17]
+label = "Data Card 17"
+id = 521
+group = "items"
+clas = "bagitem"
+data_id = 498
+
+[data_card_18]
+label = "Data Card 18"
+id = 522
+group = "items"
+clas = "bagitem"
+data_id = 499
+
+[data_card_19]
+label = "Data Card 19"
+id = 523
+group = "items"
+clas = "bagitem"
+data_id = 500
+
+[data_card_20]
+label = "Data Card 20"
+id = 524
+group = "items"
+clas = "bagitem"
+data_id = 501
+
+[data_card_21]
+label = "Data Card 21"
+id = 525
+group = "items"
+clas = "bagitem"
+data_id = 502
+
+[data_card_22]
+label = "Data Card 22"
+id = 526
+group = "items"
+clas = "bagitem"
+data_id = 503
+
+[data_card_23]
+label = "Data Card 23"
+id = 527
+group = "items"
+clas = "bagitem"
+data_id = 504
+
+[data_card_24]
+label = "Data Card 24"
+id = 528
+group = "items"
+clas = "bagitem"
+data_id = 505
+
+[data_card_25]
+label = "Data Card 25"
+id = 529
+group = "items"
+clas = "bagitem"
+data_id = 506
+
+[data_card_26]
+label = "Data Card 26"
+id = 530
+group = "items"
+clas = "bagitem"
+data_id = 507
+
+[data_card_27]
+label = "Data Card 27"
+id = 531
+group = "items"
+clas = "bagitem"
+data_id = 508
+
+[jade_orb]
+label = "Jade Orb"
+id = 532
+group = "key_items"
+clas = "bagitem"
+data_id = 509
+
+[lock_capsule]
+label = "Lock Capsule"
+id = 533
+group = "key_items"
+clas = "bagitem"
+data_id = 510
+
+[red_orb]
+label = "Red Orb"
+id = 534
+group = "key_items"
+clas = "bagitem"
+data_id = 511
+
+[blue_orb]
+label = "Blue Orb"
+id = 535
+group = "key_items"
+clas = "bagitem"
+data_id = 512
+
+[enigma_stone]
+label = "Enigma Stone"
+id = 536
+group = "key_items"
+clas = "bagitem"
+data_id = 513
+
+[master_repel]
+label = "Master Repel"
+id = 537
+group = "key_items"
+clas = "bagitem"
+classification = "useful"
+data_id = 514
+
+[linking_cord]
+label = "Linking Cord"
+id = 538
+group = "key_items"
+clas = "bagitem"
+classification = "progression"
+data_id = 515
+
+[zephyr_badge]
+id = 0
+label = "Zephyr Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[hive_badge]
+id = 1
+label = "Hive Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[plain_badge]
+id = 2
+label = "Plain Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[fog_badge]
+id = 3
+label = "Fog Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[storm_badge]
+id = 4
+label = "Storm Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[mineral_badge]
+id = 5
+label = "Mineral Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[glacier_badge]
+id = 6
+label = "Glacier Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[rising_badge]
+id = 7
+label = "Rising Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+
+[boulder_badge]
+id = 8
+label = "Boulder Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[cascade_badge]
+id = 9
+label = "Cascade Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[thunder_badge]
+id = 10
+label = "Thunder Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[rainbow_badge]
+id = 11
+label = "Rainbow Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[soul_badge]
+id = 12
+label = "Soul Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[marsh_badge]
+id = 13
+label = "Marsh Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[volcano_badge]
+id = 14
+label = "Volcano Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"
+
+[earth_badge]
+id = 15
+label = "Earth Badge"
+group = "badges"
+clas = "badge"
+classification = "progression"

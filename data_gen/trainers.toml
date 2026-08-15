@@ -1,0 +1,6202 @@
+[none]
+id = 0
+label = "₧₦ Trainer  -"
+party = []
+
+[rival_silver]
+id = 1
+label = "Rival Silver"
+party = [
+    { species = "gastly", level = 14 },
+    { species = "zubat", level = 16 },
+    { species = "bayleef", level = 18 },
+]
+
+[rival_silver_2]
+id = 2
+label = "Rival Silver 2"
+party = [
+    { species = "cyndaquil", level = 5 },
+]
+
+[rival_silver_3]
+id = 3
+label = "Rival Silver 3"
+party = [
+    { species = "totodile", level = 5 },
+]
+
+[bug_catcher_wade]
+id = 4
+label = "Route 31 - Bug Catcher Wade"
+party = [
+    { species = "caterpie", level = 2 },
+    { species = "caterpie", level = 2 },
+    { species = "weedle", level = 3 },
+    { species = "caterpie", level = 2 },
+]
+
+[beauty_victoria]
+id = 5
+label = "Goldenrod City - Beauty Victoria"
+party = [
+    { species = "sentret", level = 9 },
+    { species = "sentret", level = 13 },
+    { species = "sentret", level = 16 },
+]
+
+[policeman_keith]
+id = 6
+label = "Route 34 - Policeman Keith"
+party = [
+    { species = "growlithe", level = 17 },
+]
+
+[juggler_irwin]
+id = 7
+label = "Route 35 - Juggler Irwin"
+party = [
+    { species = "voltorb", level = 2 },
+    { species = "voltorb", level = 6 },
+    { species = "voltorb", level = 10 },
+    { species = "voltorb", level = 14 },
+]
+
+[youngster_joey]
+id = 8
+label = "Route 30 - Youngster Joey"
+party = [
+    { species = "rattata", level = 4 },
+]
+
+[swimmer_f_elaine]
+id = 9
+label = "Route 40 - Swimmer♀ Elaine"
+party = [
+    { species = "staryu", level = 21 },
+]
+
+[twins_amy_and_mimi]
+id = 10
+label = "Azalea Town - Twins Amy & Mimi"
+party = [
+    { species = "spinarak", level = 10 },
+    { species = "ledyba", level = 10 },
+]
+
+[kimono_girl_mickey]
+id = 11
+label = "Kimono Girl Mickey"
+party = [
+    { species = "skiploom", level = 20 },
+    { species = "vulpix", level = 20 },
+    { species = "skiploom", level = 18 },
+]
+
+[team_rocket_grunt]
+id = 12
+label = "SLOWPOKE Well - Team Rocket Grunt"
+party = [
+    { species = "rattata", level = 7 },
+    { species = "zubat", level = 9 },
+    { species = "zubat", level = 9 },
+]
+
+[team_rocket_f_grunt]
+id = 13
+label = "SLOWPOKE Well - Team Rocket Grunt"
+party = [
+    { species = "zubat", level = 9 },
+    { species = "ekans", level = 11 },
+]
+
+[burglar_duncan]
+id = 14
+label = "Goldenrod City - Burglar Duncan"
+party = [
+    { species = "koffing", level = 23 },
+    { species = "magmar", level = 25 },
+    { species = "koffing", level = 23 },
+]
+
+[firebreather_otis]
+id = 15
+label = "Route 3 - Firebreather Otis"
+party = [
+    { species = "magmar", level = 43 },
+    { species = "weezing", level = 40 },
+    { species = "camerupt", level = 47 },
+]
+
+[swimmer_m_simon]
+id = 16
+label = "Route 40 - Swimmer♂ Simon"
+party = [
+    { species = "tentacool", level = 20 },
+    { species = "tentacool", level = 20 },
+]
+
+[black_belt_kenji]
+id = 17
+label = "Route 45 - Black Belt Kenji"
+party = [
+    { species = "machoke", level = 28 },
+]
+
+[fisherman_justin]
+id = 18
+label = "Route 32 - Fisherman Justin"
+party = [
+    { species = "magikarp", level = 5 },
+    { species = "magikarp", level = 5 },
+    { species = "magikarp", level = 15 },
+    { species = "magikarp", level = 5 },
+]
+
+[biker_mickey]
+id = 19
+label = "Biker Mickey"
+party = [
+    { species = "koffing", level = 20 },
+    { species = "koffing", level = 20 },
+    { species = "koffing", level = 20 },
+]
+
+[leader_falkner_falkner]
+id = 20
+label = "Leader Falkner"
+party = [
+    { species = "pidgey", level = 9, num_moves = 2 },
+    { species = "pidgeotto", level = 13, num_moves = 3 },
+]
+
+[leader_bugsy_bugsy]
+id = 21
+label = "Leader Bugsy"
+party = [
+    { species = "scyther", level = 17, num_moves = 4 },
+    { species = "kakuna", level = 15, num_moves = 1 },
+    { species = "metapod", level = 15, num_moves = 1 },
+]
+
+[lass_carrie]
+id = 22
+label = "Goldenrod City - Lass Carrie"
+party = [
+    { species = "snubbull", level = 17, num_moves = 4 },
+]
+
+[poke_maniac_larry]
+id = 23
+label = "Union Cave - Poké Maniac Larry"
+party = [
+    { species = "slowpoke", level = 11 },
+]
+
+[school_kid_m_alan]
+id = 24
+label = "Route 36 - School Kid Alan"
+party = [
+    { species = "tangela", level = 17 },
+]
+
+[hiker_russel]
+id = 25
+label = "Union Cave - Hiker Russel"
+party = [
+    { species = "geodude", level = 4 },
+    { species = "geodude", level = 6 },
+    { species = "geodude", level = 8 },
+]
+
+[camper_roland]
+id = 26
+label = "Route 32 - Camper Roland"
+party = [
+    { species = "nidoran_m", level = 9 },
+]
+
+[picnicker_liz]
+id = 27
+label = "Route 32 - Picnicker Liz"
+party = [
+    { species = "nidoran_f", level = 8 },
+]
+
+[ace_trainer_m_jake]
+id = 28
+label = "Route 26 - Ace Trainer Jake"
+party = [
+    { species = "parasect", level = 33, num_moves = 4 },
+    { species = "golduck", level = 35, num_moves = 4 },
+    { species = "vaporeon", level = 33, num_moves = 4 },
+]
+
+[bird_keeper_gs_rod]
+id = 29
+label = "Violet City - Bird Keeper Rod"
+party = [
+    { species = "pidgey", level = 7 },
+    { species = "pidgey", level = 7 },
+]
+
+[leader_whitney]
+id = 30
+label = "Leader Whitney"
+party = [
+    { species = "clefairy", level = 17, num_moves = 4 },
+    { species = "miltank", level = 19, num_moves = 4 },
+]
+
+[leader_morty_morty]
+id = 31
+label = "Leader Morty"
+party = [
+    { species = "gastly", level = 21, num_moves = 4 },
+    { species = "haunter", level = 21, num_moves = 4 },
+    { species = "gengar", level = 25, num_moves = 4 },
+    { species = "haunter", level = 23, num_moves = 4 },
+]
+
+[leader_pryce_pryce]
+id = 32
+label = "Leader Pryce"
+party = [
+    { species = "seel", level = 30, num_moves = 4 },
+    { species = "dewgong", level = 32, num_moves = 4 },
+    { species = "piloswine", level = 34, num_moves = 4 },
+]
+
+[leader_jasmine_jasmine]
+id = 33
+label = "Leader Jasmine"
+party = [
+    { species = "magnemite", level = 30, num_moves = 4 },
+    { species = "magnemite", level = 30, num_moves = 4 },
+    { species = "steelix", level = 35, num_moves = 4 },
+]
+
+[leader_chuck_chuck]
+id = 34
+label = "Leader Chuck"
+party = [
+    { species = "primeape", level = 29, num_moves = 4 },
+    { species = "poliwrath", level = 31, num_moves = 4 },
+]
+
+[leader_clair_clair]
+id = 35
+label = "Leader Clair"
+party = [
+    { species = "gyarados", level = 38, num_moves = 4 },
+    { species = "dragonair", level = 38, num_moves = 4 },
+    { species = "dragonair", level = 38, num_moves = 4 },
+    { species = "kingdra", level = 41, num_moves = 4 },
+]
+
+[ace_trainer_f_joyce]
+id = 36
+label = "Route 26 - Ace Trainer Joyce"
+party = [
+    { species = "pikachu", level = 36, num_moves = 4 },
+    { species = "blastoise", level = 36, num_moves = 4 },
+]
+
+[gentleman_preston]
+id = 37
+label = "Lighthouse - Gentleman Preston"
+party = [
+    { species = "growlithe", level = 18 },
+    { species = "growlithe", level = 18 },
+]
+
+[teacher_colette]
+id = 38
+label = "Route 15 - Teacher Colette"
+party = [
+    { species = "clefairy", level = 45 },
+]
+
+[sailor_eugene]
+id = 39
+label = "Route 39 - Sailor Eugene"
+party = [
+    { species = "poliwhirl", level = 17 },
+    { species = "raticate", level = 17 },
+    { species = "krabby", level = 19 },
+]
+
+[super_nerd_mickey]
+id = 40
+label = "Super Nerd Mickey"
+party = [
+    { species = "grimer", level = 20 },
+]
+
+[guitarist_clyde]
+id = 41
+label = "S.S. Aqua - Guitarist Clyde"
+party = [
+    { species = "electabuzz", level = 42 },
+]
+
+[psychic_m_nathan]
+id = 42
+label = "Ruins of Alph - Psychic Nathan"
+party = [
+    { species = "girafarig", level = 26 },
+]
+
+[sage_chow]
+id = 43
+label = "Sprout Tower - Sage Chow"
+party = [
+    { species = "bellsprout", level = 3 },
+    { species = "bellsprout", level = 3 },
+    { species = "bellsprout", level = 3 },
+]
+
+[pokefan_m_derek]
+id = 44
+label = "Route 39 - Pokéfan Derek"
+party = [
+    { species = "pikachu", level = 18, num_moves = 4 },
+]
+
+[pokefan_ruth]
+id = 45
+label = "Route 39 - Pokéfan Ruth"
+party = [
+    { species = "pikachu", level = 17, num_moves = 4 },
+]
+
+[medium_martha]
+id = 46
+label = "Ecruteak City - Medium Martha"
+party = [
+    { species = "gastly", level = 18 },
+    { species = "haunter", level = 20 },
+    { species = "gastly", level = 20 },
+]
+
+[youngster_mikey]
+id = 47
+label = "Route 30 - Youngster Mikey"
+party = [
+    { species = "pidgey", level = 2 },
+    { species = "rattata", level = 4 },
+]
+
+[bug_catcher_rob]
+id = 48
+label = "Route 2 - Bug Catcher Rob"
+party = [
+    { species = "beedrill", level = 40 },
+    { species = "butterfree", level = 39 },
+]
+
+[youngster_albert]
+id = 49
+label = "Route 32 - Youngster Albert"
+party = [
+    { species = "rattata", level = 6 },
+    { species = "zubat", level = 8 },
+]
+
+[bird_keeper_gs_abe]
+id = 50
+label = "Violet City - Bird Keeper Abe"
+party = [
+    { species = "spearow", level = 9 },
+]
+
+[sage_nico]
+id = 51
+label = "Sprout Tower - Sage Nico"
+party = [
+    { species = "bellsprout", level = 3 },
+    { species = "bellsprout", level = 3 },
+    { species = "bellsprout", level = 3 },
+]
+
+[sage_edmond]
+id = 52
+label = "Sprout Tower - Sage Edmond"
+party = [
+    { species = "bellsprout", level = 3 },
+    { species = "bellsprout", level = 3 },
+    { species = "bellsprout", level = 3 },
+]
+
+[sage_jin]
+id = 53
+label = "Sprout Tower - Sage Jin"
+party = [
+    { species = "bellsprout", level = 6 },
+]
+
+[sage_troy]
+id = 54
+label = "Sprout Tower - Sage Troy"
+party = [
+    { species = "bellsprout", level = 7 },
+    { species = "hoothoot", level = 7 },
+]
+
+[sage_neal]
+id = 55
+label = "Sprout Tower - Sage Neal"
+party = [
+    { species = "bellsprout", level = 6 },
+]
+
+[youngster_gordon]
+id = 56
+label = "Route 32 - Youngster Gordon"
+party = [
+    { species = "wooper", level = 10 },
+]
+
+[fisherman_ralph]
+id = 57
+label = "Route 32 - Fisherman Ralph"
+party = [
+    { species = "goldeen", level = 10 },
+]
+
+[fisherman_arnold]
+id = 58
+label = "Route 21 - Fisherman Arnold"
+party = [
+    { species = "shellder", level = 44 },
+]
+
+[fisherman_kyle]
+id = 59
+label = "Route 12 - Fisherman Kyle"
+party = [
+    { species = "goldeen", level = 39 },
+    { species = "qwilfish", level = 35 },
+    { species = "goldeen", level = 39 },
+]
+
+[fisherman_henry]
+id = 60
+label = "Route 32 - Fisherman Henry"
+party = [
+    { species = "poliwag", level = 8 },
+    { species = "poliwag", level = 8 },
+]
+
+[hiker_anthony]
+id = 61
+label = "Route 33 - Hiker Anthony"
+party = [
+    { species = "geodude", level = 11 },
+    { species = "machop", level = 11 },
+]
+
+[youngster_samuel]
+id = 62
+label = "Route 34 - Youngster Samuel"
+party = [
+    { species = "rattata", level = 7 },
+    { species = "sandshrew", level = 10 },
+    { species = "spearow", level = 8 },
+    { species = "spearow", level = 8 },
+]
+
+[team_rocket_mickey]
+id = 63
+label = "Team Rocket Mickey"
+party = [
+    { species = "koffing", level = 14 },
+]
+
+[youngster_ian]
+id = 64
+label = "Route 34 - Youngster Ian"
+party = [
+    { species = "mankey", level = 10, num_moves = 4 },
+    { species = "diglett", level = 12, num_moves = 4 },
+]
+
+[picnicker_gina]
+id = 65
+label = "Route 34 - Picnicker Gina"
+party = [
+    { species = "hoppip", level = 9 },
+    { species = "hoppip", level = 9 },
+    { species = "bulbasaur", level = 12 },
+]
+
+[camper_todd]
+id = 66
+label = "Route 34 - Camper Todd"
+party = [
+    { species = "psyduck", level = 14 },
+]
+
+[bug_catcher_benny]
+id = 67
+label = "Azalea Town - Bug Catcher Benny"
+party = [
+    { species = "weedle", level = 7 },
+    { species = "kakuna", level = 9 },
+    { species = "beedrill", level = 12 },
+]
+
+[bug_catcher_al]
+id = 68
+label = "Azalea Town - Bug Catcher Al"
+party = [
+    { species = "caterpie", level = 12 },
+    { species = "weedle", level = 12 },
+]
+
+[bug_catcher_josh]
+id = 69
+label = "Azalea Town - Bug Catcher Josh"
+party = [
+    { species = "paras", level = 13 },
+]
+
+[beauty_samantha]
+id = 70
+label = "Goldenrod City - Beauty Samantha"
+party = [
+    { species = "meowth", level = 16, num_moves = 4 },
+    { species = "meowth", level = 16, num_moves = 4 },
+]
+
+[lass_cathy]
+id = 71
+label = "Goldenrod City - Lass Cathy"
+party = [
+    { species = "jigglypuff", level = 15 },
+    { species = "jigglypuff", level = 15 },
+    { species = "jigglypuff", level = 15 },
+]
+
+[bird_keeper_gs_bryan]
+id = 72
+label = "Route 35 - Bird Keeper Bryan"
+party = [
+    { species = "pidgey", level = 12 },
+    { species = "pidgeotto", level = 14 },
+]
+
+[bird_keeper_gs_theo]
+id = 73
+label = "Lighthouse - Bird Keeper Theo"
+party = [
+    { species = "pidgey", level = 17 },
+    { species = "pidgey", level = 15 },
+    { species = "pidgey", level = 19 },
+    { species = "pidgey", level = 15 },
+    { species = "pidgey", level = 15 },
+]
+
+[camper_ivan]
+id = 74
+label = "Route 35 - Camper Ivan"
+party = [
+    { species = "diglett", level = 10 },
+    { species = "zubat", level = 10 },
+    { species = "diglett", level = 14 },
+]
+
+[camper_elliot]
+id = 75
+label = "Route 35 - Camper Elliot"
+party = [
+    { species = "sandshrew", level = 13 },
+    { species = "marill", level = 15 },
+]
+
+[picnicker_brooke]
+id = 76
+label = "Route 35 - Picnicker Brooke"
+party = [
+    { species = "pikachu", level = 16, num_moves = 4 },
+]
+
+[picnicker_kim]
+id = 77
+label = "Route 35 - Picnicker Kim"
+party = [
+    { species = "vulpix", level = 15 },
+]
+
+[bug_catcher_arnie]
+id = 78
+label = "Route 35 - Bug Catcher Arnie"
+party = [
+    { species = "venonat", level = 15 },
+]
+
+[bug_catcher_ken]
+id = 79
+label = "S.S. Aqua - Bug Catcher Ken"
+party = [
+    { species = "ariados", level = 39 },
+    { species = "pinsir", level = 40 },
+]
+
+[policeman_dirk]
+id = 80
+label = "Route 35 - Policeman Dirk"
+party = [
+    { species = "growlithe", level = 14 },
+    { species = "growlithe", level = 14 },
+]
+
+[twins_tori_and_til]
+id = 81
+label = "Route 37 - Twins Tori & Til"
+party = [
+    { species = "marill", level = 16 },
+    { species = "mareep", level = 16 },
+]
+
+[bird_keeper_gs_toby]
+id = 82
+label = "Route 38 - Bird Keeper Toby"
+party = [
+    { species = "doduo", level = 16 },
+    { species = "doduo", level = 17 },
+    { species = "doduo", level = 18 },
+]
+
+[picnicker_cindy]
+id = 83
+label = "Picnicker Cindy"
+party = [
+    { species = "nidoqueen", level = 48, num_moves = 4 },
+]
+
+[camper_barry]
+id = 84
+label = "Camper Barry"
+party = [
+    { species = "nidoking", level = 48, num_moves = 4 },
+]
+
+[swimmer_f_paula]
+id = 85
+label = "Route 40 - Swimmer♀ Paula"
+party = [
+    { species = "staryu", level = 19 },
+    { species = "shellder", level = 19 },
+]
+
+[swimmer_m_randall]
+id = 86
+label = "Route 40 - Swimmer♂ Randall"
+party = [
+    { species = "shellder", level = 18, num_moves = 4 },
+    { species = "wartortle", level = 20, num_moves = 4 },
+    { species = "shellder", level = 18, num_moves = 4 },
+]
+
+[sage_mickey]
+id = 87
+label = "Sage Mickey"
+party = [
+    { species = "haunter", level = 22 },
+]
+
+[sage_mickey_2]
+id = 88
+label = "Sage Mickey 2"
+party = [
+    { species = "gastly", level = 16 },
+    { species = "gastly", level = 16 },
+    { species = "gastly", level = 16 },
+    { species = "gastly", level = 16 },
+    { species = "gastly", level = 16 },
+]
+
+[medium_grace]
+id = 89
+label = "Ecruteak City - Medium Grace"
+party = [
+    { species = "haunter", level = 20 },
+    { species = "haunter", level = 20 },
+]
+
+[swimmer_f_kaylee]
+id = 90
+label = "Route 41 - Swimmer♀ Kaylee"
+party = [
+    { species = "goldeen", level = 18, num_moves = 4 },
+    { species = "goldeen", level = 20, num_moves = 4 },
+    { species = "seaking", level = 20, num_moves = 4 },
+]
+
+[swimmer_f_susie]
+id = 91
+label = "Route 41 - Swimmer♀ Susie"
+party = [
+    { species = "psyduck", level = 20, num_moves = 4 },
+    { species = "goldeen", level = 22, num_moves = 4 },
+]
+
+[swimmer_f_denise]
+id = 92
+label = "Route 41 - Swimmer♀ Denise"
+party = [
+    { species = "seel", level = 22 },
+]
+
+[swimmer_f_kara]
+id = 93
+label = "Route 41 - Swimmer♀ Kara"
+party = [
+    { species = "staryu", level = 20 },
+    { species = "starmie", level = 20 },
+]
+
+[swimmer_f_wendy]
+id = 94
+label = "Route 41 - Swimmer♀ Wendy"
+party = [
+    { species = "horsea", level = 21, num_moves = 4 },
+    { species = "horsea", level = 21, num_moves = 4 },
+]
+
+[swimmer_m_charlie]
+id = 95
+label = "Route 41 - Swimmer♂ Charlie"
+party = [
+    { species = "shellder", level = 21 },
+    { species = "tentacool", level = 19 },
+    { species = "tentacruel", level = 19 },
+]
+
+[swimmer_m_george]
+id = 96
+label = "Route 41 - Swimmer♂ George"
+party = [
+    { species = "tentacool", level = 16 },
+    { species = "tentacool", level = 17 },
+    { species = "tentacool", level = 16 },
+    { species = "staryu", level = 19 },
+    { species = "tentacool", level = 17 },
+    { species = "remoraid", level = 19 },
+]
+
+[swimmer_m_berke]
+id = 97
+label = "Route 41 - Swimmer♂ Berke"
+party = [
+    { species = "qwilfish", level = 23 },
+]
+
+[swimmer_m_ronald]
+id = 98
+label = "Route 41 - Swimmer♂ Ronald"
+party = [
+    { species = "gyarados", level = 20 },
+    { species = "gyarados", level = 20 },
+]
+
+[swimmer_m_matthew]
+id = 99
+label = "Route 41 - Swimmer♂ Matthew"
+party = [
+    { species = "krabby", level = 23 },
+]
+
+[hiker_anthony_2]
+id = 100
+label = "Hiker Anthony 2"
+party = [
+    { species = "graveler", level = 33 },
+    { species = "machoke", level = 32 },
+]
+
+[team_rocket_grunt_2]
+id = 101
+label = "SLOWPOKE Well - Team Rocket Grunt 2"
+party = [
+    { species = "rattata", level = 9 },
+    { species = "rattata", level = 9 },
+]
+
+[ace_trainer_m_gaven]
+id = 102
+label = "Route 26 - Ace Trainer Gaven"
+party = [
+    { species = "victreebel", level = 32, num_moves = 4 },
+    { species = "kingler", level = 32, num_moves = 4 },
+    { species = "flareon", level = 32, num_moves = 4 },
+]
+
+[ace_trainer_m_blake]
+id = 103
+label = "Route 27 - Ace Trainer Blake"
+party = [
+    { species = "magneton", level = 33, num_moves = 4 },
+    { species = "quagsire", level = 31, num_moves = 4 },
+    { species = "exeggcute", level = 31, num_moves = 4 },
+]
+
+[ace_trainer_m_brian]
+id = 104
+label = "Route 27 - Ace Trainer Brian"
+party = [
+    { species = "mareep", level = 35, num_moves = 4 },
+]
+
+[ace_trainer_m_mickey]
+id = 105
+label = "Ace Trainer Mickey"
+party = [
+    { species = "bulbasaur", level = 10 },
+    { species = "charmander", level = 10 },
+    { species = "squirtle", level = 10 },
+]
+
+[ace_trainer_m_mickey_2]
+id = 106
+label = "Ace Trainer Mickey 2"
+party = [
+    { species = "bulbasaur", level = 10 },
+    { species = "charmander", level = 10 },
+    { species = "squirtle", level = 10 },
+]
+
+[ace_trainer_m_mickey_3]
+id = 107
+label = "Ace Trainer Mickey 3"
+party = [
+    { species = "bulbasaur", level = 10 },
+    { species = "charmander", level = 10 },
+    { species = "squirtle", level = 10 },
+]
+
+[ace_trainer_m_ryan]
+id = 108
+label = "Route 45 - Ace Trainer Ryan"
+party = [
+    { species = "pidgeot", level = 25, num_moves = 4 },
+    { species = "electabuzz", level = 27, num_moves = 4 },
+]
+
+[ace_trainer_m_alton]
+id = 109
+label = "Lake of Rage - Ace Trainer Alton"
+party = [
+    { species = "ivysaur", level = 24 },
+    { species = "charmeleon", level = 24 },
+    { species = "wartortle", level = 24 },
+]
+
+[ace_trainer_m_paulo]
+id = 110
+label = "Blackthorn City - Ace Trainer Paulo"
+party = [
+    { species = "dratini", level = 35 },
+    { species = "seadra", level = 35 },
+    { species = "dratini", level = 35 },
+]
+
+[ace_trainer_m_mike]
+id = 111
+label = "Blackthorn City - Ace Trainer Mike"
+party = [
+    { species = "dragonair", level = 38 },
+]
+
+[ace_trainer_m_cody]
+id = 112
+label = "Blackthorn City - Ace Trainer Cody"
+party = [
+    { species = "horsea", level = 35 },
+    { species = "seadra", level = 37 },
+]
+
+[ace_trainer_f_jamie]
+id = 113
+label = "Route 26 - Ace Trainer Jamie"
+party = [
+    { species = "rapidash", level = 36, num_moves = 4 },
+    { species = "flaaffy", level = 31, num_moves = 4 },
+]
+
+[ace_trainer_f_reena]
+id = 114
+label = "Route 27 - Ace Trainer Reena"
+party = [
+    { species = "growlithe", level = 36 },
+    { species = "nidorina", level = 33 },
+    { species = "staryu", level = 36 },
+]
+
+[ace_trainer_f_megan]
+id = 115
+label = "Route 27 - Ace Trainer Megan"
+party = [
+    { species = "bulbasaur", level = 32, num_moves = 4 },
+    { species = "ivysaur", level = 32, num_moves = 4 },
+    { species = "venusaur", level = 32, num_moves = 4 },
+]
+
+[ace_trainer_f_lois]
+id = 116
+label = "Lake of Rage - Ace Trainer Lois"
+party = [
+    { species = "mareep", level = 25, num_moves = 4 },
+    { species = "ninetales", level = 25, num_moves = 4 },
+]
+
+[ace_trainer_f_lola]
+id = 117
+label = "Blackthorn City - Ace Trainer Lola"
+party = [
+    { species = "dratini", level = 35 },
+    { species = "dragonair", level = 37 },
+]
+
+[ace_trainer_f_kate]
+id = 118
+label = "Ace Trainer Kate"
+party = [
+    { species = "shellder", level = 26 },
+    { species = "cloyster", level = 28 },
+]
+
+[ace_trainer_f_fran]
+id = 119
+label = "Blackthorn City - Ace Trainer Fran"
+party = [
+    { species = "seadra", level = 38 },
+]
+
+[ace_trainer_f_irene]
+id = 120
+label = "Ace Trainer Irene"
+party = [
+    { species = "goldeen", level = 22 },
+    { species = "seaking", level = 24 },
+]
+
+[ace_trainer_f_kelly]
+id = 121
+label = "Route 45 - Ace Trainer Kelly"
+party = [
+    { species = "marill", level = 27 },
+    { species = "wartortle", level = 24 },
+    { species = "wartortle", level = 24 },
+]
+
+[fisherman_marvin]
+id = 122
+label = "Route 43 - Fisherman Marvin"
+party = [
+    { species = "magikarp", level = 10, num_moves = 2 },
+    { species = "gyarados", level = 20, num_moves = 2 },
+    { species = "magikarp", level = 15, num_moves = 2 },
+]
+
+[fisherman_tully]
+id = 123
+label = "Route 42 - Fisherman Tully"
+party = [
+    { species = "qwilfish", level = 19 },
+]
+
+[fisherman_wilton]
+id = 124
+label = "Route 44 - Fisherman Wilton"
+party = [
+    { species = "goldeen", level = 26 },
+    { species = "goldeen", level = 26 },
+    { species = "seaking", level = 28 },
+]
+
+[fisherman_edgar]
+id = 125
+label = "Route 44 - Fisherman Edgar"
+party = [
+    { species = "remoraid", level = 28, num_moves = 4 },
+    { species = "remoraid", level = 28, num_moves = 4 },
+]
+
+[fisherman_andre]
+id = 126
+label = "Lake of Rage - Fisherman Andre"
+party = [
+    { species = "gyarados", level = 27 },
+]
+
+[fisherman_raymond]
+id = 127
+label = "Lake of Rage - Fisherman Raymond"
+party = [
+    { species = "magikarp", level = 22 },
+    { species = "magikarp", level = 22 },
+    { species = "magikarp", level = 22 },
+    { species = "magikarp", level = 22 },
+]
+
+[fisherman_jonah]
+id = 128
+label = "S.S. Aqua - Fisherman Jonah"
+party = [
+    { species = "shellder", level = 33 },
+    { species = "octillery", level = 37 },
+    { species = "remoraid", level = 33 },
+    { species = "cloyster", level = 37 },
+]
+
+[poke_maniac_shane]
+id = 129
+label = "Route 42 - Poké Maniac Shane"
+party = [
+    { species = "nidorina", level = 17 },
+    { species = "nidorino", level = 17 },
+]
+
+[poke_maniac_beckett]
+id = 130
+label = "Route 43 - Poké Maniac Beckett"
+party = [
+    { species = "slowbro", level = 20 },
+]
+
+[poke_maniac_brent]
+id = 131
+label = "Route 43 - Poké Maniac Brent"
+party = [
+    { species = "nidorina", level = 20 },
+    { species = "nidorino", level = 24 },
+]
+
+[poke_maniac_ron]
+id = 132
+label = "Route 43 - Poké Maniac Ron"
+party = [
+    { species = "nidoking", level = 20 },
+]
+
+[poke_maniac_morgan]
+id = 133
+label = "S.S. Aqua - Poké Maniac Morgan"
+party = [
+    { species = "rhyhorn", level = 39 },
+    { species = "rhydon", level = 39 },
+]
+
+[hiker_benjamin]
+id = 134
+label = "Route 42 - Hiker Benjamin"
+party = [
+    { species = "diglett", level = 15 },
+    { species = "geodude", level = 15 },
+    { species = "dugtrio", level = 17 },
+]
+
+[school_kid_m_johnny]
+id = 135
+label = "Route 15 - School Kid Johnny"
+party = [
+    { species = "bellsprout", level = 39 },
+    { species = "weepinbell", level = 40 },
+    { species = "victreebel", level = 42 },
+]
+
+[lass_linda]
+id = 136
+label = "Lass Linda"
+party = [
+    { species = "bulbasaur", level = 41, num_moves = 4 },
+    { species = "ivysaur", level = 43, num_moves = 4 },
+    { species = "venusaur", level = 45, num_moves = 4 },
+]
+
+[bird_keeper_gs_vance]
+id = 137
+label = "Route 44 - Bird Keeper Vance"
+party = [
+    { species = "hoothoot", level = 28 },
+    { species = "pidgeotto", level = 28 },
+]
+
+[camper_mickey]
+id = 138
+label = "Camper Mickey"
+party = [
+    { species = "nidorino", level = 15 },
+]
+
+[picnicker_debra]
+id = 139
+label = "S.S. Aqua - Picnicker Debra"
+party = [
+    { species = "seaking", level = 41 },
+]
+
+[bug_catcher_doug]
+id = 140
+label = "Route 2 - Bug Catcher Doug"
+party = [
+    { species = "butterfree", level = 39 },
+    { species = "ariados", level = 37 },
+]
+
+[camper_mickey_2]
+id = 141
+label = "Camper Mickey 2"
+party = [
+    { species = "nidorino", level = 15 },
+]
+
+[picnicker_gina_2]
+id = 142
+label = "Picnicker Gina 2"
+party = [
+    { species = "hoppip", level = 24 },
+    { species = "hoppip", level = 24 },
+    { species = "ivysaur", level = 32 },
+]
+
+[hiker_erik]
+id = 143
+label = "Route 45 - Hiker Erik"
+party = [
+    { species = "machop", level = 24 },
+    { species = "graveler", level = 27 },
+    { species = "machop", level = 27 },
+]
+
+[hiker_michael]
+id = 144
+label = "Route 45 - Hiker Michael"
+party = [
+    { species = "geodude", level = 25 },
+    { species = "graveler", level = 25 },
+    { species = "golem", level = 25 },
+]
+
+[hiker_parry]
+id = 145
+label = "Route 45 - Hiker Parry"
+party = [
+    { species = "onix", level = 30 },
+]
+
+[hiker_timothy]
+id = 146
+label = "Route 45 - Hiker Timothy"
+party = [
+    { species = "diglett", level = 27, num_moves = 4 },
+    { species = "dugtrio", level = 27, num_moves = 4 },
+]
+
+[camper_ted]
+id = 147
+label = "Route 46 - Camper Ted"
+party = [
+    { species = "mankey", level = 17 },
+]
+
+[camper_lloyd]
+id = 148
+label = "Route 25 - Camper Lloyd"
+party = [
+    { species = "nidoking", level = 46 },
+]
+
+[camper_dean]
+id = 149
+label = "Route 9 - Camper Dean"
+party = [
+    { species = "golduck", level = 44 },
+    { species = "sandslash", level = 42 },
+]
+
+[camper_sid]
+id = 150
+label = "Route 9 - Camper Sid"
+party = [
+    { species = "dugtrio", level = 43 },
+    { species = "primeape", level = 40 },
+    { species = "poliwrath", level = 40 },
+]
+
+[picnicker_erin]
+id = 151
+label = "Route 46 - Picnicker Erin"
+party = [
+    { species = "ponyta", level = 17 },
+    { species = "oddish", level = 14 },
+]
+
+[picnicker_hope]
+id = 152
+label = "Route 4 - Picnicker Hope"
+party = [
+    { species = "flaaffy", level = 44 },
+]
+
+[picnicker_sharon]
+id = 153
+label = "Route 4 - Picnicker Sharon"
+party = [
+    { species = "furret", level = 41 },
+    { species = "rapidash", level = 43 },
+]
+
+[hiker_bailey]
+id = 154
+label = "Route 46 - Hiker Bailey"
+party = [
+    { species = "geodude", level = 13 },
+    { species = "geodude", level = 13 },
+    { species = "geodude", level = 13 },
+    { species = "geodude", level = 13 },
+    { species = "geodude", level = 13 },
+]
+
+[hiker_anthony_3]
+id = 155
+label = "Hiker Anthony 3"
+party = [
+    { species = "graveler", level = 37 },
+    { species = "graveler", level = 38 },
+    { species = "machoke", level = 40 },
+]
+
+[black_belt_yoshi]
+id = 156
+label = "Cianwood City - Black Belt Yoshi"
+party = [
+    { species = "hitmonlee", level = 27, num_moves = 4 },
+]
+
+[black_belt_lao]
+id = 157
+label = "Cianwood City - Black Belt Lao"
+party = [
+    { species = "hitmonchan", level = 27, num_moves = 4 },
+]
+
+[black_belt_kiyo]
+id = 158
+label = "Black Belt Kiyo"
+party = [
+    { species = "hitmonlee", level = 34 },
+    { species = "hitmonchan", level = 34 },
+]
+
+[black_belt_lung]
+id = 159
+label = "Cianwood City - Black Belt Lung"
+party = [
+    { species = "mankey", level = 23 },
+    { species = "mankey", level = 23 },
+    { species = "primeape", level = 25 },
+]
+
+[kimono_girl_naoko]
+id = 160
+label = "Kimono Girl Naoko"
+party = [
+    { species = "espeon", level = 38, num_moves = 4 },
+]
+
+[kimono_girl_sayo]
+id = 161
+label = "Kimono Girl Sayo"
+party = [
+    { species = "jolteon", level = 38, num_moves = 4 },
+]
+
+[kimono_girl_zuki]
+id = 162
+label = "Kimono Girl Zuki"
+party = [
+    { species = "umbreon", level = 38, num_moves = 4 },
+]
+
+[kimono_girl_kuni]
+id = 163
+label = "Kimono Girl Kuni"
+party = [
+    { species = "vaporeon", level = 38, num_moves = 4 },
+]
+
+[kimono_girl_miki]
+id = 164
+label = "Kimono Girl Miki"
+party = [
+    { species = "flareon", level = 38, num_moves = 4 },
+]
+
+[swimmer_f_mickey]
+id = 165
+label = "Swimmer♀ Mickey"
+party = [
+    { species = "jynx", level = 28 },
+]
+
+[swimmer_f_mickey_2]
+id = 166
+label = "Swimmer♀ Mickey 2"
+party = [
+    { species = "dewgong", level = 29 },
+]
+
+[swimmer_f_mickey_3]
+id = 167
+label = "Swimmer♀ Mickey 3"
+party = [
+    { species = "seaking", level = 20 },
+]
+
+[swimmer_m_mickey]
+id = 168
+label = "Swimmer♂ Mickey"
+party = [
+    { species = "seel", level = 25 },
+    { species = "dewgong", level = 26 },
+    { species = "seel", level = 25 },
+]
+
+[swimmer_m_mickey_2]
+id = 169
+label = "Swimmer♂ Mickey 2"
+party = [
+    { species = "piloswine", level = 27 },
+    { species = "piloswine", level = 27 },
+]
+
+[swimmer_m_mickey_3]
+id = 170
+label = "Swimmer♂ Mickey 3"
+party = [
+    { species = "shellder", level = 24 },
+    { species = "cloyster", level = 25 },
+    { species = "shellder", level = 24 },
+]
+
+[swimmer_m_mickey_4]
+id = 171
+label = "Swimmer♂ Mickey 4"
+party = [
+    { species = "horsea", level = 15 },
+    { species = "horsea", level = 15 },
+    { species = "seadra", level = 20 },
+]
+
+[poke_maniac_brent_2]
+id = 172
+label = "Poké Maniac Brent 2"
+party = [
+    { species = "nidorina", level = 32 },
+    { species = "nidorino", level = 34 },
+    { species = "gyarados", level = 32 },
+]
+
+[poke_maniac_brent_3]
+id = 173
+label = "Poké Maniac Brent 3"
+party = [
+    { species = "gyarados", level = 41 },
+    { species = "lickitung", level = 38 },
+    { species = "nidorina", level = 38 },
+    { species = "nidorino", level = 43 },
+]
+
+[biker_mickey_2]
+id = 174
+label = "Biker Mickey 2"
+party = [
+    { species = "koffing", level = 20 },
+    { species = "koffing", level = 20 },
+    { species = "koffing", level = 20 },
+]
+
+[medium_bethany]
+id = 175
+label = "Medium Bethany"
+party = [
+    { species = "haunter", level = 25 },
+]
+
+[medium_margaret]
+id = 176
+label = "Medium Margaret"
+party = [
+    { species = "haunter", level = 25 },
+]
+
+[medium_ethel]
+id = 177
+label = "Medium Ethel"
+party = [
+    { species = "haunter", level = 25 },
+]
+
+[school_kid_m_jack]
+id = 178
+label = "National Park - School Kid Jack"
+party = [
+    { species = "oddish", level = 12 },
+    { species = "voltorb", level = 15 },
+]
+
+[school_kid_m_kipp]
+id = 179
+label = "Route 15 - School Kid Kipp"
+party = [
+    { species = "voltorb", level = 36 },
+    { species = "magnemite", level = 36 },
+    { species = "voltorb", level = 40 },
+    { species = "magneton", level = 40 },
+]
+
+[beauty_mickey]
+id = 180
+label = "Beauty Mickey"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[pokefan_m_william]
+id = 181
+label = "National Park - Pokéfan William"
+party = [
+    { species = "raichu", level = 16 },
+]
+
+[pokefan_beverly]
+id = 182
+label = "National Park - Pokéfan Beverly"
+party = [
+    { species = "snubbull", level = 16 },
+]
+
+[lass_alice]
+id = 183
+label = "Lass Alice"
+party = [
+    { species = "gloom", level = 41, num_moves = 4 },
+    { species = "arbok", level = 45, num_moves = 4 },
+    { species = "vileplume", level = 41, num_moves = 4 },
+]
+
+[lass_krise]
+id = 184
+label = "National Park - Lass Krise"
+party = [
+    { species = "oddish", level = 14 },
+    { species = "cubone", level = 17 },
+]
+
+[team_rocket_grunt_3]
+id = 185
+label = "Team Rocket Grunt 3"
+party = [
+    { species = "raticate", level = 24 },
+    { species = "raticate", level = 24 },
+]
+
+[team_rocket_grunt_4]
+id = 186
+label = "Radio Tower - Team Rocket Grunt 4"
+party = [
+    { species = "grimer", level = 23 },
+    { species = "grimer", level = 23 },
+    { species = "muk", level = 25 },
+]
+
+[team_rocket_grunt_5]
+id = 187
+label = "Radio Tower - Team Rocket Grunt 5"
+party = [
+    { species = "rattata", level = 21 },
+    { species = "rattata", level = 21 },
+    { species = "rattata", level = 23 },
+    { species = "rattata", level = 23 },
+    { species = "rattata", level = 23 },
+]
+
+[team_rocket_grunt_6]
+id = 188
+label = "Radio Tower - Team Rocket Grunt 6"
+party = [
+    { species = "zubat", level = 26 },
+    { species = "zubat", level = 26 },
+]
+
+[team_rocket_grunt_7]
+id = 189
+label = "Radio Tower - Team Rocket Grunt 7"
+party = [
+    { species = "koffing", level = 23 },
+    { species = "grimer", level = 23 },
+    { species = "zubat", level = 23 },
+    { species = "rattata", level = 23 },
+]
+
+[team_rocket_grunt_8]
+id = 190
+label = "Radio Tower - Team Rocket Grunt 8"
+party = [
+    { species = "weezing", level = 26 },
+]
+
+[team_rocket_grunt_9]
+id = 191
+label = "Radio Tower - Team Rocket Grunt 9"
+party = [
+    { species = "raticate", level = 24 },
+    { species = "koffing", level = 26 },
+]
+
+[team_rocket_grunt_10]
+id = 192
+label = "Radio Tower - Team Rocket Grunt 10"
+party = [
+    { species = "zubat", level = 22 },
+    { species = "golbat", level = 24 },
+    { species = "grimer", level = 22 },
+]
+
+[team_rocket_grunt_11]
+id = 193
+label = "Goldenrod City - Team Rocket Grunt 11"
+party = [
+    { species = "muk", level = 23 },
+    { species = "koffing", level = 23 },
+    { species = "rattata", level = 25 },
+]
+
+[team_rocket_mickey_2]
+id = 194
+label = "Team Rocket Mickey 2"
+party = [
+    { species = "houndour", level = 33 },
+]
+
+[team_rocket_grunt_12]
+id = 195
+label = "Goldenrod City - Team Rocket Grunt 12"
+party = [
+    { species = "rattata", level = 27 },
+]
+
+[team_rocket_grunt_13]
+id = 196
+label = "Goldenrod City - Team Rocket Grunt 13"
+party = [
+    { species = "raticate", level = 24 },
+    { species = "golbat", level = 24 },
+]
+
+[team_rocket_grunt_14]
+id = 197
+label = "Goldenrod City - Team Rocket Grunt 14"
+party = [
+    { species = "grimer", level = 26 },
+    { species = "weezing", level = 23 },
+]
+
+[team_rocket_f_grunt_2]
+id = 198
+label = "Radio Tower - Team Rocket Grunt 2"
+party = [
+    { species = "arbok", level = 26 },
+]
+
+[team_rocket_f_grunt_3]
+id = 199
+label = "Goldenrod City - Team Rocket Grunt 3"
+party = [
+    { species = "gloom", level = 25 },
+    { species = "gloom", level = 25 },
+]
+
+[team_rocket_f_grunt_4]
+id = 200
+label = "Team Rocket Grunt 4"
+party = [
+    { species = "ekans", level = 21 },
+    { species = "oddish", level = 23 },
+    { species = "ekans", level = 21 },
+    { species = "gloom", level = 24 },
+]
+
+[poke_maniac_andrew]
+id = 201
+label = "Union Cave - Poké Maniac Andrew"
+party = [
+    { species = "marowak", level = 24 },
+    { species = "marowak", level = 24 },
+]
+
+[poke_maniac_calvin]
+id = 202
+label = "Union Cave - Poké Maniac Calvin"
+party = [
+    { species = "kangaskhan", level = 26 },
+]
+
+[hiker_phillip]
+id = 203
+label = "Union Cave - Hiker Phillip"
+party = [
+    { species = "geodude", level = 23 },
+    { species = "graveler", level = 25 },
+]
+
+[hiker_leonard]
+id = 204
+label = "Union Cave - Hiker Leonard"
+party = [
+    { species = "geodude", level = 23 },
+    { species = "machop", level = 25 },
+]
+
+[ace_trainer_m_nick]
+id = 205
+label = "Union Cave - Ace Trainer Nick"
+party = [
+    { species = "charmander", level = 26, num_moves = 4 },
+    { species = "squirtle", level = 26, num_moves = 4 },
+    { species = "bulbasaur", level = 26, num_moves = 4 },
+]
+
+[ace_trainer_f_gwen]
+id = 206
+label = "Union Cave - Ace Trainer Gwen"
+party = [
+    { species = "eevee", level = 26 },
+    { species = "flareon", level = 22 },
+    { species = "vaporeon", level = 22 },
+    { species = "jolteon", level = 22 },
+]
+
+[beauty_mickey_2]
+id = 207
+label = "Beauty Mickey 2"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[beauty_mickey_3]
+id = 208
+label = "Beauty Mickey 3"
+party = [
+    { species = "furret", level = 16 },
+]
+
+[beauty_cassie]
+id = 209
+label = "S.S. Aqua - Beauty Cassie"
+party = [
+    { species = "vileplume", level = 36 },
+    { species = "butterfree", level = 42 },
+]
+
+[beauty_caroline]
+id = 210
+label = "Beauty Caroline"
+party = [
+    { species = "marill", level = 38 },
+    { species = "seel", level = 40 },
+    { species = "marill", level = 38 },
+]
+
+[sailor_huey]
+id = 211
+label = "Lighthouse - Sailor Huey"
+party = [
+    { species = "poliwag", level = 18 },
+    { species = "poliwhirl", level = 20 },
+]
+
+[sailor_terrell]
+id = 212
+label = "Lighthouse - Sailor Terrell"
+party = [
+    { species = "poliwhirl", level = 20 },
+]
+
+[sailor_kent]
+id = 213
+label = "Lighthouse - Sailor Kent"
+party = [
+    { species = "krabby", level = 18, num_moves = 4 },
+    { species = "krabby", level = 20, num_moves = 4 },
+]
+
+[sailor_roberto]
+id = 214
+label = "Lighthouse - Sailor Roberto"
+party = [
+    { species = "machop", level = 18 },
+    { species = "machop", level = 18 },
+    { species = "poliwhirl", level = 18 },
+]
+
+[lass_connie]
+id = 215
+label = "Lighthouse - Lass Connie"
+party = [
+    { species = "marill", level = 21 },
+]
+
+[team_rocket_grunt_15]
+id = 216
+label = "Team Rocket HQ - Team Rocket Grunt 15"
+party = [
+    { species = "rattata", level = 16 },
+    { species = "rattata", level = 16 },
+    { species = "rattata", level = 16 },
+    { species = "rattata", level = 16 },
+]
+
+[bird_keeper_gs_denis]
+id = 217
+label = "Lighthouse - Bird Keeper Denis"
+party = [
+    { species = "spearow", level = 18 },
+    { species = "fearow", level = 20 },
+    { species = "spearow", level = 18 },
+]
+
+[team_rocket_grunt_16]
+id = 218
+label = "Team Rocket HQ - Team Rocket Grunt 16"
+party = [
+    { species = "golbat", level = 18 },
+]
+
+[team_rocket_grunt_17]
+id = 219
+label = "Team Rocket HQ - Team Rocket Grunt 17"
+party = [
+    { species = "rattata", level = 17 },
+    { species = "zubat", level = 17 },
+    { species = "rattata", level = 17 },
+]
+
+[team_rocket_grunt_18]
+id = 220
+label = "Team Rocket HQ - Team Rocket Grunt 18"
+party = [
+    { species = "venonat", level = 18 },
+    { species = "venonat", level = 18 },
+]
+
+[team_rocket_mickey_3]
+id = 221
+label = "Team Rocket Mickey 3"
+party = [
+    { species = "zubat", level = 22 },
+]
+
+[team_rocket_grunt_19]
+id = 222
+label = "Team Rocket HQ - Team Rocket Grunt 19"
+party = [
+    { species = "raticate", level = 19 },
+]
+
+[team_rocket_grunt_20]
+id = 223
+label = "Team Rocket Grunt 20"
+party = [
+    { species = "drowzee", level = 17 },
+    { species = "zubat", level = 19 },
+]
+
+[team_rocket_grunt_21]
+id = 224
+label = "Team Rocket Grunt 21"
+party = [
+    { species = "zubat", level = 16 },
+    { species = "grimer", level = 17 },
+    { species = "rattata", level = 18 },
+]
+
+[team_rocket_mickey_4]
+id = 225
+label = "Team Rocket Mickey 4"
+party = [
+    { species = "golbat", level = 36 },
+]
+
+[team_rocket_mickey_5]
+id = 226
+label = "Team Rocket Mickey 5"
+party = [
+    { species = "koffing", level = 30 },
+]
+
+[team_rocket_grunt_22]
+id = 227
+label = "Goldenrod City - Team Rocket Grunt 22"
+party = [
+    { species = "koffing", level = 25 },
+    { species = "koffing", level = 25 },
+]
+
+[team_rocket_grunt_23]
+id = 228
+label = "Goldenrod City - Team Rocket Grunt 23"
+party = [
+    { species = "koffing", level = 24 },
+    { species = "muk", level = 24 },
+]
+
+[team_rocket_mickey_6]
+id = 229
+label = "Team Rocket Mickey 6"
+party = [
+    { species = "rattata", level = 15 },
+    { species = "rattata", level = 15 },
+]
+
+[psychic_m_franklin]
+id = 230
+label = "Saffron City - Psychic Franklin"
+party = [
+    { species = "kadabra", level = 44, num_moves = 4 },
+    { species = "girafarig", level = 47, num_moves = 4 },
+]
+
+[gentleman_edward]
+id = 231
+label = "S.S. Aqua - Gentleman Edward"
+party = [
+    { species = "persian", level = 41 },
+]
+
+[guitarist_vincent]
+id = 232
+label = "Vermilion City - Guitarist Vincent"
+party = [
+    { species = "jolteon", level = 45, num_moves = 4 },
+    { species = "voltorb", level = 43, num_moves = 4 },
+    { species = "magnemite", level = 42, num_moves = 4 },
+]
+
+[super_nerd_eric]
+id = 233
+label = "Goldenrod Tunnel - Super Nerd Eric"
+party = [
+    { species = "grimer", level = 11 },
+    { species = "grimer", level = 11 },
+]
+
+[hiker_eoin]
+id = 234
+label = "Route 9 - Hiker Eoin"
+party = [
+    { species = "graveler", level = 42 },
+    { species = "graveler", level = 42 },
+    { species = "graveler", level = 42 },
+]
+
+[hiker_noland]
+id = 235
+label = "S.S. Aqua - Hiker Noland"
+party = [
+    { species = "bronzor", level = 39 },
+    { species = "golem", level = 42 },
+]
+
+[ace_trainer_m_shaye]
+id = 236
+label = "S.S. Aqua - Ace Trainer Shaye"
+party = [
+    { species = "jolteon", level = 43, num_moves = 4 },
+    { species = "tangela", level = 43, num_moves = 4 },
+    { species = "tauros", level = 43, num_moves = 4 },
+]
+
+[ace_trainer_f_carol]
+id = 237
+label = "S.S. Aqua - Ace Trainer Carol"
+party = [
+    { species = "electrode", level = 43, num_moves = 4 },
+    { species = "starmie", level = 43, num_moves = 4 },
+    { species = "ninetales", level = 43, num_moves = 4 },
+]
+
+[sailor_stanly]
+id = 238
+label = "Sailor Stanly"
+party = [
+    { species = "machop", level = 39 },
+    { species = "machoke", level = 41 },
+    { species = "psyduck", level = 34 },
+]
+
+[sailor_jeff]
+id = 239
+label = "S.S. Aqua - Sailor Jeff"
+party = [
+    { species = "makuhita", level = 40 },
+    { species = "raticate", level = 40 },
+]
+
+[sailor_garrett]
+id = 240
+label = "S.S. Aqua - Sailor Garrett"
+party = [
+    { species = "kingler", level = 42 },
+]
+
+[sailor_kenneth]
+id = 241
+label = "S.S. Aqua - Sailor Kenneth"
+party = [
+    { species = "machop", level = 36 },
+    { species = "machop", level = 36 },
+    { species = "poliwrath", level = 36 },
+    { species = "machop", level = 36 },
+]
+
+[juggler_fritz]
+id = 242
+label = "S.S. Aqua - Juggler Fritz"
+party = [
+    { species = "mr_mime", level = 37, num_moves = 4 },
+    { species = "magmar", level = 37, num_moves = 4 },
+    { species = "machoke", level = 37, num_moves = 4 },
+]
+
+[swimmer_f_katie]
+id = 243
+label = "Swimmer♀ Katie"
+party = [
+    { species = "dewgong", level = 41 },
+]
+
+[champion_lance]
+id = 244
+label = "Champion Lance"
+party = [
+    { species = "gyarados", level = 46, num_moves = 4 },
+    { species = "dragonite", level = 49, num_moves = 4 },
+    { species = "dragonite", level = 49, num_moves = 4 },
+    { species = "aerodactyl", level = 48, num_moves = 4 },
+    { species = "charizard", level = 48, num_moves = 4 },
+    { species = "dragonite", level = 50, num_moves = 4 },
+]
+
+[elite_four_will_will]
+id = 245
+label = "Elite Four Will"
+party = [
+    { species = "xatu", level = 40, num_moves = 4 },
+    { species = "jynx", level = 41, num_moves = 4 },
+    { species = "exeggutor", level = 41, num_moves = 4 },
+    { species = "slowbro", level = 41, num_moves = 4 },
+    { species = "xatu", level = 42, num_moves = 4 },
+]
+
+[elite_four_karen_karen]
+id = 246
+label = "Elite Four Karen"
+party = [
+    { species = "umbreon", level = 42, num_moves = 4 },
+    { species = "vileplume", level = 42, num_moves = 4 },
+    { species = "gengar", level = 45, num_moves = 4 },
+    { species = "murkrow", level = 44, num_moves = 4 },
+    { species = "houndoom", level = 47, num_moves = 4 },
+]
+
+[elite_four_koga_koga]
+id = 247
+label = "Elite Four Koga"
+party = [
+    { species = "ariados", level = 40, num_moves = 4 },
+    { species = "venomoth", level = 41, num_moves = 4 },
+    { species = "forretress", level = 43, num_moves = 4 },
+    { species = "muk", level = 42, num_moves = 4 },
+    { species = "crobat", level = 44, num_moves = 4 },
+]
+
+[bug_catcher_ed]
+id = 248
+label = "Route 2 - Bug Catcher Ed"
+party = [
+    { species = "burmy", level = 43 },
+    { species = "butterfree", level = 43 },
+    { species = "beedrill", level = 43 },
+]
+
+[bug_catcher_don]
+id = 249
+label = "Route 30 - Bug Catcher Don"
+party = [
+    { species = "caterpie", level = 3 },
+    { species = "caterpie", level = 3 },
+]
+
+[black_belt_kenji_2]
+id = 250
+label = "Black Belt Kenji 2"
+party = [
+    { species = "onix", level = 27 },
+    { species = "hitmonlee", level = 32 },
+    { species = "onix", level = 27 },
+    { species = "machoke", level = 32 },
+]
+
+[black_belt_nob]
+id = 251
+label = "Cianwood City - Black Belt Nob"
+party = [
+    { species = "machop", level = 25, num_moves = 4 },
+    { species = "machoke", level = 25, num_moves = 4 },
+]
+
+[swimmer_m_harold]
+id = 252
+label = "Route 19 - Swimmer♂ Harold"
+party = [
+    { species = "remoraid", level = 42 },
+    { species = "seadra", level = 40 },
+]
+
+[leader_brock_brock]
+id = 253
+label = "Leader Brock"
+party = [
+    { species = "graveler", level = 51, num_moves = 4 },
+    { species = "rhyhorn", level = 51, num_moves = 4 },
+    { species = "omastar", level = 53, num_moves = 4 },
+    { species = "onix", level = 54, num_moves = 4 },
+    { species = "kabutops", level = 52, num_moves = 4 },
+]
+
+[leader_misty_misty]
+id = 254
+label = "Leader Misty"
+party = [
+    { species = "golduck", level = 49, num_moves = 4 },
+    { species = "quagsire", level = 49, num_moves = 4 },
+    { species = "lapras", level = 52, num_moves = 4 },
+    { species = "starmie", level = 54, num_moves = 4 },
+]
+
+[leader_lt_surge_lt__surge]
+id = 255
+label = "Leader Lt. Surge"
+party = [
+    { species = "raichu", level = 51, num_moves = 4 },
+    { species = "electrode", level = 47, num_moves = 4 },
+    { species = "magneton", level = 47, num_moves = 4 },
+    { species = "electrode", level = 47, num_moves = 4 },
+    { species = "electabuzz", level = 53, num_moves = 4 },
+]
+
+[leader_erika_erika]
+id = 256
+label = "Leader Erika"
+party = [
+    { species = "jumpluff", level = 51, num_moves = 4 },
+    { species = "tangela", level = 52, num_moves = 4 },
+    { species = "victreebel", level = 56, num_moves = 4 },
+    { species = "bellossom", level = 56, num_moves = 4 },
+]
+
+[leader_janine_janine]
+id = 257
+label = "Leader Janine"
+party = [
+    { species = "crobat", level = 47, num_moves = 4 },
+    { species = "weezing", level = 44, num_moves = 4 },
+    { species = "ariados", level = 47, num_moves = 4 },
+    { species = "ariados", level = 47, num_moves = 4 },
+    { species = "venomoth", level = 50, num_moves = 4 },
+]
+
+[leader_sabrina_sabrina]
+id = 258
+label = "Leader Sabrina"
+party = [
+    { species = "espeon", level = 53, num_moves = 4 },
+    { species = "mr_mime", level = 53, num_moves = 4 },
+    { species = "alakazam", level = 55, num_moves = 4 },
+]
+
+[leader_blaine_blaine]
+id = 259
+label = "Leader Blaine"
+party = [
+    { species = "magcargo", level = 54, num_moves = 4 },
+    { species = "magmar", level = 54, num_moves = 4 },
+    { species = "rapidash", level = 59, num_moves = 4 },
+]
+
+[pkmn_trainer_red_red]
+id = 260
+label = "₧₦ Trainer Red"
+party = [
+    { species = "pikachu", level = 88, num_moves = 4 },
+    { species = "lapras", level = 80, num_moves = 4 },
+    { species = "snorlax", level = 82, num_moves = 4 },
+    { species = "venusaur", level = 84, num_moves = 4 },
+    { species = "charizard", level = 84, num_moves = 4 },
+    { species = "blastoise", level = 84, num_moves = 4 },
+]
+
+[leader_blue_blue]
+id = 261
+label = "Leader Blue"
+party = [
+    { species = "exeggutor", level = 55, num_moves = 4 },
+    { species = "arcanine", level = 58, num_moves = 4 },
+    { species = "rhydon", level = 58, num_moves = 4 },
+    { species = "gyarados", level = 52, num_moves = 4 },
+    { species = "machamp", level = 56, num_moves = 4 },
+    { species = "pidgeot", level = 60, num_moves = 4 },
+]
+
+[team_rocket_mickey_7]
+id = 262
+label = "Team Rocket Mickey 7"
+party = [
+    { species = "golbat", level = 25 },
+    { species = "golbat", level = 25 },
+    { species = "arbok", level = 30 },
+]
+
+[rival_silver_4]
+id = 263
+label = "Rival Silver 4"
+party = [
+    { species = "gastly", level = 20, num_moves = 4 },
+    { species = "magnemite", level = 18, num_moves = 4 },
+    { species = "zubat", level = 20, num_moves = 4 },
+    { species = "bayleef", level = 22, num_moves = 4 },
+]
+
+[rival_silver_5]
+id = 264
+label = "Rival Silver 5"
+party = [
+    { species = "sneasel", level = 36, num_moves = 4 },
+    { species = "golbat", level = 38, num_moves = 4 },
+    { species = "magneton", level = 37, num_moves = 4 },
+    { species = "haunter", level = 37, num_moves = 4 },
+    { species = "kadabra", level = 37, num_moves = 4 },
+    { species = "meganium", level = 40, num_moves = 4 },
+]
+
+[rival_silver_6]
+id = 265
+label = "Rival Silver 6"
+party = [
+    { species = "chikorita", level = 5 },
+]
+
+[rival_silver_7]
+id = 266
+label = "Rival Silver 7"
+party = [
+    { species = "gastly", level = 14 },
+    { species = "zubat", level = 16 },
+    { species = "quilava", level = 18 },
+]
+
+[rival_silver_8]
+id = 267
+label = "Rival Silver 8"
+party = [
+    { species = "gastly", level = 20, num_moves = 4 },
+    { species = "magnemite", level = 18, num_moves = 4 },
+    { species = "zubat", level = 20, num_moves = 4 },
+    { species = "quilava", level = 22, num_moves = 4 },
+]
+
+[rival_silver_9]
+id = 268
+label = "Rival Silver 9"
+party = [
+    { species = "sneasel", level = 36, num_moves = 4 },
+    { species = "golbat", level = 38, num_moves = 4 },
+    { species = "magneton", level = 37, num_moves = 4 },
+    { species = "haunter", level = 37, num_moves = 4 },
+    { species = "kadabra", level = 37, num_moves = 4 },
+    { species = "typhlosion", level = 40, num_moves = 4 },
+]
+
+[rival_silver_10]
+id = 269
+label = "Rival Silver 10"
+party = [
+    { species = "gastly", level = 14 },
+    { species = "zubat", level = 16 },
+    { species = "croconaw", level = 18 },
+]
+
+[rival_silver_11]
+id = 270
+label = "Rival Silver 11"
+party = [
+    { species = "gastly", level = 20, num_moves = 4 },
+    { species = "magnemite", level = 18, num_moves = 4 },
+    { species = "zubat", level = 20, num_moves = 4 },
+    { species = "croconaw", level = 22, num_moves = 4 },
+]
+
+[rival_silver_12]
+id = 271
+label = "Rival Silver 12"
+party = [
+    { species = "golbat", level = 30, num_moves = 4 },
+    { species = "magnemite", level = 28, num_moves = 4 },
+    { species = "haunter", level = 30, num_moves = 4 },
+    { species = "sneasel", level = 32, num_moves = 4 },
+    { species = "feraligatr", level = 32, num_moves = 4 },
+]
+
+[rival_silver_13]
+id = 272
+label = "Rival Silver 13"
+party = [
+    { species = "sneasel", level = 36, num_moves = 4 },
+    { species = "golbat", level = 38, num_moves = 4 },
+    { species = "magneton", level = 37, num_moves = 4 },
+    { species = "haunter", level = 37, num_moves = 4 },
+    { species = "kadabra", level = 37, num_moves = 4 },
+    { species = "feraligatr", level = 40, num_moves = 4 },
+]
+
+[swimmer_m_mickey_5]
+id = 273
+label = "Swimmer♂ Mickey 5"
+party = [
+    { species = "staryu", level = 13 },
+    { species = "starmie", level = 18 },
+    { species = "horsea", level = 16 },
+]
+
+[camper_todd_2]
+id = 274
+label = "Camper Todd 2"
+party = [
+    { species = "geodude", level = 17 },
+    { species = "geodude", level = 17 },
+    { species = "psyduck", level = 31 },
+]
+
+[camper_todd_3]
+id = 275
+label = "Camper Todd 3"
+party = [
+    { species = "geodude", level = 23 },
+    { species = "graveler", level = 33 },
+    { species = "golduck", level = 36 },
+    { species = "slugma", level = 32 },
+]
+
+[picnicker_liz_2]
+id = 276
+label = "Picnicker Liz 2"
+party = [
+    { species = "weepinbell", level = 35 },
+    { species = "nidorina", level = 38 },
+]
+
+[picnicker_liz_3]
+id = 277
+label = "Picnicker Liz 3"
+party = [
+    { species = "weepinbell", level = 39 },
+    { species = "nidorino", level = 38 },
+    { species = "nidoqueen", level = 40 },
+]
+
+[black_belt_kenji_3]
+id = 278
+label = "Black Belt Kenji 3"
+party = [
+    { species = "onix", level = 30 },
+    { species = "machamp", level = 37 },
+    { species = "onix", level = 33 },
+    { species = "hitmonlee", level = 41 },
+]
+
+[youngster_joey_2]
+id = 279
+label = "Youngster Joey 2"
+party = [
+    { species = "raticate", level = 34 },
+]
+
+[youngster_joey_3]
+id = 280
+label = "Youngster Joey 3"
+party = [
+    { species = "raticate", level = 40, num_moves = 4 },
+]
+
+[firebreather_richard]
+id = 281
+label = "Burned Tower - Firebreather Richard"
+party = [
+    { species = "charmeleon", level = 18 },
+]
+
+[firebreather_ned]
+id = 282
+label = "Burned Tower - Firebreather Ned"
+party = [
+    { species = "koffing", level = 16 },
+    { species = "growlithe", level = 17 },
+    { species = "koffing", level = 16 },
+]
+
+[burglar_orson]
+id = 283
+label = "Goldenrod City - Burglar Orson"
+party = [
+    { species = "growlithe", level = 26, num_moves = 4 },
+    { species = "koffing", level = 24, num_moves = 4 },
+]
+
+[burglar_corey]
+id = 284
+label = "S.S. Aqua - Burglar Corey"
+party = [
+    { species = "koffing", level = 33 },
+    { species = "magmar", level = 36 },
+    { species = "koffing", level = 33 },
+    { species = "koffing", level = 38 },
+]
+
+[rival_silver_14]
+id = 285
+label = "Rival Silver 14"
+party = [
+    { species = "sneasel", level = 46, num_moves = 4 },
+    { species = "golbat", level = 47, num_moves = 4 },
+    { species = "magneton", level = 46, num_moves = 4 },
+    { species = "gengar", level = 48, num_moves = 4 },
+    { species = "alakazam", level = 48, num_moves = 4 },
+    { species = "meganium", level = 50, num_moves = 4 },
+]
+
+[rival_silver_15]
+id = 286
+label = "Rival Silver 15"
+party = [
+    { species = "sneasel", level = 46, num_moves = 4 },
+    { species = "golbat", level = 47, num_moves = 4 },
+    { species = "magneton", level = 46, num_moves = 4 },
+    { species = "gengar", level = 48, num_moves = 4 },
+    { species = "alakazam", level = 48, num_moves = 4 },
+    { species = "typhlosion", level = 50, num_moves = 4 },
+]
+
+[rival_silver_16]
+id = 287
+label = "Rival Silver 16"
+party = [
+    { species = "sneasel", level = 46, num_moves = 4 },
+    { species = "golbat", level = 47, num_moves = 4 },
+    { species = "magneton", level = 46, num_moves = 4 },
+    { species = "gengar", level = 48, num_moves = 4 },
+    { species = "alakazam", level = 48, num_moves = 4 },
+    { species = "feraligatr", level = 50, num_moves = 4 },
+]
+
+[rival_silver_17]
+id = 288
+label = "Rival Silver 17"
+party = [
+    { species = "golbat", level = 32, num_moves = 4 },
+    { species = "magnemite", level = 30, num_moves = 4 },
+    { species = "haunter", level = 32, num_moves = 4 },
+    { species = "sneasel", level = 34, num_moves = 4 },
+    { species = "meganium", level = 34, num_moves = 4 },
+]
+
+[rival_silver_18]
+id = 289
+label = "Rival Silver 18"
+party = [
+    { species = "golbat", level = 32, num_moves = 4 },
+    { species = "magnemite", level = 30, num_moves = 4 },
+    { species = "haunter", level = 32, num_moves = 4 },
+    { species = "sneasel", level = 34, num_moves = 4 },
+    { species = "quilava", level = 34, num_moves = 4 },
+]
+
+[elder_li]
+id = 290
+label = "Elder Li"
+party = [
+    { species = "bellsprout", level = 7 },
+    { species = "bellsprout", level = 7 },
+    { species = "hoothoot", level = 10 },
+]
+
+[swimmer_f_debbie]
+id = 291
+label = "Route 19 - Swimmer♀ Debbie"
+party = [
+    { species = "clamperl", level = 46 },
+]
+
+[swimmer_f_mickey_4]
+id = 292
+label = "Swimmer♀ Mickey 4"
+party = [
+    { species = "seaking", level = 20 },
+]
+
+[swimmer_f_nicole]
+id = 293
+label = "Route 20 - Swimmer♀ Nicole"
+party = [
+    { species = "marill", level = 39 },
+    { species = "marill", level = 39 },
+    { species = "lapras", level = 42 },
+]
+
+[swimmer_f_lori]
+id = 294
+label = "Route 20 - Swimmer♀ Lori"
+party = [
+    { species = "starmie", level = 42, num_moves = 4 },
+    { species = "starmie", level = 42, num_moves = 4 },
+    { species = "starmie", level = 42, num_moves = 4 },
+]
+
+[swimmer_f_mickey_5]
+id = 295
+label = "Swimmer♀ Mickey 5"
+party = [
+    { species = "seaking", level = 20 },
+]
+
+[swimmer_f_nikki]
+id = 296
+label = "Route 21 - Swimmer♀ Nikki"
+party = [
+    { species = "seel", level = 37 },
+    { species = "dewgong", level = 42 },
+]
+
+[swimmer_f_diana]
+id = 297
+label = "Cerulean City - Swimmer♀ Diana"
+party = [
+    { species = "golduck", level = 48, num_moves = 4 },
+]
+
+[swimmer_f_briana]
+id = 298
+label = "Cerulean City - Swimmer♀ Briana"
+party = [
+    { species = "seaking", level = 46, num_moves = 4 },
+    { species = "seaking", level = 46, num_moves = 4 },
+]
+
+[bird_keeper_gs_hank]
+id = 299
+label = "Route 4 - Bird Keeper Hank"
+party = [
+    { species = "pidgey", level = 13 },
+    { species = "pidgeot", level = 44 },
+]
+
+[bird_keeper_gs_roy]
+id = 300
+label = "Route 14 - Bird Keeper Roy"
+party = [
+    { species = "fearow", level = 38 },
+    { species = "fearow", level = 44 },
+]
+
+[bird_keeper_gs_boris]
+id = 301
+label = "Route 18 - Bird Keeper Boris"
+party = [
+    { species = "doduo", level = 39 },
+    { species = "doduo", level = 37 },
+    { species = "dodrio", level = 41 },
+]
+
+[bird_keeper_gs_bob]
+id = 302
+label = "Route 18 - Bird Keeper Bob"
+party = [
+    { species = "noctowl", level = 48 },
+]
+
+[bird_keeper_gs_jose]
+id = 303
+label = "Bird Keeper Jose"
+party = [
+    { species = "farfetchd", level = 44 },
+]
+
+[camper_mickey_3]
+id = 304
+label = "Camper Mickey 3"
+party = [
+    { species = "graveler", level = 33 },
+    { species = "graveler", level = 36 },
+    { species = "golbat", level = 40 },
+    { species = "golduck", level = 42 },
+]
+
+[camper_mickey_4]
+id = 305
+label = "Camper Mickey 4"
+party = [
+    { species = "graveler", level = 33 },
+    { species = "graveler", level = 36 },
+    { species = "golbat", level = 40 },
+    { species = "golduck", level = 42 },
+]
+
+[camper_mickey_5]
+id = 306
+label = "Camper Mickey 5"
+party = [
+    { species = "graveler", level = 33 },
+    { species = "graveler", level = 36 },
+    { species = "golbat", level = 40 },
+    { species = "golduck", level = 42 },
+]
+
+[camper_mickey_6]
+id = 307
+label = "Camper Mickey 6"
+party = [
+    { species = "graveler", level = 33 },
+    { species = "graveler", level = 36 },
+    { species = "golbat", level = 40 },
+    { species = "golduck", level = 42 },
+]
+
+[camper_jerry]
+id = 308
+label = "Pewter City - Camper Jerry"
+party = [
+    { species = "rhydon", level = 50, num_moves = 4 },
+]
+
+[biker_dwayne]
+id = 309
+label = "Route 8 - Biker Dwayne"
+party = [
+    { species = "koffing", level = 38 },
+    { species = "koffing", level = 39 },
+    { species = "koffing", level = 40 },
+    { species = "koffing", level = 41 },
+]
+
+[biker_harris]
+id = 310
+label = "Route 8 - Biker Harris"
+party = [
+    { species = "flareon", level = 45 },
+]
+
+[biker_zeke]
+id = 311
+label = "Route 8 - Biker Zeke"
+party = [
+    { species = "koffing", level = 43 },
+    { species = "koffing", level = 43 },
+]
+
+[biker_charles]
+id = 312
+label = "Route 18 - Biker Charles"
+party = [
+    { species = "koffing", level = 41 },
+    { species = "charmeleon", level = 41 },
+    { species = "weezing", level = 42 },
+]
+
+[biker_reese]
+id = 313
+label = "Route 17 - Biker Reese"
+party = [
+    { species = "weezing", level = 45 },
+]
+
+[biker_joel]
+id = 314
+label = "Route 17 - Biker Joel"
+party = [
+    { species = "magmar", level = 43 },
+    { species = "magmar", level = 43 },
+]
+
+[biker_glenn]
+id = 315
+label = "Route 17 - Biker Glenn"
+party = [
+    { species = "koffing", level = 39 },
+    { species = "magmar", level = 41 },
+    { species = "weezing", level = 43 },
+]
+
+[psychic_m_herman]
+id = 316
+label = "Route 11 - Psychic Herman"
+party = [
+    { species = "exeggcute", level = 39, num_moves = 4 },
+    { species = "exeggcute", level = 39, num_moves = 4 },
+    { species = "exeggutor", level = 39, num_moves = 4 },
+]
+
+[psychic_m_fidel]
+id = 317
+label = "Route 11 - Psychic Fidel"
+party = [
+    { species = "xatu", level = 43, num_moves = 4 },
+]
+
+[firebreather_burt]
+id = 318
+label = "Route 3 - Firebreather Burt"
+party = [
+    { species = "weezing", level = 42, num_moves = 4 },
+    { species = "magcargo", level = 45, num_moves = 4 },
+]
+
+[firebreather_bill]
+id = 319
+label = "Union Cave - Firebreather Bill"
+party = [
+    { species = "koffing", level = 6 },
+    { species = "koffing", level = 6 },
+]
+
+[fisherman_martin]
+id = 320
+label = "Route 12 - Fisherman Martin"
+party = [
+    { species = "remoraid", level = 36 },
+    { species = "octillery", level = 42 },
+]
+
+[fisherman_stephen]
+id = 321
+label = "Route 12 - Fisherman Stephen"
+party = [
+    { species = "quagsire", level = 43 },
+    { species = "qwilfish", level = 38 },
+    { species = "tentacruel", level = 38 },
+]
+
+[fisherman_barney]
+id = 322
+label = "Route 12 - Fisherman Barney"
+party = [
+    { species = "gyarados", level = 40 },
+    { species = "gyarados", level = 37 },
+    { species = "gyarados", level = 37 },
+]
+
+[fisherman_tully_2]
+id = 323
+label = "Fisherman Tully 2"
+party = [
+    { species = "qwilfish", level = 33 },
+]
+
+[fisherman_tully_3]
+id = 324
+label = "Fisherman Tully 3"
+party = [
+    { species = "goldeen", level = 30 },
+    { species = "goldeen", level = 30 },
+    { species = "qwilfish", level = 38 },
+]
+
+[fisherman_wilton_2]
+id = 325
+label = "Fisherman Wilton 2"
+party = [
+    { species = "goldeen", level = 32 },
+    { species = "goldeen", level = 32 },
+    { species = "seaking", level = 36 },
+]
+
+[twins_jo_and_zoe]
+id = 326
+label = "Celadon City - Twins Jo & Zoe"
+party = [
+    { species = "victreebel", level = 47, num_moves = 4 },
+    { species = "vileplume", level = 47, num_moves = 4 },
+]
+
+[school_kid_m_danny]
+id = 327
+label = "Route 1 - School Kid Danny"
+party = [
+    { species = "jynx", level = 43 },
+    { species = "electabuzz", level = 43 },
+    { species = "magmar", level = 43 },
+]
+
+[school_kid_m_tommy]
+id = 328
+label = "Route 15 - School Kid Tommy"
+party = [
+    { species = "xatu", level = 41, num_moves = 4 },
+    { species = "alakazam", level = 43, num_moves = 4 },
+]
+
+[school_kid_m_dudley]
+id = 329
+label = "Route 25 - School Kid Dudley"
+party = [
+    { species = "oddish", level = 45 },
+]
+
+[school_kid_m_joe]
+id = 330
+label = "Route 25 - School Kid Joe"
+party = [
+    { species = "tangela", level = 44 },
+    { species = "vaporeon", level = 42 },
+]
+
+[school_kid_m_billy]
+id = 331
+label = "Route 15 - School Kid Billy"
+party = [
+    { species = "parasect", level = 39 },
+    { species = "poliwhirl", level = 37 },
+    { species = "ditto", level = 35 },
+]
+
+[picnicker_heidi]
+id = 332
+label = "Route 9 - Picnicker Heidi"
+party = [
+    { species = "skiploom", level = 43 },
+    { species = "skiploom", level = 43 },
+]
+
+[picnicker_edna]
+id = 333
+label = "Route 9 - Picnicker Edna"
+party = [
+    { species = "nidorina", level = 41 },
+    { species = "raichu", level = 45 },
+]
+
+[picnicker_gina_3]
+id = 334
+label = "Picnicker Gina 3"
+party = [
+    { species = "skiploom", level = 26 },
+    { species = "skiploom", level = 26 },
+    { species = "ivysaur", level = 44 },
+]
+
+[picnicker_erin_2]
+id = 335
+label = "Picnicker Erin 2"
+party = [
+    { species = "gloom", level = 32 },
+    { species = "rapidash", level = 41 },
+]
+
+[picnicker_tanya]
+id = 336
+label = "Celadon City - Picnicker Tanya"
+party = [
+    { species = "exeggutor", level = 49, num_moves = 4 },
+]
+
+[gentleman_gregory]
+id = 337
+label = "Vermilion City - Gentleman Gregory"
+party = [
+    { species = "pikachu", level = 46, num_moves = 4 },
+    { species = "flaaffy", level = 43, num_moves = 4 },
+    { species = "electrike", level = 42, num_moves = 4 },
+]
+
+[gentleman_mickey]
+id = 338
+label = "Gentleman Mickey"
+party = [
+    { species = "ponyta", level = 20 },
+]
+
+[black_belt_wai]
+id = 339
+label = "S.S. Aqua - Black Belt Wai"
+party = [
+    { species = "machoke", level = 38 },
+    { species = "machoke", level = 40 },
+    { species = "meditite", level = 42 },
+]
+
+[beauty_mickey_4]
+id = 340
+label = "Beauty Mickey 4"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[beauty_mickey_5]
+id = 341
+label = "Beauty Mickey 5"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[beauty_mickey_6]
+id = 342
+label = "Beauty Mickey 6"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[beauty_mickey_7]
+id = 343
+label = "Beauty Mickey 7"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[beauty_mickey_8]
+id = 344
+label = "Beauty Mickey 8"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[beauty_mickey_9]
+id = 345
+label = "Beauty Mickey 9"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[beauty_julia]
+id = 346
+label = "Celadon City - Beauty Julia"
+party = [
+    { species = "paras", level = 44, num_moves = 4 },
+    { species = "carnivine", level = 44, num_moves = 4 },
+    { species = "parasect", level = 47, num_moves = 4 },
+]
+
+[beauty_mickey_10]
+id = 347
+label = "Beauty Mickey 10"
+party = [
+    { species = "sentret", level = 15 },
+]
+
+[pokefan_m_robert]
+id = 348
+label = "Route 10 - Pokéfan Robert"
+party = [
+    { species = "quagsire", level = 43 },
+]
+
+[pokefan_m_joshua]
+id = 349
+label = "Route 13 - Pokéfan Joshua"
+party = [
+    { species = "pikachu", level = 32 },
+    { species = "pikachu", level = 32 },
+    { species = "pikachu", level = 32 },
+    { species = "pikachu", level = 32 },
+    { species = "pikachu", level = 32 },
+    { species = "pikachu", level = 32 },
+]
+
+[pokefan_m_carter]
+id = 350
+label = "Route 14 - Pokéfan Carter"
+party = [
+    { species = "bulbasaur", level = 38 },
+    { species = "charmander", level = 38 },
+    { species = "squirtle", level = 38 },
+]
+
+[pokefan_m_trevor]
+id = 351
+label = "Route 14 - Pokéfan Trevor"
+party = [
+    { species = "psyduck", level = 42 },
+]
+
+[pokefan_georgia]
+id = 352
+label = "S.S. Aqua - Pokéfan Georgia"
+party = [
+    { species = "sentret", level = 31 },
+    { species = "sentret", level = 31 },
+    { species = "sentret", level = 31 },
+    { species = "furret", level = 36 },
+    { species = "sentret", level = 31 },
+]
+
+[team_rocket_grunt_24]
+id = 353
+label = "Team Rocket Grunt 24"
+party = [
+    { species = "golbat", level = 39 },
+]
+
+[lass_laura]
+id = 354
+label = "Route 25 - Lass Laura"
+party = [
+    { species = "gloom", level = 38 },
+    { species = "pidgeotto", level = 41 },
+    { species = "bellossom", level = 41 },
+]
+
+[lass_shannon]
+id = 355
+label = "Route 25 - Lass Shannon"
+party = [
+    { species = "paras", level = 38 },
+    { species = "paras", level = 38 },
+    { species = "parasect", level = 42 },
+]
+
+[lass_michelle]
+id = 356
+label = "Celadon City - Lass Michelle"
+party = [
+    { species = "skiploom", level = 44, num_moves = 4 },
+    { species = "hoppip", level = 45, num_moves = 4 },
+    { species = "jumpluff", level = 46, num_moves = 4 },
+]
+
+[hiker_clarke]
+id = 357
+label = "Route 9 - Hiker Clarke"
+party = [
+    { species = "onix", level = 43 },
+    { species = "dugtrio", level = 45 },
+]
+
+[hiker_kenny]
+id = 358
+label = "Route 13 - Hiker Kenny"
+party = [
+    { species = "sandslash", level = 27 },
+    { species = "graveler", level = 29 },
+    { species = "golem", level = 33 },
+]
+
+[hiker_jim]
+id = 359
+label = "Route 10 - Hiker Jim"
+party = [
+    { species = "machamp", level = 45 },
+]
+
+[bug_catcher_arnie_2]
+id = 360
+label = "Bug Catcher Arnie 2"
+party = [
+    { species = "venonat", level = 36 },
+]
+
+[ace_trainer_m_kevin]
+id = 361
+label = "Ace Trainer Kevin"
+party = [
+    { species = "rhyhorn", level = 48, num_moves = 4 },
+    { species = "charmeleon", level = 46, num_moves = 4 },
+    { species = "wartortle", level = 46, num_moves = 4 },
+]
+
+[ace_trainer_f_quinn]
+id = 362
+label = "Route 1 - Ace Trainer Quinn"
+party = [
+    { species = "ivysaur", level = 47, num_moves = 4 },
+    { species = "starmie", level = 47, num_moves = 4 },
+]
+
+[ace_trainer_f_emma]
+id = 363
+label = "Union Cave - Ace Trainer Emma"
+party = [
+    { species = "poliwhirl", level = 28 },
+]
+
+[super_nerd_sam]
+id = 364
+label = "Route 8 - Super Nerd Sam"
+party = [
+    { species = "grimer", level = 44 },
+    { species = "muk", level = 44 },
+]
+
+[super_nerd_tyrone]
+id = 365
+label = "Route 8 - Super Nerd Tyrone"
+party = [
+    { species = "magnemite", level = 40 },
+    { species = "magnemite", level = 40 },
+    { species = "magnemite", level = 40 },
+]
+
+[super_nerd_pat]
+id = 366
+label = "Route 25 - Super Nerd Pat"
+party = [
+    { species = "porygon", level = 47, num_moves = 4 },
+]
+
+[super_nerd_shawn]
+id = 367
+label = "S.S. Aqua - Super Nerd Shawn"
+party = [
+    { species = "magnemite", level = 39 },
+    { species = "muk", level = 41 },
+    { species = "magnemite", level = 39 },
+]
+
+[medium_rebecca]
+id = 368
+label = "Saffron City - Medium Rebecca"
+party = [
+    { species = "bronzor", level = 45, num_moves = 4 },
+    { species = "hypno", level = 45, num_moves = 4 },
+]
+
+[medium_darcy]
+id = 369
+label = "Saffron City - Medium Darcy"
+party = [
+    { species = "slowpoke", level = 44, num_moves = 4 },
+    { species = "slowbro", level = 46, num_moves = 4 },
+]
+
+[swimmer_m_jerome]
+id = 370
+label = "Route 19 - Swimmer♂ Jerome"
+party = [
+    { species = "seadra", level = 36 },
+    { species = "tentacool", level = 38 },
+    { species = "tentacruel", level = 40 },
+    { species = "goldeen", level = 38 },
+]
+
+[swimmer_m_tucker]
+id = 371
+label = "Route 19 - Swimmer♂ Tucker"
+party = [
+    { species = "shellder", level = 40 },
+    { species = "cloyster", level = 44 },
+]
+
+[swimmer_m_mickey_6]
+id = 372
+label = "Swimmer♂ Mickey 6"
+party = [
+    { species = "staryu", level = 13 },
+    { species = "starmie", level = 18 },
+    { species = "horsea", level = 16 },
+]
+
+[swimmer_m_frankie]
+id = 373
+label = "Route 20 - Swimmer♂ Frankie"
+party = [
+    { species = "azumarill", level = 44 },
+]
+
+[swimmer_m_tyson]
+id = 374
+label = "Route 21 - Swimmer♂ Tyson"
+party = [
+    { species = "quagsire", level = 42, num_moves = 4 },
+    { species = "octillery", level = 42, num_moves = 4 },
+]
+
+[swimmer_m_mickey_7]
+id = 375
+label = "Swimmer♂ Mickey 7"
+party = [
+    { species = "staryu", level = 13 },
+    { species = "starmie", level = 18 },
+    { species = "horsea", level = 16 },
+]
+
+[swimmer_m_mickey_8]
+id = 376
+label = "Swimmer♂ Mickey 8"
+party = [
+    { species = "staryu", level = 13 },
+    { species = "starmie", level = 18 },
+    { species = "horsea", level = 16 },
+]
+
+[swimmer_m_parker]
+id = 377
+label = "Swimmer♂ Parker"
+party = [
+    { species = "horsea", level = 43, num_moves = 4 },
+    { species = "seadra", level = 43, num_moves = 4 },
+]
+
+[youngster_warren]
+id = 378
+label = "Route 3 - Youngster Warren"
+party = [
+    { species = "fearow", level = 38 },
+    { species = "raticate", level = 42 },
+]
+
+[youngster_jimmy]
+id = 379
+label = "Route 3 - Youngster Jimmy"
+party = [
+    { species = "raticate", level = 42 },
+    { species = "arbok", level = 42 },
+    { species = "parasect", level = 42 },
+]
+
+[youngster_owen]
+id = 380
+label = "Route 11 - Youngster Owen"
+party = [
+    { species = "growlithe", level = 44 },
+]
+
+[youngster_jason]
+id = 381
+label = "Route 11 - Youngster Jason"
+party = [
+    { species = "sandslash", level = 42 },
+    { species = "crobat", level = 42 },
+]
+
+[teacher_hillary]
+id = 382
+label = "Route 15 - Teacher Hillary"
+party = [
+    { species = "sunkern", level = 41 },
+    { species = "aipom", level = 31 },
+]
+
+[bird_keeper_gs_peter]
+id = 383
+label = "Route 32 - Bird Keeper Peter"
+party = [
+    { species = "pidgey", level = 6 },
+    { species = "pidgey", level = 6 },
+    { species = "spearow", level = 8 },
+]
+
+[hiker_daniel]
+id = 384
+label = "Union Cave - Hiker Daniel"
+party = [
+    { species = "onix", level = 11 },
+]
+
+[twins_dara_and_dia]
+id = 385
+label = "Twins Dara & Dia"
+party = [
+    { species = "mareep", level = 16 },
+    { species = "marill", level = 16 },
+]
+
+[psychic_m_greg]
+id = 386
+label = "Route 37 - Psychic Greg"
+party = [
+    { species = "drowzee", level = 17, num_moves = 3 },
+]
+
+[twins_amy_and_mimi_2]
+id = 387
+label = "Twins Amy & Mimi 2"
+party = [
+    { species = "ledyba", level = 10 },
+    { species = "spinarak", level = 10 },
+]
+
+[firebreather_walt]
+id = 388
+label = "Route 35 - Firebreather Walt"
+party = [
+    { species = "magmar", level = 11 },
+    { species = "magmar", level = 16 },
+]
+
+[psychic_m_nelson]
+id = 389
+label = "Route 39 - Psychic Nelson"
+party = [
+    { species = "slowpoke", level = 17, num_moves = 3 },
+    { species = "slowpoke", level = 20, num_moves = 4 },
+]
+
+[firebreather_ray]
+id = 390
+label = "Union Cave - Firebreather Ray"
+party = [
+    { species = "vulpix", level = 9 },
+]
+
+[poke_maniac_issac]
+id = 391
+label = "Goldenrod Tunnel - Poké Maniac Issac"
+party = [
+    { species = "lickitung", level = 12, num_moves = 3 },
+]
+
+[poke_maniac_donald]
+id = 392
+label = "Goldenrod Tunnel - Poké Maniac Donald"
+party = [
+    { species = "slowpoke", level = 11 },
+    { species = "slowpoke", level = 11 },
+]
+
+[super_nerd_teru]
+id = 393
+label = "Goldenrod Tunnel - Super Nerd Teru"
+party = [
+    { species = "magnemite", level = 7 },
+    { species = "voltorb", level = 11 },
+    { species = "magnemite", level = 7 },
+    { species = "magnemite", level = 9 },
+]
+
+[ace_trainer_m_mickey_4]
+id = 394
+label = "Ace Trainer Mickey 4"
+party = [
+    { species = "bulbasaur", level = 14 },
+    { species = "charmander", level = 14 },
+    { species = "squirtle", level = 14 },
+]
+
+[psychic_m_mark]
+id = 395
+label = "Route 36 - Psychic Mark"
+party = [
+    { species = "abra", level = 14, num_moves = 2 },
+    { species = "abra", level = 14, num_moves = 2 },
+    { species = "kadabra", level = 16, num_moves = 3 },
+]
+
+[juggler_horton]
+id = 396
+label = "Vermilion City - Juggler Horton"
+party = [
+    { species = "electrode", level = 43, num_moves = 4 },
+    { species = "electrode", level = 43, num_moves = 4 },
+    { species = "electrode", level = 43, num_moves = 4 },
+]
+
+[school_kid_m_chad]
+id = 397
+label = "Route 38 - School Kid Chad"
+party = [
+    { species = "mr_mime", level = 20 },
+]
+
+[beauty_valerie]
+id = 398
+label = "Route 38 - Beauty Valerie"
+party = [
+    { species = "hoppip", level = 18, num_moves = 4 },
+    { species = "skiploom", level = 18, num_moves = 4 },
+]
+
+[firebreather_lyle]
+id = 399
+label = "S.S. Aqua - Firebreather Lyle"
+party = [
+    { species = "koffing", level = 36 },
+    { species = "flareon", level = 39 },
+    { species = "koffing", level = 36 },
+]
+
+[lass_dana]
+id = 400
+label = "Route 38 - Lass Dana"
+party = [
+    { species = "flaaffy", level = 19, num_moves = 4 },
+    { species = "psyduck", level = 19, num_moves = 4 },
+]
+
+[gentleman_alfred]
+id = 401
+label = "Lighthouse - Gentleman Alfred"
+party = [
+    { species = "noctowl", level = 22 },
+]
+
+[picnicker_tiffany]
+id = 402
+label = "Route 43 - Picnicker Tiffany"
+party = [
+    { species = "clefairy", level = 21, num_moves = 4 },
+]
+
+[camper_spencer]
+id = 403
+label = "Route 43 - Camper Spencer"
+party = [
+    { species = "sandshrew", level = 18 },
+    { species = "sandslash", level = 18 },
+    { species = "zubat", level = 20 },
+]
+
+[team_rocket_f_grunt_5]
+id = 404
+label = "Team Rocket HQ - Team Rocket Grunt 5"
+party = [
+    { species = "ekans", level = 18, num_moves = 4 },
+    { species = "gloom", level = 18, num_moves = 4 },
+]
+
+[psychic_m_phil]
+id = 405
+label = "Route 44 - Psychic Phil"
+party = [
+    { species = "natu", level = 27, num_moves = 4 },
+    { species = "kadabra", level = 29, num_moves = 4 },
+]
+
+[poke_maniac_zach]
+id = 406
+label = "Route 44 - Poké Maniac Zach"
+party = [
+    { species = "rhyhorn", level = 30 },
+]
+
+[ace_trainer_m_allen]
+id = 407
+label = "Route 44 - Ace Trainer Allen"
+party = [
+    { species = "charmeleon", level = 29, num_moves = 4 },
+    { species = "magnemite", level = 29, num_moves = 4 },
+]
+
+[ace_trainer_f_cybil]
+id = 408
+label = "Route 44 - Ace Trainer Cybil"
+party = [
+    { species = "mareep", level = 29, num_moves = 4 },
+    { species = "bellossom", level = 29, num_moves = 4 },
+]
+
+[pokefan_m_brandon]
+id = 409
+label = "Route 34 - Pokéfan Brandon"
+party = [
+    { species = "snubbull", level = 13 },
+    { species = "mareep", level = 13 },
+]
+
+[sailor_harry]
+id = 410
+label = "Route 38 - Sailor Harry"
+party = [
+    { species = "wooper", level = 20, num_moves = 4 },
+]
+
+[psychic_m_vernon]
+id = 411
+label = "Route 26 - Psychic Vernon"
+party = [
+    { species = "espeon", level = 36 },
+]
+
+[psychic_m_eli]
+id = 412
+label = "Route 27 - Psychic Eli"
+party = [
+    { species = "starmie", level = 30 },
+    { species = "exeggcute", level = 30 },
+    { species = "girafarig", level = 34 },
+]
+
+[fisherman_scott]
+id = 413
+label = "Route 26 - Fisherman Scott"
+party = [
+    { species = "qwilfish", level = 30, num_moves = 4 },
+    { species = "qwilfish", level = 30, num_moves = 4 },
+    { species = "seaking", level = 34, num_moves = 4 },
+]
+
+[bird_keeper_gs_jose_2]
+id = 414
+label = "Route 27 - Bird Keeper Jose 2"
+party = [
+    { species = "farfetchd", level = 40 },
+]
+
+[psychic_m_jared]
+id = 415
+label = "Saffron City - Psychic Jared"
+party = [
+    { species = "mr_mime", level = 42, num_moves = 4 },
+    { species = "exeggcute", level = 42, num_moves = 4 },
+    { species = "exeggcute", level = 45, num_moves = 4 },
+]
+
+[twins_jo_and_zoe_2]
+id = 416
+label = "Twins Jo & Zoe 2"
+party = [
+    { species = "vileplume", level = 37, num_moves = 4 },
+    { species = "victreebel", level = 37, num_moves = 4 },
+]
+
+[ace_trainer_f_jenn]
+id = 417
+label = "Ace Trainer Jenn"
+party = [
+    { species = "staryu", level = 24 },
+    { species = "starmie", level = 26 },
+]
+
+[elite_four_bruno_bruno]
+id = 418
+label = "Elite Four Bruno"
+party = [
+    { species = "hitmontop", level = 42, num_moves = 4 },
+    { species = "hitmonlee", level = 42, num_moves = 4 },
+    { species = "hitmonchan", level = 42, num_moves = 4 },
+    { species = "onix", level = 43, num_moves = 4 },
+    { species = "machamp", level = 46, num_moves = 4 },
+]
+
+[lass_ellen]
+id = 419
+label = "Route 25 - Lass Ellen"
+party = [
+    { species = "wigglytuff", level = 40 },
+    { species = "granbull", level = 44 },
+]
+
+[bird_keeper_gs_perry]
+id = 420
+label = "Route 13 - Bird Keeper Perry"
+party = [
+    { species = "farfetchd", level = 42 },
+]
+
+[bird_keeper_gs_bret]
+id = 421
+label = "Route 13 - Bird Keeper Bret"
+party = [
+    { species = "taillow", level = 41 },
+    { species = "fearow", level = 41 },
+]
+
+[psychic_m_rodney]
+id = 422
+label = "S.S. Aqua - Psychic Rodney"
+party = [
+    { species = "chingling", level = 37 },
+    { species = "hypno", level = 41 },
+]
+
+[pokefan_m_jeremy]
+id = 423
+label = "S.S. Aqua - Pokéfan Jeremy"
+party = [
+    { species = "meowth", level = 36 },
+    { species = "meowth", level = 36 },
+    { species = "meowth", level = 36 },
+]
+
+[pokefan_m_colin]
+id = 424
+label = "S.S. Aqua - Pokéfan Colin"
+party = [
+    { species = "delibird", level = 40, num_moves = 3 },
+]
+
+[twins_meg_and_peg]
+id = 425
+label = "S.S. Aqua - Twins Meg & Peg"
+party = [
+    { species = "teddiursa", level = 39 },
+    { species = "phanpy", level = 39 },
+]
+
+[twins_meg_and_peg_2]
+id = 426
+label = "Twins Meg & Peg 2"
+party = [
+    { species = "phanpy", level = 39 },
+    { species = "teddiursa", level = 39 },
+]
+
+[teacher_shirley]
+id = 427
+label = "S.S. Aqua - Teacher Shirley"
+party = [
+    { species = "chatot", level = 43 },
+    { species = "jigglypuff", level = 43 },
+]
+
+[school_kid_m_nate]
+id = 428
+label = "S.S. Aqua - School Kid Nate"
+party = [
+    { species = "ledian", level = 40 },
+    { species = "exeggutor", level = 40 },
+]
+
+[school_kid_m_ricky]
+id = 429
+label = "S.S. Aqua - School Kid Ricky"
+party = [
+    { species = "aipom", level = 40 },
+    { species = "ditto", level = 40 },
+]
+
+[school_kid_m_jack_2]
+id = 430
+label = "School Kid Jack 2"
+party = [
+    { species = "gloom", level = 29 },
+    { species = "voltorb", level = 17 },
+]
+
+[school_kid_m_jack_3]
+id = 431
+label = "School Kid Jack 3"
+party = [
+    { species = "vileplume", level = 38 },
+    { species = "electrode", level = 31 },
+]
+
+[school_kid_m_alan_2]
+id = 432
+label = "School Kid Alan 2"
+party = [
+    { species = "tangela", level = 32 },
+    { species = "yanma", level = 30 },
+]
+
+[school_kid_m_alan_3]
+id = 433
+label = "School Kid Alan 3"
+party = [
+    { species = "xatu", level = 32 },
+    { species = "tangrowth", level = 36 },
+    { species = "quagsire", level = 32 },
+    { species = "yanmega", level = 34 },
+]
+
+[school_kid_m_chad_2]
+id = 434
+label = "School Kid Chad 2"
+party = [
+    { species = "mr_mime", level = 29 },
+    { species = "magnemite", level = 30 },
+]
+
+[school_kid_m_chad_3]
+id = 435
+label = "School Kid Chad 3"
+party = [
+    { species = "mr_mime", level = 39 },
+    { species = "magneton", level = 38 },
+]
+
+[pokefan_beverly_2]
+id = 436
+label = "Pokéfan Beverly 2"
+party = [
+    { species = "snubbull", level = 31 },
+]
+
+[pokefan_beverly_3]
+id = 437
+label = "Pokéfan Beverly 3"
+party = [
+    { species = "granbull", level = 43 },
+]
+
+[pokefan_m_derek_2]
+id = 438
+label = "Pokéfan Derek 2"
+party = [
+    { species = "teddiursa", level = 24 },
+    { species = "pikachu", level = 30 },
+]
+
+[pokefan_m_derek_3]
+id = 439
+label = "Pokéfan Derek 3"
+party = [
+    { species = "pichu", level = 13 },
+    { species = "teddiursa", level = 15 },
+    { species = "pikachu", level = 37 },
+    { species = "teddiursa", level = 29 },
+]
+
+[sailor_huey_2]
+id = 440
+label = "Sailor Huey 2"
+party = [
+    { species = "poliwhirl", level = 34 },
+    { species = "poliwhirl", level = 36 },
+]
+
+[sailor_huey_3]
+id = 441
+label = "Sailor Huey 3"
+party = [
+    { species = "poliwhirl", level = 38 },
+    { species = "poliwrath", level = 41 },
+]
+
+[lass_mickey]
+id = 442
+label = "Lass Mickey"
+party = [
+    { species = "marill", level = 21 },
+]
+
+[lass_mickey_2]
+id = 443
+label = "Lass Mickey 2"
+party = [
+    { species = "marill", level = 21 },
+]
+
+[ace_trainer_f_reena_2]
+id = 444
+label = "Ace Trainer Reena 2"
+party = [
+    { species = "growlithe", level = 38 },
+    { species = "nidorina", level = 36 },
+    { species = "staryu", level = 38 },
+]
+
+[ace_trainer_f_reena_3]
+id = 445
+label = "Ace Trainer Reena 3"
+party = [
+    { species = "arcanine", level = 47 },
+    { species = "nidoqueen", level = 43 },
+    { species = "starmie", level = 47 },
+]
+
+[bird_keeper_gs_jose_3]
+id = 446
+label = "Bird Keeper Jose 3"
+party = [
+    { species = "farfetchd", level = 38 },
+    { species = "farfetchd", level = 45 },
+]
+
+[bird_keeper_gs_vance_2]
+id = 447
+label = "Bird Keeper Vance 2"
+party = [
+    { species = "hoothoot", level = 33 },
+    { species = "pidgeotto", level = 32 },
+]
+
+[bird_keeper_gs_vance_3]
+id = 448
+label = "Bird Keeper Vance 3"
+party = [
+    { species = "pidgeotto", level = 37 },
+    { species = "pidgeot", level = 38 },
+    { species = "noctowl", level = 42 },
+]
+
+[bug_catcher_arnie_3]
+id = 449
+label = "Bug Catcher Arnie 3"
+party = [
+    { species = "venomoth", level = 43, num_moves = 4 },
+]
+
+[fisherman_wilton_3]
+id = 450
+label = "Fisherman Wilton 3"
+party = [
+    { species = "goldeen", level = 32 },
+    { species = "seaking", level = 36 },
+    { species = "seaking", level = 40 },
+]
+
+[hiker_parry_2]
+id = 451
+label = "Hiker Parry 2"
+party = [
+    { species = "onix", level = 38 },
+    { species = "graveler", level = 35 },
+]
+
+[hiker_parry_3]
+id = 452
+label = "Hiker Parry 3"
+party = [
+    { species = "steelix", level = 41 },
+    { species = "graveler", level = 37 },
+]
+
+[picnicker_erin_3]
+id = 453
+label = "Picnicker Erin 3"
+party = [
+    { species = "bellossom", level = 46 },
+    { species = "sunflora", level = 39 },
+    { species = "rapidash", level = 48 },
+]
+
+[juggler_irwin_2]
+id = 454
+label = "Juggler Irwin 2"
+party = [
+    { species = "voltorb", level = 22 },
+    { species = "voltorb", level = 26 },
+    { species = "voltorb", level = 28 },
+    { species = "voltorb", level = 34 },
+]
+
+[juggler_irwin_3]
+id = 455
+label = "Juggler Irwin 3"
+party = [
+    { species = "voltorb", level = 34 },
+    { species = "voltorb", level = 36 },
+    { species = "voltorb", level = 38 },
+    { species = "electrode", level = 42 },
+]
+
+[ace_trainer_m_gaven_2]
+id = 456
+label = "Ace Trainer Gaven 2"
+party = [
+    { species = "victreebel", level = 34, num_moves = 4 },
+    { species = "kingler", level = 34, num_moves = 4 },
+    { species = "flareon", level = 34, num_moves = 4 },
+]
+
+[ace_trainer_m_gaven_3]
+id = 457
+label = "Ace Trainer Gaven 3"
+party = [
+    { species = "victreebel", level = 38, num_moves = 4 },
+    { species = "kingler", level = 39, num_moves = 4 },
+    { species = "flareon", level = 38, num_moves = 4 },
+]
+
+[ace_trainer_f_jamie_2]
+id = 458
+label = "Ace Trainer Jamie 2"
+party = [
+    { species = "rapidash", level = 38, num_moves = 4 },
+    { species = "ampharos", level = 37, num_moves = 4 },
+]
+
+[ace_trainer_f_jamie_3]
+id = 459
+label = "Ace Trainer Jamie 3"
+party = [
+    { species = "rapidash", level = 42, num_moves = 4 },
+    { species = "ampharos", level = 40, num_moves = 4 },
+]
+
+[bug_catcher_wade_2]
+id = 460
+label = "Bug Catcher Wade 2"
+party = [
+    { species = "butterfree", level = 28, num_moves = 4 },
+    { species = "butterfree", level = 40, num_moves = 4 },
+    { species = "beedrill", level = 37, num_moves = 4 },
+    { species = "butterfree", level = 28, num_moves = 4 },
+]
+
+[bug_catcher_wade_3]
+id = 461
+label = "Bug Catcher Wade 3"
+party = [
+    { species = "metapod", level = 18, num_moves = 2 },
+    { species = "butterfree", level = 29, num_moves = 4 },
+    { species = "kakuna", level = 22, num_moves = 3 },
+    { species = "metapod", level = 18, num_moves = 2 },
+]
+
+[fisherman_ralph_2]
+id = 462
+label = "Fisherman Ralph 2"
+party = [
+    { species = "seaking", level = 40 },
+]
+
+[fisherman_ralph_3]
+id = 463
+label = "Fisherman Ralph 3"
+party = [
+    { species = "qwilfish", level = 45 },
+    { species = "seaking", level = 42 },
+]
+
+[lass_dana_2]
+id = 464
+label = "Lass Dana 2"
+party = [
+    { species = "flaaffy", level = 32, num_moves = 4 },
+    { species = "psyduck", level = 31, num_moves = 4 },
+]
+
+[lass_dana_3]
+id = 465
+label = "Lass Dana 3"
+party = [
+    { species = "golduck", level = 36, num_moves = 4 },
+    { species = "ampharos", level = 38, num_moves = 4 },
+]
+
+[picnicker_tiffany_2]
+id = 466
+label = "Picnicker Tiffany 2"
+party = [
+    { species = "clefairy", level = 34, num_moves = 4 },
+]
+
+[picnicker_tiffany_3]
+id = 467
+label = "Picnicker Tiffany 3"
+party = [
+    { species = "clefable", level = 41, num_moves = 4 },
+]
+
+[scientist_gs_ross]
+id = 468
+label = "Team Rocket HQ - Scientist Ross"
+party = [
+    { species = "koffing", level = 22 },
+    { species = "koffing", level = 22 },
+]
+
+[scientist_gs_mitch]
+id = 469
+label = "Team Rocket HQ - Scientist Mitch"
+party = [
+    { species = "ditto", level = 24 },
+]
+
+[scientist_gs_gregg]
+id = 470
+label = "Team Rocket HQ - Scientist Gregg"
+party = [
+    { species = "magnemite", level = 20 },
+    { species = "magnemite", level = 20 },
+    { species = "magnemite", level = 20 },
+]
+
+[scientist_gs_garett]
+id = 471
+label = "Radio Tower - Scientist Garett"
+party = [
+    { species = "magnemite", level = 27 },
+    { species = "magnemite", level = 27 },
+    { species = "magnemite", level = 27 },
+]
+
+[scientist_gs_trenton]
+id = 472
+label = "Radio Tower - Scientist Trenton"
+party = [
+    { species = "porygon", level = 30, num_moves = 4 },
+]
+
+[super_nerd_mickey_2]
+id = 473
+label = "Super Nerd Mickey 2"
+party = [
+    { species = "koffing", level = 22 },
+    { species = "koffing", level = 22 },
+]
+
+[super_nerd_mickey_3]
+id = 474
+label = "Super Nerd Mickey 3"
+party = [
+    { species = "ditto", level = 24 },
+]
+
+[super_nerd_mickey_4]
+id = 475
+label = "Super Nerd Mickey 4"
+party = [
+    { species = "magnemite", level = 20 },
+    { species = "magnemite", level = 20 },
+    { species = "magnemite", level = 20 },
+]
+
+[super_nerd_mickey_5]
+id = 476
+label = "Super Nerd Mickey 5"
+party = [
+    { species = "magnemite", level = 27 },
+    { species = "magnemite", level = 27 },
+    { species = "magnemite", level = 27 },
+]
+
+[super_nerd_mickey_6]
+id = 477
+label = "Super Nerd Mickey 6"
+party = [
+    { species = "porygon", level = 30, num_moves = 4 },
+]
+
+[executive_ariana_ariana]
+id = 478
+label = "Radio Tower - Executive Ariana"
+party = [
+    { species = "arbok", level = 32, num_moves = 4 },
+    { species = "vileplume", level = 32, num_moves = 4 },
+    { species = "murkrow", level = 32, num_moves = 4 },
+]
+
+[executive_ariana_ariana_2]
+id = 479
+label = "Executive Ariana 2"
+party = [
+    { species = "arbok", level = 25, num_moves = 4 },
+    { species = "gloom", level = 25, num_moves = 4 },
+    { species = "murkrow", level = 27, num_moves = 4 },
+]
+
+[skier_diana]
+id = 480
+label = "Mahogany Town - Skier Diana"
+party = [
+    { species = "jynx", level = 29 },
+]
+
+[skier_jill]
+id = 481
+label = "Mahogany Town - Skier Jill"
+party = [
+    { species = "dewgong", level = 29 },
+]
+
+[boarder_deandre]
+id = 482
+label = "Mahogany Town - Boarder Deandre"
+party = [
+    { species = "seel", level = 25 },
+    { species = "dewgong", level = 26 },
+    { species = "seel", level = 25 },
+]
+
+[boarder_patton]
+id = 483
+label = "Mahogany Town - Boarder Patton"
+party = [
+    { species = "swinub", level = 27 },
+    { species = "swinub", level = 27 },
+]
+
+[boarder_gerardo]
+id = 484
+label = "Mahogany Town - Boarder Gerardo"
+party = [
+    { species = "shellder", level = 25, num_moves = 4 },
+    { species = "cloyster", level = 26, num_moves = 4 },
+    { species = "seel", level = 25, num_moves = 4 },
+]
+
+[executive_archer_archer]
+id = 485
+label = "Executive Archer"
+party = [
+    { species = "houndour", level = 35, num_moves = 4 },
+    { species = "koffing", level = 35, num_moves = 4 },
+    { species = "houndoom", level = 38, num_moves = 4 },
+]
+
+[executive_proton_proton]
+id = 486
+label = "Executive Proton"
+party = [
+    { species = "zubat", level = 8 },
+    { species = "koffing", level = 12 },
+]
+
+[executive_petrel_petrel]
+id = 487
+label = "Executive Petrel"
+party = [
+    { species = "koffing", level = 30, num_moves = 4 },
+    { species = "koffing", level = 30, num_moves = 4 },
+    { species = "koffing", level = 30, num_moves = 4 },
+    { species = "weezing", level = 32, num_moves = 4 },
+    { species = "koffing", level = 30, num_moves = 4 },
+    { species = "koffing", level = 30, num_moves = 4 },
+]
+
+[executive_petrel_petrel_2]
+id = 488
+label = "Executive Petrel 2"
+party = [
+    { species = "zubat", level = 22 },
+    { species = "raticate", level = 24 },
+    { species = "koffing", level = 22 },
+]
+
+[rival_silver_19]
+id = 489
+label = "Rival Silver 19"
+party = [
+    { species = "sneasel", level = 55, num_moves = 4 },
+    { species = "crobat", level = 58, num_moves = 4 },
+    { species = "magneton", level = 55, num_moves = 4 },
+    { species = "gengar", level = 56, num_moves = 4 },
+    { species = "alakazam", level = 56, num_moves = 4 },
+    { species = "meganium", level = 60, num_moves = 4 },
+]
+
+[rival_silver_20]
+id = 490
+label = "Rival Silver 20"
+party = [
+    { species = "sneasel", level = 55, num_moves = 4 },
+    { species = "crobat", level = 58, num_moves = 4 },
+    { species = "magneton", level = 55, num_moves = 4 },
+    { species = "gengar", level = 56, num_moves = 4 },
+    { species = "alakazam", level = 56, num_moves = 4 },
+    { species = "typhlosion", level = 60, num_moves = 4 },
+]
+
+[rival_silver_21]
+id = 491
+label = "Rival Silver 21"
+party = [
+    { species = "sneasel", level = 55, num_moves = 4 },
+    { species = "crobat", level = 58, num_moves = 4 },
+    { species = "magneton", level = 55, num_moves = 4 },
+    { species = "gengar", level = 56, num_moves = 4 },
+    { species = "alakazam", level = 56, num_moves = 4 },
+    { species = "feraligatr", level = 60, num_moves = 4 },
+]
+
+[pokefan_m_alex]
+id = 492
+label = "Route 13 - Pokéfan Alex"
+party = [
+    { species = "nidoking", level = 29 },
+    { species = "slowking", level = 29 },
+    { species = "magikarp", level = 65 },
+]
+
+[medium_edith]
+id = 493
+label = "Ecruteak City - Medium Edith"
+party = [
+    { species = "haunter", level = 22 },
+]
+
+[medium_georgina]
+id = 494
+label = "Ecruteak City - Medium Georgina"
+party = [
+    { species = "gastly", level = 16 },
+    { species = "gastly", level = 16 },
+    { species = "gastly", level = 16 },
+    { species = "gastly", level = 16 },
+    { species = "gastly", level = 16 },
+]
+
+[passerby_boy]
+id = 495
+label = "Passerby Boy"
+party = [
+    { species = "chikorita", level = 5 },
+]
+
+[passerby_boy_2]
+id = 496
+label = "Passerby Boy 2"
+party = [
+    { species = "cyndaquil", level = 5 },
+]
+
+[passerby_boy_3]
+id = 497
+label = "Passerby Boy 3"
+party = [
+    { species = "totodile", level = 5 },
+]
+
+[mystery_man_eusine]
+id = 498
+label = "Mystery Man Eusine"
+party = [
+    { species = "drowzee", level = 25, num_moves = 4 },
+    { species = "haunter", level = 25, num_moves = 4 },
+    { species = "electrode", level = 27, num_moves = 4 },
+]
+
+[team_rocket_grunt_25]
+id = 499
+label = "Team Rocket Grunt 25"
+party = [
+    { species = "drowzee", level = 18, num_moves = 4 },
+    { species = "grimer", level = 20, num_moves = 4 },
+]
+
+[ace_trainer_m_kobe]
+id = 500
+label = "Dragon’s Den - Ace Trainer Kobe"
+party = [
+    { species = "dragonair", level = 37, num_moves = 4 },
+]
+
+[ace_trainer_f_piper]
+id = 501
+label = "Dragon’s Den - Ace Trainer Piper"
+party = [
+    { species = "horsea", level = 33, num_moves = 4 },
+    { species = "horsea", level = 33, num_moves = 4 },
+    { species = "seadra", level = 35, num_moves = 4 },
+]
+
+[twins_clea_and_gil]
+id = 502
+label = "Dragon’s Den - Twins Clea & Gil"
+party = [
+    { species = "dratini", level = 35, num_moves = 4 },
+    { species = "dratini", level = 35, num_moves = 4 },
+]
+
+[school_kid_m_jack_4]
+id = 503
+label = "School Kid Jack 4"
+party = [
+    { species = "electrode", level = 43, num_moves = 4 },
+    { species = "vileplume", level = 52, num_moves = 4 },
+    { species = "arcanine", level = 52, num_moves = 4 },
+]
+
+[school_kid_m_mickey]
+id = 504
+label = "School Kid Mickey"
+party = [
+    { species = "electrode", level = 35, num_moves = 4 },
+    { species = "growlithe", level = 35, num_moves = 4 },
+    { species = "vileplume", level = 37, num_moves = 4 },
+]
+
+[school_kid_m_alan_4]
+id = 505
+label = "School Kid Alan 4"
+party = [
+    { species = "xatu", level = 47 },
+    { species = "tangrowth", level = 54 },
+    { species = "quagsire", level = 47 },
+    { species = "yanmega", level = 54 },
+]
+
+[school_kid_m_mickey_2]
+id = 506
+label = "School Kid Mickey 2"
+party = [
+    { species = "xatu", level = 35, num_moves = 4 },
+    { species = "tangela", level = 32, num_moves = 4 },
+    { species = "yanma", level = 32, num_moves = 4 },
+    { species = "quagsire", level = 35, num_moves = 4 },
+]
+
+[school_kid_m_chad_4]
+id = 507
+label = "School Kid Chad 4"
+party = [
+    { species = "mr_mime", level = 46, num_moves = 4 },
+    { species = "magneton", level = 56, num_moves = 4 },
+]
+
+[school_kid_m_mickey_3]
+id = 508
+label = "School Kid Mickey 3"
+party = [
+    { species = "mr_mime", level = 34, num_moves = 4 },
+    { species = "magneton", level = 38, num_moves = 4 },
+]
+
+[sailor_huey_4]
+id = 509
+label = "Sailor Huey 4"
+party = [
+    { species = "politoed", level = 48, num_moves = 4 },
+    { species = "poliwrath", level = 52, num_moves = 4 },
+]
+
+[youngster_joey_4]
+id = 510
+label = "Youngster Joey 4"
+party = [
+    { species = "raticate", level = 54, num_moves = 4 },
+]
+
+[youngster_mickey]
+id = 511
+label = "Youngster Mickey"
+party = [
+    { species = "raticate", level = 37, num_moves = 4 },
+]
+
+[bug_catcher_wade_4]
+id = 512
+label = "Bug Catcher Wade 4"
+party = [
+    { species = "butterfree", level = 36, num_moves = 4 },
+    { species = "butterfree", level = 52, num_moves = 4 },
+    { species = "beedrill", level = 43, num_moves = 4 },
+    { species = "butterfree", level = 36, num_moves = 4 },
+]
+
+[bug_catcher_arnie_4]
+id = 513
+label = "Bug Catcher Arnie 4"
+party = [
+    { species = "nincada", level = 45, num_moves = 4 },
+    { species = "venomoth", level = 56, num_moves = 4 },
+]
+
+[bug_catcher_mickey]
+id = 514
+label = "Bug Catcher Mickey"
+party = [
+    { species = "venomoth", level = 40, num_moves = 4 },
+]
+
+[fisherman_ralph_4]
+id = 515
+label = "Fisherman Ralph 4"
+party = [
+    { species = "qwilfish", level = 53 },
+    { species = "seaking", level = 56 },
+]
+
+[fisherman_mickey]
+id = 516
+label = "Fisherman Mickey"
+party = [
+    { species = "qwilfish", level = 35, num_moves = 4 },
+    { species = "seaking", level = 39, num_moves = 4 },
+]
+
+[fisherman_tully_4]
+id = 517
+label = "Fisherman Tully 4"
+party = [
+    { species = "seaking", level = 41, num_moves = 4 },
+    { species = "seaking", level = 50, num_moves = 4 },
+    { species = "qwilfish", level = 53, num_moves = 4 },
+]
+
+[picnicker_liz_4]
+id = 518
+label = "Picnicker Liz 4"
+party = [
+    { species = "victreebel", level = 47 },
+    { species = "nidoking", level = 58 },
+    { species = "nidoqueen", level = 60 },
+]
+
+[picnicker_mickey]
+id = 519
+label = "Picnicker Mickey"
+party = [
+    { species = "weepinbell", level = 30, num_moves = 4 },
+    { species = "nidoking", level = 32, num_moves = 4 },
+    { species = "nidoqueen", level = 32, num_moves = 4 },
+]
+
+[picnicker_gina_4]
+id = 520
+label = "Picnicker Gina 4"
+party = [
+    { species = "skiploom", level = 30 },
+    { species = "jumpluff", level = 36 },
+    { species = "venusaur", level = 55 },
+]
+
+[picnicker_mickey_2]
+id = 521
+label = "Picnicker Mickey 2"
+party = [
+    { species = "jumpluff", level = 33, num_moves = 4 },
+    { species = "jumpluff", level = 33, num_moves = 4 },
+    { species = "venusaur", level = 38, num_moves = 4 },
+]
+
+[picnicker_tiffany_4]
+id = 522
+label = "Picnicker Tiffany 4"
+party = [
+    { species = "clefable", level = 61, num_moves = 4 },
+]
+
+[hiker_anthony_4]
+id = 523
+label = "Hiker Anthony 4"
+party = [
+    { species = "graveler", level = 41 },
+    { species = "golem", level = 49 },
+    { species = "machamp", level = 55 },
+]
+
+[hiker_mickey]
+id = 524
+label = "Hiker Mickey"
+party = [
+    { species = "graveler", level = 34, num_moves = 4 },
+    { species = "golem", level = 36, num_moves = 4 },
+    { species = "machoke", level = 34, num_moves = 4 },
+]
+
+[camper_todd_4]
+id = 525
+label = "Camper Todd 4"
+party = [
+    { species = "graveler", level = 36 },
+    { species = "graveler", level = 44 },
+    { species = "magcargo", level = 54 },
+    { species = "golduck", level = 56 },
+]
+
+[camper_mickey_7]
+id = 526
+label = "Camper Mickey 7"
+party = [
+    { species = "graveler", level = 33, num_moves = 4 },
+    { species = "graveler", level = 33, num_moves = 4 },
+    { species = "magcargo", level = 36, num_moves = 4 },
+    { species = "golduck", level = 34, num_moves = 4 },
+]
+
+[juggler_irwin_4]
+id = 527
+label = "Juggler Irwin 4"
+party = [
+    { species = "voltorb", level = 40, num_moves = 4 },
+    { species = "voltorb", level = 40, num_moves = 4 },
+    { species = "electrode", level = 46, num_moves = 4 },
+    { species = "electrode", level = 51, num_moves = 4 },
+]
+
+[lass_dana_4]
+id = 528
+label = "Lass Dana 4"
+party = [
+    { species = "golduck", level = 51, num_moves = 4 },
+    { species = "ampharos", level = 54, num_moves = 4 },
+]
+
+[lass_mickey_3]
+id = 529
+label = "Lass Mickey 3"
+party = [
+    { species = "ampharos", level = 36, num_moves = 4 },
+    { species = "golduck", level = 36, num_moves = 4 },
+]
+
+[poke_maniac_brent_4]
+id = 530
+label = "Poké Maniac Brent 4"
+party = [
+    { species = "gyarados", level = 48 },
+    { species = "lickitung", level = 40 },
+    { species = "nidoqueen", level = 58 },
+    { species = "nidoking", level = 58 },
+]
+
+[twins_mickey]
+id = 531
+label = "Twins Mickey"
+party = [
+    { species = "dratini", level = 38, num_moves = 4 },
+    { species = "dratini", level = 38, num_moves = 4 },
+]
+
+[bug_catcher_mickey_2]
+id = 532
+label = "Bug Catcher Mickey 2"
+party = [
+    { species = "butterfree", level = 30, num_moves = 4 },
+    { species = "butterfree", level = 30, num_moves = 4 },
+    { species = "beedrill", level = 32, num_moves = 4 },
+    { species = "butterfree", level = 34, num_moves = 4 },
+]
+
+[bug_catcher_wayne]
+id = 533
+label = "Bug Catcher Wayne"
+party = [
+    { species = "ledyba", level = 8 },
+    { species = "paras", level = 10 },
+]
+
+[beauty_kimberly]
+id = 534
+label = "Beauty Kimberly"
+party = [
+    { species = "corsola", level = 19 },
+]
+
+[pokefan_marigold]
+id = 535
+label = "Pokéfan Marigold"
+party = [
+    { species = "meowth", level = 16 },
+]
+
+[camper_bertrand]
+id = 536
+label = "Camper Bertrand"
+party = [
+    { species = "fearow", level = 30 },
+    { species = "primeape", level = 30 },
+    { species = "tauros", level = 30 },
+]
+
+[poke_maniac_harrison]
+id = 537
+label = "Mt. Mortar - Poké Maniac Harrison"
+party = [
+    { species = "nidoking", level = 17 },
+    { species = "nidoqueen", level = 17 },
+]
+
+[super_nerd_hugh]
+id = 538
+label = "Mt. Mortar - Super Nerd Hugh"
+party = [
+    { species = "seadra", level = 39, num_moves = 4 },
+]
+
+[super_nerd_markus]
+id = 539
+label = "Mt. Mortar - Super Nerd Markus"
+party = [
+    { species = "slowpoke", level = 19, num_moves = 4 },
+]
+
+[pokefan_m_rex]
+id = 540
+label = "Pokéfan Rex"
+party = [
+    { species = "phanpy", level = 45 },
+]
+
+[pokefan_m_andy]
+id = 541
+label = "Pokéfan Andy"
+party = [
+    { species = "teddiursa", level = 44 },
+]
+
+[sage_mickey_3]
+id = 542
+label = "Sage Mickey 3"
+party = [
+    { species = "noctowl", level = 32, num_moves = 4 },
+    { species = "flareon", level = 32, num_moves = 4 },
+]
+
+[sage_mickey_4]
+id = 543
+label = "Sage Mickey 4"
+party = [
+    { species = "noctowl", level = 32, num_moves = 4 },
+    { species = "jolteon", level = 32, num_moves = 4 },
+]
+
+[sage_mickey_5]
+id = 544
+label = "Sage Mickey 5"
+party = [
+    { species = "noctowl", level = 32, num_moves = 4 },
+    { species = "vaporeon", level = 32, num_moves = 4 },
+]
+
+[ace_trainer_m_french]
+id = 545
+label = "Route 1 - Ace Trainer French"
+party = [
+    { species = "absol", level = 47, num_moves = 4 },
+    { species = "alakazam", level = 47, num_moves = 4 },
+]
+
+[school_kid_m_sherman]
+id = 546
+label = "Route 1 - School Kid Sherman"
+party = [
+    { species = "furret", level = 43, num_moves = 4 },
+    { species = "pidgeot", level = 43, num_moves = 4 },
+]
+
+[hiker_bruce]
+id = 547
+label = "Route 3 - Hiker Bruce"
+party = [
+    { species = "graveler", level = 39 },
+    { species = "rhydon", level = 44 },
+    { species = "clefairy", level = 45 },
+]
+
+[black_belt_manford]
+id = 548
+label = "Route 3 - Black Belt Manford"
+party = [
+    { species = "poliwrath", level = 47, num_moves = 4 },
+]
+
+[double_team_zac_and_jen]
+id = 549
+label = "Route 3 - Double Team Zac & Jen"
+party = [
+    { species = "electabuzz", level = 47, num_moves = 4 },
+    { species = "dugtrio", level = 47, num_moves = 4 },
+]
+
+[black_belt_ander]
+id = 550
+label = "Route 3 - Black Belt Ander"
+party = [
+    { species = "primeape", level = 43 },
+    { species = "graveler", level = 39 },
+    { species = "machoke", level = 44 },
+]
+
+[hiker_dwight]
+id = 551
+label = "Route 3 - Hiker Dwight"
+party = [
+    { species = "magneton", level = 44 },
+    { species = "steelix", level = 44 },
+]
+
+[youngster_regis]
+id = 552
+label = "Route 3 - Youngster Regis"
+party = [
+    { species = "golbat", level = 40 },
+    { species = "electrode", level = 40 },
+]
+
+[young_couple_moe_and_lulu]
+id = 553
+label = "Route 8 - Young Couple Moe & Lulu"
+party = [
+    { species = "lotad", level = 43 },
+    { species = "seedot", level = 43 },
+]
+
+[gentleman_milton]
+id = 554
+label = "Route 8 - Gentleman Milton"
+party = [
+    { species = "growlithe", level = 45 },
+]
+
+[bird_keeper_gs_justin]
+id = 555
+label = "Route 12 - Bird Keeper Justin"
+party = [
+    { species = "xatu", level = 44 },
+    { species = "noctowl", level = 39 },
+]
+
+[bird_keeper_gs_gail]
+id = 556
+label = "Route 12 - Bird Keeper Gail"
+party = [
+    { species = "fearow", level = 42 },
+    { species = "spearow", level = 39 },
+]
+
+[young_couple_vic_and_tara]
+id = 557
+label = "Route 12 - Young Couple Vic & Tara"
+party = [
+    { species = "magmar", level = 44, num_moves = 4 },
+    { species = "sunflora", level = 43, num_moves = 4 },
+]
+
+[fisherman_kyler]
+id = 558
+label = "Route 12 - Fisherman Kyler"
+party = [
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+]
+
+[young_couple_tim_and_sue]
+id = 559
+label = "Route 13 - Young Couple Tim & Sue"
+party = [
+    { species = "kadabra", level = 41 },
+    { species = "psyduck", level = 46 },
+]
+
+[camper_clark]
+id = 560
+label = "Route 13 - Camper Clark"
+party = [
+    { species = "buizel", level = 40 },
+]
+
+[camper_tanner]
+id = 561
+label = "Route 13 - Camper Tanner"
+party = [
+    { species = "sudowoodo", level = 38 },
+]
+
+[picnicker_piper]
+id = 562
+label = "Route 13 - Picnicker Piper"
+party = [
+    { species = "spoink", level = 40 },
+]
+
+[picnicker_ginger]
+id = 563
+label = "Route 13 - Picnicker Ginger"
+party = [
+    { species = "whismur", level = 41 },
+]
+
+[teacher_clarice]
+id = 564
+label = "Route 14 - Teacher Clarice"
+party = [
+    { species = "zigzagoon", level = 41, num_moves = 4 },
+    { species = "roselia", level = 43, num_moves = 4 },
+]
+
+[bird_keeper_gs_josh]
+id = 565
+label = "Route 14 - Bird Keeper Josh"
+party = [
+    { species = "fearow", level = 37 },
+]
+
+[school_kid_m_connor]
+id = 566
+label = "Route 14 - School Kid Connor"
+party = [
+    { species = "zigzagoon", level = 42, num_moves = 4 },
+]
+
+[school_kid_m_torin]
+id = 567
+label = "Route 14 - School Kid Torin"
+party = [
+    { species = "sandslash", level = 41 },
+    { species = "golbat", level = 39 },
+]
+
+[school_kid_m_travis]
+id = 568
+label = "Route 14 - School Kid Travis"
+party = [
+    { species = "budew", level = 42, num_moves = 4 },
+]
+
+[twins_kay_and_tia]
+id = 569
+label = "Route 15 - Twins Kay & Tia"
+party = [
+    { species = "quagsire", level = 41, num_moves = 3 },
+    { species = "quagsire", level = 41, num_moves = 3 },
+]
+
+[pokefan_m_boone]
+id = 570
+label = "Route 15 - Pokéfan Boone"
+party = [
+    { species = "spinda", level = 43 },
+    { species = "volbeat", level = 41 },
+]
+
+[pokefan_eleanor]
+id = 571
+label = "Route 15 - Pokéfan Eleanor"
+party = [
+    { species = "spinda", level = 43 },
+    { species = "illumise", level = 41 },
+]
+
+[biker_dale]
+id = 572
+label = "Route 17 - Biker Dale"
+party = [
+    { species = "gulpin", level = 47 },
+]
+
+[biker_jacob]
+id = 573
+label = "Route 17 - Biker Jacob"
+party = [
+    { species = "magmar", level = 43 },
+    { species = "tentacruel", level = 43 },
+]
+
+[biker_aiden]
+id = 574
+label = "Route 17 - Biker Aiden"
+party = [
+    { species = "tentacruel", level = 45 },
+]
+
+[biker_dan]
+id = 575
+label = "Route 17 - Biker Dan"
+party = [
+    { species = "gulpin", level = 39 },
+    { species = "weezing", level = 37 },
+    { species = "weezing", level = 37 },
+]
+
+[biker_theron]
+id = 576
+label = "Route 17 - Biker Theron"
+party = [
+    { species = "croagunk", level = 45 },
+]
+
+[biker_markey]
+id = 577
+label = "Route 17 - Biker Markey"
+party = [
+    { species = "skorupi", level = 47 },
+]
+
+[biker_teddy]
+id = 578
+label = "Route 17 - Biker Teddy"
+party = [
+    { species = "seviper", level = 46 },
+]
+
+[biker_ernest]
+id = 579
+label = "Route 17 - Biker Ernest"
+party = [
+    { species = "teddiursa", level = 45 },
+    { species = "marill", level = 44 },
+]
+
+[camper_pedro]
+id = 580
+label = "Route 20 - Camper Pedro"
+party = [
+    { species = "linoone", level = 45, num_moves = 4 },
+]
+
+[picnicker_adrian]
+id = 581
+label = "Route 20 - Picnicker Adrian"
+party = [
+    { species = "shroomish", level = 45 },
+]
+
+[picnicker_cheyenne]
+id = 582
+label = "Route 20 - Picnicker Cheyenne"
+party = [
+    { species = "shinx", level = 45 },
+]
+
+[bird_keeper_gs_bert]
+id = 583
+label = "Route 20 - Bird Keeper Bert"
+party = [
+    { species = "wingull", level = 46 },
+    { species = "fearow", level = 43 },
+]
+
+[bird_keeper_gs_ernie]
+id = 584
+label = "Route 20 - Bird Keeper Ernie"
+party = [
+    { species = "starly", level = 48 },
+]
+
+[swimmer_m_elmo]
+id = 585
+label = "Route 20 - Swimmer♂ Elmo"
+party = [
+    { species = "poliwhirl", level = 46 },
+    { species = "tentacruel", level = 42 },
+]
+
+[swimmer_m_luis]
+id = 586
+label = "Route 20 - Swimmer♂ Luis"
+party = [
+    { species = "seadra", level = 46 },
+    { species = "quagsire", level = 42 },
+]
+
+[swimmer_f_leona]
+id = 587
+label = "Route 20 - Swimmer♀ Leona"
+party = [
+    { species = "bidoof", level = 44 },
+]
+
+[swimmer_f_mina]
+id = 588
+label = "Route 20 - Swimmer♀ Mina"
+party = [
+    { species = "luvdisc", level = 38 },
+    { species = "luvdisc", level = 39 },
+    { species = "luvdisc", level = 41 },
+]
+
+[fisherman_murphy]
+id = 589
+label = "Route 21 - Fisherman Murphy"
+party = [
+    { species = "corsola", level = 32 },
+    { species = "corsola", level = 34 },
+    { species = "corsola", level = 36 },
+    { species = "corsola", level = 38 },
+]
+
+[fisherman_liam]
+id = 590
+label = "Route 21 - Fisherman Liam"
+party = [
+    { species = "seadra", level = 42 },
+]
+
+[fisherman_gideon]
+id = 591
+label = "Route 21 - Fisherman Gideon"
+party = [
+    { species = "lanturn", level = 44, num_moves = 4 },
+    { species = "mantine", level = 40, num_moves = 4 },
+]
+
+[swimmer_f_chelan]
+id = 592
+label = "Route 21 - Swimmer♀ Chelan"
+party = [
+    { species = "azumarill", level = 40, num_moves = 4 },
+]
+
+[swimmer_f_kendra]
+id = 593
+label = "Route 21 - Swimmer♀ Kendra"
+party = [
+    { species = "slowking", level = 43 },
+]
+
+[swimmer_m_esteban]
+id = 594
+label = "Route 21 - Swimmer♂ Esteban"
+party = [
+    { species = "golduck", level = 38 },
+    { species = "poliwhirl", level = 38 },
+]
+
+[swimmer_m_duane]
+id = 595
+label = "Route 21 - Swimmer♂ Duane"
+party = [
+    { species = "seaking", level = 40 },
+    { species = "kabutops", level = 40 },
+]
+
+[bird_keeper_gs_kinsley]
+id = 596
+label = "Route 21 - Bird Keeper Kinsley"
+party = [
+    { species = "farfetchd", level = 36 },
+    { species = "fearow", level = 36 },
+    { species = "pidgeotto", level = 37 },
+]
+
+[bird_keeper_gs_easton]
+id = 597
+label = "Route 21 - Bird Keeper Easton"
+party = [
+    { species = "doduo", level = 35 },
+    { species = "doduo", level = 35 },
+    { species = "dodrio", level = 35 },
+    { species = "dodrio", level = 36 },
+]
+
+[twins_day_and_dani]
+id = 598
+label = "Route 6 - Twins Day & Dani"
+party = [
+    { species = "plusle", level = 41 },
+    { species = "minun", level = 41 },
+]
+
+[camper_virgil]
+id = 599
+label = "Route 6 - Camper Virgil"
+party = [
+    { species = "slakoth", level = 43 },
+]
+
+[picnicker_selina]
+id = 600
+label = "Route 6 - Picnicker Selina"
+party = [
+    { species = "cherubi", level = 42 },
+]
+
+[team_rocket_grunt_26]
+id = 601
+label = "Team Rocket Grunt 26"
+party = [
+    { species = "koffing", level = 12 },
+]
+
+[bird_keeper_gs_jose_4]
+id = 602
+label = "Bird Keeper Jose 4"
+party = [
+    { species = "farfetchd", level = 50 },
+    { species = "farfetchd", level = 52 },
+    { species = "farfetchd", level = 53 },
+]
+
+[picnicker_erin_4]
+id = 603
+label = "Picnicker Erin 4"
+party = [
+    { species = "cherrim", level = 42 },
+    { species = "sunflora", level = 46 },
+    { species = "bellossom", level = 49 },
+    { species = "rapidash", level = 53 },
+]
+
+[ace_trainer_m_gaven_4]
+id = 604
+label = "Ace Trainer Gaven 4"
+party = [
+    { species = "victreebel", level = 52, num_moves = 4 },
+    { species = "kingler", level = 49, num_moves = 4 },
+    { species = "flareon", level = 50, num_moves = 4 },
+]
+
+[black_belt_kenji_4]
+id = 605
+label = "Black Belt Kenji 4"
+party = [
+    { species = "onix", level = 41 },
+    { species = "machamp", level = 53 },
+    { species = "onix", level = 49 },
+    { species = "hitmonlee", level = 53 },
+]
+
+[hiker_parry_4]
+id = 606
+label = "Hiker Parry 4"
+party = [
+    { species = "steelix", level = 56 },
+    { species = "golem", level = 52 },
+]
+
+[ace_trainer_f_reena_4]
+id = 607
+label = "Ace Trainer Reena 4"
+party = [
+    { species = "arcanine", level = 54, num_moves = 4 },
+    { species = "nidoqueen", level = 53, num_moves = 4 },
+    { species = "starmie", level = 56, num_moves = 4 },
+]
+
+[fisherman_wilton_4]
+id = 608
+label = "Fisherman Wilton 4"
+party = [
+    { species = "seaking", level = 42 },
+    { species = "seaking", level = 46 },
+    { species = "seaking", level = 63 },
+]
+
+[ace_trainer_f_jamie_4]
+id = 609
+label = "Ace Trainer Jamie 4"
+party = [
+    { species = "rapidash", level = 56, num_moves = 4 },
+    { species = "ampharos", level = 59, num_moves = 4 },
+]
+
+[pokefan_m_derek_4]
+id = 610
+label = "Pokéfan Derek 4"
+party = [
+    { species = "pichu", level = 18 },
+    { species = "teddiursa", level = 22 },
+    { species = "pikachu", level = 39 },
+    { species = "ursaring", level = 47 },
+]
+
+[pokefan_beverly_4]
+id = 611
+label = "Pokéfan Beverly 4"
+party = [
+    { species = "granbull", level = 53 },
+]
+
+[bird_keeper_gs_vance_4]
+id = 612
+label = "Bird Keeper Vance 4"
+party = [
+    { species = "pidgeot", level = 56 },
+    { species = "pidgeot", level = 44 },
+    { species = "noctowl", level = 54 },
+]
+
+[lass_krise_2]
+id = 613
+label = "Lass Krise 2"
+party = [
+    { species = "oddish", level = 21 },
+    { species = "cubone", level = 31 },
+]
+
+[lass_krise_3]
+id = 614
+label = "Lass Krise 3"
+party = [
+    { species = "gloom", level = 32 },
+    { species = "marowak", level = 38 },
+]
+
+[lass_krise_4]
+id = 615
+label = "Lass Krise 4"
+party = [
+    { species = "vileplume", level = 53 },
+    { species = "marowak", level = 54 },
+]
+
+[youngster_ian_2]
+id = 616
+label = "Youngster Ian 2"
+party = [
+    { species = "mankey", level = 27 },
+    { species = "dugtrio", level = 33 },
+]
+
+[youngster_ian_3]
+id = 617
+label = "Youngster Ian 3"
+party = [
+    { species = "primeape", level = 38 },
+    { species = "dugtrio", level = 40 },
+]
+
+[youngster_ian_4]
+id = 618
+label = "Youngster Ian 4"
+party = [
+    { species = "primeape", level = 47 },
+    { species = "dugtrio", level = 58 },
+]
+
+[firebreather_walt_2]
+id = 619
+label = "Firebreather Walt 2"
+party = [
+    { species = "magmar", level = 25 },
+    { species = "magmar", level = 32 },
+]
+
+[firebreather_walt_3]
+id = 620
+label = "Firebreather Walt 3"
+party = [
+    { species = "magmar", level = 34 },
+    { species = "magmar", level = 37 },
+]
+
+[firebreather_walt_4]
+id = 621
+label = "Firebreather Walt 4"
+party = [
+    { species = "magby", level = 26 },
+    { species = "magmar", level = 49 },
+    { species = "magmortar", level = 58 },
+]
+
+[bug_catcher_doug_2]
+id = 622
+label = "Bug Catcher Doug 2"
+party = [
+    { species = "butterfree", level = 40 },
+    { species = "ariados", level = 40 },
+]
+
+[bug_catcher_doug_3]
+id = 623
+label = "Bug Catcher Doug 3"
+party = [
+    { species = "butterfree", level = 47 },
+    { species = "ariados", level = 46 },
+]
+
+[bug_catcher_doug_4]
+id = 624
+label = "Bug Catcher Doug 4"
+party = [
+    { species = "butterfree", level = 52 },
+    { species = "ariados", level = 50 },
+]
+
+[bug_catcher_rob_2]
+id = 625
+label = "Bug Catcher Rob 2"
+party = [
+    { species = "beedrill", level = 45 },
+    { species = "butterfree", level = 42 },
+]
+
+[bug_catcher_rob_3]
+id = 626
+label = "Bug Catcher Rob 3"
+party = [
+    { species = "beedrill", level = 52 },
+    { species = "butterfree", level = 48 },
+]
+
+[bug_catcher_rob_4]
+id = 627
+label = "Bug Catcher Rob 4"
+party = [
+    { species = "beedrill", level = 56 },
+    { species = "butterfree", level = 56 },
+]
+
+[biker_reese_2]
+id = 628
+label = "Biker Reese 2"
+party = [
+    { species = "arbok", level = 42, num_moves = 4 },
+    { species = "weezing", level = 48, num_moves = 4 },
+]
+
+[biker_reese_3]
+id = 629
+label = "Biker Reese 3"
+party = [
+    { species = "arbok", level = 48, num_moves = 4 },
+    { species = "weezing", level = 50, num_moves = 4 },
+]
+
+[biker_reese_4]
+id = 630
+label = "Biker Reese 4"
+party = [
+    { species = "arbok", level = 56, num_moves = 4 },
+    { species = "weezing", level = 55, num_moves = 4 },
+]
+
+[biker_aiden_2]
+id = 631
+label = "Biker Aiden 2"
+party = [
+    { species = "hypno", level = 50 },
+    { species = "tentacruel", level = 49 },
+]
+
+[biker_aiden_3]
+id = 632
+label = "Biker Aiden 3"
+party = [
+    { species = "hypno", level = 55 },
+    { species = "tentacruel", level = 55 },
+]
+
+[biker_aiden_4]
+id = 633
+label = "Biker Aiden 4"
+party = [
+    { species = "tentacruel", level = 55 },
+    { species = "hypno", level = 58 },
+    { species = "tentacruel", level = 58 },
+]
+
+[biker_ernest_2]
+id = 634
+label = "Biker Ernest 2"
+party = [
+    { species = "teddiursa", level = 46 },
+    { species = "azumarill", level = 47 },
+]
+
+[biker_ernest_3]
+id = 635
+label = "Biker Ernest 3"
+party = [
+    { species = "teddiursa", level = 48 },
+    { species = "azumarill", level = 49 },
+]
+
+[biker_ernest_4]
+id = 636
+label = "Biker Ernest 4"
+party = [
+    { species = "ursaring", level = 58 },
+    { species = "azumarill", level = 54 },
+]
+
+[teacher_hillary_2]
+id = 637
+label = "Teacher Hillary 2"
+party = [
+    { species = "ambipom", level = 43 },
+    { species = "sunflora", level = 43 },
+]
+
+[teacher_hillary_3]
+id = 638
+label = "Teacher Hillary 3"
+party = [
+    { species = "ambipom", level = 49 },
+    { species = "sunflora", level = 49 },
+]
+
+[teacher_hillary_4]
+id = 639
+label = "Teacher Hillary 4"
+party = [
+    { species = "ambipom", level = 55 },
+    { species = "sunflora", level = 55 },
+]
+
+[school_kid_m_billy_2]
+id = 640
+label = "School Kid Billy 2"
+party = [
+    { species = "parasect", level = 42 },
+    { species = "poliwhirl", level = 43 },
+    { species = "ditto", level = 40 },
+]
+
+[school_kid_m_billy_3]
+id = 641
+label = "School Kid Billy 3"
+party = [
+    { species = "parasect", level = 46 },
+    { species = "poliwhirl", level = 47 },
+    { species = "ditto", level = 46 },
+]
+
+[school_kid_m_billy_4]
+id = 642
+label = "School Kid Billy 4"
+party = [
+    { species = "mr_mime", level = 50, num_moves = 3 },
+    { species = "parasect", level = 55, num_moves = 4 },
+    { species = "poliwrath", level = 53, num_moves = 4 },
+    { species = "ditto", level = 51, num_moves = 1 },
+]
+
+[twins_kay_and_tia_2]
+id = 643
+label = "Twins Kay & Tia 2"
+party = [
+    { species = "quagsire", level = 48, num_moves = 3 },
+    { species = "quagsire", level = 48, num_moves = 3 },
+]
+
+[twins_kay_and_tia_3]
+id = 644
+label = "Twins Kay & Tia 3"
+party = [
+    { species = "quagsire", level = 53, num_moves = 4 },
+    { species = "quagsire", level = 53, num_moves = 4 },
+]
+
+[twins_kay_and_tia_4]
+id = 645
+label = "Twins Kay & Tia 4"
+party = [
+    { species = "quagsire", level = 55, num_moves = 4 },
+    { species = "quagsire", level = 55, num_moves = 4 },
+]
+
+[bird_keeper_gs_josh_2]
+id = 646
+label = "Bird Keeper Josh 2"
+party = [
+    { species = "fearow", level = 47 },
+    { species = "skarmory", level = 44 },
+]
+
+[bird_keeper_gs_josh_3]
+id = 647
+label = "Bird Keeper Josh 3"
+party = [
+    { species = "skarmory", level = 48 },
+    { species = "fearow", level = 51 },
+]
+
+[bird_keeper_gs_josh_4]
+id = 648
+label = "Bird Keeper Josh 4"
+party = [
+    { species = "skarmory", level = 55 },
+    { species = "fearow", level = 55 },
+]
+
+[school_kid_m_torin_2]
+id = 649
+label = "School Kid Torin 2"
+party = [
+    { species = "sandslash", level = 46 },
+    { species = "golbat", level = 45 },
+    { species = "vulpix", level = 41 },
+]
+
+[school_kid_m_torin_3]
+id = 650
+label = "School Kid Torin 3"
+party = [
+    { species = "sandslash", level = 48 },
+    { species = "golbat", level = 51 },
+    { species = "vulpix", level = 48 },
+]
+
+[school_kid_m_torin_4]
+id = 651
+label = "School Kid Torin 4"
+party = [
+    { species = "sandslash", level = 52 },
+    { species = "golbat", level = 53 },
+    { species = "vulpix", level = 52 },
+]
+
+[young_couple_tim_and_sue_2]
+id = 652
+label = "Young Couple Tim & Sue 2"
+party = [
+    { species = "kadabra", level = 45 },
+    { species = "golduck", level = 50 },
+]
+
+[young_couple_tim_and_sue_3]
+id = 653
+label = "Young Couple Tim & Sue 3"
+party = [
+    { species = "kadabra", level = 48, num_moves = 4 },
+    { species = "golduck", level = 52, num_moves = 4 },
+]
+
+[young_couple_tim_and_sue_4]
+id = 654
+label = "Young Couple Tim & Sue 4"
+party = [
+    { species = "alakazam", level = 54, num_moves = 4 },
+    { species = "golduck", level = 56, num_moves = 4 },
+]
+
+[hiker_kenny_2]
+id = 655
+label = "Hiker Kenny 2"
+party = [
+    { species = "onix", level = 16 },
+    { species = "graveler", level = 33 },
+    { species = "golem", level = 37 },
+    { species = "sandslash", level = 32 },
+]
+
+[hiker_kenny_3]
+id = 656
+label = "Hiker Kenny 3"
+party = [
+    { species = "sandslash", level = 42 },
+    { species = "graveler", level = 37 },
+    { species = "golem", level = 44 },
+    { species = "onix", level = 46 },
+]
+
+[hiker_kenny_4]
+id = 657
+label = "Hiker Kenny 4"
+party = [
+    { species = "sandslash", level = 46 },
+    { species = "graveler", level = 44 },
+    { species = "golem", level = 49 },
+    { species = "steelix", level = 54 },
+]
+
+[camper_tanner_2]
+id = 658
+label = "Camper Tanner 2"
+party = [
+    { species = "sudowoodo", level = 41 },
+    { species = "chinchou", level = 41 },
+]
+
+[camper_tanner_3]
+id = 659
+label = "Camper Tanner 3"
+party = [
+    { species = "sudowoodo", level = 48 },
+    { species = "lanturn", level = 47 },
+    { species = "skiploom", level = 44 },
+]
+
+[camper_tanner_4]
+id = 660
+label = "Camper Tanner 4"
+party = [
+    { species = "sudowoodo", level = 52 },
+    { species = "jumpluff", level = 52 },
+    { species = "lanturn", level = 52 },
+]
+
+[fisherman_kyle_2]
+id = 661
+label = "Fisherman Kyle 2"
+party = [
+    { species = "seaking", level = 40 },
+    { species = "qwilfish", level = 38 },
+    { species = "seaking", level = 43 },
+]
+
+[fisherman_kyle_3]
+id = 662
+label = "Fisherman Kyle 3"
+party = [
+    { species = "seaking", level = 43 },
+    { species = "qwilfish", level = 41 },
+    { species = "seaking", level = 47 },
+    { species = "krabby", level = 39 },
+]
+
+[fisherman_kyle_4]
+id = 663
+label = "Fisherman Kyle 4"
+party = [
+    { species = "seaking", level = 48 },
+    { species = "qwilfish", level = 49 },
+    { species = "seaking", level = 52 },
+    { species = "kingler", level = 51 },
+]
+
+[fisherman_kyler_2]
+id = 664
+label = "Fisherman Kyler 2"
+party = [
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+]
+
+[fisherman_kyler_3]
+id = 665
+label = "Fisherman Kyler 3"
+party = [
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+]
+
+[fisherman_kyler_4]
+id = 666
+label = "Fisherman Kyler 4"
+party = [
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+    { species = "magikarp", level = 18 },
+]
+
+[pkmn_trainer_cheryl_cheryl]
+id = 667
+label = "₧₦ Trainer "
+party = [
+    { species = "wobbuffet", level = 61, num_moves = 4 },
+    { species = "drifblim", level = 61, num_moves = 4 },
+    { species = "hariyama", level = 62, num_moves = 4 },
+    { species = "wailord", level = 63, num_moves = 4 },
+    { species = "blissey", level = 65, num_moves = 4 },
+]
+
+[pkmn_trainer_buck_marley]
+id = 668
+label = "₧₦ Trainer "
+party = [
+    { species = "ninjask", level = 61, num_moves = 4 },
+    { species = "electrode", level = 61, num_moves = 4 },
+    { species = "crobat", level = 62, num_moves = 4 },
+    { species = "weavile", level = 63, num_moves = 4 },
+    { species = "arcanine", level = 65, num_moves = 4 },
+]
+
+[pkmn_trainer_marley_mira]
+id = 669
+label = "₧₦ Trainer "
+party = [
+    { species = "porygon_z", level = 61, num_moves = 4 },
+    { species = "gengar", level = 61, num_moves = 4 },
+    { species = "magnezone", level = 62, num_moves = 4 },
+    { species = "togekiss", level = 63, num_moves = 4 },
+    { species = "alakazam", level = 65, num_moves = 4 },
+]
+
+[pkmn_trainer_riley_riley]
+id = 670
+label = "₧₦ Trainer "
+party = [
+    { species = "absol", level = 61, num_moves = 4 },
+    { species = "ursaring", level = 61, num_moves = 4 },
+    { species = "metagross", level = 62, num_moves = 4 },
+    { species = "salamence", level = 63, num_moves = 4 },
+    { species = "lucario", level = 65, num_moves = 4 },
+]
+
+[pkmn_trainer_mira_buck]
+id = 671
+label = "₧₦ Trainer "
+party = [
+    { species = "shuckle", level = 61, num_moves = 4 },
+    { species = "umbreon", level = 62, num_moves = 4 },
+    { species = "torkoal", level = 61, num_moves = 4 },
+    { species = "dusknoir", level = 63, num_moves = 4 },
+    { species = "claydol", level = 65, num_moves = 4 },
+]
+
+[gentleman_alfred_2]
+id = 672
+label = "Gentleman Alfred 2"
+party = [
+    { species = "noctowl", level = 36 },
+]
+
+[gentleman_alfred_3]
+id = 673
+label = "Gentleman Alfred 3"
+party = [
+    { species = "noctowl", level = 42 },
+]
+
+[gentleman_alfred_4]
+id = 674
+label = "Gentleman Alfred 4"
+party = [
+    { species = "noctowl", level = 58, num_moves = 4 },
+]
+
+[pkmn_trainer_lance_lance]
+id = 675
+label = "₧₦ Trainer Lance"
+party = [
+    { species = "dragonite", level = 40, num_moves = 4 },
+]
+
+[sailor_parker]
+id = 676
+label = "Cerulean City - Sailor Parker"
+party = [
+    { species = "horsea", level = 43, num_moves = 4 },
+    { species = "seadra", level = 43, num_moves = 4 },
+]
+
+[sailor_eddie]
+id = 677
+label = "Cerulean City - Sailor Eddie"
+party = [
+    { species = "azumarill", level = 48, num_moves = 4 },
+]
+
+[swimmer_f_joy]
+id = 678
+label = "Cerulean City - Swimmer♀ Joy"
+party = [
+    { species = "cloyster", level = 48, num_moves = 4 },
+]
+
+[beauty_callie]
+id = 679
+label = "Route 37 - Beauty Callie"
+party = [
+    { species = "clefable", level = 16, num_moves = 4 },
+    { species = "wigglytuff", level = 16, num_moves = 4 },
+]
+
+[beauty_kassandra]
+id = 680
+label = "Route 37 - Beauty Kassandra"
+party = [
+    { species = "wigglytuff", level = 16, num_moves = 4 },
+    { species = "clefable", level = 16, num_moves = 4 },
+]
+
+[ace_trainer_m_arabella]
+id = 681
+label = "Viridian City - Ace Trainer Arabella"
+party = [
+    { species = "stantler", level = 53, num_moves = 4 },
+    { species = "tauros", level = 52, num_moves = 4 },
+]
+
+[ace_trainer_m_bonita]
+id = 682
+label = "Viridian City - Ace Trainer Bonita"
+party = [
+    { species = "spinda", level = 50, num_moves = 4 },
+    { species = "sudowoodo", level = 52, num_moves = 4 },
+]
+
+[ace_trainer_f_salma]
+id = 683
+label = "Viridian City - Ace Trainer Salma"
+party = [
+    { species = "slowking", level = 50, num_moves = 4 },
+    { species = "lickilicky", level = 53, num_moves = 4 },
+]
+
+[double_team_elan_and_ida]
+id = 684
+label = "Viridian City - Double Team Elan & Ida"
+party = [
+    { species = "porygon2", level = 52, num_moves = 4 },
+    { species = "azumarill", level = 50, num_moves = 4 },
+]
+
+[hiker_edwin]
+id = 685
+label = "Pewter City - Hiker Edwin"
+party = [
+    { species = "golem", level = 50, num_moves = 4 },
+]
+
+[boarder_bryce]
+id = 686
+label = "Seafoam Islands - Boarder Bryce"
+party = [
+    { species = "dewgong", level = 55 },
+    { species = "lapras", level = 50 },
+]
+
+[boarder_shaun]
+id = 687
+label = "Seafoam Islands - Boarder Shaun"
+party = [
+    { species = "cloyster", level = 55 },
+    { species = "dewgong", level = 50 },
+]
+
+[skier_cady]
+id = 688
+label = "Seafoam Islands - Skier Cady"
+party = [
+    { species = "delibird", level = 53 },
+]
+
+[super_nerd_cary]
+id = 689
+label = "Super Nerd Cary"
+party = [
+    { species = "torkoal", level = 53, num_moves = 4 },
+]
+
+[super_nerd_waldo]
+id = 690
+label = "Super Nerd Waldo"
+party = [
+    { species = "numel", level = 53, num_moves = 4 },
+]
+
+[super_nerd_merle]
+id = 691
+label = "Super Nerd Merle"
+party = [
+    { species = "magcargo", level = 53, num_moves = 4 },
+]
+
+[scientist_gs_lowell]
+id = 692
+label = "Scientist Lowell"
+party = [
+    { species = "arcanine", level = 50, num_moves = 4 },
+]
+
+[scientist_gs_linden]
+id = 693
+label = "Scientist Linden"
+party = [
+    { species = "magmar", level = 50, num_moves = 4 },
+]
+
+[scientist_gs_daniel]
+id = 694
+label = "Scientist Daniel"
+party = [
+    { species = "ninetales", level = 50, num_moves = 4 },
+]
+
+[bug_catcher_dane]
+id = 695
+label = "Viridian Forest - Bug Catcher Dane"
+party = [
+    { species = "beedrill", level = 44 },
+    { species = "butterfree", level = 48 },
+]
+
+[bug_catcher_dion]
+id = 696
+label = "Viridian Forest - Bug Catcher Dion"
+party = [
+    { species = "ariados", level = 50 },
+]
+
+[bug_catcher_stacey]
+id = 697
+label = "Viridian Forest - Bug Catcher Stacey"
+party = [
+    { species = "metapod", level = 52 },
+    { species = "metapod", level = 56 },
+    { species = "metapod", level = 60 },
+]
+
+[bug_catcher_ellis]
+id = 698
+label = "Viridian Forest - Bug Catcher Ellis"
+party = [
+    { species = "weedle", level = 28 },
+    { species = "kakuna", level = 38 },
+    { species = "beedrill", level = 46 },
+]
+
+[bug_catcher_abner]
+id = 699
+label = "Viridian Forest - Bug Catcher Abner"
+party = [
+    { species = "butterfree", level = 44 },
+    { species = "beedrill", level = 44 },
+    { species = "pikachu", level = 44 },
+]
+
+[rocket_boss_giovanni]
+id = 700
+label = "Rocket Boss Giovanni"
+party = [
+    { species = "nidoking", level = 42, num_moves = 4 },
+    { species = "kangaskhan", level = 40, num_moves = 4 },
+    { species = "honchkrow", level = 43, num_moves = 4 },
+    { species = "nidoqueen", level = 46, num_moves = 4 },
+]
+
+[champion_lance_2]
+id = 701
+label = "Champion Lance 2"
+party = [
+    { species = "salamence", level = 72, num_moves = 4 },
+    { species = "gyarados", level = 68, num_moves = 4 },
+    { species = "garchomp", level = 72, num_moves = 4 },
+    { species = "altaria", level = 73, num_moves = 4 },
+    { species = "charizard", level = 68, num_moves = 4 },
+    { species = "dragonite", level = 75, num_moves = 4 },
+]
+
+[elite_four_will_will_2]
+id = 702
+label = "Elite Four Will 2"
+party = [
+    { species = "bronzong", level = 58, num_moves = 4 },
+    { species = "jynx", level = 60, num_moves = 4 },
+    { species = "grumpig", level = 59, num_moves = 4 },
+    { species = "slowbro", level = 60, num_moves = 4 },
+    { species = "gardevoir", level = 61, num_moves = 4 },
+    { species = "xatu", level = 62, num_moves = 4 },
+]
+
+[elite_four_koga_koga_2]
+id = 703
+label = "Elite Four Koga 2"
+party = [
+    { species = "skuntank", level = 61, num_moves = 4 },
+    { species = "venomoth", level = 63, num_moves = 4 },
+    { species = "toxicroak", level = 60, num_moves = 4 },
+    { species = "muk", level = 62, num_moves = 4 },
+    { species = "crobat", level = 64, num_moves = 4 },
+    { species = "swalot", level = 62, num_moves = 4 },
+]
+
+[elite_four_bruno_bruno_2]
+id = 704
+label = "Elite Four Bruno 2"
+party = [
+    { species = "hitmontop", level = 62, num_moves = 4 },
+    { species = "hitmonlee", level = 61, num_moves = 4 },
+    { species = "hitmonchan", level = 61, num_moves = 4 },
+    { species = "hariyama", level = 62, num_moves = 4 },
+    { species = "machamp", level = 64, num_moves = 4 },
+    { species = "lucario", level = 64, num_moves = 4 },
+]
+
+[elite_four_karen_karen_2]
+id = 705
+label = "Elite Four Karen 2"
+party = [
+    { species = "weavile", level = 62, num_moves = 4 },
+    { species = "spiritomb", level = 62, num_moves = 4 },
+    { species = "absol", level = 62, num_moves = 4 },
+    { species = "honchkrow", level = 64, num_moves = 4 },
+    { species = "houndoom", level = 63, num_moves = 4 },
+    { species = "umbreon", level = 64, num_moves = 4 },
+]
+
+[executive_proton_proton_2]
+id = 706
+label = "Radio Tower - Executive Proton 2"
+party = [
+    { species = "golbat", level = 28, num_moves = 4 },
+    { species = "weezing", level = 33, num_moves = 4 },
+]
+
+[tower_tycoon_palmer]
+id = 707
+label = "Tower Tycoon "
+party = [
+    { species = "rattata", level = 5 },
+]
+
+[hall_matron_argenta]
+id = 708
+label = "Hall Matron "
+party = [
+    { species = "rattata", level = 5 },
+]
+
+[factory_head_thorton]
+id = 709
+label = "Factory Head "
+party = [
+    { species = "rattata", level = 5 },
+]
+
+[arcade_star_dahlia]
+id = 710
+label = "Arcade Star "
+party = [
+    { species = "rattata", level = 5 },
+]
+
+[castle_valet_darach]
+id = 711
+label = "Castle Valet "
+party = [
+    { species = "rattata", level = 5 },
+]
+
+[leader_falkner_falkner_2]
+id = 712
+label = "Leader Falkner 2"
+party = [
+    { species = "staraptor", level = 50, num_moves = 4 },
+    { species = "noctowl", level = 52, num_moves = 4 },
+    { species = "swellow", level = 52, num_moves = 4 },
+    { species = "honchkrow", level = 54, num_moves = 4 },
+    { species = "pelipper", level = 48, num_moves = 4 },
+    { species = "pidgeot", level = 56, num_moves = 4 },
+]
+
+[leader_bugsy_bugsy_2]
+id = 713
+label = "Leader Bugsy 2"
+party = [
+    { species = "scizor", level = 56, num_moves = 4 },
+    { species = "shedinja", level = 48, num_moves = 4 },
+    { species = "yanmega", level = 52, num_moves = 4 },
+    { species = "pinsir", level = 55, num_moves = 4 },
+    { species = "heracross", level = 54, num_moves = 4 },
+    { species = "vespiquen", level = 52, num_moves = 4 },
+]
+
+[leader_whitney_2]
+id = 714
+label = "Leader Whitney 2"
+party = [
+    { species = "girafarig", level = 52, num_moves = 4 },
+    { species = "lickilicky", level = 50, num_moves = 4 },
+    { species = "bibarel", level = 54, num_moves = 4 },
+    { species = "delcatty", level = 54, num_moves = 4 },
+    { species = "clefable", level = 52, num_moves = 4 },
+    { species = "miltank", level = 58, num_moves = 4 },
+]
+
+[leader_morty_morty_2]
+id = 715
+label = "Leader Morty 2"
+party = [
+    { species = "drifblim", level = 52, num_moves = 4 },
+    { species = "dusknoir", level = 52, num_moves = 4 },
+    { species = "sableye", level = 52, num_moves = 4 },
+    { species = "mismagius", level = 54, num_moves = 4 },
+    { species = "gengar", level = 57, num_moves = 4 },
+    { species = "gengar", level = 57, num_moves = 4 },
+]
+
+[leader_pryce_pryce_2]
+id = 716
+label = "Leader Pryce 2"
+party = [
+    { species = "abomasnow", level = 56, num_moves = 4 },
+    { species = "dewgong", level = 58, num_moves = 4 },
+    { species = "glalie", level = 52, num_moves = 4 },
+    { species = "froslass", level = 52, num_moves = 4 },
+    { species = "walrein", level = 54, num_moves = 4 },
+    { species = "mamoswine", level = 60, num_moves = 4 },
+]
+
+[leader_jasmine_jasmine_2]
+id = 717
+label = "Leader Jasmine 2"
+party = [
+    { species = "metagross", level = 52, num_moves = 4 },
+    { species = "magnezone", level = 56, num_moves = 4 },
+    { species = "skarmory", level = 52, num_moves = 4 },
+    { species = "bronzong", level = 50, num_moves = 4 },
+    { species = "empoleon", level = 52, num_moves = 4 },
+    { species = "steelix", level = 62, num_moves = 4 },
+]
+
+[leader_chuck_chuck_2]
+id = 718
+label = "Leader Chuck 2"
+party = [
+    { species = "medicham", level = 54, num_moves = 4 },
+    { species = "hitmonchan", level = 52, num_moves = 4 },
+    { species = "hitmonlee", level = 55, num_moves = 4 },
+    { species = "breloom", level = 54, num_moves = 4 },
+    { species = "primeape", level = 56, num_moves = 4 },
+    { species = "poliwrath", level = 60, num_moves = 4 },
+]
+
+[leader_clair_clair_2]
+id = 719
+label = "Leader Clair 2"
+party = [
+    { species = "gyarados", level = 56, num_moves = 4 },
+    { species = "dragonair", level = 52, num_moves = 4 },
+    { species = "aerodactyl", level = 52, num_moves = 4 },
+    { species = "kingdra", level = 56, num_moves = 4 },
+    { species = "charizard", level = 52, num_moves = 4 },
+    { species = "dragonite", level = 60, num_moves = 4 },
+]
+
+[leader_brock_brock_2]
+id = 720
+label = "Leader Brock 2"
+party = [
+    { species = "golem", level = 55, num_moves = 4 },
+    { species = "relicanth", level = 54, num_moves = 4 },
+    { species = "omastar", level = 56, num_moves = 4 },
+    { species = "onix", level = 61, num_moves = 4 },
+    { species = "kabutops", level = 55, num_moves = 4 },
+    { species = "rampardos", level = 57, num_moves = 4 },
+]
+
+[leader_misty_misty_2]
+id = 721
+label = "Leader Misty 2"
+party = [
+    { species = "starmie", level = 60, num_moves = 4 },
+    { species = "quagsire", level = 56, num_moves = 4 },
+    { species = "lapras", level = 56, num_moves = 4 },
+    { species = "lanturn", level = 54, num_moves = 4 },
+    { species = "floatzel", level = 54, num_moves = 4 },
+    { species = "milotic", level = 60, num_moves = 4 },
+]
+
+[leader_lt_surge_lt__surge_2]
+id = 722
+label = "Leader Lt. Surge 2"
+party = [
+    { species = "raichu", level = 60, num_moves = 4 },
+    { species = "manectric", level = 52, num_moves = 4 },
+    { species = "magnezone", level = 52, num_moves = 4 },
+    { species = "electrode", level = 52, num_moves = 4 },
+    { species = "pachirisu", level = 58, num_moves = 4 },
+    { species = "electivire", level = 56, num_moves = 4 },
+]
+
+[leader_erika_erika_2]
+id = 723
+label = "Leader Erika 2"
+party = [
+    { species = "shiftry", level = 54, num_moves = 4 },
+    { species = "jumpluff", level = 53, num_moves = 4 },
+    { species = "victreebel", level = 56, num_moves = 4 },
+    { species = "bellossom", level = 56, num_moves = 4 },
+    { species = "tangrowth", level = 60, num_moves = 4 },
+    { species = "roserade", level = 55, num_moves = 4 },
+]
+
+[leader_janine_janine_2]
+id = 724
+label = "Leader Janine 2"
+party = [
+    { species = "crobat", level = 52, num_moves = 4 },
+    { species = "weezing", level = 56, num_moves = 4 },
+    { species = "toxicroak", level = 52, num_moves = 4 },
+    { species = "ariados", level = 58, num_moves = 4 },
+    { species = "venomoth", level = 59, num_moves = 4 },
+    { species = "drapion", level = 55, num_moves = 4 },
+]
+
+[leader_sabrina_sabrina_2]
+id = 725
+label = "Leader Sabrina 2"
+party = [
+    { species = "alakazam", level = 60, num_moves = 4 },
+    { species = "espeon", level = 58, num_moves = 4 },
+    { species = "mr_mime", level = 56, num_moves = 4 },
+    { species = "jynx", level = 54, num_moves = 4 },
+    { species = "wobbuffet", level = 53, num_moves = 4 },
+    { species = "gallade", level = 53, num_moves = 4 },
+]
+
+[leader_blaine_blaine_2]
+id = 726
+label = "Leader Blaine 2"
+party = [
+    { species = "torkoal", level = 54, num_moves = 4 },
+    { species = "camerupt", level = 57, num_moves = 4 },
+    { species = "rapidash", level = 60, num_moves = 4 },
+    { species = "magcargo", level = 58, num_moves = 4 },
+    { species = "houndoom", level = 54, num_moves = 4 },
+    { species = "magmortar", level = 62, num_moves = 4 },
+]
+
+[leader_blue_blue_2]
+id = 727
+label = "Leader Blue 2"
+party = [
+    { species = "exeggutor", level = 67, num_moves = 4 },
+    { species = "machamp", level = 69, num_moves = 4 },
+    { species = "rhyperior", level = 70, num_moves = 4 },
+    { species = "arcanine", level = 68, num_moves = 4 },
+    { species = "tyranitar", level = 70, num_moves = 4 },
+    { species = "pidgeot", level = 72, num_moves = 4 },
+]
+
+[beauty_charlotte]
+id = 728
+label = "Beauty Charlotte"
+party = [
+    { species = "bellossom", level = 16 },
+]
+
+[young_couple_duff_and_eda]
+id = 729
+label = "Route 47 - Young Couple Duff & Eda"
+party = [
+    { species = "onix", level = 22 },
+    { species = "cloyster", level = 22 },
+]
+
+[double_team_thom_and_kae]
+id = 730
+label = "Route 47 - Double Team Thom & Kae"
+party = [
+    { species = "electabuzz", level = 25, num_moves = 4 },
+    { species = "magmar", level = 25, num_moves = 4 },
+]
+
+[hiker_devin]
+id = 731
+label = "Route 47 - Hiker Devin"
+party = [
+    { species = "dunsparce", level = 19 },
+    { species = "dunsparce", level = 19 },
+    { species = "dunsparce", level = 19 },
+]
+
+[camper_grant]
+id = 732
+label = "Route 47 - Camper Grant"
+party = [
+    { species = "skiploom", level = 21 },
+    { species = "marill", level = 21 },
+]
+
+[champion_lance_3]
+id = 733
+label = "Champion Lance 3"
+party = [
+    { species = "gyarados", level = 68, num_moves = 4 },
+    { species = "charizard", level = 68, num_moves = 4 },
+    { species = "dragonite", level = 75, num_moves = 4 },
+]
+
+[leader_clair_clair_3]
+id = 734
+label = "Leader Clair 3"
+party = [
+    { species = "dragonair", level = 52, num_moves = 4 },
+    { species = "kingdra", level = 56, num_moves = 4 },
+    { species = "dragonite", level = 60, num_moves = 4 },
+]
+
+[partner_rival_1]
+id = 735
+label = "Rival Silver 1"
+party = [
+    { species = "meganium", level = 60, num_moves = 4 },
+    { species = "crobat", level = 58, num_moves = 4 },
+    { species = "gengar", level = 56, num_moves = 4 },
+]
+
+[partner_rival_2]
+id = 736
+label = "Rival Silver 2"
+party = [
+    { species = "typhlosion", level = 60, num_moves = 4 },
+    { species = "crobat", level = 58, num_moves = 4 },
+    { species = "gengar", level = 56, num_moves = 4 },
+]
+
+[partner_rival_3]
+id = 737
+label = "Rival Silver 3"
+party = [
+    { species = "feraligatr", level = 60, num_moves = 4 },
+    { species = "crobat", level = 58, num_moves = 4 },
+    { species = "gengar", level = 56, num_moves = 4 },
+]
