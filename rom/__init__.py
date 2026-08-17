@@ -1,0 +1,682 @@
+# rom/__init__.py
+#
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
+
+from collections import Counter
+from collections.abc import Mapping, MutableMapping, MutableSequence, MutableSet, Sequence
+import bsdiff4
+import json
+import pkgutil
+import os
+from typing import Any, Dict, Tuple, TYPE_CHECKING
+from settings import get_settings
+import struct
+from worlds.Files import APAutoPatchInterface
+import zipfile
+
+from .itemdata import patch_items
+from .encounterdata import patch_encounters
+from .movedata import patch_moves
+from .speciesdata import patch_species
+from .trainerdata import patch_trainer_parties
+
+from ..items import raw_id_to_const_name
+from ..locations import location_types
+from ..options import TMHMCompatibility
+
+from ..apnds.rom import Rom
+
+from ..data import Hm, VersionEnum
+from ..data.encounters import encounters, encounter_types, EncounterSlot
+from ..data.items import items, ItemClass
+from ..data.locations import locations, LocationTable
+from ..data.moves import moves
+from ..data.trainers import trainers, trainer_party_supporting_starters
+from ..data.species import species, evolutions, other_learnsets, PokemonType
+
+if TYPE_CHECKING:
+    from .. import PokemonHgssWorld
+
+WORLD_VERSION = "0.0.1"
+WORLD_VERSION_NUM = sum(int(v) << s for v, s in zip(WORLD_VERSION.split('.'), (16, 8, 0)))
+
+HEARTGOLD_US_HASH = "258cea3a62ac0d6eb04b5a0fd764d788"
+SOULSILVER_US_HASH = "8a6c8888bed9e1dce952f840351b73f2"
+
+STARTER_IDX_MAP: Mapping[str, int] = {
+    "chikorita": 0,
+    "cyndaquil": 1,
+    "totodile": 2,
+    "bayleef": 0,
+    "quilava": 1,
+    "croconaw": 2,
+    "meganium": 0,
+    "typhlosion": 1,
+    "feraligatr": 2,
+}
+
+class PokemonHeartgoldPatch(APAutoPatchInterface):
+    game = "Pokemon HeartGold and SoulSilver"
+    patch_file_ending = ".apheartgold"
+    hashes: list[str | bytes] = [HEARTGOLD_US_HASH]
+    source_data: bytes
+    files: Dict[str, bytes]
+    result_file_ending: str = ".nds"
+
+    @staticmethod
+    def get_source_data() -> bytes:
+        with open(get_settings().pokemon_hgss_settings.heartgold_rom_file, "rb") as infile:
+            base_rom_bytes = bytes(infile.read())
+        return base_rom_bytes
+
+    @staticmethod
+    def get_source_data_with_cache() -> bytes:
+        if not hasattr(PokemonHeartgoldPatch, "source_data"):
+            PokemonHeartgoldPatch.source_data = PokemonHeartgoldPatch.get_source_data()
+        return PokemonHeartgoldPatch.source_data
+
+    def patch(self, target: str) -> None:
+        from os import environ
+        self.read()
+        if "HGSS_DEV_ENV" in environ:
+            rom_bytes = pkgutil.get_data(__name__, "../roms/hg_us.nds")
+            assert rom_bytes is not None
+        else:
+            data = PokemonHeartgoldPatch.get_source_data_with_cache()
+            patch_name = "base_patch_hg_us.bsdiff4"
+            rom_bytes = bsdiff4.patch(data, self.get_file(patch_name))
+            
+        self.read()
+
+        with open(target, "wb") as f:
+            f.write(patch_common(rom_bytes, self.files, VersionEnum.HEARTGOLD))
+
+    def __init__(self, *args: Any, **kwargs: Any):
+        super().__init__(*args, **kwargs)
+        self.files = {}
+
+    def get_manifest(self) -> Dict[str, Any]:
+        manifest = super().get_manifest()
+        manifest["result_file_ending"] = self.result_file_ending
+        manifest["allowed_hashes"] = self.hashes
+        return manifest
+
+    def read_contents(self, opened_zipfile: zipfile.ZipFile) -> Dict[str, Any]:
+        manifest = super().read_contents(opened_zipfile)
+        for file in opened_zipfile.namelist():
+            if file not in ["archipelago.json"]:
+                self.files[file] = opened_zipfile.read(file)
+        return manifest
+
+    def write_contents(self, opened_zipfile: zipfile.ZipFile) -> None:
+        super().write_contents(opened_zipfile)
+        for file in self.files:
+            opened_zipfile.writestr(file, self.files[file],
+                                    compress_type=zipfile.ZIP_STORED if file.endswith(".bsdiff4") else None)
+
+    def get_file(self, file: str) -> bytes:
+        if file not in self.files:
+            self.read()
+        return self.files[file]
+
+    def write_file(self, file_name: str, file: bytes) -> None:
+        self.files[file_name] = file
+
+class PokemonSoulsilverPatch(APAutoPatchInterface):
+    game = "Pokemon HeartGold and SoulSilver"
+    patch_file_ending = ".apsoulsilver"
+    hashes: list[str | bytes] = [SOULSILVER_US_HASH]
+    source_data: bytes
+    files: Dict[str, bytes]
+    result_file_ending: str = ".nds"
+
+    @staticmethod
+    def get_source_data() -> bytes:
+        with open(get_settings().pokemon_hgss_settings.soulsilver_rom_file, "rb") as infile:
+            base_rom_bytes = bytes(infile.read())
+        return base_rom_bytes
+
+    @staticmethod
+    def get_source_data_with_cache() -> bytes:
+        if not hasattr(PokemonSoulsilverPatch, "source_data"):
+            PokemonSoulsilverPatch.source_data = PokemonSoulsilverPatch.get_source_data()
+        return PokemonSoulsilverPatch.source_data
+
+    def patch(self, target: str) -> None:
+        from os import environ
+        self.read()
+        if "HGSS_DEV_ENV" in environ:
+            rom_bytes = pkgutil.get_data(__name__, "../roms/ss_us.nds")
+            assert rom_bytes is not None
+        else:
+            data = PokemonSoulsilverPatch.get_source_data_with_cache()
+            patch_name = "base_patch_ss_us.bsdiff4"
+            rom_bytes = bsdiff4.patch(data, self.get_file(patch_name))
+            
+        self.read()
+
+        with open(target, "wb") as f:
+            f.write(patch_common(rom_bytes, self.files, VersionEnum.SOULSILVER))
+
+    def __init__(self, *args: Any, **kwargs: Any):
+        super().__init__(*args, **kwargs)
+        self.files = {}
+
+    def get_manifest(self) -> Dict[str, Any]:
+        manifest = super().get_manifest()
+        manifest["result_file_ending"] = self.result_file_ending
+        manifest["allowed_hashes"] = self.hashes
+        return manifest
+
+    def read_contents(self, opened_zipfile: zipfile.ZipFile) -> Dict[str, Any]:
+        manifest = super().read_contents(opened_zipfile)
+        for file in opened_zipfile.namelist():
+            if file not in ["archipelago.json"]:
+                self.files[file] = opened_zipfile.read(file)
+        return manifest
+
+    def write_contents(self, opened_zipfile: zipfile.ZipFile) -> None:
+        super().write_contents(opened_zipfile)
+        for file in self.files:
+            opened_zipfile.writestr(file, self.files[file],
+                                    compress_type=zipfile.ZIP_STORED if file.endswith(".bsdiff4") else None)
+
+    def get_file(self, file: str) -> bytes:
+        if file not in self.files:
+            self.read()
+        return self.files[file]
+
+    def write_file(self, file_name: str, file: bytes) -> None:
+        self.files[file_name] = file
+
+def patch_common(rom_bytes: bytes, files: Mapping[str, bytes], version: VersionEnum) -> bytes:
+    rom = Rom.from_bytes(rom_bytes)
+
+    rom.files["/ap.bin"] = files["ap.bin"]
+
+    rom.header.data[0x1000:0x1004] = files["world_version.bin"]
+
+    if "item_patches.json" in files:
+        item_patches = json.loads(files["item_patches.json"])
+        rom.files["/a/0/1/7"] = patch_items(rom.files["/a/0/1/7"], item_patches)
+    if "encounter_patches.json" in files:
+        encounter_patches = json.loads(files["encounter_patches.json"])
+        rom_path = "/a/0/3/7" if version == VersionEnum.HEARTGOLD else "/a/1/3/6"
+        rom.files[rom_path] = patch_encounters(rom.files[rom_path], encounter_patches)
+    if "trainer_party_patches.json" in files:
+        trainer_party_patches = json.loads(files["trainer_party_patches.json"])
+        rom.files["/a/0/5/6"] = patch_trainer_parties(rom.files["/a/0/5/5"], rom.files["/a/0/5/6"], trainer_party_patches)
+    if "species_patches.json" in files:
+        species_patches = json.loads(files["species_patches.json"])
+        rom.files["/a/0/0/2"] = patch_species(rom.files["/a/0/0/2"], species_patches)
+    if "move_patches.json" in files:
+        move_patches = json.loads(files["move_patches.json"])
+        rom.files["/a/0/1/1"] = patch_moves(rom.files["/a/0/1/1"], move_patches)
+
+    return rom.to_bytes()
+
+def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: PokemonHeartgoldPatch | PokemonSoulsilverPatch) -> None:
+    game_opts = world.options.game_options
+    ap_bin = bytes()
+    slot_name_bytes = world.player_name.encode()
+    slot_name_bytes += b'\0' * (64 - len(slot_name_bytes))
+    ap_bin += slot_name_bytes
+
+    def add_opt_byte(name: str):
+        nonlocal ap_bin
+        ap_bin += getattr(world.options, name).value.to_bytes(length=1, byteorder='little')
+
+    add_opt_byte("remote_items")
+    match game_opts.text_speed:
+        case "fast":
+            ap_bin += b'\x02'
+        case "slow":
+            ap_bin += b'\x00'
+        case "mid":
+            ap_bin += b'\x01'
+        case _:
+            raise ValueError(f"invalid text speed: \"{game_opts.text_speed}\"")
+    match game_opts.sound:
+        case "mono":
+            ap_bin += b'\x01'
+        case "stereo":
+            ap_bin += b'\x00'
+        case _:
+            raise ValueError(f"invalid sound: \"{game_opts.sound}\"")
+    match game_opts.battle_scene:
+        case False:
+            ap_bin += b'\x01'
+        case "off":
+            ap_bin += b'\x01'
+        case True:
+            ap_bin += b'\x00'
+        case "on":
+            ap_bin += b'\x00'
+        case _:
+            raise ValueError(f"invalid battle scene: \"{game_opts.battle_scene}\"")
+    match game_opts.battle_style:
+        case "set":
+            ap_bin += b'\x01'
+        case "shift":
+            ap_bin += b'\x00'
+        case _:
+            raise ValueError(f"invalid battle style: \"{game_opts.battle_style}\"")
+    match game_opts.button_mode:
+        case "start=x":
+            ap_bin += b'\x01'
+        case "l=a":
+            ap_bin += b'\x02'
+        case "normal":
+            ap_bin += b'\x00'
+        case _:
+            raise ValueError(f"invalid button mode: \"{game_opts.button_mode}\"")
+    text_frame = game_opts.text_frame
+    if isinstance(text_frame, int) and 1 <= text_frame and text_frame <= 20:
+        ap_bin += (text_frame - 1).to_bytes(length=1, byteorder='little')
+    elif text_frame == "random":
+        ap_bin += world.random.randint(0, 19).to_bytes(length=1, byteorder='little')
+    else:
+        raise ValueError(f"invalid text frame: \"{text_frame}\"")
+
+    hm_accum = 0
+    hm_order = ["cut", "fly", "surf", "strength", "whirlpool", "rock_smash", "waterfall", "rock_climb"]
+    for i, v in enumerate(hm_order):
+        if v in world.options.remove_badge_requirements:
+            hm_accum |= 1 << i
+    ap_bin += hm_accum.to_bytes(length=1, byteorder='little')
+
+    ap_bin += (world.options.dexsanity_mode.value if world.options.dexsanity.value > 0 else 0).to_bytes(1, 'little')
+    add_opt_byte("reusable_tms")
+    add_opt_byte("evo_items_shop_in_ap_helper")
+
+    # start of save config
+    if len(ap_bin) % 2 == 1:
+        ap_bin += b'\x00'
+
+    ap_bin += world.options.exp_multiplier.to_bytes()
+    add_opt_byte("blind_trainers")
+    add_opt_byte("instant_text")
+    add_opt_byte("hold_a_to_advance")
+    match game_opts.received_items_notification:
+        case "nothing":
+            ap_bin += b'\x00'
+        case "none":
+            ap_bin += b'\x00'
+        case "message":
+            ap_bin += b'\x03'
+        case "jingle":
+            ap_bin += b'\x04'
+        case _:
+            raise ValueError(f"invalid received items notification: \"{game_opts.received_items_notification}\"")
+    add_opt_byte("fps60")
+    add_opt_byte("hm_cut_ins")
+    add_opt_byte("always_catch")
+    add_opt_byte("guaranteed_escape")
+    add_opt_byte("normalize_encounters")
+    ap_bin += world.options.item_notifications_mask.to_mask().to_bytes(1, 'little')
+    add_opt_byte("talk_trainers_without_fight")
+
+    if len(ap_bin) % 2 == 1:
+        ap_bin += b'\x00'
+
+    tables: dict[int, bytearray] = {}
+    remote_items: bool = world.options.remote_items.value != 0
+    remote_item_bitfields: dict[int, bytearray] = {}
+
+    def put_in_table(table: LocationTable, id: int, item_id: int, is_randomized: bool):
+        l = len(tables.setdefault(table, bytearray()))
+        if id >= l // 2:
+            tables[table] = tables[table] + b'\x00\xF0' * (id - l // 2 + 1)
+        tables[table][2*id:2*(id+1)] = item_id.to_bytes(length=2, byteorder='little')
+        if remote_items:
+            l = len(remote_item_bitfields.setdefault(table, bytearray()))
+            if id // 8 >= l:
+                remote_item_bitfields[table] += bytearray(id // 8 - l + 1)
+            remote_item_bitfields[table][id // 8] |= (1 if is_randomized else 0) << (id & 7)
+
+    filled_locations = set()
+
+    strbufs: MutableSequence[bytes] = []
+    strbufs_set: MutableSet[bytes] = set()
+    foreign_items: MutableMapping[Tuple[bytes, bytes], int] = {}
+
+    def name_to_strbuf(name: str, len_cutoff: int) -> bytes:
+        ret: bytes = encode_string(name, '?', len_cutoff) # type: ignore
+        sz = len(ret) // 2
+        if len(ret) & 3 != 0:
+            ret += b'\xFF\xFF'
+        return b''.join((struct.pack("<2HI", sz, sz, 0xB6F8D2EC), ret, b'\xFF\xFF'))
+
+    for location in world.multiworld.get_locations(world.player):
+        if location.address is None or location.item is None or location.item.code is None:
+            continue
+        table = LocationTable(location.address >> 16)
+        id = location.address & 0xFFFF
+        filled_locations.add(location.name)
+        if location.item.player == world.player:
+            item_id = location.item.code
+        else:
+            dest_name = name_to_strbuf(world.multiworld.player_name[location.item.player], 94)
+            if dest_name not in strbufs_set:
+                strbufs.append(dest_name)
+                strbufs_set.add(dest_name)
+            item_name = name_to_strbuf(location.item.name, 207)
+            if item_name not in strbufs_set:
+                strbufs.append(item_name)
+                strbufs_set.add(item_name)
+            item_id = ItemClass.REMOTE0 << 12 | foreign_items.setdefault((item_name, dest_name), len(foreign_items))
+            assert len(foreign_items) < 0x2000, "foreign items overflow item id"
+        put_in_table(table, id, item_id, True)
+
+    added_map = {v:t.should_be_added(world.options) for v, t in location_types.items()}
+    for location in locations.values():
+        if location.label not in filled_locations and added_map[location.type]:
+            if isinstance(location.original_item, str):
+                original_item = location.original_item
+            else:
+                original_item = world.random.choice(location.original_item)
+            put_in_table(location.table, location.id, items[original_item].get_raw_id(), False)
+
+    for i in range(max(tables.keys())):
+        if i not in tables:
+            tables[i] = bytearray()
+            if remote_items:
+                remote_item_bitfields[i] = bytearray()
+
+    ap_bin += len(tables).to_bytes(length=4, byteorder='little')
+    for table in sorted(tables.keys()):
+        data = tables[table]
+        ap_bin += (len(data) // 2).to_bytes(length=4, byteorder='little')
+        ap_bin += data
+        if remote_items:
+            ap_bin += remote_item_bitfields[table]
+            assert len(remote_item_bitfields[table]) == ((len(data) // 2) + 7) // 8, f"remote items bitfield length matches table, {len(remote_item_bitfields)}, {len(data)}"
+
+    precollected = world.multiworld.precollected_items[world.player]
+    start_inventory: Counter[int] = Counter(map(lambda item : item.code, precollected)) # type: ignore
+    entries = [code.to_bytes(length=2, byteorder='little') + count.to_bytes(length=2, byteorder='little') for code, count in start_inventory.items()]
+    ap_bin += len(entries).to_bytes(length=4, byteorder='little')
+    ap_bin += b''.join(entries)
+
+    strbuf_map = {}
+    cur_name_off = 0
+
+    def add_strbuf_offset(data: bytes) -> bytes:
+        nonlocal cur_name_off
+        strbuf_map[data] = cur_name_off
+        cur_name_off += len(data)
+        return data
+
+    strbuf_data = b''.join(add_strbuf_offset(data) for data in strbufs)
+
+    def name_idx_to_bytes(idx: Tuple[bytes, bytes]) -> bytes:
+        return struct.pack("<II", strbuf_map[idx[0]], strbuf_map[idx[1]])
+
+    ap_bin += len(foreign_items).to_bytes(4, 'little')
+    ap_bin += b''.join(name_idx_to_bytes(idx) for idx in foreign_items)
+    ap_bin += len(strbuf_data).to_bytes(4, 'little')
+    ap_bin += strbuf_data
+
+    ap_bin += b''.join(species[spec].id.to_bytes(2, 'little') for spec in world.generated_starters)
+    # this currently does not work (in the rom)
+    marill_spec = species[world.generated_marill].id
+    if world.random.randint(0,8191) == 0:
+        marill_spec |= 0x8000
+    ap_bin += marill_spec.to_bytes(2, 'little')
+
+    patch.write_file("ap.bin", ap_bin)
+
+
+    item_patches = {}
+    if world.options.reusable_tms.value == 1:
+        for lbl in world.item_name_groups["TMs and HMs"]:
+            id = items[raw_id_to_const_name[world.item_name_to_id[lbl]]].data_id
+            item_patches.setdefault(id, []).append(["PREVENT_TOSS", 1])
+
+    if len(item_patches) > 0:
+        patch.write_file("item_patches.json", json.dumps(item_patches).encode('utf-8'))
+
+    # structure: enc id -> table -> array of pairs (old species, new species)
+    encounter_patches: MutableMapping[int, MutableMapping[str, MutableSequence[Tuple[int, int]]]] = {}
+    bl = world.options.encounter_species_blacklist.blacklist()
+    enc_version = "hg" if world.options.version.value == VersionEnum.HEARTGOLD else "ss"
+    if world.options.randomize_encounters:
+        for header, encs in encounters.items():
+            tbls = encounter_patches.setdefault(encs.id, {})
+            for table in encounter_types:
+                e: Sequence[EncounterSlot] = getattr(encs, table)
+                if not e:
+                    continue
+                table_map = tbls.setdefault(table, [])
+                for i, slot in enumerate(e):
+                    if slot.version is not None and slot.version != enc_version:
+                        continue
+                    if (header, table, i) in world.generated_encounters:
+                        new_spec = world.generated_encounters[header, table, i]
+                    else:
+                        new_spec = world.ool_encounters[header, table, i]
+                    table_map.append((species[slot.species].id, species[new_spec].id))
+    if len(encounter_patches) > 0:
+        patch.write_file("encounter_patches.json", json.dumps(encounter_patches).encode('utf-8'))
+
+    # structure: trainer id -> array of party members
+    # party member: mapping str -> val, level is int, species is int (id), moves is sequence int (move ids)
+    trainer_party_patches = {}
+    bl = world.options.trainer_party_blacklist.blacklist()
+    trp_pool = [mon for mon in species if mon not in bl]
+    if world.options.randomize_trainer_parties:
+        common_st_map: MutableMapping[str, MutableMapping[str, str]] = {}
+        starter_evos: Sequence[Sequence[str]] = []
+        for st in world.generated_starters:
+            chain = [st]
+            while True:
+                if st not in evolutions:
+                    break
+                st = world.random.choice(evolutions[st])
+                chain.append(st)
+            starter_evos.append(chain)
+        for name, trainer in trainers.items():
+            if name.startswith("rival") or name.startswith("partner_rival"):
+                for starter in STARTER_IDX_MAP:
+                    if name.endswith(starter):
+                        name_ns = name[:-len(starter) - 1]
+                        break
+                else:
+                    assert False, f"trainer {name} does not end with starter"
+                new_party = []
+                tps = {v.species:i for i, v in enumerate(trainer_party_supporting_starters(name_ns))}
+                common_map = common_st_map.setdefault(name_ns, {})
+                for p in trainer.party:
+                    if p.species in tps and (name_ns, tps[p.species]) in world.generated_trainer_parties:
+                        new_spec = world.generated_trainer_parties[name_ns, tps[p.species]]
+                    elif p.species in STARTER_IDX_MAP:
+                        chain = starter_evos[STARTER_IDX_MAP[p.species]]
+                        level_for_nonlevel = 20
+                        for i, mon in enumerate(chain):
+                            pevo = species[mon].pre_evolution
+                            if pevo is not None:
+                                if pevo.level is not None:
+                                    if pevo.level > p.level:
+                                        break
+                                else:
+                                    if level_for_nonlevel > p.level:
+                                        break
+                                    else:
+                                        level_for_nonlevel += 20
+                        else:
+                            i = len(chain)
+                        new_spec = chain[max(0, i - 1)]
+                    elif p.species in common_map:
+                        new_spec = common_map[p.species]
+                    else:
+                        new_spec = world.random.choice(trp_pool)
+                        common_map[p.species] = new_spec
+                    np: Mapping[str, int | Sequence[int]] = {}
+                    np["level"] = p.level
+                    np["species"] = species[new_spec].id
+                    if p.num_moves == 0:
+                        np["moves"] = []
+                    else:
+                        move_pool = sorted(set(other_learnsets[new_spec]) | {move for level, move in species[new_spec].level_learnset if level <= p.level})
+                        np["moves"] = [moves[move].id for move in world.random.sample(move_pool, k=min(len(move_pool), p.num_moves))]
+                    new_party.append(np)
+                trainer_party_patches[trainer.id] = new_party
+            else:
+                new_party = []
+                for i, p in enumerate(trainer.party):
+                    if (name, i) in world.generated_trainer_parties:
+                        new_spec = world.generated_trainer_parties[name, i]
+                    else:
+                        new_spec = world.random.choice(trp_pool)
+                    np: Mapping[str, int | Sequence[int]] = {}
+                    np["level"] = p.level
+                    np["species"] = species[new_spec].id
+                    if p.num_moves == 0:
+                        np["moves"] = []
+                    else:
+                        move_pool = sorted(set(other_learnsets[new_spec]) | {move for level, move in species[new_spec].level_learnset if level <= p.level})
+                        np["moves"] = [moves[move].id for move in world.random.sample(move_pool, k=min(len(move_pool), p.num_moves))]
+                    new_party.append(np)
+                trainer_party_patches[trainer.id] = new_party
+    elif world.options.randomize_starters:
+        common_st_map: MutableMapping[str, MutableMapping[str, str]] = {}
+        starter_evos: Sequence[Sequence[str]] = []
+        for st in world.generated_starters:
+            chain = [st]
+            while True:
+                if st not in evolutions:
+                    break
+                st = world.random.choice(evolutions[st])
+                chain.append(st)
+            starter_evos.append(chain)
+        for name, trainer in trainers.items():
+            if name.startswith("rival") or name.startswith("partner_rival"):
+                for starter in STARTER_IDX_MAP:
+                    if name.endswith(starter):
+                        name_ns = name[:-len(starter) - 1]
+                        break
+                else:
+                    assert False, f"trainer {name} does not end with starter"
+                new_party = []
+                tps = {v.species:i for i, v in enumerate(trainer_party_supporting_starters(name_ns))}
+                common_map = common_st_map.setdefault(name_ns, {})
+                for p in trainer.party:
+                    if p.species in tps and (name_ns, tps[p.species]) in world.generated_trainer_parties:
+                        new_spec = world.generated_trainer_parties[name_ns, tps[p.species]]
+                        is_randomized = True
+                    elif p.species in STARTER_IDX_MAP:
+                        chain = starter_evos[STARTER_IDX_MAP[p.species]]
+                        level_for_nonlevel = 20
+                        for i, mon in enumerate(chain):
+                            pevo = species[mon].pre_evolution
+                            if pevo is not None:
+                                if pevo.level is not None:
+                                    if pevo.level > p.level:
+                                        break
+                                else:
+                                    if level_for_nonlevel > p.level:
+                                        break
+                                    else:
+                                        level_for_nonlevel += 20
+                        else:
+                            i = len(chain)
+                        new_spec = chain[max(0, i - 1)]
+                        is_randomized = True
+                    elif p.species in common_map:
+                        new_spec = common_map[p.species]
+                        is_randomized = False
+                    else:
+                        new_spec = p.species
+                        common_map[p.species] = new_spec
+                        is_randomized = False
+                    np: Mapping[str, int | Sequence[int]] = {}
+                    np["level"] = p.level
+                    np["species"] = species[new_spec].id
+                    if p.num_moves == 0 or not is_randomized:
+                        np["moves"] = []
+                    else:
+                        move_pool = sorted(set(other_learnsets[new_spec]) | {move for level, move in species[new_spec].level_learnset if level <= p.level})
+                        np["moves"] = [moves[move].id for move in world.random.sample(move_pool, k=min(len(move_pool), p.num_moves))]
+                    new_party.append(np)
+                trainer_party_patches[trainer.id] = new_party
+    if len(trainer_party_patches) > 0:
+        patch.write_file("trainer_party_patches.json", json.dumps(trainer_party_patches).encode('utf-8'))
+
+    species_patches = {}
+    for mon, seq in world.added_hm_compatibility.items():
+        patches: MutableMapping[str, Any] = species_patches.setdefault(species[mon].id, {})
+        patches.setdefault("add_tmhm_compat", []).extend(hm.tmhm_id() for hm in seq)
+    if world.options.tmhm_compatibility != TMHMCompatibility.option_none:
+        if world.options.tmhm_compatibility == TMHMCompatibility.option_all:
+            compat_to_add = list(range(0, 104))
+        else:
+            compat_to_add = [hm.tmhm_id() for hm in Hm]
+        for spec in species.values():
+            patches: MutableMapping[str, Any] = species_patches.setdefault(spec.id, {})
+            patches.setdefault("add_tmhm_compat", []).extend(compat_to_add)
+    if len(species_patches) > 0:
+        patch.write_file("species_patches.json", json.dumps(species_patches).encode('utf-8'))
+
+    move_patches: Mapping[int, MutableSequence[Tuple[str, Any]]] = {}
+    move_rando = world.options.move_randomization
+    match move_rando.type:
+        case "yes":
+            pokemon_types = [int(v) for v in PokemonType]
+            for move in moves.values():
+                move_patches.setdefault(move.id, []).append(("set_type", world.random.choice(pokemon_types)))
+        case "shuffle":
+            pokemon_types = [int(v.type) for v in moves.values()]
+            world.random.shuffle(pokemon_types)
+            for i, move in enumerate(moves.values()):
+                move_patches.setdefault(move.id, []).append(("set_type", pokemon_types[i]))
+        case "no":
+            pass
+
+    match move_rando.accuracy:
+        case "yes":
+            lower, upper = min(v.accuracy for v in moves.values()), max(v.accuracy for v in moves.values())
+            for move in moves.values():
+                move_patches.setdefault(move.id, []).append(("set_accuracy", world.random.randint(lower, upper)))
+        case "shuffle":
+            accuracies = [v.accuracy for v in moves.values()]
+            world.random.shuffle(accuracies)
+            for i, move in enumerate(moves.values()):
+                move_patches.setdefault(move.id, []).append(("set_accuracy", accuracies[i]))
+        case "no":
+            pass
+
+    match move_rando.pp:
+        case "yes":
+            lower, upper = min(v.pp for v in moves.values()), max(v.pp for v in moves.values())
+            for move in moves.values():
+                move_patches.setdefault(move.id, []).append(("set_pp", world.random.randint(lower, upper)))
+        case "shuffle":
+            pps = [v.pp for v in moves.values()]
+            world.random.shuffle(pps)
+            for i, move in enumerate(moves.values()):
+                move_patches.setdefault(move.id, []).append(("set_pp", pps[i]))
+        case "no":
+            pass
+
+    match move_rando.priority:
+        case "yes":
+            lower, upper = min(v.priority for v in moves.values()), max(v.priority for v in moves.values())
+            for move in moves.values():
+                move_patches.setdefault(move.id, []).append(("set_priority", world.random.randint(lower, upper)))
+        case "shuffle":
+            priorities = [v.priority for v in moves.values()]
+            world.random.shuffle(priorities)
+            for i, move in enumerate(moves.values()):
+                move_patches.setdefault(move.id, []).append(("set_priority", priorities[i]))
+        case "no":
+            pass
+
+    if move_patches:
+        patch.write_file("move_patches.json", json.dumps(move_patches).encode('utf-8'))
+
+    patch.write_file("world_version.bin", WORLD_VERSION_NUM.to_bytes(4, 'little'))
+
+    out_file_name = world.multiworld.get_out_file_name_base(world.player)
+    patch.write(os.path.join(output_directory, f"{out_file_name}{patch.patch_file_ending}"))

@@ -2783,6 +2783,7 @@ id = 420
 group = "tmhms"
 clas = "bagitem"
 data_id = 398
+classification = "progression"
 
 [hm02]
 label = "HM02"
@@ -2790,6 +2791,7 @@ id = 421
 group = "tmhms"
 clas = "bagitem"
 data_id = 399
+classification = "progression"
 
 [hm03]
 label = "HM03"
@@ -2797,6 +2799,7 @@ id = 422
 group = "tmhms"
 clas = "bagitem"
 data_id = 400
+classification = "progression"
 
 [hm04]
 label = "HM04"
@@ -2804,6 +2807,7 @@ id = 423
 group = "tmhms"
 clas = "bagitem"
 data_id = 401
+classification = "progression"
 
 [hm05]
 label = "HM05"
@@ -2811,6 +2815,7 @@ id = 424
 group = "tmhms"
 clas = "bagitem"
 data_id = 402
+classification = "progression"
 
 [hm06]
 label = "HM06"
@@ -2818,6 +2823,7 @@ id = 425
 group = "tmhms"
 clas = "bagitem"
 data_id = 403
+classification = "progression"
 
 [hm07]
 label = "HM07"
@@ -2825,6 +2831,7 @@ id = 426
 group = "tmhms"
 clas = "bagitem"
 data_id = 404
+classification = "progression"
 
 [hm08]
 label = "HM08"
@@ -2832,6 +2839,7 @@ id = 427
 group = "tmhms"
 clas = "bagitem"
 data_id = 405
+classification = "progression"
 
 [loot_sack]
 label = "Loot Sack"
@@ -2951,6 +2959,7 @@ id = 445
 group = "key_items"
 clas = "bagitem"
 data_id = 422
+classification = "progression"
 
 [good_rod]
 label = "Good Rod"
@@ -2958,6 +2967,7 @@ id = 446
 group = "key_items"
 clas = "bagitem"
 data_id = 423
+classification = "progression"
 
 [super_rod]
 label = "Super Rod"
@@ -2965,6 +2975,7 @@ id = 447
 group = "key_items"
 clas = "bagitem"
 data_id = 424
+classification = "progression"
 
 [sprayduck]
 label = "Sprayduck"
@@ -3609,56 +3620,56 @@ data_id = 515
 id = 0
 label = "Zephyr Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [hive_badge]
 id = 1
 label = "Hive Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [plain_badge]
 id = 2
 label = "Plain Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [fog_badge]
 id = 3
 label = "Fog Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [storm_badge]
 id = 4
 label = "Storm Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [mineral_badge]
 id = 5
 label = "Mineral Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [glacier_badge]
 id = 6
 label = "Glacier Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [rising_badge]
 id = 7
 label = "Rising Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 
@@ -3666,54 +3677,121 @@ classification = "progression"
 id = 8
 label = "Boulder Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [cascade_badge]
 id = 9
 label = "Cascade Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [thunder_badge]
 id = 10
 label = "Thunder Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [rainbow_badge]
 id = 11
 label = "Rainbow Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [soul_badge]
 id = 12
 label = "Soul Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [marsh_badge]
 id = 13
 label = "Marsh Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [volcano_badge]
 id = 14
 label = "Volcano Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
 classification = "progression"
 
 [earth_badge]
 id = 15
 label = "Earth Badge"
 group = "badges"
-clas = "badge"
+clas = "special"
+classification = "progression"
+
+[pokedex]
+id = 16
+label = "Upgradable Pokedex"
+clas = "special"
+group = "pokedex"
+classification = "progression"
+
+[running_shoes]
+id = 17
+label = "Running Shoes"
+clas = "special"
+group = "running_shoes"
+classification = "useful"
+
+[morning]
+id = 18
+label = "Morning-time"
+clas = "special"
+group = "time"
+classification = "progression"
+
+[day]
+id = 19
+label = "Daytime"
+clas = "special"
+group = "time"
+classification = "progression"
+
+[night]
+id = 20
+label = "Nighttime"
+clas = "special"
+group = "time"
+classification = "progression"
+
+[pokemon_march_sound]
+id = 21
+label = "Pokemon March Sound"
+clas = "special"
+group = "sound"
+
+[lullaby_sound]
+id = 22
+label = "Lullaby Sound"
+clas = "special"
+group = "sound"
+
+[pokemon_past_archive_sound]
+id = 23
+label = "Pokemon Past Archive Sound"
+clas = "special"
+group = "sound"
+
+[hoenn_sound]
+id = 24
+label = "Hoenn Sound"
+clas = "special"
+group = "sound"
+classification = "progression"
+
+[sinnoh_sound]
+id = 25
+label = "Sinnoh Sound"
+clas = "special"
+group = "sound"
 classification = "progression"

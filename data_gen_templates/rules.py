@@ -73,37 +73,40 @@ class Rules:
         nmd = frozenset(acc for acc in accessibility if acc in self.encounter_type_rules)
         if nmd in self.cached_enc_accessibility_rules:
             return self.cached_enc_accessibility_rules[nmd]
-        rule = Or(*[self.encounter_type_rules[acc] for acc in accessibility if acc in self.encounter_type_rules])
+        if len(nmd) == 0:
+            rule = True_()
+        else:
+            rule = Or(*[self.encounter_type_rules[acc] for acc in accessibility if acc in self.encounter_type_rules])
         self.cached_enc_accessibility_rules[nmd] = rule
         return rule
 
     def get_pevo_rule(self, pevo: species.PreEvolution, options: "PokemonHgssOptions") -> Rule | None:
         mthd = pevo.method
         reqd_items = [f"mon_{pevo.species}"]
-        if mthd.startswith("trade"):
-            reqd_items.append(items.items["linking_cord"].label)
-        if mthd.endswith("day"):
-            reqd_items.append(items.items["daytime"].label)
-        elif mthd.endswith("night"):
-            reqd_items.append(items.items["nighttime"].label)
-        if pevo.item is not None:
-            reqd_items.append(pevo.item)
-            if not ((options.reusable_tms if pevo.item.startswith("TM") else pevo.item in items.reusable_evo_items) or options.evo_items_shop_in_ap_helper):
-                reqd_items.append("event_goldenrod_store")
-        elif pevo.other_species is not None:
-            reqd_items.append(f"mon_{pevo.other_species}")
-        if mthd == "level_magnetic_field":
-            reqd_items.append("event_magnetic_field")
-        elif mthd == "level_moss_rock":
-            reqd_items.append("event_moss_rock")
-        elif mthd == "level_ice_rock":
-            reqd_items.append("event_ice_rock")
-        if mthd in {"level_atk_gt_def", "level_atk_eq_def", "level_atk_lt_def"}:
-            reqd_items.append("event_goldenrod_store")
-        if "beauty" in mthd:
-            # TODO
-            #reqd_items.extend(["event_veilstone_city", items.items["poffin_case"].label, "event_hearthome_city", items.items["bag"].label])
-            pass
+        #if mthd.startswith("trade"):
+        #    reqd_items.append(items.items["linking_cord"].label)
+        #if mthd.endswith("day"):
+        #    reqd_items.append(items.items["daytime"].label)
+        #elif mthd.endswith("night"):
+        #    reqd_items.append(items.items["nighttime"].label)
+        #if pevo.item is not None:
+        #    reqd_items.append(pevo.item)
+        #    if not ((options.reusable_tms if pevo.item.startswith("TM") else pevo.item in items.reusable_evo_items) or options.evo_items_shop_in_ap_helper):
+        #        reqd_items.append("event_goldenrod_store")
+        #elif pevo.other_species is not None:
+        #    reqd_items.append(f"mon_{pevo.other_species}")
+        #if mthd == "level_magnetic_field":
+        #    reqd_items.append("event_magnetic_field")
+        #elif mthd == "level_moss_rock":
+        #    reqd_items.append("event_moss_rock")
+        #elif mthd == "level_ice_rock":
+        #    reqd_items.append("event_ice_rock")
+        #if mthd in {"level_atk_gt_def", "level_atk_eq_def", "level_atk_lt_def"}:
+        #    reqd_items.append("event_goldenrod_store")
+        #if "beauty" in mthd:
+        #    # TODO
+        #    #reqd_items.extend(["event_veilstone_city", items.items["poffin_case"].label, "event_hearthome_city", items.items["bag"].label])
+        #    pass
 
         return HasAll(*reqd_items)
 

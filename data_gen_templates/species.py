@@ -7,7 +7,7 @@ from collections.abc import Mapping, MutableSet, Sequence, Set
 from dataclasses import dataclass
 from enum import IntEnum
 from typing import Tuple
-from . import Hm
+from . import Hm, tm_moves
 
 class PokemonType(IntEnum):
     DUMMY = 0 # TEMPLATE: DELETE
@@ -27,16 +27,28 @@ class SpeciesData:
     id: int
     label: str
     level_learnset: Sequence[Tuple[int, str]]
-    other_learnset: Sequence[str]
+    tm_learnset: Sequence[int]
+    tutor_learnset: Sequence[str]
     pre_evolution: PreEvolution | None = None
+
+    def other_learnset(self) -> Sequence[str]:
+        ret = [tm_moves[i] for i in self.tm_learnset]
+        ret.extend(self.tutor_learnset)
+        return ret
 
 species: Mapping[str, SpeciesData] = {
     # TEMPLATE: SPECIES
 }
 
+regional_mons: Sequence[str] = [
+    # TEMPLATE: REGIONAL_SPECIES
+]
+
 legendary_mons: Sequence[str] = [
     # TEMPLATE: LEGENDARY_SPECIES
 ]
+
+other_learnsets: Mapping[str, Sequence[str]] = {k:v.other_learnset() for k, v in species.items()}
 
 species_id_to_const_name: Mapping[int, str] = {v.id:k for k, v in species.items()}
 

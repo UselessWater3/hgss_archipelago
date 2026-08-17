@@ -6,18 +6,14 @@
 loc_table.base = 0
 loc_table.overworld = 1
 loc_table.hidden = 2
-loc_table.once = 3
-loc_table.dex = 4
-loc_table.trainers = 5
+loc_table.dex = 3
+loc_table.trainers = 4
 
 item_clas.bagitem = 0
 item_clas.multibagitem0 = 1
 item_clas.multibagitem1 = 2
 item_clas.multibagitem2 = 3
 item_clas.specialbagitem = 4
-item_clas.poketchapp = 5
-item_clas.badge = 6
-item_clas.accessory = 7
 item_clas.remote0 = 0xC
 item_clas.remote1 = 0xD
 item_clas.special = 0xE
@@ -55,12 +51,13 @@ item_group.battle_items = "Battle Items"
 item_group.key_items = "Key Items"
 item_group.badges = "Badges"
 item_group.berries = "Berries"
-#item_group.pokedex = "Pokédex"
+item_group.pokedex = "Pokédex"
 item_group.balls = "Balls"
 item_group.tmhms = "TMs and HMs"
 item_group.medicine = "Medicine"
 item_group.mail = "Mail"
-#item_group.timeitem = "Time Items"
+item_group.time = "Time Items"
+item_group.sound = "Sound Items"
 #item_group.field_moves = "Field Machines"
 #item_group.hms = "HMs (actually Field Machines)"
 
@@ -113,4 +110,107 @@ types = [
     "ice",
     "dragon",
     "dark",
+]
+
+tm_moves = [
+    "focus_punch",
+    "dragon_claw",
+    "water_pulse",
+    "calm_mind",
+    "roar",
+    "toxic",
+    "hail",
+    "bulk_up",
+    "bullet_seed",
+    "hidden_power",
+    "sunny_day",
+    "taunt",
+    "ice_beam",
+    "blizzard",
+    "hyper_beam",
+    "light_screen",
+    "protect",
+    "rain_dance",
+    "giga_drain",
+    "safeguard",
+    "frustration",
+    "solar_beam",
+    "iron_tail",
+    "thunderbolt",
+    "thunder",
+    "earthquake",
+    "return",
+    "dig",
+    "psychic",
+    "shadow_ball",
+    "brick_break",
+    "double_team",
+    "reflect",
+    "shock_wave",
+    "flamethrower",
+    "sludge_bomb",
+    "sandstorm",
+    "fire_blast",
+    "rock_tomb",
+    "aerial_ace",
+    "torment",
+    "facade",
+    "secret_power",
+    "rest",
+    "attract",
+    "thief",
+    "steel_wing",
+    "skill_swap",
+    "snatch",
+    "overheat",
+    "roost",
+    "focus_blast",
+    "energy_ball",
+    "false_swipe",
+    "brine",
+    "fling",
+    "charge_beam",
+    "endure",
+    "dragon_pulse",
+    "drain_punch",
+    "will_o_wisp",
+    "silver_wind",
+    "embargo",
+    "explosion",
+    "shadow_claw",
+    "payback",
+    "recycle",
+    "giga_impact",
+    "rock_polish",
+    "flash",
+    "stone_edge",
+    "avalanche",
+    "thunder_wave",
+    "gyro_ball",
+    "swords_dance",
+    "stealth_rock",
+    "psych_up",
+    "captivate",
+    "dark_pulse",
+    "rock_slide",
+    "x_scissor",
+    "sleep_talk",
+    "natural_gift",
+    "poison_jab",
+    "dream_eater",
+    "grass_knot",
+    "swagger",
+    "pluck",
+    "u_turn",
+    "substitute",
+    "flash_cannon",
+    "trick_room",
+    "cut",
+    "fly",
+    "surf",
+    "strength",
+    "whirlpool",
+    "rock_smash",
+    "waterfall",
+    "rock_climb",
 ]

@@ -3,23 +3,23 @@ id = 0
 label = "₧₦ Trainer  -"
 party = []
 
-[rival_silver]
+[rival_silver_azalea_totodile]
 id = 1
-label = "Rival Silver"
+label = "Azalea - Rival"
 party = [
     { species = "gastly", level = 14 },
     { species = "zubat", level = 16 },
     { species = "bayleef", level = 18 },
 ]
 
-[rival_silver_2]
+[rival_silver_dummy_chikorita]
 id = 2
 label = "Rival Silver 2"
 party = [
     { species = "cyndaquil", level = 5 },
 ]
 
-[rival_silver_3]
+[rival_silver_dummy_cyndaquil]
 id = 3
 label = "Rival Silver 3"
 party = [
@@ -104,7 +104,7 @@ party = [
 
 [team_rocket_f_grunt]
 id = 13
-label = "SLOWPOKE Well - Team Rocket Grunt"
+label = "SLOWPOKE Well - Team Rocket Grunt F"
 party = [
     { species = "zubat", level = 9 },
     { species = "ekans", level = 11 },
@@ -2171,9 +2171,9 @@ party = [
     { species = "arbok", level = 30 },
 ]
 
-[rival_silver_4]
+[rival_silver_burned_tower_totodile]
 id = 263
-label = "Rival Silver 4"
+label = "Burned Tower - Rival"
 party = [
     { species = "gastly", level = 20, num_moves = 4 },
     { species = "magnemite", level = 18, num_moves = 4 },
@@ -2181,9 +2181,9 @@ party = [
     { species = "bayleef", level = 22, num_moves = 4 },
 ]
 
-[rival_silver_5]
+[rival_silver_victory_road_3f_totodile]
 id = 264
-label = "Rival Silver 5"
+label = "Victory Road 3F - Rival"
 party = [
     { species = "sneasel", level = 36, num_moves = 4 },
     { species = "golbat", level = 38, num_moves = 4 },
@@ -2193,25 +2193,25 @@ party = [
     { species = "meganium", level = 40, num_moves = 4 },
 ]
 
-[rival_silver_6]
+[rival_silver_dummy_totodile]
 id = 265
 label = "Rival Silver 6"
 party = [
     { species = "chikorita", level = 5 },
 ]
 
-[rival_silver_7]
+[rival_silver_azalea_chikorita]
 id = 266
-label = "Rival Silver 7"
+label = "Azalea - Rival"
 party = [
     { species = "gastly", level = 14 },
     { species = "zubat", level = 16 },
     { species = "quilava", level = 18 },
 ]
 
-[rival_silver_8]
+[rival_silver_burned_tower_chikorita]
 id = 267
-label = "Rival Silver 8"
+label = "Burned Tower - Rival"
 party = [
     { species = "gastly", level = 20, num_moves = 4 },
     { species = "magnemite", level = 18, num_moves = 4 },
@@ -2219,9 +2219,9 @@ party = [
     { species = "quilava", level = 22, num_moves = 4 },
 ]
 
-[rival_silver_9]
+[rival_silver_victory_road_3f_chikorita]
 id = 268
-label = "Rival Silver 9"
+label = "Victory Road 3F - Rival"
 party = [
     { species = "sneasel", level = 36, num_moves = 4 },
     { species = "golbat", level = 38, num_moves = 4 },
@@ -2231,18 +2231,18 @@ party = [
     { species = "typhlosion", level = 40, num_moves = 4 },
 ]
 
-[rival_silver_10]
+[rival_silver_azalea_cyndaquil]
 id = 269
-label = "Rival Silver 10"
+label = "Azalea - Rival"
 party = [
     { species = "gastly", level = 14 },
     { species = "zubat", level = 16 },
     { species = "croconaw", level = 18 },
 ]
 
-[rival_silver_11]
+[rival_silver_burned_tower_cyndaquil]
 id = 270
-label = "Rival Silver 11"
+label = "Burned Tower - Rival"
 party = [
     { species = "gastly", level = 20, num_moves = 4 },
     { species = "magnemite", level = 18, num_moves = 4 },
@@ -2250,9 +2250,9 @@ party = [
     { species = "croconaw", level = 22, num_moves = 4 },
 ]
 
-[rival_silver_12]
+[rival_silver_goldenrod_tunnel_b2f_cyndaquil]
 id = 271
-label = "Rival Silver 12"
+label = "Goldenrod Tunnel B2F - Rival"
 party = [
     { species = "golbat", level = 30, num_moves = 4 },
     { species = "magnemite", level = 28, num_moves = 4 },
@@ -2261,9 +2261,9 @@ party = [
     { species = "feraligatr", level = 32, num_moves = 4 },
 ]
 
-[rival_silver_13]
+[rival_silver_victory_road_3f_cyndaquil]
 id = 272
-label = "Rival Silver 13"
+label = "Victory Road 3F - Rival"
 party = [
     { species = "sneasel", level = 36, num_moves = 4 },
     { species = "golbat", level = 38, num_moves = 4 },
@@ -2376,9 +2376,9 @@ party = [
     { species = "koffing", level = 38 },
 ]
 
-[rival_silver_14]
+[rival_silver_mount_moon_totodile]
 id = 285
-label = "Rival Silver 14"
+label = "Mount Moon - Rival"
 party = [
     { species = "sneasel", level = 46, num_moves = 4 },
     { species = "golbat", level = 47, num_moves = 4 },
@@ -2388,9 +2388,9 @@ party = [
     { species = "meganium", level = 50, num_moves = 4 },
 ]
 
-[rival_silver_15]
+[rival_silver_mount_moon_chikorita]
 id = 286
-label = "Rival Silver 15"
+label = "Mount Moon - Rival"
 party = [
     { species = "sneasel", level = 46, num_moves = 4 },
     { species = "golbat", level = 47, num_moves = 4 },
@@ -2400,9 +2400,9 @@ party = [
     { species = "typhlosion", level = 50, num_moves = 4 },
 ]
 
-[rival_silver_16]
+[rival_silver_mount_moon_cyndaquil]
 id = 287
-label = "Rival Silver 16"
+label = "Mount Moon - Rival"
 party = [
     { species = "sneasel", level = 46, num_moves = 4 },
     { species = "golbat", level = 47, num_moves = 4 },
@@ -2412,9 +2412,9 @@ party = [
     { species = "feraligatr", level = 50, num_moves = 4 },
 ]
 
-[rival_silver_17]
+[rival_silver_goldenrod_tunnel_b2f_totodile]
 id = 288
-label = "Rival Silver 17"
+label = "Goldenrod Tunnel B2F - Rival"
 party = [
     { species = "golbat", level = 32, num_moves = 4 },
     { species = "magnemite", level = 30, num_moves = 4 },
@@ -2423,9 +2423,9 @@ party = [
     { species = "meganium", level = 34, num_moves = 4 },
 ]
 
-[rival_silver_18]
+[rival_silver_goldenrod_tunnel_b2f_chikorita]
 id = 289
-label = "Rival Silver 18"
+label = "Goldenrod Tunnel B2F - Rival"
 party = [
     { species = "golbat", level = 32, num_moves = 4 },
     { species = "magnemite", level = 30, num_moves = 4 },
@@ -4065,9 +4065,9 @@ party = [
     { species = "koffing", level = 22 },
 ]
 
-[rival_silver_19]
+[rival_silver_pokemon_league_entrance_totodile]
 id = 489
-label = "Rival Silver 19"
+label = "Pokemon League Entrance - Rival"
 party = [
     { species = "sneasel", level = 55, num_moves = 4 },
     { species = "crobat", level = 58, num_moves = 4 },
@@ -4077,9 +4077,9 @@ party = [
     { species = "meganium", level = 60, num_moves = 4 },
 ]
 
-[rival_silver_20]
+[rival_silver_pokemon_league_entrance_chikorita]
 id = 490
-label = "Rival Silver 20"
+label = "Pokemon League Entrance - Rival"
 party = [
     { species = "sneasel", level = 55, num_moves = 4 },
     { species = "crobat", level = 58, num_moves = 4 },
@@ -4089,9 +4089,9 @@ party = [
     { species = "typhlosion", level = 60, num_moves = 4 },
 ]
 
-[rival_silver_21]
+[rival_silver_pokemon_league_entrance_cyndaquil]
 id = 491
-label = "Rival Silver 21"
+label = "Pokemon League Entrance - Rival"
 party = [
     { species = "sneasel", level = 55, num_moves = 4 },
     { species = "crobat", level = 58, num_moves = 4 },
@@ -4128,23 +4128,23 @@ party = [
     { species = "gastly", level = 16 },
 ]
 
-[passerby_boy]
+[rival_silver_cherrygrove_totodile]
 id = 495
-label = "Passerby Boy"
+label = "Cherrygrove - Rival"
 party = [
     { species = "chikorita", level = 5 },
 ]
 
-[passerby_boy_2]
+[rival_silver_cherrygrove_chikorita]
 id = 496
-label = "Passerby Boy 2"
+label = "Cherrygrove - Rival"
 party = [
     { species = "cyndaquil", level = 5 },
 ]
 
-[passerby_boy_3]
+[rival_silver_cherrygrove_cyndaquil]
 id = 497
-label = "Passerby Boy 3"
+label = "Cherrygrove - Rival"
 party = [
     { species = "totodile", level = 5 },
 ]
@@ -6174,7 +6174,7 @@ party = [
     { species = "dragonite", level = 60, num_moves = 4 },
 ]
 
-[partner_rival_1]
+[partner_rival_totodile]
 id = 735
 label = "Rival Silver 1"
 party = [
@@ -6183,7 +6183,7 @@ party = [
     { species = "gengar", level = 56, num_moves = 4 },
 ]
 
-[partner_rival_2]
+[partner_rival_chikorita]
 id = 736
 label = "Rival Silver 2"
 party = [
@@ -6192,7 +6192,7 @@ party = [
     { species = "gengar", level = 56, num_moves = 4 },
 ]
 
-[partner_rival_3]
+[partner_rival_cyndaquil]
 id = 737
 label = "Rival Silver 3"
 party = [

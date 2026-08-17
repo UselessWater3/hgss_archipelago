@@ -1,8787 +1,8787 @@
-[T20]
+[t20]
 id = 0
 
-[[T20.water]]
+[[t20.water]]
 species = "tentacool"
 accessibility = [
+    "surf",
     "good_rod",
     "old_rod",
-    "surf",
     "surf_swarms",
 ]
 
-[[T20.water]]
+[[t20.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[T20.water]]
+[[t20.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[T20.water]]
+[[t20.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[T20.water]]
+[[t20.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[T20.water]]
+[[t20.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[R29]
+[r29]
 id = 1
 
-[[R29.land]]
+[[r29.land]]
 species = "pidgey"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 
-[[R29.land]]
+[[r29.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R29.land]]
+[[r29.land]]
 species = "sentret"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R29.land]]
+[[r29.land]]
 species = "rattata"
 
-[[R29.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R29.land]]
+[[r29.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R29.land]]
+[[r29.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[T21]
-id = 2
-
-[[T21.water]]
-species = "tentacool"
+[[r29.land]]
+species = "shinx"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[T21.water]]
+[t21]
+id = 2
+
+[[t21.water]]
+species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[t21.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[T21.water]]
+[[t21.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[T21.water]]
+[[t21.water]]
 species = "staryu"
 accessibility = [
     "fishing_night",
 ]
 
-[[T21.water]]
+[[t21.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[T21.water]]
+[[t21.water]]
 species = "corsola"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[T21.water]]
+[[t21.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[R30]
+[r30]
 id = 3
 
-[[R30.land]]
+[[r30.land]]
 species = "ledyba"
 accessibility = [
-    "morning",
     "land_swarms",
+    "morning",
 ]
 version = "ss"
 
-[[R30.land]]
+[[r30.land]]
 species = "pidgey"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[R30.land]]
+[[r30.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R30.land]]
+[[r30.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R30.land]]
+[[r30.land]]
 species = "spinarak"
 accessibility = [
     "night",
 ]
 version = "hg"
 
-[[R30.land]]
+[[r30.land]]
 species = "weedle"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R30.land]]
+[[r30.land]]
 species = "caterpie"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R30.land]]
+[[r30.land]]
 species = "rattata"
 accessibility = [
     "night",
 ]
 
-[[R30.land]]
+[[r30.land]]
 species = "kakuna"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R30.land]]
+[[r30.land]]
 species = "metapod"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R30.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R30.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R30.land]]
+[[r30.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R30.land]]
+[[r30.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R30.water]]
+[[r30.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r30.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r30.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R30.water]]
+[[r30.water]]
 species = "poliwhirl"
 accessibility = [
     "surf",
 ]
 
-[[R30.water]]
+[[r30.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[R31]
+[r31]
 id = 4
 
-[[R31.land]]
+[[r31.land]]
 species = "ledyba"
 accessibility = [
-    "morning",
     "land_swarms",
+    "morning",
 ]
 version = "ss"
 
-[[R31.land]]
+[[r31.land]]
 species = "pidgey"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[R31.land]]
+[[r31.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R31.land]]
+[[r31.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R31.land]]
+[[r31.land]]
 species = "spinarak"
 accessibility = [
     "night",
 ]
 version = "hg"
 
-[[R31.land]]
+[[r31.land]]
 species = "weedle"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R31.land]]
+[[r31.land]]
 species = "caterpie"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R31.land]]
+[[r31.land]]
 species = "rattata"
 accessibility = [
     "night",
 ]
 
-[[R31.land]]
+[[r31.land]]
 species = "bellsprout"
 
-[[R31.land]]
+[[r31.land]]
 species = "kakuna"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R31.land]]
+[[r31.land]]
 species = "metapod"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R31.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R31.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R31.land]]
+[[r31.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R31.land]]
+[[r31.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R31.water]]
+[[r31.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r31.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r31.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R31.water]]
+[[r31.water]]
 species = "poliwhirl"
 accessibility = [
     "surf",
 ]
 
-[[R31.water]]
+[[r31.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[T22]
+[t22]
 id = 5
 
-[[T22.water]]
+[[t22.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[T22.water]]
+[[t22.water]]
 species = "poliwhirl"
 accessibility = [
     "surf",
 ]
 
-[[T22.water]]
+[[t22.water]]
 species = "whiscash"
 accessibility = [
     "fishing_swarms",
 ]
 
-[[T22.water]]
+[[t22.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[D15R0102]
+[d15r0102]
 id = 6
 
-[[D15R0102.land]]
+[[d15r0102.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D15R0102.land]]
+[[d15r0102.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D15R0102.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D15R0102.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D15R0102.land]]
+[[d15r0102.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D15R0102.land]]
+[[d15r0102.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D15R0103]
+[[d15r0102.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d15r0102.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d15r0103]
 id = 7
 
-[[D15R0103.land]]
+[[d15r0103.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D15R0103.land]]
+[[d15r0103.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D15R0103.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D15R0103.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D15R0103.land]]
+[[d15r0103.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D15R0103.land]]
+[[d15r0103.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[R32]
-id = 8
-
-[[R32.land]]
-species = "bellsprout"
+[[d15r0103.land]]
+species = "chatot"
 accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
+    "sinnoh",
 ]
 
-[[R32.land]]
+[[d15r0103.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[r32]
+id = 8
+
+[[r32.land]]
+species = "bellsprout"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[r32.land]]
 species = "wooper"
 accessibility = [
     "night",
 ]
 
-[[R32.land]]
+[[r32.land]]
 species = "ekans"
 version = "ss"
 
-[[R32.land]]
+[[r32.land]]
 species = "rattata"
 version = "hg"
 
-[[R32.land]]
+[[r32.land]]
 species = "mareep"
 
-[[R32.land]]
+[[r32.land]]
 species = "hoppip"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R32.land]]
+[[r32.land]]
 species = "rattata"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R32.land]]
+[[r32.land]]
 species = "zubat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 
-[[R32.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R32.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R32.land]]
+[[r32.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R32.land]]
+[[r32.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R32.water]]
+[[r32.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r32.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r32.water]]
 species = "tentacool"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R32.water]]
+[[r32.water]]
 species = "quagsire"
 accessibility = [
     "surf",
 ]
 
-[[R32.water]]
+[[r32.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[R32.water]]
+[[r32.water]]
 species = "qwilfish"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "super_rod",
+    "fishing_swarms",
 ]
 
-[[R32.water]]
+[[r32.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[D24R0101]
+[d24r0101]
 id = 9
 rock_smash = [
     { species = "geodude" },
 ]
 
-[[D24R0101.land]]
+[[d24r0101.land]]
 species = "natu"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D24R0101.land]]
+[[d24r0101.land]]
 species = "smeargle"
 
-[[D24R0101.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[D24R0101.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[D24R0101.land]]
+[[d24r0101.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[D24R0101.land]]
+[[d24r0101.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[D24R0101.water]]
-species = "wooper"
+[[d24r0101.land]]
+species = "buizel"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[D24R0101.water]]
+[[d24r0101.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[d24r0101.water]]
+species = "wooper"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[d24r0101.water]]
 species = "quagsire"
 accessibility = [
     "surf",
 ]
 
-[[D24R0101.water]]
+[[d24r0101.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[D24R0101.water]]
+[[d24r0101.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[D24R0205]
+[d24r0205]
 id = 10
 
-[[D24R0205.land]]
+[[d24r0205.land]]
 species = "unown"
 accessibility = [
-    "night",
-    "hoenn",
-    "morning",
-    "land_swarms",
-    "sinnoh",
     "day",
+    "night",
+    "land_swarms",
+    "hoenn",
+    "sinnoh",
+    "morning",
 ]
 
-[D24R0216]
+[d24r0216]
 id = 11
 
-[[D24R0216.land]]
+[[d24r0216.land]]
 species = "unown"
 accessibility = [
-    "night",
-    "hoenn",
-    "morning",
-    "land_swarms",
-    "sinnoh",
     "day",
+    "night",
+    "land_swarms",
+    "hoenn",
+    "sinnoh",
+    "morning",
 ]
 
-[D24R0218]
+[d24r0218]
 id = 12
 
-[[D24R0218.land]]
+[[d24r0218.land]]
 species = "unown"
 accessibility = [
-    "night",
-    "hoenn",
-    "morning",
-    "land_swarms",
-    "sinnoh",
     "day",
+    "night",
+    "land_swarms",
+    "hoenn",
+    "sinnoh",
+    "morning",
 ]
 
-[D24R0217]
+[d24r0217]
 id = 13
 
-[[D24R0217.land]]
+[[d24r0217.land]]
 species = "unown"
 accessibility = [
-    "night",
-    "hoenn",
-    "morning",
-    "land_swarms",
-    "sinnoh",
     "day",
+    "night",
+    "land_swarms",
+    "hoenn",
+    "sinnoh",
+    "morning",
 ]
 
-[D25R0101]
+[d25r0101]
 id = 14
 
-[[D25R0101.land]]
+[[d25r0101.land]]
 species = "geodude"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D25R0101.land]]
+[[d25r0101.land]]
 species = "rattata"
 
-[[D25R0101.land]]
+[[d25r0101.land]]
 species = "sandshrew"
 version = "hg"
 
-[[D25R0101.land]]
+[[d25r0101.land]]
 species = "zubat"
 
-[[D25R0101.land]]
+[[d25r0101.land]]
 species = "onix"
 
-[[D25R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D25R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D25R0101.land]]
+[[d25r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D25R0101.land]]
+[[d25r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D25R0101.water]]
-species = "wooper"
+[[d25r0101.land]]
+species = "bronzor"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[D25R0101.water]]
+[[d25r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d25r0101.water]]
+species = "wooper"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[d25r0101.water]]
 species = "quagsire"
 accessibility = [
     "surf",
 ]
 
-[[D25R0101.water]]
+[[d25r0101.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[D25R0101.water]]
+[[d25r0101.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[[D25R0101.water]]
+[[d25r0101.water]]
 species = "seaking"
 accessibility = [
     "super_rod",
 ]
 
-[D25R0102]
+[d25r0102]
 id = 15
 
-[[D25R0102.land]]
+[[d25r0102.land]]
 species = "geodude"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D25R0102.land]]
+[[d25r0102.land]]
 species = "rattata"
 
-[[D25R0102.land]]
+[[d25r0102.land]]
 species = "sandshrew"
 version = "hg"
 
-[[D25R0102.land]]
+[[d25r0102.land]]
 species = "zubat"
 
-[[D25R0102.land]]
+[[d25r0102.land]]
 species = "onix"
 
-[[D25R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D25R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D25R0102.land]]
+[[d25r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D25R0102.land]]
+[[d25r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D25R0102.water]]
-species = "wooper"
+[[d25r0102.land]]
+species = "bronzor"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[D25R0102.water]]
+[[d25r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d25r0102.water]]
+species = "wooper"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[d25r0102.water]]
 species = "quagsire"
 accessibility = [
     "surf",
 ]
 
-[[D25R0102.water]]
+[[d25r0102.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[D25R0102.water]]
+[[d25r0102.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[[D25R0102.water]]
+[[d25r0102.water]]
 species = "seaking"
 accessibility = [
     "super_rod",
 ]
 
-[D25R0103]
+[d25r0103]
 id = 16
 
-[[D25R0103.land]]
+[[d25r0103.land]]
 species = "zubat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D25R0103.land]]
+[[d25r0103.land]]
 species = "raticate"
 
-[[D25R0103.land]]
+[[d25r0103.land]]
 species = "golbat"
 
-[[D25R0103.land]]
+[[d25r0103.land]]
 species = "geodude"
 
-[[D25R0103.land]]
+[[d25r0103.land]]
 species = "rattata"
 
-[[D25R0103.land]]
+[[d25r0103.land]]
 species = "onix"
 
-[[D25R0103.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D25R0103.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D25R0103.land]]
+[[d25r0103.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D25R0103.land]]
+[[d25r0103.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D25R0103.water]]
-species = "tentacool"
+[[d25r0103.land]]
+species = "bronzor"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[D25R0103.water]]
+[[d25r0103.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d25r0103.water]]
+species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[d25r0103.water]]
 species = "quagsire"
 accessibility = [
     "surf",
 ]
 
-[[D25R0103.water]]
+[[d25r0103.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[D25R0103.water]]
+[[d25r0103.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[D25R0103.water]]
+[[d25r0103.water]]
 species = "staryu"
 accessibility = [
     "fishing_night",
 ]
 
-[[D25R0103.water]]
+[[d25r0103.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[D25R0103.water]]
+[[d25r0103.water]]
 species = "corsola"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[D25R0103.water]]
+[[d25r0103.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[R33]
+[r33]
 id = 17
 
-[[R33.land]]
+[[r33.land]]
 species = "hoppip"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 
-[[R33.land]]
+[[r33.land]]
 species = "zubat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 
-[[R33.land]]
+[[r33.land]]
 species = "ekans"
 version = "ss"
 
-[[R33.land]]
+[[r33.land]]
 species = "rattata"
 
-[[R33.land]]
+[[r33.land]]
 species = "spearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R33.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R33.land]]
+[[r33.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R33.land]]
+[[r33.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[D26R0102]
+[[r33.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[d26r0102]
 id = 18
 
-[[D26R0102.land]]
+[[d26r0102.land]]
 species = "zubat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D26R0102.land]]
+[[d26r0102.land]]
 species = "slowpoke"
 
-[[D26R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D26R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D26R0102.land]]
+[[d26r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D26R0102.land]]
+[[d26r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D26R0102.water]]
-species = "slowpoke"
+[[d26r0102.land]]
+species = "bronzor"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[D26R0102.water]]
+[[d26r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d26r0102.water]]
+species = "slowpoke"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[d26r0102.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[D26R0102.water]]
+[[d26r0102.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[[D26R0102.water]]
+[[d26r0102.water]]
 species = "seaking"
 accessibility = [
     "super_rod",
 ]
 
-[D26R0103]
+[d26r0103]
 id = 19
 
-[[D26R0103.land]]
+[[d26r0103.land]]
 species = "zubat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D26R0103.land]]
+[[d26r0103.land]]
 species = "slowpoke"
 
-[[D26R0103.land]]
+[[d26r0103.land]]
 species = "golbat"
 
-[[D26R0103.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D26R0103.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D26R0103.land]]
+[[d26r0103.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D26R0103.land]]
+[[d26r0103.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D26R0103.water]]
-species = "slowpoke"
+[[d26r0103.land]]
+species = "bronzor"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[D26R0103.water]]
+[[d26r0103.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d26r0103.water]]
+species = "slowpoke"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[d26r0103.water]]
 species = "slowbro"
 accessibility = [
     "surf",
 ]
 
-[[D26R0103.water]]
+[[d26r0103.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[D26R0103.water]]
+[[d26r0103.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[[D26R0103.water]]
+[[d26r0103.water]]
 species = "seaking"
 accessibility = [
     "super_rod",
 ]
 
-[D36R0101]
+[d36r0101]
 id = 20
 
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "weedle"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "ss"
 
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "caterpie"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "oddish"
 accessibility = [
     "night",
 ]
 
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "kakuna"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "metapod"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "zubat"
 
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "paras"
 
-[[D36R0101.land]]
-species = "budew"
-accessibility = [
-    "sinnoh",
-]
-
-[[D36R0101.land]]
-species = "carnivine"
-accessibility = [
-    "sinnoh",
-]
-
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "spoink"
 accessibility = [
     "hoenn",
 ]
 
-[[D36R0101.land]]
+[[d36r0101.land]]
 species = "numel"
 accessibility = [
     "hoenn",
 ]
 
-[[D36R0101.water]]
-species = "psyduck"
+[[d36r0101.land]]
+species = "budew"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[D36R0101.water]]
+[[d36r0101.land]]
+species = "carnivine"
+accessibility = [
+    "sinnoh",
+]
+
+[[d36r0101.water]]
+species = "psyduck"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[d36r0101.water]]
 species = "golduck"
 accessibility = [
     "surf",
 ]
 
-[[D36R0101.water]]
+[[d36r0101.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[D36R0101.water]]
+[[d36r0101.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[R34]
+[r34]
 id = 21
 
-[[R34.land]]
+[[r34.land]]
 species = "drowzee"
 
-[[R34.land]]
+[[r34.land]]
 species = "rattata"
 
-[[R34.land]]
+[[r34.land]]
 species = "abra"
 
-[[R34.land]]
+[[r34.land]]
 species = "ditto"
 
-[[R34.land]]
+[[r34.land]]
 species = "ralts"
 accessibility = [
     "land_swarms",
 ]
 
-[[R34.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R34.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R34.land]]
+[[r34.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R34.land]]
+[[r34.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R34.water]]
-species = "tentacool"
+[[r34.land]]
+species = "buizel"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[R34.water]]
+[[r34.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r34.water]]
+species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[r34.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[R34.water]]
+[[r34.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[R34.water]]
+[[r34.water]]
 species = "staryu"
 accessibility = [
     "fishing_night",
 ]
 
-[[R34.water]]
+[[r34.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[R34.water]]
+[[r34.water]]
 species = "corsola"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[R34.water]]
+[[r34.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[R35]
+[r35]
 id = 22
 
-[[R35.land]]
+[[r35.land]]
 species = "nidoran_f"
 
-[[R35.land]]
+[[r35.land]]
 species = "nidoran_m"
 
-[[R35.land]]
+[[r35.land]]
 species = "drowzee"
 
-[[R35.land]]
+[[r35.land]]
 species = "abra"
 
-[[R35.land]]
+[[r35.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R35.land]]
+[[r35.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R35.land]]
+[[r35.land]]
 species = "ditto"
 
-[[R35.land]]
+[[r35.land]]
 species = "yanma"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R35.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R35.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R35.land]]
+[[r35.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R35.land]]
+[[r35.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R35.water]]
-species = "psyduck"
+[[r35.land]]
+species = "buizel"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[R35.water]]
+[[r35.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r35.water]]
+species = "psyduck"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[r35.water]]
 species = "golduck"
 accessibility = [
     "surf",
 ]
 
-[[R35.water]]
+[[r35.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[R35.water]]
+[[r35.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[D22R0101]
+[d22r0101]
 id = 23
 
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "weedle"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "ss"
 
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "caterpie"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "kakuna"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "metapod"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "sunkern"
 accessibility = [
     "day",
 ]
 
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[D22R0101.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[D22R0101.land]]
+[[d22r0101.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[D22R0102]
+[[d22r0101.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[d22r0102]
 id = 24
 
-[[D22R0102.land]]
+[[d22r0102.land]]
 species = "weedle"
 accessibility = [
-    "night",
-    "hoenn",
-    "morning",
-    "land_swarms",
-    "sinnoh",
     "day",
+    "night",
+    "land_swarms",
+    "hoenn",
+    "sinnoh",
+    "morning",
 ]
 version = "ss"
 
-[[D22R0102.land]]
+[[d22r0102.land]]
 species = "caterpie"
 accessibility = [
-    "night",
-    "hoenn",
-    "morning",
-    "land_swarms",
-    "sinnoh",
     "day",
+    "night",
+    "land_swarms",
+    "hoenn",
+    "sinnoh",
+    "morning",
 ]
 version = "hg"
 
-[R36]
+[r36]
 id = 25
 
-[[R36.land]]
+[[r36.land]]
 species = "nidoran_f"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R36.land]]
+[[r36.land]]
 species = "nidoran_m"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "hg"
 
-[[R36.land]]
+[[r36.land]]
 species = "nidoran_m"
 version = "ss"
 
-[[R36.land]]
+[[r36.land]]
 species = "nidoran_f"
 version = "hg"
 
-[[R36.land]]
+[[r36.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R36.land]]
+[[r36.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R36.land]]
+[[r36.land]]
 species = "vulpix"
 version = "ss"
 
-[[R36.land]]
+[[r36.land]]
 species = "growlithe"
 version = "hg"
 
-[[R36.land]]
+[[r36.land]]
 species = "stantler"
 
-[[R36.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R36.land]]
+[[r36.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R36.land]]
+[[r36.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R37]
+[[r36.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r37]
 id = 26
 
-[[R37.land]]
+[[r37.land]]
 species = "ledyba"
 accessibility = [
-    "morning",
     "land_swarms",
+    "morning",
 ]
 version = "ss"
 
-[[R37.land]]
+[[r37.land]]
 species = "pidgey"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[R37.land]]
+[[r37.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R37.land]]
+[[r37.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R37.land]]
+[[r37.land]]
 species = "spinarak"
 accessibility = [
     "night",
 ]
 version = "hg"
 
-[[R37.land]]
+[[r37.land]]
 species = "stantler"
 
-[[R37.land]]
+[[r37.land]]
 species = "vulpix"
 version = "ss"
 
-[[R37.land]]
+[[r37.land]]
 species = "growlithe"
 version = "hg"
 
-[[R37.land]]
+[[r37.land]]
 species = "pidgeotto"
 accessibility = [
     "day",
 ]
 
-[[R37.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R37.land]]
+[[r37.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R37.land]]
+[[r37.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[T27]
+[[r37.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[t27]
 id = 27
 
-[[T27.water]]
+[[t27.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[T27.water]]
+[[t27.water]]
 species = "poliwhirl"
 accessibility = [
     "surf",
 ]
 
-[[T27.water]]
+[[t27.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D18R0101]
+[d18r0101]
 id = 28
 
-[[D18R0101.land]]
+[[d18r0101.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D18R0101.land]]
+[[d18r0101.land]]
 species = "koffing"
 
-[[D18R0101.land]]
+[[d18r0101.land]]
 species = "zubat"
 
-[[D18R0101.land]]
+[[d18r0101.land]]
 species = "raticate"
 
-[[D18R0101.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D18R0101.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D18R0101.land]]
+[[d18r0101.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D18R0101.land]]
+[[d18r0101.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D18R0102]
+[[d18r0101.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d18r0101.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d18r0102]
 id = 29
 
-[[D18R0102.land]]
+[[d18r0102.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D18R0102.land]]
+[[d18r0102.land]]
 species = "koffing"
 
-[[D18R0102.land]]
+[[d18r0102.land]]
 species = "magmar"
 
-[[D18R0102.land]]
+[[d18r0102.land]]
 species = "zubat"
 
-[[D18R0102.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D18R0102.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D18R0102.land]]
+[[d18r0102.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D18R0102.land]]
+[[d18r0102.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0102]
+[[d18r0102.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d18r0102.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0102]
 id = 30
 
-[[D17R0102.land]]
+[[d17r0102.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D17R0102.land]]
+[[d17r0102.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0102.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0102.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0102.land]]
+[[d17r0102.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0102.land]]
+[[d17r0102.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0103]
+[[d17r0102.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d17r0102.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0103]
 id = 31
 
-[[D17R0103.land]]
+[[d17r0103.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D17R0103.land]]
+[[d17r0103.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0103.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0103.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0103.land]]
+[[d17r0103.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0103.land]]
+[[d17r0103.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0104]
+[[d17r0103.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d17r0103.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0104]
 id = 32
 
-[[D17R0104.land]]
+[[d17r0104.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D17R0104.land]]
+[[d17r0104.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0104.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0104.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0104.land]]
+[[d17r0104.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0104.land]]
+[[d17r0104.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0105]
+[[d17r0104.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d17r0104.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0105]
 id = 33
 
-[[D17R0105.land]]
+[[d17r0105.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D17R0105.land]]
+[[d17r0105.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0105.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0105.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0105.land]]
+[[d17r0105.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0105.land]]
+[[d17r0105.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0106]
+[[d17r0105.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d17r0105.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0106]
 id = 34
 
-[[D17R0106.land]]
+[[d17r0106.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D17R0106.land]]
+[[d17r0106.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0106.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0106.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0106.land]]
+[[d17r0106.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0106.land]]
+[[d17r0106.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0107]
+[[d17r0106.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d17r0106.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0107]
 id = 35
 
-[[D17R0107.land]]
+[[d17r0107.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D17R0107.land]]
+[[d17r0107.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0107.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0107.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0107.land]]
+[[d17r0107.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0107.land]]
+[[d17r0107.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0108]
+[[d17r0107.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d17r0107.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0108]
 id = 36
 
-[[D17R0108.land]]
+[[d17r0108.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D17R0108.land]]
+[[d17r0108.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0108.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0108.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0108.land]]
+[[d17r0108.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0108.land]]
+[[d17r0108.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0109]
+[[d17r0108.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d17r0108.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0109]
 id = 37
 
-[[D17R0109.land]]
+[[d17r0109.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D17R0109.land]]
+[[d17r0109.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0109.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0109.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0109.land]]
+[[d17r0109.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0109.land]]
+[[d17r0109.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[R38]
+[[d17r0109.land]]
+species = "chatot"
+accessibility = [
+    "sinnoh",
+]
+
+[[d17r0109.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[r38]
 id = 38
 
-[[R38.land]]
+[[r38.land]]
 species = "meowth"
 version = "ss"
 
-[[R38.land]]
+[[r38.land]]
 species = "rattata"
 version = "hg"
 
-[[R38.land]]
+[[r38.land]]
 species = "raticate"
 
-[[R38.land]]
+[[r38.land]]
 species = "farfetchd"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R38.land]]
+[[r38.land]]
 species = "magnemite"
 
-[[R38.land]]
+[[r38.land]]
 species = "miltank"
 
-[[R38.land]]
+[[r38.land]]
 species = "tauros"
 
-[[R38.land]]
+[[r38.land]]
 species = "snubbull"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R38.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R38.land]]
+[[r38.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R38.land]]
+[[r38.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R39]
+[[r38.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r39]
 id = 39
 
-[[R39.land]]
+[[r39.land]]
 species = "meowth"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R39.land]]
+[[r39.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "hg"
 
-[[R39.land]]
+[[r39.land]]
 species = "raticate"
 
-[[R39.land]]
+[[r39.land]]
 species = "farfetchd"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R39.land]]
+[[r39.land]]
 species = "magnemite"
 
-[[R39.land]]
+[[r39.land]]
 species = "miltank"
 
-[[R39.land]]
+[[r39.land]]
 species = "tauros"
 
-[[R39.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R39.land]]
+[[r39.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R39.land]]
+[[r39.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[T26]
+[[r39.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[t26]
 id = 40
 
-[[T26.water]]
+[[t26.water]]
 species = "tentacool"
 accessibility = [
-    "surf_swarms",
     "surf",
+    "surf_swarms",
 ]
 
-[[T26.water]]
+[[t26.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[T26.water]]
+[[t26.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[T26.water]]
+[[t26.water]]
 species = "staryu"
 accessibility = [
     "fishing_night",
 ]
 
-[[T26.water]]
+[[t26.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[T26.water]]
+[[t26.water]]
 species = "corsola"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[T26.water]]
+[[t26.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[W40]
+[w40]
 id = 41
 
-[[W40.water]]
+[[w40.water]]
 species = "tentacool"
 accessibility = [
-    "surf_swarms",
     "surf",
+    "surf_swarms",
 ]
 
-[[W40.water]]
+[[w40.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[W40.water]]
+[[w40.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[W40.water]]
+[[w40.water]]
 species = "staryu"
 accessibility = [
     "fishing_night",
 ]
 
-[[W40.water]]
+[[w40.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[W40.water]]
+[[w40.water]]
 species = "corsola"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[W40.water]]
+[[w40.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[W41]
+[w41]
 id = 42
 
-[[W41.water]]
+[[w41.water]]
 species = "tentacool"
 accessibility = [
+    "surf",
     "good_rod",
     "old_rod",
-    "surf",
     "surf_swarms",
 ]
 
-[[W41.water]]
+[[w41.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[W41.water]]
+[[w41.water]]
 species = "mantine"
 accessibility = [
     "surf",
 ]
 version = "hg"
 
-[[W41.water]]
+[[w41.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[W41.water]]
+[[w41.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[W41.water]]
+[[w41.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[W41.water]]
+[[w41.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[D40R0101]
+[d40r0101]
 id = 43
 
-[[D40R0101.land]]
+[[d40r0101.land]]
 species = "krabby"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D40R0101.land]]
+[[d40r0101.land]]
 species = "zubat"
 
-[[D40R0101.land]]
+[[d40r0101.land]]
 species = "seel"
 
-[[D40R0101.land]]
+[[d40r0101.land]]
 species = "golbat"
 
-[[D40R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D40R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D40R0101.land]]
+[[d40r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D40R0101.land]]
+[[d40r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D40R0101.water]]
+[[d40r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d40r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d40r0101.water]]
 species = "tentacool"
 accessibility = [
-    "surf_swarms",
     "surf",
+    "surf_swarms",
 ]
 
-[[D40R0101.water]]
+[[d40r0101.water]]
 species = "horsea"
 accessibility = [
     "good_rod",
-    "fishing_night",
-    "surf",
     "super_rod",
+    "surf",
+    "fishing_night",
 ]
 
-[[D40R0101.water]]
+[[d40r0101.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[D40R0101.water]]
+[[d40r0101.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[D40R0101.water]]
+[[d40r0101.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[D40R0101.water]]
+[[d40r0101.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[[D40R0101.water]]
+[[d40r0101.water]]
 species = "seadra"
 accessibility = [
     "super_rod",
 ]
 
-[D40R0102]
+[d40r0102]
 id = 44
 
-[[D40R0102.land]]
+[[d40r0102.land]]
 species = "krabby"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D40R0102.land]]
+[[d40r0102.land]]
 species = "zubat"
 
-[[D40R0102.land]]
+[[d40r0102.land]]
 species = "seel"
 
-[[D40R0102.land]]
+[[d40r0102.land]]
 species = "golbat"
 
-[[D40R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D40R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D40R0102.land]]
+[[d40r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D40R0102.land]]
+[[d40r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[UNUSED_045]
+[[d40r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d40r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[unused_045]
 id = 45
 
-[D40R0104]
+[d40r0104]
 id = 46
 
-[[D40R0104.land]]
+[[d40r0104.land]]
 species = "krabby"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D40R0104.land]]
+[[d40r0104.land]]
 species = "zubat"
 
-[[D40R0104.land]]
+[[d40r0104.land]]
 species = "seel"
 
-[[D40R0104.land]]
+[[d40r0104.land]]
 species = "golbat"
 
-[[D40R0104.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D40R0104.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D40R0104.land]]
+[[d40r0104.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D40R0104.land]]
+[[d40r0104.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D40R0104.water]]
+[[d40r0104.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d40r0104.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d40r0104.water]]
 species = "horsea"
 accessibility = [
     "good_rod",
-    "fishing_night",
-    "surf",
     "super_rod",
+    "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[D40R0104.water]]
+[[d40r0104.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[D40R0104.water]]
+[[d40r0104.water]]
 species = "seadra"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[D40R0104.water]]
+[[d40r0104.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[D40R0104.water]]
+[[d40r0104.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[D40R0104.water]]
+[[d40r0104.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[UNUSED_047]
+[unused_047]
 id = 47
 
-[D40R0106]
+[d40r0106]
 id = 48
 
-[[D40R0106.land]]
+[[d40r0106.land]]
 species = "krabby"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D40R0106.land]]
+[[d40r0106.land]]
 species = "zubat"
 
-[[D40R0106.land]]
+[[d40r0106.land]]
 species = "seel"
 
-[[D40R0106.land]]
+[[d40r0106.land]]
 species = "golbat"
 
-[[D40R0106.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D40R0106.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D40R0106.land]]
+[[d40r0106.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D40R0106.land]]
+[[d40r0106.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[UNUSED_049]
+[[d40r0106.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d40r0106.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[unused_049]
 id = 49
 
-[UNUSED_050]
+[unused_050]
 id = 50
 
-[T24]
+[t24]
 id = 51
 rock_smash = [
     { species = "krabby" },
     { species = "shuckle" },
 ]
 
-[[T24.water]]
+[[t24.water]]
 species = "tentacool"
 accessibility = [
-    "surf_swarms",
     "surf",
+    "surf_swarms",
 ]
 
-[[T24.water]]
+[[t24.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[T24.water]]
+[[t24.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[T24.water]]
+[[t24.water]]
 species = "staryu"
 accessibility = [
     "fishing_night",
 ]
 
-[[T24.water]]
+[[t24.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[T24.water]]
+[[t24.water]]
 species = "corsola"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[T24.water]]
+[[t24.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[R42]
+[r42]
 id = 52
 
-[[R42.land]]
+[[r42.land]]
 species = "mareep"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R42.land]]
+[[r42.land]]
 species = "mankey"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "hg"
 
-[[R42.land]]
+[[r42.land]]
 species = "spearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R42.land]]
+[[r42.land]]
 species = "mareep"
 version = "hg"
 
-[[R42.land]]
+[[r42.land]]
 species = "zubat"
 accessibility = [
     "night",
 ]
 
-[[R42.land]]
+[[r42.land]]
 species = "flaaffy"
 
-[[R42.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R42.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R42.land]]
+[[r42.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R42.land]]
+[[r42.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R42.water]]
+[[r42.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r42.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r42.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R42.water]]
+[[r42.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[R42.water]]
+[[r42.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D38R0101]
+[d38r0101]
 id = 53
 
-[[D38R0101.land]]
+[[d38r0101.land]]
 species = "zubat"
 
-[[D38R0101.land]]
+[[d38r0101.land]]
 species = "machop"
 
-[[D38R0101.land]]
+[[d38r0101.land]]
 species = "rattata"
 
-[[D38R0101.land]]
+[[d38r0101.land]]
 species = "geodude"
 
-[[D38R0101.land]]
+[[d38r0101.land]]
 species = "marill"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D38R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D38R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D38R0101.land]]
+[[d38r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D38R0101.land]]
+[[d38r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D38R0101.water]]
+[[d38r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d38r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d38r0101.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[D38R0101.water]]
+[[d38r0101.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[D38R0101.water]]
+[[d38r0101.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D38R0102]
+[d38r0102]
 id = 54
 
-[[D38R0102.land]]
+[[d38r0102.land]]
 species = "geodude"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D38R0102.land]]
+[[d38r0102.land]]
 species = "machop"
 
-[[D38R0102.land]]
+[[d38r0102.land]]
 species = "rattata"
 
-[[D38R0102.land]]
+[[d38r0102.land]]
 species = "zubat"
 
-[[D38R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D38R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D38R0102.land]]
+[[d38r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D38R0102.land]]
+[[d38r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D38R0103]
+[[d38r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d38r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d38r0103]
 id = 55
 
-[[D38R0103.land]]
+[[d38r0103.land]]
 species = "graveler"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D38R0103.land]]
+[[d38r0103.land]]
 species = "machoke"
 
-[[D38R0103.land]]
+[[d38r0103.land]]
 species = "geodude"
 
-[[D38R0103.land]]
+[[d38r0103.land]]
 species = "raticate"
 
-[[D38R0103.land]]
+[[d38r0103.land]]
 species = "machop"
 
-[[D38R0103.land]]
+[[d38r0103.land]]
 species = "golbat"
 
-[[D38R0103.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D38R0103.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D38R0103.land]]
+[[d38r0103.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D38R0103.land]]
+[[d38r0103.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D38R0103.water]]
+[[d38r0103.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d38r0103.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d38r0103.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[D38R0103.water]]
+[[d38r0103.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[D38R0103.water]]
+[[d38r0103.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D38R0104]
+[d38r0104]
 id = 56
 
-[[D38R0104.land]]
+[[d38r0104.land]]
 species = "zubat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D38R0104.land]]
+[[d38r0104.land]]
 species = "rattata"
 
-[[D38R0104.land]]
+[[d38r0104.land]]
 species = "machop"
 
-[[D38R0104.land]]
+[[d38r0104.land]]
 species = "geodude"
 
-[[D38R0104.land]]
+[[d38r0104.land]]
 species = "raticate"
 
-[[D38R0104.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D38R0104.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D38R0104.land]]
+[[d38r0104.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D38R0104.land]]
+[[d38r0104.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D38R0104.water]]
+[[d38r0104.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d38r0104.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d38r0104.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[D38R0104.water]]
+[[d38r0104.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[D38R0104.water]]
+[[d38r0104.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[R43]
+[r43]
 id = 57
 
-[[R43.land]]
+[[r43.land]]
 species = "flaaffy"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R43.land]]
+[[r43.land]]
 species = "girafarig"
 
-[[R43.land]]
+[[r43.land]]
 species = "pidgeotto"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R43.land]]
+[[r43.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[R43.land]]
+[[r43.land]]
 species = "mareep"
 
-[[R43.land]]
+[[r43.land]]
 species = "venonat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 
-[[R43.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R43.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R43.land]]
+[[r43.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R43.land]]
+[[r43.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R43.water]]
+[[r43.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r43.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r43.water]]
 species = "magikarp"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
     "surf_swarms",
+    "fishing_swarms",
 ]
 
-[[R43.water]]
+[[r43.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[T29]
+[t29]
 id = 58
 
-[[T29.water]]
+[[t29.water]]
 species = "magikarp"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
     "surf_swarms",
+    "fishing_swarms",
 ]
 
-[[T29.water]]
+[[t29.water]]
 species = "gyarados"
 accessibility = [
     "good_rod",
-    "fishing_night",
-    "surf",
     "super_rod",
+    "surf",
+    "fishing_night",
 ]
 
-[R44]
+[r44]
 id = 59
 
-[[R44.land]]
+[[r44.land]]
 species = "tangela"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R44.land]]
+[[r44.land]]
 species = "weepinbell"
 
-[[R44.land]]
+[[r44.land]]
 species = "bellsprout"
 
-[[R44.land]]
+[[r44.land]]
 species = "lickitung"
 
-[[R44.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R44.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R44.land]]
+[[r44.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R44.land]]
+[[r44.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R44.water]]
+[[r44.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r44.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r44.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R44.water]]
+[[r44.water]]
 species = "poliwhirl"
 accessibility = [
     "surf",
 ]
 
-[[R44.water]]
+[[r44.water]]
 species = "remoraid"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "super_rod",
+    "fishing_swarms",
 ]
 
-[[R44.water]]
+[[r44.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[D39R0101]
+[d39r0101]
 id = 60
 
-[[D39R0101.land]]
+[[d39r0101.land]]
 species = "swinub"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D39R0101.land]]
+[[d39r0101.land]]
 species = "golbat"
 
-[[D39R0101.land]]
+[[d39r0101.land]]
 species = "delibird"
 version = "ss"
 
-[[D39R0101.land]]
+[[d39r0101.land]]
 species = "zubat"
 version = "hg"
 
-[[D39R0101.land]]
+[[d39r0101.land]]
 species = "zubat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 version = "ss"
 
-[[D39R0101.land]]
+[[d39r0101.land]]
 species = "jynx"
 
-[[D39R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D39R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D39R0101.land]]
+[[d39r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D39R0101.land]]
+[[d39r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D39R0102]
+[[d39r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d39r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d39r0102]
 id = 61
 
-[[D39R0102.land]]
+[[d39r0102.land]]
 species = "swinub"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D39R0102.land]]
+[[d39r0102.land]]
 species = "golbat"
 
-[[D39R0102.land]]
+[[d39r0102.land]]
 species = "delibird"
 version = "ss"
 
-[[D39R0102.land]]
+[[d39r0102.land]]
 species = "zubat"
 version = "hg"
 
-[[D39R0102.land]]
+[[d39r0102.land]]
 species = "zubat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 version = "ss"
 
-[[D39R0102.land]]
+[[d39r0102.land]]
 species = "jynx"
 
-[[D39R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D39R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D39R0102.land]]
+[[d39r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D39R0102.land]]
+[[d39r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D39R0103]
+[[d39r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d39r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d39r0103]
 id = 62
 
-[[D39R0103.land]]
+[[d39r0103.land]]
 species = "swinub"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D39R0103.land]]
+[[d39r0103.land]]
 species = "golbat"
 
-[[D39R0103.land]]
+[[d39r0103.land]]
 species = "delibird"
 version = "ss"
 
-[[D39R0103.land]]
+[[d39r0103.land]]
 species = "zubat"
 version = "hg"
 
-[[D39R0103.land]]
+[[d39r0103.land]]
 species = "zubat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 version = "ss"
 
-[[D39R0103.land]]
+[[d39r0103.land]]
 species = "jynx"
 
-[[D39R0103.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D39R0103.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D39R0103.land]]
+[[d39r0103.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D39R0103.land]]
+[[d39r0103.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D39R0104]
+[[d39r0103.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d39r0103.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d39r0104]
 id = 63
 
-[[D39R0104.land]]
+[[d39r0104.land]]
 species = "swinub"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D39R0104.land]]
+[[d39r0104.land]]
 species = "golbat"
 
-[[D39R0104.land]]
+[[d39r0104.land]]
 species = "delibird"
 version = "ss"
 
-[[D39R0104.land]]
+[[d39r0104.land]]
 species = "zubat"
 version = "hg"
 
-[[D39R0104.land]]
+[[d39r0104.land]]
 species = "zubat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 version = "ss"
 
-[[D39R0104.land]]
+[[d39r0104.land]]
 species = "jynx"
 
-[[D39R0104.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D39R0104.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D39R0104.land]]
+[[d39r0104.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D39R0104.land]]
+[[d39r0104.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[UNUSED_064]
+[[d39r0104.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d39r0104.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[unused_064]
 id = 64
 
-[T30]
+[t30]
 id = 65
 
-[[T30.water]]
+[[t30.water]]
 species = "magikarp"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
     "surf_swarms",
+    "fishing_swarms",
 ]
 
-[[T30.water]]
+[[t30.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[D44R0102]
+[d44r0102]
 id = 66
 
-[[D44R0102.water]]
+[[d44r0102.water]]
 species = "magikarp"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
     "surf_swarms",
+    "fishing_swarms",
 ]
 
-[[D44R0102.water]]
+[[d44r0102.water]]
 species = "dratini"
 accessibility = [
     "good_rod",
-    "fishing_night",
-    "surf",
     "super_rod",
+    "surf",
+    "fishing_night",
 ]
 
-[[D44R0102.water]]
+[[d44r0102.water]]
 species = "dragonair"
 accessibility = [
     "super_rod",
 ]
 
-[R45]
+[r45]
 id = 67
 
-[[R45.land]]
+[[r45.land]]
 species = "geodude"
 
-[[R45.land]]
+[[r45.land]]
 species = "graveler"
 
-[[R45.land]]
+[[r45.land]]
 species = "gligar"
 version = "hg"
 
-[[R45.land]]
+[[r45.land]]
 species = "teddiursa"
 version = "ss"
 
-[[R45.land]]
+[[r45.land]]
 species = "phanpy"
 version = "hg"
 
-[[R45.land]]
+[[r45.land]]
 species = "skarmory"
 version = "ss"
 
-[[R45.land]]
+[[r45.land]]
 species = "swablu"
 accessibility = [
     "land_swarms",
 ]
 
-[[R45.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R45.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R45.land]]
+[[r45.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R45.land]]
+[[r45.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R45.water]]
-species = "magikarp"
-accessibility = [
-    "good_rod",
-    "fishing_swarms",
-    "old_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-]
-
-[[R45.water]]
-species = "poliwag"
-accessibility = [
-    "good_rod",
-    "fishing_night",
-    "old_rod",
-    "super_rod",
-]
-
-[R46]
-id = 68
-
-[[R46.land]]
-species = "geodude"
-accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
-]
-
-[[R46.land]]
-species = "spearow"
-accessibility = [
-    "morning",
-    "day",
-]
-
-[[R46.land]]
-species = "rattata"
-
-[[R46.land]]
-species = "shinx"
+[[r45.land]]
+species = "buizel"
 accessibility = [
     "sinnoh",
 ]
 
-[[R46.land]]
+[[r45.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r45.water]]
+species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
+
+[[r45.water]]
+species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "fishing_night",
+]
+
+[r46]
+id = 68
+
+[[r46.land]]
+species = "geodude"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[r46.land]]
+species = "spearow"
+accessibility = [
+    "day",
+    "morning",
+]
+
+[[r46.land]]
+species = "rattata"
+
+[[r46.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R46.land]]
+[[r46.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[D42R0102]
+[[r46.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[d42r0102]
 id = 69
 rock_smash = [
     { species = "dunsparce" },
     { species = "geodude" },
 ]
 
-[[D42R0102.land]]
+[[d42r0102.land]]
 species = "geodude"
 
-[[D42R0102.land]]
+[[d42r0102.land]]
 species = "zubat"
 
-[[D42R0102.land]]
+[[d42r0102.land]]
 species = "dunsparce"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D42R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D42R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D42R0102.land]]
+[[d42r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D42R0102.land]]
+[[d42r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D42R0102.water]]
+[[d42r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d42r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d42r0102.water]]
 species = "magikarp"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
     "surf_swarms",
+    "fishing_swarms",
 ]
 
-[[D42R0102.water]]
+[[d42r0102.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[[D42R0102.water]]
+[[d42r0102.water]]
 species = "seaking"
 accessibility = [
     "super_rod",
 ]
 
-[D42R0101]
+[d42r0101]
 id = 70
 
-[[D42R0101.land]]
+[[d42r0101.land]]
 species = "geodude"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D42R0101.land]]
+[[d42r0101.land]]
 species = "zubat"
 
-[[D42R0101.land]]
+[[d42r0101.land]]
 species = "graveler"
 
-[[D42R0101.land]]
+[[d42r0101.land]]
 species = "wobbuffet"
 
-[[D42R0101.land]]
+[[d42r0101.land]]
 species = "golbat"
 
-[[D42R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D42R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D42R0101.land]]
+[[d42r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D42R0101.land]]
+[[d42r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D42R0101.water]]
+[[d42r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d42r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d42r0101.water]]
 species = "magikarp"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
     "surf_swarms",
+    "fishing_swarms",
 ]
 
-[[D42R0101.water]]
+[[d42r0101.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[[D42R0101.water]]
+[[d42r0101.water]]
 species = "seaking"
 accessibility = [
     "super_rod",
 ]
 
-[R47]
+[r47]
 id = 71
 
-[[R47.land]]
+[[r47.land]]
 species = "farfetchd"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R47.land]]
+[[r47.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[R47.land]]
+[[r47.land]]
 species = "miltank"
 
-[[R47.land]]
+[[r47.land]]
 species = "ditto"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R47.land]]
+[[r47.land]]
 species = "gloom"
 
-[[R47.land]]
+[[r47.land]]
 species = "spearow"
 
-[[R47.land]]
+[[r47.land]]
 species = "fearow"
 
-[[R47.land]]
+[[r47.land]]
 species = "raticate"
 
-[[R47.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R47.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R47.land]]
+[[r47.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R47.land]]
+[[r47.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R47.water]]
+[[r47.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r47.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r47.water]]
 species = "tentacool"
 accessibility = [
+    "surf",
     "good_rod",
     "old_rod",
-    "surf",
     "surf_swarms",
 ]
 
-[[R47.water]]
+[[r47.water]]
 species = "seel"
 accessibility = [
     "surf",
 ]
 
-[[R47.water]]
+[[r47.water]]
 species = "staryu"
 accessibility = [
     "surf",
 ]
 
-[[R47.water]]
+[[r47.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[R47.water]]
+[[r47.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[R47.water]]
+[[r47.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[R47.water]]
+[[r47.water]]
 species = "tentacruel"
 accessibility = [
     "super_rod",
 ]
 
-[[R47.water]]
+[[r47.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[D02R0103]
+[d02r0103]
 id = 72
 
-[[D02R0103.water]]
+[[d02r0103.water]]
 species = "poliwag"
 accessibility = [
     "good_rod",
-    "fishing_night",
-    "surf",
     "super_rod",
+    "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[D02R0103.water]]
+[[d02r0103.water]]
 species = "magikarp"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "surf",
+    "fishing_swarms",
 ]
 
-[D02R0104]
+[d02r0104]
 id = 73
 
-[[D02R0104.water]]
+[[d02r0104.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
     "surf_swarms",
+    "fishing_swarms",
 ]
 
-[[D02R0104.water]]
+[[d02r0104.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_night",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_night",
 ]
 
-[D11R0101]
+[d11r0101]
 id = 74
 
-[[D11R0101.land]]
+[[d11r0101.land]]
 species = "zubat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D11R0101.land]]
+[[d11r0101.land]]
 species = "golbat"
 
-[[D11R0101.land]]
+[[d11r0101.land]]
 species = "psyduck"
 
-[[D11R0101.land]]
+[[d11r0101.land]]
 species = "golduck"
 
-[[D11R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0101.land]]
+[[d11r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D11R0101.land]]
+[[d11r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D11R0102]
+[[d11r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d11r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d11r0102]
 id = 75
 
-[[D11R0102.land]]
+[[d11r0102.land]]
 species = "seel"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D11R0102.land]]
+[[d11r0102.land]]
 species = "golbat"
 
-[[D11R0102.land]]
+[[d11r0102.land]]
 species = "psyduck"
 
-[[D11R0102.land]]
+[[d11r0102.land]]
 species = "golduck"
 
-[[D11R0102.land]]
+[[d11r0102.land]]
 species = "zubat"
 
-[[D11R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0102.land]]
+[[d11r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D11R0102.land]]
+[[d11r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D11R0103]
+[[d11r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d11r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d11r0103]
 id = 76
 
-[[D11R0103.land]]
+[[d11r0103.land]]
 species = "seel"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D11R0103.land]]
+[[d11r0103.land]]
 species = "golbat"
 
-[[D11R0103.land]]
+[[d11r0103.land]]
 species = "psyduck"
 
-[[D11R0103.land]]
+[[d11r0103.land]]
 species = "golduck"
 
-[[D11R0103.land]]
+[[d11r0103.land]]
 species = "zubat"
 
-[[D11R0103.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0103.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0103.land]]
+[[d11r0103.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D11R0103.land]]
+[[d11r0103.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D11R0104]
+[[d11r0103.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d11r0103.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d11r0104]
 id = 77
 
-[[D11R0104.land]]
+[[d11r0104.land]]
 species = "dewgong"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D11R0104.land]]
+[[d11r0104.land]]
 species = "golbat"
 
-[[D11R0104.land]]
+[[d11r0104.land]]
 species = "psyduck"
 
-[[D11R0104.land]]
+[[d11r0104.land]]
 species = "seel"
 
-[[D11R0104.land]]
+[[d11r0104.land]]
 species = "golduck"
 
-[[D11R0104.land]]
+[[d11r0104.land]]
 species = "zubat"
 
-[[D11R0104.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0104.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0104.land]]
+[[d11r0104.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D11R0104.land]]
+[[d11r0104.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D11R0105]
+[[d11r0104.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d11r0104.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d11r0105]
 id = 78
 
-[[D11R0105.land]]
+[[d11r0105.land]]
 species = "dewgong"
 
-[[D11R0105.land]]
+[[d11r0105.land]]
 species = "golbat"
 
-[[D11R0105.land]]
+[[d11r0105.land]]
 species = "psyduck"
 
-[[D11R0105.land]]
+[[d11r0105.land]]
 species = "seel"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D11R0105.land]]
+[[d11r0105.land]]
 species = "jynx"
 
-[[D11R0105.land]]
+[[d11r0105.land]]
 species = "golduck"
 
-[[D11R0105.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0105.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D11R0105.land]]
+[[d11r0105.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D11R0105.land]]
+[[d11r0105.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D11R0105.water]]
-species = "seel"
+[[d11r0105.land]]
+species = "bronzor"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[D11R0105.water]]
+[[d11r0105.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d11r0105.water]]
+species = "seel"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[d11r0105.water]]
 species = "horsea"
 accessibility = [
     "good_rod",
-    "fishing_night",
-    "surf",
     "super_rod",
+    "surf",
+    "fishing_night",
 ]
 
-[[D11R0105.water]]
+[[d11r0105.water]]
 species = "slowbro"
 accessibility = [
     "surf",
 ]
 
-[[D11R0105.water]]
+[[d11r0105.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[D11R0105.water]]
-species = "psyduck"
-accessibility = [
-    "good_rod",
-]
-
-[[D11R0105.water]]
+[[d11r0105.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
     "old_rod",
 ]
 
-[[D11R0105.water]]
+[[d11r0105.water]]
 species = "gyarados"
 accessibility = [
     "super_rod",
 ]
 
-[[D11R0105.water]]
+[[d11r0105.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[[D11R0105.water]]
+[[d11r0105.water]]
 species = "seadra"
 accessibility = [
     "super_rod",
 ]
 
-[D41R0105]
-id = 79
-
-[[D41R0105.land]]
-species = "quagsire"
+[[d11r0105.water]]
+species = "psyduck"
 accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
+    "good_rod",
 ]
 
-[[D41R0105.land]]
+[d41r0105]
+id = 79
+
+[[d41r0105.land]]
+species = "quagsire"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d41r0105.land]]
 species = "steelix"
 
-[[D41R0105.land]]
+[[d41r0105.land]]
 species = "golduck"
 
-[[D41R0105.land]]
+[[d41r0105.land]]
 species = "ursaring"
 version = "ss"
 
-[[D41R0105.land]]
+[[d41r0105.land]]
 species = "donphan"
 version = "hg"
 
-[[D41R0105.land]]
+[[d41r0105.land]]
 species = "misdreavus"
 accessibility = [
     "night",
 ]
 
-[[D41R0105.land]]
+[[d41r0105.land]]
 species = "golbat"
 
-[[D41R0105.land]]
+[[d41r0105.land]]
 species = "larvitar"
 
-[[D41R0105.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0105.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0105.land]]
+[[d41r0105.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D41R0105.land]]
+[[d41r0105.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D41R0105.water]]
+[[d41r0105.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0105.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0105.water]]
 species = "seaking"
 accessibility = [
-    "surf_swarms",
-    "surf",
     "super_rod",
+    "surf",
+    "surf_swarms",
 ]
 
-[[D41R0105.water]]
+[[d41r0105.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
 ]
 
-[[D41R0105.water]]
+[[d41r0105.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D41R0106]
+[d41r0106]
 id = 80
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "quagsire"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "sneasel"
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "teddiursa"
 version = "ss"
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "phanpy"
 version = "hg"
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "golduck"
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "ursaring"
 version = "ss"
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "donphan"
 version = "hg"
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "misdreavus"
 accessibility = [
     "night",
 ]
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "golbat"
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "larvitar"
 
-[[D41R0106.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0106.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D41R0106.land]]
+[[d41r0106.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D41R0106.water]]
+[[d41r0106.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0106.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0106.water]]
 species = "seaking"
 accessibility = [
-    "surf_swarms",
-    "surf",
     "super_rod",
+    "surf",
+    "surf_swarms",
 ]
 
-[[D41R0106.water]]
+[[d41r0106.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
 ]
 
-[[D41R0106.water]]
+[[d41r0106.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D41R0107]
+[d41r0107]
 id = 81
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "sneasel"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "golduck"
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "quagsire"
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "ursaring"
 version = "ss"
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "donphan"
 version = "hg"
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "misdreavus"
 accessibility = [
     "night",
 ]
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "golbat"
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "larvitar"
 
-[[D41R0107.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0107.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D41R0107.land]]
+[[d41r0107.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D41R0107.water]]
+[[d41r0107.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0107.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0107.water]]
 species = "seaking"
 accessibility = [
-    "surf_swarms",
-    "surf",
     "super_rod",
+    "surf",
+    "surf_swarms",
 ]
 
-[[D41R0107.water]]
+[[d41r0107.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
 ]
 
-[[D41R0107.water]]
+[[d41r0107.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D48R0101]
+[d48r0101]
 id = 82
 
-[[D48R0101.water]]
+[[d48r0101.water]]
 species = "wooper"
 accessibility = [
-    "surf_swarms",
     "surf",
+    "surf_swarms",
 ]
 
-[[D48R0101.water]]
+[[d48r0101.water]]
 species = "quagsire"
 accessibility = [
     "surf",
 ]
 
-[[D48R0101.water]]
+[[d48r0101.water]]
 species = "magikarp"
 accessibility = [
+    "old_rod",
     "good_rod",
+    "super_rod",
     "fishing_night",
     "fishing_swarms",
-    "old_rod",
-    "super_rod",
 ]
 
-[[D48R0101.water]]
+[[d48r0101.water]]
 species = "poliwag"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[D50R0101]
+[d50r0101]
 id = 83
 rock_smash = [
     { species = "krabby" },
     { species = "kingler" },
 ]
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "golbat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "geodude"
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "krabby"
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "kingler"
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "machop"
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "onix"
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "wooper"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "zubat"
 accessibility = [
     "night",
 ]
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "quagsire"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "misdreavus"
 accessibility = [
     "night",
 ]
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "graveler"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "machoke"
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "steelix"
 
-[[D50R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D50R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D50R0101.land]]
+[[d50r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D17R0112]
-id = 84
-
-[[D17R0112.land]]
-species = "rattata"
+[[d50r0101.land]]
+species = "bronzor"
 accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
+    "sinnoh",
 ]
 
-[[D17R0112.land]]
+[[d50r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d17r0112]
+id = 84
+
+[[d17r0112.land]]
+species = "rattata"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d17r0112.land]]
 species = "gastly"
 accessibility = [
     "night",
 ]
 
-[[D17R0112.land]]
-species = "chatot"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0112.land]]
-species = "meditite"
-accessibility = [
-    "sinnoh",
-]
-
-[[D17R0112.land]]
+[[d17r0112.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D17R0112.land]]
+[[d17r0112.land]]
 species = "spinda"
 accessibility = [
     "hoenn",
 ]
 
-[T31]
-id = 85
-
-[[T31.land]]
-species = "tangela"
+[[d17r0112.land]]
+species = "chatot"
 accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
+    "sinnoh",
 ]
 
-[[T31.land]]
+[[d17r0112.land]]
+species = "meditite"
+accessibility = [
+    "sinnoh",
+]
+
+[t31]
+id = 85
+
+[[t31.land]]
+species = "tangela"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[t31.land]]
 species = "ponyta"
 
-[[T31.land]]
+[[t31.land]]
 species = "ursaring"
 version = "ss"
 
-[[T31.land]]
+[[t31.land]]
 species = "donphan"
 version = "hg"
 
-[[T31.land]]
+[[t31.land]]
 species = "rapidash"
 
-[[T31.land]]
+[[t31.land]]
 species = "doduo"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[T31.land]]
+[[t31.land]]
 species = "sneasel"
 accessibility = [
     "night",
 ]
 
-[[T31.land]]
+[[t31.land]]
 species = "dodrio"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[T31.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[T31.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[T31.land]]
+[[t31.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[T31.land]]
+[[t31.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[T31.water]]
-species = "poliwhirl"
-accessibility = [
-    "surf_swarms",
-    "surf",
-]
-
-[[T31.water]]
-species = "poliwag"
-accessibility = [
-    "good_rod",
-    "fishing_night",
-    "old_rod",
-    "super_rod",
-    "surf",
-]
-
-[[T31.water]]
-species = "magikarp"
-accessibility = [
-    "good_rod",
-    "fishing_swarms",
-    "old_rod",
-    "super_rod",
-]
-
-[D41R0101]
-id = 86
-
-[[D41R0101.land]]
-species = "onix"
-accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
-]
-
-[[D41R0101.land]]
-species = "ursaring"
-version = "ss"
-
-[[D41R0101.land]]
-species = "donphan"
-version = "hg"
-
-[[D41R0101.land]]
-species = "teddiursa"
-version = "ss"
-
-[[D41R0101.land]]
-species = "phanpy"
-version = "hg"
-
-[[D41R0101.land]]
-species = "graveler"
-
-[[D41R0101.land]]
-species = "golbat"
-
-[[D41R0101.land]]
-species = "larvitar"
-
-[[D41R0101.land]]
-species = "bronzor"
+[[t31.land]]
+species = "buizel"
 accessibility = [
     "sinnoh",
 ]
 
-[[D41R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0101.land]]
-species = "absol"
-accessibility = [
-    "hoenn",
-]
-
-[[D41R0101.land]]
-species = "makuhita"
-accessibility = [
-    "hoenn",
-]
-
-[[D41R0101.water]]
-species = "seaking"
-accessibility = [
-    "good_rod",
-    "surf",
-    "super_rod",
-    "surf_swarms",
-]
-
-[[D41R0101.water]]
-species = "goldeen"
-accessibility = [
-    "good_rod",
-    "surf",
-    "old_rod",
-]
-
-[[D41R0101.water]]
-species = "magikarp"
-accessibility = [
-    "good_rod",
-    "fishing_swarms",
-    "old_rod",
-]
-
-[[D41R0101.water]]
-species = "gyarados"
-accessibility = [
-    "fishing_night",
-    "super_rod",
-]
-
-[D41R0103]
-id = 87
-
-[[D41R0103.land]]
-species = "golbat"
-accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
-]
-
-[[D41R0103.land]]
-species = "onix"
-
-[[D41R0103.land]]
-species = "teddiursa"
-version = "ss"
-
-[[D41R0103.land]]
-species = "phanpy"
-version = "hg"
-
-[[D41R0103.land]]
-species = "ursaring"
-version = "ss"
-
-[[D41R0103.land]]
-species = "donphan"
-version = "hg"
-
-[[D41R0103.land]]
-species = "golduck"
-
-[[D41R0103.land]]
-species = "larvitar"
-
-[[D41R0103.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0103.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0103.land]]
-species = "absol"
-accessibility = [
-    "hoenn",
-]
-
-[[D41R0103.land]]
-species = "makuhita"
-accessibility = [
-    "hoenn",
-]
-
-[D41R0104]
-id = 88
-
-[[D41R0104.land]]
-species = "quagsire"
-accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
-]
-
-[[D41R0104.land]]
-species = "misdreavus"
-accessibility = [
-    "night",
-]
-
-[[D41R0104.land]]
-species = "golduck"
-
-[[D41R0104.land]]
-species = "teddiursa"
-version = "ss"
-
-[[D41R0104.land]]
-species = "phanpy"
-version = "hg"
-
-[[D41R0104.land]]
-species = "ursaring"
-version = "ss"
-
-[[D41R0104.land]]
-species = "donphan"
-version = "hg"
-
-[[D41R0104.land]]
-species = "pupitar"
-
-[[D41R0104.land]]
-species = "golbat"
-
-[[D41R0104.land]]
-species = "larvitar"
-
-[[D41R0104.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0104.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0104.land]]
-species = "absol"
-accessibility = [
-    "hoenn",
-]
-
-[[D41R0104.land]]
-species = "makuhita"
-accessibility = [
-    "hoenn",
-]
-
-[D41R0102]
-id = 89
-
-[[D41R0102.land]]
-species = "sneasel"
-accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
-]
-
-[[D41R0102.land]]
-species = "golduck"
-
-[[D41R0102.land]]
-species = "quagsire"
-
-[[D41R0102.land]]
-species = "misdreavus"
-accessibility = [
-    "night",
-]
-
-[[D41R0102.land]]
-species = "ursaring"
-version = "ss"
-
-[[D41R0102.land]]
-species = "donphan"
-version = "hg"
-
-[[D41R0102.land]]
-species = "larvitar"
-
-[[D41R0102.land]]
-species = "golbat"
-
-[[D41R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D41R0102.land]]
-species = "absol"
-accessibility = [
-    "hoenn",
-]
-
-[[D41R0102.land]]
-species = "makuhita"
-accessibility = [
-    "hoenn",
-]
-
-[[D41R0102.water]]
-species = "seaking"
-accessibility = [
-    "surf_swarms",
-    "surf",
-    "super_rod",
-]
-
-[[D41R0102.water]]
-species = "goldeen"
-accessibility = [
-    "good_rod",
-    "fishing_night",
-    "old_rod",
-    "super_rod",
-    "surf",
-]
-
-[[D41R0102.water]]
-species = "magikarp"
-accessibility = [
-    "good_rod",
-    "fishing_swarms",
-    "old_rod",
-    "super_rod",
-]
-
-[090]
-id = 90
-
-[D47R0102]
-id = 91
-
-[[D47R0102.land]]
-species = "rattata"
-accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
-]
-
-[[D47R0102.land]]
+[[t31.land]]
 species = "bidoof"
 accessibility = [
     "sinnoh",
 ]
 
-[[D47R0102.land]]
+[[t31.water]]
+species = "poliwhirl"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[t31.water]]
+species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
+
+[[t31.water]]
+species = "magikarp"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "old_rod",
+    "fishing_swarms",
+]
+
+[d41r0101]
+id = 86
+
+[[d41r0101.land]]
+species = "onix"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d41r0101.land]]
+species = "ursaring"
+version = "ss"
+
+[[d41r0101.land]]
+species = "donphan"
+version = "hg"
+
+[[d41r0101.land]]
+species = "teddiursa"
+version = "ss"
+
+[[d41r0101.land]]
+species = "phanpy"
+version = "hg"
+
+[[d41r0101.land]]
+species = "graveler"
+
+[[d41r0101.land]]
+species = "golbat"
+
+[[d41r0101.land]]
+species = "larvitar"
+
+[[d41r0101.land]]
+species = "absol"
+accessibility = [
+    "hoenn",
+]
+
+[[d41r0101.land]]
+species = "makuhita"
+accessibility = [
+    "hoenn",
+]
+
+[[d41r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0101.water]]
+species = "seaking"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+]
+
+[[d41r0101.water]]
+species = "goldeen"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+]
+
+[[d41r0101.water]]
+species = "magikarp"
+accessibility = [
+    "good_rod",
+    "old_rod",
+    "fishing_swarms",
+]
+
+[[d41r0101.water]]
+species = "gyarados"
+accessibility = [
+    "super_rod",
+    "fishing_night",
+]
+
+[d41r0103]
+id = 87
+
+[[d41r0103.land]]
+species = "golbat"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d41r0103.land]]
+species = "onix"
+
+[[d41r0103.land]]
+species = "teddiursa"
+version = "ss"
+
+[[d41r0103.land]]
+species = "phanpy"
+version = "hg"
+
+[[d41r0103.land]]
+species = "ursaring"
+version = "ss"
+
+[[d41r0103.land]]
+species = "donphan"
+version = "hg"
+
+[[d41r0103.land]]
+species = "golduck"
+
+[[d41r0103.land]]
+species = "larvitar"
+
+[[d41r0103.land]]
+species = "absol"
+accessibility = [
+    "hoenn",
+]
+
+[[d41r0103.land]]
+species = "makuhita"
+accessibility = [
+    "hoenn",
+]
+
+[[d41r0103.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0103.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d41r0104]
+id = 88
+
+[[d41r0104.land]]
+species = "quagsire"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d41r0104.land]]
+species = "misdreavus"
+accessibility = [
+    "night",
+]
+
+[[d41r0104.land]]
+species = "golduck"
+
+[[d41r0104.land]]
+species = "teddiursa"
+version = "ss"
+
+[[d41r0104.land]]
+species = "phanpy"
+version = "hg"
+
+[[d41r0104.land]]
+species = "ursaring"
+version = "ss"
+
+[[d41r0104.land]]
+species = "donphan"
+version = "hg"
+
+[[d41r0104.land]]
+species = "pupitar"
+
+[[d41r0104.land]]
+species = "golbat"
+
+[[d41r0104.land]]
+species = "larvitar"
+
+[[d41r0104.land]]
+species = "absol"
+accessibility = [
+    "hoenn",
+]
+
+[[d41r0104.land]]
+species = "makuhita"
+accessibility = [
+    "hoenn",
+]
+
+[[d41r0104.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0104.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d41r0102]
+id = 89
+
+[[d41r0102.land]]
+species = "sneasel"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d41r0102.land]]
+species = "golduck"
+
+[[d41r0102.land]]
+species = "quagsire"
+
+[[d41r0102.land]]
+species = "misdreavus"
+accessibility = [
+    "night",
+]
+
+[[d41r0102.land]]
+species = "ursaring"
+version = "ss"
+
+[[d41r0102.land]]
+species = "donphan"
+version = "hg"
+
+[[d41r0102.land]]
+species = "larvitar"
+
+[[d41r0102.land]]
+species = "golbat"
+
+[[d41r0102.land]]
+species = "absol"
+accessibility = [
+    "hoenn",
+]
+
+[[d41r0102.land]]
+species = "makuhita"
+accessibility = [
+    "hoenn",
+]
+
+[[d41r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d41r0102.water]]
+species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+    "surf_swarms",
+]
+
+[[d41r0102.water]]
+species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
+
+[[d41r0102.water]]
+species = "magikarp"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "old_rod",
+    "fishing_swarms",
+]
+
+[090]
+id = 90
+
+[d47r0102]
+id = 91
+
+[[d47r0102.land]]
+species = "rattata"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d47r0102.land]]
 species = "zigzagoon"
 accessibility = [
     "hoenn",
 ]
 
-[[D47R0102.water]]
+[[d47r0102.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[d47r0102.water]]
 species = "magikarp"
 accessibility = [
-    "surf_swarms",
     "surf",
+    "surf_swarms",
 ]
 
-[[D47R0102.water]]
+[[d47r0102.water]]
 species = "goldeen"
 accessibility = [
+    "old_rod",
     "good_rod",
+    "super_rod",
     "fishing_night",
     "fishing_swarms",
-    "old_rod",
-    "super_rod",
 ]
 
-[R12]
+[r12]
 id = 92
 
-[[R12.water]]
+[[r12.water]]
 species = "tentacool"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R12.water]]
+[[r12.water]]
 species = "quagsire"
 accessibility = [
     "surf",
 ]
 
-[[R12.water]]
+[[r12.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[R12.water]]
+[[r12.water]]
 species = "relicanth"
 accessibility = [
     "fishing_swarms",
 ]
 
-[[R12.water]]
+[[r12.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[R12.water]]
+[[r12.water]]
 species = "qwilfish"
 accessibility = [
     "super_rod",
 ]
 
-[W19]
+[w19]
 id = 93
 rock_smash = [
     { species = "kingler" },
     { species = "krabby" },
 ]
 
-[[W19.water]]
+[[w19.water]]
 species = "tentacool"
 accessibility = [
     "surf",
 ]
 
-[[W19.water]]
+[[w19.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[W19.water]]
+[[w19.water]]
 species = "clamperl"
 accessibility = [
     "surf_swarms",
 ]
 
-[[W19.water]]
+[[w19.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[W19.water]]
+[[w19.water]]
 species = "staryu"
 accessibility = [
     "fishing_night",
 ]
 
-[[W19.water]]
+[[w19.water]]
 species = "krabby"
 accessibility = [
     "good_rod",
-    "old_rod",
     "super_rod",
+    "old_rod",
 ]
 
-[[W19.water]]
+[[w19.water]]
 species = "corsola"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[W19.water]]
+[[w19.water]]
 species = "kingler"
 accessibility = [
     "super_rod",
 ]
 
-[W20]
+[w20]
 id = 94
 
-[[W20.water]]
+[[w20.water]]
 species = "tentacool"
 accessibility = [
+    "surf",
     "good_rod",
     "old_rod",
-    "surf",
     "surf_swarms",
 ]
 
-[[W20.water]]
+[[w20.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[W20.water]]
+[[w20.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[W20.water]]
+[[w20.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[W20.water]]
+[[w20.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[W20.water]]
+[[w20.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[T01]
+[t01]
 id = 95
 
-[[T01.water]]
+[[t01.water]]
 species = "tentacool"
 accessibility = [
+    "surf",
     "good_rod",
     "old_rod",
-    "surf",
     "surf_swarms",
 ]
 
-[[T01.water]]
+[[t01.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[T01.water]]
+[[t01.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[T01.water]]
+[[t01.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[T01.water]]
+[[t01.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[T01.water]]
+[[t01.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[T02]
+[t02]
 id = 96
 
-[[T02.water]]
+[[t02.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[T02.water]]
+[[t02.water]]
 species = "poliwhirl"
 accessibility = [
     "surf",
 ]
 
-[[T02.water]]
+[[t02.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[T04]
+[t04]
 id = 97
 
-[[T04.water]]
+[[t04.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[T04.water]]
+[[t04.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[T04.water]]
+[[t04.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[T06]
+[t06]
 id = 98
 rock_smash = [
     { species = "diglett" },
     { species = "shuckle" },
 ]
 
-[[T06.water]]
+[[t06.water]]
 species = "tentacool"
 accessibility = [
-    "good_rod",
     "surf",
+    "good_rod",
     "old_rod",
 ]
 
-[[T06.water]]
+[[t06.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[T06.water]]
+[[t06.water]]
 species = "wingull"
 accessibility = [
     "surf_swarms",
 ]
 
-[[T06.water]]
+[[t06.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[T06.water]]
+[[t06.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[T06.water]]
+[[t06.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[T06.water]]
+[[t06.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[T07]
+[t07]
 id = 99
 
-[[T07.water]]
+[[t07.water]]
 species = "grimer"
 accessibility = [
-    "surf_swarms",
     "surf",
+    "surf_swarms",
 ]
 
-[[T07.water]]
+[[t07.water]]
 species = "muk"
 accessibility = [
     "surf",
 ]
 
-[T08]
+[t08]
 id = 100
 
-[[T08.water]]
+[[t08.water]]
 species = "magikarp"
 accessibility = [
-    "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
     "surf_swarms",
+    "fishing_swarms",
 ]
 
-[[T08.water]]
+[[t08.water]]
 species = "gyarados"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[T09]
+[t09]
 id = 101
 
-[[T09.water]]
+[[t09.water]]
 species = "tentacool"
 accessibility = [
+    "surf",
     "good_rod",
     "old_rod",
-    "surf",
     "surf_swarms",
 ]
 
-[[T09.water]]
+[[t09.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[T09.water]]
+[[t09.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[T09.water]]
+[[t09.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[T09.water]]
+[[t09.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[T09.water]]
+[[t09.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[R48]
+[r48]
 id = 102
 
-[[R48.land]]
+[[r48.land]]
 species = "farfetchd"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R48.land]]
+[[r48.land]]
 species = "vulpix"
 version = "ss"
 
-[[R48.land]]
+[[r48.land]]
 species = "growlithe"
 version = "hg"
 
-[[R48.land]]
+[[r48.land]]
 species = "tauros"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R48.land]]
+[[r48.land]]
 species = "hoppip"
 
-[[R48.land]]
+[[r48.land]]
 species = "fearow"
 
-[[R48.land]]
+[[r48.land]]
 species = "gloom"
 
-[[R48.land]]
+[[r48.land]]
 species = "girafarig"
 
-[[R48.land]]
+[[r48.land]]
 species = "diglett"
 
-[[R48.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R48.land]]
+[[r48.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R48.land]]
+[[r48.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R26]
+[[r48.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r26]
 id = 103
 
-[[R26.land]]
+[[r26.land]]
 species = "doduo"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R26.land]]
+[[r26.land]]
 species = "doduo"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[R26.land]]
+[[r26.land]]
 species = "raticate"
 
-[[R26.land]]
+[[r26.land]]
 species = "sandslash"
 version = "hg"
 
-[[R26.land]]
+[[r26.land]]
 species = "ponyta"
 
-[[R26.land]]
+[[r26.land]]
 species = "quagsire"
 accessibility = [
     "night",
 ]
 
-[[R26.land]]
+[[r26.land]]
 species = "arbok"
 version = "ss"
 
-[[R26.land]]
+[[r26.land]]
 species = "dodrio"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R26.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R26.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R26.land]]
+[[r26.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R26.land]]
+[[r26.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R26.water]]
+[[r26.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r26.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r26.water]]
 species = "tentacool"
 accessibility = [
+    "surf",
     "good_rod",
     "old_rod",
-    "surf",
     "surf_swarms",
 ]
 
-[[R26.water]]
+[[r26.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[R26.water]]
+[[r26.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[R26.water]]
+[[r26.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[R26.water]]
+[[r26.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[R26.water]]
+[[r26.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[R27]
+[r27]
 id = 104
 
-[[R27.land]]
+[[r27.land]]
 species = "doduo"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 
-[[R27.land]]
+[[r27.land]]
 species = "quagsire"
 accessibility = [
     "night",
 ]
 
-[[R27.land]]
+[[r27.land]]
 species = "arbok"
 version = "ss"
 
-[[R27.land]]
+[[r27.land]]
 species = "raticate"
 
-[[R27.land]]
+[[r27.land]]
 species = "ponyta"
 
-[[R27.land]]
+[[r27.land]]
 species = "dodrio"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R27.land]]
+[[r27.land]]
 species = "sandslash"
 version = "hg"
 
-[[R27.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R27.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R27.land]]
+[[r27.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R27.land]]
+[[r27.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R27.water]]
+[[r27.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r27.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r27.water]]
 species = "tentacool"
 accessibility = [
-    "good_rod",
     "surf",
+    "good_rod",
     "old_rod",
 ]
 
-[[R27.water]]
+[[r27.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[R27.water]]
+[[r27.water]]
 species = "luvdisc"
 accessibility = [
     "surf_swarms",
 ]
 
-[[R27.water]]
+[[r27.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[R27.water]]
+[[r27.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[R27.water]]
+[[r27.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[R27.water]]
+[[r27.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[R28]
+[r28]
 id = 105
 
-[[R28.land]]
+[[r28.land]]
 species = "tangela"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R28.land]]
+[[r28.land]]
 species = "ponyta"
 
-[[R28.land]]
+[[r28.land]]
 species = "ursaring"
 version = "ss"
 
-[[R28.land]]
+[[r28.land]]
 species = "donphan"
 version = "hg"
 
-[[R28.land]]
+[[r28.land]]
 species = "rapidash"
 
-[[R28.land]]
+[[r28.land]]
 species = "sneasel"
 accessibility = [
     "night",
 ]
 
-[[R28.land]]
+[[r28.land]]
 species = "doduo"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R28.land]]
+[[r28.land]]
 species = "dodrio"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R28.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R28.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R28.land]]
+[[r28.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R28.land]]
+[[r28.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R28.water]]
+[[r28.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r28.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r28.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R28.water]]
+[[r28.water]]
 species = "poliwhirl"
 accessibility = [
     "surf",
 ]
 
-[[R28.water]]
+[[r28.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D02R0101]
+[d02r0101]
 id = 106
 
-[[D02R0101.land]]
+[[d02r0101.land]]
 species = "zubat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D02R0101.land]]
+[[d02r0101.land]]
 species = "geodude"
 
-[[D02R0101.land]]
+[[d02r0101.land]]
 species = "sandshrew"
 version = "hg"
 
-[[D02R0101.land]]
+[[d02r0101.land]]
 species = "paras"
 
-[[D02R0101.land]]
+[[d02r0101.land]]
 species = "sandslash"
 version = "hg"
 
-[[D02R0101.land]]
+[[d02r0101.land]]
 species = "clefairy"
 
-[[D02R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D02R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D02R0101.land]]
+[[d02r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D02R0101.land]]
+[[d02r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D02R0102]
+[[d02r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d02r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d02r0102]
 id = 107
 
-[[D02R0102.land]]
+[[d02r0102.land]]
 species = "zubat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D02R0102.land]]
+[[d02r0102.land]]
 species = "geodude"
 
-[[D02R0102.land]]
+[[d02r0102.land]]
 species = "sandshrew"
 version = "hg"
 
-[[D02R0102.land]]
+[[d02r0102.land]]
 species = "paras"
 
-[[D02R0102.land]]
+[[d02r0102.land]]
 species = "sandslash"
 version = "hg"
 
-[[D02R0102.land]]
+[[d02r0102.land]]
 species = "clefairy"
 
-[[D02R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D02R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D02R0102.land]]
+[[d02r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D02R0102.land]]
+[[d02r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D05R0101]
+[[d02r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d02r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d05r0101]
 id = 108
 
-[[D05R0101.land]]
+[[d05r0101.land]]
 species = "cubone"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D05R0101.land]]
+[[d05r0101.land]]
 species = "geodude"
 
-[[D05R0101.land]]
+[[d05r0101.land]]
 species = "machop"
 
-[[D05R0101.land]]
+[[d05r0101.land]]
 species = "zubat"
 
-[[D05R0101.land]]
+[[d05r0101.land]]
 species = "machoke"
 
-[[D05R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D05R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D05R0101.land]]
+[[d05r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D05R0101.land]]
+[[d05r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D05R0102]
+[[d05r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d05r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d05r0102]
 id = 109
 rock_smash = [
     { species = "geodude" },
 ]
 
-[[D05R0102.land]]
+[[d05r0102.land]]
 species = "cubone"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D05R0102.land]]
+[[d05r0102.land]]
 species = "geodude"
 
-[[D05R0102.land]]
+[[d05r0102.land]]
 species = "onix"
 
-[[D05R0102.land]]
+[[d05r0102.land]]
 species = "zubat"
 
-[[D05R0102.land]]
+[[d05r0102.land]]
 species = "marowak"
 
-[[D05R0102.land]]
+[[d05r0102.land]]
 species = "kangaskhan"
 
-[[D05R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D05R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D05R0102.land]]
+[[d05r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D05R0102.land]]
+[[d05r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D43R0101]
-id = 110
-
-[[D43R0101.land]]
-species = "graveler"
+[[d05r0102.land]]
+species = "bronzor"
 accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
+    "sinnoh",
 ]
 
-[[D43R0101.land]]
+[[d05r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d43r0101]
+id = 110
+
+[[d43r0101.land]]
+species = "graveler"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d43r0101.land]]
 species = "golbat"
 
-[[D43R0101.land]]
+[[d43r0101.land]]
 species = "ursaring"
 version = "ss"
 
-[[D43R0101.land]]
+[[d43r0101.land]]
 species = "donphan"
 version = "hg"
 
-[[D43R0101.land]]
+[[d43r0101.land]]
 species = "onix"
 
-[[D43R0101.land]]
+[[d43r0101.land]]
 species = "rhyhorn"
 
-[[D43R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D43R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D43R0101.land]]
+[[d43r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D43R0101.land]]
+[[d43r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[R01]
-id = 111
-
-[[R01.land]]
-species = "pidgey"
+[[d43r0101.land]]
+species = "bronzor"
 accessibility = [
-    "morning",
-    "day",
+    "sinnoh",
 ]
 
-[[R01.land]]
+[[d43r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[r01]
+id = 111
+
+[[r01.land]]
+species = "pidgey"
+accessibility = [
+    "day",
+    "morning",
+]
+
+[[r01.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R01.land]]
+[[r01.land]]
 species = "rattata"
 
-[[R01.land]]
+[[r01.land]]
 species = "sentret"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R01.land]]
+[[r01.land]]
 species = "furret"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R01.land]]
+[[r01.land]]
 species = "poochyena"
 accessibility = [
     "land_swarms",
 ]
 
-[[R01.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R01.land]]
+[[r01.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R01.land]]
+[[r01.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R02]
+[[r01.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r02]
 id = 112
 
-[[R02.land]]
+[[r02.land]]
 species = "ledyba"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R02.land]]
+[[r02.land]]
 species = "caterpie"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[R02.land]]
+[[r02.land]]
 species = "weedle"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R02.land]]
+[[r02.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R02.land]]
+[[r02.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R02.land]]
+[[r02.land]]
 species = "spinarak"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 version = "hg"
 
-[[R02.land]]
+[[r02.land]]
 species = "kakuna"
 version = "ss"
 
-[[R02.land]]
+[[r02.land]]
 species = "metapod"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R02.land]]
+[[r02.land]]
 species = "beedrill"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 version = "ss"
 
-[[R02.land]]
+[[r02.land]]
 species = "butterfree"
 accessibility = [
     "morning",
 ]
 version = "hg"
 
-[[R02.land]]
+[[r02.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[R02.land]]
+[[r02.land]]
 species = "ledian"
 accessibility = [
     "morning",
 ]
 version = "ss"
 
-[[R02.land]]
+[[r02.land]]
 species = "pidgeotto"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R02.land]]
+[[r02.land]]
 species = "pidgeotto"
 accessibility = [
     "day",
 ]
 version = "ss"
 
-[[R02.land]]
+[[r02.land]]
 species = "ariados"
 accessibility = [
     "night",
 ]
 version = "hg"
 
-[[R02.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R02.land]]
+[[r02.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R02.land]]
+[[r02.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R03]
-id = 113
-
-[[R03.land]]
-species = "spearow"
+[[r02.land]]
+species = "shinx"
 accessibility = [
-    "morning",
-    "day",
+    "sinnoh",
 ]
 
-[[R03.land]]
+[r03]
+id = 113
+
+[[r03.land]]
+species = "spearow"
+accessibility = [
+    "day",
+    "morning",
+]
+
+[[r03.land]]
 species = "rattata"
 
-[[R03.land]]
+[[r03.land]]
 species = "zubat"
 accessibility = [
     "night",
 ]
 
-[[R03.land]]
+[[r03.land]]
 species = "ekans"
 version = "ss"
 
-[[R03.land]]
+[[r03.land]]
 species = "jigglypuff"
 
-[[R03.land]]
+[[r03.land]]
 species = "arbok"
 version = "ss"
 
-[[R03.land]]
+[[r03.land]]
 species = "gulpin"
 accessibility = [
     "land_swarms",
 ]
 version = "ss"
 
-[[R03.land]]
+[[r03.land]]
 species = "baltoy"
 accessibility = [
     "land_swarms",
 ]
 version = "hg"
 
-[[R03.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R03.land]]
+[[r03.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R03.land]]
+[[r03.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R04]
+[[r03.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r04]
 id = 114
 
-[[R04.land]]
+[[r04.land]]
 species = "spearow"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "ss"
 
-[[R04.land]]
+[[r04.land]]
 species = "spearow"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "hg"
 
-[[R04.land]]
+[[r04.land]]
 species = "rattata"
 
-[[R04.land]]
+[[r04.land]]
 species = "zubat"
 accessibility = [
     "night",
 ]
 
-[[R04.land]]
+[[r04.land]]
 species = "ekans"
 version = "ss"
 
-[[R04.land]]
+[[r04.land]]
 species = "jigglypuff"
 
-[[R04.land]]
+[[r04.land]]
 species = "arbok"
 version = "ss"
 
-[[R04.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R04.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R04.land]]
+[[r04.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R04.land]]
+[[r04.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R04.water]]
+[[r04.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r04.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r04.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R04.water]]
+[[r04.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[R04.water]]
+[[r04.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[R05]
+[r05]
 id = 115
 
-[[R05.land]]
+[[r05.land]]
 species = "pidgey"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 
-[[R05.land]]
+[[r05.land]]
 species = "oddish"
 accessibility = [
     "night",
 ]
 
-[[R05.land]]
+[[r05.land]]
 species = "bellsprout"
 
-[[R05.land]]
+[[r05.land]]
 species = "meowth"
 version = "ss"
 
-[[R05.land]]
+[[r05.land]]
 species = "gloom"
 accessibility = [
     "night",
 ]
 
-[[R05.land]]
+[[r05.land]]
 species = "abra"
 
-[[R05.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R05.land]]
+[[r05.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R05.land]]
+[[r05.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R06]
-id = 116
-
-[[R06.land]]
-species = "pidgey"
+[[r05.land]]
+species = "shinx"
 accessibility = [
-    "day",
-    "morning",
-    "land_swarms",
+    "sinnoh",
 ]
 
-[[R06.land]]
+[r06]
+id = 116
+
+[[r06.land]]
+species = "pidgey"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+]
+
+[[r06.land]]
 species = "oddish"
 accessibility = [
     "night",
 ]
 
-[[R06.land]]
+[[r06.land]]
 species = "bellsprout"
 
-[[R06.land]]
+[[r06.land]]
 species = "meowth"
 version = "ss"
 
-[[R06.land]]
+[[r06.land]]
 species = "magnemite"
 
-[[R06.land]]
+[[r06.land]]
 species = "abra"
 
-[[R06.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R06.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R06.land]]
+[[r06.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R06.land]]
+[[r06.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R06.water]]
-species = "psyduck"
+[[r06.land]]
+species = "buizel"
 accessibility = [
-    "surf_swarms",
-    "surf",
+    "sinnoh",
 ]
 
-[[R06.water]]
+[[r06.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r06.water]]
+species = "psyduck"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[r06.water]]
 species = "golduck"
 accessibility = [
     "surf",
 ]
 
-[[R06.water]]
+[[r06.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[R06.water]]
+[[r06.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
+    "fishing_night",
 ]
 
-[R07]
+[r07]
 id = 117
 
-[[R07.land]]
+[[r07.land]]
 species = "meowth"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R07.land]]
+[[r07.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "hg"
 
-[[R07.land]]
+[[r07.land]]
 species = "spearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R07.land]]
+[[r07.land]]
 species = "murkrow"
 accessibility = [
     "night",
 ]
 
-[[R07.land]]
+[[r07.land]]
 species = "vulpix"
 version = "ss"
 
-[[R07.land]]
+[[r07.land]]
 species = "growlithe"
 version = "hg"
 
-[[R07.land]]
+[[r07.land]]
 species = "raticate"
 
-[[R07.land]]
+[[r07.land]]
 species = "persian"
 version = "ss"
 
-[[R07.land]]
+[[r07.land]]
 species = "rattata"
 accessibility = [
     "morning",
 ]
 version = "ss"
 
-[[R07.land]]
+[[r07.land]]
 species = "houndour"
 accessibility = [
     "night",
 ]
 
-[[R07.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R07.land]]
+[[r07.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R07.land]]
+[[r07.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R08]
+[[r07.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r08]
 id = 118
 
-[[R08.land]]
+[[r08.land]]
 species = "meowth"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R08.land]]
+[[r08.land]]
 species = "pidgeotto"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[R08.land]]
+[[r08.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[R08.land]]
+[[r08.land]]
 species = "pidgeotto"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R08.land]]
+[[r08.land]]
 species = "haunter"
 accessibility = [
     "night",
 ]
 
-[[R08.land]]
+[[r08.land]]
 species = "abra"
 
-[[R08.land]]
+[[r08.land]]
 species = "vulpix"
 version = "ss"
 
-[[R08.land]]
+[[r08.land]]
 species = "growlithe"
 version = "hg"
 
-[[R08.land]]
+[[r08.land]]
 species = "kadabra"
 
-[[R08.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R08.land]]
+[[r08.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R08.land]]
+[[r08.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R09]
+[[r08.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r09]
 id = 119
 
-[[R09.land]]
+[[r09.land]]
 species = "rattata"
 
-[[R09.land]]
+[[r09.land]]
 species = "mankey"
 version = "hg"
 
-[[R09.land]]
+[[r09.land]]
 species = "spearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R09.land]]
+[[r09.land]]
 species = "raticate"
 
-[[R09.land]]
+[[r09.land]]
 species = "fearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R09.land]]
+[[r09.land]]
 species = "primeape"
 version = "hg"
 
-[[R09.land]]
+[[r09.land]]
 species = "mawile"
 accessibility = [
     "land_swarms",
 ]
 version = "ss"
 
-[[R09.land]]
+[[r09.land]]
 species = "sableye"
 accessibility = [
     "land_swarms",
 ]
 version = "hg"
 
-[[R09.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R09.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R09.land]]
+[[r09.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R09.land]]
+[[r09.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R09.water]]
+[[r09.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r09.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r09.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R09.water]]
+[[r09.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[R09.water]]
+[[r09.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[R10]
+[r10]
 id = 120
 
-[[R10.land]]
+[[r10.land]]
 species = "spearow"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 
-[[R10.land]]
+[[r10.land]]
 species = "quagsire"
 accessibility = [
     "night",
 ]
 
-[[R10.land]]
+[[r10.land]]
 species = "voltorb"
 
-[[R10.land]]
+[[r10.land]]
 species = "raticate"
 
-[[R10.land]]
+[[r10.land]]
 species = "fearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R10.land]]
+[[r10.land]]
 species = "electabuzz"
 
-[[R10.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R10.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R10.land]]
+[[r10.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R10.land]]
+[[r10.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R10.water]]
-species = "goldeen"
-accessibility = [
-    "good_rod",
-    "fishing_night",
-    "old_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-]
-
-[[R10.water]]
-species = "seaking"
-accessibility = [
-    "surf",
-    "super_rod",
-]
-
-[[R10.water]]
-species = "magikarp"
-accessibility = [
-    "good_rod",
-    "fishing_swarms",
-    "old_rod",
-    "super_rod",
-]
-
-[R11]
-id = 121
-
-[[R11.land]]
-species = "drowzee"
-accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
-]
-
-[[R11.land]]
-species = "rattata"
-
-[[R11.land]]
-species = "magnemite"
-
-[[R11.land]]
-species = "hypno"
-
-[[R11.land]]
-species = "shinx"
+[[r10.land]]
+species = "buizel"
 accessibility = [
     "sinnoh",
 ]
 
-[[R11.land]]
+[[r10.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r10.water]]
+species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
+
+[[r10.water]]
+species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
+
+[[r10.water]]
+species = "magikarp"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "old_rod",
+    "fishing_swarms",
+]
+
+[r11]
+id = 121
+
+[[r11.land]]
+species = "drowzee"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[r11.land]]
+species = "rattata"
+
+[[r11.land]]
+species = "magnemite"
+
+[[r11.land]]
+species = "hypno"
+
+[[r11.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R11.land]]
+[[r11.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R13]
-id = 122
-
-[[R13.land]]
-species = "nidorino"
-
-[[R13.land]]
-species = "nidorina"
-
-[[R13.land]]
-species = "pidgeotto"
+[[r11.land]]
+species = "shinx"
 accessibility = [
-    "morning",
-    "day",
+    "sinnoh",
 ]
 
-[[R13.land]]
+[r13]
+id = 122
+
+[[r13.land]]
+species = "nidorino"
+
+[[r13.land]]
+species = "nidorina"
+
+[[r13.land]]
+species = "pidgeotto"
+accessibility = [
+    "day",
+    "morning",
+]
+
+[[r13.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[R13.land]]
+[[r13.land]]
 species = "hoppip"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R13.land]]
+[[r13.land]]
 species = "quagsire"
 accessibility = [
     "night",
 ]
 
-[[R13.land]]
+[[r13.land]]
 species = "chansey"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R13.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R13.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R13.land]]
+[[r13.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R13.land]]
+[[r13.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R13.water]]
+[[r13.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r13.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r13.water]]
 species = "tentacool"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R13.water]]
+[[r13.water]]
 species = "quagsire"
 accessibility = [
     "surf",
 ]
 
-[[R13.water]]
+[[r13.water]]
 species = "tentacruel"
 accessibility = [
     "surf",
 ]
 
-[[R13.water]]
+[[r13.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[[R13.water]]
+[[r13.water]]
 species = "qwilfish"
 accessibility = [
     "super_rod",
 ]
 
-[R14]
+[r14]
 id = 123
 
-[[R14.land]]
+[[r14.land]]
 species = "nidorino"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R14.land]]
+[[r14.land]]
 species = "nidorina"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "hg"
 
-[[R14.land]]
+[[r14.land]]
 species = "nidorina"
 version = "ss"
 
-[[R14.land]]
+[[r14.land]]
 species = "nidorino"
 version = "hg"
 
-[[R14.land]]
+[[r14.land]]
 species = "pidgeotto"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R14.land]]
+[[r14.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[R14.land]]
+[[r14.land]]
 species = "hoppip"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R14.land]]
+[[r14.land]]
 species = "quagsire"
 accessibility = [
     "night",
 ]
 
-[[R14.land]]
+[[r14.land]]
 species = "skiploom"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R14.land]]
+[[r14.land]]
 species = "chansey"
 
-[[R14.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R14.land]]
+[[r14.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R14.land]]
+[[r14.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R15]
+[[r14.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r15]
 id = 124
 
-[[R15.land]]
+[[r15.land]]
 species = "nidorino"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R15.land]]
+[[r15.land]]
 species = "nidorina"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "hg"
 
-[[R15.land]]
+[[r15.land]]
 species = "nidorina"
 version = "ss"
 
-[[R15.land]]
+[[r15.land]]
 species = "nidorino"
 version = "hg"
 
-[[R15.land]]
+[[r15.land]]
 species = "pidgeotto"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R15.land]]
+[[r15.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[R15.land]]
+[[r15.land]]
 species = "hoppip"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R15.land]]
+[[r15.land]]
 species = "quagsire"
 accessibility = [
     "night",
 ]
 
-[[R15.land]]
+[[r15.land]]
 species = "chansey"
 
-[[R15.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R15.land]]
+[[r15.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R15.land]]
+[[r15.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R16R0301]
+[[r15.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r16r0301]
 id = 125
 
-[[R16R0301.land]]
+[[r16r0301.land]]
 species = "grimer"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R16R0301.land]]
+[[r16r0301.land]]
 species = "fearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R16R0301.land]]
+[[r16r0301.land]]
 species = "murkrow"
 accessibility = [
     "night",
 ]
 
-[[R16R0301.land]]
+[[r16r0301.land]]
 species = "slugma"
 
-[[R16R0301.land]]
+[[r16r0301.land]]
 species = "muk"
 
-[[R16R0301.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R16R0301.land]]
+[[r16r0301.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R16R0301.land]]
+[[r16r0301.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R17]
+[[r16r0301.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r17]
 id = 126
 
-[[R17.land]]
+[[r17.land]]
 species = "fearow"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 
-[[R17.land]]
+[[r17.land]]
 species = "grimer"
 
-[[R17.land]]
+[[r17.land]]
 species = "slugma"
 
-[[R17.land]]
+[[r17.land]]
 species = "muk"
 
-[[R17.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R17.land]]
+[[r17.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R17.land]]
+[[r17.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[R18]
+[[r17.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[r18]
 id = 127
 
-[[R18.land]]
+[[r18.land]]
 species = "grimer"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R18.land]]
+[[r18.land]]
 species = "fearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R18.land]]
+[[r18.land]]
 species = "muk"
 
-[[R18.land]]
+[[r18.land]]
 species = "slugma"
 
-[[R18.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R18.land]]
+[[r18.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R18.land]]
+[[r18.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[W21]
+[[r18.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[w21]
 id = 128
 
-[[W21.land]]
+[[w21.land]]
 species = "tangela"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[W21.land]]
+[[w21.land]]
 species = "mr_mime"
 
-[[W21.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[W21.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[W21.land]]
+[[w21.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[W21.land]]
+[[w21.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[W21.water]]
+[[w21.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[w21.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[w21.water]]
 species = "tentacool"
 accessibility = [
+    "surf",
     "good_rod",
     "old_rod",
-    "surf",
     "surf_swarms",
 ]
 
-[[W21.water]]
+[[w21.water]]
 species = "tentacruel"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[W21.water]]
+[[w21.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[W21.water]]
+[[w21.water]]
 species = "shellder"
 accessibility = [
     "good_rod",
-    "fishing_night",
     "super_rod",
+    "fishing_night",
 ]
 
-[[W21.water]]
+[[w21.water]]
 species = "chinchou"
 accessibility = [
     "good_rod",
     "super_rod",
 ]
 
-[[W21.water]]
+[[w21.water]]
 species = "lanturn"
 accessibility = [
     "super_rod",
 ]
 
-[R22]
+[r22]
 id = 129
 
-[[R22.land]]
+[[r22.land]]
 species = "rattata"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R22.land]]
+[[r22.land]]
 species = "spearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R22.land]]
+[[r22.land]]
 species = "doduo"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R22.land]]
+[[r22.land]]
 species = "ponyta"
 
-[[R22.land]]
+[[r22.land]]
 species = "fearow"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R22.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R22.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R22.land]]
+[[r22.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R22.land]]
+[[r22.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R22.water]]
+[[r22.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r22.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r22.water]]
 species = "poliwag"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R22.water]]
+[[r22.water]]
 species = "poliwhirl"
 accessibility = [
     "surf",
 ]
 
-[[R22.water]]
+[[r22.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[R24]
+[r24]
 id = 130
 
-[[R24.land]]
+[[r24.land]]
 species = "bellsprout"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[R24.land]]
+[[r24.land]]
 species = "venonat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 
-[[R24.land]]
+[[r24.land]]
 species = "sunkern"
 accessibility = [
     "day",
 ]
 
-[[R24.land]]
+[[r24.land]]
 species = "oddish"
 accessibility = [
     "night",
 ]
 
-[[R24.land]]
+[[r24.land]]
 species = "abra"
 
-[[R24.land]]
+[[r24.land]]
 species = "weepinbell"
 
-[[R24.land]]
+[[r24.land]]
 species = "venomoth"
 accessibility = [
     "night",
 ]
 
-[[R24.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R24.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R24.land]]
+[[r24.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R24.land]]
+[[r24.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R24.water]]
+[[r24.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r24.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r24.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R24.water]]
+[[r24.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[R24.water]]
+[[r24.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[R25]
+[r25]
 id = 131
 
-[[R25.land]]
+[[r25.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R25.land]]
+[[r25.land]]
 species = "venonat"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 
-[[R25.land]]
+[[r25.land]]
 species = "bellsprout"
 
-[[R25.land]]
+[[r25.land]]
 species = "oddish"
 accessibility = [
     "night",
 ]
 
-[[R25.land]]
+[[r25.land]]
 species = "venomoth"
 accessibility = [
     "night",
 ]
 
-[[R25.land]]
+[[r25.land]]
 species = "abra"
 
-[[R25.land]]
+[[r25.land]]
 species = "pidgeotto"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R25.land]]
+[[r25.land]]
 species = "weepinbell"
 
-[[R25.land]]
+[[r25.land]]
 species = "buneary"
 accessibility = [
     "land_swarms",
 ]
 
-[[R25.land]]
-species = "buizel"
-accessibility = [
-    "sinnoh",
-]
-
-[[R25.land]]
-species = "bidoof"
-accessibility = [
-    "sinnoh",
-]
-
-[[R25.land]]
+[[r25.land]]
 species = "whismur"
 accessibility = [
     "hoenn",
 ]
 
-[[R25.land]]
+[[r25.land]]
 species = "linoone"
 accessibility = [
     "hoenn",
 ]
 
-[[R25.water]]
+[[r25.land]]
+species = "buizel"
+accessibility = [
+    "sinnoh",
+]
+
+[[r25.land]]
+species = "bidoof"
+accessibility = [
+    "sinnoh",
+]
+
+[[r25.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[R25.water]]
+[[r25.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[R25.water]]
+[[r25.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D45R0101]
+[d45r0101]
 id = 132
 
-[[D45R0101.land]]
+[[d45r0101.land]]
 species = "zubat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D45R0101.land]]
+[[d45r0101.land]]
 species = "raticate"
 
-[[D45R0101.land]]
+[[d45r0101.land]]
 species = "golbat"
 
-[[D45R0101.land]]
+[[d45r0101.land]]
 species = "slowpoke"
 
-[[D45R0101.land]]
+[[d45r0101.land]]
 species = "rattata"
 
-[[D45R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D45R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D45R0101.land]]
+[[d45r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D45R0101.land]]
+[[d45r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D45R0101.water]]
+[[d45r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d45r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d45r0101.water]]
 species = "goldeen"
 accessibility = [
-    "good_rod",
-    "fishing_night",
     "old_rod",
+    "good_rod",
     "super_rod",
     "surf",
+    "fishing_night",
     "surf_swarms",
 ]
 
-[[D45R0101.water]]
+[[d45r0101.water]]
 species = "slowpoke"
 accessibility = [
     "surf",
 ]
 
-[[D45R0101.water]]
+[[d45r0101.water]]
 species = "seaking"
 accessibility = [
-    "surf",
     "super_rod",
+    "surf",
 ]
 
-[[D45R0101.water]]
+[[d45r0101.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
-    "old_rod",
     "super_rod",
+    "old_rod",
+    "fishing_swarms",
 ]
 
-[D01R0101]
+[d01r0101]
 id = 133
 
-[[D01R0101.land]]
+[[d01r0101.land]]
 species = "diglett"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D01R0101.land]]
+[[d01r0101.land]]
 species = "dugtrio"
 
-[[D01R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D01R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D01R0101.land]]
+[[d01r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D01R0101.land]]
+[[d01r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D43R0102]
-id = 134
-
-[[D43R0102.land]]
-species = "graveler"
+[[d01r0101.land]]
+species = "bronzor"
 accessibility = [
-    "night",
-    "day",
-    "morning",
-    "land_swarms",
+    "sinnoh",
 ]
 
-[[D43R0102.land]]
+[[d01r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d43r0102]
+id = 134
+
+[[d43r0102.land]]
+species = "graveler"
+accessibility = [
+    "land_swarms",
+    "day",
+    "morning",
+    "night",
+]
+
+[[d43r0102.land]]
 species = "golbat"
 
-[[D43R0102.land]]
+[[d43r0102.land]]
 species = "ursaring"
 version = "ss"
 
-[[D43R0102.land]]
+[[d43r0102.land]]
 species = "donphan"
 version = "hg"
 
-[[D43R0102.land]]
+[[d43r0102.land]]
 species = "onix"
 
-[[D43R0102.land]]
+[[d43r0102.land]]
 species = "rhyhorn"
 
-[[D43R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D43R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D43R0102.land]]
+[[d43r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D43R0102.land]]
+[[d43r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[D43R0103]
+[[d43r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d43r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[d43r0103]
 id = 135
 rock_smash = [
     { species = "geodude" },
     { species = "graveler" },
 ]
 
-[[D43R0103.land]]
+[[d43r0103.land]]
 species = "graveler"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D43R0103.land]]
+[[d43r0103.land]]
 species = "golbat"
 
-[[D43R0103.land]]
+[[d43r0103.land]]
 species = "ursaring"
 version = "ss"
 
-[[D43R0103.land]]
+[[d43r0103.land]]
 species = "donphan"
 version = "hg"
 
-[[D43R0103.land]]
+[[d43r0103.land]]
 species = "onix"
 
-[[D43R0103.land]]
+[[d43r0103.land]]
 species = "rhyhorn"
 
-[[D43R0103.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D43R0103.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D43R0103.land]]
+[[d43r0103.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D43R0103.land]]
+[[d43r0103.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[R02R0101]
+[[d43r0103.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d43r0103.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[r02r0101]
 id = 136
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "ledyba"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "caterpie"
 accessibility = [
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
 ]
 version = "hg"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "weedle"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 version = "ss"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "spinarak"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 version = "hg"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "kakuna"
 version = "ss"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "metapod"
 accessibility = [
     "morning",
 ]
 version = "hg"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "beedrill"
 accessibility = [
-    "night",
     "morning",
+    "night",
 ]
 version = "ss"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "butterfree"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "ledian"
 accessibility = [
     "morning",
 ]
 version = "ss"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "pidgeotto"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "pidgeotto"
 accessibility = [
     "day",
 ]
 version = "ss"
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "ariados"
 accessibility = [
     "night",
 ]
 version = "hg"
 
-[[R02R0101.land]]
-species = "shinx"
-accessibility = [
-    "sinnoh",
-]
-
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "plusle"
 accessibility = [
     "hoenn",
 ]
 
-[[R02R0101.land]]
+[[r02r0101.land]]
 species = "minun"
 accessibility = [
     "hoenn",
 ]
 
-[D46R0101]
+[[r02r0101.land]]
+species = "shinx"
+accessibility = [
+    "sinnoh",
+]
+
+[d46r0101]
 id = 137
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "weedle"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "caterpie"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "hoothoot"
 accessibility = [
     "night",
 ]
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "kakuna"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "ss"
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "metapod"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 version = "hg"
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "pidgey"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "beedrill"
 accessibility = [
     "morning",
 ]
 version = "ss"
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "butterfree"
 accessibility = [
     "morning",
 ]
 version = "hg"
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "noctowl"
 accessibility = [
     "night",
 ]
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "pidgeotto"
 accessibility = [
-    "morning",
     "day",
+    "morning",
 ]
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "pikachu"
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "kricketot"
 accessibility = [
     "land_swarms",
 ]
 
-[[D46R0101.land]]
-species = "budew"
-accessibility = [
-    "sinnoh",
-]
-
-[[D46R0101.land]]
-species = "carnivine"
-accessibility = [
-    "sinnoh",
-]
-
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "spoink"
 accessibility = [
     "hoenn",
 ]
 
-[[D46R0101.land]]
+[[d46r0101.land]]
 species = "numel"
 accessibility = [
     "hoenn",
 ]
 
-[UNUSED_138]
+[[d46r0101.land]]
+species = "budew"
+accessibility = [
+    "sinnoh",
+]
+
+[[d46r0101.land]]
+species = "carnivine"
+accessibility = [
+    "sinnoh",
+]
+
+[unused_138]
 id = 138
 
-[D03R0101]
+[d03r0101]
 id = 139
 rock_smash = [
     { species = "geodude" },
     { species = "graveler" },
 ]
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "machoke"
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "golbat"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "parasect"
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "persian"
 version = "ss"
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "primeape"
 version = "hg"
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "magneton"
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "ditto"
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "electrode"
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "wobbuffet"
 
-[[D03R0101.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D03R0101.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D03R0101.land]]
+[[d03r0101.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D03R0101.water]]
+[[d03r0101.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d03r0101.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d03r0101.water]]
 species = "psyduck"
 accessibility = [
     "surf",
 ]
 
-[[D03R0101.water]]
+[[d03r0101.water]]
 species = "golduck"
 accessibility = [
     "surf",
 ]
 
-[[D03R0101.water]]
+[[d03r0101.water]]
 species = "poliwag"
 accessibility = [
-    "surf_swarms",
-    "fishing_night",
     "good_rod",
     "super_rod",
+    "fishing_night",
+    "surf_swarms",
 ]
 
-[[D03R0101.water]]
+[[d03r0101.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[D03R0101.water]]
-species = "goldeen"
-accessibility = [
-    "good_rod",
-]
-
-[[D03R0101.water]]
+[[d03r0101.water]]
 species = "poliwhirl"
 accessibility = [
     "super_rod",
 ]
 
-[[D03R0101.water]]
+[[d03r0101.water]]
 species = "gyarados"
 accessibility = [
     "super_rod",
 ]
 
-[D03R0102]
+[[d03r0101.water]]
+species = "goldeen"
+accessibility = [
+    "good_rod",
+]
+
+[d03r0102]
 id = 140
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "kadabra"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "parasect"
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "golbat"
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "machoke"
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "magneton"
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "ditto"
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "electrode"
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "wobbuffet"
 
-[[D03R0102.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D03R0102.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D03R0102.land]]
+[[d03r0102.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D03R0102.water]]
+[[d03r0102.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d03r0102.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d03r0102.water]]
 species = "psyduck"
 accessibility = [
     "surf",
 ]
 
-[[D03R0102.water]]
+[[d03r0102.water]]
 species = "golduck"
 accessibility = [
     "surf",
 ]
 
-[[D03R0102.water]]
+[[d03r0102.water]]
 species = "poliwag"
 accessibility = [
-    "surf_swarms",
-    "fishing_night",
     "good_rod",
     "super_rod",
+    "fishing_night",
+    "surf_swarms",
 ]
 
-[[D03R0102.water]]
+[[d03r0102.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[D03R0102.water]]
-species = "goldeen"
-accessibility = [
-    "good_rod",
-]
-
-[[D03R0102.water]]
+[[d03r0102.water]]
 species = "poliwhirl"
 accessibility = [
     "super_rod",
 ]
 
-[[D03R0102.water]]
+[[d03r0102.water]]
 species = "gyarados"
 accessibility = [
     "super_rod",
 ]
 
-[D03R0103]
+[[d03r0102.water]]
+species = "goldeen"
+accessibility = [
+    "good_rod",
+]
+
+[d03r0103]
 id = 141
 rock_smash = [
     { species = "geodude" },
     { species = "graveler" },
 ]
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "kadabra"
 accessibility = [
-    "night",
+    "land_swarms",
     "day",
     "morning",
-    "land_swarms",
+    "night",
 ]
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "parasect"
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "golbat"
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "machoke"
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "magneton"
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "ditto"
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "electrode"
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "wobbuffet"
 
-[[D03R0103.land]]
-species = "bronzor"
-accessibility = [
-    "sinnoh",
-]
-
-[[D03R0103.land]]
-species = "chingling"
-accessibility = [
-    "sinnoh",
-]
-
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "absol"
 accessibility = [
     "hoenn",
 ]
 
-[[D03R0103.land]]
+[[d03r0103.land]]
 species = "makuhita"
 accessibility = [
     "hoenn",
 ]
 
-[[D03R0103.water]]
+[[d03r0103.land]]
+species = "bronzor"
+accessibility = [
+    "sinnoh",
+]
+
+[[d03r0103.land]]
+species = "chingling"
+accessibility = [
+    "sinnoh",
+]
+
+[[d03r0103.water]]
 species = "psyduck"
 accessibility = [
     "surf",
 ]
 
-[[D03R0103.water]]
+[[d03r0103.water]]
 species = "golduck"
 accessibility = [
     "surf",
 ]
 
-[[D03R0103.water]]
+[[d03r0103.water]]
 species = "poliwag"
 accessibility = [
-    "surf_swarms",
-    "fishing_night",
     "good_rod",
     "super_rod",
+    "fishing_night",
+    "surf_swarms",
 ]
 
-[[D03R0103.water]]
+[[d03r0103.water]]
 species = "magikarp"
 accessibility = [
     "good_rod",
-    "fishing_swarms",
     "old_rod",
+    "fishing_swarms",
 ]
 
-[[D03R0103.water]]
-species = "goldeen"
-accessibility = [
-    "good_rod",
-]
-
-[[D03R0103.water]]
+[[d03r0103.water]]
 species = "poliwhirl"
 accessibility = [
     "super_rod",
 ]
 
-[[D03R0103.water]]
+[[d03r0103.water]]
 species = "gyarados"
 accessibility = [
     "super_rod",
+]
+
+[[d03r0103.water]]
+species = "goldeen"
+accessibility = [
+    "good_rod",
 ]

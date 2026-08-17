@@ -15,7 +15,7 @@ import re
 import os
 
 def default_accessible_encounters() -> Sequence[str]:
-    return ["land", "water"]
+    return ["land", "water", "rock_smash"]
 
 def get_toml(name: str) -> Mapping[str, Any]:
     with open(f"data_gen/{name}.toml", "rb") as f:
@@ -46,6 +46,10 @@ def convert_level_learnset(val):
     return "[{}]".format(", ".join(f'({v[0]}, "{v[1]}")' for v in val))
 
 @dataclass(frozen=True)
+class RomInfo:
+    ap_struct_address: Mapping[str, int]
+
+@dataclass(frozen=True)
 class Region:
     header: str
     exits: Sequence[str] = field(default_factory=list)
@@ -66,19 +70,21 @@ class Region:
             "trainers": convert_list,
             "accessible_encounters": convert_frozenset,
             "locs": convert_list,
+            "encounters": lambda s : f"\"{s}\"",
         }
-        def is_nonempty(s) -> bool:
-            return len(s) > 0
+        def is_truthy(s) -> bool:
+            return bool(s)
         should_inc = {
-            "exits": is_nonempty,
-            "events": is_nonempty,
-            "trainers": is_nonempty,
-            "accessible_encounters": is_nonempty,
-            "locs": is_nonempty,
+            "exits": is_truthy,
+            "events": is_truthy,
+            "trainers": is_truthy,
+            "accessible_encounters": is_truthy,
+            "locs": is_truthy,
+            "encounters": is_truthy,
         }
         centre = ", ".join([f"{name}={convs[name](val)}"
             for name, val in map(lambda name : (name, getattr(self, name)),
-                                  ["exits", "locs", "events", "accessible_encounters", "trainers"])
+                                  ["exits", "locs", "events", "accessible_encounters", "trainers", "encounters"])
             if should_inc[name](val)])
         if centre:
             centre = ", " + centre
@@ -120,17 +126,9 @@ class Check:
     value: int | None = None
     op: str = "eq"
     invert: bool = False
-    once: bool = False
 
     def __str__(self) -> str:
-        if self.once:
-            assert self.value is None, f"once check has value"
-            ret = f"OnceCheck(id=0x{self.id:X}"
-            if self.invert:
-                ret += ", invert=True"
-            ret += ")"
-            return ret
-        elif self.value is None:
+        if self.value is None:
             ret = f"FlagCheck(id=0x{self.id:X}"
             if self.invert:
                 ret += ", invert=True"
@@ -181,7 +179,7 @@ class Item:
 
     def __str__(self) -> str:
         ret = f"ItemData(label=\"{self.label}\", "
-        ret += f"id=0x{self.id:X}, "
+        ret += f"id=0x{self.id:X}, group=\"{self.group}\", "
         ret += f"clas=ItemClass.{self.clas.upper()}"
         if self.count is not None and self.count != 1:
             ret += f", count={self.count}"
@@ -209,6 +207,7 @@ class MiscData:
     reusable_evo_items: Sequence[str]
     nonreusable_evo_items: Sequence[str]
     types: Sequence[str]
+    tm_moves: Sequence[str]
 
 @dataclass(frozen=True)
 class PreEvolution:
@@ -240,15 +239,16 @@ class Species:
     legendary: bool = False
     hms: Sequence[str] = field(default_factory=list)
     pre_evolution: PreEvolution | None = None
+    regional: bool = False
 
     def to_string(self, item_name_map: Callable[[str], str]) -> str:
         ret = f"SpeciesData(id={self.id}, label=\"{self.label}\", hms="
         if self.hms:
-            ret += "{{{}}},".format(", ".join(map(lambda s : f"Hm.{s.upper()}", self.hms)))
+            ret += "{{{}}}, ".format(", ".join(map(lambda s : f"Hm.{s.upper()}", self.hms)))
         else:
             ret += "set(), "
         ret += f"level_learnset={convert_level_learnset(self.level_learnset)}, "
-        ret += f"tm_learnset={convert_list_ints(self.tm_learnset)}"
+        ret += f"tm_learnset={convert_list_ints(self.tm_learnset)}, "
         ret += f"tutor_learnset={convert_list(self.tutor_learnset)}"
         
         if self.pre_evolution is not None:
@@ -343,10 +343,14 @@ class ParserState:
     trainers: Mapping[str, Trainer]
     moves: Mapping[str, Move]
     event_checks: Mapping[str, Check]
+    rom_info: RomInfo
 
     def __getattr__(self, name: str) -> Any:
         getattr(self, "parse_" + name)()
         return getattr(self, name)
+
+    def parse_rom_info(self) -> None:
+        self.rom_info = RomInfo(**get_toml("rom_info"))
 
     def parse_event_checks(self) -> None:
         def check_val(v: int | Mapping[str, Any]) -> Check:
@@ -720,8 +724,8 @@ class ParserState:
                                  for hm, item in self.misc_data.hm_badge.items()]
         ret["HM_TMHM_IDS"] = [f"case Hm.{hm.upper()}: return {id}\n"
                                  for hm, id in self.misc_data.hm_tmhm_id.items()]
-        #ret["MAP_HEADER_LABELS"] = [f"\"{header}\": \"{label}\",\n"
-                                 #for header, label in self.misc_data.map_header_labels.items()]
+        ret["AP_STRUCT_ADDRESS"] = [f"\"{s}\": 0x{k:08X},\n" for s, k in self.rom_info.ap_struct_address.items()]
+        ret["TM_MOVES"] = [f"{k}: \"{v}\",\n" for k, v in enumerate(self.misc_data.tm_moves)]
 
         return ret
 
@@ -734,6 +738,9 @@ class ParserState:
         ret["LEGENDARY_SPECIES"] = [f"\"{name}\",\n"
             for name, spec in self.species.items()
             if spec.legendary]
+        ret["REGIONAL_SPECIES"] = [f"\"{name}\",\n"
+            for name, spec in self.species.items()
+            if spec.regional]
 
         return ret
 

@@ -4,7 +4,7 @@
 # Licensed under MIT. See LICENSE
 
 from collections.abc import Mapping
-from .locations import LocationCheck, VarCheck, FlagCheck, OnceCheck
+from .locations import LocationCheck, VarCheck, FlagCheck
 import operator
 
 event_checks: Mapping[str, LocationCheck] = {

@@ -136,6 +136,9 @@ locs = [
     "hidden_r29_r30_t21_nugget",
     "hidden_t21_nugget",
 ]
+trainers = [
+    "rival_silver_cherrygrove",
+]
 
 [route_46]
 exits = [
@@ -793,6 +796,9 @@ locs = [
     "overworld_d43r0103_ultra_ball",
     "overworld_d43r0103_tm79",
     "overworld_d43r0103_rare_candy",
+]
+trainers = [
+    "rival_silver_victory_road_3f",
 ]
 
 [violet_bellsprout_onyx_trade_house]
@@ -1557,6 +1563,9 @@ header = "azalea"
 locs = [
     "hidden_t23_full_heal",
 ]
+trainers = [
+    "rival_silver_azalea",
+]
 
 [ruins_of_alph_underground_hall_sinjoh_event]
 exits = [
@@ -1579,6 +1588,9 @@ exits = [
     "pokemon_league_will_room",
 ]
 header = "pokemon_league_entrance"
+trainers = [
+    "rival_silver_pokemon_league_entrance"
+]
 
 [ruins_of_alph_southeast_entrance_second_room]
 exits = [
@@ -1868,6 +1880,7 @@ locs = [
 trainers = [
     "firebreather_richard",
     "firebreather_ned",
+    "rival_silver_burned_tower",
 ]
 
 [azalea_pokecenter_1f]
@@ -2383,6 +2396,9 @@ header = "mount_moon"
 locs = [
     "hidden_d02r0101_revive",
 ]
+trainers = [
+    "rival_silver_mount_moon",
+]
 
 [team_rocket_headquarters_b3f]
 exits = [
@@ -2507,6 +2523,7 @@ trainers = [
     "team_rocket_f_grunt_3",
     "burglar_orson",
     "burglar_duncan",
+    "rival_silver_goldenrod_tunnel_b2f",
 ]
 
 [route_12]
@@ -4048,6 +4065,7 @@ header = "pokeathlon_dome_interior_b1f_friendship_room"
 exits = [
     "pokemon_league_lance_room",
 ]
+events = ["event_clear_pokemon_league"]
 header = "pokemon_league_hall_of_fame"
 
 [route_17]
@@ -4779,3 +4797,21 @@ exits = [
     "bell_tower_10f",
 ]
 header = "bell_tower_roof"
+
+[virt_start]
+header = "virt"
+exits = [
+    "new_bark_player_house_2f",
+    "virt_specs",
+    "virt_dex",
+    "virt_national_dex",
+]
+
+[virt_specs]
+header = "virt"
+
+[virt_dex]
+header = "virt"
+
+[virt_national_dex]
+header = "virt"

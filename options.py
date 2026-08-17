@@ -1,12 +1,14 @@
 # options.py
 #
-# Copyright (C) 2025-2026 James Petersen <m@jamespetersen.ca>
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
 # Licensed under MIT. See LICENSE
 
 from collections.abc import Mapping, MutableMapping, Sequence, Set
+from dataclasses import dataclass
 from Options import Choice, DeathLink, DefaultOnToggle, NamedRange, OptionDict, OptionError, OptionGroup, OptionSet, PerGameCommonOptions, Range, StartInventoryPool, Toggle, Option, FreeText, Visibility
 from typing import Any, Literal, Optional
 
+from .data import VersionEnum
 from .data.species import species, having_two_level_evos, legendary_mons, expand_set_via_evolutions
 from .data.regions import regions
 from .data.trainers import in_game_trainer_labels, trainer_party_supporting_starters, trainer_name_to_trainer_const_name
@@ -28,8 +30,8 @@ class Version(Choice):
     Which version will be randomized.
     """
     display_name = "Version"
-    option_heartgold = 0
-    option_soulsilver = 1
+    option_heartgold = VersionEnum.HEARTGOLD
+    option_soulsilver = VersionEnum.SOULSILVER
     default = option_heartgold
 
 
@@ -85,13 +87,13 @@ class RandomizePokedex(Toggle):
     """Add the Pokedex to the pool. Note: this also adds the national dex to the pool."""
     display_name = "Randomize Pokedex"
 
-class RandomizeTimeItems(Choice):
-    """Adds the time items to the item pool. The no location option removes the location and adds the time items to the starting inventory. The false option means they won't be randomized."""
+class RandomizeTimeItems(DefaultOnToggle):
+    """Adds the time items to the item pool. If set to false, they are precollected."""
     display_name = "Randomize Time Items"
-    default = 1
-    option_true = 1
-    option_false = 0
-    option_no_location = 2
+
+class RandomizeSoundsItems(DefaultOnToggle):
+    """Adds the sound items to the item pool. If set to false, they are precollected."""
+    display_name = "Randomize Sound Items"
 
 class RemoveBadgeRequirement(OptionSet):
     """
@@ -214,7 +216,7 @@ class GameOptions(OptionDict):
     sound: stereo/mono - Sets the shound mode
     battle_scene: on/off - Sets whether the battle animations are shown
     battle_style: shift/set - Sets whether pokemon can be changed when the opponent's pokemon faints
-    button_mode: normal/start=x/l=a - Sets the button mode
+    button_mode: normal/l=a - Sets the button mode
     text_frame: 1–20 - Sets the textbox frame. "random" will pick a random frame.
     received_items_notification: jingle/nothing/message - Sets the received_items_notification.
 
@@ -343,6 +345,12 @@ class RandomizeEncounters(Toggle):
     """Randomize encountered Pokémon. This does not affect static legendaries, like Giratina."""
     display_name = "Randomize Encounters"
 
+ENCOUNTER_METHOD_MAP: Mapping[str, Set[str]] = {
+    "rods": {"good_rod", "super_rod", "old_rod"},
+    "time": {"morning", "day", "night"},
+    "sounds": {"hoenn", "sinnoh"},
+}
+
 class InLogicEncounters(OptionSet):
     """
     - surf: surfing encounters.
@@ -354,6 +362,12 @@ class InLogicEncounters(OptionSet):
     display_name = "In Logic Encounters"
     default = {"surf", "rods", "time", "rock_smash", "sounds"}
     valid_keys = ["surf", "rods", "time", "rock_smash", "sounds"]
+    cached_methods: Set[str] | None = None
+
+    def methods(self) -> Set[str]:
+        if self.cached_methods is None:
+            self.cached_methods = {v for s in self.value for v in ENCOUNTER_METHOD_MAP.get(s, {s})}
+        return self.cached_methods
 
 
 class EncounterSpeciesBlacklist(SpeciesBlacklist):
@@ -439,6 +453,8 @@ class StarterBlacklist(SpeciesBlacklist):
 class RandomizeMarillInIntro(DefaultOnToggle):
     """Randomize the species of the Pokémon that is shown in the intro."""
     display_name = "Randomize Intro Pokémon"
+    # currently doesn't work
+    visibility = Visibility(0)
 
 class TrainersanityCount(NamedRange):
     """
@@ -672,8 +688,8 @@ class ItemNotificationsMask(OptionSet):
                 mask |= 1 << index
         return mask
 
-class PokemonPlatinumDeathLink(DeathLink):
-    __doc__ = DeathLink.__doc__ + "\n\n    In Pokémon Platinum, blacking out sends a death and receiving a death causes you to black out.\n" # type: ignore
+class PokemonHgssDeathLink(DeathLink):
+    __doc__ = DeathLink.__doc__ + "\n\n    In Pokémon HeartGold and SoulSilver, blacking out sends a death and receiving a death causes you to black out.\n" # type: ignore
 
 class DeathLinkGroup(FreeText):
     """
@@ -730,4 +746,240 @@ class MoveRandomization(OptionDict):
             raise AttributeError(name, self)
 
 slot_data_options: Sequence[str] = [
+    "goal",
+    "version",
+
+    "death_link",
+    "death_link_group",
+    "remote_items",
+
+    "hms",
+    "badges",
+    "overworlds",
+    "hiddens",
+    "npc_gifts",
+    "key_items",
+    "rods",
+    "running_shoes",
+    "bicycle",
+    "pokedex",
+    "time_items",
+    "sound_items",
+    
+    "remove_badge_requirements",
+    "visibility_hm_logic",
+    "dowsing_machine_logic",
+    "reusable_tms",
+    "evo_items_shop_in_ap_helper",
+
+    "tmhm_compatibility",
+
+    "in_logic_encounters",
+    "dexsanity",
+    "dexsanity_mode",
+    "in_logic_evolution_methods",
+
+    "trainersanity",
+
+    "start_inventory_from_pool",
+]
+
+@dataclass
+class PokemonHgssOptions(PerGameCommonOptions):
+    version: Version
+    goal: Goal
+
+    death_link: PokemonHgssDeathLink
+    death_link_group: DeathLinkGroup
+    remote_items: RemoteItems
+
+    hms: RandomizeHms
+    badges: RandomizeBadges
+    overworlds: RandomizeOverworlds
+    hiddens: RandomizeHiddenItems
+    npc_gifts: RandomizeNpcGifts
+    key_items: RandomizeKeyItems
+    rods: RandomizeRods
+    running_shoes: RandomizeRunningShoes
+    bicycle: RandomizeBicycle
+    pokedex: RandomizePokedex
+    time_items: RandomizeTimeItems
+    sound_items: RandomizeSoundsItems
+    
+    remove_badge_requirements: RemoveBadgeRequirement
+    visibility_hm_logic: VisibilityHmLogic
+    dowsing_machine_logic: DowsingMachineLogic
+    reusable_tms: ReusableTms
+    evo_items_shop_in_ap_helper: EvoItemsShopInAPHelper
+
+    tmhm_compatibility: TMHMCompatibility
+
+    randomize_starters: RandomizeStarters
+    require_two_level_evolution_starters: RequireTwoLevelEvolutionStarters
+    starter_whitelist: StarterWhitelist
+    starter_blacklist: StarterBlacklist
+    randomize_intro_mon: RandomizeMarillInIntro
+
+    randomize_encounters: RandomizeEncounters
+    in_logic_encounters: InLogicEncounters
+    encounter_species_blacklist: EncounterSpeciesBlacklist
+    dexsanity: DexsanityCount
+    dexsanity_mode: DexsanityMode
+    dexsanity_whitelist: DexsanityWhitelist
+    dexsanity_blacklist: DexsanityBlacklist
+    dexsanity_required: DexsanityRequired
+    in_logic_evolution_methods: InLogicEvolutionMethods
+
+    trainersanity: TrainersanityCount
+    trainersanity_whitelist: TrainersanityWhitelist
+    trainersanity_blacklist: TrainersanityBlacklist
+    trainersanity_required: TrainersanityRequired
+    randomize_trainer_parties: RandomizeTrainerParties
+    trainer_party_blacklist: TrainerPartyBlacklist
+    move_randomization: MoveRandomization
+
+    game_options: GameOptions
+    blind_trainers: BlindTrainers
+    hm_cut_ins: HMCutIns
+    fps60: FPS60
+    normalize_encounters: NormalizeEncounters
+    instant_text: InstantText
+    hold_a_to_advance: HoldAToAdvance
+    always_catch: AlwaysCatch
+    guaranteed_escape: GuaranteedEscape
+    talk_trainers_without_fight: TalkTrainersWithoutFight
+    exp_multiplier: ExpMultiplier
+    item_notifications_mask: ItemNotificationsMask
+
+    master_repel: AddMasterRepel
+
+    start_inventory_from_pool: StartInventoryPool
+
+    def requires_badge(self, hm: str) -> bool:
+        return "all" not in self.remove_badge_requirements and hm.lower() not in self.remove_badge_requirements
+
+    def validate(self) -> None:
+        game_opts = self.game_options
+        if game_opts.text_speed not in {"fast", "slow", "mid"}:
+            raise OptionError(f"invalid text speed: \"{game_opts.text_speed}")
+        if game_opts.sound not in {"mono", "stereo"}:
+            raise OptionError(f"invalid sound: \"{game_opts.sound}\"")
+        if game_opts.battle_scene not in {False, "off", True, "on"}:
+            raise OptionError(f"invalid battle scene: \"{game_opts.battle_scene}\"")
+        if game_opts.battle_style not in {"set", "shift"}:
+            raise OptionError(f"invalid battle style: \"{game_opts.battle_style}\"")
+        if game_opts.button_mode not in {"l=a", "normal"}:
+            raise OptionError(f"invalid button mode: \"{game_opts.button_mode}\"")
+        text_frame = game_opts.text_frame
+        if game_opts.text_frame not in set(range(1, 21)) | {"random"}:
+            raise OptionError(f"invalid text frame: \"{text_frame}\"")
+        if game_opts.received_items_notification not in {"none", "nothing", "message", "jingle"}:
+            raise OptionError(f"invalid received items notification: \"{game_opts.received_items_notification}\"")
+        self.exp_multiplier.to_bytes()
+
+        if self.move_randomization.keys() - MoveRandomization.default.keys():
+            raise OptionError(f"unknown move randomization keys: {self.move_randomization.keys() - MoveRandomization.default.keys()}")
+        else:
+            for k, v in self.move_randomization.items():
+                if not isinstance(v, bool) and v not in {"no", "yes", "shuffle"}:
+                    raise OptionError(f"invalid move randomization choice for {k}: {v}")
+
+    def save_options(self) -> MutableMapping[str, Any]:
+        return self.as_dict(*slot_data_options)
+
+    def load_options(self, slot_data: Mapping[str, Any]) -> None:
+        for key in slot_data_options:
+            if isinstance(getattr(self, key), OptionSet):
+                getattr(self, key).value = frozenset(slot_data[key])
+            else:
+                getattr(self, key).value = slot_data[key]
+
+OPTION_GROUPS = [
+    OptionGroup(
+        "Item Shuffles",
+        [
+            RandomizeOverworlds,
+            RandomizeHiddenItems,
+            RandomizeNpcGifts,
+            RandomizeKeyItems,
+            RandomizeHms,
+            RandomizeBadges,
+            RandomizeRods,
+            RandomizeBicycle,
+            RandomizeRunningShoes,
+            RandomizePokedex,
+            RandomizeTimeItems,
+            RandomizeSoundsItems,
+        ],
+    ),
+    OptionGroup(
+        "Logic Tweaks",
+        [
+            VisibilityHmLogic,
+            DowsingMachineLogic,
+        ],
+    ),
+    OptionGroup(
+        "Starters",
+        [
+            RandomizeStarters,
+            RequireTwoLevelEvolutionStarters,
+            StarterWhitelist,
+            StarterBlacklist,
+            RandomizeMarillInIntro,
+        ],
+    ),
+    OptionGroup(
+        "Pokémon",
+        [
+            RandomizeEncounters,
+            InLogicEncounters,
+            EncounterSpeciesBlacklist,
+            DexsanityCount,
+            DexsanityMode,
+            DexsanityBlacklist,
+            DexsanityWhitelist,
+            DexsanityRequired,
+            InLogicEvolutionMethods,
+            EvoItemsShopInAPHelper,
+            ReusableTms,
+            MoveRandomization
+        ],
+    ),
+    OptionGroup(
+        "Trainers",
+        [
+            TrainersanityCount,
+            TrainersanityWhitelist,
+            TrainersanityBlacklist,
+            TrainersanityRequired,
+            RandomizeTrainerParties,
+            TrainerPartyBlacklist,
+        ],
+    ),
+    OptionGroup(
+        "HMs",
+        [
+            RemoveBadgeRequirement,
+            TMHMCompatibility,
+        ],
+    ),
+    OptionGroup(
+        "Quality of Life",
+        [
+            GameOptions,
+            BlindTrainers,
+            HMCutIns,
+            FPS60,
+            NormalizeEncounters,
+            InstantText,
+            HoldAToAdvance,
+            AlwaysCatch,
+            GuaranteedEscape,
+            TalkTrainersWithoutFight,
+            ExpMultiplier,
+            AddMasterRepel,
+            ItemNotificationsMask,
+        ],
+    ),
 ]

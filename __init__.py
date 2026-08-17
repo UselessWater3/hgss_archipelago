@@ -3,12 +3,24 @@
 # Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
 # Licensed under MIT. See LICENSE
 
-from typing import ClassVar
-from BaseClasses import Tutorial
+from collections import defaultdict
+from collections.abc import Mapping, MutableMapping, MutableSequence, MutableSet, Sequence
+from typing import Any, ClassVar, Optional, Tuple
+from BaseClasses import CollectionState, ItemClassification, MultiWorld, Tutorial
 import settings
+import pkgutil
 from worlds.AutoWorld import WebWorld, World
 
 from .client import PokemonHgssClient
+from .data import encounters as encounterdata, items as itemdata, rules as ruledata, Hm, species as speciesdata, regions as regiondata, trainers as trainerdata, AP_STRUCT_ADDRESS
+from .data.locations import RequiredLocations, LocationTable
+from .items import create_item_label_to_code_map, get_item_classification, PokemonHgssItem, get_item_groups
+from .locations import PokemonHgssLocation, create_location_label_to_code_map, create_locations
+from .options import OPTION_GROUPS, PokemonHgssOptions, RandomizeTimeItems, Version
+from .regions import create_regions
+from .rom import generate_output, PokemonHeartgoldPatch, PokemonSoulsilverPatch
+from .rules import set_rules, verify_hm_accessibility
+from .species import add_virt_specs, encounter_slot_label, fill_species, randomize_starters, randomize_trainer_parties_and_encounters
 
 class PokemonHgssSettings(settings.Group):
     class HeartgoldRomFile(settings.UserFilePath):
@@ -77,7 +89,7 @@ class PokemonHgssWorld(World):
 
     ruledata: ruledata.Rules
 
-    itempool: Sequence[PokemonPlatinumItem]
+    itempool: Sequence[PokemonHgssItem]
     slot_data: Optional[Mapping[str, Any]]
 
     def __init__(self, multiworld: MultiWorld, player: int) -> None:
@@ -139,6 +151,23 @@ class PokemonHgssWorld(World):
             if getattr(self.options, item).value == 1:
                 add_items.append(item)
 
+        time_items = [k for k, v in itemdata.items.items() if v.group == "time"]
+        self.random.shuffle(time_items)
+        if self.options.time_items:
+            add_items.extend(time_items[1:])
+            self.multiworld.push_precollected(self.create_item(itemdata.items[time_items[0]].label))
+        else:
+            for item in time_items:
+                self.multiworld.push_precollected(self.create_item(itemdata.items[item].label))
+        sound_items = [k for k, v in itemdata.items.items() if v.group == "sound"]
+        self.random.shuffle(sound_items)
+        if self.options.sound_items:
+            add_items.extend(sound_items[1:])
+            self.multiworld.push_precollected(self.create_item(itemdata.items[sound_items[0]].label))
+        else:
+            for item in sound_items:
+                self.multiworld.push_precollected(self.create_item(itemdata.items[item].label))
+
         itempool = []
         for loc in item_locations:
             item_id: int = loc.default_item_id # type: ignore
@@ -179,7 +208,7 @@ class PokemonHgssWorld(World):
             patch.write_file(f"{name}.bsdiff4", pkgutil.get_data(__name__, f"patches/{name}.bsdiff4")) # type: ignore
         generate_output(self, output_directory, patch)
 
-    def create_event(self, name: str) -> PokemonPlatinumItem:
+    def create_event(self, name: str) -> PokemonHgssItem:
         return PokemonHgssItem(
             name,
             ItemClassification.progression,
@@ -206,6 +235,8 @@ class PokemonHgssWorld(World):
         ret["generated_encounters"].update({f"{region}_{table}_{i}":speciesdata.species[spec].id for (region, table, i), spec in self.ool_encounters.items()})
         ret["added_hm_compatibility"] = {spec:[hm.name.lower() for hm in compat] for spec, compat in self.added_hm_compatibility.items()}
         ret["version"] = "0.2.0"
+        pfx = "hg" if self.options.version == Version.option_heartgold else "ss"
+        ret["possible_ap_struct_addresses"] = [v for k, v in AP_STRUCT_ADDRESS.items() if k.startswith(pfx)]
         return ret
 
     @staticmethod
@@ -232,9 +263,6 @@ class PokemonHgssWorld(World):
             for key, mon in self.generated_encounters.items():
                 if mon in dexsanity_specs:
                     dexsanity_hint_data[mon].add(encounter_slot_label(key, self.options.in_logic_encounters.methods()))
-            for (speenc, _), mon in self.generated_speencs.items():
-                if mon in dexsanity_specs:
-                    dexsanity_hint_data[mon].add(speenc_labels[speenc])
 
         #am_set = set(self.accessible_mons)
         #def get_dexsanity_evolution_hint_data(dexsanity_hint_data: dict[str, set[str]]) -> None:
@@ -266,8 +294,6 @@ class PokemonHgssWorld(World):
         if self.options.randomize_encounters:
             for key, mon in self.generated_encounters.items():
                 encounters_per_pokemon[mon].add(encounter_slot_label(key, self.options.in_logic_encounters.methods()))
-            for (speenc, _), mon in self.generated_speencs.items():
-                encounters_per_pokemon[mon].add(speenc_labels[speenc])
 
         if encounters_per_pokemon:
             spoiler_handle.write(f"\nRandomized Pokemon ({self.player_name}):\n")

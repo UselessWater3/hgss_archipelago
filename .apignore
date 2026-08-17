@@ -1,0 +1,44 @@
+# .apignore
+#
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
+**
+!/__init__.py
+!/client.py
+!/items.py
+!/locations.py
+!/options.py
+!/regions.py
+!/rules.py
+!/species.py
+!/rom/__init__.py
+!/rom/encounterdata.py
+!/rom/itemdata.py
+!/rom/movedata.py
+!/rom/speciesdata.py
+!/rom/trainerdata.py
+!/LICENSE
+!/docs/setup_en.md
+!/docs/en_Pokemon\ HeartGold\ and\ SoulSilver.md
+!/data/__init__.py
+!/data/charmap.py
+!/data/encounters.py
+!/data/event_checks.py
+!/data/items.py
+!/data/locations.py
+!/data/moves.py
+!/data/regions.py
+!/data/rules.py
+!/data/species.py
+!/data/trainers.py
+!/apnds/LICENSE
+!/apnds/__init__.py
+!/apnds/aes.py
+!/apnds/code.py
+!/apnds/lz.py
+!/apnds/narc.py
+!/apnds/rom.py
+!/patches/base_patch_hg_us.bsdiff4
+!/patches/base_patch_ss_us.bsdiff4
+

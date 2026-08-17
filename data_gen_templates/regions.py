@@ -13,11 +13,8 @@ class RegionData:
     locs: Sequence[str] = field(default_factory=list)
     events: Sequence[str] = field(default_factory=list)
     accessible_encounters: Set[str] = frozenset()
-    group: str = "generic"
     trainers: Sequence[str] = field(default_factory=list)
-    honey_tree_idx: int | None = None
-    special_encounters: str | None = None
-    roamers: Sequence[int] | None = None
+    encounters: str | None = None
 
 regions: Mapping[str, RegionData] = {
     # TEMPLATE: REGIONS

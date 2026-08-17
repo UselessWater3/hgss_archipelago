@@ -4,7 +4,7 @@
 # Licensed under MIT. See LICENSE
 
 from collections.abc import Mapping
-from enum import StrEnum
+from enum import IntEnum, StrEnum
 
 class Hm(StrEnum):
     # TEMPLATE: HMS
@@ -19,6 +19,14 @@ class Hm(StrEnum):
             # TEMPLATE: HM_TMHM_IDS
             case _: return 0 # TEMPLATE: DELETE
 
-#map_header_labels: Mapping[str, str] = {
-#    # TEMPLATE: MAP_HEADER_LABELS
-#}
+AP_STRUCT_ADDRESS: Mapping[str, int] = {
+    # TEMPLATE: AP_STRUCT_ADDRESS
+}
+
+class VersionEnum(IntEnum):
+    HEARTGOLD = 0
+    SOULSILVER = 1
+
+tm_moves: Mapping[int, str] = {
+    # TEMPLATE: TM_MOVES
+}

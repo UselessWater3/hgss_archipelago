@@ -31,11 +31,6 @@ class FlagCheck(LocationCheck):
     invert: bool = False
 
 @dataclass(frozen=True)
-class OnceCheck(LocationCheck):
-    id: int
-    invert: bool = False
-
-@dataclass(frozen=True)
 class LocationData:
     label: str
     table: LocationTable
