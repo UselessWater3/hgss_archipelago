@@ -3798,7 +3798,7 @@ clas = "special"
 group = "sound"
 classification = "progression"
 
-[tm_user]
+[hm_reader]
 label = "HM Reader"
 id = 539
 group = "key_items"

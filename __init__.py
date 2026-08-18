@@ -35,7 +35,7 @@ class PokemonHgssSettings(settings.Group):
         copy_to = "pokesoulsilver.nds"
         md5s = PokemonSoulsilverPatch.hashes
 
-    soulsilver_rom_file: SoulsilverRomFile = HeartgoldRomFile(HeartgoldRomFile.copy_to)
+    soulsilver_rom_file: SoulsilverRomFile = SoulsilverRomFile(SoulsilverRomFile.copy_to)
 
 class PokemonHgssWebWorld(WebWorld):
     theme = 'ocean'
@@ -152,9 +152,9 @@ class PokemonHgssWorld(World):
                 add_items.append(item)
 
         if self.options.hm_reader == AddHMReader.option_itempool:
-            add_items.append("tm_user")
+            add_items.append("hm_reader")
         elif self.options.hm_reader == AddHMReader.option_precollected:
-            self.multiworld.push_precollected(self.create_item(itemdata.items["tm_user"].label))
+            self.multiworld.push_precollected(self.create_item(itemdata.items["hm_reader"].label))
 
         time_items = [k for k, v in itemdata.items.items() if "time" in v.group]
         self.random.shuffle(time_items)
