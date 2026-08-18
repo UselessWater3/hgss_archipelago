@@ -12,6 +12,7 @@ encounters = "t20"
 header = "new_bark"
 locs = [
     "hidden_t20_potion",
+    "fly_map_new_bark",
 ]
 
 [new_bark_elms_lab_1f]
@@ -19,6 +20,9 @@ exits = [
     "new_bark",
 ]
 header = "new_bark_elms_lab_1f"
+locs = [
+    "new_bark_elms_lab_1f_master_ball",
+]
 
 [route_29]
 exits = [
@@ -135,6 +139,7 @@ header = "cherrygrove"
 locs = [
     "hidden_r29_r30_t21_nugget",
     "hidden_t21_nugget",
+    "fly_map_cherrygrove",
 ]
 trainers = [
     "rival_silver_cherrygrove",
@@ -353,12 +358,16 @@ exits = [
 ]
 encounters = "t30"
 header = "blackthorn"
+locs = ["fly_map_blackthorn"]
 
 [route_30_mr_pokemon_house]
 exits = [
     "route_30",
 ]
 header = "route_30_mr_pokemon_house"
+locs = [
+    "route_30_mr_pokemon_house_pokedex",
+]
 
 [route_22]
 exits = [
@@ -381,6 +390,7 @@ locs = [
     "overworld_d43r0101_max_revive",
     "overworld_d43r0101_full_heal",
     "overworld_d43r0101_potion",
+    "fly_map_victory_road_1f",
 ]
 
 [cherrygrove_pokecenter_b1f]
@@ -470,6 +480,7 @@ header = "mount_silver"
 locs = [
     "hidden_t31_full_restore",
     "overworld_t31_reaper_cloth",
+    "fly_map_mount_silver",
 ]
 
 [blackthorn_east_house]
@@ -522,6 +533,7 @@ encounters = "t02"
 header = "viridian"
 locs = [
     "hidden_t02_nugget",
+    "fly_map_viridian",
 ]
 
 [blackthorn_gym]
@@ -580,6 +592,7 @@ locs = [
     "hidden_t22_poke_ball",
     "overworld_t22_rare_candy",
     "overworld_t22_pp_up",
+    "fly_map_violet",
 ]
 
 [blackthorn_pokecenter_b1f]
@@ -614,6 +627,7 @@ exits = [
     "route_44",
 ]
 header = "mahogany"
+locs = ["fly_map_mahogany"]
 
 [viridian_northeast_house]
 exits = [
@@ -694,6 +708,10 @@ trainers = [
     "ace_trainer_f_salma",
     "double_team_elan_and_ida",
 ]
+locs = [
+    "viridian_badge_earth",
+    "viridian_tm92",
+]
 
 [viridian_pokecenter_1f]
 exits = [
@@ -716,6 +734,7 @@ locs = [
     "overworld_d44r0102_dragon_fang",
     "overworld_d44r0102_calcium",
     "overworld_d44r0102_max_elixir",
+    "dragons_den_tm59",
 ]
 trainers = [
     "ace_trainer_m_kobe",
@@ -751,6 +770,10 @@ header = "violet_gym"
 trainers = [
     "bird_keeper_gs_abe",
     "bird_keeper_gs_rod",
+]
+locs = [
+    "violet_badge_zephyr",
+    "violet_tm51",
 ]
 
 [violet_pokemon_school]
@@ -891,6 +914,7 @@ header = "route_36"
 locs = [
     "hidden_r36_awakening",
     "overworld_r36_hyper_potion",
+    "route_36_hm06",
 ]
 trainers = [
     "psychic_m_mark",
@@ -902,6 +926,7 @@ exits = [
     "dragons_den",
 ]
 header = "dragons_den_shrine"
+locs = ["dragons_den_shrine_badge_rising"]
 
 [viridian_trainer_house_b1f]
 exits = [
@@ -1046,6 +1071,9 @@ exits = [
     "route_32_pokecenter_b1f",
 ]
 header = "route_32_pokecenter_1f"
+locs = [
+    "route_32_pokemon_center_1f_old_rod",
+]
 
 [route_2_viridian_forest_south_gatehouse]
 exits = [
@@ -1166,6 +1194,7 @@ locs = [
     "overworld_r42_super_potion",
     "overworld_r42_dubious_disc",
     "overworld_r42_tm65",
+    "route_42_hm04",
 ]
 trainers = [
     "fisherman_tully",
@@ -1219,6 +1248,7 @@ exits = [
 header = "indigo_plateau"
 locs = [
     "hidden_t10_rare_candy",
+    "fly_map_indigo_plateau",
 ]
 
 [route_36_ruins_of_alph_gatehouse]
@@ -1260,6 +1290,7 @@ exits = [
     "route_1",
     "route_21",
 ]
+locs = ["fly_map_pallet"]
 encounters = "t01"
 header = "pallet"
 
@@ -1352,6 +1383,7 @@ locs = [
     "hidden_t27_ether",
     "hidden_t27_rare_candy",
     "hidden_t27_ultra_ball",
+    "fly_map_ecruteak",
 ]
 
 [team_rocket_headquarters_b1f]
@@ -1532,6 +1564,7 @@ locs = [
     "overworld_t29_tm43",
     "overworld_t29_red_flute",
     "overworld_t29_choice_specs",
+    "fly_map_lake_of_rage",
 ]
 trainers = [
     "fisherman_andre",
@@ -1562,6 +1595,7 @@ exits = [
 header = "azalea"
 locs = [
     "hidden_t23_full_heal",
+    "fly_map_azalea",
 ]
 trainers = [
     "rival_silver_azalea",
@@ -1650,6 +1684,7 @@ locs = [
     "hidden_t03_guard_spec_",
     "hidden_t03_max_revive",
     "overworld_t03_wise_glasses",
+    "fly_map_pewter",
 ]
 
 [route_21]
@@ -1714,12 +1749,16 @@ exits = [
     "route_35_goldenrod_gatehouse",
 ]
 header = "goldenrod"
+locs = ["fly_map_goldenrod"]
 
 [pallet_town_oaks_lab]
 exits = [
     "pallet",
 ]
 header = "pallet_town_oaks_lab"
+locs = [
+    "pallet_town_oaks_lab_hm08",
+]
 
 [sprout_tower_3f]
 exits = [
@@ -1759,6 +1798,7 @@ locs = [
     "overworld_d22r0101_tm28",
     "overworld_d22r0101_soothe_bell",
     "overworld_d22r0101_shiny_stone",
+    "fly_map_national_park",
 ]
 trainers = [
     "pokefan_beverly",
@@ -1781,6 +1821,10 @@ header = "pewter_gym"
 trainers = [
     "camper_jerry",
     "hiker_edwin",
+]
+locs = [
+    "pewter_badge_boulder",
+    "pewter_tm80",
 ]
 
 [mount_mortar_2f]
@@ -1823,6 +1867,10 @@ trainers = [
     "boarder_gerardo",
     "skier_jill",
 ]
+locs = [
+    "mahogany_badge_glacier",
+    "mahogany_tm07",
+]
 
 [goldenrod_radio_tower_1f]
 exits = [
@@ -1830,12 +1878,16 @@ exits = [
     "goldenrod_radio_tower_2f",
 ]
 header = "goldenrod_radio_tower_1f"
+locs = [
+    "goldenrod_radio_tower_1f_radio",
+]
 
 [ecruteak_dowsing_machine_house]
 exits = [
     "ecruteak",
 ]
 header = "ecruteak_dowsing_machine_house"
+locs = ["ecruteak_dowsing_machine_house_dowsing_mchn"]
 
 [pewter_pokemart]
 exits = [
@@ -2027,6 +2079,7 @@ locs = [
     "hidden_t09_iron",
     "hidden_t09_star_piece",
     "overworld_t09_magmarizer",
+    "fly_map_cinnabar_island",
 ]
 
 [goldenrod_game_corner]
@@ -2164,6 +2217,10 @@ trainers = [
     "beauty_victoria",
     "beauty_samantha",
 ]
+locs = [
+    "goldenrod_badge_plain",
+    "goldenrod_tm45",
+]
 
 [national_park_unused_gatehouse]
 exits = [
@@ -2182,6 +2239,7 @@ exits = [
     "ecruteak",
 ]
 header = "ecruteak_dance_theater"
+locs = ["ecruteak_dance_theater_hm03"]
 
 [lake_of_rage_fishing_guru_house]
 exits = [
@@ -2211,6 +2269,7 @@ locs = [
     "hidden_d35r0103_full_heal",
     "hidden_d35r0103_x_sp__def",
     "overworld_d35r0103_tm46",
+    "team_rocket_headquarters_b2f_hm05",
 ]
 trainers = [
     "team_rocket_grunt_18",
@@ -2228,6 +2287,10 @@ trainers = [
     "medium_grace",
     "medium_edith",
     "medium_martha",
+]
+locs = [
+    "ecruteak_badge_fog",
+    "ecruteak_tm30",
 ]
 
 [azalea_kurt_house]
@@ -2497,6 +2560,7 @@ locs = [
     "hidden_t06_big_pearl",
     "overworld_t06_luck_incense",
     "overworld_t06_sticky_barb",
+    "fly_map_vermilion",
 ]
 
 [pokemon_league_koga_room]
@@ -2582,6 +2646,10 @@ exits = [
     "azalea_gym_entrance",
 ]
 header = "azalea_gym"
+locs = [
+    "azalea_badge_hive",
+    "azalea_tm89",
+]
 trainers = [
     "bug_catcher_al",
     "bug_catcher_benny",
@@ -2632,6 +2700,7 @@ locs = [
     "overworld_d36r0101_x_attack",
     "overworld_d36r0101_antidote",
     "overworld_d36r0101_ether",
+    "ilex_forest_hm01",
 ]
 
 [route_19_route_12_gatehouse]
@@ -2815,6 +2884,7 @@ encounters = "t04"
 header = "cerulean"
 locs = [
     "hidden_t04_nugget",
+    "fly_map_cerulean",
 ]
 
 [vermilion_gym]
@@ -2826,6 +2896,10 @@ trainers = [
     "guitarist_vincent",
     "juggler_horton",
     "gentleman_gregory",
+]
+locs = [
+    "vermilion_badge_thunder",
+    "vermilion_tm34",
 ]
 
 [lavender]
@@ -2842,12 +2916,16 @@ exits = [
     "route_8",
 ]
 header = "lavender"
+locs = ["fly_map_lavender"]
 
 [route_12_fishing_brother_house]
 exits = [
     "route_12",
 ]
 header = "route_12_fishing_brother_house"
+locs = [
+    "route_12_fishing_brother_house_super_rod",
+]
 
 [ss_aqua_vermilion_port_interior]
 exits = [
@@ -2996,6 +3074,7 @@ header = "olivine"
 locs = [
     "hidden_t26_rare_candy",
     "hidden_r39_t26_full_heal",
+    "fly_map_olivine",
     "overworld_t26_tm57",
 ]
 
@@ -3021,6 +3100,9 @@ exits = [
     "olivine",
 ]
 header = "olivine_northwest_house"
+locs = [
+    "olivine_northwest_house_good_rod",
+]
 
 [bell_tower_1f]
 exits = [
@@ -3042,6 +3124,9 @@ exits = [
     "ss_aqua_olivine_port_exterior",
 ]
 header = "ss_aqua_olivine_port_interior"
+locs = [
+    "ss_aqua_olivine_port_interior_pokedex",
+]
 
 [olivine_northeast_house]
 exits = [
@@ -3181,6 +3266,7 @@ exits = [
     "saffron_silph_co_hq",
 ]
 header = "saffron"
+locs = ["fly_map_saffron"]
 
 [cerulean_cave_1f]
 exits = [
@@ -3223,6 +3309,9 @@ exits = [
     "lavender",
 ]
 header = "lavender_radio_station"
+locs = [
+    "lavender_town_radio_station_radio",
+]
 
 [route_24]
 exits = [
@@ -3409,6 +3498,10 @@ exits = [
     "seafoam_islands_1f",
 ]
 header = "seafoam_islands_cinnabar_gym"
+locs = [
+    "cinnabar_badge_cascade",
+    "cinnabar_tm50",
+]
 
 [lavender_pokecenter_1f]
 exits = [
@@ -3429,6 +3522,10 @@ trainers = [
     "sailor_eddie",
     "sailor_parker",
 ]
+locs = [
+    "cerulean_badge_cascade",
+    "cerulean_tm03",
+]
 
 [fuchsia]
 exits = [
@@ -3448,6 +3545,7 @@ encounters = "t08"
 header = "fuchsia"
 locs = [
     "hidden_t08_nugget",
+    "fly_map_fuchsia",
 ]
 
 [cerulean_west_house]
@@ -3467,6 +3565,10 @@ exits = [
     "olivine",
 ]
 header = "olivine_gym"
+locs = [
+    "olivine_badge_mineral",
+    "olivine_tm23",
+]
 
 [olivine_pokemart]
 exits = [
@@ -3725,6 +3827,10 @@ trainers = [
     "medium_rebecca",
     "psychic_m_franklin",
 ]
+locs = [
+    "saffron_badge_marsh",
+    "saffron_tm48",
+]
 
 [saffron_magnet_train_station_1f]
 exits = [
@@ -3904,6 +4010,10 @@ exits = [
     "fuchsia",
 ]
 header = "fuchsia_gym"
+locs = [
+    "fuchsia_badge_soul",
+    "fuchsia_tm84",
+]
 
 [fuchsia_pokecenter_1f]
 exits = [
@@ -4030,6 +4140,7 @@ header = "celadon"
 locs = [
     "hidden_t07_pp_up",
     "overworld_t07_tm67",
+    "fly_map_celadon",
 ]
 
 [ss_aqua_1f_northwest_rooms]
@@ -4117,6 +4228,8 @@ header = "cianwood"
 locs = [
     "hidden_t24_revive",
     "hidden_t24_stardust",
+    "fly_map_cianwood",
+    "cianwood_hm02",
 ]
 
 [ss_aqua_1f_southeast_rooms]
@@ -4245,6 +4358,10 @@ trainers = [
     "black_belt_nob",
     "black_belt_lung",
 ]
+locs = [
+    "cianwood_badge_storm",
+    "cianwood_tm01",
+]
 
 [battle_frontier_frontier_access_gatehouse]
 exits = [
@@ -4335,6 +4452,10 @@ trainers = [
     "lass_michelle",
     "picnicker_tanya",
     "beauty_julia",
+]
+locs = [
+    "celadon_badge_rainbow",
+    "celadon_tm19",
 ]
 
 [celadon_restaurant]
@@ -4603,6 +4724,7 @@ exits = [
     "battle_tower",
 ]
 header = "battle_frontier"
+locs = ["fly_map_battle_frontier"]
 
 [celadon_condominiums_left_elevator]
 header = "celadon_condominiums_left_elevator"
@@ -4663,6 +4785,7 @@ locs = [
     "hidden_d47_tinymushroom",
     "hidden_d47_tinymushroom_2",
     "hidden_d47_tinymushroom_3",
+    "fly_map_safari_zone_gate",
 ]
 
 [bell_tower_6f]
@@ -4805,6 +4928,39 @@ exits = [
     "virt_specs",
     "virt_dex",
     "virt_national_dex",
+    "virt_fly",
+]
+
+[virt_fly]
+header = "virt"
+exits = [
+    "pallet",
+    "viridian",
+    "pewter",
+    "cerulean",
+    "lavender",
+    "vermilion",
+    "celadon",
+    "fuchsia",
+    "cinnabar_island",
+    "indigo_plateau",
+    "saffron",
+    "new_bark",
+    "cherrygrove",
+    "violet",
+    "azalea",
+    "cianwood",
+    "goldenrod",
+    "olivine",
+    "ecruteak",
+    "mahogany",
+    "blackthorn",
+    "lake_of_rage",
+    "mount_silver",
+    "safari_zone_gate",
+    "battle_frontier",
+    "national_park",
+    "victory_road_1f",
 ]
 
 [virt_specs]

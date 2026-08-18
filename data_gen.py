@@ -179,7 +179,11 @@ class Item:
 
     def __str__(self) -> str:
         ret = f"ItemData(label=\"{self.label}\", "
-        ret += f"id=0x{self.id:X}, group=\"{self.group}\", "
+        ret += f"id=0x{self.id:X}, "
+        if isinstance(self.group, str):
+            ret += f"group={{\"{self.group}\"}}, "
+        else:
+            ret += f"group={convert_frozenset(self.group)}, "
         ret += f"clas=ItemClass.{self.clas.upper()}"
         if self.count is not None and self.count != 1:
             ret += f", count={self.count}"

@@ -16,7 +16,7 @@ from .data import encounters as encounterdata, items as itemdata, rules as ruled
 from .data.locations import RequiredLocations, LocationTable
 from .items import create_item_label_to_code_map, get_item_classification, PokemonHgssItem, get_item_groups
 from .locations import PokemonHgssLocation, create_location_label_to_code_map, create_locations
-from .options import OPTION_GROUPS, PokemonHgssOptions, RandomizeTimeItems, Version
+from .options import OPTION_GROUPS, AddHMReader, PokemonHgssOptions, RandomizeTimeItems, Version
 from .regions import create_regions
 from .rom import generate_output, PokemonHeartgoldPatch, PokemonSoulsilverPatch
 from .rules import set_rules, verify_hm_accessibility
@@ -151,7 +151,12 @@ class PokemonHgssWorld(World):
             if getattr(self.options, item).value == 1:
                 add_items.append(item)
 
-        time_items = [k for k, v in itemdata.items.items() if v.group == "time"]
+        if self.options.hm_reader == AddHMReader.option_itempool:
+            add_items.append("tm_user")
+        elif self.options.hm_reader == AddHMReader.option_precollected:
+            self.multiworld.push_precollected(self.create_item(itemdata.items["tm_user"].label))
+
+        time_items = [k for k, v in itemdata.items.items() if "time" in v.group]
         self.random.shuffle(time_items)
         if self.options.time_items:
             add_items.extend(time_items[1:])
@@ -159,7 +164,7 @@ class PokemonHgssWorld(World):
         else:
             for item in time_items:
                 self.multiworld.push_precollected(self.create_item(itemdata.items[item].label))
-        sound_items = [k for k, v in itemdata.items.items() if v.group == "sound"]
+        sound_items = [k for k, v in itemdata.items.items() if "sound" in v.group]
         self.random.shuffle(sound_items)
         if self.options.sound_items:
             add_items.extend(sound_items[1:])

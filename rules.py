@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING
 
 from .data import VersionEnum, encounters as encounterdata, Hm, regions as regiondata, rules as ruledata, trainers as trainerdata, species as speciesdata
 from .locations import is_location_in_world, get_parent_region
-from .options import Goal, TMHMCompatibility
+from .options import AddHMReader, Goal, HMReaderMode, TMHMCompatibility
 from .regions import is_event_region_enabled, is_region_enabled
 
 if TYPE_CHECKING:
@@ -105,7 +105,7 @@ def set_rules(world: "PokemonHgssWorld") -> None:
     world.set_completion_rule(ruledata.Has(goal_event))
 
 def verify_hm_accessibility(world: "PokemonHgssWorld") -> None:
-    if world.options.tmhm_compatibility != TMHMCompatibility.option_none:
+    if world.options.hm_reader != AddHMReader.option_no and world.options.hm_reader_mode == HMReaderMode.option_noreq_mon or world.options.tmhm_compatibility != TMHMCompatibility.option_none:
         return
     rules = world.ruledata
 

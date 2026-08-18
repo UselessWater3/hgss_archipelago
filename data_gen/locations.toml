@@ -275,7 +275,7 @@ original_item = "hm07"
 label = "Ice Path - HM07 (Overworld)"
 id = 149
 table = "overworld"
-type = "overworld"
+type = "hm"
 check = 1111
 
 [overworld_d39r0101_protein]
@@ -3869,3 +3869,603 @@ id = 64
 table = "hidden"
 type = "hidden"
 check = 864
+
+[fly_map_pallet]
+original_item = "fly_map_pallet"
+label = "Fly Region - Pallet"
+id = 1
+table = "base"
+type = "fly_location_kanto"
+check = 0xB6F
+
+[fly_map_viridian]
+original_item = "fly_map_viridian"
+label = "Fly Region - Viridian"
+id = 2
+table = "base"
+type = "fly_location_kanto"
+check = 0xB70
+
+[fly_map_pewter]
+original_item = "fly_map_pewter"
+label = "Fly Region - Pewter"
+id = 3
+table = "base"
+type = "fly_location_kanto"
+check = 0xB71
+
+[fly_map_cerulean]
+original_item = "fly_map_cerulean"
+label = "Fly Region - Cerulean"
+id = 4
+table = "base"
+type = "fly_location_kanto"
+check = 0xB72
+
+[fly_map_lavender]
+original_item = "fly_map_lavender"
+label = "Fly Region - Lavender"
+id = 5
+table = "base"
+type = "fly_location_kanto"
+check = 0xB73
+
+[fly_map_vermilion]
+original_item = "fly_map_vermilion"
+label = "Fly Region - Vermilion"
+id = 6
+table = "base"
+type = "fly_location_kanto"
+check = 0xB74
+
+[fly_map_celadon]
+original_item = "fly_map_celadon"
+label = "Fly Region - Celadon"
+id = 7
+table = "base"
+type = "fly_location_kanto"
+check = 0xB75
+
+[fly_map_fuchsia]
+original_item = "fly_map_fuchsia"
+label = "Fly Region - Fuchsia"
+id = 8
+table = "base"
+type = "fly_location_kanto"
+check = 0xB76
+
+[fly_map_cinnabar_island]
+original_item = "fly_map_cinnabar_island"
+label = "Fly Region - Cinnabar Island"
+id = 9
+table = "base"
+type = "fly_location_kanto"
+check = 0xB77
+
+[fly_map_indigo_plateau]
+original_item = "fly_map_indigo_plateau"
+label = "Fly Region - Indigo Plateau"
+id = 10
+table = "base"
+type = "fly_location_pokemon_league"
+check = 0xB78
+
+[fly_map_saffron]
+original_item = "fly_map_saffron"
+label = "Fly Region - Saffron"
+id = 11
+table = "base"
+type = "fly_location_kanto"
+check = 0xB79
+
+[fly_map_new_bark]
+original_item = "fly_map_new_bark"
+label = "Fly Region - New Bark"
+id = 12
+table = "base"
+type = "fly_location_johto"
+check = 0xB7A
+
+[fly_map_cherrygrove]
+original_item = "fly_map_cherrygrove"
+label = "Fly Region - Cherrygrove"
+id = 13
+table = "base"
+type = "fly_location_johto"
+check = 0xB7B
+
+[fly_map_violet]
+original_item = "fly_map_violet"
+label = "Fly Region - Violet"
+id = 14
+table = "base"
+type = "fly_location_johto"
+check = 0xB7C
+
+[fly_map_azalea]
+original_item = "fly_map_azalea"
+label = "Fly Region - Azalea"
+id = 15
+table = "base"
+type = "fly_location_johto"
+check = 0xB7D
+
+[fly_map_cianwood]
+original_item = "fly_map_cianwood"
+label = "Fly Region - Cianwood"
+id = 16
+table = "base"
+type = "fly_location_johto"
+check = 0xB7E
+
+[fly_map_goldenrod]
+original_item = "fly_map_goldenrod"
+label = "Fly Region - Goldenrod"
+id = 17
+table = "base"
+type = "fly_location_johto"
+check = 0xB7F
+
+[fly_map_olivine]
+original_item = "fly_map_olivine"
+label = "Fly Region - Olivine"
+id = 18
+table = "base"
+type = "fly_location_johto"
+check = 0xB80
+
+[fly_map_ecruteak]
+original_item = "fly_map_ecruteak"
+label = "Fly Region - Ecruteak"
+id = 19
+table = "base"
+type = "fly_location_johto"
+check = 0xB81
+
+[fly_map_mahogany]
+original_item = "fly_map_mahogany"
+label = "Fly Region - Mahogany"
+id = 20
+table = "base"
+type = "fly_location_johto"
+check = 0xB82
+
+[fly_map_blackthorn]
+original_item = "fly_map_blackthorn"
+label = "Fly Region - Blackthorn"
+id = 21
+table = "base"
+type = "fly_location_johto"
+check = 0xB83
+
+[fly_map_lake_of_rage]
+original_item = "fly_map_lake_of_rage"
+label = "Fly Region - Lake Of Rage"
+id = 22
+table = "base"
+type = "fly_location_johto"
+check = 0xB84
+
+[fly_map_mount_silver]
+original_item = "fly_map_mount_silver"
+label = "Fly Region - Mount Silver"
+id = 23
+table = "base"
+type = "fly_location_silver_cave"
+check = 0xB85
+
+[fly_map_safari_zone_gate]
+original_item = "fly_map_safari_zone_gate"
+label = "Fly Region - Safari Zone Gate"
+id = 24
+table = "base"
+type = "fly_location_kanto"
+check = 0xB86
+
+[fly_map_battle_frontier]
+original_item = "fly_map_battle_frontier"
+label = "Fly Region - Battle Frontier"
+id = 25
+table = "base"
+type = "fly_location_johto"
+check = 0xB87
+
+[fly_map_national_park]
+original_item = "fly_map_national_park"
+label = "Fly Region - National Park"
+id = 26
+table = "base"
+type = "fly_location_johto"
+check = 0xB88
+
+[fly_map_victory_road_1f]
+original_item = "fly_map_victory_road_1f"
+label = "Fly Region - Victory Road 1F"
+id = 27
+table = "base"
+type = "fly_location_pokemon_league"
+check = 0xB89
+
+[ecruteak_badge_fog]
+original_item = "fog_badge"
+id = 28
+table = "base"
+type = "badge"
+label = "Ecruteak City Gym - Badge from Morty"
+check = 0xA6
+
+[ecruteak_tm30]
+original_item = "tm30"
+id = 29
+table = "base"
+type = "npc_gift"
+label = "Ecruteak City Gym - Item from Morty"
+check = 0xA6
+
+[violet_badge_zephyr]
+original_item = "zephyr_badge"
+id = 30
+table = "base"
+type = "badge"
+label = "Violet City Gym - Badge from Falkner"
+check = 0x73
+
+[violet_tm51]
+original_item = "tm51"
+id = 31
+table = "base"
+type = "npc_gift"
+label = "Violet City Gym - Item from Falkner"
+check = 0x73
+
+[goldenrod_badge_plain]
+original_item = "plain_badge"
+id = 32
+table = "base"
+type = "badge"
+label = "Goldenrod City Gym - Badge from Whitney"
+check = 0x85
+
+[goldenrod_tm45]
+original_item = "tm45"
+id = 33
+table = "base"
+type = "npc_gift"
+label = "Goldenrod City Gym - Item from Whitney"
+check = 0x85
+
+[olivine_badge_mineral]
+original_item = "mineral_badge"
+id = 34
+table = "base"
+type = "badge"
+label = "Olivine City Gym - Badge from Jasmine"
+check = 0xC2
+
+[olivine_tm23]
+original_item = "tm23"
+id = 35
+table = "base"
+type = "npc_gift"
+label = "Olivine City Gym - Item from Jasmine"
+check = 0xC2
+
+[cianwood_badge_storm]
+original_item = "storm_badge"
+id = 36
+table = "base"
+type = "badge"
+label = "Cianwood City Gym - Badge from Chuck"
+check = 0xBA
+
+[cianwood_tm01]
+original_item = "tm01"
+id = 37
+table = "base"
+type = "npc_gift"
+label = "Cianwood City Gym - Item from Chuck"
+check = 0xBA
+
+[dragons_den_shrine_badge_rising]
+original_item = "rising_badge"
+id = 38
+table = "base"
+type = "badge"
+label = "Dragon's Den Shrine - Badge from Clair"
+check = 0xEA
+
+[dragons_den_tm59]
+original_item = "tm59"
+id = 39
+table = "base"
+type = "npc_gift"
+label = "Dragon's Den - Item from Clair"
+check = 0xDA
+
+[azalea_badge_hive]
+original_item = "hive_badge"
+id = 40
+table = "base"
+type = "badge"
+label = "Azalea Town Gym - Badge from Bugsy"
+check = 0x7F
+
+[azalea_tm89]
+original_item = "tm89"
+id = 41
+table = "base"
+type = "npc_gift"
+label = "Azalea Town Gym - Item from Bugsy"
+check = 0x7F
+
+[new_bark_elms_lab_1f_master_ball]
+original_item = "master_ball"
+id = 42
+table = "base"
+type = "npc_gift"
+label = "Elm's Lab - Gift from Elm after Eight Johto Badges"
+check = { id = 0x4108, value = 9 }
+
+[vermilion_badge_thunder]
+original_item = "thunder_badge"
+id = 43
+table = "base"
+type = "badge"
+label = "Vermilion City Gym - Badge from Lt. Surge"
+check = 0x181
+
+[vermilion_tm34]
+original_item = "tm34"
+id = 44
+table = "base"
+type = "npc_gift"
+label = "Vermilion City Gym - Item from Lt. Surge"
+check = 0x181
+
+[celadon_badge_rainbow]
+original_item = "rainbow_badge"
+id = 45
+table = "base"
+type = "badge"
+label = "Celadon City Gym - Badge from Erika"
+check = 0x124
+
+[celadon_tm19]
+original_item = "tm19"
+id = 46
+table = "base"
+type = "npc_gift"
+label = "Celadon City Gym - Item from Erika"
+check = 0x124
+
+[saffron_badge_marsh]
+original_item = "marsh_badge"
+id = 47
+table = "base"
+type = "badge"
+label = "Saffron City Gym - Badge from Sabrina"
+check = 0x182
+
+[saffron_tm48]
+original_item = "tm48"
+id = 48
+table = "base"
+type = "npc_gift"
+label = "Saffron City Gym - Item from Sabrina"
+check = 0x182
+
+[cerulean_badge_cascade]
+original_item = "cascade_badge"
+id = 49
+table = "base"
+type = "badge"
+label = "Cerulean City Gym - Badge from Misty"
+check = 0x180
+
+[cerulean_tm03]
+original_item = "tm03"
+id = 50
+table = "base"
+type = "npc_gift"
+label = "Cerulean City Gym - Item from Misty"
+check = 0x180
+
+[cinnabar_badge_cascade]
+original_item = "volcano_badge"
+id = 51
+table = "base"
+type = "badge"
+label = "Cinnabar Island Gym - Badge from Blaine"
+check = 0x17D
+
+[cinnabar_tm50]
+original_item = "tm50"
+id = 52
+table = "base"
+type = "npc_gift"
+label = "Cinnabar Island Gym - Item from Blaine"
+check = 0x17D
+
+[pewter_badge_boulder]
+original_item = "boulder_badge"
+id = 53
+table = "base"
+type = "badge"
+label = "Pewter City Gym - Badge from Brock"
+check = 0x17F
+
+[pewter_tm80]
+original_item = "tm80"
+id = 54
+table = "base"
+type = "npc_gift"
+label = "Pewter City Gym - Item from Brock"
+check = 0x17F
+
+[fuchsia_badge_soul]
+original_item = "soul_badge"
+id = 55
+table = "base"
+type = "badge"
+label = "Fucshia City Gym - Badge from Janine"
+check = 0x12D
+
+[fuchsia_tm84]
+original_item = "tm84"
+id = 56
+table = "base"
+type = "npc_gift"
+label = "Fuchsia City Gym - Item from Janine"
+check = 0x12D
+
+[viridian_badge_earth]
+original_item = "earth_badge"
+id = 57
+table = "base"
+type = "badge"
+label = "Viridian City Gym - Badge from Blue"
+check = 0x17E
+
+[viridian_tm92]
+original_item = "tm92"
+id = 58
+table = "base"
+type = "npc_gift"
+label = "Viridian City Gym - Item from Blue"
+check = 0x17E
+
+[mahogany_badge_glacier]
+original_item = "glacier_badge"
+id = 59
+table = "base"
+type = "badge"
+label = "Mahogany Town Gym - Badge from Pryce"
+check = 0xD2
+
+[mahogany_tm07]
+original_item = "tm07"
+id = 60
+table = "base"
+type = "npc_gift"
+label = "Mahogany Town Gym - Item from Gym"
+check = 0xD2
+
+[ilex_forest_hm01]
+original_item = "hm01"
+id = 61
+table = "base"
+type = "hm"
+label = "Ilex Forest - Item from Charcoal Maker"
+check = 0x80
+
+[cianwood_hm02]
+original_item = "hm02"
+id = 62
+table = "base"
+type = "hm"
+label = "Cianwood City - Item from Chuck's Wife"
+check = 0xBB
+
+[ecruteak_dance_theater_hm03]
+original_item = "hm03"
+id = 63
+table = "base"
+type = "hm"
+label = "Ecruteak Dance Theater - Item from Old Man"
+check = 0xA2
+
+[route_42_hm04]
+original_item = "hm04"
+id = 64
+table = "base"
+type = "hm"
+label = "Route 42 - Item from Hiker"
+check = { id = 0x4091, value = 1 }
+
+[team_rocket_headquarters_b2f_hm05]
+original_item = "hm05"
+id = 65
+table = "base"
+type = "hm"
+label = "Team Rocket HQ B2F - Item from Lance"
+check = 0xCA
+
+[route_36_hm06]
+original_item = "hm06"
+id = 66
+table = "base"
+type = "hm"
+label = "Route 36 - Item from Man East of the Sudowoodo"
+check = 0xB8A
+
+[pallet_town_oaks_lab_hm08]
+original_item = "hm08"
+id = 67
+table = "base"
+type = "hm"
+label = "Oak's Lab - Gift from Oak after Eight Kanto Badges"
+check = 0x185
+
+[olivine_northwest_house_good_rod]
+original_item = "good_rod"
+id = 68
+table = "base"
+type = "rod"
+label = "Olivine City Northwest House - Item from Fishing Guru"
+check = 0xBD
+
+[route_32_pokemon_center_1f_old_rod]
+original_item = "old_rod"
+id = 69
+table = "base"
+type = "rod"
+label = "Route 32 Pokemon Center 1F - Item from Fishing Guru"
+check = 0x75
+
+[route_12_fishing_brother_house_super_rod]
+original_item = "super_rod"
+id = 70
+table = "base"
+type = "rod"
+label = "Route 12 House - Item from Fishing Guru's Brother"
+check = 0xB8B
+
+[route_30_mr_pokemon_house_pokedex]
+original_item = "pokedex"
+id = 71
+table = "base"
+type = "pokedex"
+label = "Mr. Pokemon's House - Item from Prof. Oak"
+check = { id = 0x4107, value = 1 }
+
+[ss_aqua_olivine_port_interior_pokedex]
+original_item = "pokedex"
+id = 72
+table = "base"
+type = "pokedex"
+label = "Olivine S.S. Aqua Port - Item from Prof. Oak"
+check = 0xB8C
+
+[lavender_town_radio_station_radio]
+original_item = "radio"
+id = 73
+table = "base"
+type = "pokegear_card"
+label = "Lavender Town Radio Station - Radio Expansion Card"
+check = 0xB8D
+
+[goldenrod_radio_tower_1f_radio]
+original_item = "radio"
+id = 74
+table = "base"
+type = "pokegear_card"
+label = "Goldenrod Radio Tower 1F - Radio Card"
+check = 0x8A
+
+[ecruteak_dowsing_machine_house_dowsing_mchn]
+original_item = "dowsing_mchn"
+id = 75
+table = "base"
+type = "key_item"
+label = "Ecruteak Dowsing Machine House - Gift"
+check = 0xA3

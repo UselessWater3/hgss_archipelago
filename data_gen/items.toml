@@ -2622,6 +2622,7 @@ id = 397
 group = "tmhms"
 clas = "bagitem"
 data_id = 375
+classification = "progression"
 
 [tm71]
 label = "TM71"
@@ -2932,7 +2933,7 @@ group = "key_items"
 clas = "bagitem"
 data_id = 418
 
-[town_map]
+[town_map_fake]
 label = "Town Map"
 id = 442
 group = "key_items"
@@ -3144,6 +3145,7 @@ id = 471
 group = "key_items"
 clas = "bagitem"
 data_id = 448
+classification = "progression"
 
 [blue_card]
 label = "Blue Card"
@@ -3633,42 +3635,42 @@ classification = "progression"
 [plain_badge]
 id = 2
 label = "Plain Badge"
-group = "badges"
+group = ["badges", "johto_badges"]
 clas = "special"
 classification = "progression"
 
 [fog_badge]
 id = 3
 label = "Fog Badge"
-group = "badges"
+group = ["badges", "johto_badges"]
 clas = "special"
 classification = "progression"
 
 [storm_badge]
 id = 4
 label = "Storm Badge"
-group = "badges"
+group = ["badges", "johto_badges"]
 clas = "special"
 classification = "progression"
 
 [mineral_badge]
 id = 5
 label = "Mineral Badge"
-group = "badges"
+group = ["badges", "johto_badges"]
 clas = "special"
 classification = "progression"
 
 [glacier_badge]
 id = 6
 label = "Glacier Badge"
-group = "badges"
+group = ["badges", "johto_badges"]
 clas = "special"
 classification = "progression"
 
 [rising_badge]
 id = 7
 label = "Rising Badge"
-group = "badges"
+group = ["badges", "johto_badges"]
 clas = "special"
 classification = "progression"
 
@@ -3676,56 +3678,56 @@ classification = "progression"
 [boulder_badge]
 id = 8
 label = "Boulder Badge"
-group = "badges"
+group = ["badges", "kanto_badges"]
 clas = "special"
 classification = "progression"
 
 [cascade_badge]
 id = 9
 label = "Cascade Badge"
-group = "badges"
+group = ["badges", "kanto_badges"]
 clas = "special"
 classification = "progression"
 
 [thunder_badge]
 id = 10
 label = "Thunder Badge"
-group = "badges"
+group = ["badges", "kanto_badges"]
 clas = "special"
 classification = "progression"
 
 [rainbow_badge]
 id = 11
 label = "Rainbow Badge"
-group = "badges"
+group = ["badges", "kanto_badges"]
 clas = "special"
 classification = "progression"
 
 [soul_badge]
 id = 12
 label = "Soul Badge"
-group = "badges"
+group = ["badges", "kanto_badges"]
 clas = "special"
 classification = "progression"
 
 [marsh_badge]
 id = 13
 label = "Marsh Badge"
-group = "badges"
+group = ["badges", "kanto_badges"]
 clas = "special"
 classification = "progression"
 
 [volcano_badge]
 id = 14
 label = "Volcano Badge"
-group = "badges"
+group = ["badges", "kanto_badges"]
 clas = "special"
 classification = "progression"
 
 [earth_badge]
 id = 15
 label = "Earth Badge"
-group = "badges"
+group = ["badges", "kanto_badges"]
 clas = "special"
 classification = "progression"
 
@@ -3743,21 +3745,21 @@ clas = "special"
 group = "running_shoes"
 classification = "useful"
 
-[morning]
+[morningtime]
 id = 18
 label = "Morning-time"
 clas = "special"
 group = "time"
 classification = "progression"
 
-[day]
+[daytime]
 id = 19
 label = "Daytime"
 clas = "special"
 group = "time"
 classification = "progression"
 
-[night]
+[nighttime]
 id = 20
 label = "Nighttime"
 clas = "special"
@@ -3795,3 +3797,214 @@ label = "Sinnoh Sound"
 clas = "special"
 group = "sound"
 classification = "progression"
+
+[tm_user]
+label = "HM Reader"
+id = 539
+group = "key_items"
+clas = "bagitem"
+classification = "progression"
+data_id = 516
+
+[town_map]
+id = 26
+label = "Town Map Pokegear Card"
+group = "card"
+classification = "useful"
+clas = "special"
+
+[radio]
+id = 27
+label = "Upgradable Radio Pokegear Card"
+group = "card"
+classification = "progression"
+clas = "special"
+
+[fly_map_pallet]
+label = "Fly Region - Pallet"
+id = 28
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_viridian]
+label = "Fly Region - Viridian"
+id = 29
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_pewter]
+label = "Fly Region - Pewter"
+id = 30
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_cerulean]
+label = "Fly Region - Cerulean"
+id = 31
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_lavender]
+label = "Fly Region - Lavender"
+id = 32
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_vermilion]
+label = "Fly Region - Vermilion"
+id = 33
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_celadon]
+label = "Fly Region - Celadon"
+id = 34
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_fuchsia]
+label = "Fly Region - Fuchsia"
+id = 35
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_cinnabar_island]
+label = "Fly Region - Cinnabar Island"
+id = 36
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_indigo_plateau]
+label = "Fly Region - Indigo Plateau"
+id = 37
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_saffron]
+label = "Fly Region - Saffron"
+id = 38
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_new_bark]
+label = "Fly Region - New Bark"
+id = 39
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_cherrygrove]
+label = "Fly Region - Cherrygrove"
+id = 40
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_violet]
+label = "Fly Region - Violet"
+id = 41
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_azalea]
+label = "Fly Region - Azalea"
+id = 42
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_cianwood]
+label = "Fly Region - Cianwood"
+id = 43
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_goldenrod]
+label = "Fly Region - Goldenrod"
+id = 44
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_olivine]
+label = "Fly Region - Olivine"
+id = 45
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_ecruteak]
+label = "Fly Region - Ecruteak"
+id = 46
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_mahogany]
+label = "Fly Region - Mahogany"
+id = 47
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_blackthorn]
+label = "Fly Region - Blackthorn"
+id = 48
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_lake_of_rage]
+label = "Fly Region - Lake Of Rage"
+id = 49
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_mount_silver]
+label = "Fly Region - Mount Silver"
+id = 50
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_safari_zone_gate]
+label = "Fly Region - Safari Zone Gate"
+id = 51
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_battle_frontier]
+label = "Fly Region - Battle Frontier"
+id = 52
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_national_park]
+label = "Fly Region - National Park"
+id = 53
+group = "fly_item"
+classification = "progression"
+clas = "special"
+
+[fly_map_victory_road_1f]
+label = "Fly Region - Victory Road 1F"
+group = "fly_item"
+classification = "progression"
+clas = "special"
+id = 54

@@ -33,6 +33,27 @@ location_types: Mapping[str, LocationType] = {
     "running_shoes": LocationType(is_enabled = lambda opts : opts.running_shoes.value == 1),
     "bicycle": LocationType(is_enabled = lambda opts : opts.bicycle.value == 1),
     "pokedex": LocationType(is_enabled = lambda opts : opts.pokedex.value == 1),
+    "pokegear_card": LocationType(is_enabled = lambda opts : opts.pokegear_card.value == 1),
+    "fly_location_kanto": LocationType(
+        is_enabled = lambda opts : "kanto" in opts.randomize_fly_items,
+        should_be_added = lambda opts : "kanto" in opts.randomize_fly_items or opts.require_fly_items_for_flight.value == 1,
+        should_have_item = lambda opts : "kanto" in opts.randomize_fly_items or opts.require_fly_items_for_flight.value == 1,
+    ),
+    "fly_location_johto": LocationType(
+        is_enabled = lambda opts : "johto" in opts.randomize_fly_items,
+        should_be_added = lambda opts : "johto" in opts.randomize_fly_items or opts.require_fly_items_for_flight.value == 1,
+        should_have_item = lambda opts : "johto" in opts.randomize_fly_items or opts.require_fly_items_for_flight.value == 1,
+    ),
+    "fly_location_silver_cave": LocationType(
+        is_enabled = lambda opts : "mount_silver" in opts.randomize_fly_items,
+        should_be_added = lambda opts : "mount_silver" in opts.randomize_fly_items or opts.require_fly_items_for_flight.value == 1,
+        should_have_item = lambda opts : "mount_silver" in opts.randomize_fly_items or opts.require_fly_items_for_flight.value == 1,
+    ),
+    "fly_location_pokemon_league": LocationType(
+        is_enabled = lambda opts : "pokemon_league" in opts.randomize_fly_items,
+        should_be_added = lambda opts : "pokemon_league" in opts.randomize_fly_items or opts.require_fly_items_for_flight.value == 1,
+        should_have_item = lambda opts : "pokemon_league" in opts.randomize_fly_items or opts.require_fly_items_for_flight.value == 1,
+    ),
 }
 
 def get_parent_region(label: str, world: "PokemonHgssWorld") -> str | None:

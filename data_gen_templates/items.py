@@ -4,7 +4,7 @@
 # Licensed under MIT. See LICENSE
 
 from BaseClasses import ItemClassification
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 from enum import IntEnum
 from typing import Dict, Set
@@ -19,7 +19,7 @@ class ItemData:
     label: str
     id: int
     clas: ItemClass
-    group: str
+    group: Set[str]
     count: int = 1
     classification: ItemClassification = ItemClassification.filler
     data_id: int | None = None

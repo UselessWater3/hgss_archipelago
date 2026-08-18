@@ -281,15 +281,16 @@ def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: Pok
         raise ValueError(f"invalid text frame: \"{text_frame}\"")
 
     hm_accum = 0
-    hm_order = ["cut", "fly", "surf", "strength", "whirlpool", "rock_smash", "waterfall", "rock_climb"]
-    for i, v in enumerate(hm_order):
-        if v in world.options.remove_badge_requirements:
+    for i, v in enumerate(Hm):
+        if not world.options.requires_badge(v):
             hm_accum |= 1 << i
     ap_bin += hm_accum.to_bytes(length=1, byteorder='little')
 
     ap_bin += (world.options.dexsanity_mode.value if world.options.dexsanity.value > 0 else 0).to_bytes(1, 'little')
     add_opt_byte("reusable_tms")
     add_opt_byte("evo_items_shop_in_ap_helper")
+    add_opt_byte("hm_reader_mode")
+    add_opt_byte("require_fly_items_for_flight")
 
     # start of save config
     if len(ap_bin) % 2 == 1:

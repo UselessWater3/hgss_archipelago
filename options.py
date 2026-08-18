@@ -745,6 +745,61 @@ class MoveRandomization(OptionDict):
         else:
             raise AttributeError(name, self)
 
+class AddHMReader(Choice):
+    """
+    Add the HM Reader item. The HM Reader is an item that lets you use field moves without teaching them.
+
+    Options:
+    - no: Don't add the HM Reader item.
+    - itempool: Add the HM Reader item to the itempool.
+    - precollected: Start with the HM Reader item.
+    """
+    option_no = 0
+    option_itempool = 1
+    option_precollected = 2
+    default = option_no
+    display_name = "Add HM Reader"
+
+class HMReaderMode(Choice):
+    """
+    Mode for the HM Reader. The HM Reader is an item that letse you use field moves without teaching them.
+
+    Options:
+    - req_mon: require a Pokemon in your party to which you can teach the move, in order for the HM reader to use it.
+    - noreq_mon: do not require a Pokemon in your party to which you can teach the move.
+    """
+    option_req_mon = 0
+    option_noreq_mon = 1
+    default = option_req_mon
+    display_name = "HM Reader Mode"
+
+class RandomizeFlyItems(OptionSet):
+    """
+    Add fly locations to the pool.
+
+    Options:
+    - kanto
+    - johto
+    - pokemon_league
+    - mount_silver
+    """
+    valid_keys = {"kanto", "johto", "pokemon_league", "mount_silver"}
+    default = set()
+    display_name = "Randomize Fly Locations"
+
+class RequireFlyItemsForFlight(Toggle):
+    """
+    Require the fly location item to fly to a certain location.
+    If this is false, then simply visiting the location will be sufficient.
+    """
+    display_name = "Require Fly Location Items for Flight"
+
+class RandomizePokegearCards(Toggle):
+    """
+    Randomize the cards available for the Pokegear.
+    """
+    display_name = "Require Pokegear Cards"
+
 slot_data_options: Sequence[str] = [
     "goal",
     "version",
@@ -765,6 +820,7 @@ slot_data_options: Sequence[str] = [
     "pokedex",
     "time_items",
     "sound_items",
+    "pokegear_card",
     
     "remove_badge_requirements",
     "visibility_hm_logic",
@@ -772,7 +828,12 @@ slot_data_options: Sequence[str] = [
     "reusable_tms",
     "evo_items_shop_in_ap_helper",
 
+    "hm_reader",
+    "hm_reader_mode",
     "tmhm_compatibility",
+
+    "randomize_fly_items",
+    "require_fly_items_for_flight",
 
     "in_logic_encounters",
     "dexsanity",
@@ -805,6 +866,7 @@ class PokemonHgssOptions(PerGameCommonOptions):
     pokedex: RandomizePokedex
     time_items: RandomizeTimeItems
     sound_items: RandomizeSoundsItems
+    pokegear_card: RandomizePokegearCards
     
     remove_badge_requirements: RemoveBadgeRequirement
     visibility_hm_logic: VisibilityHmLogic
@@ -812,6 +874,11 @@ class PokemonHgssOptions(PerGameCommonOptions):
     reusable_tms: ReusableTms
     evo_items_shop_in_ap_helper: EvoItemsShopInAPHelper
 
+    randomize_fly_items: RandomizeFlyItems
+    require_fly_items_for_flight: RequireFlyItemsForFlight
+
+    hm_reader: AddHMReader
+    hm_reader_mode: HMReaderMode
     tmhm_compatibility: TMHMCompatibility
 
     randomize_starters: RandomizeStarters
@@ -910,6 +977,8 @@ OPTION_GROUPS = [
             RandomizePokedex,
             RandomizeTimeItems,
             RandomizeSoundsItems,
+            RandomizeFlyItems,
+            RandomizePokegearCards,
         ],
     ),
     OptionGroup(
@@ -962,6 +1031,8 @@ OPTION_GROUPS = [
         [
             RemoveBadgeRequirement,
             TMHMCompatibility,
+            AddHMReader,
+            HMReaderMode,
         ],
     ),
     OptionGroup(
@@ -980,6 +1051,7 @@ OPTION_GROUPS = [
             ExpMultiplier,
             AddMasterRepel,
             ItemNotificationsMask,
+            RequireFlyItemsForFlight,
         ],
     ),
 ]

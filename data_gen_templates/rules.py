@@ -37,11 +37,18 @@ class Rules:
         self.common_rules = common_rules
         self.cached_enc_accessibility_rules = {}
         self.hm_mons = {}
+        BADGES = tuple(item.label for item in items.items.values() if "badges" in item.group)
+        JOHTO_BADGES = tuple(item.label for item in items.items.values() if "johto_badges" in item.group)
+        KANTO_BADGES = tuple(item.label for item in items.items.values() if "kanto_badges" in item.group)
         def badges(n: int) -> Rule:
-            badges = tuple(items.items[loc.original_item].label # type: ignore
-                for loc in locations.locations.values() if loc.type == "badge")
-            return HasFromListUnique(*badges, count=n)
+            return HasFromListUnique(*BADGES, count=n)
+        def johto_badges(n: int) -> Rule:
+            return HasFromListUnique(*JOHTO_BADGES, count=n)
+        def kanto_badges(n: int) -> Rule:
+            return HasFromListUnique(*KANTO_BADGES, count=n)
         self.common_rules["badges"] = badges
+        self.common_rules["johto_badges"] = johto_badges
+        self.common_rules["kanto_badges"] = kanto_badges
         self.common_rules.update({f"use_{hm.name.lower()}":self.get_use_hm_rule(hm) for hm in Hm})
 
     def fill_rules(self):
