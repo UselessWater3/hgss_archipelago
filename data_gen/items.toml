@@ -26,6 +26,14 @@ group = "balls"
 clas = "bagitem"
 data_id = 4
 
+[poke_ball_x5]
+label = "Poké Ball x5"
+id = 4
+group = "balls"
+clas = "bagitem"
+data_id = 4
+count = 5
+
 [safari_ball]
 label = "Safari Ball"
 id = 5
@@ -116,6 +124,14 @@ id = 17
 group = "medicine"
 clas = "bagitem"
 data_id = 17
+
+[potion_x5]
+label = "Potion x5"
+id = 17
+group = "medicine"
+clas = "bagitem"
+data_id = 17
+count = 5
 
 [antidote]
 label = "Antidote"
@@ -765,7 +781,7 @@ data_id = 109
 label = "Oval Stone"
 id = 110
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 110
 
 [odd_keystone]
@@ -1355,6 +1371,7 @@ id = 216
 group = "items"
 clas = "bagitem"
 data_id = 194
+classification = "useful"
 
 [quick_claw]
 label = "Quick Claw"
@@ -1388,7 +1405,7 @@ data_id = 198
 label = "King’s Rock"
 id = 221
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 199
 
 [silverpowder]
@@ -1423,14 +1440,14 @@ data_id = 203
 label = "DeepSeaTooth"
 id = 226
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 204
 
 [deepseascale]
 label = "DeepSeaScale"
 id = 227
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 205
 
 [smoke_ball]
@@ -1472,7 +1489,7 @@ data_id = 210
 label = "Metal Coat"
 id = 233
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 211
 
 [leftovers]
@@ -1486,7 +1503,7 @@ data_id = 212
 label = "Dragon Scale"
 id = 235
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 213
 
 [light_ball]
@@ -1605,7 +1622,7 @@ data_id = 229
 label = "Up-Grade"
 id = 252
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 230
 
 [shell_bell]
@@ -2088,49 +2105,49 @@ data_id = 298
 label = "Protector"
 id = 321
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 299
 
 [electirizer]
 label = "Electirizer"
 id = 322
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 300
 
 [magmarizer]
 label = "Magmarizer"
 id = 323
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 301
 
 [dubious_disc]
 label = "Dubious Disc"
 id = 324
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 302
 
 [reaper_cloth]
 label = "Reaper Cloth"
 id = 325
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 303
 
 [razor_claw]
 label = "Razor Claw"
 id = 326
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 304
 
 [razor_fang]
 label = "Razor Fang"
 id = 327
 group = "items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 305
 
 [tm01]
@@ -2620,7 +2637,7 @@ data_id = 374
 label = "TM70"
 id = 397
 group = "tmhms"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 375
 classification = "progression"
 
@@ -2798,7 +2815,7 @@ classification = "progression"
 label = "HM03"
 id = 422
 group = "tmhms"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 400
 classification = "progression"
 
@@ -3040,6 +3057,7 @@ id = 456
 group = "key_items"
 clas = "bagitem"
 data_id = 433
+classification = "progression"
 
 [contest_pass]
 label = "Contest Pass"
@@ -3174,6 +3192,7 @@ id = 475
 group = "key_items"
 clas = "bagitem"
 data_id = 452
+classification = "progression"
 
 [basement_key]
 label = "Basement Key"
@@ -3181,6 +3200,7 @@ id = 476
 group = "key_items"
 clas = "bagitem"
 data_id = 453
+classification = "progression"
 
 [squirtbottle]
 label = "SquirtBottle"
@@ -3188,6 +3208,7 @@ id = 477
 group = "key_items"
 clas = "bagitem"
 data_id = 454
+classification = "progression"
 
 [red_scale]
 label = "Red Scale"
@@ -3195,6 +3216,7 @@ id = 478
 group = "key_items"
 clas = "bagitem"
 data_id = 455
+classification = "progression"
 
 [lost_item]
 label = "Lost Item"
@@ -3209,6 +3231,7 @@ id = 480
 group = "key_items"
 clas = "bagitem"
 data_id = 457
+classification = "progression"
 
 [machine_part]
 label = "Machine Part"
@@ -3216,6 +3239,7 @@ id = 481
 group = "key_items"
 clas = "bagitem"
 data_id = 458
+classification = "progression"
 
 [silver_wing]
 label = "Silver Wing"

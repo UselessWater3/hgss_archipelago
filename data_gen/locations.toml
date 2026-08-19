@@ -4204,7 +4204,7 @@ id = 42
 table = "base"
 type = "npc_gift"
 label = "Elm's Lab - Gift from Elm after Eight Johto Badges"
-check = { id = 0x4108, value = 9 }
+check = 0xB8F
 
 [vermilion_badge_thunder]
 original_item = "thunder_badge"
@@ -4469,3 +4469,172 @@ table = "base"
 type = "key_item"
 label = "Ecruteak Dowsing Machine House - Gift"
 check = 0xA3
+
+[new_bark_elms_lab_1f_potions]
+original_item = "potion_x5"
+id = 76
+table = "base"
+type = "npc_gift"
+label = "Elm's Lab - Gift from Assistant after Obtaining Starter"
+check = 0xB8E
+
+[new_bark_elms_lab_1f_ss_ticket]
+original_item = "s_s__ticket"
+id = 77
+table = "base"
+type = "key_item"
+label = "Elm's Lab - Gift from Prof. Elm after Clearing the Pokemon League"
+check = 0xF2
+
+[charcoal_gift_azalea]
+original_item = "charcoal"
+id = 78
+table = "base"
+type = "npc_gift"
+label = "Charcoal Kiln - Charcoal from Assistant"
+check = 0x81
+
+[kurt_fast_ball_gift]
+original_item = "fast_ball"
+id = 79
+table = "base"
+type = "npc_gift"
+label = "Kurt's House - Fast Ball from Kurt"
+check = 0x7C
+
+[cherrygrove_running_shoes]
+original_item = "running_shoes"
+id = 80
+table = "base"
+type = "running_shoes"
+label = "Cherrygrove City - Running Shoes from Guide Gent"
+check = { id = 0x4073, value = 1 }
+
+[celadon_condominiums_3f_gb_sounds]
+original_item = "gb_sounds"
+label = "Celadon Condominiums 3F - GB Sounds from Sound Designer"
+id = 81
+table = "base"
+type = "key_item"
+check = 0xB90
+
+[celadon_condominiums_4f_spell_tag]
+original_item = "spell_tag"
+label = "Celadon Condominiums 4F - Spell Tag from Man"
+id = 82
+table = "base"
+type = "npc_gift"
+check = 0x158
+
+[cherrygrove_map_card]
+original_item = "town_map"
+label = "Cherrygrove City - Map Card from Guide Gent"
+id = 83
+table = "base"
+type = "pokegear_card"
+check = { id = 0x4073, value = 2 }
+
+[cherrygrove_mystic_water]
+original_item = "mystic_water"
+label = "Cherrygrove City - Mystic Water from Man on Island"
+id = 84
+table = "base"
+type = "npc_gift"
+check = 0xF3
+
+[cianwood_pharmacy_secretpotion]
+original_item = "secretpotion"
+label = "Cianwood Pharmacy - Secretpotion from Clerk"
+id = 85
+table = "base"
+type = "key_item"
+check = 0xB9
+
+[d42r0101_blackglasses]
+original_item = "blackglasses"
+label = "Dark Cave (North Side) - Gift from Blackglasses Man"
+id = 86
+table = "base"
+type = "npc_gift"
+check = 0xDF
+
+[d37r0105_cardkey]
+original_item = "card_key"
+label = "Goldenrod Underground - Card Key From Director"
+id = 87
+table = "base"
+type = "key_item"
+check = 0xB91
+
+[pokecenter_b1f_pal_pad]
+original_item = "pal_pad"
+label = "Pokemon Center Basement - Pal Pad from Teala"
+id = 88
+table = "base"
+type = "key_item"
+check = { id = 0x4117, value = 1 }
+
+[power_plant_tm57]
+original_item = "tm57"
+label = "Power Plant - Gift from Manager"
+id = 89
+table = "base"
+type = "npc_gift"
+check = { id = 0x40FF, value = 1 }
+
+[route_29_poke_balls]
+original_item = "poke_ball_x5"
+label = "Route 29 - Poke Balls from Lyra/Ethan"
+id = 90
+table = "base"
+type = "npc_gift"
+check = 0x9A
+
+[route_30_apricorn_box]
+original_item = "apricorn_box"
+label = "Route 30 - Gift from Mr. Apricorn"
+id = 91
+table = "base"
+type = "key_item"
+check = 0x6D
+
+[r30r0201_mr_pokemon_house_exp_share]
+original_item = "exp__share"
+label = "Mr. Pokemon's House - Exp. Share from Mr. Pokemon"
+id = 92
+table = "base"
+type = "npc_gift"
+check = 0x6C
+
+[r31_tm44]
+original_item = "tm44"
+label = "Route 31 - Gift From Sleepy Man"
+id = 93
+table = "base"
+type = "npc_gift"
+check = 0xB92
+
+[violet_route_31_gate_house_vs_recorder]
+original_item = "vs__recorder"
+label = "Route 31 Gate to Violet - Vs. Recorder from Lyra/Ethan"
+id = 94
+table = "base"
+type = "key_item"
+check = { id = 0x4132, value = 1 }
+
+[route_32_miracle_seed]
+original_item = "miracle_seed"
+label = "Route 32 - Miracle Seed from Man"
+id = 95
+table = "base"
+type = "npc_gift"
+check = 0x74
+
+[route_32_poison_barb]
+original_item = "poison_barb"
+label = "Route 32 - Gift from Frieda"
+id = 96
+table = "base"
+type = "npc_gift"
+check = 0xD9
+

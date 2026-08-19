@@ -22,6 +22,8 @@ exits = [
 header = "new_bark_elms_lab_1f"
 locs = [
     "new_bark_elms_lab_1f_master_ball",
+    "new_bark_elms_lab_1f_potions",
+    "new_bark_elms_lab_1f_ss_ticket",
 ]
 
 [route_29]
@@ -35,6 +37,7 @@ encounters = "r29"
 header = "route_29"
 locs = [
     "overworld_r29_potion",
+    "route_29_poke_balls",
 ]
 
 [route_27]
@@ -140,6 +143,9 @@ locs = [
     "hidden_r29_r30_t21_nugget",
     "hidden_t21_nugget",
     "fly_map_cherrygrove",
+    "cherrygrove_running_shoes",
+    "cherrygrove_map_card",
+    "cherrygrove_mystic_water",
 ]
 trainers = [
     "rival_silver_cherrygrove",
@@ -147,7 +153,7 @@ trainers = [
 
 [route_46]
 exits = [
-    "dark_cave_route_31_side",
+    "dark_cave_route_31_side_west",
     "route_29",
     "route_29_route_46_gatehouse",
     "route_45",
@@ -202,6 +208,7 @@ header = "cherrygrove_guide_gent_house"
 exits = [
     "cherrygrove",
     "cherrygrove_pokecenter_b1f",
+    "virt_pal_pad",
 ]
 header = "cherrygrove_pokecenter_1f"
 
@@ -245,6 +252,7 @@ locs = [
     "hidden_r30_potion",
     "overworld_r30_antidote",
     "overworld_r30_potion",
+    "route_30_apricorn_box",
 ]
 trainers = [
     "bug_catcher_don",
@@ -285,7 +293,24 @@ exits = [
 ]
 header = "route_26_north_house"
 
-[dark_cave_route_31_side]
+[dark_cave_route_31_side_east]
+exits = [
+    "dark_cave_route_45_side",
+    "route_31",
+    "route_46",
+]
+encounters = "d42r0102"
+header = "dark_cave_route_31_side"
+
+[dark_cave_route_31_side_north]
+exits = []
+header = "dark_cave_route_31_side"
+
+[dark_cave_route_31_side_south]
+exits = []
+header = "dark_cave_route_31_side"
+
+[dark_cave_route_31_side_west]
 exits = [
     "dark_cave_route_45_side",
     "route_31",
@@ -324,7 +349,10 @@ locs = [
 
 [dark_cave_route_45_side]
 exits = [
-    "dark_cave_route_31_side",
+    "dark_cave_route_31_side_west",
+    "dark_cave_route_31_side_north",
+    "dark_cave_route_31_side_east",
+    "dark_cave_route_31_side_south",
     "route_45",
 ]
 encounters = "d42r0101"
@@ -335,6 +363,7 @@ locs = [
     "hidden_d42r0101_elixir",
     "overworld_d42r0101_tm54",
     "overworld_d42r0101_revive",
+    "d42r0101_blackglasses",
 ]
 
 [route_30_apricorn_house]
@@ -367,6 +396,7 @@ exits = [
 header = "route_30_mr_pokemon_house"
 locs = [
     "route_30_mr_pokemon_house_pokedex",
+    "r30r0201_mr_pokemon_house_exp_share",
 ]
 
 [route_22]
@@ -401,7 +431,7 @@ header = "cherrygrove_pokecenter_b1f"
 
 [route_31]
 exits = [
-    "dark_cave_route_31_side",
+    "dark_cave_route_31_side_west",
     "route_30",
     "route_31_violet_gatehouse",
     "violet",
@@ -411,6 +441,7 @@ header = "route_31"
 locs = [
     "overworld_r31_potion",
     "overworld_r31_poke_ball",
+    "r31_tm44",
 ]
 trainers = [
     "bug_catcher_wade",
@@ -495,6 +526,11 @@ exits = [
 ]
 header = "blackthorn_move_tutor_house"
 
+[ice_path_1f_back]
+exits = []
+encounters = "d39r0101"
+header = "ice_path_1f"
+
 [ice_path_1f]
 exits = [
     "blackthorn",
@@ -555,6 +591,9 @@ exits = [
     "violet",
 ]
 header = "route_31_violet_gatehouse"
+locs = [
+    "violet_route_31_gate_house_vs_recorder",
+]
 
 [blackthorn_west_house]
 exits = [
@@ -794,6 +833,11 @@ exits = [
 ]
 header = "violet_northwest_house"
 
+[ice_path_b1f_back]
+exits = []
+encounters = "d39r0102"
+header = "ice_path_b1f"
+
 [ice_path_b1f]
 exits = [
     "ice_path_1f",
@@ -830,6 +874,21 @@ exits = [
 ]
 header = "violet_bellsprout_onyx_trade_house"
 
+[ruins_of_alph_southeast]
+exits = []
+encounters = "d24r0101"
+header = "ruins_of_alph"
+
+[ruins_of_alph_southwest]
+exits = []
+encounters = "d24r0101"
+header = "ruins_of_alph"
+
+[ruins_of_alph_northwest]
+exits = []
+encounters = "d24r0101"
+header = "ruins_of_alph"
+
 [ruins_of_alph]
 exits = [
     "route_32",
@@ -861,6 +920,11 @@ trainers = [
     "psychic_m_nathan",
 ]
 
+[route_32_north]
+exits = []
+header = "route_32"
+encounters = "r32"
+
 [route_32]
 exits = [
     "route_32_pokecenter_1f",
@@ -880,6 +944,8 @@ locs = [
     "overworld_r32_great_ball",
     "overworld_r32_tm09",
     "overworld_r32_shell_bell",
+    "route_32_miracle_seed",
+    "route_32_poison_barb",
 ]
 trainers = [
     "youngster_albert",
@@ -1293,6 +1359,11 @@ exits = [
 locs = ["fly_map_pallet"]
 encounters = "t01"
 header = "pallet"
+
+[ice_path_b2f_back]
+exits = []
+encounters = "d39r0103"
+header = "ice_path_b2f"
 
 [ice_path_b2f]
 exits = [
@@ -1991,6 +2062,9 @@ exits = [
     "azalea",
 ]
 header = "azalea_charcoal_kiln"
+locs = [
+    "charcoal_gift_azalea",
+]
 
 [mount_silver_cave_3f]
 exits = [
@@ -2062,7 +2136,7 @@ header = "pokemon_league_entrance_wifi_room"
 [azalea_ilex_forest_gatehouse]
 exits = [
     "azalea",
-    "ilex_forest",
+    "ilex_forest_south",
 ]
 header = "azalea_ilex_forest_gatehouse"
 
@@ -2080,6 +2154,9 @@ locs = [
     "hidden_t09_star_piece",
     "overworld_t09_magmarizer",
     "fly_map_cinnabar_island",
+]
+events = [
+    "event_cinnabar_island_blue_return_viridian",
 ]
 
 [goldenrod_game_corner]
@@ -2240,6 +2317,9 @@ exits = [
 ]
 header = "ecruteak_dance_theater"
 locs = ["ecruteak_dance_theater_hm03"]
+events = [
+    "ecruteak_dance_theater_defeat_team_rocket",
+]
 
 [lake_of_rage_fishing_guru_house]
 exits = [
@@ -2298,6 +2378,9 @@ exits = [
     "azalea",
 ]
 header = "azalea_kurt_house"
+locs = [
+    "kurt_fast_ball_gift",
+]
 
 [route_38]
 exits = [
@@ -2532,7 +2615,7 @@ trainers = [
 
 [route_34_ilex_forest_gatehouse]
 exits = [
-    "ilex_forest",
+    "ilex_forest_north",
     "route_34",
 ]
 header = "route_34_ilex_forest_gatehouse"
@@ -2679,10 +2762,10 @@ trainers = [
     "psychic_m_nelson",
 ]
 
-[ilex_forest]
+[ilex_forest_north]
 exits = [
-    "azalea_ilex_forest_gatehouse",
     "route_34_ilex_forest_gatehouse",
+    "ilex_forest_south",
 ]
 encounters = "d36r0101"
 header = "ilex_forest"
@@ -2694,12 +2777,22 @@ locs = [
     "hidden_d36r0101_tinymushroom",
     "hidden_d36r0101_repel",
     "hidden_d36r0101_big_mushroom",
-    "hidden_d36r0101_tinymushroom_2",
     "hidden_d36r0101_tinymushroom_3",
-    "overworld_d36r0101_revive",
     "overworld_d36r0101_x_attack",
     "overworld_d36r0101_antidote",
     "overworld_d36r0101_ether",
+]
+
+[ilex_forest_south]
+exits = [
+    "azalea_ilex_forest_gatehouse",
+    "ilex_forest_north",
+]
+encounters = "d36r0101"
+header = "ilex_forest"
+locs = [
+    "overworld_d36r0101_revive",
+    "hidden_d36r0101_tinymushroom_2",
     "ilex_forest_hm01",
 ]
 
@@ -2723,6 +2816,11 @@ exits = [
     "goldenrod_global_terminal_2f",
 ]
 header = "goldenrod_global_terminal_3f"
+
+[route_4_bottom]
+exits = []
+encounters = "r04"
+header = "route_4"
 
 [route_4]
 exits = [
@@ -2965,6 +3063,7 @@ locs = [
     "overworld_d37r0105_tm82",
     "overworld_d37r0105_max_ether",
     "overworld_d37r0105_ultra_ball",
+    "d37r0105_cardkey",
 ]
 trainers = [
     "team_rocket_grunt_13",
@@ -3759,6 +3858,7 @@ exits = [
     "rock_tunnel_1f",
     "route_10_pokecenter_1f",
     "route_10_power_plant_repaired",
+    "route_10_power_plant_broken",
     "route_10_south",
     "route_9",
 ]
@@ -4141,6 +4241,8 @@ locs = [
     "hidden_t07_pp_up",
     "overworld_t07_tm67",
     "fly_map_celadon",
+    "celadon_condominiums_3f_gb_sounds",
+    "celadon_condominiums_4f_spell_tag",
 ]
 
 [ss_aqua_1f_northwest_rooms]
@@ -4165,6 +4267,15 @@ exits = [
     "route_10",
 ]
 header = "route_10_power_plant_repaired"
+
+[route_10_power_plant_broken]
+exits = [
+    "route_10",
+]
+header = "route_10_power_plant_broken"
+locs = [
+    "power_plant_tm57",
+]
 
 [pokeathlon_dome_interior_b1f_friendship_room]
 exits = [
@@ -4531,6 +4642,9 @@ exits = [
     "cianwood",
 ]
 header = "cianwood_pharmacy"
+locs = [
+    "cianwood_pharmacy_secretpotion",
+]
 
 [route_47]
 exits = [
@@ -4971,3 +5085,7 @@ header = "virt"
 
 [virt_national_dex]
 header = "virt"
+
+[virt_pal_pad]
+header = "virt"
+locs = ["pokecenter_b1f_pal_pad"]

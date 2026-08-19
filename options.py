@@ -800,6 +800,13 @@ class RandomizePokegearCards(Toggle):
     """
     display_name = "Require Pokegear Cards"
 
+class RequireRestoredPowerForMagnetTrain(DefaultOnToggle):
+    """
+    In addition to the pass, the magnet train will require power to be restored
+    before it is operational (as it is in vanilla gameplay).
+    """
+    display_name = "Require Restored Power for Magnet Train"
+
 slot_data_options: Sequence[str] = [
     "goal",
     "version",
@@ -824,6 +831,7 @@ slot_data_options: Sequence[str] = [
     
     "remove_badge_requirements",
     "visibility_hm_logic",
+    "require_restored_power_for_magnet_train",
     "dowsing_machine_logic",
     "reusable_tms",
     "evo_items_shop_in_ap_helper",
@@ -870,6 +878,7 @@ class PokemonHgssOptions(PerGameCommonOptions):
     
     remove_badge_requirements: RemoveBadgeRequirement
     visibility_hm_logic: VisibilityHmLogic
+    require_restored_power_for_magnet_train: RequireRestoredPowerForMagnetTrain
     dowsing_machine_logic: DowsingMachineLogic
     reusable_tms: ReusableTms
     evo_items_shop_in_ap_helper: EvoItemsShopInAPHelper
@@ -979,6 +988,12 @@ OPTION_GROUPS = [
             RandomizeSoundsItems,
             RandomizeFlyItems,
             RandomizePokegearCards,
+        ],
+    ),
+    OptionGroup(
+        "Roadblocks",
+        [
+            RequireRestoredPowerForMagnetTrain
         ],
     ),
     OptionGroup(
