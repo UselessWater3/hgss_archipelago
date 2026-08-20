@@ -12,7 +12,7 @@ enc_types.fishing_night = "(old_rod | good_rod | super_rod) & nighttime"
 enc_types.hoenn = "radio & hoenn_sound"
 enc_types.sinnoh = "radio & sinnoh_sound"
 
-common.evo_item_shop = "event_goldenrod_store if !evo_items_shop_in_ap_helper"
+common.evo_item_shop = "event_goldenrod_store if !ap_items_shop_in_ap_helper"
 
 common.cut = "hm01 & cut_badge & use_cut if hm_reader_mode == option_req_mon else hm01 & cut_badge & (use_cut | hm_reader)"
 common.fly = "hm02 & fly_badge & use_fly if hm_reader_mode == option_req_mon else hm02 & fly_badge & (use_fly | hm_reader)"
@@ -22,7 +22,7 @@ common.whirlpool = "hm05 & whirlpool_badge & use_whirlpool if hm_reader_mode == 
 common.rock_smash = "hm06 & rock_smash_badge & use_rock_smash if hm_reader_mode == option_req_mon else hm06 & rock_smash_badge & (use_rock_smash | hm_reader)"
 common.waterfall = "hm07 & waterfall_badge & use_waterfall if hm_reader_mode == option_req_mon else hm07 & waterfall_badge & (use_waterfall | hm_reader)"
 common.rock_climb = "hm08 & rock_climb_badge & use_rock_climb if hm_reader_mode == option_req_mon else hm08 & rock_climb_badge & (use_rock_climb | hm_reader)"
-common.flash = "tm70 & use_flash if hm_reader_mode == option_req_mon else tm70 & (use_flash | hm_reader)"
+common.flash = "tm70 & use_flash if hm_reader_mode == option_req_mon & reusable_tms else tm70 & use_flash & evo_item_shop if hm_reader_mode == option_req_mon else tm70 & (use_flash | hm_reader) if reusable_tms else tm70 & (use_flash | hm_reader) & evo_item_shop"
 
 common.national_dex = "pokedex * 2"
 common.dowsingmachine_if_opt = "dowsing_mchn if dowsing_machine_logic"

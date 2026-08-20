@@ -24,6 +24,7 @@ locs = [
     "new_bark_elms_lab_1f_master_ball",
     "new_bark_elms_lab_1f_potions",
     "new_bark_elms_lab_1f_ss_ticket",
+    "new_bark_elms_lab_1f_everstone",
 ]
 
 [route_29]
@@ -38,6 +39,7 @@ header = "route_29"
 locs = [
     "overworld_r29_potion",
     "route_29_poke_balls",
+    "r29_tuscany_gift",
 ]
 
 [route_27]
@@ -222,7 +224,7 @@ header = "route_26_week_siblings_house"
 exits = [
     "route_22",
     "route_26",
-    "route_28",
+    "route_28_south",
     "victory_road_1f",
 ]
 header = "route_22_pokemon_league_reception_gate"
@@ -334,7 +336,12 @@ exits = [
 ]
 header = "tohjo_falls_hidden_room"
 
-[route_28]
+[route_28_north]
+exits = []
+encounters = "r28"
+header = "route_28"
+
+[route_28_south]
 exits = [
     "mount_silver",
     "route_22_pokemon_league_reception_gate",
@@ -346,6 +353,11 @@ locs = [
     "hidden_r28_rare_candy",
     "overworld_r28_tm35",
 ]
+
+[dark_cave_route_45_side_bottom]
+exits = []
+encounters = "d42r0101"
+header = "dark_cave_route_45_side"
 
 [dark_cave_route_45_side]
 exits = [
@@ -504,7 +516,7 @@ header = "blackthorn_pokecenter_1f"
 exits = [
     "mount_silver_cave_1f",
     "mount_silver_pokecenter_1f",
-    "route_28",
+    "route_28_south",
 ]
 encounters = "t31"
 header = "mount_silver"
@@ -549,7 +561,7 @@ locs = [
 
 [route_28_house]
 exits = [
-    "route_28",
+    "route_28_south",
 ]
 header = "route_28_house"
 
@@ -570,6 +582,7 @@ header = "viridian"
 locs = [
     "hidden_t02_nugget",
     "fly_map_viridian",
+    "t02_tm85",
 ]
 
 [blackthorn_gym]
@@ -613,7 +626,7 @@ exits = [
     "route_31",
     "route_31_violet_gatehouse",
     "route_32",
-    "route_36",
+    "route_36_north",
     "ruins_of_alph",
     "sprout_tower_1f",
     "violet_bellsprout_onyx_trade_house",
@@ -680,6 +693,16 @@ exits = [
     "mount_silver_pokecenter_b1f",
 ]
 header = "mount_silver_pokecenter_1f"
+
+[mount_silver_cave_1f_northeast]
+exits = []
+encounters = "d41r0101"
+header = "mount_silver_cave_1f"
+
+[mount_silver_cave_1f_center]
+exits = []
+encounters = "d41r0101"
+header = "mount_silver_cave_1f"
 
 [mount_silver_cave_1f]
 exits = [
@@ -783,7 +806,7 @@ trainers = [
 
 [violet_route_36_gatehouse]
 exits = [
-    "route_36",
+    "route_36_north",
     "violet",
 ]
 header = "violet_route_36_gatehouse"
@@ -893,7 +916,7 @@ header = "ruins_of_alph"
 exits = [
     "route_32",
     "route_32_ruins_of_alph_gatehouse",
-    "route_36",
+    "route_36_north",
     "route_36_ruins_of_alph_gatehouse",
     "ruins_of_alph_hall_entrance",
     "ruins_of_alph_hall_entrance_sinjoh_event",
@@ -965,7 +988,17 @@ exits = [
 ]
 header = "viridian_route_1_gatehouse"
 
-[route_36]
+[route_36_southeast]
+exits = []
+encounters = "r36"
+header = "route_36"
+
+[route_36_southwest]
+exits = []
+encounters = "r36"
+header = "route_36"
+
+[route_36_north]
 exits = [
     "route_35",
     "route_36_national_park_gatehouse",
@@ -981,6 +1014,9 @@ locs = [
     "hidden_r36_awakening",
     "overworld_r36_hyper_potion",
     "route_36_hm06",
+    "route_36_berry_pots",
+    "route_36_oran_berries",
+    "route_36_pecha_berries",
 ]
 trainers = [
     "psychic_m_mark",
@@ -1010,7 +1046,7 @@ header = "ruins_of_alph_northwest_entrance_first_room"
 [route_36_national_park_gatehouse]
 exits = [
     "national_park",
-    "route_36",
+    "route_36_north",
 ]
 header = "route_36_national_park_gatehouse"
 
@@ -1034,7 +1070,7 @@ locs = [
 [route_37]
 exits = [
     "ecruteak",
-    "route_36",
+    "route_36_north",
 ]
 encounters = "r37"
 header = "route_37"
@@ -1203,7 +1239,7 @@ exits = [
     "goldenrod",
     "route_35_goldenrod_gatehouse",
     "route_35_national_park_pokeathalon_gatehouse",
-    "route_36",
+    "route_36_north",
 ]
 encounters = "r35"
 header = "route_35"
@@ -1290,10 +1326,25 @@ trainers = [
     "sage_edmond",
 ]
 
+[mount_silver_cave_2f_northeast]
+exits = []
+encounters = "d41r0106"
+header = "mount_silver_cave_2f"
+
+[mount_silver_cave_2f_southeast]
+exits = []
+encounters = "d41r0106"
+header = "mount_silver_cave_2f"
+
+[mount_silver_cave_2f_south]
+exits = []
+encounters = "d41r0106"
+header = "mount_silver_cave_2f"
+
 [mount_silver_cave_2f]
 exits = [
     "mount_silver_cave_1f",
-    "mount_silver_cave_upper_mountainside",
+    "mount_silver_cave_upper_mountainside_north",
 ]
 encounters = "d41r0106"
 header = "mount_silver_cave_2f"
@@ -1319,7 +1370,7 @@ locs = [
 
 [route_36_ruins_of_alph_gatehouse]
 exits = [
-    "route_36",
+    "route_36_north",
     "ruins_of_alph",
 ]
 header = "route_36_ruins_of_alph_gatehouse"
@@ -1591,9 +1642,9 @@ header = "mahogany_pokecenter_b1f"
 
 [mount_mortar_1f_entrance]
 exits = [
-    "mount_mortar_1f_back",
+    "mount_mortar_1f_back_south",
     "mount_mortar_2f",
-    "mount_mortar_b1f",
+    "mount_mortar_b1f_south",
     "route_42",
 ]
 encounters = "d38r0101"
@@ -1605,7 +1656,17 @@ locs = [
     "overworld_d38r0101_revive",
 ]
 
-[mount_silver_cave_upper_mountainside]
+[mount_silver_cave_upper_mountainside_southeast]
+exits = []
+encounters = "d41r0102"
+header = "mount_silver_cave_upper_mountainside"
+
+[mount_silver_cave_upper_mountainside_southwest]
+exits = []
+encounters = "d41r0102"
+header = "mount_silver_cave_upper_mountainside"
+
+[mount_silver_cave_upper_mountainside_north]
 exits = [
     "mount_silver_cave_2f",
     "mount_silver_cave_3f",
@@ -1619,6 +1680,11 @@ locs = [
     "overworld_d41r0102_pure_incense",
     "overworld_d41r0102_dawn_stone",
 ]
+
+[lake_of_rage_low_tide]
+exits = []
+encounters = "t29"
+header = "lake_of_rage"
 
 [lake_of_rage]
 exits = [
@@ -1636,6 +1702,7 @@ locs = [
     "overworld_t29_red_flute",
     "overworld_t29_choice_specs",
     "fly_map_lake_of_rage",
+    "t29_red_scale",
 ]
 trainers = [
     "fisherman_andre",
@@ -1650,6 +1717,9 @@ exits = [
 ]
 encounters = "d24r0205"
 header = "ruins_of_alph_underground_hall"
+locs = [
+    "ruins_of_alph_underground_hall_unown_report",
+]
 
 [azalea]
 exits = [
@@ -1737,6 +1807,9 @@ exits = [
     "route_43",
 ]
 header = "route_43_gatehouse"
+locs = [
+    "r43r0201_tm36",
+]
 
 [pewter]
 exits = [
@@ -1840,6 +1913,7 @@ header = "sprout_tower_3f"
 locs = [
     "overworld_d15r0103_potion",
     "overworld_d15r0103_escape_rope",
+    "sprout_tower_tm70",
 ]
 trainers = [
     "sage_jin",
@@ -1900,7 +1974,7 @@ locs = [
 
 [mount_mortar_2f]
 exits = [
-    "mount_mortar_1f_back",
+    "mount_mortar_1f_back_south",
     "mount_mortar_1f_entrance",
 ]
 encounters = "d38r0103"
@@ -2069,7 +2143,7 @@ locs = [
 [mount_silver_cave_3f]
 exits = [
     "mount_silver_cave_summit",
-    "mount_silver_cave_upper_mountainside",
+    "mount_silver_cave_upper_mountainside_north",
 ]
 encounters = "d41r0107"
 header = "mount_silver_cave_3f"
@@ -2081,7 +2155,7 @@ locs = [
 exits = [
     "diglett_cave",
     "route_12",
-    "route_19_route_12_gatehouse",
+    "route_11_route_12_gatehouse",
     "vermilion",
 ]
 encounters = "r11"
@@ -2143,7 +2217,7 @@ header = "azalea_ilex_forest_gatehouse"
 [cinnabar_island]
 exits = [
     "cinnabar_island_pokecenter_1f",
-    "route_20",
+    "route_20_west",
     "route_21",
 ]
 encounters = "t09"
@@ -2177,6 +2251,9 @@ exits = [
     "goldenrod",
 ]
 header = "goldenrod_flower_shop"
+locs = [
+    "goldenrod_squirtbottle",
+]
 
 [pallet_town_reds_house_2f]
 exits = [
@@ -2213,12 +2290,30 @@ exits = [
     "goldenrod_tunnel_b2f",
 ]
 header = "goldenrod_tunnel_1f"
+locs = [
+    "underground_fashion_case",
+]
 
-[mount_mortar_1f_back]
+[mount_mortar_1f_back_north]
+exits = []
+encounters = "d38r0102"
+header = "mount_mortar_1f_back"
+
+[mount_mortar_1f_back_middle]
+exits = []
+encounters = "d38r0102"
+header = "mount_mortar_1f_back"
+
+[mount_mortar_1f_back_southeast]
+exits = []
+encounters = "d38r0102"
+header = "mount_mortar_1f_back"
+
+[mount_mortar_1f_back_south]
 exits = [
     "mount_mortar_1f_entrance",
     "mount_mortar_2f",
-    "mount_mortar_b1f",
+    "mount_mortar_b1f_south",
 ]
 encounters = "d38r0102"
 header = "mount_mortar_1f_back"
@@ -2403,9 +2498,14 @@ trainers = [
     "sailor_harry",
 ]
 
-[mount_mortar_b1f]
+[mount_mortar_b1f_north]
+exits = []
+encounters = "d38r0104"
+header = "mount_mortar_b1f"
+
+[mount_mortar_b1f_south]
 exits = [
-    "mount_mortar_1f_back",
+    "mount_mortar_1f_back_south",
     "mount_mortar_1f_entrance",
 ]
 encounters = "d38r0104"
@@ -2441,6 +2541,7 @@ locs = [
     "hidden_r34_t25_super_potion",
     "overworld_r34_nugget",
     "overworld_r34_tm63",
+    "route_34_power_herb",
 ]
 trainers = [
     "youngster_samuel",
@@ -2577,6 +2678,9 @@ trainers = [
     "team_rocket_grunt_6",
     "team_rocket_grunt_4",
 ]
+locs = [
+    "goldenrod_radio_tower_2f_blue_card",
+]
 
 [ecruteak_bell_tower_barrier_station_corridor]
 exits = [
@@ -2585,11 +2689,17 @@ exits = [
 ]
 header = "ecruteak_bell_tower_barrier_station_corridor"
 
-[route_20]
+[route_20_east]
+exits = []
+encounters = "w20"
+header = "route_20"
+
+
+[route_20_west]
 exits = [
     "cinnabar_island",
     "route_19",
-    "seafoam_islands_1f",
+    "seafoam_islands_1f_west",
 ]
 encounters = "w20"
 header = "route_20"
@@ -2644,6 +2754,7 @@ locs = [
     "overworld_t06_luck_incense",
     "overworld_t06_sticky_barb",
     "fly_map_vermilion",
+    "t06_pp_max",
 ]
 
 [pokemon_league_koga_room]
@@ -2679,7 +2790,7 @@ exits = [
     "route_11",
     "route_12_fishing_brother_house",
     "route_13",
-    "route_19_route_12_gatehouse",
+    "route_11_route_12_gatehouse",
 ]
 encounters = "r12"
 header = "route_12"
@@ -2711,6 +2822,7 @@ exits = [
     "mount_silver_cave_3f",
 ]
 header = "mount_silver_cave_summit"
+events = ["event_defeat_red"]
 
 [azalea_pokecenter_b1f]
 exits = [
@@ -2796,12 +2908,12 @@ locs = [
     "ilex_forest_hm01",
 ]
 
-[route_19_route_12_gatehouse]
+[route_11_route_12_gatehouse]
 exits = [
     "route_11",
     "route_12",
 ]
-header = "route_19_route_12_gatehouse"
+header = "route_11_route_12_gatehouse"
 
 [goldenrod_global_terminal_2f]
 exits = [
@@ -3043,6 +3155,10 @@ exits = [
     "vermilion",
 ]
 header = "vermilion_pokemon_fan_club"
+locs = [
+    "t06_rare_candy",
+    "t06_lost_item",
+]
 
 [vermilion_pokecenter_1f]
 exits = [
@@ -3085,16 +3201,22 @@ encounters = "d26r0103"
 header = "slowpoke_well_b2f"
 locs = [
     "overworld_d26r0103_tm18",
+    "slowpoke_well_kings_rock",
 ]
 
-[seafoam_islands_1f]
+[seafoam_islands_1f_east]
+exits = []
+encounters = "d11r0101"
+header = "seafoam_islands_1f_west"
+
+[seafoam_islands_1f_west]
 exits = [
-    "route_20",
+    "route_20_west",
     "seafoam_islands_b1f",
     "seafoam_islands_cinnabar_gym",
 ]
 encounters = "d11r0101"
-header = "seafoam_islands_1f"
+header = "seafoam_islands_1f_west"
 locs = [
     "hidden_d11r0101_escape_rope",
 ]
@@ -3118,11 +3240,16 @@ exits = [
 ]
 header = "pokeathlon_dome_interior_2f_entrance"
 
+[route_19_dead_end]
+exits = []
+encounters = "w19"
+header = "route_19"
+
 [route_19]
 exits = [
     "fuchsia",
     "route_19_fuchsia_gatehouse",
-    "route_20",
+    "route_20_west",
 ]
 encounters = "w19"
 header = "route_19"
@@ -3141,6 +3268,10 @@ trainers = [
     "swimmer_f_debbie",
 ]
 
+[goldenrod_radio_tower_3f_east]
+exits = []
+header = "goldenrod_radio_tower_3f"
+
 [goldenrod_radio_tower_3f]
 exits = [
     "goldenrod_radio_tower_2f",
@@ -3152,6 +3283,9 @@ trainers = [
     "team_rocket_grunt_8",
     "scientist_gs_garett",
     "team_rocket_grunt_9",
+]
+locs = [
+    "goldenrod_radio_tower_3f_tm11",
 ]
 
 [olivine]
@@ -3422,7 +3556,7 @@ header = "route_24"
 
 [seafoam_islands_b1f]
 exits = [
-    "seafoam_islands_1f",
+    "seafoam_islands_1f_west",
     "seafoam_islands_b2f",
 ]
 encounters = "d11r0102"
@@ -3461,6 +3595,10 @@ exits = [
 ]
 header = "pokemon_league_karen_room"
 
+[goldenrod_radio_tower_4f_east]
+exits = []
+header = "goldenrod_radio_tower_4f"
+
 [goldenrod_radio_tower_4f]
 exits = [
     "goldenrod_radio_tower_3f",
@@ -3469,6 +3607,7 @@ exits = [
 header = "goldenrod_radio_tower_4f"
 locs = [
     "overworld_d23r0104_ultra_ball",
+    "goldenrod_radio_tower_4f_brightpowder",
 ]
 trainers = [
     "scientist_gs_trenton",
@@ -3594,7 +3733,7 @@ header = "cerulean_bike_maniac_house"
 
 [seafoam_islands_cinnabar_gym]
 exits = [
-    "seafoam_islands_1f",
+    "seafoam_islands_1f_west",
 ]
 header = "seafoam_islands_cinnabar_gym"
 locs = [
@@ -3877,6 +4016,7 @@ header = "route_5_underground_path"
 locs = [
     "hidden_r05r0202_full_restore",
     "hidden_r05r0202_x_special",
+    "r05r0202_tm64",
 ]
 
 [route_5_underground_path_gate]
@@ -3966,6 +4106,10 @@ exits = [
 ]
 header = "saffron_pokecenter_1f"
 
+[goldenrod_radio_tower_5f_east]
+exits = []
+header = "goldenrod_radio_tower_5f"
+
 [goldenrod_radio_tower_5f]
 exits = [
     "goldenrod_radio_tower_4f",
@@ -3974,6 +4118,9 @@ exits = [
 header = "goldenrod_radio_tower_5f"
 trainers = [
     "executive_ariana_ariana",
+]
+locs = [
+    "goldenrod_radio_tower_5f_basement_key",
 ]
 
 [rock_tunnel_1f]
@@ -4398,7 +4545,17 @@ exits = [
 ]
 header = "saffron_magnet_train_station_2f_empty"
 
+[goldenrod_radio_tower_observation_deck]
+exits = [
+    "goldenrod_radio_tower_elevator",
+]
+header = "goldenrod_radio_tower_observation_deck"
+
 [goldenrod_radio_tower_elevator]
+exits = [
+    "goldenrod_radio_tower_observation_deck",
+    "goldenrod_radio_tower_5f_east",
+]
 header = "goldenrod_radio_tower_elevator"
 
 [saffron_copycat_house_2f]

@@ -114,10 +114,17 @@ class DowsingMachineLogic(DefaultOnToggle):
     display_name = "Logically Require Dowsing Machine for Hidden Items"
 
 class Goal(Choice):
-    """The goal of the randomizer. Currently, this only supports defeating the champion and entering the hall of fame."""
+    """
+    The goal of the randomizer.
+    
+    Options:
+    - clear_pokemon_league: defeat Lance in the Pokémon League.
+    - defeat_red: defeat Red at the Summit of Mount Silver.
+    """
     display_name = "Goal"
     default = 0
-    option_champion = 0
+    option_clear_pokemon_league = 0
+    option_defeat_red = 1
 
 class AddMasterRepel(Toggle):
     """
@@ -319,9 +326,12 @@ class AlwaysCatch(Toggle):
     """
     display_name = "Always Catch"
 
-class EvoItemsShopInAPHelper(DefaultOnToggle):
-    """Evolution items shop is available with the AP Helper. (Present in the 2nd floor of any Pokémon Center)"""
-    display_name = "Evolution Item Shop in AP Helper"
+class APItemsShopInAPHelper(DefaultOnToggle):
+    """
+    Non-reusable progression bag (named AP items shop) items shop is available with the AP Helper.
+    (the AP Helper is present in the basement floor of any Pokémon Center)
+    """
+    display_name = "AP Item Shop in AP Helper"
 
 class GuaranteedEscape(Toggle):
     """
@@ -456,6 +466,7 @@ class RandomizeMarillInIntro(DefaultOnToggle):
     # currently doesn't work
     visibility = Visibility(0)
 
+NUM_TRAINERS = sum(len(r.trainers) for r in regions.values())
 class TrainersanityCount(NamedRange):
     """
     Each trainer adds a location to the game. These locations are
@@ -464,7 +475,7 @@ class TrainersanityCount(NamedRange):
     display_name = "Trainersanity Count"
     default = 0
     range_start = 0
-    range_end = 457
+    range_end = NUM_TRAINERS
     special_range_names = {
         "none": default,
         "full": range_end,
@@ -834,7 +845,7 @@ slot_data_options: Sequence[str] = [
     "require_restored_power_for_magnet_train",
     "dowsing_machine_logic",
     "reusable_tms",
-    "evo_items_shop_in_ap_helper",
+    "ap_items_shop_in_ap_helper",
 
     "hm_reader",
     "hm_reader_mode",
@@ -881,7 +892,7 @@ class PokemonHgssOptions(PerGameCommonOptions):
     require_restored_power_for_magnet_train: RequireRestoredPowerForMagnetTrain
     dowsing_machine_logic: DowsingMachineLogic
     reusable_tms: ReusableTms
-    evo_items_shop_in_ap_helper: EvoItemsShopInAPHelper
+    ap_items_shop_in_ap_helper: APItemsShopInAPHelper
 
     randomize_fly_items: RandomizeFlyItems
     require_fly_items_for_flight: RequireFlyItemsForFlight
@@ -1025,7 +1036,7 @@ OPTION_GROUPS = [
             DexsanityWhitelist,
             DexsanityRequired,
             InLogicEvolutionMethods,
-            EvoItemsShopInAPHelper,
+            APItemsShopInAPHelper,
             ReusableTms,
             MoveRandomization
         ],

@@ -97,12 +97,7 @@ def set_rules(world: "PokemonHgssWorld") -> None:
     for mon in world.accessible_once_mons:
         world.set_rule(world.multiworld.get_location(f"mon_map_once_{mon}", world.player), rules.get_once_mon_rule(mon))
 
-    match world.options.goal.value:
-        case Goal.option_champion:
-            goal_event = "event_clear_pokemon_league"
-        case _:
-            raise ValueError(f"invalid goal {world.options.goal}")
-    world.set_completion_rule(ruledata.Has(goal_event))
+    world.set_completion_rule(ruledata.Has(f"event_{Goal.name_lookup[world.options.goal.value]}"))
 
 def verify_hm_accessibility(world: "PokemonHgssWorld") -> None:
     if world.options.hm_reader != AddHMReader.option_no and world.options.hm_reader_mode == HMReaderMode.option_noreq_mon or world.options.tmhm_compatibility != TMHMCompatibility.option_none:

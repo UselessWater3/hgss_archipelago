@@ -289,7 +289,7 @@ def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: Pok
 
     ap_bin += (world.options.dexsanity_mode.value if world.options.dexsanity.value > 0 else 0).to_bytes(1, 'little')
     add_opt_byte("reusable_tms")
-    add_opt_byte("evo_items_shop_in_ap_helper")
+    add_opt_byte("ap_items_shop_in_ap_helper")
     add_opt_byte("hm_reader_mode")
     add_opt_byte("require_fly_items_for_flight")
     add_opt_byte("require_restored_power_for_magnet_train")

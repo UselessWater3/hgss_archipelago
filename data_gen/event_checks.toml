@@ -1,0 +1,2 @@
+clear_pokemon_league = 0x964
+defeat_red = { id = 0x40FD, value = 1 }

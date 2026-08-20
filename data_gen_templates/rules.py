@@ -98,7 +98,7 @@ class Rules:
         #    reqd_items.append(items.items["nighttime"].label)
         #if pevo.item is not None:
         #    reqd_items.append(pevo.item)
-        #    if not ((options.reusable_tms if pevo.item.startswith("TM") else pevo.item in items.reusable_evo_items) or options.evo_items_shop_in_ap_helper):
+        #    if not ((options.reusable_tms if pevo.item.startswith("TM") else pevo.item in items.reusable_evo_items) or options.ap_items_shop_in_ap_helper):
         #        reqd_items.append("event_goldenrod_store")
         #elif pevo.other_species is not None:
         #    reqd_items.append(f"mon_{pevo.other_species}")

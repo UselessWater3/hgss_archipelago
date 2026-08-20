@@ -16,6 +16,7 @@ import Utils
 
 from .apnds import rom as ndsrom
 
+from .data.event_checks import event_checks
 from .data.locations import FlagCheck, LocationCheck, LocationTable, locations, VarCheck
 from .data.trainers import trainers, trainer_id_to_trainer_const_name, TrainerCheck
 from .data.species import regional_mons, species_id_to_const_name
@@ -35,7 +36,6 @@ AP_MAGIC = b' AP '
 @dataclass(frozen=True)
 class VersionData:
     savedata_ptr_offset: int
-    champion_flag: int
     vars_flags_offset_in_save: int
     vars_offset_in_vars_flags: int
     vars_flags_size: int
@@ -77,8 +77,6 @@ AP_VERSION_DATA: Mapping[int, VersionData] = {
 
         pokedex_offset_in_save=0x12D4,
         pokedex_size=832,
-
-        champion_flag=0x964,
     ),
 }
 
@@ -214,7 +212,7 @@ class PokemonHgssClient(BizHawkClient):
     patch_suffix = (".apheartgold", ".apsoulsilver")
     ap_struct_address: int = 0
     rom_version: int = 0
-    goal_check: LocationCheck | None
+    goal_check: LocationCheck
     local_checked_locations: Set[int]
     expected_header: bytes
 
@@ -236,7 +234,6 @@ class PokemonHgssClient(BizHawkClient):
         self.player_name = None
 
     def initialize_client(self):
-        self.goal_flag = None
         self.local_checked_locations = set()
         self.expected_header = AP_MAGIC * 3 + self.rom_version.to_bytes(length=4, byteorder='little')
         self.death_counter = None
@@ -357,8 +354,7 @@ class PokemonHgssClient(BizHawkClient):
             await self.get_struct_addr(ctx)
             return
 
-        if ctx.slot_data["goal"] == Goal.option_champion:
-            self.goal_flag = version_data.champion_flag
+        self.goal_check = event_checks[Goal.name_lookup[ctx.slot_data["goal"]]]
 
         if "remote_items" in ctx.slot_data and ctx.slot_data["remote_items"] != RemoteItems.option_off and not ctx.items_handling & 0b010: # type: ignore
             ctx.items_handling = 0b011
@@ -459,7 +455,7 @@ class PokemonHgssClient(BizHawkClient):
             pokedex = Pokedex(data=read_result[1])
 
             local_checked_locations = set()
-            game_clear = vars_flags.is_checked(self.goal_flag) # type: ignore
+            game_clear = vars_flags.is_checked(self.goal_check)
 
             for k in ctx.missing_locations:
                 if k >> 16 == LocationTable.DEX:

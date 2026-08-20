@@ -4638,3 +4638,194 @@ table = "base"
 type = "npc_gift"
 check = 0xD9
 
+[underground_fashion_case]
+original_item = "fashion_case"
+label = "Goldenrod Underground Entrance - Fashion Case from Lyra/Ethan"
+id = 97
+table = "base"
+type = "key_item"
+check = { id = 0x40F8, value = 1, op = "eq" }
+
+[route_36_berry_pots]
+original_item = "berry_pots"
+label = "Route 36 - Berry Pots from Lass"
+id = 98
+table = "base"
+type = "key_item"
+check = 0x1CF
+
+[route_36_oran_berries]
+original_item = "oran_berry_x3"
+label = "Route 36 - Oran Berries from Lass"
+id = 99
+table = "base"
+type = "npc_gift"
+check = 0x1CF
+
+[route_36_pecha_berries]
+original_item = "pecha_berry_x3"
+label = "Route 36 - Pecha Berries from Lass"
+id = 100
+table = "base"
+type = "npc_gift"
+check = 0x1CF
+
+[r43r0201_tm36]
+original_item = "tm36"
+label = "Route 43 - Gift from Mid-Route Guard"
+id = 101
+table = "base"
+type = "npc_gift"
+check = 0xCE
+
+[r05r0202_tm64]
+original_item = "tm64"
+label = "Underground Path - Gift From Man For RageCandyBar"
+id = 102
+table = "base"
+type = "npc_gift"
+check = 0x164
+
+[ruins_of_alph_underground_hall_unown_report]
+original_item = "unown_report"
+label = "Ruins of Alph Underground Hall - Unown Report from Super Nerd"
+id = 103
+table = "base"
+type = "key_item"
+check = 0x110
+
+[slowpoke_well_kings_rock]
+original_item = "kings_rock"
+label = "SLOWPOKE Well B2F - Gift from Super Nerd"
+id = 104
+table = "base"
+type = "npc_gift"
+check = 0x7A
+
+[sprout_tower_tm70]
+original_item = "tm70"
+label = "Sprout Tower 3F - Gift from Elder Li"
+id = 105
+table = "base"
+type = "hm"
+check = 0x76
+
+[t06_rare_candy]
+original_item = "rare_candy"
+label = "Vermilion City - Item from Fan Club Chairman"
+id = 106
+table = "base"
+type = "npc_gift"
+check = 0xF8
+
+[t06_pp_max]
+original_item = "pp_max"
+label = "Vermilion City - Item from Man East of Mart"
+id = 107
+table = "base"
+type = "npc_gift"
+check = 0xF7
+
+[t06_lost_item]
+original_item = "lost_item"
+label = "Vermilion City - Item from Fan Club Member"
+id = 108
+table = "base"
+type = "key_item"
+check = 0xB93
+
+[t02_tm85]
+original_item = "tm85"
+label = "Viridian City - Item from Sleeping Man"
+id = 109
+table = "base"
+type = "npc_gift"
+check = 0x12E
+
+[r29_tuscany_gift]
+original_item = "twistedspoon"
+label = "Route 29 - Gift From Tuscany"
+id = 110
+table = "base"
+type = "npc_gift"
+check = 0xD8
+
+[t29_red_scale]
+original_item = "red_scale"
+label = "Lake of Rage - Gyarados' Red Scale"
+id = 111
+table = "base"
+type = "key_item"
+check = 0xC9
+
+[new_bark_elms_lab_1f_everstone]
+original_item = "everstone"
+label = "Elm's Lab - Gift from Elm after Togepi Egg Hatches"
+id = 112
+table = "base"
+type = "npc_gift"
+check = 0x11A
+
+[goldenrod_squirtbottle]
+original_item = "squirtbottle"
+label = "Goldenrod City Flower Shop - Item from Lady after Whitney"
+id = 113
+table = "base"
+type = "key_item"
+check = 0xB96
+
+[route_34_power_herb]
+original_item = "power_herb"
+label = "Route 34 - Kate's Reward"
+id = 114
+table = "base"
+type = "npc_gift"
+check = { id = 0x4097, value = 3 }
+
+[goldenrod_radio_tower_5f_basement_key]
+original_item = "basement_key"
+label = "Goldenrod Radio Tower 5F - Basement Key from Disguised Rocket Executive"
+id = 115
+table = "base"
+type = "key_item"
+check = 0xB97
+
+[goldenrod_radio_tower_2f_blue_card]
+original_item = "blue_card"
+label = "Goldenrod Radio Tower 2F - Gift from Lady at Desk"
+id = 116
+table = "base"
+type = "key_item"
+check = 0xB98
+
+[goldenrod_radio_tower_3f_tm11]
+original_item = "tm11"
+label = "Goldenrod Radio Tower 3F - Gift from Lady"
+id = 117
+table = "base"
+type = "npc_gift"
+check = 0x8F
+
+[goldenrod_radio_tower_4f_brightpowder]
+original_item = "brightpowder"
+label = "Goldenrod Radio Tower 4F - Gift from Mary"
+id = 118
+table = "base"
+type = "npc_gift"
+check = 0x91
+
+[cerulean_machine_part]
+original_item = "machine_part"
+label = "Cerulean City Gym - Item after Rocket Grunt"
+id = 119
+table = "base"
+type = "key_item"
+check = { id = 0x4087, value = 4 }
+
+[route_25_nugget]
+original_item = "nugget"
+label = "Route 25 - Item from Ace Trainer Kevin"
+id = 120
+table = "base"
+type = "npc_gift"
+check = 0x122

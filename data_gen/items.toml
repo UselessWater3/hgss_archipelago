@@ -363,6 +363,16 @@ id = 50
 group = "medicine"
 clas = "bagitem"
 data_id = 50
+classification = "useful"
+
+[rare_candy_x15]
+label = "Rare Candy x15"
+id = 50
+group = "medicine"
+clas = "bagitem"
+data_id = 50
+count = 15
+classification = "useful"
 
 [pp_up]
 label = "PP Up"
@@ -917,6 +927,14 @@ group = "berries"
 clas = "bagitem"
 data_id = 129
 
+[pecha_berry_x3]
+label = "Pecha Berry x3"
+id = 151
+group = "berries"
+clas = "bagitem"
+data_id = 129
+count = 3
+
 [rawst_berry]
 label = "Rawst Berry"
 id = 152
@@ -942,8 +960,16 @@ data_id = 132
 label = "Oran Berry"
 id = 155
 group = "berries"
+clas = "specialbagitem"
+data_id = 133
+
+[oran_berry_x3]
+label = "Oran Berry x3"
+id = 155
+group = "berries"
 clas = "bagitem"
 data_id = 133
+count = 3
 
 [persim_berry]
 label = "Persim Berry"
@@ -3401,6 +3427,7 @@ id = 504
 group = "key_items"
 clas = "bagitem"
 data_id = 481
+classification = "progression"
 
 [data_card_01]
 label = "Data Card 01"
