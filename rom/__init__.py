@@ -283,7 +283,7 @@ def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: Pok
 
     hm_accum = 0
     for i, v in enumerate(list(Hm)[:-1]):
-        if not world.options.requires_badge(v):
+        if not world.options.requires_badge(v.name):
             hm_accum |= 1 << i
     ap_bin += hm_accum.to_bytes(length=1, byteorder='little')
 
@@ -293,6 +293,7 @@ def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: Pok
     add_opt_byte("hm_reader_mode")
     add_opt_byte("require_fly_items_for_flight")
     add_opt_byte("require_restored_power_for_magnet_train")
+    add_opt_byte("blue_return_viridian_badge_requirement")
 
     # start of save config
     if len(ap_bin) % 2 == 1:

@@ -4829,3 +4829,420 @@ id = 120
 table = "base"
 type = "npc_gift"
 check = 0x122
+
+[t29_wesley_gift]
+original_item = "black_belt"
+label = "Lake of Rage - Gift from Wesley"
+id = 121
+table = "base"
+type = "npc_gift"
+check = 0xD5
+
+[lake_of_rage_tm10]
+original_item = "tm10"
+label = "Lake of Rage - Item from Meditating Man"
+id = 122
+table = "base"
+type ="npc_gift"
+check = 0xC7
+
+[route_27_tm37]
+original_item = "tm37"
+label = "Route 27 - Item from Old Lady in the House"
+id = 123
+table = "base"
+type = "npc_gift"
+check = 0xE9
+
+[r28r0101_tm47]
+original_item = "tm47"
+label = "Route 28 - Bribe From Celebrity"
+id = 124
+table = "base"
+type = "npc_gift"
+check = 0x137
+
+[route_32_tm05]
+original_item = "tm05"
+label = "Route 32 - Item from Man at Northern Hill"
+id = 125
+table = "base"
+type = "npc_gift"
+check = 0x6E
+
+[r34r0201_tm12]
+original_item = "tm12"
+label = "Route 34 - Gift From Woman With Butterfree"
+id = 126
+table = "base"
+type = "npc_gift"
+check = 0x83
+
+[r35r0101_kenya_gift]
+original_item = "hp_up"
+label = "Route 35 - Gift From Guard After Delivering Kenya"
+id = 127
+table = "base"
+type = "npc_gift"
+check = { id = 0x4114, value = 4 }
+
+[r36_arthur_gift]
+original_item = "hard_stone"
+label = "Route 36 - Gift From Arthur"
+id = 128
+table = "base"
+type = "npc_gift"
+check = 0xB1
+
+[r37_sunny_gift]
+original_item = "magnet"
+label = "Route 37 - Gift from Sunny"
+id = 129
+table = "base"
+type = "npc_gift"
+check = 0xA5
+
+[route_39_seal_case]
+original_item = "seal_case"
+label = "Route 39 - Gift from Farm Girl in Stable"
+id = 130
+table = "base"
+type = "key_item"
+check = 0x100
+
+[route_39_tm83]
+original_item = "tm83"
+label = "Route 39 - Gift from Woman in House"
+id = 131
+table = "base"
+type = "npc_gift"
+check = 0xAB
+
+[w40_monica_gift]
+original_item = "sharp_beak"
+label = "Route 40 - Gift From Monica"
+id = 132
+table = "base"
+type = "npc_gift"
+check = 0xD7
+
+[r05r0401_cleanse_tag]
+original_item = "cleanse_tag"
+label = "Route 5 - Gift From Superstitious Woman in House"
+id = 133
+table = "base"
+type = "npc_gift"
+check = 0x131
+
+[lake_of_rage_ether_fishing_guru_gift]
+original_item = "ether"
+label = "Lake of Rage - Item from Fishing Guru"
+id = 134
+table = "base"
+type = "npc_gift"
+check = 0x139
+
+[pewter_rainbow_wing]
+original_item = "rainbow_wing"
+label = "Pewter City - Item from Old Man (SoulSilver)"
+id = 135
+table = "base"
+type = "key_item_ss"
+check = 0xB99
+
+[pewter_silver_wing]
+original_item = "silver_wing"
+label = "Pewter City - Item from Old Man (HeartGold)"
+id = 136
+table = "base"
+type = "key_item_hg"
+check = 0xB99
+
+[goldenrod_radio_tower_observation_deck_rainbow_wing]
+original_item = "rainbow_wing"
+label = "Goldenrod Radio Tower Observatory Deck - Item from Directory (HeartGold)"
+id = 137
+table = "base"
+type = "key_item_hg"
+check = { id = 0x4077, value = 5 }
+
+[goldenrod_radio_tower_observation_deck_silver_wing]
+original_item = "silver_wing"
+label = "Goldenrod Radio Tower Observatory Deck - Item from Directory (SoulSilver)"
+id = 138
+table = "base"
+type = "key_item_ss"
+check = { id = 0x4077, value = 5 }
+
+[ecruteak_dance_theater_clear_bell]
+original_item = "clear_bell"
+label = "Ecruteak Dance Theater - Reward after Defeating the Kimono Girls (HeartGold)"
+id = 139
+table = "base"
+type = "key_item_hg"
+check = { id = 0x410C, value = 6 }
+
+[ecruteak_dance_theater_tidal_bell]
+original_item = "tidal_bell"
+label = "Ecruteak Dance Theater - Reward after Defeating the Kimono Girls (SoulSilver)"
+id = 140
+table = "base"
+type = "key_item_ss"
+check = { id = 0x410C, value = 6 }
+
+[mount_moon_square_clefairy_event_moon_stone]
+original_item = "moon_stone"
+label = "Mt. Moon Square - Item after Clefairy Event"
+id = 141
+table = "base"
+type = "overworld"
+check = 0xB9A
+
+[lake_of_rage_low_tide_full_heal]
+original_item = "full_heal"
+label = "Lake of Rage - Low Tide Item West of Old Man"
+id = 142
+table = "base"
+type = "overworld"
+check = 0x146
+
+[lake_of_rage_low_tide_full_restore]
+original_item = "full_restore"
+label = "Lake of Rage - Low Tide Item in Northeast of Tree Maze"
+id = 143
+table = "base"
+type = "overworld"
+check = 0x148
+
+[lake_of_rage_low_tide_max_revive]
+original_item = "max_revive"
+label = "Lake of Rage - Low Tide Item in West of Tree Maze"
+id = 144
+table = "base"
+type = "overworld"
+check = 0x147
+
+[ss_aqua_metal_coat]
+original_item = "metal_coat"
+label = "S.S. Aqua - Metal Coat from Grandpa"
+id = 145
+table = "base"
+type = "npc_gift"
+check = 0xB9C
+
+[ss_aqua_nugget]
+original_item = "nugget"
+label = "S.S. Aqua - Nugget from Captain"
+id = 146
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 17 }
+
+[ss_aqua_plate_flame]
+original_item = "flame_plate"
+label = "S.S. Aqua - Flame Plate from Captain"
+id = 147
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 1 }
+
+[ss_aqua_plate_splash]
+original_item = "splash_plate"
+label = "S.S. Aqua - Splash Plate from Captain"
+id = 148
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 2 }
+
+[ss_aqua_plate_zap]
+original_item = "zap_plate"
+label = "S.S. Aqua - Zap Plate from Captain"
+id = 149
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 3 }
+
+[ss_aqua_plate_meadow]
+original_item = "meadow_plate"
+label = "S.S. Aqua - Meadow Plate from Captain"
+id = 150
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 4 }
+
+[ss_aqua_plate_icicle]
+original_item = "icicle_plate"
+label = "S.S. Aqua - Icicle Plate from Captain"
+id = 151
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 5 }
+
+[ss_aqua_plate_fist]
+original_item = "fist_plate"
+label = "S.S. Aqua - Fist Plate from Captain"
+id = 152
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 6 }
+
+[ss_aqua_plate_toxic]
+original_item = "toxic_plate"
+label = "S.S. Aqua - Toxic Plate from Captain"
+id = 153
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 7 }
+
+[ss_aqua_plate_earth]
+original_item = "earth_plate"
+label = "S.S. Aqua - Earth Plate from Captain"
+id = 154
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 8 }
+
+[ss_aqua_plate_sky]
+original_item = "sky_plate"
+label = "S.S. Aqua - Sky Plate from Captain"
+id = 155
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 9 }
+
+[ss_aqua_plate_mind]
+original_item = "mind_plate"
+label = "S.S. Aqua - Mind Plate from Captain"
+id = 156
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 10 }
+
+[ss_aqua_plate_insect]
+original_item = "insect_plate"
+label = "S.S. Aqua - Insect Plate from Captain"
+id = 157
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 11 }
+
+[ss_aqua_plate_stone]
+original_item = "stone_plate"
+label = "S.S. Aqua - Stone Plate from Captain"
+id = 158
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 12 }
+
+[ss_aqua_plate_spooky]
+original_item = "spooky_plate"
+label = "S.S. Aqua - Spooky Plate from Captain"
+id = 159
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 13 }
+
+[ss_aqua_plate_draco]
+original_item = "draco_plate"
+label = "S.S. Aqua - Draco Plate from Captain"
+id = 160
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 14 }
+
+[ss_aqua_plate_dread]
+original_item = "dread_plate"
+label = "S.S. Aqua - Dread Plate from Captain"
+id = 161
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 15 }
+
+[ss_aqua_plate_iron]
+original_item = "iron_plate"
+label = "S.S. Aqua - Iron Plate from Captain"
+id = 162
+table = "base"
+type = "npc_gift"
+check = { id = 0x4101, value = 16 }
+
+[t30_santos_gift]
+original_item = "soft_sand"
+label = "Blackthorn City - Gift From Santos"
+id = 163
+table = "base"
+type = "npc_gift"
+check = 0xD4
+
+[route_25_sea_cottage_everstone]
+original_item = "everstone"
+label = "Route 25 Cottage - Item from Bill's Grandfather for Showing Jigglypuff (HeartGold) or Lickitung (SoulSilver)"
+id = 164
+table = "base"
+type = "npc_gift"
+check = { id = 0x412D, value = 1 }
+
+[route_25_sea_cottage_leaf_stone]
+original_item = "leaf_stone"
+label = "Route 25 Cottage - Item from Bill's Grandfather for Showing Oddish"
+id = 165
+table = "base"
+type = "npc_gift"
+check = { id = 0x412D, value = 2 }
+
+[route_25_sea_cottage_water_stone]
+original_item = "water_stone"
+label = "Route 25 Cottage - Item from Bill's Grandfather for Showing Marill (HeartGold) or Staryu (SoulSilver)"
+id = 166
+table = "base"
+type = "npc_gift"
+check = { id = 0x412D, value = 3 }
+
+[route_25_sea_cottage_fire_stone]
+original_item = "fire_stone"
+label = "Route 25 Cottage - Item from Bill's Grandfather for Showing Growlithe (HeartGold) or Vulpix (SoulSilver)"
+id = 167
+table = "base"
+type = "npc_gift"
+check = { id = 0x412D, value = 4 }
+
+[route_25_sea_cottage_thunderstone]
+original_item = "thunderstone"
+label = "Route 25 Cottage - Item from Bill's Grandfather for Showing Pichu"
+id = 168
+table = "base"
+type = "npc_gift"
+check = { id = 0x412D, value = 5 }
+
+[route_14_lucky_punch]
+original_item = "lucky_punch"
+label = "Route 14 - Item from Woman in Grass Patch after Showing Chansey"
+id = 169
+table = "base"
+type = "npc_gift"
+check = 0x15C
+
+[route_2_house_nugget]
+original_item = "nugget"
+label = "Route 2 - Nugget from Man in House"
+id = 170
+table = "base"
+type = "npc_gift"
+check = 0x134
+
+[saffron_silph_co_hq_upgrade]
+original_item = "upgrade"
+label = "Saffron Silph Co. HQ - Item from Security Guard"
+id = 171
+table = "base"
+type = "npc_gift"
+check = 0x130
+
+[saffron_mr_psychic_house_tm29]
+original_item = "tm29"
+label = "Saffron Mr Psychic's House - Item from Mr Psychic"
+id = 172
+table = "base"
+type = "npc_gift"
+check = 0x12F
+

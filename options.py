@@ -818,6 +818,15 @@ class RequireRestoredPowerForMagnetTrain(DefaultOnToggle):
     """
     display_name = "Require Restored Power for Magnet Train"
 
+class BlueReturnViridianBadgeRequirement(Range):
+    """
+    The number of Kanto League Badges required for Blue to agree to return to the Viridian City Gym.
+    """
+    display_name = "Badges for Blue Viridian"
+    range_start = 0
+    range_end = 7
+    default = 7
+
 slot_data_options: Sequence[str] = [
     "goal",
     "version",
@@ -842,10 +851,12 @@ slot_data_options: Sequence[str] = [
     
     "remove_badge_requirements",
     "visibility_hm_logic",
-    "require_restored_power_for_magnet_train",
     "dowsing_machine_logic",
     "reusable_tms",
     "ap_items_shop_in_ap_helper",
+
+    "require_restored_power_for_magnet_train",
+    "blue_return_viridian_badge_requirement",
 
     "hm_reader",
     "hm_reader_mode",
@@ -889,10 +900,12 @@ class PokemonHgssOptions(PerGameCommonOptions):
     
     remove_badge_requirements: RemoveBadgeRequirement
     visibility_hm_logic: VisibilityHmLogic
-    require_restored_power_for_magnet_train: RequireRestoredPowerForMagnetTrain
     dowsing_machine_logic: DowsingMachineLogic
     reusable_tms: ReusableTms
     ap_items_shop_in_ap_helper: APItemsShopInAPHelper
+
+    require_restored_power_for_magnet_train: RequireRestoredPowerForMagnetTrain
+    blue_return_viridian_badge_requirement: BlueReturnViridianBadgeRequirement
 
     randomize_fly_items: RandomizeFlyItems
     require_fly_items_for_flight: RequireFlyItemsForFlight
@@ -1004,7 +1017,8 @@ OPTION_GROUPS = [
     OptionGroup(
         "Roadblocks",
         [
-            RequireRestoredPowerForMagnetTrain
+            RequireRestoredPowerForMagnetTrain,
+            BlueReturnViridianBadgeRequirement,
         ],
     ),
     OptionGroup(

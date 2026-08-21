@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from typing import Dict, TYPE_CHECKING
 
 from .data import items as itemdata, locations as locationdata, regions as regiondata, trainers as trainerdata, species as speciesdata
-from .options import PokemonHgssOptions, RemoteItems
+from .options import PokemonHgssOptions, RemoteItems, Version
 
 if TYPE_CHECKING:
     from . import PokemonHgssWorld
@@ -28,6 +28,14 @@ location_types: Mapping[str, LocationType] = {
     "hm": LocationType(is_enabled = lambda opts : opts.hms.value == 1),
     "badge": LocationType(is_enabled = lambda opts : opts.badges.value == 1),
     "key_item": LocationType(is_enabled = lambda opts : opts.key_items.value == 1),
+    "key_item_hg": LocationType(
+        is_enabled = lambda opts : opts.key_items.value == 1 and opts.version == Version.option_heartgold,
+        should_be_added = lambda opts : opts.version == Version.option_heartgold,
+    ),
+    "key_item_ss": LocationType(
+        is_enabled = lambda opts : opts.key_items.value == 1 and opts.version == Version.option_soulsilver,
+        should_be_added = lambda opts : opts.version == Version.option_soulsilver,
+    ),
     "npc_gift": LocationType(is_enabled = lambda opts : opts.npc_gifts.value == 1),
     "rod": LocationType(is_enabled = lambda opts : opts.rods.value == 1),
     "running_shoes": LocationType(is_enabled = lambda opts : opts.running_shoes.value == 1),

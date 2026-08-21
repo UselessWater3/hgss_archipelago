@@ -193,6 +193,9 @@ exits = [
     "route_27",
 ]
 header = "route_27_house"
+locs = [
+    "route_27_tm37",
+]
 
 [cherrygrove_southeast_house]
 exits = [
@@ -399,7 +402,10 @@ exits = [
 ]
 encounters = "t30"
 header = "blackthorn"
-locs = ["fly_map_blackthorn"]
+locs = [
+    "fly_map_blackthorn",
+    "t30_santos_gift",
+]
 
 [route_30_mr_pokemon_house]
 exits = [
@@ -564,6 +570,9 @@ exits = [
     "route_28_south",
 ]
 header = "route_28_house"
+locs = [
+    "r28r0101_tm47",
+]
 
 [viridian]
 exits = [
@@ -969,6 +978,7 @@ locs = [
     "overworld_r32_shell_bell",
     "route_32_miracle_seed",
     "route_32_poison_barb",
+    "route_32_tm05",
 ]
 trainers = [
     "youngster_albert",
@@ -1017,6 +1027,7 @@ locs = [
     "route_36_berry_pots",
     "route_36_oran_berries",
     "route_36_pecha_berries",
+    "r36_arthur_gift",
 ]
 trainers = [
     "psychic_m_mark",
@@ -1703,6 +1714,10 @@ locs = [
     "overworld_t29_choice_specs",
     "fly_map_lake_of_rage",
     "t29_red_scale",
+    "t29_wesley_gift",
+    "lake_of_rage_low_tide_full_heal",
+    "lake_of_rage_low_tide_full_restore",
+    "lake_of_rage_low_tide_max_revive",
 ]
 trainers = [
     "fisherman_andre",
@@ -1801,6 +1816,9 @@ exits = [
     "route_2_east",
 ]
 header = "route_2_house"
+locs = [
+    "route_2_house_nugget",
+]
 
 [route_43_gatehouse]
 exits = [
@@ -1829,6 +1847,8 @@ locs = [
     "hidden_t03_max_revive",
     "overworld_t03_wise_glasses",
     "fly_map_pewter",
+    "pewter_rainbow_wing",
+    "pewter_silver_wing",
 ]
 
 [route_21]
@@ -1864,6 +1884,9 @@ exits = [
     "route_35",
 ]
 header = "route_35_goldenrod_gatehouse"
+locs = [
+    "r35r0101_kenya_gift",
+]
 
 [route_42_ecruteak_gatehouse]
 exits = [
@@ -2176,6 +2199,9 @@ exits = [
     "lake_of_rage",
 ]
 header = "lake_of_rage_hidden_power_house"
+locs = [
+    "lake_of_rage_tm10",
+]
 
 [azalea_gym_entrance]
 exits = [
@@ -2411,7 +2437,11 @@ exits = [
     "ecruteak",
 ]
 header = "ecruteak_dance_theater"
-locs = ["ecruteak_dance_theater_hm03"]
+locs = [
+    "ecruteak_dance_theater_hm03",
+    "ecruteak_dance_theater_clear_bell",
+    "ecruteak_dance_theater_tidal_bell",
+]
 events = [
     "ecruteak_dance_theater_defeat_team_rocket",
 ]
@@ -2421,6 +2451,9 @@ exits = [
     "lake_of_rage",
 ]
 header = "lake_of_rage_fishing_guru_house"
+locs = [
+    "lake_of_rage_ether_fishing_guru_gift",
+]
 
 [pewter_southwest_house]
 exits = [
@@ -2729,6 +2762,9 @@ exits = [
     "route_34",
 ]
 header = "route_34_ilex_forest_gatehouse"
+locs = [
+    "r34r0201_tm12",
+]
 
 [vermilion]
 exits = [
@@ -3024,6 +3060,9 @@ exits = [
     "route_39_moomoo_farm_stable",
 ]
 header = "route_39_moomoo_farm_house"
+locs = [
+    "route_39_tm83",
+]
 
 [pokemon_league_bruno_room]
 exits = [
@@ -3058,6 +3097,9 @@ exits = [
     "route_39_moomoo_farm_house",
 ]
 header = "route_39_moomoo_farm_stable"
+locs = [
+    "route_39_seal_case",
+]
 
 [pokeathlon_dome_interior_b1f_solidarity_room]
 exits = [
@@ -3245,6 +3287,11 @@ exits = []
 encounters = "w19"
 header = "route_19"
 
+[route_19_from_fuchia]
+exits = []
+encounters = "w19"
+header = "route_19"
+
 [route_19]
 exits = [
     "fuchsia",
@@ -3326,6 +3373,7 @@ exits = [
 encounters = "d02r0104"
 header = "mount_moon_square_clefairy_event"
 locs = [
+    "mount_moon_square_clefairy_event_moon_stone",
 ]
 
 [olivine_northwest_house]
@@ -3452,6 +3500,7 @@ header = "route_40"
 locs = [
     "hidden_w40_hyper_potion",
     "overworld_w40_tm88",
+    "w40_monica_gift",
 ]
 trainers = [
     "swimmer_m_simon",
@@ -3581,12 +3630,17 @@ locs = [
 exits = [
     "mount_moon_square_entrance",
     "mount_moon_square_shop",
+    "mount_moon_square_virt",
 ]
 encounters = "d02r0103"
 header = "mount_moon_square"
+
+[mount_moon_square_virt]
+exits = []
 locs = [
     "hidden_d02r0103_max_revive",
 ]
+header = "mount_moon_square"
 
 [pokemon_league_karen_room]
 exits = [
@@ -3960,6 +4014,9 @@ exits = [
     "saffron_silph_co_elevator",
 ]
 header = "saffron_silph_co_hq"
+locs = [
+    "saffron_silph_co_hq_upgrade",
+]
 
 [route_15_fuchsia_gatehouse]
 exits = [
@@ -4038,6 +4095,9 @@ exits = [
     "route_5",
 ]
 header = "route_5_house"
+locs = [
+    "r05r0401_cleanse_tag",
+]
 
 [olivine_lighthouse_2f]
 exits = [
@@ -4176,6 +4236,9 @@ exits = [
     "saffron",
 ]
 header = "saffron_mr_psychic_house"
+locs = [
+    "saffron_mr_psychic_house_tm29",
+]
 
 [route_18]
 exits = [
@@ -4339,6 +4402,13 @@ exits = [
     "route_25",
 ]
 header = "route_25_sea_cottage"
+locs = [
+    "route_25_sea_cottage_everstone",
+    "route_25_sea_cottage_leaf_stone",
+    "route_25_sea_cottage_water_stone",
+    "route_25_sea_cottage_fire_stone",
+    "route_25_sea_cottage_thunderstone",
+]
 
 [ss_aqua_b1f]
 exits = [
@@ -4467,6 +4537,25 @@ exits = [
     "ss_aqua_1f",
 ]
 header = "ss_aqua_captain_room"
+locs = [
+    "ss_aqua_nugget",
+    "ss_aqua_plate_flame",
+    "ss_aqua_plate_splash",
+    "ss_aqua_plate_zap",
+    "ss_aqua_plate_meadow",
+    "ss_aqua_plate_icicle",
+    "ss_aqua_plate_fist",
+    "ss_aqua_plate_toxic",
+    "ss_aqua_plate_earth",
+    "ss_aqua_plate_sky",
+    "ss_aqua_plate_mind",
+    "ss_aqua_plate_insect",
+    "ss_aqua_plate_stone",
+    "ss_aqua_plate_spooky",
+    "ss_aqua_plate_draco",
+    "ss_aqua_plate_dread",
+    "ss_aqua_plate_iron",
+]
 
 [cianwood]
 exits = [
@@ -4550,6 +4639,10 @@ exits = [
     "goldenrod_radio_tower_elevator",
 ]
 header = "goldenrod_radio_tower_observation_deck"
+locs = [
+    "goldenrod_radio_tower_observation_deck_rainbow_wing",
+    "goldenrod_radio_tower_observation_deck_silver_wing",
+]
 
 [goldenrod_radio_tower_elevator]
 exits = [

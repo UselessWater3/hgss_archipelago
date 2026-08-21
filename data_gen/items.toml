@@ -3209,8 +3209,9 @@ data_id = 450
 label = "Clear Bell"
 id = 474
 group = "key_items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 451
+classification = "progression"
 
 [card_key]
 label = "Card Key"
@@ -3271,15 +3272,17 @@ classification = "progression"
 label = "Silver Wing"
 id = 482
 group = "key_items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 459
+classification = "progression"
 
 [rainbow_wing]
 label = "Rainbow Wing"
 id = 483
 group = "key_items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 460
+classification = "progression"
 
 [mystery_egg]
 label = "Mystery Egg"
@@ -3418,8 +3421,9 @@ data_id = 479
 label = "Tidal Bell"
 id = 503
 group = "key_items"
-clas = "bagitem"
+clas = "specialbagitem"
 data_id = 480
+classification = "progression"
 
 [ragecandybar]
 label = "RageCandyBar"
