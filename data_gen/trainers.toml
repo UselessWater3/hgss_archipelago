@@ -188,7 +188,7 @@ party = [
 
 [poke_maniac_larry]
 id = 23
-label = "Union Cave - Poké Maniac Larry"
+label = "Union Cave - Poke Maniac Larry"
 party = [
     { species = "slowpoke", level = 11 },
 ]
@@ -358,14 +358,14 @@ party = [
 
 [pokefan_m_derek]
 id = 44
-label = "Route 39 - Pokéfan Derek"
+label = "Route 39 - Pokefan Derek"
 party = [
     { species = "pikachu", level = 18, num_moves = 4 },
 ]
 
 [pokefan_ruth]
 id = 45
-label = "Route 39 - Pokéfan Ruth"
+label = "Route 39 - Pokefan Ruth"
 party = [
     { species = "pikachu", level = 17, num_moves = 4 },
 ]
@@ -1053,7 +1053,7 @@ party = [
 
 [poke_maniac_shane]
 id = 129
-label = "Route 42 - Poké Maniac Shane"
+label = "Route 42 - Poke Maniac Shane"
 party = [
     { species = "nidorina", level = 17 },
     { species = "nidorino", level = 17 },
@@ -1061,14 +1061,14 @@ party = [
 
 [poke_maniac_beckett]
 id = 130
-label = "Route 43 - Poké Maniac Beckett"
+label = "Route 43 - Poke Maniac Beckett"
 party = [
     { species = "slowbro", level = 20 },
 ]
 
 [poke_maniac_brent]
 id = 131
-label = "Route 43 - Poké Maniac Brent"
+label = "Route 43 - Poke Maniac Brent"
 party = [
     { species = "nidorina", level = 20 },
     { species = "nidorino", level = 24 },
@@ -1076,14 +1076,14 @@ party = [
 
 [poke_maniac_ron]
 id = 132
-label = "Route 43 - Poké Maniac Ron"
+label = "Route 43 - Poke Maniac Ron"
 party = [
     { species = "nidoking", level = 20 },
 ]
 
 [poke_maniac_morgan]
 id = 133
-label = "S.S. Aqua - Poké Maniac Morgan"
+label = "S.S. Aqua - Poke Maniac Morgan"
 party = [
     { species = "rhyhorn", level = 39 },
     { species = "rhydon", level = 39 },
@@ -1467,14 +1467,14 @@ party = [
 
 [pokefan_m_william]
 id = 181
-label = "National Park - Pokéfan William"
+label = "National Park - Pokefan William"
 party = [
     { species = "raichu", level = 16 },
 ]
 
 [pokefan_beverly]
 id = 182
-label = "National Park - Pokéfan Beverly"
+label = "National Park - Pokefan Beverly"
 party = [
     { species = "snubbull", level = 16 },
 ]
@@ -1498,7 +1498,7 @@ party = [
 
 [team_rocket_grunt_3]
 id = 185
-label = "Team Rocket Grunt 3"
+label = "Goldenrod Radio Tower 1F - Grunt Blocking Stairs"
 party = [
     { species = "raticate", level = 24 },
     { species = "raticate", level = 24 },
@@ -1622,7 +1622,7 @@ party = [
 
 [team_rocket_f_grunt_4]
 id = 200
-label = "Team Rocket Grunt 4"
+label = "Goldenrod Radio Tower 4F - Female Grunt in Corner"
 party = [
     { species = "ekans", level = 21 },
     { species = "oddish", level = 23 },
@@ -1632,7 +1632,7 @@ party = [
 
 [poke_maniac_andrew]
 id = 201
-label = "Union Cave - Poké Maniac Andrew"
+label = "Union Cave - Poke Maniac Andrew"
 party = [
     { species = "marowak", level = 24 },
     { species = "marowak", level = 24 },
@@ -1640,7 +1640,7 @@ party = [
 
 [poke_maniac_calvin]
 id = 202
-label = "Union Cave - Poké Maniac Calvin"
+label = "Union Cave - Poke Maniac Calvin"
 party = [
     { species = "kangaskhan", level = 26 },
 ]
@@ -1809,7 +1809,7 @@ party = [
 
 [team_rocket_grunt_20]
 id = 223
-label = "Team Rocket Grunt 20"
+label = "Team Rocket HQ - Trap Team Rocket Grunt 1"
 party = [
     { species = "drowzee", level = 17 },
     { species = "zubat", level = 19 },
@@ -1817,7 +1817,7 @@ party = [
 
 [team_rocket_grunt_21]
 id = 224
-label = "Team Rocket Grunt 21"
+label = "Team Rocket HQ - Trap Team Rocket Grunt 2"
 party = [
     { species = "zubat", level = 16 },
     { species = "grimer", level = 17 },
@@ -1931,7 +1931,7 @@ party = [
 
 [sailor_stanly]
 id = 238
-label = "Sailor Stanly"
+label = "S.S. Aqua 1F Southeast Rooms - Sailor Stanly"
 party = [
     { species = "machop", level = 39 },
     { species = "machoke", level = 41 },
@@ -2140,7 +2140,7 @@ party = [
 
 [pkmn_trainer_red_red]
 id = 260
-label = "₧₦ Trainer Red"
+label = "Pokemon Trainer Red"
 party = [
     { species = "pikachu", level = 88, num_moves = 4 },
     { species = "lapras", level = 80, num_moves = 4 },
@@ -2906,14 +2906,14 @@ party = [
 
 [pokefan_m_robert]
 id = 348
-label = "Route 10 - Pokéfan Robert"
+label = "Route 10 - Pokefan Robert"
 party = [
     { species = "quagsire", level = 43 },
 ]
 
 [pokefan_m_joshua]
 id = 349
-label = "Route 13 - Pokéfan Joshua"
+label = "Route 13 - Pokefan Joshua"
 party = [
     { species = "pikachu", level = 32 },
     { species = "pikachu", level = 32 },
@@ -2925,7 +2925,7 @@ party = [
 
 [pokefan_m_carter]
 id = 350
-label = "Route 14 - Pokéfan Carter"
+label = "Route 14 - Pokefan Carter"
 party = [
     { species = "bulbasaur", level = 38 },
     { species = "charmander", level = 38 },
@@ -2934,14 +2934,14 @@ party = [
 
 [pokefan_m_trevor]
 id = 351
-label = "Route 14 - Pokéfan Trevor"
+label = "Route 14 - Pokefan Trevor"
 party = [
     { species = "psyduck", level = 42 },
 ]
 
 [pokefan_georgia]
 id = 352
-label = "S.S. Aqua - Pokéfan Georgia"
+label = "S.S. Aqua - Pokefan Georgia"
 party = [
     { species = "sentret", level = 31 },
     { species = "sentret", level = 31 },
@@ -2952,7 +2952,7 @@ party = [
 
 [team_rocket_grunt_24]
 id = 353
-label = "Team Rocket Grunt 24"
+label = "Route 24 - Team Rocket Grunt"
 party = [
     { species = "golbat", level = 39 },
 ]
@@ -3260,14 +3260,14 @@ party = [
 
 [poke_maniac_issac]
 id = 391
-label = "Goldenrod Tunnel - Poké Maniac Issac"
+label = "Goldenrod Tunnel - Poke Maniac Issac"
 party = [
     { species = "lickitung", level = 12, num_moves = 3 },
 ]
 
 [poke_maniac_donald]
 id = 392
-label = "Goldenrod Tunnel - Poké Maniac Donald"
+label = "Goldenrod Tunnel - Poke Maniac Donald"
 party = [
     { species = "slowpoke", level = 11 },
     { species = "slowpoke", level = 11 },
@@ -3383,7 +3383,7 @@ party = [
 
 [poke_maniac_zach]
 id = 406
-label = "Route 44 - Poké Maniac Zach"
+label = "Route 44 - Poke Maniac Zach"
 party = [
     { species = "rhyhorn", level = 30 },
 ]
@@ -3406,7 +3406,7 @@ party = [
 
 [pokefan_m_brandon]
 id = 409
-label = "Route 34 - Pokéfan Brandon"
+label = "Route 34 - Pokefan Brandon"
 party = [
     { species = "snubbull", level = 13 },
     { species = "mareep", level = 13 },
@@ -3520,7 +3520,7 @@ party = [
 
 [pokefan_m_jeremy]
 id = 423
-label = "S.S. Aqua - Pokéfan Jeremy"
+label = "S.S. Aqua - Pokefan Jeremy"
 party = [
     { species = "meowth", level = 36 },
     { species = "meowth", level = 36 },
@@ -3529,7 +3529,7 @@ party = [
 
 [pokefan_m_colin]
 id = 424
-label = "S.S. Aqua - Pokéfan Colin"
+label = "S.S. Aqua - Pokefan Colin"
 party = [
     { species = "delibird", level = 40, num_moves = 3 },
 ]
@@ -4103,7 +4103,7 @@ party = [
 
 [pokefan_m_alex]
 id = 492
-label = "Route 13 - Pokéfan Alex"
+label = "Route 13 - Pokefan Alex"
 party = [
     { species = "nidoking", level = 29 },
     { species = "slowking", level = 29 },
@@ -4160,7 +4160,7 @@ party = [
 
 [team_rocket_grunt_25]
 id = 499
-label = "Team Rocket Grunt 25"
+label = "Team Rocket HQ - Grunt in Double Battle with Lance"
 party = [
     { species = "drowzee", level = 18, num_moves = 4 },
     { species = "grimer", level = 20, num_moves = 4 },
@@ -4484,7 +4484,7 @@ party = [
 
 [poke_maniac_harrison]
 id = 537
-label = "Mt. Mortar - Poké Maniac Harrison"
+label = "Mt. Mortar - Poke Maniac Harrison"
 party = [
     { species = "nidoking", level = 17 },
     { species = "nidoqueen", level = 17 },
@@ -4738,7 +4738,7 @@ party = [
 
 [pokefan_m_boone]
 id = 570
-label = "Route 15 - Pokéfan Boone"
+label = "Route 15 - Pokefan Boone"
 party = [
     { species = "spinda", level = 43 },
     { species = "volbeat", level = 41 },
@@ -4746,7 +4746,7 @@ party = [
 
 [pokefan_eleanor]
 id = 571
-label = "Route 15 - Pokéfan Eleanor"
+label = "Route 15 - Pokefan Eleanor"
 party = [
     { species = "spinda", level = 43 },
     { species = "illumise", level = 41 },
@@ -4978,7 +4978,7 @@ party = [
 
 [team_rocket_grunt_26]
 id = 601
-label = "Team Rocket Grunt 26"
+label = "Ecruteak Dance Theater - Team Rocket Grunt"
 party = [
     { species = "koffing", level = 12 },
 ]

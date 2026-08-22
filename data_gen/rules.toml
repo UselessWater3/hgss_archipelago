@@ -1,32 +1,825 @@
-loc_types.hidden = "dowsingmachine_if_opt"
+[loc_types]
+hidden = "dowsingmachine_if_opt"
 
-enc_types.surf = "surf"
-enc_types.good_rod = "good_rod"
-enc_types.old_rod = "old_rod"
-enc_types.super_rod = "super_rod"
-enc_types.rock_smash = "rock_smash"
-enc_types.day = "daytime"
-enc_types.morning = "morningtime"
-enc_types.night = "nighttime"
-enc_types.fishing_night = "(old_rod | good_rod | super_rod) & nighttime"
-enc_types.hoenn = "radio & hoenn_sound"
-enc_types.sinnoh = "radio & sinnoh_sound"
+[enc_types]
+surf = "surf"
+good_rod = "good_rod"
+old_rod = "old_rod"
+super_rod = "super_rod"
+rock_smash = "rock_smash"
+day = "daytime"
+morning = "morningtime"
+night = "nighttime"
+fishing_night = "(old_rod | good_rod | super_rod) & nighttime"
+hoenn = "radio & hoenn_sound"
+sinnoh = "radio & sinnoh_sound"
 
-common.evo_item_shop = "event_goldenrod_store if !ap_items_shop_in_ap_helper"
+[common]
+evo_item_shop = "event_goldenrod_store if !ap_items_shop_in_ap_helper"
+cut = "hm01 & cut_badge & use_cut if hm_reader_mode == option_req_mon else hm01 & cut_badge & (use_cut | hm_reader)"
+fly = "hm02 & fly_badge & use_fly if hm_reader_mode == option_req_mon else hm02 & fly_badge & (use_fly | hm_reader)"
+surf = "hm03 & surf_badge & use_surf if hm_reader_mode == option_req_mon else hm03 & surf_badge & (use_surf | hm_reader)"
+strength = "hm04 & strength_badge & use_strength if hm_reader_mode == option_req_mon else hm04 & strength_badge & (use_strength | hm_reader)"
+whirlpool = "hm05 & whirlpool_badge & use_whirlpool if hm_reader_mode == option_req_mon else hm05 & whirlpool_badge & (use_whirlpool | hm_reader)"
+rock_smash = "hm06 & rock_smash_badge & use_rock_smash if hm_reader_mode == option_req_mon else hm06 & rock_smash_badge & (use_rock_smash | hm_reader)"
+waterfall = "hm07 & waterfall_badge & use_waterfall if hm_reader_mode == option_req_mon else hm07 & waterfall_badge & (use_waterfall | hm_reader)"
+rock_climb = "hm08 & rock_climb_badge & use_rock_climb if hm_reader_mode == option_req_mon else hm08 & rock_climb_badge & (use_rock_climb | hm_reader)"
+flash = "tm70 & use_flash if hm_reader_mode == option_req_mon & reusable_tms else tm70 & use_flash & evo_item_shop if hm_reader_mode == option_req_mon else tm70 & (use_flash | hm_reader) if reusable_tms else tm70 & (use_flash | hm_reader) & evo_item_shop"
+national_dex = "pokedex * 2"
+dowsingmachine_if_opt = "dowsing_mchn if dowsing_machine_logic"
+flash_if_opt = "flash if visibility_hm_logic"
+use_magnet_train = "pass & event_restore_power if require_restored_power_for_magnet_train else pass"
+expn_card = "radio * 2"
+radio_tower_trigger = "fog_badge & mineral_badge & storm_badge & glacier_badge"
 
-common.cut = "hm01 & cut_badge & use_cut if hm_reader_mode == option_req_mon else hm01 & cut_badge & (use_cut | hm_reader)"
-common.fly = "hm02 & fly_badge & use_fly if hm_reader_mode == option_req_mon else hm02 & fly_badge & (use_fly | hm_reader)"
-common.surf = "hm03 & surf_badge & use_surf if hm_reader_mode == option_req_mon else hm03 & surf_badge & (use_surf | hm_reader)"
-common.strength = "hm04 & strength_badge & use_strength if hm_reader_mode == option_req_mon else hm04 & strength_badge & (use_strength | hm_reader)"
-common.whirlpool = "hm05 & whirlpool_badge & use_whirlpool if hm_reader_mode == option_req_mon else hm05 & whirlpool_badge & (use_whirlpool | hm_reader)"
-common.rock_smash = "hm06 & rock_smash_badge & use_rock_smash if hm_reader_mode == option_req_mon else hm06 & rock_smash_badge & (use_rock_smash | hm_reader)"
-common.waterfall = "hm07 & waterfall_badge & use_waterfall if hm_reader_mode == option_req_mon else hm07 & waterfall_badge & (use_waterfall | hm_reader)"
-common.rock_climb = "hm08 & rock_climb_badge & use_rock_climb if hm_reader_mode == option_req_mon else hm08 & rock_climb_badge & (use_rock_climb | hm_reader)"
-common.flash = "tm70 & use_flash if hm_reader_mode == option_req_mon & reusable_tms else tm70 & use_flash & evo_item_shop if hm_reader_mode == option_req_mon else tm70 & (use_flash | hm_reader) if reusable_tms else tm70 & (use_flash | hm_reader) & evo_item_shop"
+[exits.virt_start]
+virt_dex = "pokedex if dexsanity_mode >= option_req"
+virt_national_dex = "national_dex if dexsanity_mode >= option_req"
+virt_fly = "fly"
 
-common.national_dex = "pokedex * 2"
-common.dowsingmachine_if_opt = "dowsing_mchn if dowsing_machine_logic"
-common.flash_if_opt = "flash if visibility_hm_logic"
+[exits.azalea]
+azalea_gym_entrance = "event_clear_slowpoke_well"
+slowpoke_well_entrance = "event_talk_to_kurt"
 
-exits.virt_start.virt_dex = "pokedex if dexsanity_mode >= option_req"
-exits.virt_start.virt_national_dex = "national_dex if dexsanity_mode >= option_req"
+[exits.bell_tower_1f]
+bell_tower_2f = "rainbow_wing"
+
+[exits.blackthorn]
+blackthorn_gym = "event_clear_rocket_tower"
+dragons_den_entrance = "event_defeat_clair & surf"
+
+[exits.celadon]
+celadon_gym = "cut"
+
+[exits.cerulean]
+cerulean_cave_1f = "surf & flash_if_opt & kanto_badges(8)"
+
+[exits.cerulean_cave_1f]
+cerulean_cave_2f = "surf"
+cerulean_cave_b1f = "surf"
+
+[exits.cianwood]
+cliff_edge_gate = "event_cure_amphy"
+route_41 = "surf"
+
+[exits.cinnabar_island]
+route_20_west = "surf"
+route_21 = "surf"
+
+[exits.cliff_edge_gate]
+cianwood = "event_cure_amphy"
+
+[exits.dark_cave_route_31_side_north]
+dark_cave_route_31_side_west = "surf"
+
+[exits.dark_cave_route_31_side_west]
+dark_cave_route_31_side_north = "surf"
+dark_cave_route_31_side_east = "strength & (surf | rock_smash)"
+
+[exits.dark_cave_route_31_side_east]
+dark_cave_route_31_side_west = "strength & (surf | rock_smash)"
+
+[exits.dark_cave_route_31_side_south]
+dark_cave_route_31_side_east = "rock_smash"
+
+[exits.dark_cave_route_45_side]
+dark_cave_route_45_side_bottom = "surf"
+
+[exits.diglett_cave]
+route_11 = "expn_card"
+
+[exits.dragons_den]
+dragons_den_shrine = "surf & whirlpool"
+
+[exits.ecruteak]
+ecruteak_gym = "event_burned_tower_disperse_legendary_dogs"
+
+[exits.ecruteak_bell_tower_barrier_station]
+ecruteak_bell_tower_barrier_station_corridor = "fog_badge"
+
+[exits.goldenrod]
+goldenrod_gym = "event_radio_quiz"
+
+[exits.goldenrod_magnet_train_station_1f]
+goldenrod_magnet_train_station_2f_empty = "use_magnet_train"
+
+[exits.goldenrod_radio_tower_1f]
+goldenrod_radio_tower_2f = "radio_tower_trigger"
+
+[exits.goldenrod_radio_tower_3f]
+goldenrod_radio_tower_3f_east = "card_key"
+
+[exits.goldenrod_tunnel_1f]
+goldenrod_tunnel_b2f = "basement_key"
+
+[exits.goldenrod_tunnel_warehouse]
+goldenrod_department_store_basement = "basement_key"
+
+[exits.ice_path_1f]
+virt_ice_rock = "False if icy_rock_locations == option_kanto"
+
+[exits.ice_path_b2f]
+ice_path_b3f = "strength"
+
+[exits.ice_path_1f_back]
+virt_ice_rock = "False if icy_rock_locations == option_kanto"
+
+[exits.ilex_forest_north]
+ilex_forest_south = "cut"
+virt_moss_rock = "False if mossy_rock_locations == option_kanto"
+
+[exits.ilex_forest_south]
+ilex_forest_north = "cut"
+virt_moss_rock = "False if mossy_rock_locations == option_kanto"
+
+[exits.lake_of_rage]
+lake_of_rage_hidden_power_house = "surf"
+lake_of_rage_low_tide = "event_access_low_tide_dialogue"
+
+[exits.mahogany]
+mahogany_gym_room_1 = "event_clear_mahogany_hideout"
+route_44 = "event_clear_rocket_tower"
+
+[exits.mahogany_souvenir_shop]
+team_rocket_headquarters_b1f = "event_shiny_gyarados"
+
+[exits.mount_moon_square]
+mount_moon_square_shop = "daytime"
+
+[exits.mount_moon_square_entrance]
+mount_moon_square = "morningtime | daytime"
+mount_moon_square_clefairy_event = "nighttime"
+
+[exits.mount_mortar_1f_back_south]
+mount_mortar_1f_back_middle = "strength"
+
+[exits.mount_mortar_1f_back_southeast]
+mount_mortar_1f_back_middle = "rock_climb"
+
+[exits.mount_mortar_1f_back_middle]
+mount_mortar_1f_back_southeast = "rock_climb"
+
+[exits.mount_mortar_1f_entrance]
+mount_mortar_1f_back_southeast = "rock_climb"
+mount_mortar_2f = "surf & waterfall"
+mount_mortar_b1f_south = "surf"
+
+[exits.mount_mortar_2f]
+mount_mortar_1f_back_north = "surf"
+
+[exits.mount_mortar_b1f_north]
+mount_mortar_b1f_south = "strength & surf"
+
+[exits.mount_silver]
+route_28_north = "cut"
+
+[exits.mount_silver_cave_1f]
+mount_silver_cave_expert_belt_chamber = "surf & waterfall"
+mount_silver_cave_lower_mountainside = "rock_climb"
+mount_silver_cave_moltres_chamber = "surf & waterfall & rock_climb"
+
+[exits.mount_silver_cave_3f]
+mount_silver_cave_summit = "rock_climb"
+
+[exits.mount_silver_cave_upper_mountainside_southwest]
+mount_silver_cave_3f = "rock_climb"
+
+[exits.new_bark_east]
+route_27_west = "surf"
+
+[exits.new_bark]
+new_bark_east = "event_meet_ho_oh if version == option_heartgold else surf & event_meet_lugia"
+
+[exits.olivine]
+route_40 = "hm03"
+
+[exits.pallet]
+route_21 = "surf"
+
+[exits.route_10]
+rock_tunnel_1f = "flash_if_opt"
+route_10_power_plant_repaired = "surf & machine_part"
+route_10_power_plant_broken = "surf"
+virt_magnetic_field = "False if magnetic_field_locations == option_johto else surf"
+
+[exits.route_10_south]
+rock_tunnel_1f = "flash_if_opt"
+
+[exits.route_11]
+diglett_cave = "expn_card"
+vermilion = "expn_card"
+
+[exits.route_16_east]
+route_16_house = "cut"
+
+[exits.route_16_gatehouse]
+route_16 = "bicycle"
+
+[exits.route_18_gatehouse]
+route_17 = "bicycle"
+
+[exits.route_19_from_fuchia]
+route_19 = "event_defeat_blaine & surf"
+
+[exits.route_19]
+route_19_from_fuchia = "event_defeat_blaine"
+
+[exits.route_2_east]
+diglett_cave = "cut"
+route_2 = "cut"
+route_2_house = "cut"
+route_2_southeast_gatehouse = "cut"
+
+[exits.route_2_southeast_gatehouse]
+route_2_east = "cut"
+
+[exits.route_20_west]
+cinnabar_island = "surf"
+
+[exits.route_22_pokemon_league_reception_gate]
+route_22 = "event_unlock_west_kanto_exit"
+route_28_south = "event_get_hm08"
+
+[exits.route_26]
+route_22_pokemon_league_reception_gate = "johto_badges(8)"
+
+[exits.route_27_west]
+new_bark_east = "surf"
+
+[exits.route_27_center]
+route_27_east = "surf"
+
+[exits.route_27_east]
+route_27_center = "surf"
+
+[exits.route_28_north]
+mount_silver = "cut"
+
+[exits.route_30]
+route_31 = "event_get_mystery_egg | cut"
+
+[exits.route_31]
+dark_cave_route_31_side_west = "flash_if_opt"
+
+[exits.route_32_north]
+route_32 = "zephyr_badge & event_get_togepi_egg"
+
+[exits.route_35]
+route_36_southwest = "cut"
+
+[exits.route_35_national_park_pokeathalon_gatehouse]
+pokeathlon_dome = "event_defeat_whitney"
+
+[exits.route_36_southwest]
+route_36_southeast = "squirtbottle"
+route_36_north = "squirtbottle"
+route_35 = "cut"
+
+[exits.route_36_southeast]
+route_36_southwest = "squirtbottle"
+route_36_north = "squirtbottle"
+
+[exits.route_36_north]
+route_36_southeast = "squirtbottle"
+route_36_southwest = "squirtbottle"
+
+[exits.route_40]
+route_41 = "surf"
+
+[exits.route_41]
+cianwood = "surf"
+route_40 = "surf"
+whirl_islands_1f = "flash_if_opt & surf & whirlpool"
+
+[exits.route_45]
+dark_cave_route_45_side = "flash_if_opt"
+
+[exits.route_46]
+dark_cave_route_31_side_south = "flash_if_opt"
+
+[exits.route_47]
+embedded_tower_groudon_room = "surf & rock_climb"
+embedded_tower_kyogre_room = "surf & rock_climb"
+embedded_tower_rayquaza_room = "surf & rock_climb"
+
+[exits.route_5]
+route_5_underground_path_gate = "event_restore_power"
+
+[exits.route_6]
+route_6_underground_path_gate = "event_restore_power"
+
+[exits.ruins_of_alph]
+virt_magnetic_field = "False if magnetic_field_locations == option_kanto"
+ruins_of_alph_southeast = "surf"
+
+[exits.ruins_of_alph_northwest]
+ruins_of_alph_northwest_entrance_first_room = "surf"
+
+[exits.ruins_of_alph_southeast]
+ruins_of_alph_southeast_entrance_first_room = "surf"
+ruins_of_alph = "surf"
+
+[exits.ruins_of_alph_southwest]
+ruins_of_alph_southwest_entrance_first_room = "surf & strength"
+
+[exits.ruins_of_alph_northeast_entrance_first_room]
+ruins_of_alph_northeast_entrance_second_room = "badges(1) | event_goldenrod_store"
+
+[exits.ruins_of_alph_northwest_entrance_first_room]
+ruins_of_alph_northwest_entrance_second_room = "rainbow_wing"
+
+[exits.ruins_of_alph_southeast_entrance_first_room]
+ruins_of_alph_southeast_entrance_second_room = "flash"
+
+[exits.ruins_of_alph_southwest_entrance_first_room]
+ruins_of_alph_southwest_entrance_second_room = "water_stone"
+
+[exits.saffron_magnet_train_station_1f]
+saffron_magnet_train_station_2f_empty = "use_magnet_train"
+
+[exits.seafoam_islands_b1f]
+seafoam_islands_1f_west = "strength"
+seafoam_islands_1f_east = "strength"
+seafoam_islands_b2f = "strength"
+
+[exits.seafoam_islands_b3f]
+virt_ice_rock = "False if icy_rock_locations == option_johto"
+
+[exits.slowpoke_well_b1f]
+slowpoke_well_b2f = "strength & surf"
+
+[exits.ss_aqua_olivine_port_exterior]
+ss_aqua_1f = "s_s__ticket"
+
+[exits.ss_aqua_vermilion_port_interior]
+ss_aqua_vermilion_port_exterior = "s_s__ticket"
+
+[exits.tohjo_falls_east]
+tohjo_falls_west = "surf & waterfall"
+tohjo_falls_hidden_room = "surf"
+
+[exits.tohjo_falls_west]
+tohjo_falls_east = "surf & waterfall"
+
+[exits.union_cave_1f]
+ruins_of_alph_northwest = "surf"
+ruins_of_alph_southwest = "surf & strength"
+union_cave_b1f_pathway = "surf"
+
+[exits.union_cave_b1f_pathway]
+union_cave_b2f = "surf"
+
+[exits.vermilion]
+route_11 = "expn_card"
+vermilion_gym = "cut | surf"
+
+[exits.victory_road_1f_entrance]
+victory_road_1f = "strength"
+
+[exits.victory_road_1f]
+victory_road_1f_entrance = "strength"
+
+[exits.victory_road_2f_northeast]
+victory_road_3f_northeast = "strength"
+
+[exits.victory_road_2f_northwest]
+victory_road_2f = "strength"
+
+[exits.violet]
+violet_gym = "event_beat_sprout_tower"
+
+[exits.viridian]
+viridian_gym = "event_cinnabar_island_blue_return_viridian"
+
+[exits.viridian_forest]
+virt_moss_rock = "False if mossy_rock_locations == option_johto"
+
+[exits.virt_fly]
+pallet = "fly_map_pallet"
+viridian = "fly_map_viridian"
+pewter = "fly_map_pewter"
+cerulean = "fly_map_cerulean"
+lavender = "fly_map_lavender"
+vermilion = "fly_map_vermilion"
+celadon = "fly_map_celadon"
+fuchsia = "fly_map_fuchsia"
+cinnabar_island = "fly_map_cinnabar_island"
+indigo_plateau = "fly_map_indigo_plateau"
+saffron = "fly_map_saffron"
+new_bark = "fly_map_new_bark"
+cherrygrove = "fly_map_cherrygrove"
+violet = "fly_map_violet"
+azalea = "fly_map_azalea"
+cianwood = "fly_map_cianwood"
+goldenrod = "fly_map_goldenrod"
+olivine = "fly_map_olivine"
+ecruteak = "fly_map_ecruteak"
+mahogany = "fly_map_mahogany"
+blackthorn = "fly_map_blackthorn"
+lake_of_rage = "fly_map_lake_of_rage"
+mount_silver = "fly_map_mount_silver"
+safari_zone_gate = "fly_map_safari_zone_gate"
+battle_frontier = "fly_map_battle_frontier"
+national_park = "fly_map_national_park"
+route_26 = "fly_map_victory_road_1f"
+
+[exits.whirl_islands_b2f]
+whirl_islands_b3f = "silver_wing"
+whirl_islands_b3f_lugia_cave = "silver_wing"
+
+[events]
+event_cinnabar_island_blue_return_viridian = "kanto_badges(opt:blue_return_viridian_badge_requirement)"
+event_farfetchd_rescue = "event_clear_slowpoke_well"
+event_get_hm08 = "badges(16)"
+event_clear_slowpoke_well = "event_talk_to_kurt"
+event_defeat_falkner = "event_beat_sprout_tower"
+event_defeat_erika = "cut"
+event_restore_power = "machine_part"
+event_ruin_mistys_date = "event_restore_power"
+event_cure_amphy = "secretpotion"
+event_hear_about_missing_doll = "event_restore_power"
+event_give_kenya = "event_get_kenya"
+event_shiny_gyarados = "surf"
+event_cerulean_meet_kanto_grunt = "event_talk_plant_manager"
+event_route_24_defeat_kanto_grunt = "event_cerulean_meet_kanto_grunt"
+event_call_from_baoba = "event_cure_amphy"
+event_access_low_tide_dialogue = "event_clear_mahogany_hideout"
+event_get_togepi_egg = "event_defeat_falkner"
+event_elms_lab_get_master_ball = "johto_badges(8) & event_ecruteak_dance_theater_defeat_team_rocket & event_burned_tower_disperse_legendary_dogs"
+event_cure_miltank = "evo_item_shop & (oran_berry | oran_berry_x3)"
+event_meet_ho_oh = "clear_bell if version == option_heartgold"
+event_meet_lugia = "tidal_bell if version == option_soulsilver"
+event_defeat_lance_clair_dragons_den = "event_defeated_rival_mount_moon"
+
+[locs]
+charcoal_gift_azalea = "event_farfetchd_rescue"
+azalea_badge_hive = "event_clear_slowpoke_well"
+azalea_tm89 = "event_clear_slowpoke_well"
+kurt_fast_ball_gift = "event_clear_slowpoke_well"
+overworld_d18r0101_hp_up = "rock_smash"
+hidden_d18r0102_revive = "strength"
+celadon_condominiums_3f_gb_sounds = "kanto_badges(8)"
+celadon_condominiums_4f_spell_tag = "nighttime"
+hidden_d03r0101_hyper_potion = "surf & rock_smash"
+hidden_d03r0101_revive = "surf"
+hidden_d03r0101_rare_candy = "surf"
+overworld_d03r0101_full_restore = "surf"
+overworld_d03r0101_sea_incense = "surf"
+overworld_d03r0101_nugget = "surf"
+overworld_d03r0101_max_elixir = "surf"
+hidden_d03r0102_protein = "rock_smash"
+overworld_d03r0102_odd_incense = "rock_smash"
+overworld_d03r0102_tm24 = "rock_smash"
+overworld_d03r0102_pp_up = "rock_smash"
+hidden_d03r0103_ultra_ball = "surf & rock_smash"
+hidden_d03r0103_max_revive = "rock_smash"
+hidden_d03r0103_nugget = "surf & rock_smash"
+overworld_d03r0103_dusk_stone = "rock_climb"
+overworld_d03r0103_electirizer = "rock_climb"
+overworld_d03r0103_black_sludge = "surf"
+overworld_d03r0103_ultra_ball = "surf | rock_climb"
+cerulean_badge_cascade = "event_ruin_mistys_date"
+cerulean_tm03 = "event_ruin_mistys_date"
+cerulean_machine_part = "event_route_24_defeat_kanto_grunt"
+hidden_t21_nugget = "surf & rock_climb"
+cherrygrove_mystic_water = "surf"
+hidden_r29_r30_t21_nugget = "surf"
+hidden_t24_revive = "rock_smash"
+cianwood_hm02 = "event_defeat_chuck"
+hidden_t09_star_piece = "rock_climb"
+hidden_t09_w21_rare_candy = "rock_climb"
+hidden_t09_iron = "rock_climb"
+overworld_t09_magmarizer = "rock_climb"
+hidden_d48r0101_big_pearl = "surf & rock_climb & event_call_from_baoba"
+overworld_d42r0102_hyper_potion = "rock_smash"
+overworld_d42r0102_black_flute = "surf"
+d42r0101_blackglasses = "surf"
+hidden_d42r0101_max_revive = "surf"
+overworld_d42r0101_revive = "surf"
+overworld_d42r0101_tm54 = "surf"
+hidden_d01r0101_calcium = "rock_climb"
+overworld_d01r0101_rock_incense = "rock_climb"
+overworld_d01r0101_pp_max = "rock_climb"
+dragons_den_tm59 = "event_dragons_den_quiz"
+hidden_d44r0102_max_elixir = "surf"
+hidden_d44r0102_max_potion = "surf"
+overworld_d44r0102_max_elixir = "surf"
+overworld_d44r0102_dragon_fang = "surf & whirlpool"
+ecruteak_dance_theater_clear_bell = "event_elms_lab_get_master_ball"
+ecruteak_dance_theater_tidal_bell = "event_elms_lab_get_master_ball"
+overworld_d37r0103_amulet_coin = "basement_key"
+goldenrod_squirtbottle = "event_defeat_whitney"
+goldenrod_badge_plain = "event_radio_quiz"
+goldenrod_tm45 = "event_radio_quiz"
+goldenrod_radio_tower_2f_blue_card = "event_clear_rocket_tower"
+goldenrod_radio_tower_3f_tm11 = "event_clear_rocket_tower"
+goldenrod_radio_tower_4f_brightpowder = "event_clear_rocket_tower"
+d37r0105_cardkey = "radio_tower_trigger"
+overworld_d39r0102_iron = "strength"
+hidden_d36r0101_big_mushroom = "surf"
+ilex_forest_hm01 = "event_farfetchd_rescue"
+t29_red_scale = "surf"
+hidden_t29_max_potion = "surf"
+overworld_t29_choice_specs = "surf"
+overworld_t29_tm43 = "surf"
+overworld_t29_red_flute = "surf"
+lake_of_rage_ether_fishing_guru_gift = "mon_magikarp & event_clear_mahogany_hideout"
+lake_of_rage_low_tide_full_restore = "cut"
+lake_of_rage_low_tide_max_revive = "cut"
+lake_of_rage_low_tide_full_heal = "surf"
+lavender_town_radio_station_radio = "event_restore_power"
+hidden_d38r0102_rare_candy = "rock_climb"
+hidden_d38r0102_ultra_ball = "rock_climb"
+overworld_d38r0102_protector = "rock_climb"
+hidden_d38r0101_revive = "rock_climb"
+hidden_d38r0103_full_restore = "surf"
+hidden_d38r0103_full_heal = "surf"
+hidden_d38r0103_hp_up = "surf"
+hidden_d38r0103_hyper_potion = "surf"
+overworld_d38r0103_elixir = "surf"
+overworld_d38r0103_rare_candy = "surf"
+overworld_d38r0103_tm40 = "surf"
+overworld_d38r0103_escape_rope = "surf"
+overworld_d38r0103_dragon_scale = "surf"
+overworld_d38r0103_max_potion = "surf"
+hidden_d38r0104_ultra_ball = "surf"
+overworld_d38r0104_carbos = "surf"
+overworld_d38r0104_pp_up = "surf"
+overworld_d38r0104_max_ether = "surf"
+overworld_d38r0104_hyper_potion = "surf"
+overworld_d38r0104_full_restore = "surf"
+overworld_t31_reaper_cloth = "surf"
+hidden_d41r0101_dire_hit = "rock_climb"
+hidden_d41r0101_ultra_ball = "surf & waterfall & rock_climb"
+hidden_d41r0106_max_potion = "rock_smash"
+overworld_d41r0106_calcium = "rock_smash"
+hidden_d41r0106_iron = "rock_smash"
+hidden_d41r0107_max_revive = "rock_climb"
+hidden_d41r0102_rare_candy = "rock_climb"
+overworld_d41r0102_pure_incense = "rock_climb"
+hidden_d41r0102_hyper_potion = "rock_climb"
+overworld_d41r0102_dawn_stone = "rock_climb"
+overworld_d22r0101_shiny_stone = "rock_climb"
+hidden_t20_potion = "event_get_mystery_egg"
+new_bark_elms_lab_1f_everstone = "event_get_togepi_egg"
+new_bark_elms_lab_1f_ss_ticket = "event_clear_pokemon_league"
+new_bark_elms_lab_1f_master_ball = "johto_badges(8) & event_ecruteak_dance_theater_defeat_team_rocket & event_burned_tower_disperse_legendary_dogs"
+hidden_t26_rare_candy = "rock_climb"
+overworld_t26_tm57 = "surf"
+olivine_badge_mineral = "event_cure_amphy"
+olivine_tm23 = "event_cure_amphy"
+pallet_town_oaks_lab_hm08 = "badges(16)"
+overworld_t03_wise_glasses = "rock_smash"
+hidden_d05r0102_hp_up = "rock_climb"
+hidden_d05r0102_max_potion = "rock_smash"
+overworld_d05r0102_iron = "rock_climb"
+overworld_d05r0102_oval_stone = "rock_climb"
+hidden_r10_carbos = "surf"
+power_plant_tm57 = "machine_part"
+overworld_r10r0101_tm69 = "strength"
+hidden_r12_elixir = "surf"
+overworld_r12_calcium = "cut"
+overworld_r12_yellow_flute = "cut"
+route_14_lucky_punch = "mon_chansey"
+hidden_w19_pearl = "surf"
+hidden_w19_max_elixir = "surf"
+hidden_w19_big_pearl = "surf"
+overworld_w19_tm55 = "surf"
+hidden_w19_pearl_2 = "surf"
+hidden_w19_revive = "rock_smash"
+hidden_w20_deepseascale = "surf"
+hidden_w20_stardust = "surf"
+hidden_w20_deepseatooth = "surf"
+hidden_w21_stardust = "surf"
+hidden_w21_stardust_2 = "surf"
+hidden_w21_stardust_3 = "surf"
+overworld_r25_protein = "cut"
+route_25_sea_cottage_fire_stone = "mon_jigglypuff & mon_oddish & mon_marill & mon_growlithe if version == option_heartgold else mon_lickitung & mon_oddish & mon_staryu & mon_vulpix"
+route_25_sea_cottage_everstone = "mon_jigglypuff if version == option_heartgold else mon_lickitung"
+route_25_sea_cottage_water_stone = "mon_jigglypuff & mon_oddish & mon_marill if version == option_heartgold else mon_lickitung & mon_oddish & mon_staryu"
+route_25_sea_cottage_leaf_stone = "mon_jigglypuff & mon_oddish if version == option_heartgold else mon_lickitung & mon_oddish"
+route_25_sea_cottage_thunderstone = "mon_jigglypuff & mon_oddish & mon_marill & mon_growlithe & mon_pichu if version == option_heartgold else mon_lickitung & mon_oddish & mon_staryu & mon_vulpix & mon_pichu"
+hidden_r26_r27_nugget = "surf"
+overworld_r27_tm02 = "surf & whirlpool"
+overworld_r27_rare_candy = "surf"
+r29_tuscany_gift = "zephyr_badge"
+hidden_r03_hyper_potion = "rock_smash"
+r30r0201_mr_pokemon_house_exp_share = "red_scale"
+r31_tm44 = "event_get_kenya"
+hidden_r32_heart_scale = "surf"
+hidden_r32_super_potion = "cut"
+overworld_r32_shell_bell = "rock_smash"
+route_32_tm05 = "cut"
+route_32_miracle_seed = "zephyr_badge & event_get_togepi_egg"
+hidden_r34_rare_candy = "surf"
+overworld_r34_nugget = "surf"
+route_34_power_herb = "surf"
+hidden_r35_nugget = "surf"
+r35r0101_kenya_gift = "event_give_kenya"
+route_36_berry_pots = "squirtbottle"
+route_36_oran_berries = "squirtbottle"
+route_36_pecha_berries = "squirtbottle"
+hidden_r38_hp_up = "rock_climb"
+overworld_r38_lax_incense = "rock_climb"
+route_39_tm83 = "event_cure_miltank"
+route_39_seal_case = "event_cure_miltank"
+hidden_w40_hyper_potion = "surf"
+overworld_w40_tm88 = "surf"
+hidden_w41_stardust_4 = "surf & whirlpool"
+hidden_w41_stardust = "surf & whirlpool"
+hidden_w41_stardust_3 = "surf & whirlpool"
+hidden_w41_max_ether = "surf & whirlpool"
+hidden_w41_stardust_2 = "surf & whirlpool"
+overworld_r42_dubious_disc = "rock_climb"
+overworld_r42_super_potion = "surf"
+r43r0201_tm36 = "event_clear_mahogany_hideout"
+overworld_r44_max_revive = "surf"
+hidden_r45_r46_pp_max = "rock_climb"
+hidden_r47_stardust = "surf & rock_climb"
+hidden_r47_pearl = "surf"
+overworld_r47_wave_incense = "surf & rock_climb"
+overworld_r47_white_flute = "surf & waterfall"
+r05r0202_tm64 = "ragecandybar"
+overworld_r09_light_clay = "cut"
+overworld_r09_tm91 = "cut"
+hidden_d24r0101_rare_candy = "rock_smash"
+overworld_d24r0101_hyper_potion = "rock_smash | surf"
+hidden_d11r0102_ice_heal = "strength"
+overworld_d11r0102_grip_claw = "strength"
+overworld_d11r0102_ice_heal = "strength"
+hidden_d11r0103_pearl_2 = "surf"
+hidden_d11r0104_rare_candy = "surf"
+overworld_d11r0104_revive = "surf"
+hidden_d11r0105_zinc = "surf"
+hidden_d26r0102_full_heal = "strength & surf"
+slowpoke_well_kings_rock = "surf"
+overworld_d26r0103_tm18 = "surf"
+hidden_d26r0101_great_ball = "event_clear_slowpoke_well"
+ss_aqua_plate_draco = "badges(16)"
+ss_aqua_plate_dread = "badges(16)"
+ss_aqua_plate_earth = "badges(16)"
+ss_aqua_plate_fist = "badges(16)"
+ss_aqua_plate_flame = "badges(16)"
+ss_aqua_plate_icicle = "badges(16)"
+ss_aqua_plate_insect = "badges(16)"
+ss_aqua_plate_iron = "badges(16)"
+ss_aqua_plate_meadow = "badges(16)"
+ss_aqua_plate_mind = "badges(16)"
+ss_aqua_nugget = "badges(16)"
+ss_aqua_plate_sky = "badges(16)"
+ss_aqua_plate_splash = "badges(16)"
+ss_aqua_plate_spooky = "badges(16)"
+ss_aqua_plate_stone = "badges(16)"
+ss_aqua_plate_toxic = "badges(16)"
+ss_aqua_plate_zap = "badges(16)"
+hidden_p01r0102_protein = "s_s__ticket"
+ss_aqua_olivine_port_interior_pokedex = "event_clear_pokemon_league"
+overworld_d45r0101_moon_stone = "surf"
+hidden_d25r0101_big_pearl = "surf"
+hidden_d25r0102_revive = "surf"
+hidden_d25r0103_calcium = "surf"
+hidden_d25r0103_ultra_ball = "surf"
+overworld_d25r0103_elixir = "surf"
+overworld_d25r0103_hyper_potion = "surf"
+hidden_t06_full_heal = "rock_smash"
+hidden_t06_pearl = "surf"
+hidden_t06_pearl_2 = "surf"
+hidden_t06_big_pearl = "surf"
+hidden_t06_heart_scale = "surf"
+t06_pp_max = "kanto_badges(8)"
+overworld_t06_luck_incense = "surf"
+t06_lost_item = "event_hear_about_missing_doll"
+overworld_d43r0101_max_revive = "strength"
+hidden_d43r0102_pp_up = "strength"
+overworld_d43r0102_hp_up = "strength"
+overworld_d43r0102_full_restore = "strength"
+hidden_d43r0103_zinc = "rock_smash"
+overworld_d43r0103_tm79 = "rock_smash"
+hidden_t22_hyper_potion = "rock_smash"
+overworld_t22_rare_candy = "surf"
+overworld_t22_pp_up = "surf"
+violet_badge_zephyr = "event_beat_sprout_tower"
+violet_tm51 = "event_beat_sprout_tower"
+t02_tm85 = "cut | surf"
+viridian_badge_earth = "event_cinnabar_island_blue_return_viridian"
+viridian_tm92 = "event_cinnabar_island_blue_return_viridian"
+overworld_d40r0101_ultra_ball_2 = "surf"
+
+[trainers]
+twins_jo_and_zoe = "cut"
+picnicker_tanya = "cut"
+beauty_julia = "cut"
+swimmer_f_diana = "event_ruin_mistys_date & surf"
+swimmer_f_briana = "event_ruin_mistys_date & surf"
+sailor_parker = "event_ruin_mistys_date"
+sailor_eddie = "event_ruin_mistys_date"
+swimmer_f_joy = "event_ruin_mistys_date & surf"
+ace_trainer_f_piper = "surf"
+twins_clea_and_gil = "surf"
+burglar_duncan = "radio_tower_trigger"
+team_rocket_grunt_11 = "radio_tower_trigger"
+team_rocket_grunt_12 = "radio_tower_trigger"
+team_rocket_f_grunt_3 = "radio_tower_trigger"
+team_rocket_grunt_23 = "radio_tower_trigger"
+burglar_orson = "radio_tower_trigger"
+team_rocket_grunt_13 = "radio_tower_trigger"
+team_rocket_grunt_14 = "radio_tower_trigger"
+team_rocket_grunt_22 = "radio_tower_trigger"
+ace_trainer_f_lois = "event_shiny_gyarados"
+fisherman_andre = "event_shiny_gyarados"
+fisherman_raymond = "event_shiny_gyarados"
+leader_morty_morty = "event_burned_tower_disperse_legendary_dogs"
+leader_jasmine_jasmine = "event_cure_amphy"
+kimono_girl_naoko = "event_elms_lab_get_master_ball"
+kimono_girl_sayo = "event_elms_lab_get_master_ball"
+kimono_girl_zuki = "event_elms_lab_get_master_ball"
+kimono_girl_kuni = "event_elms_lab_get_master_ball"
+kimono_girl_miki = "event_elms_lab_get_master_ball"
+leader_misty_misty = "event_ruin_mistys_date"
+leader_erika_erika = "cut"
+rival_silver_azalea = "event_clear_slowpoke_well"
+rival_silver_pokemon_league_entrance = "event_defeat_lance_clair_dragons_den"
+champion_lance_2 = "kanto_badges(8)"
+elite_four_will_will_2 = "kanto_badges(8)"
+elite_four_koga_koga_2 = "kanto_badges(8)"
+elite_four_bruno_bruno_2 = "kanto_badges(8)"
+elite_four_karen_karen_2 = "kanto_badges(8)"
+bird_keeper_gs_jose_2 = "surf & whirlpool"
+youngster_joey = "event_get_mystery_egg"
+policeman_keith = "nighttime"
+policeman_dirk = "nighttime"
+swimmer_f_elaine = "surf"
+swimmer_m_simon = "surf"
+swimmer_f_paula = "surf"
+swimmer_m_randall = "surf"
+swimmer_f_kaylee = "surf"
+swimmer_f_susie = "surf"
+swimmer_f_denise = "surf"
+swimmer_f_kara = "surf"
+swimmer_f_wendy = "surf"
+swimmer_m_charlie = "surf"
+swimmer_m_george = "surf"
+swimmer_m_berke = "surf"
+swimmer_m_ronald = "surf"
+swimmer_m_matthew = "surf"
+poke_maniac_andrew = "surf"
+poke_maniac_calvin = "surf"
+hiker_phillip = "surf"
+hiker_leonard = "surf"
+ace_trainer_m_nick = "surf"
+ace_trainer_f_gwen = "surf"
+ace_trainer_f_emma = "surf"
+ace_trainer_f_kate = "surf"
+ace_trainer_f_irene = "surf"
+team_rocket_grunt_3 = "radio_tower_trigger"
+team_rocket_grunt_24 = "event_cerulean_meet_kanto_grunt"
+ace_trainer_f_jenn = "surf"
+mystery_man_eusine = "event_burned_tower_disperse_legendary_dogs"
+champion_lance_3 = "event_defeated_rival_mount_moon & surf"
+leader_clair_clair_3 = "event_defeated_rival_mount_moon & surf"
+
+[encs.cerulean]
+water = "surf"
+
+[encs.cerulean_cave_1f]
+rock_smash = "surf"
+
+[encs.cliff_cave]
+rock_smash = "national_dex"
+
+[encs.cliff_edge_gate]
+water = "rock_climb"
+
+[encs.mount_mortar_1f_entrance]
+water = "surf"
+
+[encs.route_10]
+land = "surf"
+water = "surf"
+
+[encs.route_13]
+land = "cut"
+
+[encs.route_14]
+land = "cut"
+
+[encs.route_16_east]
+land = "cut"
+
+[encs.route_19_from_fuchia]
+water = "event_defeat_blaine"
+
+[encs.route_4_bottom]
+water = "surf"
+
+[encs.route_44]
+land = "surf"
+
+[encs.route_47]
+land = "surf & waterfall"
+
+[encs.route_8]
+land = "cut"
+
+[encs.whirl_islands_b2f]
+water = "silver_wing"

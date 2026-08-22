@@ -45,11 +45,14 @@ def fill_unrandomized_encounters(world: "PokemonHgssWorld") -> None:
     for name, rd in regiondata.items():
         if not is_region_enabled(name, world.options):
             continue
-        if rd.encounters is None or rd.encounters in done_encs:
+        if rd.encounters is None:
             continue
         done_encs.add(rd.encounters)
         encs = encounterdata[rd.encounters]
         for type in rd.accessible_encounters:
+            if (rd.encounters, type) in done_encs:
+                continue
+            done_encs.add((rd.encounters, type))
             tbl: Sequence[EncounterSlot] = getattr(encs, type)
             if not tbl:
                 continue
@@ -89,12 +92,15 @@ def randomize_encounters(world: "PokemonHgssWorld", req_specs: Set[str]) -> None
         if slot.in_logic(version, enc_methds)
     }
     slots_s = sorted(slots)
+    print(len(slots_s))
     specs = sorted(req_specs)
     bl = world.options.encounter_species_blacklist.blacklist()
     pokemon_pool = [mon for mon in speciesdata if mon not in bl]
     specs += world.random.choices(pokemon_pool, k=len(slots) - len(specs))
     world.random.shuffle(specs)
     world.generated_encounters.update(zip(slots_s, specs))
+    print(speciesdata.keys() - world.generated_encounters.values())
+    print(req_specs & (speciesdata.keys() - world.generated_encounters.values()))
 
     # fill OOL encounters
     enc_pool = list(set(speciesdata) - world.options.encounter_species_blacklist.blacklist())
@@ -120,11 +126,9 @@ def randomize_trainer_parties(world: "PokemonHgssWorld") -> None:
     world.generated_trainer_parties.update(zip(slots_s, specs))
 
 def randomize_trainer_parties_and_encounters(world: "PokemonHgssWorld") -> None:
-    if world.options.randomize_encounters and world.options.randomize_trainer_parties:
-        randomize_encounters(world, generate_required_encounter_species(world))
-        randomize_trainer_parties(world)
-    elif world.options.randomize_encounters:
-        required_mons = {"oddish", "magikarp"}
+    rando_encs = bool(world.options.randomize_encounters)
+    if rando_encs:
+        required_mons = {"oddish", "magikarp", "pichu"}
         chansey_pevo = speciesdata["chansey"].pre_evolution
         if chansey_pevo is not None and chansey_pevo.method in world.options.in_logic_evolution_methods.methods():
             required_mons.add(world.random.choice([chansey_pevo.species, "chansey"]))
@@ -133,13 +137,15 @@ def randomize_trainer_parties_and_encounters(world: "PokemonHgssWorld") -> None:
             marill_pevo = speciesdata["marill"].pre_evolution
             if marill_pevo is not None and marill_pevo.method in world.options.in_logic_evolution_methods.methods():
                 required_mons.add(world.random.choice([marill_pevo.species, "marill"]))
-            jigglybuff_pevo = speciesdata["jigglybuff"].pre_evolution
-            if jigglybuff_pevo is not None and jigglybuff_pevo.method in world.options.in_logic_evolution_methods.methods():
-                required_mons.add(world.random.choice([jigglybuff_pevo.species, "jigglybuff"]))
+            jigglypuff_pevo = speciesdata["jigglypuff"].pre_evolution
+            if jigglypuff_pevo is not None and jigglypuff_pevo.method in world.options.in_logic_evolution_methods.methods():
+                required_mons.add(world.random.choice([jigglypuff_pevo.species, "jigglypuff"]))
         else:
             required_mons |= {"staryu", "lickitung", "vulpix"}
-        if world.options.randomize_encounters:
-            required_mons.add("pichu")
+    if rando_encs and world.options.randomize_trainer_parties:
+        randomize_encounters(world, generate_required_encounter_species(world) | required_mons)
+        randomize_trainer_parties(world)
+    elif rando_encs:
         randomize_encounters(world, generate_required_encounter_species(world) | required_mons)
         fill_unrandomized_trainer_parties(world)
     elif world.options.randomize_trainer_parties:
@@ -284,6 +290,8 @@ def generate_required_encounter_species(world: "PokemonHgssWorld") -> Set[str]:
     while len(dexs) < world.options.dexsanity.value or len(reqd_dexs) < len(dexsanity_required):
         spec = not_added.pop()
         add_spec(spec)
+
+    print(len(dexs), world.options.dexsanity.value, len(dexs - dexsanity_required), len(dexsanity_required), len(reqd_dexs))
 
     return ret
 

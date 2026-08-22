@@ -583,6 +583,7 @@ id = 80
 group = "items"
 clas = "bagitem"
 data_id = 80
+classification = "progression"
 
 [moon_stone]
 label = "Moon Stone"
@@ -590,6 +591,7 @@ id = 81
 group = "items"
 clas = "bagitem"
 data_id = 81
+classification = "progression"
 
 [fire_stone]
 label = "Fire Stone"
@@ -597,6 +599,7 @@ id = 82
 group = "items"
 clas = "bagitem"
 data_id = 82
+classification = "progression"
 
 [thunderstone]
 label = "Thunderstone"
@@ -604,6 +607,7 @@ id = 83
 group = "items"
 clas = "bagitem"
 data_id = 83
+classification = "progression"
 
 [water_stone]
 label = "Water Stone"
@@ -611,6 +615,7 @@ id = 84
 group = "items"
 clas = "bagitem"
 data_id = 84
+classification = "progression"
 
 [leaf_stone]
 label = "Leaf Stone"
@@ -618,6 +623,7 @@ id = 85
 group = "items"
 clas = "bagitem"
 data_id = 85
+classification = "progression"
 
 [tinymushroom]
 label = "TinyMushroom"
@@ -772,6 +778,7 @@ id = 107
 group = "items"
 clas = "bagitem"
 data_id = 107
+classification = "progression"
 
 [dusk_stone]
 label = "Dusk Stone"
@@ -779,6 +786,7 @@ id = 108
 group = "items"
 clas = "bagitem"
 data_id = 108
+classification = "progression"
 
 [dawn_stone]
 label = "Dawn Stone"
@@ -786,6 +794,7 @@ id = 109
 group = "items"
 clas = "bagitem"
 data_id = 109
+classification = "progression"
 
 [oval_stone]
 label = "Oval Stone"
@@ -793,6 +802,7 @@ id = 110
 group = "items"
 clas = "specialbagitem"
 data_id = 110
+classification = "progression"
 
 [odd_keystone]
 label = "Odd Keystone"
@@ -962,6 +972,7 @@ id = 155
 group = "berries"
 clas = "specialbagitem"
 data_id = 133
+classification = "progression"
 
 [oran_berry_x3]
 label = "Oran Berry x3"
@@ -970,6 +981,7 @@ group = "berries"
 clas = "bagitem"
 data_id = 133
 count = 3
+classification = "progression"
 
 [persim_berry]
 label = "Persim Berry"
@@ -1433,6 +1445,7 @@ id = 221
 group = "items"
 clas = "specialbagitem"
 data_id = 199
+classification = "progression"
 
 [silverpowder]
 label = "SilverPowder"
@@ -1468,6 +1481,7 @@ id = 226
 group = "items"
 clas = "specialbagitem"
 data_id = 204
+classification = "progression"
 
 [deepseascale]
 label = "DeepSeaScale"
@@ -1475,6 +1489,7 @@ id = 227
 group = "items"
 clas = "specialbagitem"
 data_id = 205
+classification = "progression"
 
 [smoke_ball]
 label = "Smoke Ball"
@@ -1517,6 +1532,7 @@ id = 233
 group = "items"
 clas = "specialbagitem"
 data_id = 211
+classification = "progression"
 
 [leftovers]
 label = "Leftovers"
@@ -1531,6 +1547,7 @@ id = 235
 group = "items"
 clas = "specialbagitem"
 data_id = 213
+classification = "progression"
 
 [light_ball]
 label = "Light Ball"
@@ -1650,6 +1667,7 @@ id = 252
 group = "items"
 clas = "specialbagitem"
 data_id = 230
+classification = "progression"
 
 [shell_bell]
 label = "Shell Bell"
@@ -2133,6 +2151,7 @@ id = 321
 group = "items"
 clas = "specialbagitem"
 data_id = 299
+classification = "progression"
 
 [electirizer]
 label = "Electirizer"
@@ -2140,6 +2159,7 @@ id = 322
 group = "items"
 clas = "specialbagitem"
 data_id = 300
+classification = "progression"
 
 [magmarizer]
 label = "Magmarizer"
@@ -2147,6 +2167,7 @@ id = 323
 group = "items"
 clas = "specialbagitem"
 data_id = 301
+classification = "progression"
 
 [dubious_disc]
 label = "Dubious Disc"
@@ -2154,6 +2175,7 @@ id = 324
 group = "items"
 clas = "specialbagitem"
 data_id = 302
+classification = "progression"
 
 [reaper_cloth]
 label = "Reaper Cloth"
@@ -2161,6 +2183,7 @@ id = 325
 group = "items"
 clas = "specialbagitem"
 data_id = 303
+classification = "progression"
 
 [razor_claw]
 label = "Razor Claw"
@@ -2168,6 +2191,7 @@ id = 326
 group = "items"
 clas = "specialbagitem"
 data_id = 304
+classification = "progression"
 
 [razor_fang]
 label = "Razor Fang"
@@ -2175,6 +2199,7 @@ id = 327
 group = "items"
 clas = "specialbagitem"
 data_id = 305
+classification = "progression"
 
 [tm01]
 label = "TM01"
@@ -3041,6 +3066,7 @@ id = 450
 group = "key_items"
 clas = "bagitem"
 data_id = 427
+classification = "progression"
 
 [suite_key]
 label = "Suite Key"
@@ -3140,6 +3166,7 @@ id = 464
 group = "key_items"
 clas = "bagitem"
 data_id = 441
+classification = "progression"
 
 [vs__recorder]
 label = "Vs. Recorder"
@@ -3676,113 +3703,160 @@ data_id = 515
 [zephyr_badge]
 id = 0
 label = "Zephyr Badge"
-group = "badges"
+group = [
+    "badges",
+    "johto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [hive_badge]
 id = 1
 label = "Hive Badge"
-group = "badges"
+group = [
+    "badges",
+    "johto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [plain_badge]
 id = 2
 label = "Plain Badge"
-group = ["badges", "johto_badges"]
+group = [
+    "badges",
+    "johto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [fog_badge]
 id = 3
 label = "Fog Badge"
-group = ["badges", "johto_badges"]
+group = [
+    "badges",
+    "johto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [storm_badge]
 id = 4
 label = "Storm Badge"
-group = ["badges", "johto_badges"]
+group = [
+    "badges",
+    "johto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [mineral_badge]
 id = 5
 label = "Mineral Badge"
-group = ["badges", "johto_badges"]
+group = [
+    "badges",
+    "johto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [glacier_badge]
 id = 6
 label = "Glacier Badge"
-group = ["badges", "johto_badges"]
+group = [
+    "badges",
+    "johto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [rising_badge]
 id = 7
 label = "Rising Badge"
-group = ["badges", "johto_badges"]
+group = [
+    "badges",
+    "johto_badges",
+]
 clas = "special"
 classification = "progression"
-
 
 [boulder_badge]
 id = 8
 label = "Boulder Badge"
-group = ["badges", "kanto_badges"]
+group = [
+    "badges",
+    "kanto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [cascade_badge]
 id = 9
 label = "Cascade Badge"
-group = ["badges", "kanto_badges"]
+group = [
+    "badges",
+    "kanto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [thunder_badge]
 id = 10
 label = "Thunder Badge"
-group = ["badges", "kanto_badges"]
+group = [
+    "badges",
+    "kanto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [rainbow_badge]
 id = 11
 label = "Rainbow Badge"
-group = ["badges", "kanto_badges"]
+group = [
+    "badges",
+    "kanto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [soul_badge]
 id = 12
 label = "Soul Badge"
-group = ["badges", "kanto_badges"]
+group = [
+    "badges",
+    "kanto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [marsh_badge]
 id = 13
 label = "Marsh Badge"
-group = ["badges", "kanto_badges"]
+group = [
+    "badges",
+    "kanto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [volcano_badge]
 id = 14
 label = "Volcano Badge"
-group = ["badges", "kanto_badges"]
+group = [
+    "badges",
+    "kanto_badges",
+]
 clas = "special"
 classification = "progression"
 
 [earth_badge]
 id = 15
 label = "Earth Badge"
-group = ["badges", "kanto_badges"]
+group = [
+    "badges",
+    "kanto_badges",
+]
 clas = "special"
 classification = "progression"
 

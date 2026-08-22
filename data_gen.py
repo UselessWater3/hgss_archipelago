@@ -108,6 +108,7 @@ class EncounterSlot:
 @dataclass(frozen=True)
 class Encounters:
     id: int
+    label: str
     land: Sequence[EncounterSlot] = field(default_factory=list)
     water: Sequence[EncounterSlot] = field(default_factory=list)
     rock_smash: Sequence[EncounterSlot] = field(default_factory=list)
@@ -370,7 +371,7 @@ class ParserState:
     def parse_encounters(self):
         def convert_inner_encounter_slots(val: MutableMapping[str, Any]) -> Mapping[str, Sequence[EncounterSlot]]:
             for k, v in val.items():
-                if k != "id":
+                if k not in {"id", "label"}:
                     val[k] = [EncounterSlot(**vp) for vp in v]
             return val
         self.encounters = {k:Encounters(**convert_inner_encounter_slots(v)) for k, v in get_toml("encounters").items()}
@@ -617,6 +618,8 @@ class ParserState:
             rule.add_dependent_items(item_conds)
         for rule in self.rules.trainers.values():
             rule.add_dependent_items(item_conds)
+        for rule in self.rules.events.values():
+            rule.add_dependent_items(item_conds)
         item_conds.add_all(self.misc_data.hm.values())
         item_conds.add_all(self.misc_data.hm_badge.values())
         item_conds.add_all(self.misc_data.reusable_evo_items)
@@ -685,7 +688,7 @@ class ParserState:
             return f"\"{name}\""
 
     def encounter_connection(self, region: str, type: str) -> str:
-        return f"(\"{region}\", \"{self.regions[region].header}_{type}\")"
+        return f"(\"{region}\", \"{self.regions[region].encounters}_{type}\")"
 
     def generate_rules(self) -> Mapping[str, Sequence[str]]:
         ret = {}
@@ -773,7 +776,7 @@ class ParserState:
 
         def add_starter_rival(t):
             if t.startswith("rival_"):
-                return t + "_turtwig"
+                return t + "_chikorita"
             else:
                 return t
         trainer_region_map: Mapping[str, str] = {

@@ -382,7 +382,7 @@ class InLogicEncounters(OptionSet):
 
     def methods(self) -> Set[str]:
         if self.cached_methods is None:
-            self.cached_methods = {v for s in self.value for v in ENCOUNTER_METHOD_MAP.get(s, {s})}
+            self.cached_methods = {v for s in self.value for v in ENCOUNTER_METHOD_MAP.get(s, {s})} | {"surf"}
         return self.cached_methods
 
 
@@ -1052,7 +1052,7 @@ class PokemonHgssOptions(PerGameCommonOptions):
         if self.randomize_encounters:
             required_mons.add("pichu")
 
-        if self.randomize_encounters:
+        if not self.randomize_encounters:
             in_logic_encounter_mons = expand_set_via_evolutions({slot.species
                 for rd in regions.values()
                 if rd.encounters \

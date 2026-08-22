@@ -1,11 +1,22 @@
 [t20]
 id = 0
+label = "New Bark"
 
 [[t20.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+    "surf_swarms",
+]
 
 [[t20.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[t20.water]]
 species = "magikarp"
@@ -38,6 +49,7 @@ accessibility = [
 
 [r29]
 id = 1
+label = "Route 29"
 
 [[r29.land]]
 species = "pidgey"
@@ -83,12 +95,20 @@ accessibility = [
 
 [t21]
 id = 2
+label = "Cherrygrove"
 
 [[t21.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[t21.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[t21.water]]
 species = "magikarp"
@@ -127,6 +147,7 @@ accessibility = [
 
 [r30]
 id = 3
+label = "Route 30"
 
 [[r30.land]]
 species = "ledyba"
@@ -230,9 +251,20 @@ accessibility = [
 
 [[r30.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r30.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+]
 
 [[r30.water]]
 species = "magikarp"
@@ -245,6 +277,7 @@ accessibility = [
 
 [r31]
 id = 4
+label = "Route 31"
 
 [[r31.land]]
 species = "ledyba"
@@ -351,9 +384,20 @@ accessibility = [
 
 [[r31.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r31.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+]
 
 [[r31.water]]
 species = "magikarp"
@@ -366,12 +410,24 @@ accessibility = [
 
 [t22]
 id = 5
+label = "Violet"
 
 [[t22.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[t22.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+]
 
 [[t22.water]]
 species = "whiscash"
@@ -389,15 +445,10 @@ accessibility = [
 
 [d15r0102]
 id = 6
+label = "Sprout Tower 2F"
 
 [[d15r0102.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d15r0102.land]]
 species = "gastly"
@@ -431,15 +482,10 @@ accessibility = [
 
 [d15r0103]
 id = 7
+label = "Sprout Tower 3F"
 
 [[d15r0103.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d15r0103.land]]
 species = "gastly"
@@ -473,15 +519,10 @@ accessibility = [
 
 [r32]
 id = 8
+label = "Route 32"
 
 [[r32.land]]
 species = "bellsprout"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r32.land]]
 species = "wooper"
@@ -548,12 +589,26 @@ accessibility = [
 
 [[r32.water]]
 species = "tentacool"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r32.water]]
 species = "quagsire"
+accessibility = [
+    "surf",
+]
 
 [[r32.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[r32.water]]
 species = "qwilfish"
@@ -576,15 +631,10 @@ id = 9
 rock_smash = [
     { species = "geodude" },
 ]
+label = "Ruins Of Alph"
 
 [[d24r0101.land]]
 species = "natu"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d24r0101.land]]
 species = "smeargle"
@@ -615,9 +665,16 @@ accessibility = [
 
 [[d24r0101.water]]
 species = "wooper"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d24r0101.water]]
 species = "quagsire"
+accessibility = [
+    "surf",
+]
 
 [[d24r0101.water]]
 species = "magikarp"
@@ -639,71 +696,38 @@ accessibility = [
 
 [d24r0205]
 id = 10
-
-[[d24r0205.land]]
-species = "unown"
-accessibility = [
-    "day",
-    "night",
-    "land_swarms",
-    "hoenn",
-    "sinnoh",
-    "morning",
+land = [
+    { species = "unown" },
 ]
+label = "Ruins Of Alph Underground Hall"
 
 [d24r0216]
 id = 11
-
-[[d24r0216.land]]
-species = "unown"
-accessibility = [
-    "day",
-    "night",
-    "land_swarms",
-    "hoenn",
-    "sinnoh",
-    "morning",
+land = [
+    { species = "unown" },
 ]
+label = "D24r0216"
 
 [d24r0218]
 id = 12
-
-[[d24r0218.land]]
-species = "unown"
-accessibility = [
-    "day",
-    "night",
-    "land_swarms",
-    "hoenn",
-    "sinnoh",
-    "morning",
+land = [
+    { species = "unown" },
 ]
+label = "D24r0218"
 
 [d24r0217]
 id = 13
-
-[[d24r0217.land]]
-species = "unown"
-accessibility = [
-    "day",
-    "night",
-    "land_swarms",
-    "hoenn",
-    "sinnoh",
-    "morning",
+land = [
+    { species = "unown" },
 ]
+label = "D24r0217"
 
 [d25r0101]
 id = 14
+label = "Union Cave 1F"
 
 [[d25r0101.land]]
 species = "geodude"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d25r0101.land]]
 species = "rattata"
@@ -744,9 +768,16 @@ accessibility = [
 
 [[d25r0101.water]]
 species = "wooper"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d25r0101.water]]
 species = "quagsire"
+accessibility = [
+    "surf",
+]
 
 [[d25r0101.water]]
 species = "magikarp"
@@ -774,15 +805,10 @@ accessibility = [
 
 [d25r0102]
 id = 15
+label = "Union Cave B1F"
 
 [[d25r0102.land]]
 species = "geodude"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d25r0102.land]]
 species = "rattata"
@@ -823,9 +849,16 @@ accessibility = [
 
 [[d25r0102.water]]
 species = "wooper"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d25r0102.water]]
 species = "quagsire"
+accessibility = [
+    "surf",
+]
 
 [[d25r0102.water]]
 species = "magikarp"
@@ -853,15 +886,10 @@ accessibility = [
 
 [d25r0103]
 id = 16
+label = "Union Cave B2F"
 
 [[d25r0103.land]]
 species = "zubat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d25r0103.land]]
 species = "raticate"
@@ -904,12 +932,22 @@ accessibility = [
 
 [[d25r0103.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d25r0103.water]]
 species = "quagsire"
+accessibility = [
+    "surf",
+]
 
 [[d25r0103.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[d25r0103.water]]
 species = "magikarp"
@@ -948,6 +986,7 @@ accessibility = [
 
 [r33]
 id = 17
+label = "Route 33"
 
 [[r33.land]]
 species = "hoppip"
@@ -998,15 +1037,10 @@ accessibility = [
 
 [d26r0102]
 id = 18
+label = "Slowpoke Well B1F"
 
 [[d26r0102.land]]
 species = "zubat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d26r0102.land]]
 species = "slowpoke"
@@ -1037,6 +1071,10 @@ accessibility = [
 
 [[d26r0102.water]]
 species = "slowpoke"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d26r0102.water]]
 species = "magikarp"
@@ -1064,15 +1102,10 @@ accessibility = [
 
 [d26r0103]
 id = 19
+label = "Slowpoke Well B2F"
 
 [[d26r0103.land]]
 species = "zubat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d26r0103.land]]
 species = "slowpoke"
@@ -1106,9 +1139,16 @@ accessibility = [
 
 [[d26r0103.water]]
 species = "slowpoke"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d26r0103.water]]
 species = "slowbro"
+accessibility = [
+    "surf",
+]
 
 [[d26r0103.water]]
 species = "magikarp"
@@ -1136,6 +1176,7 @@ accessibility = [
 
 [d36r0101]
 id = 20
+label = "Ilex Forest South"
 
 [[d36r0101.land]]
 species = "weedle"
@@ -1209,9 +1250,16 @@ accessibility = [
 
 [[d36r0101.water]]
 species = "psyduck"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d36r0101.water]]
 species = "golduck"
+accessibility = [
+    "surf",
+]
 
 [[d36r0101.water]]
 species = "magikarp"
@@ -1233,6 +1281,7 @@ accessibility = [
 
 [r34]
 id = 21
+label = "Route 34"
 
 [[r34.land]]
 species = "drowzee"
@@ -1278,9 +1327,16 @@ accessibility = [
 
 [[r34.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[r34.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[r34.water]]
 species = "magikarp"
@@ -1319,6 +1375,7 @@ accessibility = [
 
 [r35]
 id = 22
+label = "Route 35"
 
 [[r35.land]]
 species = "nidoran_f"
@@ -1350,12 +1407,6 @@ species = "ditto"
 
 [[r35.land]]
 species = "yanma"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r35.land]]
 species = "whismur"
@@ -1383,9 +1434,16 @@ accessibility = [
 
 [[r35.water]]
 species = "psyduck"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[r35.water]]
 species = "golduck"
+accessibility = [
+    "surf",
+]
 
 [[r35.water]]
 species = "magikarp"
@@ -1407,6 +1465,7 @@ accessibility = [
 
 [d22r0101]
 id = 23
+label = "National Park"
 
 [[d22r0101.land]]
 species = "weedle"
@@ -1481,52 +1540,22 @@ accessibility = [
 
 [d22r0102]
 id = 24
-
-[[d22r0102.land]]
-species = "weedle"
-accessibility = [
-    "day",
-    "night",
-    "land_swarms",
-    "hoenn",
-    "sinnoh",
-    "morning",
+land = [
+    { species = "weedle", version = "ss" },
+    { species = "caterpie", version = "hg" },
 ]
-version = "ss"
-
-[[d22r0102.land]]
-species = "caterpie"
-accessibility = [
-    "day",
-    "night",
-    "land_swarms",
-    "hoenn",
-    "sinnoh",
-    "morning",
-]
-version = "hg"
+label = "D22r0102"
 
 [r36]
 id = 25
+label = "Route 36 North"
 
 [[r36.land]]
 species = "nidoran_f"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r36.land]]
 species = "nidoran_m"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "hg"
 
 [[r36.land]]
@@ -1581,6 +1610,7 @@ accessibility = [
 
 [r37]
 id = 26
+label = "Route 37"
 
 [[r37.land]]
 species = "ledyba"
@@ -1657,12 +1687,24 @@ accessibility = [
 
 [t27]
 id = 27
+label = "Ecruteak"
 
 [[t27.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[t27.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+]
 
 [[t27.water]]
 species = "magikarp"
@@ -1675,15 +1717,10 @@ accessibility = [
 
 [d18r0101]
 id = 28
+label = "Burned Tower 1F"
 
 [[d18r0101.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d18r0101.land]]
 species = "koffing"
@@ -1720,15 +1757,10 @@ accessibility = [
 
 [d18r0102]
 id = 29
+label = "Burned Tower B1F"
 
 [[d18r0102.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d18r0102.land]]
 species = "koffing"
@@ -1765,15 +1797,10 @@ accessibility = [
 
 [d17r0102]
 id = 30
+label = "Bell Tower 2F"
 
 [[d17r0102.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0102.land]]
 species = "gastly"
@@ -1807,15 +1834,10 @@ accessibility = [
 
 [d17r0103]
 id = 31
+label = "Bell Tower 3F"
 
 [[d17r0103.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0103.land]]
 species = "gastly"
@@ -1849,15 +1871,10 @@ accessibility = [
 
 [d17r0104]
 id = 32
+label = "Bell Tower 4F"
 
 [[d17r0104.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0104.land]]
 species = "gastly"
@@ -1891,15 +1908,10 @@ accessibility = [
 
 [d17r0105]
 id = 33
+label = "Bell Tower 5F"
 
 [[d17r0105.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0105.land]]
 species = "gastly"
@@ -1933,15 +1945,10 @@ accessibility = [
 
 [d17r0106]
 id = 34
+label = "Bell Tower 6F"
 
 [[d17r0106.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0106.land]]
 species = "gastly"
@@ -1975,15 +1982,10 @@ accessibility = [
 
 [d17r0107]
 id = 35
+label = "Bell Tower 7F"
 
 [[d17r0107.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0107.land]]
 species = "gastly"
@@ -2017,15 +2019,10 @@ accessibility = [
 
 [d17r0108]
 id = 36
+label = "Bell Tower 8F"
 
 [[d17r0108.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0108.land]]
 species = "gastly"
@@ -2059,15 +2056,10 @@ accessibility = [
 
 [d17r0109]
 id = 37
+label = "Bell Tower 9F"
 
 [[d17r0109.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0109.land]]
 species = "gastly"
@@ -2101,6 +2093,7 @@ accessibility = [
 
 [r38]
 id = 38
+label = "Route 38"
 
 [[r38.land]]
 species = "meowth"
@@ -2131,12 +2124,6 @@ species = "tauros"
 
 [[r38.land]]
 species = "snubbull"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r38.land]]
 species = "plusle"
@@ -2158,25 +2145,14 @@ accessibility = [
 
 [r39]
 id = 39
+label = "Route 39"
 
 [[r39.land]]
 species = "meowth"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r39.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "hg"
 
 [[r39.land]]
@@ -2218,12 +2194,20 @@ accessibility = [
 
 [t26]
 id = 40
+label = "Olivine"
 
 [[t26.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[t26.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[t26.water]]
 species = "magikarp"
@@ -2262,12 +2246,20 @@ accessibility = [
 
 [w40]
 id = 41
+label = "Route 40"
 
 [[w40.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[w40.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[w40.water]]
 species = "magikarp"
@@ -2306,15 +2298,29 @@ accessibility = [
 
 [w41]
 id = 42
+label = "Route 41"
 
 [[w41.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+    "surf_swarms",
+]
 
 [[w41.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[w41.water]]
 species = "mantine"
+accessibility = [
+    "surf",
+]
 version = "hg"
 
 [[w41.water]]
@@ -2348,15 +2354,10 @@ accessibility = [
 
 [d40r0101]
 id = 43
+label = "Whirl Islands 1F"
 
 [[d40r0101.land]]
 species = "krabby"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d40r0101.land]]
 species = "zubat"
@@ -2393,12 +2394,25 @@ accessibility = [
 
 [[d40r0101.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d40r0101.water]]
 species = "horsea"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
 
 [[d40r0101.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[d40r0101.water]]
 species = "magikarp"
@@ -2430,15 +2444,10 @@ accessibility = [
 
 [d40r0102]
 id = 44
+label = "Whirl Islands B1F"
 
 [[d40r0102.land]]
 species = "krabby"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d40r0102.land]]
 species = "zubat"
@@ -2475,18 +2484,14 @@ accessibility = [
 
 [unused_045]
 id = 45
+label = "Unused 045"
 
 [d40r0104]
 id = 46
+label = "Whirl Islands B2F"
 
 [[d40r0104.land]]
 species = "krabby"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d40r0104.land]]
 species = "zubat"
@@ -2523,12 +2528,26 @@ accessibility = [
 
 [[d40r0104.water]]
 species = "horsea"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[d40r0104.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[d40r0104.water]]
 species = "seadra"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[d40r0104.water]]
 species = "magikarp"
@@ -2554,18 +2573,14 @@ accessibility = [
 
 [unused_047]
 id = 47
+label = "Unused 047"
 
 [d40r0106]
 id = 48
+label = "Whirl Islands B3F"
 
 [[d40r0106.land]]
 species = "krabby"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d40r0106.land]]
 species = "zubat"
@@ -2602,9 +2617,11 @@ accessibility = [
 
 [unused_049]
 id = 49
+label = "Unused 049"
 
 [unused_050]
 id = 50
+label = "Unused 050"
 
 [t24]
 id = 51
@@ -2612,12 +2629,20 @@ rock_smash = [
     { species = "krabby" },
     { species = "shuckle" },
 ]
+label = "Cianwood"
 
 [[t24.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[t24.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[t24.water]]
 species = "magikarp"
@@ -2656,25 +2681,14 @@ accessibility = [
 
 [r42]
 id = 52
+label = "Route 42"
 
 [[r42.land]]
 species = "mareep"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r42.land]]
 species = "mankey"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "hg"
 
 [[r42.land]]
@@ -2723,9 +2737,21 @@ accessibility = [
 
 [[r42.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r42.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[r42.water]]
 species = "magikarp"
@@ -2738,6 +2764,7 @@ accessibility = [
 
 [d38r0101]
 id = 53
+label = "Mount Mortar 1F Entrance"
 
 [[d38r0101.land]]
 species = "zubat"
@@ -2753,12 +2780,6 @@ species = "geodude"
 
 [[d38r0101.land]]
 species = "marill"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d38r0101.land]]
 species = "absol"
@@ -2786,9 +2807,21 @@ accessibility = [
 
 [[d38r0101.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[d38r0101.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[d38r0101.water]]
 species = "magikarp"
@@ -2801,15 +2834,10 @@ accessibility = [
 
 [d38r0102]
 id = 54
+label = "Mount Mortar 1F Back South"
 
 [[d38r0102.land]]
 species = "geodude"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d38r0102.land]]
 species = "machop"
@@ -2846,15 +2874,10 @@ accessibility = [
 
 [d38r0103]
 id = 55
+label = "Mount Mortar 2F"
 
 [[d38r0103.land]]
 species = "graveler"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d38r0103.land]]
 species = "machoke"
@@ -2897,9 +2920,21 @@ accessibility = [
 
 [[d38r0103.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[d38r0103.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[d38r0103.water]]
 species = "magikarp"
@@ -2912,15 +2947,10 @@ accessibility = [
 
 [d38r0104]
 id = 56
+label = "Mount Mortar B1F South"
 
 [[d38r0104.land]]
 species = "zubat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d38r0104.land]]
 species = "rattata"
@@ -2960,9 +2990,21 @@ accessibility = [
 
 [[d38r0104.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[d38r0104.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[d38r0104.water]]
 species = "magikarp"
@@ -2975,15 +3017,10 @@ accessibility = [
 
 [r43]
 id = 57
+label = "Route 43"
 
 [[r43.land]]
 species = "flaaffy"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r43.land]]
 species = "girafarig"
@@ -3037,6 +3074,14 @@ accessibility = [
 
 [[r43.water]]
 species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
 
 [[r43.water]]
 species = "poliwag"
@@ -3049,22 +3094,34 @@ accessibility = [
 
 [t29]
 id = 58
-water = [
-    { species = "magikarp" },
-    { species = "gyarados" },
+label = "Lake Of Rage"
+
+[[t29.water]]
+species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
+
+[[t29.water]]
+species = "gyarados"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
 ]
 
 [r44]
 id = 59
+label = "Route 44"
 
 [[r44.land]]
 species = "tangela"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r44.land]]
 species = "weepinbell"
@@ -3101,9 +3158,20 @@ accessibility = [
 
 [[r44.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r44.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+]
 
 [[r44.water]]
 species = "remoraid"
@@ -3123,15 +3191,10 @@ accessibility = [
 
 [d39r0101]
 id = 60
+label = "Ice Path 1F"
 
 [[d39r0101.land]]
 species = "swinub"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d39r0101.land]]
 species = "golbat"
@@ -3181,15 +3244,10 @@ accessibility = [
 
 [d39r0102]
 id = 61
+label = "Ice Path B1F"
 
 [[d39r0102.land]]
 species = "swinub"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d39r0102.land]]
 species = "golbat"
@@ -3239,15 +3297,10 @@ accessibility = [
 
 [d39r0103]
 id = 62
+label = "Ice Path B2F"
 
 [[d39r0103.land]]
 species = "swinub"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d39r0103.land]]
 species = "golbat"
@@ -3297,15 +3350,10 @@ accessibility = [
 
 [d39r0104]
 id = 63
+label = "Ice Path B3F"
 
 [[d39r0104.land]]
 species = "swinub"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d39r0104.land]]
 species = "golbat"
@@ -3355,12 +3403,22 @@ accessibility = [
 
 [unused_064]
 id = 64
+label = "Unused 064"
 
 [t30]
 id = 65
+label = "Blackthorn"
 
 [[t30.water]]
 species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
 
 [[t30.water]]
 species = "poliwag"
@@ -3373,12 +3431,27 @@ accessibility = [
 
 [d44r0102]
 id = 66
+label = "Dragons Den"
 
 [[d44r0102.water]]
 species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
 
 [[d44r0102.water]]
 species = "dratini"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
 
 [[d44r0102.water]]
 species = "dragonair"
@@ -3388,6 +3461,7 @@ accessibility = [
 
 [r45]
 id = 67
+label = "Route 45"
 
 [[r45.land]]
 species = "geodude"
@@ -3443,6 +3517,14 @@ accessibility = [
 
 [[r45.water]]
 species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
 
 [[r45.water]]
 species = "poliwag"
@@ -3455,15 +3537,10 @@ accessibility = [
 
 [r46]
 id = 68
+label = "Route 46"
 
 [[r46.land]]
 species = "geodude"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r46.land]]
 species = "spearow"
@@ -3499,6 +3576,7 @@ rock_smash = [
     { species = "dunsparce" },
     { species = "geodude" },
 ]
+label = "Dark Cave Route 31 Side West"
 
 [[d42r0102.land]]
 species = "geodude"
@@ -3508,12 +3586,6 @@ species = "zubat"
 
 [[d42r0102.land]]
 species = "dunsparce"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d42r0102.land]]
 species = "absol"
@@ -3541,6 +3613,14 @@ accessibility = [
 
 [[d42r0102.water]]
 species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
 
 [[d42r0102.water]]
 species = "goldeen"
@@ -3559,15 +3639,10 @@ accessibility = [
 
 [d42r0101]
 id = 70
+label = "Dark Cave Route 45 Side"
 
 [[d42r0101.land]]
 species = "geodude"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d42r0101.land]]
 species = "zubat"
@@ -3607,6 +3682,14 @@ accessibility = [
 
 [[d42r0101.water]]
 species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
 
 [[d42r0101.water]]
 species = "goldeen"
@@ -3625,6 +3708,7 @@ accessibility = [
 
 [r47]
 id = 71
+label = "Route 47"
 
 [[r47.land]]
 species = "farfetchd"
@@ -3644,12 +3728,6 @@ species = "miltank"
 
 [[r47.land]]
 species = "ditto"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r47.land]]
 species = "gloom"
@@ -3689,12 +3767,24 @@ accessibility = [
 
 [[r47.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+    "surf_swarms",
+]
 
 [[r47.water]]
 species = "seel"
+accessibility = [
+    "surf",
+]
 
 [[r47.water]]
 species = "staryu"
+accessibility = [
+    "surf",
+]
 
 [[r47.water]]
 species = "magikarp"
@@ -3733,16 +3823,41 @@ accessibility = [
 
 [d02r0103]
 id = 72
-water = [
-    { species = "poliwag" },
-    { species = "magikarp" },
+label = "Mount Moon Square"
+
+[[d02r0103.water]]
+species = "poliwag"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
+
+[[d02r0103.water]]
+species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "surf",
+    "fishing_swarms",
 ]
 
 [d02r0104]
 id = 73
+label = "Mount Moon Square Clefairy Event"
 
 [[d02r0104.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
 
 [[d02r0104.water]]
 species = "magikarp"
@@ -3755,15 +3870,10 @@ accessibility = [
 
 [d11r0101]
 id = 74
+label = "Seafoam Islands 1F West"
 
 [[d11r0101.land]]
 species = "zubat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d11r0101.land]]
 species = "golbat"
@@ -3800,15 +3910,10 @@ accessibility = [
 
 [d11r0102]
 id = 75
+label = "Seafoam Islands B1F"
 
 [[d11r0102.land]]
 species = "seel"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d11r0102.land]]
 species = "golbat"
@@ -3848,15 +3953,10 @@ accessibility = [
 
 [d11r0103]
 id = 76
+label = "Seafoam Islands B2F"
 
 [[d11r0103.land]]
 species = "seel"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d11r0103.land]]
 species = "golbat"
@@ -3896,15 +3996,10 @@ accessibility = [
 
 [d11r0104]
 id = 77
+label = "Seafoam Islands B3F"
 
 [[d11r0104.land]]
 species = "dewgong"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d11r0104.land]]
 species = "golbat"
@@ -3947,6 +4042,7 @@ accessibility = [
 
 [d11r0105]
 id = 78
+label = "Seafoam Islands B4F"
 
 [[d11r0105.land]]
 species = "dewgong"
@@ -3959,12 +4055,6 @@ species = "psyduck"
 
 [[d11r0105.land]]
 species = "seel"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d11r0105.land]]
 species = "jynx"
@@ -3998,12 +4088,25 @@ accessibility = [
 
 [[d11r0105.water]]
 species = "seel"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d11r0105.water]]
 species = "horsea"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
 
 [[d11r0105.water]]
 species = "slowbro"
+accessibility = [
+    "surf",
+]
 
 [[d11r0105.water]]
 species = "magikarp"
@@ -4046,15 +4149,10 @@ accessibility = [
 
 [d41r0105]
 id = 79
+label = "Mount Silver Cave Moltres Chamber"
 
 [[d41r0105.land]]
 species = "quagsire"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d41r0105.land]]
 species = "steelix"
@@ -4108,9 +4206,21 @@ accessibility = [
 
 [[d41r0105.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+    "surf_swarms",
+]
 
 [[d41r0105.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
 
 [[d41r0105.water]]
 species = "magikarp"
@@ -4123,15 +4233,10 @@ accessibility = [
 
 [d41r0106]
 id = 80
+label = "Mount Silver Cave 2F"
 
 [[d41r0106.land]]
 species = "quagsire"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d41r0106.land]]
 species = "sneasel"
@@ -4193,9 +4298,21 @@ accessibility = [
 
 [[d41r0106.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+    "surf_swarms",
+]
 
 [[d41r0106.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
 
 [[d41r0106.water]]
 species = "magikarp"
@@ -4208,15 +4325,10 @@ accessibility = [
 
 [d41r0107]
 id = 81
+label = "Mount Silver Cave 3F"
 
 [[d41r0107.land]]
 species = "sneasel"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d41r0107.land]]
 species = "golduck"
@@ -4270,9 +4382,21 @@ accessibility = [
 
 [[d41r0107.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+    "surf_swarms",
+]
 
 [[d41r0107.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
 
 [[d41r0107.water]]
 species = "magikarp"
@@ -4285,12 +4409,20 @@ accessibility = [
 
 [d48r0101]
 id = 82
+label = "Cliff Edge Gate"
 
 [[d48r0101.water]]
 species = "wooper"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d48r0101.water]]
 species = "quagsire"
+accessibility = [
+    "surf",
+]
 
 [[d48r0101.water]]
 species = "magikarp"
@@ -4315,15 +4447,10 @@ rock_smash = [
     { species = "krabby" },
     { species = "kingler" },
 ]
+label = "Cliff Cave"
 
 [[d50r0101.land]]
 species = "golbat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d50r0101.land]]
 species = "geodude"
@@ -4405,15 +4532,10 @@ accessibility = [
 
 [d17r0112]
 id = 84
+label = "Bell Tower 10F"
 
 [[d17r0112.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d17r0112.land]]
 species = "gastly"
@@ -4447,15 +4569,10 @@ accessibility = [
 
 [t31]
 id = 85
+label = "Mount Silver"
 
 [[t31.land]]
 species = "tangela"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[t31.land]]
 species = "ponyta"
@@ -4517,9 +4634,20 @@ accessibility = [
 
 [[t31.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[t31.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
 
 [[t31.water]]
 species = "magikarp"
@@ -4532,15 +4660,10 @@ accessibility = [
 
 [d41r0101]
 id = 86
+label = "Mount Silver Cave 1F"
 
 [[d41r0101.land]]
 species = "onix"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d41r0101.land]]
 species = "ursaring"
@@ -4593,9 +4716,20 @@ accessibility = [
 
 [[d41r0101.water]]
 species = "seaking"
+accessibility = [
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+]
 
 [[d41r0101.water]]
 species = "goldeen"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+]
 
 [[d41r0101.water]]
 species = "magikarp"
@@ -4614,15 +4748,10 @@ accessibility = [
 
 [d41r0103]
 id = 87
+label = "Mount Silver Cave Lower Mountainside"
 
 [[d41r0103.land]]
 species = "golbat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d41r0103.land]]
 species = "onix"
@@ -4675,15 +4804,10 @@ accessibility = [
 
 [d41r0104]
 id = 88
+label = "Mount Silver Cave Expert Belt Chamber"
 
 [[d41r0104.land]]
 species = "quagsire"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d41r0104.land]]
 species = "misdreavus"
@@ -4745,15 +4869,10 @@ accessibility = [
 
 [d41r0102]
 id = 89
+label = "Mount Silver Cave Upper Mountainside North"
 
 [[d41r0102.land]]
 species = "sneasel"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d41r0102.land]]
 species = "golduck"
@@ -4807,9 +4926,21 @@ accessibility = [
 
 [[d41r0102.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+    "surf_swarms",
+]
 
 [[d41r0102.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+]
 
 [[d41r0102.water]]
 species = "magikarp"
@@ -4822,18 +4953,14 @@ accessibility = [
 
 [090]
 id = 90
+label = "090"
 
 [d47r0102]
 id = 91
+label = "Safari Zone Entrance Exterior"
 
 [[d47r0102.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d47r0102.land]]
 species = "zigzagoon"
@@ -4849,6 +4976,10 @@ accessibility = [
 
 [[d47r0102.water]]
 species = "magikarp"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[d47r0102.water]]
 species = "goldeen"
@@ -4862,15 +4993,30 @@ accessibility = [
 
 [r12]
 id = 92
+label = "Route 12"
 
 [[r12.water]]
 species = "tentacool"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r12.water]]
 species = "quagsire"
+accessibility = [
+    "surf",
+]
 
 [[r12.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[r12.water]]
 species = "relicanth"
@@ -4898,12 +5044,19 @@ rock_smash = [
     { species = "kingler" },
     { species = "krabby" },
 ]
+label = "Route 19"
 
 [[w19.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+]
 
 [[w19.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[w19.water]]
 species = "clamperl"
@@ -4948,12 +5101,23 @@ accessibility = [
 
 [w20]
 id = 94
+label = "Route 20 West"
 
 [[w20.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+    "surf_swarms",
+]
 
 [[w20.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[w20.water]]
 species = "magikarp"
@@ -4986,12 +5150,23 @@ accessibility = [
 
 [t01]
 id = 95
+label = "Pallet"
 
 [[t01.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+    "surf_swarms",
+]
 
 [[t01.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[t01.water]]
 species = "magikarp"
@@ -5024,12 +5199,24 @@ accessibility = [
 
 [t02]
 id = 96
+label = "Viridian"
 
 [[t02.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[t02.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+]
 
 [[t02.water]]
 species = "magikarp"
@@ -5042,12 +5229,25 @@ accessibility = [
 
 [t04]
 id = 97
+label = "Cerulean"
 
 [[t04.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[t04.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[t04.water]]
 species = "magikarp"
@@ -5064,12 +5264,22 @@ rock_smash = [
     { species = "diglett" },
     { species = "shuckle" },
 ]
+label = "Vermilion"
 
 [[t06.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+]
 
 [[t06.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[t06.water]]
 species = "wingull"
@@ -5108,16 +5318,35 @@ accessibility = [
 
 [t07]
 id = 99
-water = [
-    { species = "grimer" },
-    { species = "muk" },
+label = "Celadon"
+
+[[t07.water]]
+species = "grimer"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
+
+[[t07.water]]
+species = "muk"
+accessibility = [
+    "surf",
 ]
 
 [t08]
 id = 100
+label = "Fuchsia"
 
 [[t08.water]]
 species = "magikarp"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "surf_swarms",
+    "fishing_swarms",
+]
 
 [[t08.water]]
 species = "gyarados"
@@ -5129,12 +5358,23 @@ accessibility = [
 
 [t09]
 id = 101
+label = "Cinnabar Island"
 
 [[t09.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+    "surf_swarms",
+]
 
 [[t09.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[t09.water]]
 species = "magikarp"
@@ -5167,6 +5407,7 @@ accessibility = [
 
 [r48]
 id = 102
+label = "Route 48"
 
 [[r48.land]]
 species = "farfetchd"
@@ -5185,12 +5426,6 @@ version = "hg"
 
 [[r48.land]]
 species = "tauros"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r48.land]]
 species = "hoppip"
@@ -5227,15 +5462,10 @@ accessibility = [
 
 [r26]
 id = 103
+label = "Route 26"
 
 [[r26.land]]
 species = "doduo"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r26.land]]
@@ -5301,9 +5531,19 @@ accessibility = [
 
 [[r26.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+    "surf_swarms",
+]
 
 [[r26.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[r26.water]]
 species = "magikarp"
@@ -5336,6 +5576,7 @@ accessibility = [
 
 [r27]
 id = 104
+label = "Route 27 West"
 
 [[r27.land]]
 species = "doduo"
@@ -5399,9 +5640,18 @@ accessibility = [
 
 [[r27.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+]
 
 [[r27.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[r27.water]]
 species = "luvdisc"
@@ -5440,15 +5690,10 @@ accessibility = [
 
 [r28]
 id = 105
+label = "Route 28 South"
 
 [[r28.land]]
 species = "tangela"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r28.land]]
 species = "ponyta"
@@ -5510,9 +5755,20 @@ accessibility = [
 
 [[r28.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r28.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+]
 
 [[r28.water]]
 species = "magikarp"
@@ -5525,15 +5781,10 @@ accessibility = [
 
 [d02r0101]
 id = 106
+label = "Mount Moon"
 
 [[d02r0101.land]]
 species = "zubat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d02r0101.land]]
 species = "geodude"
@@ -5578,15 +5829,10 @@ accessibility = [
 
 [d02r0102]
 id = 107
+label = "Mount Moon Square Entrance"
 
 [[d02r0102.land]]
 species = "zubat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d02r0102.land]]
 species = "geodude"
@@ -5631,15 +5877,10 @@ accessibility = [
 
 [d05r0101]
 id = 108
+label = "Rock Tunnel 1F"
 
 [[d05r0101.land]]
 species = "cubone"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d05r0101.land]]
 species = "geodude"
@@ -5682,15 +5923,10 @@ id = 109
 rock_smash = [
     { species = "geodude" },
 ]
+label = "Rock Tunnel B1F"
 
 [[d05r0102.land]]
 species = "cubone"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d05r0102.land]]
 species = "geodude"
@@ -5733,15 +5969,10 @@ accessibility = [
 
 [d43r0101]
 id = 110
+label = "Victory Road 1F"
 
 [[d43r0101.land]]
 species = "graveler"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d43r0101.land]]
 species = "golbat"
@@ -5786,6 +6017,7 @@ accessibility = [
 
 [r01]
 id = 111
+label = "Route 1"
 
 [[r01.land]]
 species = "pidgey"
@@ -5843,6 +6075,7 @@ accessibility = [
 
 [r02]
 id = 112
+label = "Route 2"
 
 [[r02.land]]
 species = "ledyba"
@@ -5863,12 +6096,6 @@ version = "hg"
 
 [[r02.land]]
 species = "weedle"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r02.land]]
@@ -5974,6 +6201,7 @@ accessibility = [
 
 [r03]
 id = 113
+label = "Route 3"
 
 [[r03.land]]
 species = "spearow"
@@ -6036,6 +6264,7 @@ accessibility = [
 
 [r04]
 id = 114
+label = "Route 4"
 
 [[r04.land]]
 species = "spearow"
@@ -6048,12 +6277,6 @@ version = "ss"
 
 [[r04.land]]
 species = "spearow"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "hg"
 
 [[r04.land]]
@@ -6102,9 +6325,21 @@ accessibility = [
 
 [[r04.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r04.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[r04.water]]
 species = "magikarp"
@@ -6117,6 +6352,7 @@ accessibility = [
 
 [r05]
 id = 115
+label = "Route 5"
 
 [[r05.land]]
 species = "pidgey"
@@ -6168,6 +6404,7 @@ accessibility = [
 
 [r06]
 id = 116
+label = "Route 6"
 
 [[r06.land]]
 species = "pidgey"
@@ -6222,9 +6459,16 @@ accessibility = [
 
 [[r06.water]]
 species = "psyduck"
+accessibility = [
+    "surf",
+    "surf_swarms",
+]
 
 [[r06.water]]
 species = "golduck"
+accessibility = [
+    "surf",
+]
 
 [[r06.water]]
 species = "magikarp"
@@ -6246,25 +6490,14 @@ accessibility = [
 
 [r07]
 id = 117
+label = "Route 7"
 
 [[r07.land]]
 species = "meowth"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r07.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "hg"
 
 [[r07.land]]
@@ -6328,15 +6561,10 @@ accessibility = [
 
 [r08]
 id = 118
+label = "Route 8"
 
 [[r08.land]]
 species = "meowth"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r08.land]]
@@ -6402,6 +6630,7 @@ accessibility = [
 
 [r09]
 id = 119
+label = "Route 9"
 
 [[r09.land]]
 species = "rattata"
@@ -6471,9 +6700,21 @@ accessibility = [
 
 [[r09.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r09.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[r09.water]]
 species = "magikarp"
@@ -6486,6 +6727,7 @@ accessibility = [
 
 [r10]
 id = 120
+label = "Route 10"
 
 [[r10.land]]
 species = "spearow"
@@ -6543,9 +6785,21 @@ accessibility = [
 
 [[r10.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r10.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[r10.water]]
 species = "magikarp"
@@ -6558,15 +6812,10 @@ accessibility = [
 
 [r11]
 id = 121
+label = "Route 11"
 
 [[r11.land]]
 species = "drowzee"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r11.land]]
 species = "rattata"
@@ -6597,6 +6846,7 @@ accessibility = [
 
 [r13]
 id = 122
+label = "Route 13"
 
 [[r13.land]]
 species = "nidorino"
@@ -6632,12 +6882,6 @@ accessibility = [
 
 [[r13.land]]
 species = "chansey"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r13.land]]
 species = "whismur"
@@ -6665,12 +6909,26 @@ accessibility = [
 
 [[r13.water]]
 species = "tentacool"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r13.water]]
 species = "quagsire"
+accessibility = [
+    "surf",
+]
 
 [[r13.water]]
 species = "tentacruel"
+accessibility = [
+    "surf",
+]
 
 [[r13.water]]
 species = "magikarp"
@@ -6689,25 +6947,14 @@ accessibility = [
 
 [r14]
 id = 123
+label = "Route 14"
 
 [[r14.land]]
 species = "nidorino"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r14.land]]
 species = "nidorina"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "hg"
 
 [[r14.land]]
@@ -6774,25 +7021,14 @@ accessibility = [
 
 [r15]
 id = 124
+label = "Route 15"
 
 [[r15.land]]
 species = "nidorino"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r15.land]]
 species = "nidorina"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "hg"
 
 [[r15.land]]
@@ -6852,15 +7088,10 @@ accessibility = [
 
 [r16r0301]
 id = 125
+label = "Route 16 East"
 
 [[r16r0301.land]]
 species = "grimer"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r16r0301.land]]
 species = "fearow"
@@ -6901,6 +7132,7 @@ accessibility = [
 
 [r17]
 id = 126
+label = "Route 17"
 
 [[r17.land]]
 species = "fearow"
@@ -6939,15 +7171,10 @@ accessibility = [
 
 [r18]
 id = 127
+label = "Route 18"
 
 [[r18.land]]
 species = "grimer"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r18.land]]
 species = "fearow"
@@ -6982,15 +7209,10 @@ accessibility = [
 
 [w21]
 id = 128
+label = "Route 21"
 
 [[w21.land]]
 species = "tangela"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[w21.land]]
 species = "mr_mime"
@@ -7021,9 +7243,19 @@ accessibility = [
 
 [[w21.water]]
 species = "tentacool"
+accessibility = [
+    "surf",
+    "good_rod",
+    "old_rod",
+    "surf_swarms",
+]
 
 [[w21.water]]
 species = "tentacruel"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[w21.water]]
 species = "magikarp"
@@ -7056,15 +7288,10 @@ accessibility = [
 
 [r22]
 id = 129
+label = "Route 22"
 
 [[r22.land]]
 species = "rattata"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r22.land]]
 species = "spearow"
@@ -7116,9 +7343,20 @@ accessibility = [
 
 [[r22.water]]
 species = "poliwag"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r22.water]]
 species = "poliwhirl"
+accessibility = [
+    "surf",
+]
 
 [[r22.water]]
 species = "magikarp"
@@ -7131,15 +7369,10 @@ accessibility = [
 
 [r24]
 id = 130
+label = "Route 24"
 
 [[r24.land]]
 species = "bellsprout"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[r24.land]]
 species = "venonat"
@@ -7198,9 +7431,21 @@ accessibility = [
 
 [[r24.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r24.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[r24.water]]
 species = "magikarp"
@@ -7213,6 +7458,7 @@ accessibility = [
 
 [r25]
 id = 131
+label = "Route 25"
 
 [[r25.land]]
 species = "pidgey"
@@ -7288,9 +7534,21 @@ accessibility = [
 
 [[r25.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[r25.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[r25.water]]
 species = "magikarp"
@@ -7303,15 +7561,10 @@ accessibility = [
 
 [d45r0101]
 id = 132
+label = "Tohjo Falls West"
 
 [[d45r0101.land]]
 species = "zubat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d45r0101.land]]
 species = "raticate"
@@ -7351,12 +7604,27 @@ accessibility = [
 
 [[d45r0101.water]]
 species = "goldeen"
+accessibility = [
+    "old_rod",
+    "good_rod",
+    "super_rod",
+    "surf",
+    "fishing_night",
+    "surf_swarms",
+]
 
 [[d45r0101.water]]
 species = "slowpoke"
+accessibility = [
+    "surf",
+]
 
 [[d45r0101.water]]
 species = "seaking"
+accessibility = [
+    "super_rod",
+    "surf",
+]
 
 [[d45r0101.water]]
 species = "magikarp"
@@ -7369,15 +7637,10 @@ accessibility = [
 
 [d01r0101]
 id = 133
+label = "Diglett Cave"
 
 [[d01r0101.land]]
 species = "diglett"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d01r0101.land]]
 species = "dugtrio"
@@ -7408,15 +7671,10 @@ accessibility = [
 
 [d43r0102]
 id = 134
+label = "Victory Road 2F"
 
 [[d43r0102.land]]
 species = "graveler"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d43r0102.land]]
 species = "golbat"
@@ -7465,15 +7723,10 @@ rock_smash = [
     { species = "geodude" },
     { species = "graveler" },
 ]
+label = "Victory Road 3F"
 
 [[d43r0103.land]]
 species = "graveler"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d43r0103.land]]
 species = "golbat"
@@ -7518,6 +7771,7 @@ accessibility = [
 
 [r02r0101]
 id = 136
+label = "Route 2 East"
 
 [[r02r0101.land]]
 species = "ledyba"
@@ -7538,12 +7792,6 @@ version = "hg"
 
 [[r02r0101.land]]
 species = "weedle"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 version = "ss"
 
 [[r02r0101.land]]
@@ -7649,6 +7897,7 @@ accessibility = [
 
 [d46r0101]
 id = 137
+label = "Viridian Forest"
 
 [[d46r0101.land]]
 species = "weedle"
@@ -7757,6 +8006,7 @@ accessibility = [
 
 [unused_138]
 id = 138
+label = "Unused 138"
 
 [d03r0101]
 id = 139
@@ -7764,18 +8014,13 @@ rock_smash = [
     { species = "geodude" },
     { species = "graveler" },
 ]
+label = "Cerulean Cave 1F"
 
 [[d03r0101.land]]
 species = "machoke"
 
 [[d03r0101.land]]
 species = "golbat"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d03r0101.land]]
 species = "parasect"
@@ -7826,9 +8071,15 @@ accessibility = [
 
 [[d03r0101.water]]
 species = "psyduck"
+accessibility = [
+    "surf",
+]
 
 [[d03r0101.water]]
 species = "golduck"
+accessibility = [
+    "surf",
+]
 
 [[d03r0101.water]]
 species = "poliwag"
@@ -7867,15 +8118,10 @@ accessibility = [
 
 [d03r0102]
 id = 140
+label = "Cerulean Cave 2F"
 
 [[d03r0102.land]]
 species = "kadabra"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d03r0102.land]]
 species = "parasect"
@@ -7924,9 +8170,15 @@ accessibility = [
 
 [[d03r0102.water]]
 species = "psyduck"
+accessibility = [
+    "surf",
+]
 
 [[d03r0102.water]]
 species = "golduck"
+accessibility = [
+    "surf",
+]
 
 [[d03r0102.water]]
 species = "poliwag"
@@ -7969,15 +8221,10 @@ rock_smash = [
     { species = "geodude" },
     { species = "graveler" },
 ]
+label = "Cerulean Cave B1F"
 
 [[d03r0103.land]]
 species = "kadabra"
-accessibility = [
-    "land_swarms",
-    "day",
-    "morning",
-    "night",
-]
 
 [[d03r0103.land]]
 species = "parasect"
@@ -8026,9 +8273,15 @@ accessibility = [
 
 [[d03r0103.water]]
 species = "psyduck"
+accessibility = [
+    "surf",
+]
 
 [[d03r0103.water]]
 species = "golduck"
+accessibility = [
+    "surf",
+]
 
 [[d03r0103.water]]
 species = "poliwag"

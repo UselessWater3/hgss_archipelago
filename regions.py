@@ -19,7 +19,7 @@ if TYPE_CHECKING:
     from . import PokemonHgssWorld
 
 def is_region_enabled(region: str | None, opts: PokemonHgssOptions) -> bool:
-    return True
+    return region is not None
 
 def is_event_region_enabled(event: str, opts: PokemonHgssOptions) -> bool:
     return is_region_enabled(regiondata.event_region_map[event], opts)
@@ -44,21 +44,20 @@ def create_regions(world: "PokemonHgssWorld") -> Tuple[Mapping[str, Region], Set
             if name not in regions:
                 wild_region = Region(name, world.player, world.multiworld)
                 regions[name] = wild_region
-                if type == "rock_smash" and type not in world.options.in_logic_encounters.methods():
-                    continue
 
-                for i, slot in enumerate(e):
-                    if not slot.in_logic(version, enc_mthds):
-                        continue
-                    loc_name = f"{enc_key}_{type}_{i + 1}"
-                    location = PokemonHgssLocation(
-                        world.player,
-                        loc_name,
-                        "mon_event",
-                        parent=wild_region,
-                    )
-                    location.show_in_spoiler = False
-                    wild_region.locations.append(location)
+                if type != "rock_smash" or type in world.options.in_logic_encounters.methods():
+                    for i, slot in enumerate(e):
+                        if not slot.in_logic(version, enc_mthds):
+                            continue
+                        loc_name = f"{enc_key}_{type}_{i + 1}"
+                        location = PokemonHgssLocation(
+                            world.player,
+                            loc_name,
+                            "mon_event",
+                            parent=wild_region,
+                        )
+                        location.show_in_spoiler = False
+                        wild_region.locations.append(location)
             else:
                 wild_region = regions[name]
             parent_region.connect(wild_region, f"{parent_region.name} -> {name}")

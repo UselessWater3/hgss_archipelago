@@ -64,11 +64,11 @@ def set_rules(world: "PokemonHgssWorld") -> None:
         encs = encounterdata.encounters[enc_key]
         for type in region_data.accessible_encounters:
             e: Sequence[encounterdata.EncounterSlot] = getattr(encs, type)
-            if not e:
+            if not e or type == "rock_smash" and type not in enc_acc:
                 continue
             if (enc_key, type) not in done_encs:
                 done_encs.add((enc_key, type))
-                if type == "rock_smash" and type in (rules.encounter_type_rules.keys() & world.options.in_logic_encounters.methods()):
+                if type == "rock_smash":
                     for i, slot in enumerate(e):
                         if slot.version is None or slot.version == slot_version:
                             world.set_rule(world.multiworld.get_location(f"{enc_key}_{type}_{i + 1}", world.player), rules.encounter_type_rules[type])
