@@ -585,7 +585,7 @@ def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: Pok
                 for p in trainer.party:
                     if p.species in tps and (name_ns, tps[p.species]) in world.generated_trainer_parties:
                         new_spec = world.generated_trainer_parties[name_ns, tps[p.species]]
-                        is_randomized = True
+                        is_randomized = False
                     elif p.species in STARTER_IDX_MAP:
                         chain = starter_evos[STARTER_IDX_MAP[p.species]]
                         level_for_nonlevel = 20

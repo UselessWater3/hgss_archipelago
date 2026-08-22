@@ -1,3 +1,8 @@
+# data_gen/encounters.toml
+#
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
 [t20]
 id = 0
 label = "New Bark"

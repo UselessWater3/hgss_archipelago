@@ -65,7 +65,7 @@ def make_evolution_map() -> Mapping[str, Sequence[str]]:
 
 evolutions: Mapping[str, Sequence[str]] = make_evolution_map()
 
-def make_affected_species() -> Mapping[str, Set[str]]:
+def make_affected_species() -> Mapping[str, Sequence[str]]:
     ret = {}
     for name, spec in species.items():
         ret.setdefault(name, set()).add(name)
@@ -73,9 +73,9 @@ def make_affected_species() -> Mapping[str, Set[str]]:
             ret.setdefault(spec.pre_evolution.species, set()).add(name)
             if spec.pre_evolution.other_species is not None:
                 ret.setdefault(spec.pre_evolution.other_species, set()).add(name)
-    return ret
+    return {k:sorted(v) for k, v in ret.items()}
 
-affected_species: Mapping[str, Set[str]] = make_affected_species()
+affected_species: Mapping[str, Sequence[str]] = make_affected_species()
 
 def get_two_level_evo_species() -> Set[str]:
     def has_two_level_evo(spec: str) -> bool:

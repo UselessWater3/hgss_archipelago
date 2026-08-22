@@ -74,10 +74,7 @@ apnds/__init__.py: apnds_version.txt
 	$Qrm -r apnds.tar.gz apnds-$(APNDS_VERSION)
 	$Qtouch apnds/__init__.py
 
-patches: $(PATCHES)
-	@:
-
-pokemon_hgss.apworld: data/__init__.py apnds/__init__.py $(SOURCES) $(PATCHES)
+pokemon_hgss.apworld: data/__init__.py apnds/__init__.py $(SOURCES)
 	@echo MAKE APWORLD
 	$Qcd ../..; python Launcher.py "Build APWorlds" "Pokemon HeartGold and SoulSilver" >/dev/null 2>&1
 	$Qcp ../../build/apworlds/pokemon_hgss.apworld .

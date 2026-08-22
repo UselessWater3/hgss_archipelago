@@ -1,3 +1,8 @@
+# data_gen/locations.toml
+#
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
 [overworld_r29_potion]
 original_item = "potion"
 label = "Route 29 - Northeast Item"

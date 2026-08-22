@@ -1,3 +1,8 @@
+# data_gen/trainers.toml
+#
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
 [none]
 id = 0
 label = "₧₦ Trainer  -"

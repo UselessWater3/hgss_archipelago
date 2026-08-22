@@ -92,15 +92,12 @@ def randomize_encounters(world: "PokemonHgssWorld", req_specs: Set[str]) -> None
         if slot.in_logic(version, enc_methds)
     }
     slots_s = sorted(slots)
-    print(len(slots_s))
     specs = sorted(req_specs)
     bl = world.options.encounter_species_blacklist.blacklist()
     pokemon_pool = [mon for mon in speciesdata if mon not in bl]
     specs += world.random.choices(pokemon_pool, k=len(slots) - len(specs))
     world.random.shuffle(specs)
     world.generated_encounters.update(zip(slots_s, specs))
-    print(speciesdata.keys() - world.generated_encounters.values())
-    print(req_specs & (speciesdata.keys() - world.generated_encounters.values()))
 
     # fill OOL encounters
     enc_pool = list(set(speciesdata) - world.options.encounter_species_blacklist.blacklist())
@@ -230,7 +227,7 @@ def encounter_slot_label(key: Tuple[str, str, int], in_logic_encounters: Set[str
     def nicer_str(s):
         return " ".join(v[:1].upper() + v[1:] for v in s.split("_"))
 
-    map_label = header
+    map_label = encounterdata[header].label
     map_label += f" ({nicer_str(table)})"
     slot: EncounterSlot = getattr(encounterdata[header], table)[index]
     if slot.accessibility:
@@ -241,7 +238,7 @@ def generate_required_encounter_species(world: "PokemonHgssWorld") -> Set[str]:
     ret = set()
     accessible = set()
     poss_enc = speciesdata.keys() - world.options.encounter_species_blacklist.blacklist()
-    not_added = list(poss_enc)
+    not_added = sorted(poss_enc)
     world.random.shuffle(not_added)
     if len(world.options.dexsanity_whitelist.blacklist()) > 0:
         poss_dexs = world.options.dexsanity_whitelist.blacklist()
@@ -290,8 +287,6 @@ def generate_required_encounter_species(world: "PokemonHgssWorld") -> Set[str]:
     while len(dexs) < world.options.dexsanity.value or len(reqd_dexs) < len(dexsanity_required):
         spec = not_added.pop()
         add_spec(spec)
-
-    print(len(dexs), world.options.dexsanity.value, len(dexs - dexsanity_required), len(dexsanity_required), len(reqd_dexs))
 
     return ret
 

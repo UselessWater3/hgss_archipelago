@@ -36,7 +36,7 @@ def create_regions(world: "PokemonHgssWorld") -> Tuple[Mapping[str, Region], Set
         if enc_key is None:
             return
         encs = encounters[enc_key]
-        for type in wild_region_data.accessible_encounters:
+        for type in sorted(wild_region_data.accessible_encounters):
             name = f"{enc_key}_{type}"
             e: Sequence[EncounterSlot] = getattr(encs, type)
             if not e:

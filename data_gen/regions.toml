@@ -1,3 +1,8 @@
+# data_gen/regions.toml
+#
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
 [new_bark_east]
 exits = [
     "route_27_west",
@@ -5837,7 +5842,7 @@ locs = [
 ]
 
 [safari_zone_entrance_exterior]
-encounters = "d47r0102"
+#encounters = "d47r0102"
 header = "safari_zone_entrance_exterior"
 exits = [
     "safari_zone_entrance_interior",

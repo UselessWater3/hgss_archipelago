@@ -62,7 +62,7 @@ def set_rules(world: "PokemonHgssWorld") -> None:
         if not is_region_enabled(region_name, world.options) or enc_key is None:
             continue
         encs = encounterdata.encounters[enc_key]
-        for type in region_data.accessible_encounters:
+        for type in sorted(region_data.accessible_encounters):
             e: Sequence[encounterdata.EncounterSlot] = getattr(encs, type)
             if not e or type == "rock_smash" and type not in enc_acc:
                 continue

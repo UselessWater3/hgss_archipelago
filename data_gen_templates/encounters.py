@@ -22,6 +22,7 @@ class EncounterSlot:
 @dataclass(frozen=True)
 class EncounterData:
     id: int
+    label: str
     land: Sequence[EncounterSlot] = field(default_factory=list)
     water: Sequence[EncounterSlot] = field(default_factory=list)
     rock_smash: Sequence[EncounterSlot] = field(default_factory=list)
@@ -34,5 +35,5 @@ encounter_types: Sequence[str] = ["land", "water", "rock_smash"]
 
 def encounter_string_to_key(s: str) -> Tuple[str, str, int]:
     i = s.rfind("_")
-    j = s.rfind("_", 0, i)
+    j = s.find("_")
     return s[:j], s[j + 1:i], int(s[i + 1:])

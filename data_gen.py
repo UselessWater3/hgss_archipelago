@@ -114,10 +114,11 @@ class Encounters:
     rock_smash: Sequence[EncounterSlot] = field(default_factory=list)
 
     def __str__(self) -> str:
-        centre = ", ".join([f"id={self.id}"] + [f"{type}=[{', '.join(str(enc) for enc in encs)}]"
+        centre = ", ".join((f"id={self.id}", f"label=\"{self.label}\"",
+            *(f"{type}=[{', '.join(str(enc) for enc in encs)}]"
             for type, encs in map(lambda type : (type, getattr(self, type)),
                                   ["land", "water", "rock_smash"])
-            if len(encs) > 0])
+            if len(encs) > 0)))
 
         return f"EncounterData({centre})"
 

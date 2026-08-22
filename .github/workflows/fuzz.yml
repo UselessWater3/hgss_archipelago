@@ -1,0 +1,48 @@
+name: Fuzz APWorld
+on:
+  push:
+    branches: [ master, ci ]
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+  fuzz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Eijebong/ap-actions/setup-ap@main
+        with:
+          version: '0.6.7'
+          python-version: '3.13'
+
+      - uses: actions/checkout@master
+        with:
+          path: 'archipelago/worlds/pokemon_hgss'
+
+      - name: Make apworld
+        shell: bash
+        run: |
+          cd archipelago/
+          source .venv/bin/activate
+          uv pip install pyparsing
+          cd worlds/pokemon_hgss
+          make pokemon_hgss.apworld
+
+      - name: Copy apworld
+        shell: bash
+        run: |
+          cp archipelago/worlds/pokemon_hgss/pokemon_hgss.apworld .
+          cp archipelago/worlds/pokemon_hgss/fuzz_meta.yaml .
+
+      - name: Clean up Archipelago clone
+        shell: bash
+        run: rm -rf archipelago
+
+      - uses: Eijebong/ap-actions/fuzz@main
+        with:
+          apworld-path: pokemon_hgss.apworld
+          ap-version: '0.6.7'
+          python-version: '3.13'
+          checkout: false
+          meta: ../fuzz_meta.yaml
+

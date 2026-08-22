@@ -113,6 +113,10 @@ class PokemonHgssWorld(World):
             self.trainersanity_trainers = [trainerdata.trainer_raw_id_to_trainer_const_name[id] for id in slot_data["trainersanity_trainers"]]
             ool_encounters = set(slot_data["ool_encounters"])
             self.generated_encounters = {encounterdata.encounter_string_to_key(k):speciesdata.species_id_to_const_name[v] for k, v in slot_data["generated_encounters"].items() if k not in ool_encounters}
+            def trainer_string_to_key(v) -> Tuple[str, int]:
+                i = v.rfind("_")
+                return v[:i], int(v[i + 1:])
+            self.generated_trainer_parties = {trainer_string_to_key(k):speciesdata.species_id_to_const_name[v] for k, v in slot_data["generated_trainer_parties"].items()}
             self.slot_data = slot_data
 
         self.required_locations = RequiredLocations(self.options)
@@ -240,6 +244,7 @@ class PokemonHgssWorld(World):
         ret["generated_encounters"] = {f"{region}_{table}_{i}":speciesdata.species[spec].id for (region, table, i), spec in self.generated_encounters.items()}
         ret["ool_encounters"] = [f"{region}_{table}_{i}" for (region, table, i) in self.ool_encounters]
         ret["generated_encounters"].update({f"{region}_{table}_{i}":speciesdata.species[spec].id for (region, table, i), spec in self.ool_encounters.items()})
+        ret["generated_trainer_parties"] = {f"{tr}_{i}":speciesdata.species[spec].id for (tr, i), spec in self.generated_trainer_parties.items()}
         ret["added_hm_compatibility"] = {spec:[hm.name.lower() for hm in compat] for spec, compat in self.added_hm_compatibility.items()}
         ret["version"] = "0.2.0"
         pfx = "hg" if self.options.version == Version.option_heartgold else "ss"
@@ -304,7 +309,7 @@ class PokemonHgssWorld(World):
 
         if encounters_per_pokemon:
             spoiler_handle.write(f"\nRandomized Pokemon ({self.player_name}):\n")
-            lines = [f"{speciesdata.species[mon].label}: {', '.join(locations)}\n"
+            lines = [f"{speciesdata.species[mon].label}: {', '.join(sorted(locations))}\n"
                      for mon, locations in encounters_per_pokemon.items()]
             lines.sort()
             spoiler_handle.writelines(lines)

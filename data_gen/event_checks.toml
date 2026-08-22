@@ -1,2 +1,7 @@
+# data_gen/event_checks.toml
+#
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
 clear_pokemon_league = 0x964
 defeat_red = { id = 0x40FD, value = 1 }

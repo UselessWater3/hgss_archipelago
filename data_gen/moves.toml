@@ -1,3 +1,8 @@
+# data_gen/moves.toml
+#
+# Copyright (C) 2026 James Petersen <m@jamespetersen.ca>
+# Licensed under MIT. See LICENSE
+
 [pound]
 id = 1
 type = "normal"
