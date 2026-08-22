@@ -9,6 +9,7 @@ from Options import Choice, DeathLink, DefaultOnToggle, NamedRange, OptionDict, 
 from typing import Any, Literal, Optional
 
 from .data import VersionEnum
+from .data.encounters import encounter_types
 from .data.species import species, having_two_level_evos, legendary_mons, expand_set_via_evolutions
 from .data.regions import regions
 from .data.trainers import in_game_trainer_labels, trainer_party_supporting_starters, trainer_name_to_trainer_const_name
@@ -24,6 +25,12 @@ class SpeciesBlacklist(OptionSet):
             else:
                 self.cached_blacklist = frozenset(self.value)
         return self.cached_blacklist
+
+class RegionEvoRequirement(Choice):
+    option_kanto = 1
+    option_johto = 2
+    option_both = 3
+    default = option_both
 
 class Version(Choice):
     """
@@ -363,15 +370,14 @@ ENCOUNTER_METHOD_MAP: Mapping[str, Set[str]] = {
 
 class InLogicEncounters(OptionSet):
     """
-    - surf: surfing encounters.
     - rods: fishing encounters.
     - time: tall-grass or fishing encounters which require a specific time of day.
     - rock_smash: rock smash encounters.
     - sounds: hoenn/sinnoh sounds encounters.
     """
     display_name = "In Logic Encounters"
-    default = {"surf", "rods", "time", "rock_smash", "sounds"}
-    valid_keys = ["surf", "rods", "time", "rock_smash", "sounds"]
+    default = {"rods", "time", "rock_smash", "sounds"}
+    valid_keys = ["rods", "time", "rock_smash", "sounds"]
     cached_methods: Set[str] | None = None
 
     def methods(self) -> Set[str]:
@@ -827,6 +833,51 @@ class BlueReturnViridianBadgeRequirement(Range):
     range_end = 7
     default = 7
 
+class MossyRockLocations(RegionEvoRequirement):
+    """
+    Where mossy rocks appear. In vanilla, mossy rocks are used to evolve Eevee into Leafeon.
+
+    Options:
+    - option_kanto: a mossy rock will appear in Viridian Forest.
+    - option_johto: a mossy rock will appear in Ilex Forest.
+    - option_both: both of the above will apply.
+    """
+    option_kanto = 1
+    option_johto = 2
+    option_both = 3
+    default = option_both
+    display_name = "Mossy Rock Locations"
+
+class IcyRockLocations(RegionEvoRequirement):
+    """
+    Where icy rocks appear. In vanilla, icy rocks are used to evolve Eevee into Glaceon.
+
+    Options:
+    - option_kanto: a icy rock will appear in Viridian Forest.
+    - option_johto: a icy rock will appear in Ilex Forest.
+    - option_both: both of the above will apply.
+    """
+    option_kanto = 1
+    option_johto = 2
+    option_both = 3
+    default = option_both
+    display_name = "Icy Rock Locations"
+
+class MagneticFieldLocations(RegionEvoRequirement):
+    """
+    Where magnetic fields are present. In vanilla, magnetic fields are used to evolve certain species.
+
+    Options:
+    - option_kanto: a magnetic field will be present in the grass outside the power plant.
+    - option_johto: a magnetic field will be present in the Ruins of Alph.
+    - option_both: both of the above will apply.
+    """
+    option_kanto = 1
+    option_johto = 2
+    option_both = 3
+    default = option_both
+    display_name = "Magnetic Field Locations"
+
 slot_data_options: Sequence[str] = [
     "goal",
     "version",
@@ -869,6 +920,9 @@ slot_data_options: Sequence[str] = [
     "dexsanity",
     "dexsanity_mode",
     "in_logic_evolution_methods",
+    "mossy_rock_locations",
+    "icy_rock_locations",
+    "magnetic_field_locations",
 
     "trainersanity",
 
@@ -929,6 +983,10 @@ class PokemonHgssOptions(PerGameCommonOptions):
     dexsanity_blacklist: DexsanityBlacklist
     dexsanity_required: DexsanityRequired
     in_logic_evolution_methods: InLogicEvolutionMethods
+    move_randomization: MoveRandomization
+    mossy_rock_locations: MossyRockLocations
+    icy_rock_locations: IcyRockLocations
+    magnetic_field_locations: MagneticFieldLocations
 
     trainersanity: TrainersanityCount
     trainersanity_whitelist: TrainersanityWhitelist
@@ -936,7 +994,6 @@ class PokemonHgssOptions(PerGameCommonOptions):
     trainersanity_required: TrainersanityRequired
     randomize_trainer_parties: RandomizeTrainerParties
     trainer_party_blacklist: TrainerPartyBlacklist
-    move_randomization: MoveRandomization
 
     game_options: GameOptions
     blind_trainers: BlindTrainers
@@ -983,6 +1040,55 @@ class PokemonHgssOptions(PerGameCommonOptions):
             for k, v in self.move_randomization.items():
                 if not isinstance(v, bool) and v not in {"no", "yes", "shuffle"}:
                     raise OptionError(f"invalid move randomization choice for {k}: {v}")
+
+        required_mons = {
+            "oddish", "magikarp", "chansey",
+        }
+        required_mons |= self.dexsanity_required.blacklist()
+        if self.version == Version.option_heartgold:
+            required_mons |= {"marill", "jigglypuff", "growlithe"}
+        else:
+            required_mons |= {"staryu", "lickitung", "vulpix"}
+        if self.randomize_encounters:
+            required_mons.add("pichu")
+
+        if self.randomize_encounters:
+            in_logic_encounter_mons = expand_set_via_evolutions({slot.species
+                for rd in regions.values()
+                if rd.encounters \
+                for type in encounter_types
+                if type != "rock_smash" or type in self.in_logic_encounters.methods() and type in rd.accessible_encounters
+                for slot in getattr(encounters[rd.encounters], type)
+                if slot.in_logic(self.version, self.in_logic_encounters.methods())
+            }, self.in_logic_evolution_methods.methods())
+        else:
+            in_logic_encounter_mons = expand_set_via_evolutions(
+                species.keys() - self.encounter_species_blacklist, self.in_logic_evolution_methods.methods()
+            )
+        if required_mons - in_logic_encounter_mons:
+            raise OptionError(f"invalid encounter options: required species {required_mons - in_logic_encounter_mons} are inaccessible")
+        possible_dexs = in_logic_encounter_mons - self.dexsanity_required.blacklist()
+        if self.dexsanity_whitelist.value:
+            possible_dexs &= self.dexsanity_whitelist.blacklist()
+        else:
+            possible_dexs -= self.dexsanity_blacklist.blacklist()
+        if len(possible_dexs) + len(self.dexsanity_required.blacklist()) < self.dexsanity.value:
+            raise OptionError(f"invalid encounter options: cannot add enough species to fulfill dexsanity value. maximum possible dexsanity species: {len(possible_dexs) + len(self.dexsanity_required.blacklist())}")
+        if self.randomize_starters:
+            if 0 < len(self.starter_whitelist.value) < 3:
+                raise OptionError(f"starter whitelist must contain at least three values")
+            elif len(self.starter_whitelist.value) == 0:
+                species_set = having_two_level_evos if self.require_two_level_evolution_starters else species.keys()
+                if len(species_set - self.starter_blacklist.blacklist()) < 3:
+                    raise OptionError(f"starter blacklist too restrictive")
+
+        if 0 < len(self.trainersanity_whitelist.value):
+            if len(self.trainersanity_whitelist.value | self.trainersanity_required.value) < self.trainersanity.value:
+                raise OptionError("trainersanity whitelist does not have enough trainers")
+        elif len((set(in_game_trainer_labels) - self.trainersanity_blacklist.value) | self.trainersanity_required.value) < self.trainersanity.value:
+            raise OptionError("trainersanity blacklist is too restrictive")
+        if len(self.trainersanity_required.value) > self.trainersanity.value:
+            raise OptionError(f"more trainersanity locations are required ({len(self.trainersanity_required.value)}) than alloted ({self.trainersanity.value})")
 
     def save_options(self) -> MutableMapping[str, Any]:
         return self.as_dict(*slot_data_options)
@@ -1052,7 +1158,10 @@ OPTION_GROUPS = [
             InLogicEvolutionMethods,
             APItemsShopInAPHelper,
             ReusableTms,
-            MoveRandomization
+            MoveRandomization,
+            MossyRockLocations,
+            IcyRockLocations,
+            MagneticFieldLocations,
         ],
     ),
     OptionGroup(

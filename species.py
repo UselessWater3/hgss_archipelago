@@ -10,6 +10,7 @@ from BaseClasses import Region
 
 from .locations import PokemonHgssLocation
 from .regions import is_region_enabled
+from .options import Version
 
 from .data.encounters import encounters as encounterdata, encounter_types, EncounterSlot
 from .data.regions import regions as regiondata
@@ -123,7 +124,23 @@ def randomize_trainer_parties_and_encounters(world: "PokemonHgssWorld") -> None:
         randomize_encounters(world, generate_required_encounter_species(world))
         randomize_trainer_parties(world)
     elif world.options.randomize_encounters:
-        randomize_encounters(world, generate_required_encounter_species(world))
+        required_mons = {"oddish", "magikarp"}
+        chansey_pevo = speciesdata["chansey"].pre_evolution
+        if chansey_pevo is not None and chansey_pevo.method in world.options.in_logic_evolution_methods.methods():
+            required_mons.add(world.random.choice([chansey_pevo.species, "chansey"]))
+        if world.options.version == Version.option_heartgold:
+            required_mons |= {"growlithe"}
+            marill_pevo = speciesdata["marill"].pre_evolution
+            if marill_pevo is not None and marill_pevo.method in world.options.in_logic_evolution_methods.methods():
+                required_mons.add(world.random.choice([marill_pevo.species, "marill"]))
+            jigglybuff_pevo = speciesdata["jigglybuff"].pre_evolution
+            if jigglybuff_pevo is not None and jigglybuff_pevo.method in world.options.in_logic_evolution_methods.methods():
+                required_mons.add(world.random.choice([jigglybuff_pevo.species, "jigglybuff"]))
+        else:
+            required_mons |= {"staryu", "lickitung", "vulpix"}
+        if world.options.randomize_encounters:
+            required_mons.add("pichu")
+        randomize_encounters(world, generate_required_encounter_species(world) | required_mons)
         fill_unrandomized_trainer_parties(world)
     elif world.options.randomize_trainer_parties:
         fill_unrandomized_encounters(world)

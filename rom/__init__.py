@@ -18,6 +18,7 @@ import zipfile
 
 from .itemdata import patch_items
 from .encounterdata import patch_encounters
+from .eventdata import EVO_ROCK_INFO, generate_add_rock_patch, patch_events
 from .movedata import patch_moves
 from .speciesdata import patch_species
 from .trainerdata import patch_trainer_parties
@@ -215,6 +216,9 @@ def patch_common(rom_bytes: bytes, files: Mapping[str, bytes], version: VersionE
     if "move_patches.json" in files:
         move_patches = json.loads(files["move_patches.json"])
         rom.files["/a/0/1/1"] = patch_moves(rom.files["/a/0/1/1"], move_patches)
+    if "event_patches.json" in files:
+        event_patches = json.loads(files["event_patches.json"])
+        rom.files["/a/0/3/2"] = patch_events(rom.files["/a/0/3/2"], event_patches)
 
     return rom.to_bytes()
 
@@ -294,6 +298,9 @@ def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: Pok
     add_opt_byte("require_fly_items_for_flight")
     add_opt_byte("require_restored_power_for_magnet_train")
     add_opt_byte("blue_return_viridian_badge_requirement")
+    add_opt_byte("mossy_rock_locations")
+    add_opt_byte("icy_rock_locations")
+    add_opt_byte("magnetic_field_locations")
 
     # start of save config
     if len(ap_bin) % 2 == 1:
@@ -324,6 +331,15 @@ def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: Pok
 
     if len(ap_bin) % 2 == 1:
         ap_bin += b'\x00'
+
+    event_patches: MutableMapping[int, MutableSequence[Tuple[str, Any]]] = {}
+
+    for data in EVO_ROCK_INFO:
+        if data[0] & getattr(world.options, data[2] + "_rock_locations").value:
+            event_patches.setdefault(data[1], []).append(generate_add_rock_patch(*data[2:]))
+
+    if event_patches:
+        patch.write_file("event_patches.json", json.dumps(event_patches).encode('utf-8'))
 
     tables: dict[int, bytearray] = {}
     remote_items: bool = world.options.remote_items.value != 0

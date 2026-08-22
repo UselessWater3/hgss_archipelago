@@ -18,6 +18,7 @@ SOURCES := __init__.py \
 	species.py \
 	rom/__init__.py \
 	rom/encounterdata.py \
+	rom/eventdata.py \
 	rom/itemdata.py \
 	rom/movedata.py \
 	rom/speciesdata.py \

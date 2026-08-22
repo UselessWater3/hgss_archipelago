@@ -1,3 +1,8 @@
+[new_bark_east]
+exits = []
+encounters = "t20"
+header = "new_bark"
+
 [new_bark]
 exits = [
     "new_bark_elms_lab_1f",
@@ -5,7 +10,7 @@ exits = [
     "new_bark_player_house_1f",
     "new_bark_rival_house_1f",
     "new_bark_southwest_house",
-    "route_27",
+    "route_27_west",
     "route_29",
 ]
 encounters = "t20"
@@ -42,12 +47,22 @@ locs = [
     "r29_tuscany_gift",
 ]
 
-[route_27]
+[route_27_center]
+exits = []
+encounters = "r27"
+header = "route_27"
+
+[route_27_east]
+exits = []
+encounters = "r27"
+header = "route_27"
+
+[route_27_west]
 exits = [
     "new_bark",
     "route_26",
     "route_27_house",
-    "tohjo_falls",
+    "tohjo_falls_west",
 ]
 encounters = "r27"
 header = "route_27"
@@ -105,7 +120,7 @@ exits = [
     "route_22_pokemon_league_reception_gate",
     "route_26_north_house",
     "route_26_week_siblings_house",
-    "route_27",
+    "route_27_west",
 ]
 encounters = "r26"
 header = "route_26"
@@ -153,6 +168,11 @@ trainers = [
     "rival_silver_cherrygrove",
 ]
 
+[route_46_south]
+exits = []
+encounters = "r46"
+header = "route_46"
+
 [route_46]
 exits = [
     "dark_cave_route_31_side_west",
@@ -171,9 +191,14 @@ trainers = [
     "picnicker_erin",
 ]
 
-[tohjo_falls]
+[tohjo_falls_east]
+exits = []
+encounters = "d45r0101"
+header = "tohjo_falls"
+
+[tohjo_falls_west]
 exits = [
-    "route_27",
+    "route_27_west",
     "tohjo_falls_hidden_room",
 ]
 encounters = "d45r0101"
@@ -190,7 +215,7 @@ header = "new_bark_player_house_2f"
 
 [route_27_house]
 exits = [
-    "route_27",
+    "route_27_west",
 ]
 header = "route_27_house"
 locs = [
@@ -265,6 +290,16 @@ trainers = [
     "youngster_mikey",
 ]
 
+[route_45_south]
+exits = []
+encounters = "r45"
+header = "route_45"
+
+[route_45_north]
+encounters = "r45"
+header = "route_45"
+exits = []
+
 [route_45]
 exits = [
     "blackthorn",
@@ -310,10 +345,12 @@ header = "dark_cave_route_31_side"
 [dark_cave_route_31_side_north]
 exits = []
 header = "dark_cave_route_31_side"
+encounters = "d42r0102"
 
 [dark_cave_route_31_side_south]
 exits = []
 header = "dark_cave_route_31_side"
+encounters = "d42r0102"
 
 [dark_cave_route_31_side_west]
 exits = [
@@ -335,7 +372,7 @@ locs = [
 
 [tohjo_falls_hidden_room]
 exits = [
-    "tohjo_falls",
+    "tohjo_falls_west",
 ]
 header = "tohjo_falls_hidden_room"
 
@@ -425,6 +462,11 @@ exits = [
 encounters = "r22"
 header = "route_22"
 
+[victory_road_1f_entrance]
+exits = []
+encounters = "d43r0101"
+header = "victory_road_1f"
+
 [victory_road_1f]
 exits = [
     "route_22_pokemon_league_reception_gate",
@@ -494,6 +536,21 @@ exits = [
     "blackthorn",
 ]
 header = "blackthorn_pokemart"
+
+[victory_road_2f_northeast]
+exits = []
+encounters = "d43r0102"
+header = "victory_road_2f"
+
+[victory_road_2f_northwest]
+exits = []
+encounters = "d43r0102"
+header = "victory_road_2f"
+
+[victory_road_2f_south]
+exits = []
+encounters = "d43r0102"
+header = "victory_road_2f"
 
 [victory_road_2f]
 exits = [
@@ -882,6 +939,16 @@ locs = [
     "overworld_d39r0102_iron",
 ]
 
+[victory_road_3f_northeast]
+exits = []
+encounters = "d43r0103"
+header = "victory_road_3f"
+
+[victory_road_3f_southeast]
+exits = []
+encounters = "d43r0103"
+header = "victory_road_3f"
+
 [victory_road_3f]
 exits = [
     "indigo_plateau",
@@ -1147,7 +1214,7 @@ exits = [
     "ruins_of_alph",
     "ruins_of_alph_underground_hall_sinjoh_event_2",
 ]
-encounters = "d24r0217"
+#encounters = "d24r0217"
 header = "ruins_of_alph_hall_entrance_sinjoh_event"
 
 [route_43]
@@ -1454,6 +1521,11 @@ exits = [
 ]
 header = "ruins_of_alph_northeast_entrance_first_room"
 
+[union_cave_b1f_pathway]
+exits = []
+encounters = "d25r0102"
+header = "union_cave_b1f"
+
 [union_cave_b1f]
 exits = [
     "union_cave_1f",
@@ -1540,7 +1612,7 @@ trainers = [
 exits = [
     "ruins_of_alph_hall_entrance_sinjoh_event",
 ]
-encounters = "d24r0218"
+#encounters = "d24r0218"
 header = "ruins_of_alph_underground_hall_sinjoh_event_2"
 
 [route_2_viridian_forest_north_gatehouse]
@@ -1761,7 +1833,7 @@ trainers = [
 exits = [
     "ruins_of_alph_hall_entrance",
 ]
-encounters = "d24r0216"
+#encounters = "d24r0216"
 header = "ruins_of_alph_underground_hall_sinjoh_event"
 
 [pallet_town_blues_house_1f]
@@ -5339,3 +5411,18 @@ header = "virt"
 [virt_pal_pad]
 header = "virt"
 locs = ["pokecenter_b1f_pal_pad"]
+
+[virt_moss_rock]
+header = "virt"
+
+[virt_ice_rock]
+header = "virt"
+
+[virt_magnetic_field]
+header = "virt"
+
+[virt_beauty]
+header = "virt"
+
+[virt_mount_moon_square]
+header = "virt"

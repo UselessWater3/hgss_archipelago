@@ -5211,7 +5211,7 @@ original_item = "thunderstone"
 label = "Route 25 Cottage - Item from Bill's Grandfather for Showing Pichu"
 id = 168
 table = "base"
-type = "npc_gift"
+type = "npc_gift_pichu"
 check = { id = 0x412D, value = 5 }
 
 [route_14_lucky_punch]

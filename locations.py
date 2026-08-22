@@ -37,6 +37,7 @@ location_types: Mapping[str, LocationType] = {
         should_be_added = lambda opts : opts.version == Version.option_soulsilver,
     ),
     "npc_gift": LocationType(is_enabled = lambda opts : opts.npc_gifts.value == 1),
+    "npc_gift_pichu": LocationType(is_enabled = lambda opts : opts.npc_gifts.value == 1 and opts.randomize_encounters.value == 1),
     "rod": LocationType(is_enabled = lambda opts : opts.rods.value == 1),
     "running_shoes": LocationType(is_enabled = lambda opts : opts.running_shoes.value == 1),
     "bicycle": LocationType(is_enabled = lambda opts : opts.bicycle.value == 1),

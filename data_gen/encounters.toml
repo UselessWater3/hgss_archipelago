@@ -3,19 +3,9 @@ id = 0
 
 [[t20.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-    "surf_swarms",
-]
 
 [[t20.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[t20.water]]
 species = "magikarp"
@@ -96,16 +86,9 @@ id = 2
 
 [[t21.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[t21.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[t21.water]]
 species = "magikarp"
@@ -247,20 +230,9 @@ accessibility = [
 
 [[r30.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r30.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-]
 
 [[r30.water]]
 species = "magikarp"
@@ -379,20 +351,9 @@ accessibility = [
 
 [[r31.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r31.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-]
 
 [[r31.water]]
 species = "magikarp"
@@ -408,20 +369,9 @@ id = 5
 
 [[t22.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[t22.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-]
 
 [[t22.water]]
 species = "whiscash"
@@ -598,26 +548,12 @@ accessibility = [
 
 [[r32.water]]
 species = "tentacool"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r32.water]]
 species = "quagsire"
-accessibility = [
-    "surf",
-]
 
 [[r32.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[r32.water]]
 species = "qwilfish"
@@ -679,16 +615,9 @@ accessibility = [
 
 [[d24r0101.water]]
 species = "wooper"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d24r0101.water]]
 species = "quagsire"
-accessibility = [
-    "surf",
-]
 
 [[d24r0101.water]]
 species = "magikarp"
@@ -815,16 +744,9 @@ accessibility = [
 
 [[d25r0101.water]]
 species = "wooper"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d25r0101.water]]
 species = "quagsire"
-accessibility = [
-    "surf",
-]
 
 [[d25r0101.water]]
 species = "magikarp"
@@ -901,16 +823,9 @@ accessibility = [
 
 [[d25r0102.water]]
 species = "wooper"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d25r0102.water]]
 species = "quagsire"
-accessibility = [
-    "surf",
-]
 
 [[d25r0102.water]]
 species = "magikarp"
@@ -989,22 +904,12 @@ accessibility = [
 
 [[d25r0103.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d25r0103.water]]
 species = "quagsire"
-accessibility = [
-    "surf",
-]
 
 [[d25r0103.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[d25r0103.water]]
 species = "magikarp"
@@ -1132,10 +1037,6 @@ accessibility = [
 
 [[d26r0102.water]]
 species = "slowpoke"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d26r0102.water]]
 species = "magikarp"
@@ -1205,16 +1106,9 @@ accessibility = [
 
 [[d26r0103.water]]
 species = "slowpoke"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d26r0103.water]]
 species = "slowbro"
-accessibility = [
-    "surf",
-]
 
 [[d26r0103.water]]
 species = "magikarp"
@@ -1315,16 +1209,9 @@ accessibility = [
 
 [[d36r0101.water]]
 species = "psyduck"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d36r0101.water]]
 species = "golduck"
-accessibility = [
-    "surf",
-]
 
 [[d36r0101.water]]
 species = "magikarp"
@@ -1391,16 +1278,9 @@ accessibility = [
 
 [[r34.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[r34.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[r34.water]]
 species = "magikarp"
@@ -1503,16 +1383,9 @@ accessibility = [
 
 [[r35.water]]
 species = "psyduck"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[r35.water]]
 species = "golduck"
-accessibility = [
-    "surf",
-]
 
 [[r35.water]]
 species = "magikarp"
@@ -1787,20 +1660,9 @@ id = 27
 
 [[t27.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[t27.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-]
 
 [[t27.water]]
 species = "magikarp"
@@ -2359,16 +2221,9 @@ id = 40
 
 [[t26.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[t26.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[t26.water]]
 species = "magikarp"
@@ -2410,16 +2265,9 @@ id = 41
 
 [[w40.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[w40.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[w40.water]]
 species = "magikarp"
@@ -2461,25 +2309,12 @@ id = 42
 
 [[w41.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-    "surf_swarms",
-]
 
 [[w41.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[w41.water]]
 species = "mantine"
-accessibility = [
-    "surf",
-]
 version = "hg"
 
 [[w41.water]]
@@ -2558,25 +2393,12 @@ accessibility = [
 
 [[d40r0101.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d40r0101.water]]
 species = "horsea"
-accessibility = [
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-]
 
 [[d40r0101.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[d40r0101.water]]
 species = "magikarp"
@@ -2701,26 +2523,12 @@ accessibility = [
 
 [[d40r0104.water]]
 species = "horsea"
-accessibility = [
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[d40r0104.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[d40r0104.water]]
 species = "seadra"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[d40r0104.water]]
 species = "magikarp"
@@ -2807,16 +2615,9 @@ rock_smash = [
 
 [[t24.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[t24.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[t24.water]]
 species = "magikarp"
@@ -2922,21 +2723,9 @@ accessibility = [
 
 [[r42.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r42.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[r42.water]]
 species = "magikarp"
@@ -2997,21 +2786,9 @@ accessibility = [
 
 [[d38r0101.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[d38r0101.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[d38r0101.water]]
 species = "magikarp"
@@ -3120,21 +2897,9 @@ accessibility = [
 
 [[d38r0103.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[d38r0103.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[d38r0103.water]]
 species = "magikarp"
@@ -3195,21 +2960,9 @@ accessibility = [
 
 [[d38r0104.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[d38r0104.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[d38r0104.water]]
 species = "magikarp"
@@ -3284,14 +3037,6 @@ accessibility = [
 
 [[r43.water]]
 species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
 
 [[r43.water]]
 species = "poliwag"
@@ -3304,25 +3049,9 @@ accessibility = [
 
 [t29]
 id = 58
-
-[[t29.water]]
-species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
-
-[[t29.water]]
-species = "gyarados"
-accessibility = [
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
+water = [
+    { species = "magikarp" },
+    { species = "gyarados" },
 ]
 
 [r44]
@@ -3372,20 +3101,9 @@ accessibility = [
 
 [[r44.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r44.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-]
 
 [[r44.water]]
 species = "remoraid"
@@ -3643,14 +3361,6 @@ id = 65
 
 [[t30.water]]
 species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
 
 [[t30.water]]
 species = "poliwag"
@@ -3666,23 +3376,9 @@ id = 66
 
 [[d44r0102.water]]
 species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
 
 [[d44r0102.water]]
 species = "dratini"
-accessibility = [
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-]
 
 [[d44r0102.water]]
 species = "dragonair"
@@ -3747,14 +3443,6 @@ accessibility = [
 
 [[r45.water]]
 species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
 
 [[r45.water]]
 species = "poliwag"
@@ -3853,14 +3541,6 @@ accessibility = [
 
 [[d42r0102.water]]
 species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
 
 [[d42r0102.water]]
 species = "goldeen"
@@ -3927,14 +3607,6 @@ accessibility = [
 
 [[d42r0101.water]]
 species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
 
 [[d42r0101.water]]
 species = "goldeen"
@@ -4017,24 +3689,12 @@ accessibility = [
 
 [[r47.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-    "surf_swarms",
-]
 
 [[r47.water]]
 species = "seel"
-accessibility = [
-    "surf",
-]
 
 [[r47.water]]
 species = "staryu"
-accessibility = [
-    "surf",
-]
 
 [[r47.water]]
 species = "magikarp"
@@ -4073,24 +3733,9 @@ accessibility = [
 
 [d02r0103]
 id = 72
-
-[[d02r0103.water]]
-species = "poliwag"
-accessibility = [
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
-
-[[d02r0103.water]]
-species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "surf",
-    "fishing_swarms",
+water = [
+    { species = "poliwag" },
+    { species = "magikarp" },
 ]
 
 [d02r0104]
@@ -4098,14 +3743,6 @@ id = 73
 
 [[d02r0104.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
 
 [[d02r0104.water]]
 species = "magikarp"
@@ -4361,25 +3998,12 @@ accessibility = [
 
 [[d11r0105.water]]
 species = "seel"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d11r0105.water]]
 species = "horsea"
-accessibility = [
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-]
 
 [[d11r0105.water]]
 species = "slowbro"
-accessibility = [
-    "surf",
-]
 
 [[d11r0105.water]]
 species = "magikarp"
@@ -4484,21 +4108,9 @@ accessibility = [
 
 [[d41r0105.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-    "surf_swarms",
-]
 
 [[d41r0105.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-]
 
 [[d41r0105.water]]
 species = "magikarp"
@@ -4581,21 +4193,9 @@ accessibility = [
 
 [[d41r0106.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-    "surf_swarms",
-]
 
 [[d41r0106.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-]
 
 [[d41r0106.water]]
 species = "magikarp"
@@ -4670,21 +4270,9 @@ accessibility = [
 
 [[d41r0107.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-    "surf_swarms",
-]
 
 [[d41r0107.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-]
 
 [[d41r0107.water]]
 species = "magikarp"
@@ -4700,16 +4288,9 @@ id = 82
 
 [[d48r0101.water]]
 species = "wooper"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d48r0101.water]]
 species = "quagsire"
-accessibility = [
-    "surf",
-]
 
 [[d48r0101.water]]
 species = "magikarp"
@@ -4936,20 +4517,9 @@ accessibility = [
 
 [[t31.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[t31.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-]
 
 [[t31.water]]
 species = "magikarp"
@@ -5023,20 +4593,9 @@ accessibility = [
 
 [[d41r0101.water]]
 species = "seaking"
-accessibility = [
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-]
 
 [[d41r0101.water]]
 species = "goldeen"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-]
 
 [[d41r0101.water]]
 species = "magikarp"
@@ -5248,21 +4807,9 @@ accessibility = [
 
 [[d41r0102.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-    "surf_swarms",
-]
 
 [[d41r0102.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-]
 
 [[d41r0102.water]]
 species = "magikarp"
@@ -5302,10 +4849,6 @@ accessibility = [
 
 [[d47r0102.water]]
 species = "magikarp"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[d47r0102.water]]
 species = "goldeen"
@@ -5322,26 +4865,12 @@ id = 92
 
 [[r12.water]]
 species = "tentacool"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r12.water]]
 species = "quagsire"
-accessibility = [
-    "surf",
-]
 
 [[r12.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[r12.water]]
 species = "relicanth"
@@ -5372,15 +4901,9 @@ rock_smash = [
 
 [[w19.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-]
 
 [[w19.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[w19.water]]
 species = "clamperl"
@@ -5428,19 +4951,9 @@ id = 94
 
 [[w20.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-    "surf_swarms",
-]
 
 [[w20.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[w20.water]]
 species = "magikarp"
@@ -5476,19 +4989,9 @@ id = 95
 
 [[t01.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-    "surf_swarms",
-]
 
 [[t01.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[t01.water]]
 species = "magikarp"
@@ -5524,20 +5027,9 @@ id = 96
 
 [[t02.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[t02.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-]
 
 [[t02.water]]
 species = "magikarp"
@@ -5553,21 +5045,9 @@ id = 97
 
 [[t04.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[t04.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[t04.water]]
 species = "magikarp"
@@ -5587,18 +5067,9 @@ rock_smash = [
 
 [[t06.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-]
 
 [[t06.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[t06.water]]
 species = "wingull"
@@ -5637,18 +5108,9 @@ accessibility = [
 
 [t07]
 id = 99
-
-[[t07.water]]
-species = "grimer"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
-
-[[t07.water]]
-species = "muk"
-accessibility = [
-    "surf",
+water = [
+    { species = "grimer" },
+    { species = "muk" },
 ]
 
 [t08]
@@ -5656,14 +5118,6 @@ id = 100
 
 [[t08.water]]
 species = "magikarp"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "surf_swarms",
-    "fishing_swarms",
-]
 
 [[t08.water]]
 species = "gyarados"
@@ -5678,19 +5132,9 @@ id = 101
 
 [[t09.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-    "surf_swarms",
-]
 
 [[t09.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[t09.water]]
 species = "magikarp"
@@ -5857,19 +5301,9 @@ accessibility = [
 
 [[r26.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-    "surf_swarms",
-]
 
 [[r26.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[r26.water]]
 species = "magikarp"
@@ -5965,18 +5399,9 @@ accessibility = [
 
 [[r27.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-]
 
 [[r27.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[r27.water]]
 species = "luvdisc"
@@ -6085,20 +5510,9 @@ accessibility = [
 
 [[r28.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r28.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-]
 
 [[r28.water]]
 species = "magikarp"
@@ -6688,21 +6102,9 @@ accessibility = [
 
 [[r04.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r04.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[r04.water]]
 species = "magikarp"
@@ -6820,16 +6222,9 @@ accessibility = [
 
 [[r06.water]]
 species = "psyduck"
-accessibility = [
-    "surf",
-    "surf_swarms",
-]
 
 [[r06.water]]
 species = "golduck"
-accessibility = [
-    "surf",
-]
 
 [[r06.water]]
 species = "magikarp"
@@ -7076,21 +6471,9 @@ accessibility = [
 
 [[r09.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r09.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[r09.water]]
 species = "magikarp"
@@ -7160,21 +6543,9 @@ accessibility = [
 
 [[r10.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r10.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[r10.water]]
 species = "magikarp"
@@ -7294,26 +6665,12 @@ accessibility = [
 
 [[r13.water]]
 species = "tentacool"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r13.water]]
 species = "quagsire"
-accessibility = [
-    "surf",
-]
 
 [[r13.water]]
 species = "tentacruel"
-accessibility = [
-    "surf",
-]
 
 [[r13.water]]
 species = "magikarp"
@@ -7664,19 +7021,9 @@ accessibility = [
 
 [[w21.water]]
 species = "tentacool"
-accessibility = [
-    "surf",
-    "good_rod",
-    "old_rod",
-    "surf_swarms",
-]
 
 [[w21.water]]
 species = "tentacruel"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[w21.water]]
 species = "magikarp"
@@ -7769,20 +7116,9 @@ accessibility = [
 
 [[r22.water]]
 species = "poliwag"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r22.water]]
 species = "poliwhirl"
-accessibility = [
-    "surf",
-]
 
 [[r22.water]]
 species = "magikarp"
@@ -7862,21 +7198,9 @@ accessibility = [
 
 [[r24.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r24.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[r24.water]]
 species = "magikarp"
@@ -7964,21 +7288,9 @@ accessibility = [
 
 [[r25.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[r25.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[r25.water]]
 species = "magikarp"
@@ -8039,27 +7351,12 @@ accessibility = [
 
 [[d45r0101.water]]
 species = "goldeen"
-accessibility = [
-    "old_rod",
-    "good_rod",
-    "super_rod",
-    "surf",
-    "fishing_night",
-    "surf_swarms",
-]
 
 [[d45r0101.water]]
 species = "slowpoke"
-accessibility = [
-    "surf",
-]
 
 [[d45r0101.water]]
 species = "seaking"
-accessibility = [
-    "super_rod",
-    "surf",
-]
 
 [[d45r0101.water]]
 species = "magikarp"
@@ -8529,15 +7826,9 @@ accessibility = [
 
 [[d03r0101.water]]
 species = "psyduck"
-accessibility = [
-    "surf",
-]
 
 [[d03r0101.water]]
 species = "golduck"
-accessibility = [
-    "surf",
-]
 
 [[d03r0101.water]]
 species = "poliwag"
@@ -8633,15 +7924,9 @@ accessibility = [
 
 [[d03r0102.water]]
 species = "psyduck"
-accessibility = [
-    "surf",
-]
 
 [[d03r0102.water]]
 species = "golduck"
-accessibility = [
-    "surf",
-]
 
 [[d03r0102.water]]
 species = "poliwag"
@@ -8741,15 +8026,9 @@ accessibility = [
 
 [[d03r0103.water]]
 species = "psyduck"
-accessibility = [
-    "surf",
-]
 
 [[d03r0103.water]]
 species = "golduck"
-accessibility = [
-    "surf",
-]
 
 [[d03r0103.water]]
 species = "poliwag"

@@ -146,7 +146,9 @@ class PokemonHgssWorld(World):
             lambda loc : loc.address is not None and loc.is_enabled and not loc.locked,
             locations)
 
-        add_items: list[str] = []
+        add_items: list[str] = ["razor_claw", "razor_fang", "sun_stone", "linking_cord"]
+        if not self.options.randomize_encounters:
+            add_items.append("thunderstone")
         for item in ["master_repel"]:
             if getattr(self.options, item).value == 1:
                 add_items.append(item)
