@@ -3483,7 +3483,7 @@ party = [
 
 [elite_four_bruno_bruno]
 id = 418
-label = "Elite Four Bruno"
+label = "Pokemon League - Elite Four Bruno"
 party = [
     { species = "hitmontop", level = 42, num_moves = 4 },
     { species = "hitmonlee", level = 42, num_moves = 4 },
