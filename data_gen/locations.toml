@@ -5379,7 +5379,7 @@ table = "base"
 type = "key_item"
 check = 0x163
 
-[saffron_copycat_house_2f]
+[saffron_copycat_house_2f_pass]
 original_item = "pass"
 label = "Saffron City - Item from Copycat after Returning Lost Item"
 id = 175

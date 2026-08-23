@@ -5212,7 +5212,7 @@ exits = [
 ]
 header = "saffron_copycat_house_2f"
 locs = [
-    "saffron_copycat_house_2f",
+    "saffron_copycat_house_2f_pass",
 ]
 
 [goldenrod_department_store_6f]

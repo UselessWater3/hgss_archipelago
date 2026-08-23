@@ -709,6 +709,7 @@ t02_tm85 = "cut | surf"
 viridian_badge_earth = "event_cinnabar_island_blue_return_viridian"
 viridian_tm92 = "event_cinnabar_island_blue_return_viridian"
 overworld_d40r0101_ultra_ball_2 = "surf"
+saffron_copycat_house_2f_pass = "lost_item"
 
 [trainers]
 twins_jo_and_zoe = "cut"
