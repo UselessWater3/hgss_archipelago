@@ -328,6 +328,7 @@ def generate_output(world: "PokemonHgssWorld", output_directory: str, patch: Pok
     add_opt_byte("normalize_encounters")
     ap_bin += world.options.item_notifications_mask.to_mask().to_bytes(1, 'little')
     add_opt_byte("talk_trainers_without_fight")
+    add_opt_byte("fast_fishing")
 
     if len(ap_bin) % 2 == 1:
         ap_bin += b'\x00'

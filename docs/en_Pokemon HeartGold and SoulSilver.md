@@ -9,3 +9,4 @@
 * The east exit of New Bark Town is unlocked by encountering the main legendary Pokémon of the game (Ho-Oh for HeartGold, Lugia for SoulSilver).
 * The magnet train only requires the Pass item.
 * The S.S. Anne only requires the S.S. Ticket item
+* The northeast room in Ruins of Alph only requires the Rainbow Wing.

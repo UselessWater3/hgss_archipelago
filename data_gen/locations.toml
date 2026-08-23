@@ -925,7 +925,7 @@ check = 1135
 
 [overworld_t03_wise_glasses]
 original_item = "wise_glasses"
-label = "Pewter City - Item in Northeast Trees"
+label = "Pewter City - Item in Northwest Trees"
 id = 218
 table = "overworld"
 type = "overworld"
@@ -4448,6 +4448,7 @@ label = "Mr. Pokemon's House - Pokedex from Prof. Oak"
 [route_30_mr_pokemon_house_pokedex.check]
 id = 16647
 value = 1
+op = "ge"
 
 [ss_aqua_olivine_port_interior_pokedex]
 original_item = "pokedex"
@@ -4523,6 +4524,7 @@ label = "Cherrygrove City - Running Shoes from Guide Gent"
 [cherrygrove_running_shoes.check]
 id = 16499
 value = 1
+op = "ge"
 
 [celadon_condominiums_3f_gb_sounds]
 original_item = "gb_sounds"
@@ -4550,6 +4552,7 @@ type = "pokegear_card"
 [cherrygrove_map_card.check]
 id = 16499
 value = 2
+op = "ge"
 
 [cherrygrove_mystic_water]
 original_item = "mystic_water"
@@ -4604,6 +4607,7 @@ type = "npc_gift"
 [power_plant_tm57.check]
 id = 16639
 value = 1
+op = "ge"
 
 [route_29_poke_balls]
 original_item = "poke_ball_x5"
@@ -4647,6 +4651,7 @@ type = "key_item"
 [violet_route_31_gate_house_vs_recorder.check]
 id = 16690
 value = 1
+op = "ge"
 
 [route_32_miracle_seed]
 original_item = "miracle_seed"
@@ -4814,6 +4819,7 @@ type = "npc_gift"
 [route_34_power_herb.check]
 id = 16535
 value = 3
+op = "ge"
 
 [goldenrod_radio_tower_5f_basement_key]
 original_item = "basement_key"
@@ -4857,6 +4863,7 @@ type = "key_item"
 [cerulean_machine_part.check]
 id = 16519
 value = 4
+op = "ge"
 
 [route_25_nugget]
 original_item = "nugget"
@@ -4924,6 +4931,7 @@ type = "npc_gift"
 [r35r0101_kenya_gift.check]
 id = 16660
 value = 4
+op = "ge"
 
 [r36_arthur_gift]
 original_item = "hard_stone"
@@ -5091,6 +5099,7 @@ type = "npc_gift"
 [ss_aqua_nugget.check]
 id = 16641
 value = 17
+op = "ge"
 
 [ss_aqua_plate_flame]
 original_item = "flame_plate"
@@ -5102,6 +5111,7 @@ type = "npc_gift"
 [ss_aqua_plate_flame.check]
 id = 16641
 value = 1
+op = "ge"
 
 [ss_aqua_plate_splash]
 original_item = "splash_plate"
@@ -5113,6 +5123,7 @@ type = "npc_gift"
 [ss_aqua_plate_splash.check]
 id = 16641
 value = 2
+op = "ge"
 
 [ss_aqua_plate_zap]
 original_item = "zap_plate"
@@ -5124,6 +5135,7 @@ type = "npc_gift"
 [ss_aqua_plate_zap.check]
 id = 16641
 value = 3
+op = "ge"
 
 [ss_aqua_plate_meadow]
 original_item = "meadow_plate"
@@ -5135,6 +5147,7 @@ type = "npc_gift"
 [ss_aqua_plate_meadow.check]
 id = 16641
 value = 4
+op = "ge"
 
 [ss_aqua_plate_icicle]
 original_item = "icicle_plate"
@@ -5146,6 +5159,7 @@ type = "npc_gift"
 [ss_aqua_plate_icicle.check]
 id = 16641
 value = 5
+op = "ge"
 
 [ss_aqua_plate_fist]
 original_item = "fist_plate"
@@ -5157,6 +5171,7 @@ type = "npc_gift"
 [ss_aqua_plate_fist.check]
 id = 16641
 value = 6
+op = "ge"
 
 [ss_aqua_plate_toxic]
 original_item = "toxic_plate"
@@ -5168,6 +5183,7 @@ type = "npc_gift"
 [ss_aqua_plate_toxic.check]
 id = 16641
 value = 7
+op = "ge"
 
 [ss_aqua_plate_earth]
 original_item = "earth_plate"
@@ -5179,6 +5195,7 @@ type = "npc_gift"
 [ss_aqua_plate_earth.check]
 id = 16641
 value = 8
+op = "ge"
 
 [ss_aqua_plate_sky]
 original_item = "sky_plate"
@@ -5190,6 +5207,7 @@ type = "npc_gift"
 [ss_aqua_plate_sky.check]
 id = 16641
 value = 9
+op = "ge"
 
 [ss_aqua_plate_mind]
 original_item = "mind_plate"
@@ -5201,6 +5219,7 @@ type = "npc_gift"
 [ss_aqua_plate_mind.check]
 id = 16641
 value = 10
+op = "ge"
 
 [ss_aqua_plate_insect]
 original_item = "insect_plate"
@@ -5212,6 +5231,7 @@ type = "npc_gift"
 [ss_aqua_plate_insect.check]
 id = 16641
 value = 11
+op = "ge"
 
 [ss_aqua_plate_stone]
 original_item = "stone_plate"
@@ -5223,6 +5243,7 @@ type = "npc_gift"
 [ss_aqua_plate_stone.check]
 id = 16641
 value = 12
+op = "ge"
 
 [ss_aqua_plate_spooky]
 original_item = "spooky_plate"
@@ -5234,6 +5255,7 @@ type = "npc_gift"
 [ss_aqua_plate_spooky.check]
 id = 16641
 value = 13
+op = "ge"
 
 [ss_aqua_plate_draco]
 original_item = "draco_plate"
@@ -5245,6 +5267,7 @@ type = "npc_gift"
 [ss_aqua_plate_draco.check]
 id = 16641
 value = 14
+op = "ge"
 
 [ss_aqua_plate_dread]
 original_item = "dread_plate"
@@ -5256,6 +5279,7 @@ type = "npc_gift"
 [ss_aqua_plate_dread.check]
 id = 16641
 value = 15
+op = "ge"
 
 [ss_aqua_plate_iron]
 original_item = "iron_plate"
@@ -5267,6 +5291,7 @@ type = "npc_gift"
 [ss_aqua_plate_iron.check]
 id = 16641
 value = 16
+op = "ge"
 
 [t30_santos_gift]
 original_item = "soft_sand"
@@ -5386,3 +5411,20 @@ id = 175
 table = "base"
 type = "key_item"
 check = 0xB9D
+
+[national_park_quick_claw]
+original_item = "quick_claw"
+label = "National Park - Gift from Lady on Bench"
+id = 176
+table = "base"
+type = "npc_gift"
+check = 0x10E
+
+[route_2_southeast_gatehouse_sacred_ash]
+original_item = "sacred_ash"
+label = "Route 2 Southeast Gatehouse - Gift from Lab Assistant"
+id = 177
+table = "base"
+type = "npc_gift"
+check = 0x135
+
