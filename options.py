@@ -557,7 +557,7 @@ class InLogicEvolutionMethods(OptionSet):
     Valid keys:
     - level: all species which require a specific level to evolve.
     - happiness: all species which require happiness to evolve.
-    - use_item: all species which require a specific item to evolve. This includes trade evolutions (item is linking cord) and levelup while knowing a move (moves are taught by their corresponding TMs)
+    - use_item: all species which require a specific item to evolve. This includes trade evolutions (item is linking cord).
     - held_item: all species which require a held item to evolve.
     - time: all species which require being evolved at certain times.
     - location: all species which require being evolved at certain locations.
@@ -606,9 +606,8 @@ class InLogicEvolutionMethods(OptionSet):
         if "mildly_annoying" in self:
             ret.add("level_species_in_party")
 
-        # TODO
-        #if "highly_annoying" in self:
-        #    ret.add("level_beauty")
+        if "highly_annoying" in self:
+            ret.add("level_beauty")
 
         if "happiness" in self:
             ret.add("level_happiness")
@@ -622,7 +621,7 @@ class InLogicEvolutionMethods(OptionSet):
             ret |= {
                 "use_item",
                 "trade",
-                "level_know_move",
+                #"level_know_move",
             }
             if "held_item" in self:
                 ret.add("trade_with_held_item")
@@ -815,7 +814,7 @@ class RandomizePokegearCards(Toggle):
     """
     Randomize the cards available for the Pokegear.
     """
-    display_name = "Require Pokegear Cards"
+    display_name = "Randomize Pokegear Cards"
 
 class RequireRestoredPowerForMagnetTrain(DefaultOnToggle):
     """
@@ -877,6 +876,12 @@ class MagneticFieldLocations(RegionEvoRequirement):
     option_both = 3
     default = option_both
     display_name = "Magnetic Field Locations"
+
+class FastFishing(Toggle):
+    """
+    Fishing is faster.
+    """
+    display_name = "Fast Fishing"
 
 slot_data_options: Sequence[str] = [
     "goal",
@@ -1007,6 +1012,7 @@ class PokemonHgssOptions(PerGameCommonOptions):
     talk_trainers_without_fight: TalkTrainersWithoutFight
     exp_multiplier: ExpMultiplier
     item_notifications_mask: ItemNotificationsMask
+    fast_fishing: FastFishing
 
     master_repel: AddMasterRepel
 
@@ -1201,6 +1207,7 @@ OPTION_GROUPS = [
             AddMasterRepel,
             ItemNotificationsMask,
             RequireFlyItemsForFlight,
+            FastFishing,
         ],
     ),
 ]

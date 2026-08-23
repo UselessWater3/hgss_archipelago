@@ -276,7 +276,7 @@ class PokemonHgssClient(BizHawkClient):
     async def validate_rom(self, ctx: "BizHawkClientContext") -> bool:
         from CommonClient import logger
         def remove_commands():
-            for command in ["cheat", "death_link_state", "death_link_group"]:
+            for command in ["death_link_state", "death_link_group"]:
                 if command in ctx.command_processor.commands:
                     del ctx.command_processor.commands[command]
 

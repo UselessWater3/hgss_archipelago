@@ -1290,6 +1290,7 @@ events = [
 [viridian_trainer_house_b1f]
 exits = [
     "viridian_trainer_house_1f",
+    "virt_fly_map_battle_frontier",
 ]
 header = "viridian_trainer_house_b1f"
 
@@ -1429,6 +1430,9 @@ exits = [
     "route_2_east",
 ]
 header = "route_2_southeast_gatehouse"
+locs = [
+    "route_2_southeast_gatehouse_sacred_ash",
+]
 
 [route_32_pokecenter_1f]
 exits = [
@@ -2295,6 +2299,7 @@ locs = [
     "overworld_d22r0101_soothe_bell",
     "overworld_d22r0101_tm28",
     "overworld_d22r0101_shiny_stone",
+    "national_park_quick_claw",
 ]
 trainers = [
     "school_kid_m_jack",
@@ -3587,9 +3592,6 @@ locs = [
     "hidden_t04_nugget",
     "fly_map_cerulean",
 ]
-events = [
-    "event_cerulean_meet_kanto_grunt",
-]
 
 [vermilion_gym]
 exits = [
@@ -4324,6 +4326,7 @@ locs = [
 ]
 events = [
     "event_defeat_misty",
+    "event_cerulean_meet_kanto_grunt",
 ]
 
 [fuchsia]
@@ -4930,6 +4933,7 @@ exits = [
     "frontier_access_pokecenter_1f",
     "frontier_access_pokemart",
     "route_40_battle_frontier_gatehouse",
+    "virt_fly_map_battle_frontier",
 ]
 header = "battle_frontier_frontier_access"
 locs = [
@@ -5655,9 +5659,6 @@ exits = [
     "battle_tower",
 ]
 header = "battle_frontier"
-locs = [
-    "fly_map_battle_frontier",
-]
 
 [celadon_condominiums_left_elevator]
 header = "celadon_condominiums_left_elevator"
@@ -5963,4 +5964,11 @@ header = "virt"
 exits = []
 locs = [
     "hidden_d02r0103_max_revive",
+]
+
+[virt_fly_map_battle_frontier]
+header = "virt"
+exits = []
+locs = [
+    "fly_map_battle_frontier",
 ]

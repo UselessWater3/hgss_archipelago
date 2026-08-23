@@ -76,7 +76,7 @@ party = [
 
 [swimmer_f_elaine]
 id = 9
-label = "Route 40 - Swimmer♀ Elaine"
+label = "Route 40 - Swimmer Elaine"
 party = [
     { species = "staryu", level = 21 },
 ]
@@ -135,7 +135,7 @@ party = [
 
 [swimmer_m_simon]
 id = 16
-label = "Route 40 - Swimmer♂ Simon"
+label = "Route 40 - Swimmer Simon"
 party = [
     { species = "tentacool", level = 20 },
     { species = "tentacool", level = 20 },
@@ -689,7 +689,7 @@ party = [
 
 [swimmer_f_paula]
 id = 85
-label = "Route 40 - Swimmer♀ Paula"
+label = "Route 40 - Swimmer Paula"
 party = [
     { species = "staryu", level = 19 },
     { species = "shellder", level = 19 },
@@ -697,7 +697,7 @@ party = [
 
 [swimmer_m_randall]
 id = 86
-label = "Route 40 - Swimmer♂ Randall"
+label = "Route 40 - Swimmer Randall"
 party = [
     { species = "shellder", level = 18, num_moves = 4 },
     { species = "wartortle", level = 20, num_moves = 4 },
@@ -732,7 +732,7 @@ party = [
 
 [swimmer_f_kaylee]
 id = 90
-label = "Route 41 - Swimmer♀ Kaylee"
+label = "Route 41 - Swimmer Kaylee"
 party = [
     { species = "goldeen", level = 18, num_moves = 4 },
     { species = "goldeen", level = 20, num_moves = 4 },
@@ -741,7 +741,7 @@ party = [
 
 [swimmer_f_susie]
 id = 91
-label = "Route 41 - Swimmer♀ Susie"
+label = "Route 41 - Swimmer Susie"
 party = [
     { species = "psyduck", level = 20, num_moves = 4 },
     { species = "goldeen", level = 22, num_moves = 4 },
@@ -749,14 +749,14 @@ party = [
 
 [swimmer_f_denise]
 id = 92
-label = "Route 41 - Swimmer♀ Denise"
+label = "Route 41 - Swimmer Denise"
 party = [
     { species = "seel", level = 22 },
 ]
 
 [swimmer_f_kara]
 id = 93
-label = "Route 41 - Swimmer♀ Kara"
+label = "Route 41 - Swimmer Kara"
 party = [
     { species = "staryu", level = 20 },
     { species = "starmie", level = 20 },
@@ -764,7 +764,7 @@ party = [
 
 [swimmer_f_wendy]
 id = 94
-label = "Route 41 - Swimmer♀ Wendy"
+label = "Route 41 - Swimmer Wendy"
 party = [
     { species = "horsea", level = 21, num_moves = 4 },
     { species = "horsea", level = 21, num_moves = 4 },
@@ -772,7 +772,7 @@ party = [
 
 [swimmer_m_charlie]
 id = 95
-label = "Route 41 - Swimmer♂ Charlie"
+label = "Route 41 - Swimmer Charlie"
 party = [
     { species = "shellder", level = 21 },
     { species = "tentacool", level = 19 },
@@ -781,7 +781,7 @@ party = [
 
 [swimmer_m_george]
 id = 96
-label = "Route 41 - Swimmer♂ George"
+label = "Route 41 - Swimmer George"
 party = [
     { species = "tentacool", level = 16 },
     { species = "tentacool", level = 17 },
@@ -793,14 +793,14 @@ party = [
 
 [swimmer_m_berke]
 id = 97
-label = "Route 41 - Swimmer♂ Berke"
+label = "Route 41 - Swimmer Berke"
 party = [
     { species = "qwilfish", level = 23 },
 ]
 
 [swimmer_m_ronald]
 id = 98
-label = "Route 41 - Swimmer♂ Ronald"
+label = "Route 41 - Swimmer Ronald"
 party = [
     { species = "gyarados", level = 20 },
     { species = "gyarados", level = 20 },
@@ -808,7 +808,7 @@ party = [
 
 [swimmer_m_matthew]
 id = 99
-label = "Route 41 - Swimmer♂ Matthew"
+label = "Route 41 - Swimmer Matthew"
 party = [
     { species = "krabby", level = 23 },
 ]
@@ -1342,28 +1342,28 @@ party = [
 
 [swimmer_f_mickey]
 id = 165
-label = "Swimmer♀ Mickey"
+label = "Swimmer Mickey"
 party = [
     { species = "jynx", level = 28 },
 ]
 
 [swimmer_f_mickey_2]
 id = 166
-label = "Swimmer♀ Mickey 2"
+label = "Swimmer Mickey 2"
 party = [
     { species = "dewgong", level = 29 },
 ]
 
 [swimmer_f_mickey_3]
 id = 167
-label = "Swimmer♀ Mickey 3"
+label = "Swimmer Mickey 3"
 party = [
     { species = "seaking", level = 20 },
 ]
 
 [swimmer_m_mickey]
 id = 168
-label = "Swimmer♂ Mickey"
+label = "Swimmer Mickey"
 party = [
     { species = "seel", level = 25 },
     { species = "dewgong", level = 26 },
@@ -1372,7 +1372,7 @@ party = [
 
 [swimmer_m_mickey_2]
 id = 169
-label = "Swimmer♂ Mickey 2"
+label = "Swimmer Mickey 2"
 party = [
     { species = "piloswine", level = 27 },
     { species = "piloswine", level = 27 },
@@ -1380,7 +1380,7 @@ party = [
 
 [swimmer_m_mickey_3]
 id = 170
-label = "Swimmer♂ Mickey 3"
+label = "Swimmer Mickey 3"
 party = [
     { species = "shellder", level = 24 },
     { species = "cloyster", level = 25 },
@@ -1389,7 +1389,7 @@ party = [
 
 [swimmer_m_mickey_4]
 id = 171
-label = "Swimmer♂ Mickey 4"
+label = "Swimmer Mickey 4"
 party = [
     { species = "horsea", level = 15 },
     { species = "horsea", level = 15 },
@@ -1979,7 +1979,7 @@ party = [
 
 [swimmer_f_katie]
 id = 243
-label = "Swimmer♀ Katie"
+label = "Swimmer Katie"
 party = [
     { species = "dewgong", level = 41 },
 ]
@@ -2066,7 +2066,7 @@ party = [
 
 [swimmer_m_harold]
 id = 252
-label = "Route 19 - Swimmer♂ Harold"
+label = "Route 19 - Swimmer Harold"
 party = [
     { species = "remoraid", level = 42 },
     { species = "seadra", level = 40 },
@@ -2280,7 +2280,7 @@ party = [
 
 [swimmer_m_mickey_5]
 id = 273
-label = "Swimmer♂ Mickey 5"
+label = "Swimmer Mickey 5"
 party = [
     { species = "staryu", level = 13 },
     { species = "starmie", level = 18 },
@@ -2450,21 +2450,21 @@ party = [
 
 [swimmer_f_debbie]
 id = 291
-label = "Route 19 - Swimmer♀ Debbie"
+label = "Route 19 - Swimmer Debbie"
 party = [
     { species = "clamperl", level = 46 },
 ]
 
 [swimmer_f_mickey_4]
 id = 292
-label = "Swimmer♀ Mickey 4"
+label = "Swimmer Mickey 4"
 party = [
     { species = "seaking", level = 20 },
 ]
 
 [swimmer_f_nicole]
 id = 293
-label = "Route 20 - Swimmer♀ Nicole"
+label = "Route 20 - Swimmer Nicole"
 party = [
     { species = "marill", level = 39 },
     { species = "marill", level = 39 },
@@ -2473,7 +2473,7 @@ party = [
 
 [swimmer_f_lori]
 id = 294
-label = "Route 20 - Swimmer♀ Lori"
+label = "Route 20 - Swimmer Lori"
 party = [
     { species = "starmie", level = 42, num_moves = 4 },
     { species = "starmie", level = 42, num_moves = 4 },
@@ -2482,14 +2482,14 @@ party = [
 
 [swimmer_f_mickey_5]
 id = 295
-label = "Swimmer♀ Mickey 5"
+label = "Swimmer Mickey 5"
 party = [
     { species = "seaking", level = 20 },
 ]
 
 [swimmer_f_nikki]
 id = 296
-label = "Route 21 - Swimmer♀ Nikki"
+label = "Route 21 - Swimmer Nikki"
 party = [
     { species = "seel", level = 37 },
     { species = "dewgong", level = 42 },
@@ -2497,14 +2497,14 @@ party = [
 
 [swimmer_f_diana]
 id = 297
-label = "Cerulean Gym - Swimmer♀ Diana"
+label = "Cerulean Gym - Swimmer Diana"
 party = [
     { species = "golduck", level = 48, num_moves = 4 },
 ]
 
 [swimmer_f_briana]
 id = 298
-label = "Cerulean Gym - Swimmer♀ Briana"
+label = "Cerulean Gym - Swimmer Briana"
 party = [
     { species = "seaking", level = 46, num_moves = 4 },
     { species = "seaking", level = 46, num_moves = 4 },
@@ -3095,7 +3095,7 @@ party = [
 
 [swimmer_m_jerome]
 id = 370
-label = "Route 19 - Swimmer♂ Jerome"
+label = "Route 19 - Swimmer Jerome"
 party = [
     { species = "seadra", level = 36 },
     { species = "tentacool", level = 38 },
@@ -3105,7 +3105,7 @@ party = [
 
 [swimmer_m_tucker]
 id = 371
-label = "Route 19 - Swimmer♂ Tucker"
+label = "Route 19 - Swimmer Tucker"
 party = [
     { species = "shellder", level = 40 },
     { species = "cloyster", level = 44 },
@@ -3113,7 +3113,7 @@ party = [
 
 [swimmer_m_mickey_6]
 id = 372
-label = "Swimmer♂ Mickey 6"
+label = "Swimmer Mickey 6"
 party = [
     { species = "staryu", level = 13 },
     { species = "starmie", level = 18 },
@@ -3122,14 +3122,14 @@ party = [
 
 [swimmer_m_frankie]
 id = 373
-label = "Route 20 - Swimmer♂ Frankie"
+label = "Route 20 - Swimmer Frankie"
 party = [
     { species = "azumarill", level = 44 },
 ]
 
 [swimmer_m_tyson]
 id = 374
-label = "Route 21 - Swimmer♂ Tyson"
+label = "Route 21 - Swimmer Tyson"
 party = [
     { species = "quagsire", level = 42, num_moves = 4 },
     { species = "octillery", level = 42, num_moves = 4 },
@@ -3137,7 +3137,7 @@ party = [
 
 [swimmer_m_mickey_7]
 id = 375
-label = "Swimmer♂ Mickey 7"
+label = "Swimmer Mickey 7"
 party = [
     { species = "staryu", level = 13 },
     { species = "starmie", level = 18 },
@@ -3146,7 +3146,7 @@ party = [
 
 [swimmer_m_mickey_8]
 id = 376
-label = "Swimmer♂ Mickey 8"
+label = "Swimmer Mickey 8"
 party = [
     { species = "staryu", level = 13 },
     { species = "starmie", level = 18 },
@@ -3155,7 +3155,7 @@ party = [
 
 [swimmer_m_parker]
 id = 377
-label = "Swimmer♂ Parker"
+label = "Swimmer Parker"
 party = [
     { species = "horsea", level = 43, num_moves = 4 },
     { species = "seadra", level = 43, num_moves = 4 },
@@ -4855,7 +4855,7 @@ party = [
 
 [swimmer_m_elmo]
 id = 585
-label = "Route 20 - Swimmer♂ Elmo"
+label = "Route 20 - Swimmer Elmo"
 party = [
     { species = "poliwhirl", level = 46 },
     { species = "tentacruel", level = 42 },
@@ -4863,7 +4863,7 @@ party = [
 
 [swimmer_m_luis]
 id = 586
-label = "Route 20 - Swimmer♂ Luis"
+label = "Route 20 - Swimmer Luis"
 party = [
     { species = "seadra", level = 46 },
     { species = "quagsire", level = 42 },
@@ -4871,14 +4871,14 @@ party = [
 
 [swimmer_f_leona]
 id = 587
-label = "Route 20 - Swimmer♀ Leona"
+label = "Route 20 - Swimmer Leona"
 party = [
     { species = "bidoof", level = 44 },
 ]
 
 [swimmer_f_mina]
 id = 588
-label = "Route 20 - Swimmer♀ Mina"
+label = "Route 20 - Swimmer Mina"
 party = [
     { species = "luvdisc", level = 38 },
     { species = "luvdisc", level = 39 },
@@ -4912,21 +4912,21 @@ party = [
 
 [swimmer_f_chelan]
 id = 592
-label = "Route 21 - Swimmer♀ Chelan"
+label = "Route 21 - Swimmer Chelan"
 party = [
     { species = "azumarill", level = 40, num_moves = 4 },
 ]
 
 [swimmer_f_kendra]
 id = 593
-label = "Route 21 - Swimmer♀ Kendra"
+label = "Route 21 - Swimmer Kendra"
 party = [
     { species = "slowking", level = 43 },
 ]
 
 [swimmer_m_esteban]
 id = 594
-label = "Route 21 - Swimmer♂ Esteban"
+label = "Route 21 - Swimmer Esteban"
 party = [
     { species = "golduck", level = 38 },
     { species = "poliwhirl", level = 38 },
@@ -4934,7 +4934,7 @@ party = [
 
 [swimmer_m_duane]
 id = 595
-label = "Route 21 - Swimmer♂ Duane"
+label = "Route 21 - Swimmer Duane"
 party = [
     { species = "seaking", level = 40 },
     { species = "kabutops", level = 40 },
@@ -5649,7 +5649,7 @@ party = [
 
 [swimmer_f_joy]
 id = 678
-label = "Cerulean Gym - Swimmer♀ Joy"
+label = "Cerulean Gym - Swimmer Joy"
 party = [
     { species = "cloyster", level = 48, num_moves = 4 },
 ]
@@ -6123,7 +6123,7 @@ party = [
 
 [beauty_charlotte]
 id = 728
-label = "Olivine City - Beauty Charlotte"
+label = "Olivine Pokemon Center - Beauty Charlotte"
 party = [
     { species = "bellossom", level = 16 },
 ]
