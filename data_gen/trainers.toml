@@ -10,7 +10,7 @@ party = []
 
 [rival_silver_azalea_totodile]
 id = 1
-label = "Azalea - Rival"
+label = "Azalea Town - Rival"
 party = [
     { species = "gastly", level = 14 },
     { species = "zubat", level = 16 },
@@ -43,7 +43,7 @@ party = [
 
 [beauty_victoria]
 id = 5
-label = "Goldenrod City - Beauty Victoria"
+label = "Goldenrod Gym - Beauty Victoria"
 party = [
     { species = "sentret", level = 9 },
     { species = "sentret", level = 13 },
@@ -83,7 +83,7 @@ party = [
 
 [twins_amy_and_mimi]
 id = 10
-label = "Azalea Town - Twins Amy & Mimi"
+label = "Azalea Gym - Twins Amy & Mimi"
 party = [
     { species = "spinarak", level = 10 },
     { species = "ledyba", level = 10 },
@@ -100,7 +100,7 @@ party = [
 
 [team_rocket_grunt]
 id = 12
-label = "SLOWPOKE Well - Team Rocket Grunt"
+label = "SLOWPOKE Well B1F - Team Rocket Grunt"
 party = [
     { species = "rattata", level = 7 },
     { species = "zubat", level = 9 },
@@ -109,7 +109,7 @@ party = [
 
 [team_rocket_f_grunt]
 id = 13
-label = "SLOWPOKE Well - Team Rocket Grunt F"
+label = "SLOWPOKE Well B1F - Team Rocket Grunt F"
 party = [
     { species = "zubat", level = 9 },
     { species = "ekans", level = 11 },
@@ -117,7 +117,7 @@ party = [
 
 [burglar_duncan]
 id = 14
-label = "Goldenrod City - Burglar Duncan"
+label = "Goldenrod Tunnel B2F - Burglar Duncan"
 party = [
     { species = "koffing", level = 23 },
     { species = "magmar", level = 25 },
@@ -169,7 +169,7 @@ party = [
 
 [leader_falkner_falkner]
 id = 20
-label = "Leader Falkner"
+label = "Violet Gym - Leader Falkner"
 party = [
     { species = "pidgey", level = 9, num_moves = 2 },
     { species = "pidgeotto", level = 13, num_moves = 3 },
@@ -177,7 +177,7 @@ party = [
 
 [leader_bugsy_bugsy]
 id = 21
-label = "Leader Bugsy"
+label = "Azalea Gym - Leader Bugsy"
 party = [
     { species = "scyther", level = 17, num_moves = 4 },
     { species = "kakuna", level = 15, num_moves = 1 },
@@ -186,14 +186,14 @@ party = [
 
 [lass_carrie]
 id = 22
-label = "Goldenrod City - Lass Carrie"
+label = "Goldenrod Gym - Lass Carrie"
 party = [
     { species = "snubbull", level = 17, num_moves = 4 },
 ]
 
 [poke_maniac_larry]
 id = 23
-label = "Union Cave - Poke Maniac Larry"
+label = "Union Cave 1F - Poke Maniac Larry"
 party = [
     { species = "slowpoke", level = 11 },
 ]
@@ -207,7 +207,7 @@ party = [
 
 [hiker_russel]
 id = 25
-label = "Union Cave - Hiker Russel"
+label = "Union Cave 1F - Hiker Russel"
 party = [
     { species = "geodude", level = 4 },
     { species = "geodude", level = 6 },
@@ -239,7 +239,7 @@ party = [
 
 [bird_keeper_gs_rod]
 id = 29
-label = "Violet City - Bird Keeper Rod"
+label = "Violet Gym - Bird Keeper Rod"
 party = [
     { species = "pidgey", level = 7 },
     { species = "pidgey", level = 7 },
@@ -247,7 +247,7 @@ party = [
 
 [leader_whitney]
 id = 30
-label = "Leader Whitney"
+label = "Goldenrod Gym - Leader Whitney"
 party = [
     { species = "clefairy", level = 17, num_moves = 4 },
     { species = "miltank", level = 19, num_moves = 4 },
@@ -255,7 +255,7 @@ party = [
 
 [leader_morty_morty]
 id = 31
-label = "Leader Morty"
+label = "Ecruteak Gym - Leader Morty"
 party = [
     { species = "gastly", level = 21, num_moves = 4 },
     { species = "haunter", level = 21, num_moves = 4 },
@@ -265,7 +265,7 @@ party = [
 
 [leader_pryce_pryce]
 id = 32
-label = "Leader Pryce"
+label = "Mahogany Gym - Leader Pryce"
 party = [
     { species = "seel", level = 30, num_moves = 4 },
     { species = "dewgong", level = 32, num_moves = 4 },
@@ -274,7 +274,7 @@ party = [
 
 [leader_jasmine_jasmine]
 id = 33
-label = "Leader Jasmine"
+label = "Olivine Gym - Leader Jasmine"
 party = [
     { species = "magnemite", level = 30, num_moves = 4 },
     { species = "magnemite", level = 30, num_moves = 4 },
@@ -283,7 +283,7 @@ party = [
 
 [leader_chuck_chuck]
 id = 34
-label = "Leader Chuck"
+label = "Cianwood Gym - Leader Chuck"
 party = [
     { species = "primeape", level = 29, num_moves = 4 },
     { species = "poliwrath", level = 31, num_moves = 4 },
@@ -291,7 +291,7 @@ party = [
 
 [leader_clair_clair]
 id = 35
-label = "Leader Clair"
+label = "Blackthorn Gym - Leader Clair"
 party = [
     { species = "gyarados", level = 38, num_moves = 4 },
     { species = "dragonair", level = 38, num_moves = 4 },
@@ -309,7 +309,7 @@ party = [
 
 [gentleman_preston]
 id = 37
-label = "Lighthouse - Gentleman Preston"
+label = "Olivine Lighthouse 4F - Gentleman Preston"
 party = [
     { species = "growlithe", level = 18 },
     { species = "growlithe", level = 18 },
@@ -340,7 +340,7 @@ party = [
 
 [guitarist_clyde]
 id = 41
-label = "S.S. Aqua - Guitarist Clyde"
+label = "S.S. Aqua 1F Northeast Rooms - Guitarist Clyde"
 party = [
     { species = "electabuzz", level = 42 },
 ]
@@ -354,7 +354,7 @@ party = [
 
 [sage_chow]
 id = 43
-label = "Sprout Tower - Sage Chow"
+label = "Sprout Tower 1F - Sage Chow"
 party = [
     { species = "bellsprout", level = 3 },
     { species = "bellsprout", level = 3 },
@@ -377,7 +377,7 @@ party = [
 
 [medium_martha]
 id = 46
-label = "Ecruteak City - Medium Martha"
+label = "Ecruteak Gym - Medium Martha"
 party = [
     { species = "gastly", level = 18 },
     { species = "haunter", level = 20 },
@@ -410,14 +410,14 @@ party = [
 
 [bird_keeper_gs_abe]
 id = 50
-label = "Violet City - Bird Keeper Abe"
+label = "Violet Gym - Bird Keeper Abe"
 party = [
     { species = "spearow", level = 9 },
 ]
 
 [sage_nico]
 id = 51
-label = "Sprout Tower - Sage Nico"
+label = "Sprout Tower 2F - Sage Nico"
 party = [
     { species = "bellsprout", level = 3 },
     { species = "bellsprout", level = 3 },
@@ -426,7 +426,7 @@ party = [
 
 [sage_edmond]
 id = 52
-label = "Sprout Tower - Sage Edmond"
+label = "Sprout Tower 2F - Sage Edmond"
 party = [
     { species = "bellsprout", level = 3 },
     { species = "bellsprout", level = 3 },
@@ -435,14 +435,14 @@ party = [
 
 [sage_jin]
 id = 53
-label = "Sprout Tower - Sage Jin"
+label = "Sprout Tower 3F - Sage Jin"
 party = [
     { species = "bellsprout", level = 6 },
 ]
 
 [sage_troy]
 id = 54
-label = "Sprout Tower - Sage Troy"
+label = "Sprout Tower 3F - Sage Troy"
 party = [
     { species = "bellsprout", level = 7 },
     { species = "hoothoot", level = 7 },
@@ -450,7 +450,7 @@ party = [
 
 [sage_neal]
 id = 55
-label = "Sprout Tower - Sage Neal"
+label = "Sprout Tower 3F - Sage Neal"
 party = [
     { species = "bellsprout", level = 6 },
 ]
@@ -544,7 +544,7 @@ party = [
 
 [bug_catcher_benny]
 id = 67
-label = "Azalea Town - Bug Catcher Benny"
+label = "Azalea Gym - Bug Catcher Benny"
 party = [
     { species = "weedle", level = 7 },
     { species = "kakuna", level = 9 },
@@ -553,7 +553,7 @@ party = [
 
 [bug_catcher_al]
 id = 68
-label = "Azalea Town - Bug Catcher Al"
+label = "Azalea Gym - Bug Catcher Al"
 party = [
     { species = "caterpie", level = 12 },
     { species = "weedle", level = 12 },
@@ -561,14 +561,14 @@ party = [
 
 [bug_catcher_josh]
 id = 69
-label = "Azalea Town - Bug Catcher Josh"
+label = "Azalea Gym - Bug Catcher Josh"
 party = [
     { species = "paras", level = 13 },
 ]
 
 [beauty_samantha]
 id = 70
-label = "Goldenrod City - Beauty Samantha"
+label = "Goldenrod Gym - Beauty Samantha"
 party = [
     { species = "meowth", level = 16, num_moves = 4 },
     { species = "meowth", level = 16, num_moves = 4 },
@@ -576,7 +576,7 @@ party = [
 
 [lass_cathy]
 id = 71
-label = "Goldenrod City - Lass Cathy"
+label = "Goldenrod Gym - Lass Cathy"
 party = [
     { species = "jigglypuff", level = 15 },
     { species = "jigglypuff", level = 15 },
@@ -593,7 +593,7 @@ party = [
 
 [bird_keeper_gs_theo]
 id = 73
-label = "Lighthouse - Bird Keeper Theo"
+label = "Olivine Lighthouse 3F - Bird Keeper Theo"
 party = [
     { species = "pidgey", level = 17 },
     { species = "pidgey", level = 15 },
@@ -642,7 +642,7 @@ party = [
 
 [bug_catcher_ken]
 id = 79
-label = "S.S. Aqua - Bug Catcher Ken"
+label = "S.S. Aqua 1F Northeast Rooms - Bug Catcher Ken"
 party = [
     { species = "ariados", level = 39 },
     { species = "pinsir", level = 40 },
@@ -675,14 +675,14 @@ party = [
 
 [picnicker_cindy]
 id = 83
-label = "Picnicker Cindy"
+label = "Fuchsia Gym - Picnicker Cindy"
 party = [
     { species = "nidoqueen", level = 48, num_moves = 4 },
 ]
 
 [camper_barry]
 id = 84
-label = "Camper Barry"
+label = "Fuchsia Gym - Camper Barry"
 party = [
     { species = "nidoking", level = 48, num_moves = 4 },
 ]
@@ -724,7 +724,7 @@ party = [
 
 [medium_grace]
 id = 89
-label = "Ecruteak City - Medium Grace"
+label = "Ecruteak Gym - Medium Grace"
 party = [
     { species = "haunter", level = 20 },
     { species = "haunter", level = 20 },
@@ -823,7 +823,7 @@ party = [
 
 [team_rocket_grunt_2]
 id = 101
-label = "SLOWPOKE Well - Team Rocket Grunt 2"
+label = "SLOWPOKE Well B1F - Team Rocket Grunt 2"
 party = [
     { species = "rattata", level = 9 },
     { species = "rattata", level = 9 },
@@ -900,7 +900,7 @@ party = [
 
 [ace_trainer_m_paulo]
 id = 110
-label = "Blackthorn City - Ace Trainer Paulo"
+label = "Blackthorn Gym - Ace Trainer Paulo"
 party = [
     { species = "dratini", level = 35 },
     { species = "seadra", level = 35 },
@@ -909,14 +909,14 @@ party = [
 
 [ace_trainer_m_mike]
 id = 111
-label = "Blackthorn City - Ace Trainer Mike"
+label = "Blackthorn Gym - Ace Trainer Mike"
 party = [
     { species = "dragonair", level = 38 },
 ]
 
 [ace_trainer_m_cody]
 id = 112
-label = "Blackthorn City - Ace Trainer Cody"
+label = "Blackthorn Gym - Ace Trainer Cody"
 party = [
     { species = "horsea", level = 35 },
     { species = "seadra", level = 37 },
@@ -958,7 +958,7 @@ party = [
 
 [ace_trainer_f_lola]
 id = 117
-label = "Blackthorn City - Ace Trainer Lola"
+label = "Blackthorn Gym - Ace Trainer Lola"
 party = [
     { species = "dratini", level = 35 },
     { species = "dragonair", level = 37 },
@@ -966,7 +966,7 @@ party = [
 
 [ace_trainer_f_kate]
 id = 118
-label = "Ace Trainer Kate"
+label = "Route 34 - Ace Trainer Kate"
 party = [
     { species = "shellder", level = 26 },
     { species = "cloyster", level = 28 },
@@ -974,14 +974,14 @@ party = [
 
 [ace_trainer_f_fran]
 id = 119
-label = "Blackthorn City - Ace Trainer Fran"
+label = "Blackthorn Gym - Ace Trainer Fran"
 party = [
     { species = "seadra", level = 38 },
 ]
 
 [ace_trainer_f_irene]
 id = 120
-label = "Ace Trainer Irene"
+label = "Route 34 - Ace Trainer Irene"
 party = [
     { species = "goldeen", level = 22 },
     { species = "seaking", level = 24 },
@@ -1048,7 +1048,7 @@ party = [
 
 [fisherman_jonah]
 id = 128
-label = "S.S. Aqua - Fisherman Jonah"
+label = "S.S. Aqua B1F - Fisherman Jonah"
 party = [
     { species = "shellder", level = 33 },
     { species = "octillery", level = 37 },
@@ -1088,7 +1088,7 @@ party = [
 
 [poke_maniac_morgan]
 id = 133
-label = "S.S. Aqua - Poke Maniac Morgan"
+label = "S.S. Aqua 1F Southwest Rooms - Poke Maniac Morgan"
 party = [
     { species = "rhyhorn", level = 39 },
     { species = "rhydon", level = 39 },
@@ -1114,7 +1114,7 @@ party = [
 
 [lass_linda]
 id = 136
-label = "Lass Linda"
+label = "Fuchsia Gym - Lass Linda"
 party = [
     { species = "bulbasaur", level = 41, num_moves = 4 },
     { species = "ivysaur", level = 43, num_moves = 4 },
@@ -1138,7 +1138,7 @@ party = [
 
 [picnicker_debra]
 id = 139
-label = "S.S. Aqua - Picnicker Debra"
+label = "S.S. Aqua B1F - Picnicker Debra"
 party = [
     { species = "seaking", level = 41 },
 ]
@@ -1276,21 +1276,21 @@ party = [
 
 [black_belt_yoshi]
 id = 156
-label = "Cianwood City - Black Belt Yoshi"
+label = "Cianwood Gym - Black Belt Yoshi"
 party = [
     { species = "hitmonlee", level = 27, num_moves = 4 },
 ]
 
 [black_belt_lao]
 id = 157
-label = "Cianwood City - Black Belt Lao"
+label = "Cianwood Gym - Black Belt Lao"
 party = [
     { species = "hitmonchan", level = 27, num_moves = 4 },
 ]
 
 [black_belt_kiyo]
 id = 158
-label = "Black Belt Kiyo"
+label = "Mt. Mortar B1F - Black Belt Kiyo"
 party = [
     { species = "hitmonlee", level = 34 },
     { species = "hitmonchan", level = 34 },
@@ -1298,7 +1298,7 @@ party = [
 
 [black_belt_lung]
 id = 159
-label = "Cianwood City - Black Belt Lung"
+label = "Cianwood Gym - Black Belt Lung"
 party = [
     { species = "mankey", level = 23 },
     { species = "mankey", level = 23 },
@@ -1307,35 +1307,35 @@ party = [
 
 [kimono_girl_naoko]
 id = 160
-label = "Kimono Girl Naoko"
+label = "Ecruteak Dance Theater - Kimono Girl Naoko"
 party = [
     { species = "espeon", level = 38, num_moves = 4 },
 ]
 
 [kimono_girl_sayo]
 id = 161
-label = "Kimono Girl Sayo"
+label = "Ecruteak Dance Theater - Kimono Girl Sayo"
 party = [
     { species = "jolteon", level = 38, num_moves = 4 },
 ]
 
 [kimono_girl_zuki]
 id = 162
-label = "Kimono Girl Zuki"
+label = "Ecruteak Dance Theater - Kimono Girl Zuki"
 party = [
     { species = "umbreon", level = 38, num_moves = 4 },
 ]
 
 [kimono_girl_kuni]
 id = 163
-label = "Kimono Girl Kuni"
+label = "Ecruteak Dance Theater - Kimono Girl Kuni"
 party = [
     { species = "vaporeon", level = 38, num_moves = 4 },
 ]
 
 [kimono_girl_miki]
 id = 164
-label = "Kimono Girl Miki"
+label = "Ecruteak Dance Theater - Kimono Girl Miki"
 party = [
     { species = "flareon", level = 38, num_moves = 4 },
 ]
@@ -1486,7 +1486,7 @@ party = [
 
 [lass_alice]
 id = 183
-label = "Lass Alice"
+label = "Fuchsia Gym - Lass Alice"
 party = [
     { species = "gloom", level = 41, num_moves = 4 },
     { species = "arbok", level = 45, num_moves = 4 },
@@ -1511,7 +1511,7 @@ party = [
 
 [team_rocket_grunt_4]
 id = 186
-label = "Radio Tower - Team Rocket Grunt 4"
+label = "Goldenrod Radio Tower 2F - Team Rocket Grunt 4"
 party = [
     { species = "grimer", level = 23 },
     { species = "grimer", level = 23 },
@@ -1520,7 +1520,7 @@ party = [
 
 [team_rocket_grunt_5]
 id = 187
-label = "Radio Tower - Team Rocket Grunt 5"
+label = "Goldenrod Radio Tower 2F - Team Rocket Grunt 5"
 party = [
     { species = "rattata", level = 21 },
     { species = "rattata", level = 21 },
@@ -1531,7 +1531,7 @@ party = [
 
 [team_rocket_grunt_6]
 id = 188
-label = "Radio Tower - Team Rocket Grunt 6"
+label = "Goldenrod Radio Tower 2F - Team Rocket Grunt 6"
 party = [
     { species = "zubat", level = 26 },
     { species = "zubat", level = 26 },
@@ -1539,7 +1539,7 @@ party = [
 
 [team_rocket_grunt_7]
 id = 189
-label = "Radio Tower - Team Rocket Grunt 7"
+label = "Goldenrod Radio Tower 3F - Team Rocket Grunt 7"
 party = [
     { species = "koffing", level = 23 },
     { species = "grimer", level = 23 },
@@ -1549,14 +1549,14 @@ party = [
 
 [team_rocket_grunt_8]
 id = 190
-label = "Radio Tower - Team Rocket Grunt 8"
+label = "Goldenrod Radio Tower 3F - Team Rocket Grunt 8"
 party = [
     { species = "weezing", level = 26 },
 ]
 
 [team_rocket_grunt_9]
 id = 191
-label = "Radio Tower - Team Rocket Grunt 9"
+label = "Goldenrod Radio Tower 3F - Team Rocket Grunt 9"
 party = [
     { species = "raticate", level = 24 },
     { species = "koffing", level = 26 },
@@ -1564,7 +1564,7 @@ party = [
 
 [team_rocket_grunt_10]
 id = 192
-label = "Radio Tower - Team Rocket Grunt 10"
+label = "Goldenrod Radio Tower 4F - Team Rocket Grunt 10"
 party = [
     { species = "zubat", level = 22 },
     { species = "golbat", level = 24 },
@@ -1573,7 +1573,7 @@ party = [
 
 [team_rocket_grunt_11]
 id = 193
-label = "Goldenrod City - Team Rocket Grunt 11"
+label = "Goldenrod Tunnel B2F - Team Rocket Grunt 11"
 party = [
     { species = "muk", level = 23 },
     { species = "koffing", level = 23 },
@@ -1589,14 +1589,14 @@ party = [
 
 [team_rocket_grunt_12]
 id = 195
-label = "Goldenrod City - Team Rocket Grunt 12"
+label = "Goldenrod Tunnel B2F - Team Rocket Grunt 12"
 party = [
     { species = "rattata", level = 27 },
 ]
 
 [team_rocket_grunt_13]
 id = 196
-label = "Goldenrod City - Team Rocket Grunt 13"
+label = "Goldenrod Tunnel Warehouse - Team Rocket Grunt 13"
 party = [
     { species = "raticate", level = 24 },
     { species = "golbat", level = 24 },
@@ -1604,7 +1604,7 @@ party = [
 
 [team_rocket_grunt_14]
 id = 197
-label = "Goldenrod City - Team Rocket Grunt 14"
+label = "Goldenrod Tunnel Warehouse - Team Rocket Grunt 14"
 party = [
     { species = "grimer", level = 26 },
     { species = "weezing", level = 23 },
@@ -1612,14 +1612,14 @@ party = [
 
 [team_rocket_f_grunt_2]
 id = 198
-label = "Radio Tower - Team Rocket Grunt 2"
+label = "Goldenrod Radio Tower 2F - Team Rocket Grunt 2"
 party = [
     { species = "arbok", level = 26 },
 ]
 
 [team_rocket_f_grunt_3]
 id = 199
-label = "Goldenrod City - Team Rocket Grunt 3"
+label = "Goldenrod Tunnel B2F - Team Rocket Grunt 3"
 party = [
     { species = "gloom", level = 25 },
     { species = "gloom", level = 25 },
@@ -1637,7 +1637,7 @@ party = [
 
 [poke_maniac_andrew]
 id = 201
-label = "Union Cave - Poke Maniac Andrew"
+label = "Union Cave B1F - Poke Maniac Andrew"
 party = [
     { species = "marowak", level = 24 },
     { species = "marowak", level = 24 },
@@ -1645,14 +1645,14 @@ party = [
 
 [poke_maniac_calvin]
 id = 202
-label = "Union Cave - Poke Maniac Calvin"
+label = "Union Cave B1F - Poke Maniac Calvin"
 party = [
     { species = "kangaskhan", level = 26 },
 ]
 
 [hiker_phillip]
 id = 203
-label = "Union Cave - Hiker Phillip"
+label = "Union Cave B1F - Hiker Phillip"
 party = [
     { species = "geodude", level = 23 },
     { species = "graveler", level = 25 },
@@ -1660,7 +1660,7 @@ party = [
 
 [hiker_leonard]
 id = 204
-label = "Union Cave - Hiker Leonard"
+label = "Union Cav B1F - Hiker Leonard"
 party = [
     { species = "geodude", level = 23 },
     { species = "machop", level = 25 },
@@ -1668,7 +1668,7 @@ party = [
 
 [ace_trainer_m_nick]
 id = 205
-label = "Union Cave - Ace Trainer Nick"
+label = "Union Cave B2F - Ace Trainer Nick"
 party = [
     { species = "charmander", level = 26, num_moves = 4 },
     { species = "squirtle", level = 26, num_moves = 4 },
@@ -1677,7 +1677,7 @@ party = [
 
 [ace_trainer_f_gwen]
 id = 206
-label = "Union Cave - Ace Trainer Gwen"
+label = "Union Cave B2F - Ace Trainer Gwen"
 party = [
     { species = "eevee", level = 26 },
     { species = "flareon", level = 22 },
@@ -1701,7 +1701,7 @@ party = [
 
 [beauty_cassie]
 id = 209
-label = "S.S. Aqua - Beauty Cassie"
+label = "S.S. Aqua 1F Northeast Rooms - Beauty Cassie"
 party = [
     { species = "vileplume", level = 36 },
     { species = "butterfree", level = 42 },
@@ -1718,7 +1718,7 @@ party = [
 
 [sailor_huey]
 id = 211
-label = "Lighthouse - Sailor Huey"
+label = "Olivine Lighthouse 2F - Sailor Huey"
 party = [
     { species = "poliwag", level = 18 },
     { species = "poliwhirl", level = 20 },
@@ -1726,14 +1726,14 @@ party = [
 
 [sailor_terrell]
 id = 212
-label = "Lighthouse - Sailor Terrell"
+label = "Olivine Lighthouse 5F - Sailor Terrell"
 party = [
     { species = "poliwhirl", level = 20 },
 ]
 
 [sailor_kent]
 id = 213
-label = "Lighthouse - Sailor Kent"
+label = "Olivine Lighthouse 3F - Sailor Kent"
 party = [
     { species = "krabby", level = 18, num_moves = 4 },
     { species = "krabby", level = 20, num_moves = 4 },
@@ -1741,7 +1741,7 @@ party = [
 
 [sailor_roberto]
 id = 214
-label = "Lighthouse - Sailor Roberto"
+label = "Olivine Lighthouse 5F - Sailor Roberto"
 party = [
     { species = "machop", level = 18 },
     { species = "machop", level = 18 },
@@ -1750,14 +1750,14 @@ party = [
 
 [lass_connie]
 id = 215
-label = "Lighthouse - Lass Connie"
+label = "Olivine Lighthouse 4F - Lass Connie"
 party = [
     { species = "marill", level = 21 },
 ]
 
 [team_rocket_grunt_15]
 id = 216
-label = "Team Rocket HQ - Team Rocket Grunt 15"
+label = "Team Rocket HQ B1F - Team Rocket Grunt 15"
 party = [
     { species = "rattata", level = 16 },
     { species = "rattata", level = 16 },
@@ -1767,7 +1767,7 @@ party = [
 
 [bird_keeper_gs_denis]
 id = 217
-label = "Lighthouse - Bird Keeper Denis"
+label = "Olivine Lighthouse 3F - Bird Keeper Denis"
 party = [
     { species = "spearow", level = 18 },
     { species = "fearow", level = 20 },
@@ -1776,14 +1776,14 @@ party = [
 
 [team_rocket_grunt_16]
 id = 218
-label = "Team Rocket HQ - Team Rocket Grunt 16"
+label = "Team Rocket HQ B2F - Team Rocket Grunt 16"
 party = [
     { species = "golbat", level = 18 },
 ]
 
 [team_rocket_grunt_17]
 id = 219
-label = "Team Rocket HQ - Team Rocket Grunt 17"
+label = "Team Rocket HQ B2F - Team Rocket Grunt 17"
 party = [
     { species = "rattata", level = 17 },
     { species = "zubat", level = 17 },
@@ -1792,7 +1792,7 @@ party = [
 
 [team_rocket_grunt_18]
 id = 220
-label = "Team Rocket HQ - Team Rocket Grunt 18"
+label = "Team Rocket HQ B2F - Team Rocket Grunt 18"
 party = [
     { species = "venonat", level = 18 },
     { species = "venonat", level = 18 },
@@ -1807,14 +1807,14 @@ party = [
 
 [team_rocket_grunt_19]
 id = 222
-label = "Team Rocket HQ - Team Rocket Grunt 19"
+label = "Team Rocket HQ B2F - Team Rocket Grunt 19"
 party = [
     { species = "raticate", level = 19 },
 ]
 
 [team_rocket_grunt_20]
 id = 223
-label = "Team Rocket HQ - Trap Team Rocket Grunt 1"
+label = "Team Rocket HQ B1F - Trap Team Rocket Grunt 1"
 party = [
     { species = "drowzee", level = 17 },
     { species = "zubat", level = 19 },
@@ -1822,7 +1822,7 @@ party = [
 
 [team_rocket_grunt_21]
 id = 224
-label = "Team Rocket HQ - Trap Team Rocket Grunt 2"
+label = "Team Rocket HQ B1F - Trap Team Rocket Grunt 2"
 party = [
     { species = "zubat", level = 16 },
     { species = "grimer", level = 17 },
@@ -1845,7 +1845,7 @@ party = [
 
 [team_rocket_grunt_22]
 id = 227
-label = "Goldenrod City - Team Rocket Grunt 22"
+label = "Goldenrod Tunnel Warehouse - Team Rocket Grunt 22"
 party = [
     { species = "koffing", level = 25 },
     { species = "koffing", level = 25 },
@@ -1853,7 +1853,7 @@ party = [
 
 [team_rocket_grunt_23]
 id = 228
-label = "Goldenrod City - Team Rocket Grunt 23"
+label = "Goldenrod Tunnel B2F - Team Rocket Grunt 23"
 party = [
     { species = "koffing", level = 24 },
     { species = "muk", level = 24 },
@@ -1869,7 +1869,7 @@ party = [
 
 [psychic_m_franklin]
 id = 230
-label = "Saffron City - Psychic Franklin"
+label = "Saffron Gym - Psychic Franklin"
 party = [
     { species = "kadabra", level = 44, num_moves = 4 },
     { species = "girafarig", level = 47, num_moves = 4 },
@@ -1877,14 +1877,14 @@ party = [
 
 [gentleman_edward]
 id = 231
-label = "S.S. Aqua - Gentleman Edward"
+label = "S.S. Aqua 1F Southeast Rooms - Gentleman Edward"
 party = [
     { species = "persian", level = 41 },
 ]
 
 [guitarist_vincent]
 id = 232
-label = "Vermilion City - Guitarist Vincent"
+label = "Vermilion Gym - Guitarist Vincent"
 party = [
     { species = "jolteon", level = 45, num_moves = 4 },
     { species = "voltorb", level = 43, num_moves = 4 },
@@ -1893,7 +1893,7 @@ party = [
 
 [super_nerd_eric]
 id = 233
-label = "Goldenrod Tunnel - Super Nerd Eric"
+label = "Goldenrod Tunnel B1F - Super Nerd Eric"
 party = [
     { species = "grimer", level = 11 },
     { species = "grimer", level = 11 },
@@ -1910,7 +1910,7 @@ party = [
 
 [hiker_noland]
 id = 235
-label = "S.S. Aqua - Hiker Noland"
+label = "S.S. Aqua 1F Southwest Rooms - Hiker Noland"
 party = [
     { species = "bronzor", level = 39 },
     { species = "golem", level = 42 },
@@ -1918,7 +1918,7 @@ party = [
 
 [ace_trainer_m_shaye]
 id = 236
-label = "S.S. Aqua - Ace Trainer Shaye"
+label = "S.S. Aqua 1F Southwest Rooms - Ace Trainer Shaye"
 party = [
     { species = "jolteon", level = 43, num_moves = 4 },
     { species = "tangela", level = 43, num_moves = 4 },
@@ -1927,7 +1927,7 @@ party = [
 
 [ace_trainer_f_carol]
 id = 237
-label = "S.S. Aqua - Ace Trainer Carol"
+label = "S.S. Aqua 1F Southwest Rooms - Ace Trainer Carol"
 party = [
     { species = "electrode", level = 43, num_moves = 4 },
     { species = "starmie", level = 43, num_moves = 4 },
@@ -1945,7 +1945,7 @@ party = [
 
 [sailor_jeff]
 id = 239
-label = "S.S. Aqua - Sailor Jeff"
+label = "S.S. Aqua B1F - Sailor Jeff"
 party = [
     { species = "makuhita", level = 40 },
     { species = "raticate", level = 40 },
@@ -1953,14 +1953,14 @@ party = [
 
 [sailor_garrett]
 id = 240
-label = "S.S. Aqua - Sailor Garrett"
+label = "S.S. Aqua B1F - Sailor Garrett"
 party = [
     { species = "kingler", level = 42 },
 ]
 
 [sailor_kenneth]
 id = 241
-label = "S.S. Aqua - Sailor Kenneth"
+label = "S.S. Aqua B1F - Sailor Kenneth"
 party = [
     { species = "machop", level = 36 },
     { species = "machop", level = 36 },
@@ -1970,7 +1970,7 @@ party = [
 
 [juggler_fritz]
 id = 242
-label = "S.S. Aqua - Juggler Fritz"
+label = "S.S. Aqua B1F - Juggler Fritz"
 party = [
     { species = "mr_mime", level = 37, num_moves = 4 },
     { species = "magmar", level = 37, num_moves = 4 },
@@ -1986,7 +1986,7 @@ party = [
 
 [champion_lance]
 id = 244
-label = "Champion Lance"
+label = "Pokemon League - Champion Lance"
 party = [
     { species = "gyarados", level = 46, num_moves = 4 },
     { species = "dragonite", level = 49, num_moves = 4 },
@@ -1998,7 +1998,7 @@ party = [
 
 [elite_four_will_will]
 id = 245
-label = "Elite Four Will"
+label = "Pokemon League - Elite Four Will"
 party = [
     { species = "xatu", level = 40, num_moves = 4 },
     { species = "jynx", level = 41, num_moves = 4 },
@@ -2009,7 +2009,7 @@ party = [
 
 [elite_four_karen_karen]
 id = 246
-label = "Elite Four Karen"
+label = "Pokemon League - Elite Four Karen"
 party = [
     { species = "umbreon", level = 42, num_moves = 4 },
     { species = "vileplume", level = 42, num_moves = 4 },
@@ -2020,7 +2020,7 @@ party = [
 
 [elite_four_koga_koga]
 id = 247
-label = "Elite Four Koga"
+label = "Pokemon League - Elite Four Koga"
 party = [
     { species = "ariados", level = 40, num_moves = 4 },
     { species = "venomoth", level = 41, num_moves = 4 },
@@ -2058,7 +2058,7 @@ party = [
 
 [black_belt_nob]
 id = 251
-label = "Cianwood City - Black Belt Nob"
+label = "Cianwood Gym - Black Belt Nob"
 party = [
     { species = "machop", level = 25, num_moves = 4 },
     { species = "machoke", level = 25, num_moves = 4 },
@@ -2074,7 +2074,7 @@ party = [
 
 [leader_brock_brock]
 id = 253
-label = "Leader Brock"
+label = "Pewter Gym - Leader Brock"
 party = [
     { species = "graveler", level = 51, num_moves = 4 },
     { species = "rhyhorn", level = 51, num_moves = 4 },
@@ -2085,7 +2085,7 @@ party = [
 
 [leader_misty_misty]
 id = 254
-label = "Leader Misty"
+label = "Cerulean Gym - Leader Misty"
 party = [
     { species = "golduck", level = 49, num_moves = 4 },
     { species = "quagsire", level = 49, num_moves = 4 },
@@ -2095,7 +2095,7 @@ party = [
 
 [leader_lt_surge_lt__surge]
 id = 255
-label = "Leader Lt. Surge"
+label = "Vermilion Gym - Leader Lt. Surge"
 party = [
     { species = "raichu", level = 51, num_moves = 4 },
     { species = "electrode", level = 47, num_moves = 4 },
@@ -2106,7 +2106,7 @@ party = [
 
 [leader_erika_erika]
 id = 256
-label = "Leader Erika"
+label = "Celadon Gym - Leader Erika"
 party = [
     { species = "jumpluff", level = 51, num_moves = 4 },
     { species = "tangela", level = 52, num_moves = 4 },
@@ -2116,7 +2116,7 @@ party = [
 
 [leader_janine_janine]
 id = 257
-label = "Leader Janine"
+label = "Fuchsia Gym - Leader Janine"
 party = [
     { species = "crobat", level = 47, num_moves = 4 },
     { species = "weezing", level = 44, num_moves = 4 },
@@ -2127,7 +2127,7 @@ party = [
 
 [leader_sabrina_sabrina]
 id = 258
-label = "Leader Sabrina"
+label = "Saffron Gym - Leader Sabrina"
 party = [
     { species = "espeon", level = 53, num_moves = 4 },
     { species = "mr_mime", level = 53, num_moves = 4 },
@@ -2136,7 +2136,7 @@ party = [
 
 [leader_blaine_blaine]
 id = 259
-label = "Leader Blaine"
+label = "Cinnabar Gym - Leader Blaine"
 party = [
     { species = "magcargo", level = 54, num_moves = 4 },
     { species = "magmar", level = 54, num_moves = 4 },
@@ -2145,7 +2145,7 @@ party = [
 
 [pkmn_trainer_red_red]
 id = 260
-label = "Pokemon Trainer Red"
+label = "Mt. Silver Cave Summit - Pokemon Trainer Red"
 party = [
     { species = "pikachu", level = 88, num_moves = 4 },
     { species = "lapras", level = 80, num_moves = 4 },
@@ -2157,7 +2157,7 @@ party = [
 
 [leader_blue_blue]
 id = 261
-label = "Leader Blue"
+label = "Viridian Gym - Leader Blue"
 party = [
     { species = "exeggutor", level = 55, num_moves = 4 },
     { species = "arcanine", level = 58, num_moves = 4 },
@@ -2178,7 +2178,7 @@ party = [
 
 [rival_silver_burned_tower_totodile]
 id = 263
-label = "Burned Tower - Rival"
+label = "Burned Tower 1F - Rival"
 party = [
     { species = "gastly", level = 20, num_moves = 4 },
     { species = "magnemite", level = 18, num_moves = 4 },
@@ -2207,7 +2207,7 @@ party = [
 
 [rival_silver_azalea_chikorita]
 id = 266
-label = "Azalea - Rival"
+label = "Azalea Town - Rival"
 party = [
     { species = "gastly", level = 14 },
     { species = "zubat", level = 16 },
@@ -2216,7 +2216,7 @@ party = [
 
 [rival_silver_burned_tower_chikorita]
 id = 267
-label = "Burned Tower - Rival"
+label = "Burned Tower 1F - Rival"
 party = [
     { species = "gastly", level = 20, num_moves = 4 },
     { species = "magnemite", level = 18, num_moves = 4 },
@@ -2238,7 +2238,7 @@ party = [
 
 [rival_silver_azalea_cyndaquil]
 id = 269
-label = "Azalea - Rival"
+label = "Azalea Town - Rival"
 party = [
     { species = "gastly", level = 14 },
     { species = "zubat", level = 16 },
@@ -2247,7 +2247,7 @@ party = [
 
 [rival_silver_burned_tower_cyndaquil]
 id = 270
-label = "Burned Tower - Rival"
+label = "Burned Tower 1F - Rival"
 party = [
     { species = "gastly", level = 20, num_moves = 4 },
     { species = "magnemite", level = 18, num_moves = 4 },
@@ -2349,14 +2349,14 @@ party = [
 
 [firebreather_richard]
 id = 281
-label = "Burned Tower - Firebreather Richard"
+label = "Burned Tower 1F - Firebreather Richard"
 party = [
     { species = "charmeleon", level = 18 },
 ]
 
 [firebreather_ned]
 id = 282
-label = "Burned Tower - Firebreather Ned"
+label = "Burned Tower 1F - Firebreather Ned"
 party = [
     { species = "koffing", level = 16 },
     { species = "growlithe", level = 17 },
@@ -2365,7 +2365,7 @@ party = [
 
 [burglar_orson]
 id = 283
-label = "Goldenrod City - Burglar Orson"
+label = "Goldenrod Tunnel B2F - Burglar Orson"
 party = [
     { species = "growlithe", level = 26, num_moves = 4 },
     { species = "koffing", level = 24, num_moves = 4 },
@@ -2373,7 +2373,7 @@ party = [
 
 [burglar_corey]
 id = 284
-label = "S.S. Aqua - Burglar Corey"
+label = "S.S. Aqua 1F Southeast Rooms - Burglar Corey"
 party = [
     { species = "koffing", level = 33 },
     { species = "magmar", level = 36 },
@@ -2383,7 +2383,7 @@ party = [
 
 [rival_silver_mount_moon_totodile]
 id = 285
-label = "Mount Moon - Rival"
+label = "Mt. Moon - Rival"
 party = [
     { species = "sneasel", level = 46, num_moves = 4 },
     { species = "golbat", level = 47, num_moves = 4 },
@@ -2395,7 +2395,7 @@ party = [
 
 [rival_silver_mount_moon_chikorita]
 id = 286
-label = "Mount Moon - Rival"
+label = "Mt. Moon - Rival"
 party = [
     { species = "sneasel", level = 46, num_moves = 4 },
     { species = "golbat", level = 47, num_moves = 4 },
@@ -2407,7 +2407,7 @@ party = [
 
 [rival_silver_mount_moon_cyndaquil]
 id = 287
-label = "Mount Moon - Rival"
+label = "Mt. Moon - Rival"
 party = [
     { species = "sneasel", level = 46, num_moves = 4 },
     { species = "golbat", level = 47, num_moves = 4 },
@@ -2441,7 +2441,7 @@ party = [
 
 [elder_li]
 id = 290
-label = "Elder Li"
+label = "Sprout Tower 3F - Elder Li"
 party = [
     { species = "bellsprout", level = 7 },
     { species = "bellsprout", level = 7 },
@@ -2497,14 +2497,14 @@ party = [
 
 [swimmer_f_diana]
 id = 297
-label = "Cerulean City - Swimmer Diana"
+label = "Cerulean Gym - Swimmer Diana"
 party = [
     { species = "golduck", level = 48, num_moves = 4 },
 ]
 
 [swimmer_f_briana]
 id = 298
-label = "Cerulean City - Swimmer Briana"
+label = "Cerulean Gym - Swimmer Briana"
 party = [
     { species = "seaking", level = 46, num_moves = 4 },
     { species = "seaking", level = 46, num_moves = 4 },
@@ -2591,7 +2591,7 @@ party = [
 
 [camper_jerry]
 id = 308
-label = "Pewter City - Camper Jerry"
+label = "Pewter Gym - Camper Jerry"
 party = [
     { species = "rhydon", level = 50, num_moves = 4 },
 ]
@@ -2680,7 +2680,7 @@ party = [
 
 [firebreather_bill]
 id = 319
-label = "Union Cave - Firebreather Bill"
+label = "Union Cave 1F - Firebreather Bill"
 party = [
     { species = "koffing", level = 6 },
     { species = "koffing", level = 6 },
@@ -2739,7 +2739,7 @@ party = [
 
 [twins_jo_and_zoe]
 id = 326
-label = "Celadon City - Twins Jo & Zoe"
+label = "Celadon Gym - Twins Jo & Zoe"
 party = [
     { species = "victreebel", level = 47, num_moves = 4 },
     { species = "vileplume", level = 47, num_moves = 4 },
@@ -2821,14 +2821,14 @@ party = [
 
 [picnicker_tanya]
 id = 336
-label = "Celadon City - Picnicker Tanya"
+label = "Celadon Gym - Picnicker Tanya"
 party = [
     { species = "exeggutor", level = 49, num_moves = 4 },
 ]
 
 [gentleman_gregory]
 id = 337
-label = "Vermilion City - Gentleman Gregory"
+label = "Vermilion Gym - Gentleman Gregory"
 party = [
     { species = "pikachu", level = 46, num_moves = 4 },
     { species = "flaaffy", level = 43, num_moves = 4 },
@@ -2844,7 +2844,7 @@ party = [
 
 [black_belt_wai]
 id = 339
-label = "S.S. Aqua - Black Belt Wai"
+label = "S.S. Aqua B1F - Black Belt Wai"
 party = [
     { species = "machoke", level = 38 },
     { species = "machoke", level = 40 },
@@ -2895,7 +2895,7 @@ party = [
 
 [beauty_julia]
 id = 346
-label = "Celadon City - Beauty Julia"
+label = "Celadon Gym - Beauty Julia"
 party = [
     { species = "paras", level = 44, num_moves = 4 },
     { species = "carnivine", level = 44, num_moves = 4 },
@@ -2946,7 +2946,7 @@ party = [
 
 [pokefan_georgia]
 id = 352
-label = "S.S. Aqua - Pokefan Georgia"
+label = "S.S. Aqua 1F Northwest Rooms - Pokefan Georgia"
 party = [
     { species = "sentret", level = 31 },
     { species = "sentret", level = 31 },
@@ -2982,7 +2982,7 @@ party = [
 
 [lass_michelle]
 id = 356
-label = "Celadon City - Lass Michelle"
+label = "Celadon Gym - Lass Michelle"
 party = [
     { species = "skiploom", level = 44, num_moves = 4 },
     { species = "hoppip", level = 45, num_moves = 4 },
@@ -3022,7 +3022,7 @@ party = [
 
 [ace_trainer_m_kevin]
 id = 361
-label = "Ace Trainer Kevin"
+label = "Route 25 - Ace Trainer Kevin"
 party = [
     { species = "rhyhorn", level = 48, num_moves = 4 },
     { species = "charmeleon", level = 46, num_moves = 4 },
@@ -3039,7 +3039,7 @@ party = [
 
 [ace_trainer_f_emma]
 id = 363
-label = "Union Cave - Ace Trainer Emma"
+label = "Union Cave B2F - Ace Trainer Emma"
 party = [
     { species = "poliwhirl", level = 28 },
 ]
@@ -3070,7 +3070,7 @@ party = [
 
 [super_nerd_shawn]
 id = 367
-label = "S.S. Aqua - Super Nerd Shawn"
+label = "S.S. Aqua 1F Northwest Rooms - Super Nerd Shawn"
 party = [
     { species = "magnemite", level = 39 },
     { species = "muk", level = 41 },
@@ -3079,7 +3079,7 @@ party = [
 
 [medium_rebecca]
 id = 368
-label = "Saffron City - Medium Rebecca"
+label = "Saffron Gym - Medium Rebecca"
 party = [
     { species = "bronzor", level = 45, num_moves = 4 },
     { species = "hypno", level = 45, num_moves = 4 },
@@ -3087,7 +3087,7 @@ party = [
 
 [medium_darcy]
 id = 369
-label = "Saffron City - Medium Darcy"
+label = "Saffron Gym - Medium Darcy"
 party = [
     { species = "slowpoke", level = 44, num_moves = 4 },
     { species = "slowbro", level = 46, num_moves = 4 },
@@ -3212,7 +3212,7 @@ party = [
 
 [hiker_daniel]
 id = 384
-label = "Union Cave - Hiker Daniel"
+label = "Union Cave 1F - Hiker Daniel"
 party = [
     { species = "onix", level = 11 },
 ]
@@ -3258,21 +3258,21 @@ party = [
 
 [firebreather_ray]
 id = 390
-label = "Union Cave - Firebreather Ray"
+label = "Union Cave 1F - Firebreather Ray"
 party = [
     { species = "vulpix", level = 9 },
 ]
 
 [poke_maniac_issac]
 id = 391
-label = "Goldenrod Tunnel - Poke Maniac Issac"
+label = "Goldenrod Tunnel B1F - Poke Maniac Issac"
 party = [
     { species = "lickitung", level = 12, num_moves = 3 },
 ]
 
 [poke_maniac_donald]
 id = 392
-label = "Goldenrod Tunnel - Poke Maniac Donald"
+label = "Goldenrod Tunnel B1F - Poke Maniac Donald"
 party = [
     { species = "slowpoke", level = 11 },
     { species = "slowpoke", level = 11 },
@@ -3280,7 +3280,7 @@ party = [
 
 [super_nerd_teru]
 id = 393
-label = "Goldenrod Tunnel - Super Nerd Teru"
+label = "Goldenrod Tunnel B1F - Super Nerd Teru"
 party = [
     { species = "magnemite", level = 7 },
     { species = "voltorb", level = 11 },
@@ -3308,7 +3308,7 @@ party = [
 
 [juggler_horton]
 id = 396
-label = "Vermilion City - Juggler Horton"
+label = "Vermilion Gym - Juggler Horton"
 party = [
     { species = "electrode", level = 43, num_moves = 4 },
     { species = "electrode", level = 43, num_moves = 4 },
@@ -3332,7 +3332,7 @@ party = [
 
 [firebreather_lyle]
 id = 399
-label = "S.S. Aqua - Firebreather Lyle"
+label = "S.S. Aqua 1F Northeast Rooms - Firebreather Lyle"
 party = [
     { species = "koffing", level = 36 },
     { species = "flareon", level = 39 },
@@ -3349,7 +3349,7 @@ party = [
 
 [gentleman_alfred]
 id = 401
-label = "Lighthouse - Gentleman Alfred"
+label = "Olivine Lighthouse 2F - Gentleman Alfred"
 party = [
     { species = "noctowl", level = 22 },
 ]
@@ -3372,7 +3372,7 @@ party = [
 
 [team_rocket_f_grunt_5]
 id = 404
-label = "Team Rocket HQ - Team Rocket Grunt 5"
+label = "Team Rocket HQ B3F - Team Rocket Grunt 5"
 party = [
     { species = "ekans", level = 18, num_moves = 4 },
     { species = "gloom", level = 18, num_moves = 4 },
@@ -3458,7 +3458,7 @@ party = [
 
 [psychic_m_jared]
 id = 415
-label = "Saffron City - Psychic Jared"
+label = "Saffron Gym - Psychic Jared"
 party = [
     { species = "mr_mime", level = 42, num_moves = 4 },
     { species = "exeggcute", level = 42, num_moves = 4 },
@@ -3475,7 +3475,7 @@ party = [
 
 [ace_trainer_f_jenn]
 id = 417
-label = "Ace Trainer Jenn"
+label = "Route 34 - Ace Trainer Jenn"
 party = [
     { species = "staryu", level = 24 },
     { species = "starmie", level = 26 },
@@ -3483,7 +3483,7 @@ party = [
 
 [elite_four_bruno_bruno]
 id = 418
-label = "Elite Four Bruno"
+label = "Pokemon League - Elite Four Bruno"
 party = [
     { species = "hitmontop", level = 42, num_moves = 4 },
     { species = "hitmonlee", level = 42, num_moves = 4 },
@@ -3517,7 +3517,7 @@ party = [
 
 [psychic_m_rodney]
 id = 422
-label = "S.S. Aqua - Psychic Rodney"
+label = "S.S. Aqua 1F Northwest Rooms - Psychic Rodney"
 party = [
     { species = "chingling", level = 37 },
     { species = "hypno", level = 41 },
@@ -3525,7 +3525,7 @@ party = [
 
 [pokefan_m_jeremy]
 id = 423
-label = "S.S. Aqua - Pokefan Jeremy"
+label = "S.S. Aqua 1F Northwest Rooms - Pokefan Jeremy"
 party = [
     { species = "meowth", level = 36 },
     { species = "meowth", level = 36 },
@@ -3534,14 +3534,14 @@ party = [
 
 [pokefan_m_colin]
 id = 424
-label = "S.S. Aqua - Pokefan Colin"
+label = "S.S. Aqua 1F Northwest Rooms - Pokefan Colin"
 party = [
     { species = "delibird", level = 40, num_moves = 3 },
 ]
 
 [twins_meg_and_peg]
 id = 425
-label = "S.S. Aqua - Twins Meg & Peg"
+label = "S.S. Aqua 1F Northwest Rooms - Twins Meg & Peg"
 party = [
     { species = "teddiursa", level = 39 },
     { species = "phanpy", level = 39 },
@@ -3557,7 +3557,7 @@ party = [
 
 [teacher_shirley]
 id = 427
-label = "S.S. Aqua - Teacher Shirley"
+label = "S.S. Aqua B1F - Teacher Shirley"
 party = [
     { species = "chatot", level = 43 },
     { species = "jigglypuff", level = 43 },
@@ -3565,7 +3565,7 @@ party = [
 
 [school_kid_m_nate]
 id = 428
-label = "S.S. Aqua - School Kid Nate"
+label = "S.S. Aqua B1F - School Kid Nate"
 party = [
     { species = "ledian", level = 40 },
     { species = "exeggutor", level = 40 },
@@ -3573,7 +3573,7 @@ party = [
 
 [school_kid_m_ricky]
 id = 429
-label = "S.S. Aqua - School Kid Ricky"
+label = "S.S. Aqua B1F - School Kid Ricky"
 party = [
     { species = "aipom", level = 40 },
     { species = "ditto", level = 40 },
@@ -3896,7 +3896,7 @@ party = [
 
 [scientist_gs_ross]
 id = 468
-label = "Team Rocket HQ - Scientist Ross"
+label = "Team Rocket HQ B3F - Scientist Ross"
 party = [
     { species = "koffing", level = 22 },
     { species = "koffing", level = 22 },
@@ -3904,14 +3904,14 @@ party = [
 
 [scientist_gs_mitch]
 id = 469
-label = "Team Rocket HQ - Scientist Mitch"
+label = "Team Rocket HQ B3F - Scientist Mitch"
 party = [
     { species = "ditto", level = 24 },
 ]
 
 [scientist_gs_gregg]
 id = 470
-label = "Team Rocket HQ - Scientist Gregg"
+label = "Team Rocket HQ B1F - Scientist Gregg"
 party = [
     { species = "magnemite", level = 20 },
     { species = "magnemite", level = 20 },
@@ -3920,7 +3920,7 @@ party = [
 
 [scientist_gs_garett]
 id = 471
-label = "Radio Tower - Scientist Garett"
+label = "Goldenrod Radio Tower 3F - Scientist Garett"
 party = [
     { species = "magnemite", level = 27 },
     { species = "magnemite", level = 27 },
@@ -3929,7 +3929,7 @@ party = [
 
 [scientist_gs_trenton]
 id = 472
-label = "Radio Tower - Scientist Trenton"
+label = "Goldenrod Radio Tower 4F - Scientist Trenton"
 party = [
     { species = "porygon", level = 30, num_moves = 4 },
 ]
@@ -3976,7 +3976,7 @@ party = [
 
 [executive_ariana_ariana]
 id = 478
-label = "Radio Tower - Executive Ariana"
+label = "Goldenrod Radio Tower 5F - Executive Ariana"
 party = [
     { species = "arbok", level = 32, num_moves = 4 },
     { species = "vileplume", level = 32, num_moves = 4 },
@@ -3985,7 +3985,7 @@ party = [
 
 [executive_ariana_ariana_2]
 id = 479
-label = "Executive Ariana 2"
+label = "Team Rocket HQ B2F - Executive Ariana 2"
 party = [
     { species = "arbok", level = 25, num_moves = 4 },
     { species = "gloom", level = 25, num_moves = 4 },
@@ -3994,21 +3994,21 @@ party = [
 
 [skier_diana]
 id = 480
-label = "Mahogany Town - Skier Diana"
+label = "Mahogany Gym - Skier Diana"
 party = [
     { species = "jynx", level = 29 },
 ]
 
 [skier_jill]
 id = 481
-label = "Mahogany Town - Skier Jill"
+label = "Mahogany Gym - Skier Jill"
 party = [
     { species = "dewgong", level = 29 },
 ]
 
 [boarder_deandre]
 id = 482
-label = "Mahogany Town - Boarder Deandre"
+label = "Mahogany Gym - Boarder Deandre"
 party = [
     { species = "seel", level = 25 },
     { species = "dewgong", level = 26 },
@@ -4017,7 +4017,7 @@ party = [
 
 [boarder_patton]
 id = 483
-label = "Mahogany Town - Boarder Patton"
+label = "Mahogany Gym - Boarder Patton"
 party = [
     { species = "swinub", level = 27 },
     { species = "swinub", level = 27 },
@@ -4025,7 +4025,7 @@ party = [
 
 [boarder_gerardo]
 id = 484
-label = "Mahogany Town - Boarder Gerardo"
+label = "Mahogany Gym - Boarder Gerardo"
 party = [
     { species = "shellder", level = 25, num_moves = 4 },
     { species = "cloyster", level = 26, num_moves = 4 },
@@ -4034,7 +4034,7 @@ party = [
 
 [executive_archer_archer]
 id = 485
-label = "Executive Archer"
+label = "Goldenrod Radio Tower Observatory Deck - Executive Archer"
 party = [
     { species = "houndour", level = 35, num_moves = 4 },
     { species = "koffing", level = 35, num_moves = 4 },
@@ -4043,7 +4043,7 @@ party = [
 
 [executive_proton_proton]
 id = 486
-label = "Executive Proton"
+label = "Slowpoke Well B1F - Executive Proton"
 party = [
     { species = "zubat", level = 8 },
     { species = "koffing", level = 12 },
@@ -4051,7 +4051,7 @@ party = [
 
 [executive_petrel_petrel]
 id = 487
-label = "Executive Petrel"
+label = "Goldenrod Radio Tower 5F - Executive Petrel"
 party = [
     { species = "koffing", level = 30, num_moves = 4 },
     { species = "koffing", level = 30, num_moves = 4 },
@@ -4063,7 +4063,7 @@ party = [
 
 [executive_petrel_petrel_2]
 id = 488
-label = "Executive Petrel 2"
+label = "Team Rocket HQ B3F - Executive Petrel 2"
 party = [
     { species = "zubat", level = 22 },
     { species = "raticate", level = 24 },
@@ -4117,14 +4117,14 @@ party = [
 
 [medium_edith]
 id = 493
-label = "Ecruteak City - Medium Edith"
+label = "Ecruteak Gym - Medium Edith"
 party = [
     { species = "haunter", level = 22 },
 ]
 
 [medium_georgina]
 id = 494
-label = "Ecruteak City - Medium Georgina"
+label = "Ecruteak Gym - Medium Georgina"
 party = [
     { species = "gastly", level = 16 },
     { species = "gastly", level = 16 },
@@ -4156,7 +4156,7 @@ party = [
 
 [mystery_man_eusine]
 id = 498
-label = "Mystery Man Eusine"
+label = "Cianwood City - Mystery Man Eusine"
 party = [
     { species = "drowzee", level = 25, num_moves = 4 },
     { species = "haunter", level = 25, num_moves = 4 },
@@ -4165,7 +4165,7 @@ party = [
 
 [team_rocket_grunt_25]
 id = 499
-label = "Team Rocket HQ - Grunt in Double Battle with Lance"
+label = "Team Rocket HQ B2F - Grunt in Double Battle with Lance"
 party = [
     { species = "drowzee", level = 18, num_moves = 4 },
     { species = "grimer", level = 20, num_moves = 4 },
@@ -4173,14 +4173,14 @@ party = [
 
 [ace_trainer_m_kobe]
 id = 500
-label = "Dragon’s Den - Ace Trainer Kobe"
+label = "Dragon's Den - Ace Trainer Kobe"
 party = [
     { species = "dragonair", level = 37, num_moves = 4 },
 ]
 
 [ace_trainer_f_piper]
 id = 501
-label = "Dragon’s Den - Ace Trainer Piper"
+label = "Dragon's Den - Ace Trainer Piper"
 party = [
     { species = "horsea", level = 33, num_moves = 4 },
     { species = "horsea", level = 33, num_moves = 4 },
@@ -4189,7 +4189,7 @@ party = [
 
 [twins_clea_and_gil]
 id = 502
-label = "Dragon’s Den - Twins Clea & Gil"
+label = "Dragon's Den - Twins Clea & Gil"
 party = [
     { species = "dratini", level = 35, num_moves = 4 },
     { species = "dratini", level = 35, num_moves = 4 },
@@ -4489,7 +4489,7 @@ party = [
 
 [poke_maniac_harrison]
 id = 537
-label = "Mt. Mortar - Poke Maniac Harrison"
+label = "Mt. Mortar 1F Back - Poke Maniac Harrison"
 party = [
     { species = "nidoking", level = 17 },
     { species = "nidoqueen", level = 17 },
@@ -4497,14 +4497,14 @@ party = [
 
 [super_nerd_hugh]
 id = 538
-label = "Mt. Mortar - Super Nerd Hugh"
+label = "Mt. Mortar 2F - Super Nerd Hugh"
 party = [
     { species = "seadra", level = 39, num_moves = 4 },
 ]
 
 [super_nerd_markus]
 id = 539
-label = "Mt. Mortar - Super Nerd Markus"
+label = "Mt. Mortar 1F Back - Super Nerd Markus"
 party = [
     { species = "slowpoke", level = 19, num_moves = 4 },
 ]
@@ -5634,7 +5634,7 @@ party = [
 
 [sailor_parker]
 id = 676
-label = "Cerulean City - Sailor Parker"
+label = "Cerulean Gym - Sailor Parker"
 party = [
     { species = "horsea", level = 43, num_moves = 4 },
     { species = "seadra", level = 43, num_moves = 4 },
@@ -5642,14 +5642,14 @@ party = [
 
 [sailor_eddie]
 id = 677
-label = "Cerulean City - Sailor Eddie"
+label = "Cerulean Gym - Sailor Eddie"
 party = [
     { species = "azumarill", level = 48, num_moves = 4 },
 ]
 
 [swimmer_f_joy]
 id = 678
-label = "Cerulean City - Swimmer Joy"
+label = "Cerulean Gym - Swimmer Joy"
 party = [
     { species = "cloyster", level = 48, num_moves = 4 },
 ]
@@ -5672,7 +5672,7 @@ party = [
 
 [ace_trainer_m_arabella]
 id = 681
-label = "Viridian City - Ace Trainer Arabella"
+label = "Viridian Gym - Ace Trainer Arabella"
 party = [
     { species = "stantler", level = 53, num_moves = 4 },
     { species = "tauros", level = 52, num_moves = 4 },
@@ -5680,7 +5680,7 @@ party = [
 
 [ace_trainer_m_bonita]
 id = 682
-label = "Viridian City - Ace Trainer Bonita"
+label = "Viridian Gym - Ace Trainer Bonita"
 party = [
     { species = "spinda", level = 50, num_moves = 4 },
     { species = "sudowoodo", level = 52, num_moves = 4 },
@@ -5688,7 +5688,7 @@ party = [
 
 [ace_trainer_f_salma]
 id = 683
-label = "Viridian City - Ace Trainer Salma"
+label = "Viridian Gym - Ace Trainer Salma"
 party = [
     { species = "slowking", level = 50, num_moves = 4 },
     { species = "lickilicky", level = 53, num_moves = 4 },
@@ -5696,7 +5696,7 @@ party = [
 
 [double_team_elan_and_ida]
 id = 684
-label = "Viridian City - Double Team Elan & Ida"
+label = "Viridian Gym - Double Team Elan & Ida"
 party = [
     { species = "porygon2", level = 52, num_moves = 4 },
     { species = "azumarill", level = 50, num_moves = 4 },
@@ -5704,14 +5704,14 @@ party = [
 
 [hiker_edwin]
 id = 685
-label = "Pewter City - Hiker Edwin"
+label = "Pewter Gym - Hiker Edwin"
 party = [
     { species = "golem", level = 50, num_moves = 4 },
 ]
 
 [boarder_bryce]
 id = 686
-label = "Seafoam Islands - Boarder Bryce"
+label = "Seafoam Islands B2F - Boarder Bryce"
 party = [
     { species = "dewgong", level = 55 },
     { species = "lapras", level = 50 },
@@ -5719,7 +5719,7 @@ party = [
 
 [boarder_shaun]
 id = 687
-label = "Seafoam Islands - Boarder Shaun"
+label = "Seafoam Islands B2F - Boarder Shaun"
 party = [
     { species = "cloyster", level = 55 },
     { species = "dewgong", level = 50 },
@@ -5727,49 +5727,49 @@ party = [
 
 [skier_cady]
 id = 688
-label = "Seafoam Islands - Skier Cady"
+label = "Seafoam Islands B2F - Skier Cady"
 party = [
     { species = "delibird", level = 53 },
 ]
 
 [super_nerd_cary]
 id = 689
-label = "Super Nerd Cary"
+label = "Cinnabar Gym - Super Nerd Cary"
 party = [
     { species = "torkoal", level = 53, num_moves = 4 },
 ]
 
 [super_nerd_waldo]
 id = 690
-label = "Super Nerd Waldo"
+label = "Cinnabar Gym - Super Nerd Waldo"
 party = [
     { species = "numel", level = 53, num_moves = 4 },
 ]
 
 [super_nerd_merle]
 id = 691
-label = "Super Nerd Merle"
+label = "Cinnabar Gym - Super Nerd Merle"
 party = [
     { species = "magcargo", level = 53, num_moves = 4 },
 ]
 
 [scientist_gs_lowell]
 id = 692
-label = "Scientist Lowell"
+label = "Cinnabar Gym - Scientist Lowell"
 party = [
     { species = "arcanine", level = 50, num_moves = 4 },
 ]
 
 [scientist_gs_linden]
 id = 693
-label = "Scientist Linden"
+label = "Cinnabar Gym - Scientist Linden"
 party = [
     { species = "magmar", level = 50, num_moves = 4 },
 ]
 
 [scientist_gs_daniel]
 id = 694
-label = "Scientist Daniel"
+label = "Cinnabar Gym - Scientist Daniel"
 party = [
     { species = "ninetales", level = 50, num_moves = 4 },
 ]
@@ -5818,7 +5818,7 @@ party = [
 
 [rocket_boss_giovanni]
 id = 700
-label = "Rocket Boss Giovanni"
+label = "Tohjo Falls Hidden Room - Rocket Boss Giovanni"
 party = [
     { species = "nidoking", level = 42, num_moves = 4 },
     { species = "kangaskhan", level = 40, num_moves = 4 },
@@ -5828,7 +5828,7 @@ party = [
 
 [champion_lance_2]
 id = 701
-label = "Champion Lance 2"
+label = "Pokemon League - Champion Lance 2"
 party = [
     { species = "salamence", level = 72, num_moves = 4 },
     { species = "gyarados", level = 68, num_moves = 4 },
@@ -5840,7 +5840,7 @@ party = [
 
 [elite_four_will_will_2]
 id = 702
-label = "Elite Four Will 2"
+label = "Pokemon League - Elite Four Will 2"
 party = [
     { species = "bronzong", level = 58, num_moves = 4 },
     { species = "jynx", level = 60, num_moves = 4 },
@@ -5852,7 +5852,7 @@ party = [
 
 [elite_four_koga_koga_2]
 id = 703
-label = "Elite Four Koga 2"
+label = "Pokemon League - Elite Four Koga 2"
 party = [
     { species = "skuntank", level = 61, num_moves = 4 },
     { species = "venomoth", level = 63, num_moves = 4 },
@@ -5864,7 +5864,7 @@ party = [
 
 [elite_four_bruno_bruno_2]
 id = 704
-label = "Elite Four Bruno 2"
+label = "Pokemon League - Elite Four Bruno 2"
 party = [
     { species = "hitmontop", level = 62, num_moves = 4 },
     { species = "hitmonlee", level = 61, num_moves = 4 },
@@ -5876,7 +5876,7 @@ party = [
 
 [elite_four_karen_karen_2]
 id = 705
-label = "Elite Four Karen 2"
+label = "Pokemon League - Elite Four Karen 2"
 party = [
     { species = "weavile", level = 62, num_moves = 4 },
     { species = "spiritomb", level = 62, num_moves = 4 },
@@ -5888,7 +5888,7 @@ party = [
 
 [executive_proton_proton_2]
 id = 706
-label = "Radio Tower - Executive Proton 2"
+label = "Goldenrod Radio Tower 4F - Executive Proton 2"
 party = [
     { species = "golbat", level = 28, num_moves = 4 },
     { species = "weezing", level = 33, num_moves = 4 },
@@ -6163,7 +6163,7 @@ party = [
 
 [champion_lance_3]
 id = 733
-label = "Champion Lance 3"
+label = "Dragon's Den - Champion Lance 3"
 party = [
     { species = "gyarados", level = 68, num_moves = 4 },
     { species = "charizard", level = 68, num_moves = 4 },
@@ -6172,7 +6172,7 @@ party = [
 
 [leader_clair_clair_3]
 id = 734
-label = "Leader Clair 3"
+label = "Dragon's Den - Leader Clair 3"
 party = [
     { species = "dragonair", level = 52, num_moves = 4 },
     { species = "kingdra", level = 56, num_moves = 4 },
