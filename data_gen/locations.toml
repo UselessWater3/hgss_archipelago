@@ -2829,7 +2829,7 @@ check = 819
 
 [hidden_d26r0101_great_ball]
 original_item = "great_ball"
-label = "SLOWPOKE Well - Hidden Item in Pond"
+label = "SLOWPOKE Well Entrance - Hidden Item in Pond"
 id = 27
 table = "hidden"
 type = "hidden"
