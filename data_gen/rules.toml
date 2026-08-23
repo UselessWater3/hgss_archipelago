@@ -296,7 +296,7 @@ cianwood = "surf"
 route_40 = "surf"
 whirl_islands_1f = "flash_if_opt & surf & whirlpool"
 
-[exits.route_45]
+[exits.route_45_north]
 dark_cave_route_45_side = "flash_if_opt"
 
 [exits.route_46]

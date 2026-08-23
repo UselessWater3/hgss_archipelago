@@ -37,8 +37,8 @@ class Version(Choice):
     Which version will be randomized.
     """
     display_name = "Version"
-    option_heartgold = VersionEnum.HEARTGOLD
-    option_soulsilver = VersionEnum.SOULSILVER
+    option_heartgold = int(VersionEnum.HEARTGOLD)
+    option_soulsilver = int(VersionEnum.SOULSILVER)
     default = option_heartgold
 
 
@@ -129,9 +129,9 @@ class Goal(Choice):
     - defeat_red: defeat Red at the Summit of Mount Silver.
     """
     display_name = "Goal"
-    default = 0
     option_clear_pokemon_league = 0
     option_defeat_red = 1
+    default = option_clear_pokemon_league
 
 class AddMasterRepel(Toggle):
     """
@@ -266,11 +266,11 @@ class RemoteItems(Choice):
     - all: all (randomizable) items are remote.
     """
     display_name = "Remote Items"
-    default = 0
     option_off = 0
     option_only_randomized = 1
     option_only_randomized_or_progression = 2
     option_all = 3
+    default = option_off
 
 class FPS60(Toggle):
     """

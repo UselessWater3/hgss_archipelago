@@ -333,13 +333,15 @@ accessible_encounters = []
 [route_45_north]
 encounters = "r45"
 header = "route_45"
-exits = []
-accessible_encounters = []
+exits = [
+    "dark_cave_route_45_side",
+    "route_45",
+    "blackthorn",
+]
+accessible_encounters = ["land"]
 
 [route_45]
 exits = [
-    "blackthorn",
-    "dark_cave_route_45_side",
     "route_45_south",
 ]
 encounters = "r45"
@@ -467,7 +469,7 @@ accessible_encounters = [
 [dark_cave_route_45_side]
 exits = [
     "dark_cave_route_45_side_bottom",
-    "route_45",
+    "route_45_north",
 ]
 encounters = "d42r0101"
 header = "dark_cave_route_45_side"
@@ -495,7 +497,7 @@ exits = [
     "blackthorn_west_house",
     "dragons_den_entrance",
     "ice_path_1f_back",
-    "route_45",
+    "route_45_north",
 ]
 encounters = "t30"
 header = "blackthorn"
@@ -2794,10 +2796,6 @@ events = [
     "event_defeat_whitney",
 ]
 
-[national_park_unused_gatehouse]
-exits = []
-header = "national_park_unused_gatehouse"
-
 [pewter_northeast_house]
 exits = [
     "pewter",
@@ -4119,10 +4117,6 @@ exits = [
 encounters = "d02r0103"
 header = "mount_moon_square"
 
-[mount_moon_square_virt]
-exits = []
-header = "mount_moon_square"
-
 [pokemon_league_karen_room]
 exits = [
     "pokemon_league_lance_room",
@@ -5217,6 +5211,9 @@ exits = [
     "saffron_copycat_house_1f",
 ]
 header = "saffron_copycat_house_2f"
+locs = [
+    "saffron_copycat_house_2f",
+]
 
 [goldenrod_department_store_6f]
 exits = [
