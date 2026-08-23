@@ -59,10 +59,16 @@ default: pokemon_hgss.apworld
 
 $(PATCHES): patches/.stamp
 
-patches/.stamp:
+ifeq ($(words $(ROM_SOURCES)),$(words $(foreach f,$(ROM_SOURCES),$(wildcard $(f)))))
+patches/.stamp: $(ROM_SOURCES)
 	@echo ROM GEN
 	$Qpython rom_gen.py
-	touch patches/patches.stamp
+	touch patches/.stamp
+else
+patches/.stamp:
+	touch patches/.stamp
+endif
+
 
 data/__init__.py: $(DATA)
 	@echo DATA GEN
@@ -78,7 +84,7 @@ apnds/__init__.py: apnds_version.txt
 	$Qrm -r apnds.tar.gz apnds-$(APNDS_VERSION)
 	$Qtouch apnds/__init__.py
 
-pokemon_hgss.apworld: $(PATCHES) data/__init__.py apnds/__init__.py $(SOURCES)
+pokemon_hgss.apworld: patches/.stamp data/__init__.py apnds/__init__.py $(SOURCES)
 	@echo MAKE APWORLD
 	$Qcd ../..; python Launcher.py "Build APWorlds" "Pokemon HeartGold and SoulSilver" >/dev/null 2>&1
 	$Qcp ../../build/apworlds/pokemon_hgss.apworld .
