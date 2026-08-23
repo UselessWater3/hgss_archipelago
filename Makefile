@@ -3,10 +3,11 @@
 # Copyright (C) 2025-2026 James Petersen <m@jamespetersen.ca>
 # Licensed under MIT. See LICENSE
 
-.PHONY: default patches
+.PHONY: default patchesmakefile
 
 Q ?= @
 
+ROMS := hg_us ss_us
 ROM_SOURCES := roms/hg_us.nds roms/ss_us.nds roms/hg_us.xMAP roms/ss_us.xMAP rom_gen.py
 SOURCES := __init__.py \
 	client.py \
@@ -56,9 +57,12 @@ APNDS_VERSION := $(shell cat apnds_version.txt)
 
 default: pokemon_hgss.apworld
 
-data_gen/rom_info.toml: $(ROM_SOURCES)
+$(PATCHES): patches/.stamp
+
+patches/.stamp:
 	@echo ROM GEN
 	$Qpython rom_gen.py
+	touch patches/patches.stamp
 
 data/__init__.py: $(DATA)
 	@echo DATA GEN
@@ -74,7 +78,7 @@ apnds/__init__.py: apnds_version.txt
 	$Qrm -r apnds.tar.gz apnds-$(APNDS_VERSION)
 	$Qtouch apnds/__init__.py
 
-pokemon_hgss.apworld: data/__init__.py apnds/__init__.py $(SOURCES)
+pokemon_hgss.apworld: $(PATCHES) data/__init__.py apnds/__init__.py $(SOURCES)
 	@echo MAKE APWORLD
 	$Qcd ../..; python Launcher.py "Build APWorlds" "Pokemon HeartGold and SoulSilver" >/dev/null 2>&1
 	$Qcp ../../build/apworlds/pokemon_hgss.apworld .
