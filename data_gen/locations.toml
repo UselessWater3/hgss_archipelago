@@ -301,7 +301,7 @@ check = 1205
 
 [overworld_t22_rare_candy]
 original_item = "rare_candy"
-label = "Violet City - Item Across Lake (East)"
+label = "Violet City - East Item Across Lake"
 id = 5
 table = "overworld"
 type = "overworld"
@@ -309,7 +309,7 @@ check = 1059
 
 [overworld_t22_pp_up]
 original_item = "pp_up"
-label = "Violet City - Item Across Lake (West)"
+label = "Violet City - West Item Across Lake"
 id = 6
 table = "overworld"
 type = "overworld"
@@ -317,7 +317,7 @@ check = 1060
 
 [overworld_d41r0101_full_restore]
 original_item = "full_restore"
-label = "Mt. Silver Cave 1F - Item from Northern Outside Entrance"
+label = "Mt. Silver Cave 1F - Item from North Outside Entrance"
 id = 232
 table = "overworld"
 type = "overworld"
@@ -373,7 +373,7 @@ check = 1209
 
 [overworld_d43r0103_ultra_ball]
 original_item = "ultra_ball"
-label = "Victory Road 3F - Eastern Item"
+label = "Victory Road 3F - East Item"
 id = 184
 table = "overworld"
 type = "overworld"
@@ -493,7 +493,7 @@ check = 1069
 
 [overworld_d25r0101_awakening]
 original_item = "awakening"
-label = "Union Cave 1F - Item West of Southern Exit"
+label = "Union Cave 1F - Item West of South Exit"
 id = 36
 table = "overworld"
 type = "overworld"
@@ -517,7 +517,7 @@ check = 1198
 
 [overworld_r02r0101_carbos]
 original_item = "carbos"
-label = "Route 2 - Item Behind DIGLETT's Tunnel"
+label = "Route 2 - Item Behind Diglett's Tunnel"
 id = 212
 table = "overworld"
 type = "overworld"
@@ -581,7 +581,7 @@ check = 1247
 
 [overworld_d41r0106_calcium]
 original_item = "calcium"
-label = "Mt. Silver Cave 2F - Southern Item on Top Layer"
+label = "Mt. Silver Cave 2F - South Item on Top Layer"
 id = 239
 table = "overworld"
 type = "overworld"
@@ -589,7 +589,7 @@ check = 1248
 
 [overworld_d41r0106_protein]
 original_item = "protein"
-label = "Mt. Silver Cave 2F - Eastern Item on Top Layer"
+label = "Mt. Silver Cave 2F - East Item on Top Layer"
 id = 240
 table = "overworld"
 type = "overworld"
@@ -677,7 +677,7 @@ check = 1143
 
 [overworld_d35r0102_hyper_potion]
 original_item = "hyper_potion"
-label = "Team Rocket HQ B1F - Eastern Item"
+label = "Team Rocket HQ B1F - East Item"
 id = 133
 table = "overworld"
 type = "overworld"
@@ -693,7 +693,7 @@ check = 1103
 
 [overworld_d35r0102_nugget]
 original_item = "nugget"
-label = "Team Rocket HQ B1F - Southern Item"
+label = "Team Rocket HQ B1F - South Item"
 id = 135
 table = "overworld"
 type = "overworld"
@@ -701,7 +701,7 @@ check = 1104
 
 [overworld_d39r0104_nevermeltice]
 original_item = "nevermeltice"
-label = "Ice Path B3F - Item in Center"
+label = "Ice Path B3F - Center Item"
 id = 154
 table = "overworld"
 type = "overworld"
@@ -829,7 +829,7 @@ check = 1082
 
 [overworld_d25r0103_hyper_potion]
 original_item = "hyper_potion"
-label = "Union Cave B2F - Item on Ledge North of Eastern Ace Trainer"
+label = "Union Cave B2F - Item on Ledge North of East Ace Trainer"
 id = 40
 table = "overworld"
 type = "overworld"
@@ -869,7 +869,7 @@ check = 1243
 
 [overworld_t29_tm43]
 original_item = "tm43"
-label = "Lake of Rage - Item in Northwest"
+label = "Lake of Rage - Northwest Item"
 id = 143
 table = "overworld"
 type = "overworld"
@@ -877,7 +877,7 @@ check = 1288
 
 [overworld_t29_red_flute]
 original_item = "red_flute"
-label = "Lake of Rage - Item in Southwest"
+label = "Lake of Rage - Southwest Item"
 id = 145
 table = "overworld"
 type = "overworld"
@@ -885,7 +885,7 @@ check = 1290
 
 [overworld_t29_choice_specs]
 original_item = "choice_specs"
-label = "Lake of Rage - Item in Northeast"
+label = "Lake of Rage - Northeast Item"
 id = 144
 table = "overworld"
 type = "overworld"
@@ -933,7 +933,7 @@ check = 1308
 
 [overworld_d15r0103_potion]
 original_item = "potion"
-label = "Sprout Tower 3F - Item in Southwest"
+label = "Sprout Tower 3F - Southwest Item"
 id = 9
 table = "overworld"
 type = "overworld"
@@ -941,7 +941,7 @@ check = 1063
 
 [overworld_d15r0103_escape_rope]
 original_item = "escape_rope"
-label = "Sprout Tower 3F - Item in Northeast"
+label = "Sprout Tower 3F - Northeast Item"
 id = 10
 table = "overworld"
 type = "overworld"
@@ -973,7 +973,7 @@ check = 1286
 
 [overworld_d38r0103_rare_candy]
 original_item = "rare_candy"
-label = "Mt. Mortar 2F - Item in Southwest"
+label = "Mt. Mortar 2F - Southwest Item"
 id = 122
 table = "overworld"
 type = "overworld"
@@ -1045,7 +1045,7 @@ check = 1309
 
 [overworld_r11_tm86]
 original_item = "tm86"
-label = "Route 11 - Item in Northeast"
+label = "Route 11 - Northeast Item"
 id = 211
 table = "overworld"
 type = "overworld"
@@ -1117,7 +1117,7 @@ check = 1181
 
 [overworld_d38r0102_full_incense]
 original_item = "full_incense"
-label = "Mt. Mortar 1F Back - Item On Eastern Side Behind Rock Climb"
+label = "Mt. Mortar 1F Back - Item On East Side Behind Rock Climb"
 id = 120
 table = "overworld"
 type = "overworld"
@@ -1133,7 +1133,7 @@ check = 1195
 
 [overworld_d35r0103_tm46]
 original_item = "tm46"
-label = "Team Rocket HQ B2F - Item in Western Room"
+label = "Team Rocket HQ B2F - Item in West Room"
 id = 136
 table = "overworld"
 type = "overworld"
@@ -1141,7 +1141,7 @@ check = 1105
 
 [overworld_r38_max_potion]
 original_item = "max_potion"
-label = "Route 38 - Item By Southern Ledge"
+label = "Route 38 - Item By South Ledge"
 id = 82
 table = "overworld"
 type = "overworld"
@@ -1205,7 +1205,7 @@ check = 1087
 
 [overworld_r34_tm63]
 original_item = "tm63"
-label = "Route 34 - Item in Northern Grass Patch"
+label = "Route 34 - Item in North Grass Patch"
 id = 48
 table = "overworld"
 type = "overworld"
@@ -1213,7 +1213,7 @@ check = 1274
 
 [overworld_d26r0102_super_potion]
 original_item = "super_potion"
-label = "SLOWPOKE Well B1F - Item in Northeast"
+label = "SLOWPOKE Well B1F - Northeast Item"
 id = 41
 table = "overworld"
 type = "overworld"
@@ -1221,7 +1221,7 @@ check = 1075
 
 [overworld_d35r0104_protein]
 original_item = "protein"
-label = "Team Rocket HQ B3F - Item in Southwest Corner 1"
+label = "Team Rocket HQ B3F - Item in Southwest Corner (Left)"
 id = 139
 table = "overworld"
 type = "overworld"
@@ -1229,7 +1229,7 @@ check = 1108
 
 [overworld_d35r0104_x_special]
 original_item = "x_special"
-label = "Team Rocket HQ B3F - Item in Southwest Corner 2"
+label = "Team Rocket HQ B3F - Item in Southwest Corner (Right)"
 id = 140
 table = "overworld"
 type = "overworld"
@@ -1237,7 +1237,7 @@ check = 1109
 
 [overworld_d35r0104_tm49]
 original_item = "tm49"
-label = "Team Rocket HQ B3F - Item in Northwest Corner of Eastern Section"
+label = "Team Rocket HQ B3F - Item in Northwest Corner of East Section"
 id = 137
 table = "overworld"
 type = "overworld"
@@ -1245,7 +1245,7 @@ check = 1106
 
 [overworld_d35r0104_full_heal]
 original_item = "full_heal"
-label = "Team Rocket HQ B3F - Item in Eastern Hallway"
+label = "Team Rocket HQ B3F - Item in East Hallway"
 id = 138
 table = "overworld"
 type = "overworld"
@@ -1293,7 +1293,7 @@ check = 1096
 
 [overworld_r12_calcium]
 original_item = "calcium"
-label = "Route 12 - Item Behind Northern Cut Tree"
+label = "Route 12 - Item Behind North Cut Tree"
 id = 207
 table = "overworld"
 type = "overworld"
@@ -1301,7 +1301,7 @@ check = 1228
 
 [overworld_r12_yellow_flute]
 original_item = "yellow_flute"
-label = "Route 12 - Item Behind Southern Cut Tree"
+label = "Route 12 - Item Behind South Cut Tree"
 id = 208
 table = "overworld"
 type = "overworld"
@@ -1317,7 +1317,7 @@ check = 1279
 
 [overworld_d36r0101_revive]
 original_item = "revive"
-label = "Ilex Forest - Item in Southeast Corner"
+label = "Ilex Forest - Southwest Item"
 id = 43
 table = "overworld"
 type = "overworld"
@@ -1341,7 +1341,7 @@ check = 1085
 
 [overworld_d36r0101_ether]
 original_item = "ether"
-label = "Ilex Forest - Item in Northeast Corner"
+label = "Ilex Forest - Northeast Item"
 id = 46
 table = "overworld"
 type = "overworld"
@@ -1365,7 +1365,7 @@ check = 1074
 
 [overworld_r06_tm62]
 original_item = "tm62"
-label = "Route 6 - Item in South"
+label = "Route 6 - South Item"
 id = 191
 table = "overworld"
 type = "overworld"
@@ -1381,7 +1381,7 @@ check = 1078
 
 [overworld_d37r0105_max_ether]
 original_item = "max_ether"
-label = "Goldenrod Underground - Item in Southeast Corner"
+label = "Goldenrod Underground - Southeast Item"
 id = 50
 table = "overworld"
 type = "overworld"
@@ -1389,7 +1389,7 @@ check = 1079
 
 [overworld_d37r0105_ultra_ball]
 original_item = "ultra_ball"
-label = "Goldenrod Underground - Item in Northwest Corner"
+label = "Goldenrod Underground - Northwest Item"
 id = 51
 table = "overworld"
 type = "overworld"
@@ -1453,7 +1453,7 @@ check = 1257
 
 [overworld_d03r0101_nugget]
 original_item = "nugget"
-label = "Cerulean Cave 1F - Item By Western Ladders"
+label = "Cerulean Cave 1F - Item By West Ladders"
 id = 244
 table = "overworld"
 type = "overworld"
@@ -1461,7 +1461,7 @@ check = 1260
 
 [overworld_d03r0101_full_restore]
 original_item = "full_restore"
-label = "Cerulean Cave 1F - Item Between Southern Crystals"
+label = "Cerulean Cave 1F - Item Between South Crystals"
 id = 243
 table = "overworld"
 type = "overworld"
@@ -1469,7 +1469,7 @@ check = 1259
 
 [overworld_d03r0101_sea_incense]
 original_item = "sea_incense"
-label = "Cerulean Cave 1F - Item By Northern Crystal"
+label = "Cerulean Cave 1F - Item By North Crystal"
 id = 245
 table = "overworld"
 type = "overworld"
@@ -1565,7 +1565,7 @@ check = 1304
 
 [overworld_d11r0103_water_stone]
 original_item = "water_stone"
-label = "Seafoam Islands B2F - Item on Southern Ledge"
+label = "Seafoam Islands B2F - Item on South Ledge"
 id = 224
 table = "overworld"
 type = "overworld"
@@ -1605,7 +1605,7 @@ check = 1270
 
 [overworld_d03r0103_electirizer]
 original_item = "electirizer"
-label = "Cerulean Cave B1F - Item in Northeast"
+label = "Cerulean Cave B1F - Northeast Item"
 id = 253
 table = "overworld"
 type = "overworld"
@@ -1613,7 +1613,7 @@ check = 1271
 
 [overworld_d03r0103_black_sludge]
 original_item = "black_sludge"
-label = "Cerulean Cave B1F - Item in Southeast Past Water"
+label = "Cerulean Cave B1F - Southeast Item Past Water"
 id = 254
 table = "overworld"
 type = "overworld"
@@ -1629,7 +1629,7 @@ check = 1227
 
 [overworld_d05r0101_elixir]
 original_item = "elixir"
-label = "Rock Tunnel 1F - Item in Southwest"
+label = "Rock Tunnel 1F - Southwest Item"
 id = 194
 table = "overworld"
 type = "overworld"
@@ -1645,7 +1645,7 @@ check = 1223
 
 [overworld_r15_pp_up]
 original_item = "pp_up"
-label = "Route 15 - Item in Northwest"
+label = "Route 15 - Northwest Item"
 id = 209
 table = "overworld"
 type = "overworld"
@@ -1661,7 +1661,7 @@ check = 1306
 
 [overworld_d03r0102_pp_up]
 original_item = "pp_up"
-label = "Cerulean Cave 2F - Item in Western Dead End Above Ladder"
+label = "Cerulean Cave 2F - Item in West Dead End Above Ladder"
 id = 246
 table = "overworld"
 type = "overworld"
@@ -1677,7 +1677,7 @@ check = 1264
 
 [overworld_d03r0102_ultra_ball]
 original_item = "ultra_ball"
-label = "Cerulean Cave 2F - Item in Western Dead End Below Ladder"
+label = "Cerulean Cave 2F - Item in West Dead End Below Ladder"
 id = 247
 table = "overworld"
 type = "overworld"
@@ -1757,7 +1757,7 @@ check = 1225
 
 [overworld_d05r0102_revive]
 original_item = "revive"
-label = "Rock Tunnel B1F - Item Behind Rocks in Northwest"
+label = "Rock Tunnel B1F - Northwest Item Behind Rocks"
 id = 198
 table = "overworld"
 type = "overworld"
@@ -1797,7 +1797,7 @@ check = 1255
 
 [overworld_d11r0105_tm13]
 original_item = "tm13"
-label = "Seafoam Islands B4F - Item in Northeast"
+label = "Seafoam Islands B4F - Northeast Item"
 id = 228
 table = "overworld"
 type = "overworld"
@@ -1973,7 +1973,7 @@ check = 1153
 
 [overworld_d17r0106_full_heal]
 original_item = "full_heal"
-label = "Bell Tower 6F - Item in Northwest"
+label = "Bell Tower 6F - Northwest Item"
 id = 76
 table = "overworld"
 type = "overworld"
@@ -2061,7 +2061,7 @@ check = 982
 
 [hidden_r26_r27_nugget]
 original_item = "nugget"
-label = "Route 27 - Hidden Item on Eastern shore South of Stairs"
+label = "Route 27 - Hidden Item on East shore South of Stairs"
 id = 183
 table = "hidden"
 type = "hidden"
@@ -2117,7 +2117,7 @@ check = 814
 
 [hidden_d42r0102_max_ether]
 original_item = "max_ether"
-label = "Dark Cave (South Side) - Hidden Item on Eastern Wall"
+label = "Dark Cave (South Side) - Hidden Item on East Wall"
 id = 15
 table = "hidden"
 type = "hidden"
@@ -2197,7 +2197,7 @@ check = 986
 
 [hidden_d43r0102_ultra_ball]
 original_item = "ultra_ball"
-label = "Victory Road 2F - Eastern Hidden Item"
+label = "Victory Road 2F - East Hidden Item"
 id = 189
 table = "hidden"
 type = "hidden"
@@ -2349,7 +2349,7 @@ check = 948
 
 [hidden_d24r0101_big_mushroom]
 original_item = "big_mushroom"
-label = "Ruins of Alph - Hidden Item in Southwest Rocks"
+label = "Ruins of Alph - Hidden Item in Southwest Rocks (Left)"
 id = 147
 table = "hidden"
 type = "hidden"
@@ -2357,7 +2357,7 @@ check = 947
 
 [hidden_d24r0101_nugget]
 original_item = "nugget"
-label = "Ruins of Alph - Second Hidden Item in Southwest Rocks"
+label = "Ruins of Alph - Hidden Item in Southwest Rocks (Right)"
 id = 150
 table = "hidden"
 type = "hidden"
@@ -2389,7 +2389,7 @@ check = 897
 
 [hidden_r36_awakening]
 original_item = "awakening"
-label = "Route 36 - Hidden Item in Southern Grass Patch"
+label = "Route 36 - Hidden Item in South Grass Patch"
 id = 11
 table = "hidden"
 type = "hidden"
@@ -2405,7 +2405,7 @@ check = 954
 
 [hidden_d25r0101_great_ball]
 original_item = "great_ball"
-label = "Union Cave 1F - Hidden Item in Eastern Wall Between Rocks South of Hikers"
+label = "Union Cave 1F - Hidden Item in East Wall Between Rocks South of Hikers"
 id = 151
 table = "hidden"
 type = "hidden"
@@ -2421,7 +2421,7 @@ check = 952
 
 [hidden_r35_nugget]
 original_item = "nugget"
-label = "Route 35 - Hidden Item Behind Western Fence"
+label = "Route 35 - Hidden Item Behind West Fence"
 id = 10
 table = "hidden"
 type = "hidden"
@@ -2477,7 +2477,7 @@ check = 1003
 
 [hidden_d39r0103_carbos]
 original_item = "carbos"
-label = "Ice Path B2F (Boulder Room) - Hidden Item in Southeast"
+label = "Ice Path B2F (Boulder Room) - Southeast Hidden Item"
 id = 71
 table = "hidden"
 type = "hidden"
@@ -2557,7 +2557,7 @@ check = 887
 
 [hidden_d46r0101_big_mushroom]
 original_item = "big_mushroom"
-label = "Viridian Forest - Hidden Item on Flower in Corner Near Western Lone Tree"
+label = "Viridian Forest - Hidden Item on Flower in Corner Near West Lone Tree"
 id = 216
 table = "hidden"
 type = "hidden"
@@ -2565,7 +2565,7 @@ check = 1016
 
 [hidden_d46r0101_big_mushroom_2]
 original_item = "big_mushroom"
-label = "Viridian Forest - Hidden Item on Orange Flower South of Northern East Bug Catcher"
+label = "Viridian Forest - Hidden Item on Orange Flower South of North East Bug Catcher"
 id = 217
 table = "hidden"
 type = "hidden"
@@ -2589,7 +2589,7 @@ check = 1019
 
 [hidden_d46r0101_tinymushroom_3]
 original_item = "tinymushroom"
-label = "Viridian Forest - Hidden Item on Wall in Southeastern Corner"
+label = "Viridian Forest - Hidden Item on Wall in Southeast Corner"
 id = 220
 table = "hidden"
 type = "hidden"
@@ -2613,7 +2613,7 @@ check = 1024
 
 [hidden_d25r0103_ultra_ball]
 original_item = "ultra_ball"
-label = "Union Cave B2F - Hidden Item on Stalagmite beside Southern Ace Trainer"
+label = "Union Cave B2F - Hidden Item on Stalagmite beside South Ace Trainer"
 id = 156
 table = "hidden"
 type = "hidden"
@@ -2621,7 +2621,7 @@ check = 956
 
 [hidden_d25r0103_calcium]
 original_item = "calcium"
-label = "Union Cave B2F - Hidden Item Near Northern Ace Trainer"
+label = "Union Cave B2F - Hidden Item Near North Ace Trainer"
 id = 157
 table = "hidden"
 type = "hidden"
@@ -2653,7 +2653,7 @@ check = 965
 
 [hidden_d41r0102_max_ether]
 original_item = "max_ether"
-label = "Mt. Silver Cave 2F (Outside) - Hidden Item Beside Northern Entrance"
+label = "Mt. Silver Cave 2F (Outside) - Hidden Item Beside North Entrance"
 id = 204
 table = "hidden"
 type = "hidden"
@@ -2685,7 +2685,7 @@ check = 837
 
 [hidden_t29_max_potion]
 original_item = "max_potion"
-label = "Lake of Rage - Hidden Item in Northeast"
+label = "Lake of Rage - Northeast Hidden Item in"
 id = 102
 table = "hidden"
 type = "hidden"
@@ -2717,7 +2717,7 @@ check = 999
 
 [hidden_t03_max_revive]
 original_item = "max_revive"
-label = "Pewter City - Hidden Item in Southeast Behind Fence"
+label = "Pewter City - Southeast Hidden Item Behind Fence"
 id = 227
 table = "hidden"
 type = "hidden"
@@ -2805,7 +2805,7 @@ check = 943
 
 [hidden_d38r0103_full_heal]
 original_item = "full_heal"
-label = "Mt. Mortar 2F - Hidden Item in Northwest"
+label = "Mt. Mortar 2F - Northwest Hidden Item"
 id = 144
 table = "hidden"
 type = "hidden"
@@ -2885,7 +2885,7 @@ check = 959
 
 [hidden_d49_protein]
 original_item = "protein"
-label = "Pokeathlon Dome - Hidden Item on Southern Grass Plot"
+label = "Pokeathlon Dome - Hidden Item on South Grass Plot"
 id = 160
 table = "hidden"
 type = "hidden"
@@ -2949,7 +2949,7 @@ check = 942
 
 [hidden_d35r0103_full_heal]
 original_item = "full_heal"
-label = "Team Rocket HQ B2F - Hidden Item on middle of 3 Southwestern Boxes"
+label = "Team Rocket HQ B2F - Hidden Item on middle of 3 Southwest Boxes"
 id = 54
 table = "hidden"
 type = "hidden"
@@ -2957,7 +2957,7 @@ check = 854
 
 [hidden_d35r0103_x_sp__def]
 original_item = "x_sp__def"
-label = "Team Rocket HQ B2F - Hidden Item Next to Eastern Computer"
+label = "Team Rocket HQ B2F - Hidden Item Next to East Computer"
 id = 55
 table = "hidden"
 type = "hidden"
@@ -2981,7 +2981,7 @@ check = 849
 
 [hidden_d38r0104_ultra_ball]
 original_item = "ultra_ball"
-label = "Mt. Mortar B1F - Hidden Item Between Rocks in Southwest"
+label = "Mt. Mortar B1F - Hidden Item Between Southwest Rocks"
 id = 50
 table = "hidden"
 type = "hidden"
@@ -3061,7 +3061,7 @@ check = 903
 
 [hidden_t06_heart_scale]
 original_item = "heart_scale"
-label = "Vermilion City - Hidden Item on the Lower Northern Boat in Harbor"
+label = "Vermilion City - Hidden Item on the Lower North Boat in Harbor"
 id = 168
 table = "hidden"
 type = "hidden"
@@ -3101,7 +3101,7 @@ check = 912
 
 [hidden_r39_nugget]
 original_item = "nugget"
-label = "Route 39 - Hidden Item in Miltank Farm South"
+label = "Route 39 - South Hidden Item in Miltank Farm"
 id = 98
 table = "hidden"
 type = "hidden"
@@ -3109,7 +3109,7 @@ check = 898
 
 [hidden_r39_pp_up]
 original_item = "pp_up"
-label = "Route 39 - Hidden Item in Miltank Farm West"
+label = "Route 39 - West Hidden Item in Miltank Farm"
 id = 135
 table = "hidden"
 type = "hidden"
@@ -3213,7 +3213,7 @@ check = 913
 
 [hidden_r04_big_mushroom]
 original_item = "big_mushroom"
-label = "Route 4 - Hidden Item in Southern Trees"
+label = "Route 4 - Hidden Item in South Trees"
 id = 194
 table = "hidden"
 type = "hidden"
@@ -3221,7 +3221,7 @@ check = 994
 
 [hidden_d18r0102_revive]
 original_item = "revive"
-label = "Burned Tower B1F - Hidden Item on Southern Rock"
+label = "Burned Tower B1F - Hidden Item on South Rock"
 id = 21
 table = "hidden"
 type = "hidden"
@@ -3549,7 +3549,7 @@ check = 907
 
 [hidden_p01r0102_protein]
 original_item = "protein"
-label = "Olivine City Port - Hidden Item on Southern Mooring Post"
+label = "Olivine City Port - Hidden Item on South Mooring Post"
 id = 86
 table = "hidden"
 type = "hidden"
@@ -3597,7 +3597,7 @@ check = 860
 
 [hidden_d05r0101_x_accuracy]
 original_item = "x_accuracy"
-label = "Rock Tunnel 1F - Hidden Item Between Northern Rocks"
+label = "Rock Tunnel 1F - Hidden Item Between North Rocks"
 id = 59
 table = "hidden"
 type = "hidden"
@@ -3701,7 +3701,7 @@ check = 909
 
 [hidden_r17_max_elixir]
 original_item = "max_elixir"
-label = "Route 17 - Hidden Item Below Second-most-southern Street Lights"
+label = "Route 17 - Hidden Item Below Second-most-south Street Lights"
 id = 110
 table = "hidden"
 type = "hidden"
@@ -3709,7 +3709,7 @@ check = 910
 
 [hidden_t24_revive]
 original_item = "revive"
-label = "Cianwood City - Hidden Item Next to Northern House"
+label = "Cianwood City - Hidden Item Next to North House"
 id = 25
 table = "hidden"
 type = "hidden"
@@ -3765,7 +3765,7 @@ check = 1023
 
 [hidden_d40r0102_ultra_ball]
 original_item = "ultra_ball"
-label = "Whirl Islands B1F - Hidden Item Between Rocks in Southeast Area"
+label = "Whirl Islands B1F - Hidden Item Between Southeast Rocks"
 id = 74
 table = "hidden"
 type = "hidden"
@@ -4907,7 +4907,7 @@ check = 311
 
 [route_32_tm05]
 original_item = "tm05"
-label = "Route 32 - Item from Man at Northern Hill"
+label = "Route 32 - Item from Man at North Hill"
 id = 125
 table = "base"
 type = "npc_gift"
