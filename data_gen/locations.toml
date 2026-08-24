@@ -517,7 +517,7 @@ check = 1198
 
 [overworld_r02r0101_carbos]
 original_item = "carbos"
-label = "Route 2 - Item Behind Diglett's Tunnel"
+label = "Route 2 - Item Behind Diglett's Cave"
 id = 212
 table = "overworld"
 type = "overworld"
@@ -741,7 +741,7 @@ check = 1238
 
 [overworld_d01r0101_pp_max]
 original_item = "pp_max"
-label = "DIGLETT’s Cave - Item on Rock Climb Hill Below Bridges"
+label = "Diglett’s Cave - Item on Rock Climb Hill Below Bridges"
 id = 189
 table = "overworld"
 type = "overworld"
@@ -749,7 +749,7 @@ check = 1297
 
 [overworld_d01r0101_rock_incense]
 original_item = "rock_incense"
-label = "DIGLETT’s Cave - Item Across Bridge"
+label = "Diglett’s Cave - Item Across Bridge"
 id = 190
 table = "overworld"
 type = "overworld"
@@ -2597,7 +2597,7 @@ check = 1020
 
 [hidden_d01r0101_max_revive]
 original_item = "max_revive"
-label = "DIGLETT’s Cave - Hidden Item on Rock in Corner"
+label = "Diglett’s Cave - Hidden Item on Rock in Corner"
 id = 56
 table = "hidden"
 type = "hidden"
@@ -2605,7 +2605,7 @@ check = 856
 
 [hidden_d01r0101_calcium]
 original_item = "calcium"
-label = "DIGLETT’s Cave - Hidden Item on Rock Climb Hill Between Bridges"
+label = "Diglett’s Cave - Hidden Item on Rock Climb Hill Between Bridges"
 id = 224
 table = "hidden"
 type = "hidden"
