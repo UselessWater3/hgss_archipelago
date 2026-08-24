@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 * Requirement of defeating the league to travel upwards through the Route 40 Battle Frontier gatehouse has been added.
 * Requirement of obtaining the Mystery Egg to reach the northwest part of Route 30 has been added.
+* Logic can now expect obtaining Escape Ropes from Celadon Department Store.
+* Logic can now expect obtaining Vitamins from Celadon Department Store and Safari Zone Gate.
 
 ## [0.0.2] - 2026-08-23
 ### Fixed

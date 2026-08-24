@@ -5729,6 +5729,7 @@ exits = [
     "route_48",
     "safari_zone_entrance_interior",
     "safari_zone_gate_pokecenter_1f",
+    "virt_vitamins",
 ]
 header = "safari_zone_gate"
 locs = [
@@ -5790,7 +5791,6 @@ header = "celadon_department_store_4f"
 exits = [
     "safari_zone_entrance_exterior",
     "safari_zone_gate",
-    "virt_vitamins",
 ]
 header = "safari_zone_entrance_interior"
 
