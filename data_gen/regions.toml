@@ -4184,6 +4184,7 @@ exits = [
     "goldenrod_department_store_3f",
     "goldenrod_department_store_5f",
     "goldenrod_department_store_elevator",
+    "virt_vitamins",
 ]
 header = "goldenrod_department_store_4f"
 
@@ -5368,6 +5369,9 @@ exits = [
     "celadon_department_store_elevator",
 ]
 header = "celadon_department_store_1f"
+events = [
+    "event_celadon_store"
+]
 
 [route_16_east]
 exits = [
@@ -5786,6 +5790,7 @@ header = "celadon_department_store_4f"
 exits = [
     "safari_zone_entrance_exterior",
     "safari_zone_gate",
+    "virt_vitamins",
 ]
 header = "safari_zone_entrance_interior"
 
@@ -5828,6 +5833,7 @@ exits = [
     "celadon_department_store_4f",
     "celadon_department_store_elevator",
     "celadon_department_store_roof",
+    "virt_vitamins",
 ]
 header = "celadon_department_store_5f"
 
@@ -5981,4 +5987,11 @@ header = "virt"
 exits = []
 locs = [
     "fly_map_battle_frontier",
+]
+
+[virt_vitamins]
+header = "virt"
+exits = []
+events = [
+    "event_vitamins"
 ]

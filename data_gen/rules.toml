@@ -331,7 +331,7 @@ ruins_of_alph = "surf"
 ruins_of_alph_southwest_entrance_first_room = "surf & strength"
 
 [exits.ruins_of_alph_northeast_entrance_first_room]
-ruins_of_alph_northeast_entrance_second_room = "badges(1) | event_goldenrod_store"
+ruins_of_alph_northeast_entrance_second_room = "badges(1) | event_goldenrod_store | event_celadon_store"
 
 [exits.ruins_of_alph_northwest_entrance_first_room]
 ruins_of_alph_northwest_entrance_second_room = "rainbow_wing"
