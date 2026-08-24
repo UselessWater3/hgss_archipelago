@@ -852,8 +852,8 @@ class IcyRockLocations(RegionEvoRequirement):
     Where icy rocks appear. In vanilla, icy rocks are used to evolve Eevee into Glaceon.
 
     Options:
-    - option_kanto: a icy rock will appear in Viridian Forest.
-    - option_johto: a icy rock will appear in Ilex Forest.
+    - option_kanto: an icy rock will appear in Seafoam Islands.
+    - option_johto: an icy rock will appear in Ice Path.
     - option_both: both of the above will apply.
     """
     option_kanto = 1
