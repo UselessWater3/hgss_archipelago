@@ -921,17 +921,35 @@ slot_data_options: Sequence[str] = [
     "randomize_fly_items",
     "require_fly_items_for_flight",
 
+    "randomize_starters",
+    "require_two_level_evolution_starters",
+    "starter_whitelist",
+    "starter_blacklist",
+    "randomize_intro_mon",
+
+    "randomize_encounters",
     "in_logic_encounters",
+    "encounter_species_blacklist",
     "dexsanity",
     "dexsanity_mode",
+    "dexsanity_whitelist",
+    "dexsanity_blacklist",
+    "dexsanity_required",
     "in_logic_evolution_methods",
     "mossy_rock_locations",
     "icy_rock_locations",
     "magnetic_field_locations",
 
     "trainersanity",
+    "trainersanity_whitelist",
+    "trainersanity_blacklist",
+    "trainersanity_required",
+    "randomize_trainer_parties",
+    "trainer_party_blacklist",
 
     "start_inventory_from_pool",
+
+    "master_repel",
 ]
 
 @dataclass
