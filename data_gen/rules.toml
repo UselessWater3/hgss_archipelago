@@ -261,7 +261,7 @@ route_27_center = "surf"
 mount_silver = "cut"
 
 [exits.route_30]
-route_31 = "event_get_mystery_egg | cut"
+route_30_northwest = "event_get_mystery_egg | cut"
 
 [exits.route_31]
 dark_cave_route_31_side_west = "flash_if_opt"

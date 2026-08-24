@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.3] - TBD
 ### Fixed
 * Requirement of defeating the league to travel upwards through the Route 40 Battle Frontier gatehouse has been added.
+* Requirement of obtaining the Mystery Egg to reach the northwest part of Route 30 has been added.
 
 ## [0.0.2] - 2026-08-23
 ### Fixed

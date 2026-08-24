@@ -303,7 +303,7 @@ exits = [
     "cherrygrove",
     "route_30_apricorn_house",
     "route_30_mr_pokemon_house",
-    "route_31",
+    "route_30_northwest",
 ]
 encounters = "r30"
 header = "route_30"
@@ -315,6 +315,16 @@ locs = [
 ]
 trainers = [
     "youngster_joey",
+]
+
+[route_30_northwest]
+exits = [
+    "route_30",
+    "route_31",
+]
+encounters = "r30"
+header = "route_30"
+trainers = [
     "youngster_mikey",
     "bug_catcher_don",
 ]
@@ -560,7 +570,7 @@ header = "cherrygrove_pokecenter_b1f"
 [route_31]
 exits = [
     "dark_cave_route_31_side_west",
-    "route_30",
+    "route_30_northwest",
     "route_31_violet_gatehouse",
 ]
 encounters = "r31"
