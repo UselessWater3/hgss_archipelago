@@ -291,6 +291,9 @@ route_36_southwest = "squirtbottle"
 [exits.route_40]
 route_41 = "surf"
 
+[exits.route_40_battle_frontier_gatehouse]
+battle_frontier_frontier_access = "event_clear_pokemon_league"
+
 [exits.route_41]
 cianwood = "surf"
 route_40 = "surf"
