@@ -1491,6 +1491,7 @@ locs = [
     "overworld_r02r0101_carbos",
     "overworld_r02_elixir",
 ]
+accessible_encounters = []
 
 [ruins_of_alph_southwest_entrance_first_room]
 exits = [
