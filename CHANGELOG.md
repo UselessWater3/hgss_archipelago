@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Logic can now expect obtaining Escape Ropes from Celadon Department Store.
 * Logic can now expect obtaining Vitamins from Celadon Department Store and Safari Zone Gate.
 * Corrected the description of the `icy_rock_locations` option to mention Seafoam Islands and Ice Path.
+* Requirement of using Surf to reach Cerulean City - Hidden Item in Water Near Cerulean Cave has been added.
 
 ## [0.0.2] - 2026-08-23
 ### Fixed
