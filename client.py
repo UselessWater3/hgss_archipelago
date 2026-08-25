@@ -261,7 +261,7 @@ class PokemonHgssClient(BizHawkClient):
             ap_bin_start, = unpack_from("<I", fatb, ap_bin_id * 8)
             ap_bin_bytes = (await bizhawk.read(ctx.bizhawk_ctx, [(ap_bin_start, 97, "ROM")]))[0]
             name_end = ap_bin_bytes[:64].find(b'\0')
-            remote_items = ap_bin_bytes[96] != 0
+            remote_items = ap_bin_bytes[64] != 0
             if name_end != -1:
                 player_name = ap_bin_bytes[:name_end].decode()
             else:
