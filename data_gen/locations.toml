@@ -1317,7 +1317,7 @@ check = 1279
 
 [overworld_d36r0101_revive]
 original_item = "revive"
-label = "Ilex Forest - Southwest Item"
+label = "Ilex Forest - Southeast Item"
 id = 43
 table = "overworld"
 type = "overworld"
