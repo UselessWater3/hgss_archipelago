@@ -229,14 +229,11 @@ route_19 = "event_defeat_blaine & surf"
 [exits.route_19]
 route_19_from_fuchia = "event_defeat_blaine"
 
-[exits.route_2_east]
-diglett_cave = "cut"
-route_2 = "cut"
-route_2_house = "cut"
-route_2_southeast_gatehouse = "cut"
-
-[exits.route_2_southeast_gatehouse]
+[exits.route_2]
 route_2_east = "cut"
+
+[exits.route_2_east]
+route_2 = "cut"
 
 [exits.route_20_west]
 cinnabar_island = "surf"

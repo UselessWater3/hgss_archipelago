@@ -926,6 +926,8 @@ trainers = [
 exits = [
     "route_2_viridian_forest_south_gatehouse",
     "viridian",
+    "pewter",
+    "route_2_east",
     "route_2_viridian_forest_north_gatehouse",
 ]
 encounters = "r02"
@@ -933,6 +935,7 @@ header = "route_2"
 trainers = [
     "bug_catcher_rob",
     "bug_catcher_doug",
+    "bug_catcher_ed",
 ]
 
 [violet_pokemart]
@@ -1478,7 +1481,6 @@ header = "mahogany_souvenir_shop"
 [route_2_east]
 exits = [
     "diglett_cave",
-    "pewter",
     "route_2",
     "route_2_house",
     "route_2_southeast_gatehouse",
@@ -1488,9 +1490,6 @@ header = "route_2_east"
 locs = [
     "overworld_r02r0101_carbos",
     "overworld_r02_elixir",
-]
-trainers = [
-    "bug_catcher_ed",
 ]
 
 [ruins_of_alph_southwest_entrance_first_room]
@@ -1846,7 +1845,7 @@ header = "ruins_of_alph_underground_hall_sinjoh_event_2"
 
 [route_2_viridian_forest_north_gatehouse]
 exits = [
-    "route_2_east",
+    "route_2",
     "viridian_forest",
 ]
 header = "route_2_viridian_forest_north_gatehouse"
@@ -2168,7 +2167,7 @@ exits = [
     "pewter_pokecenter_1f",
     "pewter_pokemart",
     "pewter_southwest_house",
-    "route_2_east",
+    "route_2",
     "route_3",
 ]
 header = "pewter"
