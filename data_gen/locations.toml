@@ -45,7 +45,7 @@ check = 1115
 
 [overworld_r46_x_speed]
 original_item = "x_speed"
-label = "Route 46 - Item By Camper and Lass"
+label = "Route 46 - Item by Camper and Lass"
 id = 165
 table = "overworld"
 type = "overworld"
@@ -69,7 +69,7 @@ check = 1056
 
 [overworld_r30_potion]
 original_item = "potion"
-label = "Route 30 - Item By First Grass Patch"
+label = "Route 30 - Item by First Grass Patch"
 id = 2
 table = "overworld"
 type = "overworld"
@@ -277,7 +277,7 @@ check = 1231
 
 [overworld_d39r0101_hm07]
 original_item = "hm07"
-label = "Ice Path 1F - Item in Ice Puzzle Watched By Old Man"
+label = "Ice Path 1F - Item in Ice Puzzle Watched by Old Man"
 id = 149
 table = "overworld"
 type = "hm"
@@ -325,7 +325,7 @@ check = 1241
 
 [overworld_r02_elixir]
 original_item = "elixir"
-label = "Route 2 - Item By Southeast Cut Trees"
+label = "Route 2 - Item by Southeast Cut Trees"
 id = 213
 table = "overworld"
 type = "overworld"
@@ -349,7 +349,7 @@ check = 1210
 
 [overworld_d44r0102_max_elixir]
 original_item = "max_elixir"
-label = "Dragon's Den - Item By Twins"
+label = "Dragon's Den - Item by Twins"
 id = 158
 table = "overworld"
 type = "overworld"
@@ -453,7 +453,7 @@ check = 1276
 
 [overworld_d41r0103_escape_rope]
 original_item = "escape_rope"
-label = "Mt. Silver Cave 1F (Outside) - Item By Southeast Exit"
+label = "Mt. Silver Cave 1F (Outside) - Item by Southeast Exit"
 id = 235
 table = "overworld"
 type = "overworld"
@@ -997,7 +997,7 @@ check = 1184
 
 [overworld_d38r0103_elixir]
 original_item = "elixir"
-label = "Mt. Mortar 2F - Item By Northwest Pond"
+label = "Mt. Mortar 2F - Item by Northwest Pond"
 id = 125
 table = "overworld"
 type = "overworld"
@@ -1141,7 +1141,7 @@ check = 1105
 
 [overworld_r38_max_potion]
 original_item = "max_potion"
-label = "Route 38 - Item By South Ledge"
+label = "Route 38 - Item by South Ledge"
 id = 82
 table = "overworld"
 type = "overworld"
@@ -1333,7 +1333,7 @@ check = 1084
 
 [overworld_d36r0101_antidote]
 original_item = "antidote"
-label = "Ilex Forest - Item By Pond"
+label = "Ilex Forest - Item by Pond"
 id = 45
 table = "overworld"
 type = "overworld"
@@ -1421,7 +1421,7 @@ check = 1310
 
 [overworld_r08_tm41]
 original_item = "tm41"
-label = "Route 8 - Item By Biker Trio"
+label = "Route 8 - Item by Biker Trio"
 id = 192
 table = "overworld"
 type = "overworld"
@@ -1453,7 +1453,7 @@ check = 1257
 
 [overworld_d03r0101_nugget]
 original_item = "nugget"
-label = "Cerulean Cave 1F - Item By West Ladders"
+label = "Cerulean Cave 1F - Item by West Ladders"
 id = 244
 table = "overworld"
 type = "overworld"
@@ -1469,7 +1469,7 @@ check = 1259
 
 [overworld_d03r0101_sea_incense]
 original_item = "sea_incense"
-label = "Cerulean Cave 1F - Item By North Crystal"
+label = "Cerulean Cave 1F - Item by North Crystal"
 id = 245
 table = "overworld"
 type = "overworld"
@@ -1477,7 +1477,7 @@ check = 1261
 
 [overworld_d11r0102_grip_claw]
 original_item = "grip_claw"
-label = "Seafoam Islands B1F - Item By North Wall"
+label = "Seafoam Islands B1F - Item by North Wall"
 id = 223
 table = "overworld"
 type = "overworld"
@@ -1493,7 +1493,7 @@ check = 1251
 
 [overworld_d23r0104_ultra_ball]
 original_item = "ultra_ball"
-label = "Goldenrod Radio Tower 4F - Item By Staircase"
+label = "Goldenrod Radio Tower 4F - Item by Staircase"
 id = 60
 table = "overworld"
 type = "overworld"
@@ -1501,7 +1501,7 @@ check = 1089
 
 [overworld_d37r0103_amulet_coin]
 original_item = "amulet_coin"
-label = "Goldenrod Dept. Store B1F - Item By Staircase"
+label = "Goldenrod Dept. Store B1F - Item by Staircase"
 id = 53
 table = "overworld"
 type = "overworld"
@@ -1581,7 +1581,7 @@ check = 1197
 
 [overworld_d03r0103_max_revive]
 original_item = "max_revive"
-label = "Cerulean Cave B1F - Item By Lone Pool of Water"
+label = "Cerulean Cave B1F - Item by Lone Pool of Water"
 id = 250
 table = "overworld"
 type = "overworld"
@@ -1589,7 +1589,7 @@ check = 1268
 
 [overworld_d03r0103_ultra_ball]
 original_item = "ultra_ball"
-label = "Cerulean Cave B1F - Southwest Item By Rock Climb Slopes"
+label = "Cerulean Cave B1F - Southwest Item by Rock Climb Slopes"
 id = 251
 table = "overworld"
 type = "overworld"
@@ -1805,7 +1805,7 @@ check = 1258
 
 [overworld_d17r0104_escape_rope]
 original_item = "escape_rope"
-label = "Bell Tower 4F - Item By Southwest Ladder"
+label = "Bell Tower 4F - Item by Southwest Ladder"
 id = 71
 table = "overworld"
 type = "overworld"
@@ -1821,7 +1821,7 @@ check = 1150
 
 [overworld_d17r0104_pp_up]
 original_item = "pp_up"
-label = "Bell Tower 4F - Item By Southeast Ladder"
+label = "Bell Tower 4F - Item by Southeast Ladder"
 id = 73
 table = "overworld"
 type = "overworld"
@@ -1877,7 +1877,7 @@ check = 1167
 
 [overworld_r47_revive]
 original_item = "revive"
-label = "Route 47 - Item By Camper Across Bridge"
+label = "Route 47 - Item by Camper Across Bridge"
 id = 103
 table = "overworld"
 type = "overworld"
@@ -1941,7 +1941,7 @@ check = 1100
 
 [overworld_d17r0105_rare_candy]
 original_item = "rare_candy"
-label = "Bell Tower 5F - Item By Center Pillar"
+label = "Bell Tower 5F - Item by Center Pillar"
 id = 74
 table = "overworld"
 type = "overworld"
@@ -1965,7 +1965,7 @@ check = 1171
 
 [overworld_d17r0106_max_potion]
 original_item = "max_potion"
-label = "Bell Tower 6F - Item By Center Pillar"
+label = "Bell Tower 6F - Item by Center Pillar"
 id = 75
 table = "overworld"
 type = "overworld"
@@ -1997,7 +1997,7 @@ check = 1155
 
 [overworld_d17r0108_full_restore]
 original_item = "full_restore"
-label = "Bell Tower 8F - Item By Northwest Statue"
+label = "Bell Tower 8F - Item by Northwest Statue"
 id = 78
 table = "overworld"
 type = "overworld"
@@ -2005,7 +2005,7 @@ check = 1156
 
 [overworld_d17r0108_max_elixir]
 original_item = "max_elixir"
-label = "Bell Tower 8F - Item By Center Pillar"
+label = "Bell Tower 8F - Item by Center Pillar"
 id = 79
 table = "overworld"
 type = "overworld"
@@ -2013,7 +2013,7 @@ check = 1157
 
 [overworld_d17r0108_nugget]
 original_item = "nugget"
-label = "Bell Tower 8F - Item By Southeast Ramps"
+label = "Bell Tower 8F - Item by Southeast Ramps"
 id = 80
 table = "overworld"
 type = "overworld"
@@ -2053,7 +2053,7 @@ check = 981
 
 [hidden_r27_big_mushroom]
 original_item = "big_mushroom"
-label = "Route 27 - Hidden Item on Ledge By East Bridges"
+label = "Route 27 - Hidden Item on Ledge by East Bridges"
 id = 182
 table = "hidden"
 type = "hidden"
@@ -2141,7 +2141,7 @@ check = 816
 
 [hidden_d42r0101_hyper_potion]
 original_item = "hyper_potion"
-label = "Dark Cave (North Side) - Hidden Item By Rock at South Exit"
+label = "Dark Cave (North Side) - Hidden Item by Rock at South Exit"
 id = 17
 table = "hidden"
 type = "hidden"
@@ -2325,7 +2325,7 @@ check = 988
 
 [hidden_d24r0101_great_ball]
 original_item = "great_ball"
-label = "Ruins of Alph - Hidden Item in Rocks By East Gate"
+label = "Ruins of Alph - Hidden Item in Rocks by East Gate"
 id = 146
 table = "hidden"
 type = "hidden"
@@ -2429,7 +2429,7 @@ check = 810
 
 [hidden_r42_max_potion]
 original_item = "max_potion"
-label = "Route 42 - Hidden Item By Corner of East Pond"
+label = "Route 42 - Hidden Item by Corner of East Pond"
 id = 42
 table = "hidden"
 type = "hidden"
@@ -2453,7 +2453,7 @@ check = 1022
 
 [hidden_t10_rare_candy]
 original_item = "rare_candy"
-label = "Indigo Plateau - Hidden Item By Northwest Poke Ball Statue"
+label = "Indigo Plateau - Hidden Item by Northwest Poke Ball Statue"
 id = 190
 table = "hidden"
 type = "hidden"
@@ -2629,7 +2629,7 @@ check = 957
 
 [hidden_d38r0101_hyper_potion]
 original_item = "hyper_potion"
-label = "Mt. Mortar 1F - Hidden Item By West Entrance"
+label = "Mt. Mortar 1F - Hidden Item by West Entrance"
 id = 43
 table = "hidden"
 type = "hidden"
@@ -2637,7 +2637,7 @@ check = 843
 
 [hidden_d38r0101_revive]
 original_item = "revive"
-label = "Mt. Mortar 1F - Hidden Item By Rock Climb Entrance"
+label = "Mt. Mortar 1F - Hidden Item by Rock Climb Entrance"
 id = 44
 table = "hidden"
 type = "hidden"
@@ -2693,7 +2693,7 @@ check = 902
 
 [hidden_t23_full_heal]
 original_item = "full_heal"
-label = "Azalea Town - Hidden Item By Charcoal Kiln"
+label = "Azalea Town - Hidden Item by Charcoal Kiln"
 id = 6
 table = "hidden"
 type = "hidden"
@@ -2813,7 +2813,7 @@ check = 944
 
 [hidden_d18r0101_ultra_ball]
 original_item = "ultra_ball"
-label = "Burned Tower 1F - Hidden Item By Breakable Rock"
+label = "Burned Tower 1F - Hidden Item by Breakable Rock"
 id = 20
 table = "hidden"
 type = "hidden"
@@ -2853,7 +2853,7 @@ check = 938
 
 [hidden_r03_hyper_potion]
 original_item = "hyper_potion"
-label = "Route 3 - Hidden Item Behind Breakable Rocks By Pokémon Center"
+label = "Route 3 - Hidden Item Behind Breakable Rocks by Pokémon Center"
 id = 139
 table = "hidden"
 type = "hidden"
@@ -2973,7 +2973,7 @@ check = 822
 
 [hidden_d38r0104_max_revive]
 original_item = "max_revive"
-label = "Mt. Mortar B1F - Hidden Item Up Stairs By Karate Master"
+label = "Mt. Mortar B1F - Hidden Item Up Stairs by Karate Master"
 id = 49
 table = "hidden"
 type = "hidden"
@@ -2997,7 +2997,7 @@ check = 807
 
 [hidden_r34_super_potion]
 original_item = "super_potion"
-label = "Route 34 - Hidden Item in Corner By Youngster"
+label = "Route 34 - Hidden Item in Corner by Youngster"
 id = 8
 table = "hidden"
 type = "hidden"
@@ -3229,7 +3229,7 @@ check = 821
 
 [hidden_d18r0102_antidote]
 original_item = "antidote"
-label = "Burned Tower B1F - Hidden Item By Northwest Pillar"
+label = "Burned Tower B1F - Hidden Item by Northwest Pillar"
 id = 65
 table = "hidden"
 type = "hidden"
@@ -3389,7 +3389,7 @@ check = 893
 
 [hidden_d03r0101_rare_candy]
 original_item = "rare_candy"
-label = "Cerulean Cave 1F - Hidden Item By Southeast Crystal"
+label = "Cerulean Cave 1F - Hidden Item by Southeast Crystal"
 id = 94
 table = "hidden"
 type = "hidden"
@@ -3397,7 +3397,7 @@ check = 894
 
 [hidden_d03r0101_revive]
 original_item = "revive"
-label = "Cerulean Cave 1F - Hidden Item By Central Crystal"
+label = "Cerulean Cave 1F - Hidden Item by Central Crystal"
 id = 95
 table = "hidden"
 type = "hidden"
@@ -3677,7 +3677,7 @@ check = 1010
 
 [hidden_d32r0102_rare_candy]
 original_item = "rare_candy"
-label = "Frontier Access - Hidden Item By Trees"
+label = "Frontier Access - Hidden Item by Trees"
 id = 161
 table = "hidden"
 type = "hidden"
@@ -3821,7 +3821,7 @@ check = 840
 
 [hidden_d50r0101_ultra_ball]
 original_item = "ultra_ball"
-label = "Cliff Cave 3F - Hidden Item By Exit"
+label = "Cliff Cave 3F - Hidden Item by Exit"
 id = 226
 table = "hidden"
 type = "hidden"
@@ -3869,7 +3869,7 @@ check = 931
 
 [hidden_d17r0108_carbos]
 original_item = "carbos"
-label = "Bell Tower 8F - Hidden Item By Northeast Statue"
+label = "Bell Tower 8F - Hidden Item by Northeast Statue"
 id = 64
 table = "hidden"
 type = "hidden"
