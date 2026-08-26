@@ -4176,7 +4176,7 @@ original_item = "rising_badge"
 id = 38
 table = "base"
 type = "badge"
-label = "Dragon's Den - Badge from Clair"
+label = "Dragon's Den Shrine - Badge from Clair"
 check = 234
 
 [dragons_den_tm59]
