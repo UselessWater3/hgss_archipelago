@@ -1117,7 +1117,7 @@ check = 1181
 
 [overworld_d38r0102_full_incense]
 original_item = "full_incense"
-label = "Mt. Mortar 1F Back - Item On East Side Behind Rock Climb"
+label = "Mt. Mortar 1F Back - Item on East Side Behind Rock Climb"
 id = 120
 table = "overworld"
 type = "overworld"
@@ -2053,7 +2053,7 @@ check = 981
 
 [hidden_r27_big_mushroom]
 original_item = "big_mushroom"
-label = "Route 27 - Hidden Item On Ledge By East Bridges"
+label = "Route 27 - Hidden Item on Ledge By East Bridges"
 id = 182
 table = "hidden"
 type = "hidden"
@@ -2149,7 +2149,7 @@ check = 817
 
 [hidden_d42r0101_elixir]
 original_item = "elixir"
-label = "Dark Cave (North Side) - Hidden Item On Hill Above North of Water"
+label = "Dark Cave (North Side) - Hidden Item on Hill Above North of Water"
 id = 18
 table = "hidden"
 type = "hidden"
@@ -3613,7 +3613,7 @@ check = 896
 
 [hidden_d03r0102_pp_up]
 original_item = "pp_up"
-label = "Cerulean Cave 2F - Southeast Hidden Item On Crystal in Open Area"
+label = "Cerulean Cave 2F - Southeast Hidden Item on Crystal in Open Area"
 id = 117
 table = "hidden"
 type = "hidden"
@@ -4715,7 +4715,7 @@ check = 206
 
 [r05r0202_tm64]
 original_item = "tm64"
-label = "Underground Path - Gift from Man For RageCandyBar"
+label = "Underground Path - Gift from Man for RageCandyBar"
 id = 102
 table = "base"
 type = "npc_gift"
@@ -5374,7 +5374,7 @@ check = 308
 
 [saffron_silph_co_hq_upgrade]
 original_item = "upgrade"
-label = "Saffron Silph Co. HQ - Item from Security Guard"
+label = "Saffron Silph Co. - Item from Security Guard"
 id = 171
 table = "base"
 type = "npc_gift"
