@@ -333,7 +333,7 @@ check = 1233
 
 [overworld_d44r0102_dragon_fang]
 original_item = "dragon_fang"
-label = "Dragon’s Den - Item Up Southeast Stairs"
+label = "Dragon's Den - Item Up Southeast Stairs"
 id = 159
 table = "overworld"
 type = "overworld"
@@ -341,7 +341,7 @@ check = 1112
 
 [overworld_d44r0102_calcium]
 original_item = "calcium"
-label = "Dragon’s Den - Item in Northeast Corner"
+label = "Dragon's Den - Item in Northeast Corner"
 id = 157
 table = "overworld"
 type = "overworld"
@@ -349,7 +349,7 @@ check = 1210
 
 [overworld_d44r0102_max_elixir]
 original_item = "max_elixir"
-label = "Dragon’s Den - Item By Twins"
+label = "Dragon's Den - Item By Twins"
 id = 158
 table = "overworld"
 type = "overworld"
@@ -741,7 +741,7 @@ check = 1238
 
 [overworld_d01r0101_pp_max]
 original_item = "pp_max"
-label = "Diglett’s Cave - Item on Rock Climb Hill Below Bridges"
+label = "Diglett's Cave - Item on Rock Climb Hill Below Bridges"
 id = 189
 table = "overworld"
 type = "overworld"
@@ -749,7 +749,7 @@ check = 1297
 
 [overworld_d01r0101_rock_incense]
 original_item = "rock_incense"
-label = "Diglett’s Cave - Item Across Bridge"
+label = "Diglett's Cave - Item Across Bridge"
 id = 190
 table = "overworld"
 type = "overworld"
@@ -1213,7 +1213,7 @@ check = 1274
 
 [overworld_d26r0102_super_potion]
 original_item = "super_potion"
-label = "SLOWPOKE Well B1F - Northeast Item"
+label = "Slowpoke Well B1F - Northeast Item"
 id = 41
 table = "overworld"
 type = "overworld"
@@ -1397,7 +1397,7 @@ check = 1094
 
 [overworld_d26r0103_tm18]
 original_item = "tm18"
-label = "SLOWPOKE Well B2F - Item on East Side"
+label = "Slowpoke Well B2F - Item on East Side"
 id = 42
 table = "overworld"
 type = "overworld"
@@ -2277,7 +2277,7 @@ check = 1001
 
 [hidden_d44r0102_revive]
 original_item = "revive"
-label = "Dragon’s Den - Hidden Item on Rock in Northwest Corner"
+label = "Dragon's Den - Hidden Item on Rock in Northwest Corner"
 id = 81
 table = "hidden"
 type = "hidden"
@@ -2285,7 +2285,7 @@ check = 881
 
 [hidden_d44r0102_max_elixir]
 original_item = "max_elixir"
-label = "Dragon’s Den - Hidden Item in Corner of Shrine"
+label = "Dragon's Den - Hidden Item in Corner of Shrine"
 id = 83
 table = "hidden"
 type = "hidden"
@@ -2293,7 +2293,7 @@ check = 883
 
 [hidden_d44r0102_max_potion]
 original_item = "max_potion"
-label = "Dragon’s Den - Hidden Item on West Rock Near Ace Trainer"
+label = "Dragon's Den - Hidden Item on West Rock Near Ace Trainer"
 id = 82
 table = "hidden"
 type = "hidden"
@@ -2597,7 +2597,7 @@ check = 1020
 
 [hidden_d01r0101_max_revive]
 original_item = "max_revive"
-label = "Diglett’s Cave - Hidden Item on Rock in Corner"
+label = "Diglett's Cave - Hidden Item on Rock in Corner"
 id = 56
 table = "hidden"
 type = "hidden"
@@ -2605,7 +2605,7 @@ check = 856
 
 [hidden_d01r0101_calcium]
 original_item = "calcium"
-label = "Diglett’s Cave - Hidden Item on Rock Climb Hill Between Bridges"
+label = "Diglett's Cave - Hidden Item on Rock Climb Hill Between Bridges"
 id = 224
 table = "hidden"
 type = "hidden"
@@ -2829,7 +2829,7 @@ check = 819
 
 [hidden_d26r0101_great_ball]
 original_item = "great_ball"
-label = "SLOWPOKE Well Entrance - Hidden Item in Pond"
+label = "Slowpoke Well Entrance - Hidden Item in Pond"
 id = 27
 table = "hidden"
 type = "hidden"
@@ -3005,7 +3005,7 @@ check = 808
 
 [hidden_d26r0102_super_potion]
 original_item = "super_potion"
-label = "SLOWPOKE Well B1F - Hidden Item in East Divot"
+label = "Slowpoke Well B1F - Hidden Item in East Divot"
 id = 28
 table = "hidden"
 type = "hidden"
@@ -3013,7 +3013,7 @@ check = 828
 
 [hidden_d26r0102_full_heal]
 original_item = "full_heal"
-label = "SLOWPOKE Well B1F - Hidden Item on East Hill"
+label = "Slowpoke Well B1F - Hidden Item on East Hill"
 id = 29
 table = "hidden"
 type = "hidden"
@@ -4176,7 +4176,7 @@ original_item = "rising_badge"
 id = 38
 table = "base"
 type = "badge"
-label = "Dragon's Den Shrine - Badge from Clair"
+label = "Dragon's Den - Badge from Clair"
 check = 234
 
 [dragons_den_tm59]
@@ -4731,7 +4731,7 @@ check = 272
 
 [slowpoke_well_kings_rock]
 original_item = "kings_rock"
-label = "SLOWPOKE Well B2F - Gift from Super Nerd"
+label = "Slowpoke Well B2F - Gift from Super Nerd"
 id = 104
 table = "base"
 type = "npc_gift"
