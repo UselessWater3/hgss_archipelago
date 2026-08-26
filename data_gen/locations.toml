@@ -5398,7 +5398,7 @@ check = 0x89
 
 [mahogany_ragecandybar]
 original_item = "ragecandybar"
-label = "Mahogany Town - RageCandyBar"
+label = "Mahogany Town - RageCandyBar from RageCandyBar Salesman"
 id = 174
 table = "base"
 type = "key_item"
