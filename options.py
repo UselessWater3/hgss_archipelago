@@ -48,7 +48,7 @@ class RandomizeHms(DefaultOnToggle):
 
     The expectation is that this will be enabled. If not, depending on
     other options—particularly barricades—certain locations may be inaccessible,
-    or certain seeds uncompletable.
+    or certain seeds incompletable.
     """
     display_name = "Randomize HMs"
 
@@ -58,7 +58,7 @@ class RandomizeBadges(DefaultOnToggle):
 
     The expectation is that this will be enabled. If not, depending on
     other options—particularly barricades—certain locations may be inaccessible,
-    or certain seeds uncompletable.
+    or certain seeds incompletable.
     """
     display_name = "Randomize Badges"
 
@@ -778,7 +778,7 @@ class AddHMReader(Choice):
 
 class HMReaderMode(Choice):
     """
-    Mode for the HM Reader. The HM Reader is an item that letse you use field moves without teaching them.
+    Mode for the HM Reader. The HM Reader is an item that lets you use field moves without teaching them.
 
     Options:
     - req_mon: require a Pokemon in your party to which you can teach the move, in order for the HM reader to use it.
