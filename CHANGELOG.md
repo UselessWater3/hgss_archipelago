@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.5] - TBD
 ### Fixed
 * Removed holdovers from Platinum in some option descriptions.
+* Fixed `legendaries` blacklist shorthand not working.
 
 ## [0.0.4] - 2026-08-26
 ### Fixed
