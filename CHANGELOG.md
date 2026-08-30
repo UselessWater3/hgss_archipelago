@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 * Removed holdovers from Platinum in some option descriptions.
 * Fixed various minor typographical errors in some option descriptions.
+* Fixed description of `dexsanity_required` inaccurately describing the effect of the 'legendaries' keyword.
 * Requirement of using Cut to access Route 14 - Item from Woman in Grass Patch after Showing Chansey has been added.
 
 ## [0.0.4] - 2026-08-26
